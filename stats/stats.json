@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-02-27T16:44:43.663017Z",
+  "generated_at": "2026-02-27T17:03:43.495233Z",
   "period_days": 90,
-  "total_events": 99,
-  "unique_ips": 28,
+  "total_events": 108,
+  "unique_ips": 31,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 68,
-    "fortipot": 31
+    "centrestackpot": 71,
+    "fortipot": 37
   },
   "events_per_day": {
     "2026-02-27": {
-      "fortipot": 31,
-      "centrestackpot": 68,
-      "total": 99
+      "centrestackpot": 71,
+      "fortipot": 37,
+      "total": 108
     }
   },
   "top_credentials": [
@@ -37,7 +37,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 14
+      "count": 16
     },
     {
       "user_agent": "Go-http-client/1.1",
@@ -53,21 +53,21 @@
     }
   ],
   "method_counts": {
-    "GET": 88,
+    "GET": 93,
     "POST": 3,
-    "PROPFIND": 1,
+    "PROPFIND": 2,
     "OPTIONS": 1
   },
   "top_paths": [
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 25
+      "count": 26
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 7
+      "count": 9
     },
     {
       "path": "/portal/loginpage.aspx",
@@ -77,31 +77,26 @@
     {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
-      "count": 4
+      "count": 5
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "fortipot",
+      "count": 3
     },
     {
       "path": "/favicon.ico",
       "source": "centrestackpot",
       "count": 3
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "fortipot",
-      "count": 3
-    },
-    {
-      "path": "/remote/logincheck",
-      "source": "fortipot",
-      "count": 2
-    },
-    {
-      "path": "/css/main-blue.css",
-      "source": "fortipot",
-      "count": 2
     },
     {
       "path": "/portal/WebResource.axd",
       "source": "centrestackpot",
+      "count": 2
+    },
+    {
+      "path": "/remote/logincheck",
+      "source": "fortipot",
       "count": 2
     },
     {
@@ -110,7 +105,7 @@
       "count": 2
     },
     {
-      "path": "/fonts/lato-regular.woff2",
+      "path": "/css/main-blue.css",
       "source": "fortipot",
       "count": 2
     },
@@ -125,37 +120,42 @@
       "count": 2
     },
     {
-      "path": "/storage/fonts/material-icons.css",
+      "path": "/fonts/lato-regular.woff2",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/SDK/webLanguage",
+      "source": "fortipot",
+      "count": 1
+    },
+    {
+      "path": "/portal/css/css-steel.css",
       "source": "centrestackpot",
       "count": 1
     },
     {
-      "path": "/odinhttpcall1772206154",
+      "path": "/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd",
+      "source": "centrestackpot",
+      "count": 1
+    },
+    {
+      "path": "/solr/admin/info/system",
+      "source": "centrestackpot",
+      "count": 1
+    },
+    {
+      "path": "/management/bootstrap4/extern/jquery.slim.min.js",
+      "source": "centrestackpot",
+      "count": 1
+    },
+    {
+      "path": "/management/bootstrap4/extern/popper.js",
       "source": "centrestackpot",
       "count": 1
     },
     {
       "path": "/management/images/partnerbg.jpg",
-      "source": "centrestackpot",
-      "count": 1
-    },
-    {
-      "path": "/evox/about",
-      "source": "centrestackpot",
-      "count": 1
-    },
-    {
-      "path": "/app.config",
-      "source": "centrestackpot",
-      "count": 1
-    },
-    {
-      "path": "/owa/auth/logon.aspx",
-      "source": "fortipot",
-      "count": 1
-    },
-    {
-      "path": "/storage/fonts/roboto.css",
       "source": "centrestackpot",
       "count": 1
     }
@@ -195,18 +195,18 @@
       "event_count": 19
     },
     {
+      "asn": "AS51396",
+      "name": "Pfcloud UG",
+      "country": "NL",
+      "ip_count": 4,
+      "event_count": 14
+    },
+    {
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "TW",
       "ip_count": 2,
       "event_count": 12
-    },
-    {
-      "asn": "AS51396",
-      "name": "Pfcloud UG",
-      "country": "NL",
-      "ip_count": 4,
-      "event_count": 11
     },
     {
       "asn": "AS215125",
@@ -226,8 +226,8 @@
       "asn": "AS206264",
       "name": "Amarutu Technology Ltd",
       "country": "NL",
-      "ip_count": 2,
-      "event_count": 5
+      "ip_count": 3,
+      "event_count": 7
     },
     {
       "asn": "AS132203",
@@ -256,6 +256,13 @@
       "country": "US",
       "ip_count": 2,
       "event_count": 2
+    },
+    {
+      "asn": "AS48090",
+      "name": "TECHOFF SRV LIMITED",
+      "country": "AD",
+      "ip_count": 1,
+      "event_count": 1
     },
     {
       "asn": "AS50304",
