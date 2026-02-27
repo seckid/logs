@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-02-27T15:59:40.131255Z",
+  "generated_at": "2026-02-27T16:03:19.612869Z",
   "period_days": 90,
-  "total_events": 61,
-  "unique_ips": 20,
+  "total_events": 66,
+  "unique_ips": 23,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 37,
-    "fortipot": 24
+    "centrestackpot": 39,
+    "fortipot": 27
   },
   "events_per_day": {
     "2026-02-27": {
-      "fortipot": 24,
-      "centrestackpot": 37,
-      "total": 61
+      "fortipot": 27,
+      "centrestackpot": 39,
+      "total": 66
     }
   },
   "top_credentials": [
@@ -53,25 +53,26 @@
     }
   ],
   "method_counts": {
-    "GET": 53,
+    "GET": 57,
     "POST": 3,
+    "PROPFIND": 1,
     "OPTIONS": 1
   },
   "top_paths": [
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 18
+      "count": 19
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 5
+      "count": 7
     },
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot",
-      "count": 4
+      "count": 5
     },
     {
       "path": "/favicon.ico",
@@ -124,6 +125,11 @@
       "count": 1
     },
     {
+      "path": "/v2/_catalog",
+      "source": "centrestackpot",
+      "count": 1
+    },
+    {
       "path": "/app.config",
       "source": "centrestackpot",
       "count": 1
@@ -144,17 +150,12 @@
       "count": 1
     },
     {
-      "path": "/v2/_catalog",
-      "source": "centrestackpot",
+      "path": "/owa/auth/logon.aspx",
+      "source": "fortipot",
       "count": 1
     },
     {
       "path": "/query",
-      "source": "centrestackpot",
-      "count": 1
-    },
-    {
-      "path": "/web.config",
       "source": "centrestackpot",
       "count": 1
     }
@@ -193,14 +194,21 @@
       "asn": "AS51396",
       "name": "Pfcloud UG",
       "country": "NL",
-      "ip_count": 2,
-      "event_count": 5
+      "ip_count": 3,
+      "event_count": 7
     },
     {
       "asn": "AS132203",
       "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "BR",
-      "ip_count": 1,
+      "country": "HK",
+      "ip_count": 2,
+      "event_count": 4
+    },
+    {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "ip_count": 2,
       "event_count": 2
     },
     {
@@ -221,13 +229,6 @@
       "asn": "AS215925",
       "name": "VPSVAULT.HOST LTD",
       "country": "CA",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
       "ip_count": 1,
       "event_count": 1
     },
