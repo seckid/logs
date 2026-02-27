@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-02-27T21:04:21.475661Z",
+  "generated_at": "2026-02-27T22:01:21.485964Z",
   "period_days": 90,
-  "total_events": 193,
-  "unique_ips": 56,
+  "total_events": 210,
+  "unique_ips": 59,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 138,
-    "fortipot": 55
+    "centrestackpot": 147,
+    "fortipot": 63
   },
   "events_per_day": {
     "2026-02-27": {
-      "centrestackpot": 138,
-      "fortipot": 55,
-      "total": 193
+      "centrestackpot": 147,
+      "fortipot": 63,
+      "total": 210
     }
   },
   "top_credentials": [
@@ -32,30 +32,30 @@
   ],
   "top_user_agents": [
     {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
+      "count": 45
+    },
+    {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0",
       "count": 38
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 37
-    },
-    {
       "user_agent": "Mozilla/5.0",
-      "count": 23
-    },
-    {
-      "user_agent": "Go-http-client/1.1",
-      "count": 8
+      "count": 24
     },
     {
       "user_agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
       "count": 8
+    },
+    {
+      "user_agent": "Go-http-client/1.1",
+      "count": 8
     }
   ],
   "method_counts": {
-    "GET": 168,
-    "POST": 6,
-    "PROPFIND": 5,
+    "GET": 182,
+    "POST": 7,
+    "PROPFIND": 6,
     "PRI": 1,
     "OPTIONS": 1
   },
@@ -63,12 +63,12 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 64
+      "count": 71
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 21
+      "count": 26
     },
     {
       "path": "/portal/loginpage.aspx",
@@ -78,7 +78,7 @@
     {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
-      "count": 10
+      "count": 12
     },
     {
       "path": "/favicon.ico",
@@ -111,12 +111,17 @@
       "count": 2
     },
     {
-      "path": "/fonts/ftnt-icons.woff",
+      "path": "/SDK/webLanguage",
       "source": "fortipot",
       "count": 2
     },
     {
       "path": "/remote/logincheck",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/fonts/ftnt-icons.woff",
       "source": "fortipot",
       "count": 2
     },
@@ -131,21 +136,6 @@
       "count": 2
     },
     {
-      "path": "/SDK/webLanguage",
-      "source": "fortipot",
-      "count": 2
-    },
-    {
-      "path": "/query",
-      "source": "centrestackpot",
-      "count": 1
-    },
-    {
-      "path": "/cgi-bin/authLogin.cgi",
-      "source": "centrestackpot",
-      "count": 1
-    },
-    {
       "path": "/management/bootstrap4/js/bootstrap-material-design.js",
       "source": "centrestackpot",
       "count": 1
@@ -156,7 +146,17 @@
       "count": 1
     },
     {
-      "path": "/storage/fonts/material-icons.css",
+      "path": "/robots.txt",
+      "source": "fortipot",
+      "count": 1
+    },
+    {
+      "path": "/query",
+      "source": "centrestackpot",
+      "count": 1
+    },
+    {
+      "path": "/storage/fonts/roboto-v15-latin-regular.woff2",
       "source": "centrestackpot",
       "count": 1
     }
@@ -186,7 +186,7 @@
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 43
+      "event_count": 48
     },
     {
       "asn": "AS210558",
@@ -207,7 +207,7 @@
       "name": "Amarutu Technology Ltd",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 14
+      "event_count": 16
     },
     {
       "asn": "AS396982",
@@ -224,6 +224,13 @@
       "event_count": 11
     },
     {
+      "asn": "AS208323",
+      "name": "Foundation for Applied Privacy",
+      "country": "AT",
+      "ip_count": 1,
+      "event_count": 8
+    },
+    {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
@@ -238,18 +245,18 @@
       "event_count": 8
     },
     {
-      "asn": "AS208323",
-      "name": "Foundation for Applied Privacy",
-      "country": "AT",
-      "ip_count": 1,
-      "event_count": 8
-    },
-    {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 7
+      "event_count": 8
+    },
+    {
+      "asn": "AS215925",
+      "name": "VPSVAULT.HOST LTD",
+      "country": "CA",
+      "ip_count": 1,
+      "event_count": 6
     },
     {
       "asn": "AS398324",
@@ -259,10 +266,10 @@
       "event_count": 6
     },
     {
-      "asn": "AS215925",
-      "name": "VPSVAULT.HOST LTD",
-      "country": "CA",
-      "ip_count": 1,
+      "asn": "AS132203",
+      "name": "Tencent Building, Kejizhongyi Avenue",
+      "country": "HK",
+      "ip_count": 2,
       "event_count": 4
     },
     {
@@ -273,11 +280,11 @@
       "event_count": 4
     },
     {
-      "asn": "AS132203",
-      "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "HK",
-      "ip_count": 2,
-      "event_count": 4
+      "asn": "AS202425",
+      "name": "IP Volume inc",
+      "country": "NL",
+      "ip_count": 3,
+      "event_count": 3
     },
     {
       "asn": "AS48090",
@@ -294,11 +301,11 @@
       "event_count": 3
     },
     {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 2,
-      "event_count": 2
+      "asn": "AS210259",
+      "name": "LLC APPLIED COMPUTATIONAL TECHNOLOGIES",
+      "country": "RU",
+      "ip_count": 1,
+      "event_count": 3
     },
     {
       "asn": "AS50304",
@@ -308,17 +315,10 @@
       "event_count": 2
     },
     {
-      "asn": "AS202425",
-      "name": "IP Volume inc",
-      "country": "NL",
-      "ip_count": 2,
-      "event_count": 2
-    },
-    {
-      "asn": "AS211680",
-      "name": "NSEC - Sistemas Informaticos, S.A.",
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 1,
+      "ip_count": 2,
       "event_count": 2
     }
   ]
