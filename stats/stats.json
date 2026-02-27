@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-02-27T18:04:21.445057Z",
+  "generated_at": "2026-02-27T19:03:13.950330Z",
   "period_days": 90,
-  "total_events": 128,
-  "unique_ips": 37,
+  "total_events": 160,
+  "unique_ips": 49,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 87,
-    "fortipot": 41
+    "centrestackpot": 109,
+    "fortipot": 51
   },
   "events_per_day": {
     "2026-02-27": {
-      "centrestackpot": 87,
-      "fortipot": 41,
-      "total": 128
+      "centrestackpot": 109,
+      "fortipot": 51,
+      "total": 160
     }
   },
   "top_credentials": [
@@ -37,15 +37,15 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 19
+      "count": 28
+    },
+    {
+      "user_agent": "Mozilla/5.0",
+      "count": 16
     },
     {
       "user_agent": "Go-http-client/1.1",
       "count": 8
-    },
-    {
-      "user_agent": "Mozilla/5.0",
-      "count": 7
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0",
@@ -53,41 +53,46 @@
     }
   ],
   "method_counts": {
-    "GET": 112,
-    "PROPFIND": 3,
-    "POST": 3,
+    "GET": 140,
+    "POST": 5,
+    "PROPFIND": 4,
     "OPTIONS": 1
   },
   "top_paths": [
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 33
+      "count": 47
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 13
+      "count": 18
     },
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot",
-      "count": 10
+      "count": 12
     },
     {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
-      "count": 6
+      "count": 8
     },
     {
       "path": "/favicon.ico",
       "source": "centrestackpot",
-      "count": 5
+      "count": 7
     },
     {
       "path": "/favicon.ico",
       "source": "fortipot",
-      "count": 3
+      "count": 4
+    },
+    {
+      "path": "/_profiler/phpinfo",
+      "source": "fortipot",
+      "count": 2
     },
     {
       "path": "/fonts/ftnt-icons.woff",
@@ -100,12 +105,17 @@
       "count": 2
     },
     {
+      "path": "/css/main-blue.css",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
       "path": "/fonts/lato-regular.woff2",
       "source": "fortipot",
       "count": 2
     },
     {
-      "path": "/css/main-blue.css",
+      "path": "/SDK/webLanguage",
       "source": "fortipot",
       "count": 2
     },
@@ -125,37 +135,27 @@
       "count": 2
     },
     {
-      "path": "/portal/css/css-steel.css",
-      "source": "centrestackpot",
-      "count": 1
-    },
-    {
-      "path": "/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd",
-      "source": "centrestackpot",
-      "count": 1
-    },
-    {
-      "path": "/SDK/webLanguage",
-      "source": "fortipot",
-      "count": 1
-    },
-    {
       "path": "/cgi-bin/authLogin.cgi",
       "source": "centrestackpot",
       "count": 1
     },
     {
-      "path": "/solr/admin/info/system",
+      "path": "/query",
       "source": "centrestackpot",
       "count": 1
     },
     {
-      "path": "/management/bootstrap4/extern/jquery.slim.min.js",
+      "path": "/storage/fonts/material-icons.css",
       "source": "centrestackpot",
       "count": 1
     },
     {
-      "path": "/management/bootstrap4/extern/popper.js",
+      "path": "/owa/auth/logon.aspx",
+      "source": "fortipot",
+      "count": 1
+    },
+    {
+      "path": "/app.config",
       "source": "centrestackpot",
       "count": 1
     }
@@ -181,6 +181,13 @@
   ],
   "top_asns": [
     {
+      "asn": "AS51396",
+      "name": "Pfcloud UG",
+      "country": "NL",
+      "ip_count": 5,
+      "event_count": 31
+    },
+    {
       "asn": "AS210558",
       "name": "1337 Services GmbH",
       "country": "PL",
@@ -195,11 +202,11 @@
       "event_count": 19
     },
     {
-      "asn": "AS51396",
-      "name": "Pfcloud UG",
+      "asn": "AS206264",
+      "name": "Amarutu Technology Ltd",
       "country": "NL",
-      "ip_count": 4,
-      "event_count": 18
+      "ip_count": 3,
+      "event_count": 12
     },
     {
       "asn": "AS396982",
@@ -207,6 +214,13 @@
       "country": "TW",
       "ip_count": 2,
       "event_count": 12
+    },
+    {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 9,
+      "event_count": 11
     },
     {
       "asn": "AS208323",
@@ -223,17 +237,17 @@
       "event_count": 8
     },
     {
-      "asn": "AS206264",
-      "name": "Amarutu Technology Ltd",
-      "country": "NL",
-      "ip_count": 3,
-      "event_count": 8
-    },
-    {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 2,
+      "event_count": 5
+    },
+    {
+      "asn": "AS201814",
+      "name": "MEVSPACE sp. z o.o.",
+      "country": "PL",
+      "ip_count": 1,
       "event_count": 5
     },
     {
@@ -251,16 +265,16 @@
       "event_count": 4
     },
     {
-      "asn": "AS201814",
-      "name": "MEVSPACE sp. z o.o.",
-      "country": "PL",
-      "ip_count": 1,
-      "event_count": 4
+      "asn": "AS48090",
+      "name": "TECHOFF SRV LIMITED",
+      "country": "NL",
+      "ip_count": 2,
+      "event_count": 3
     },
     {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
+      "asn": "AS215925",
+      "name": "VPSVAULT.HOST LTD",
+      "country": "CA",
       "ip_count": 1,
       "event_count": 3
     },
@@ -279,6 +293,13 @@
       "event_count": 2
     },
     {
+      "asn": "AS202425",
+      "name": "IP Volume inc",
+      "country": "NL",
+      "ip_count": 2,
+      "event_count": 2
+    },
+    {
       "asn": "AS211680",
       "name": "NSEC - Sistemas Informaticos, S.A.",
       "country": "US",
@@ -293,23 +314,9 @@
       "event_count": 1
     },
     {
-      "asn": "AS202425",
-      "name": "IP Volume inc",
-      "country": "NL",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS48090",
-      "name": "TECHOFF SRV LIMITED",
-      "country": "AD",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS215925",
-      "name": "VPSVAULT.HOST LTD",
-      "country": "CA",
+      "asn": "AS50360",
+      "name": "Tamatiya EOOD",
+      "country": "BG",
       "ip_count": 1,
       "event_count": 1
     }
