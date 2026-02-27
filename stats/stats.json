@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-02-27T16:14:49.450432Z",
+  "generated_at": "2026-02-27T16:18:45.853919Z",
   "period_days": 90,
-  "total_events": 67,
-  "unique_ips": 24,
+  "total_events": 90,
+  "unique_ips": 26,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 39,
+    "centrestackpot": 62,
     "fortipot": 28
   },
   "events_per_day": {
     "2026-02-27": {
       "fortipot": 28,
-      "centrestackpot": 39,
-      "total": 67
+      "centrestackpot": 62,
+      "total": 90
     }
   },
   "top_credentials": [
@@ -33,11 +33,11 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0",
-      "count": 16
+      "count": 37
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 8
+      "count": 9
     },
     {
       "user_agent": "Go-http-client/1.1",
@@ -53,7 +53,7 @@
     }
   ],
   "method_counts": {
-    "GET": 58,
+    "GET": 81,
     "POST": 3,
     "PROPFIND": 1,
     "OPTIONS": 1
@@ -62,7 +62,7 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 19
+      "count": 22
     },
     {
       "path": "/",
@@ -72,7 +72,7 @@
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot",
-      "count": 5
+      "count": 6
     },
     {
       "path": "/favicon.ico",
@@ -80,12 +80,27 @@
       "count": 3
     },
     {
-      "path": "/fonts/lato-regular.woff2",
+      "path": "/fonts/ftnt-icons.woff",
       "source": "fortipot",
       "count": 2
     },
     {
-      "path": "/fonts/ftnt-icons.woff",
+      "path": "/remote/logincheck",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/sslvpn/js/login.js?q=507e35a9d9c89c8817a0723ad6dcfe36",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/remote/fgt_lang?lang=en",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/fonts/lato-regular.woff2",
       "source": "fortipot",
       "count": 2
     },
@@ -100,28 +115,28 @@
       "count": 2
     },
     {
-      "path": "/sslvpn/js/login.js?q=507e35a9d9c89c8817a0723ad6dcfe36",
-      "source": "fortipot",
-      "count": 2
-    },
-    {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
       "count": 2
     },
     {
-      "path": "/remote/fgt_lang?lang=en",
-      "source": "fortipot",
-      "count": 2
-    },
-    {
-      "path": "/remote/logincheck",
-      "source": "fortipot",
-      "count": 2
-    },
-    {
-      "path": "/evox/about",
+      "path": "/portal/WebResource.axd",
       "source": "centrestackpot",
+      "count": 2
+    },
+    {
+      "path": "/portal/css/css.css",
+      "source": "centrestackpot",
+      "count": 1
+    },
+    {
+      "path": "/storage/fonts/roboto.css",
+      "source": "centrestackpot",
+      "count": 1
+    },
+    {
+      "path": "/owa/auth/logon.aspx",
+      "source": "fortipot",
       "count": 1
     },
     {
@@ -130,38 +145,30 @@
       "count": 1
     },
     {
-      "path": "/HNAP1",
+      "path": "/evox/about",
       "source": "centrestackpot",
       "count": 1
     },
     {
-      "path": "/.env",
-      "source": "fortipot",
-      "count": 1
-    },
-    {
-      "path": "/v2/_catalog",
+      "path": "/storage/fonts/material-icons.css",
       "source": "centrestackpot",
       "count": 1
     },
     {
-      "path": "/cgi-bin/authLogin.cgi",
-      "source": "centrestackpot",
-      "count": 1
-    },
-    {
-      "path": "/sdk",
-      "source": "centrestackpot",
-      "count": 1
-    },
-    {
-      "path": "/odinhttpcall1772206154",
+      "path": "/portal/images/usergray.png",
       "source": "centrestackpot",
       "count": 1
     }
   ],
   "cve_attempts": [],
   "top_asns": [
+    {
+      "asn": "AS210558",
+      "name": "1337 Services GmbH",
+      "country": "PL",
+      "ip_count": 1,
+      "event_count": 21
+    },
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
@@ -177,6 +184,13 @@
       "event_count": 12
     },
     {
+      "asn": "AS51396",
+      "name": "Pfcloud UG",
+      "country": "NL",
+      "ip_count": 4,
+      "event_count": 9
+    },
+    {
       "asn": "AS208323",
       "name": "Foundation for Applied Privacy",
       "country": "AT",
@@ -189,13 +203,6 @@
       "country": "NL",
       "ip_count": 1,
       "event_count": 8
-    },
-    {
-      "asn": "AS51396",
-      "name": "Pfcloud UG",
-      "country": "NL",
-      "ip_count": 3,
-      "event_count": 7
     },
     {
       "asn": "AS132203",
