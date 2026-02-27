@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-02-27T20:01:21.442899Z",
+  "generated_at": "2026-02-27T21:04:21.475661Z",
   "period_days": 90,
-  "total_events": 180,
-  "unique_ips": 52,
+  "total_events": 193,
+  "unique_ips": 56,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 128,
-    "fortipot": 52
+    "centrestackpot": 138,
+    "fortipot": 55
   },
   "events_per_day": {
     "2026-02-27": {
-      "centrestackpot": 128,
-      "fortipot": 52,
-      "total": 180
+      "centrestackpot": 138,
+      "fortipot": 55,
+      "total": 193
     }
   },
   "top_credentials": [
@@ -37,11 +37,11 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 34
+      "count": 37
     },
     {
       "user_agent": "Mozilla/5.0",
-      "count": 20
+      "count": 23
     },
     {
       "user_agent": "Go-http-client/1.1",
@@ -53,9 +53,9 @@
     }
   ],
   "method_counts": {
-    "GET": 157,
+    "GET": 168,
     "POST": 6,
-    "PROPFIND": 4,
+    "PROPFIND": 5,
     "PRI": 1,
     "OPTIONS": 1
   },
@@ -63,17 +63,17 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 56
+      "count": 64
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 19
+      "count": 21
     },
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot",
-      "count": 16
+      "count": 17
     },
     {
       "path": "/SDK/webLanguage",
@@ -91,22 +91,12 @@
       "count": 4
     },
     {
-      "path": "/SDK/webLanguage",
-      "source": "fortipot",
-      "count": 2
-    },
-    {
-      "path": "/_profiler/phpinfo",
-      "source": "fortipot",
-      "count": 2
-    },
-    {
       "path": "/css/main-blue.css",
       "source": "fortipot",
       "count": 2
     },
     {
-      "path": "/fonts/ftnt-icons.woff",
+      "path": "/_profiler/phpinfo",
       "source": "fortipot",
       "count": 2
     },
@@ -117,6 +107,11 @@
     },
     {
       "path": "/remote/fgt_lang?lang=en",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/fonts/ftnt-icons.woff",
       "source": "fortipot",
       "count": 2
     },
@@ -136,27 +131,32 @@
       "count": 2
     },
     {
-      "path": "/robots.txt",
+      "path": "/SDK/webLanguage",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/query",
       "source": "centrestackpot",
       "count": 1
     },
     {
-      "path": "/management/bootstrap4/extern/jquery.slim.min.js",
+      "path": "/cgi-bin/authLogin.cgi",
       "source": "centrestackpot",
       "count": 1
     },
     {
-      "path": "/bin/",
+      "path": "/management/bootstrap4/js/bootstrap-material-design.js",
       "source": "centrestackpot",
       "count": 1
     },
     {
-      "path": "/evox/about",
+      "path": "/portal/images/lockgray.png",
       "source": "centrestackpot",
       "count": 1
     },
     {
-      "path": "/app.config",
+      "path": "/storage/fonts/material-icons.css",
       "source": "centrestackpot",
       "count": 1
     }
@@ -186,7 +186,7 @@
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 38
+      "event_count": 43
     },
     {
       "asn": "AS210558",
@@ -212,9 +212,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
-      "ip_count": 2,
-      "event_count": 12
+      "country": "BE",
+      "ip_count": 3,
+      "event_count": 13
     },
     {
       "asn": "AS14618",
@@ -224,10 +224,10 @@
       "event_count": 11
     },
     {
-      "asn": "AS208323",
-      "name": "Foundation for Applied Privacy",
-      "country": "AT",
-      "ip_count": 1,
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 3,
       "event_count": 8
     },
     {
@@ -238,6 +238,20 @@
       "event_count": 8
     },
     {
+      "asn": "AS208323",
+      "name": "Foundation for Applied Privacy",
+      "country": "AT",
+      "ip_count": 1,
+      "event_count": 8
+    },
+    {
+      "asn": "AS201814",
+      "name": "MEVSPACE sp. z o.o.",
+      "country": "PL",
+      "ip_count": 1,
+      "event_count": 7
+    },
+    {
       "asn": "AS398324",
       "name": "Censys, Inc.",
       "country": "US",
@@ -245,24 +259,10 @@
       "event_count": 6
     },
     {
-      "asn": "AS201814",
-      "name": "MEVSPACE sp. z o.o.",
-      "country": "PL",
+      "asn": "AS215925",
+      "name": "VPSVAULT.HOST LTD",
+      "country": "CA",
       "ip_count": 1,
-      "event_count": 6
-    },
-    {
-      "asn": "AS16509",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 2,
-      "event_count": 5
-    },
-    {
-      "asn": "AS132203",
-      "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "HK",
-      "ip_count": 2,
       "event_count": 4
     },
     {
@@ -273,10 +273,10 @@
       "event_count": 4
     },
     {
-      "asn": "AS215925",
-      "name": "VPSVAULT.HOST LTD",
-      "country": "CA",
-      "ip_count": 1,
+      "asn": "AS132203",
+      "name": "Tencent Building, Kejizhongyi Avenue",
+      "country": "HK",
+      "ip_count": 2,
       "event_count": 4
     },
     {
@@ -287,16 +287,23 @@
       "event_count": 3
     },
     {
-      "asn": "AS50304",
-      "name": "Blix Solutions AS",
-      "country": "NO",
-      "ip_count": 2,
-      "event_count": 2
+      "asn": "AS50360",
+      "name": "Tamatiya EOOD",
+      "country": "BG",
+      "ip_count": 1,
+      "event_count": 3
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
+      "ip_count": 2,
+      "event_count": 2
+    },
+    {
+      "asn": "AS50304",
+      "name": "Blix Solutions AS",
+      "country": "NO",
       "ip_count": 2,
       "event_count": 2
     },
@@ -311,13 +318,6 @@
       "asn": "AS211680",
       "name": "NSEC - Sistemas Informaticos, S.A.",
       "country": "US",
-      "ip_count": 1,
-      "event_count": 2
-    },
-    {
-      "asn": "AS50360",
-      "name": "Tamatiya EOOD",
-      "country": "BG",
       "ip_count": 1,
       "event_count": 2
     }
