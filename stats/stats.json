@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-02-27T22:01:21.485964Z",
+  "generated_at": "2026-02-27T23:03:43.548775Z",
   "period_days": 90,
-  "total_events": 210,
-  "unique_ips": 59,
+  "total_events": 319,
+  "unique_ips": 62,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 147,
-    "fortipot": 63
+    "centrestackpot": 157,
+    "fortipot": 162
   },
   "events_per_day": {
     "2026-02-27": {
-      "centrestackpot": 147,
-      "fortipot": 63,
-      "total": 210
+      "centrestackpot": 157,
+      "fortipot": 162,
+      "total": 319
     }
   },
   "top_credentials": [
@@ -33,27 +33,27 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 45
+      "count": 49
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0",
       "count": 38
     },
     {
-      "user_agent": "Mozilla/5.0",
-      "count": 24
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0",
+      "count": 34
     },
     {
-      "user_agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
-      "count": 8
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Firefox/121.0",
+      "count": 33
     },
     {
-      "user_agent": "Go-http-client/1.1",
-      "count": 8
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0",
+      "count": 32
     }
   ],
   "method_counts": {
-    "GET": 182,
+    "GET": 289,
     "POST": 7,
     "PROPFIND": 6,
     "PRI": 1,
@@ -63,7 +63,7 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 71
+      "count": 75
     },
     {
       "path": "/",
@@ -78,7 +78,7 @@
     {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
-      "count": 12
+      "count": 13
     },
     {
       "path": "/favicon.ico",
@@ -96,7 +96,17 @@
       "count": 2
     },
     {
-      "path": "/_profiler/phpinfo",
+      "path": "/.env",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/.env",
+      "source": "centrestackpot",
+      "count": 2
+    },
+    {
+      "path": "/sslvpn/js/login.js?q=507e35a9d9c89c8817a0723ad6dcfe36",
       "source": "fortipot",
       "count": 2
     },
@@ -106,12 +116,32 @@
       "count": 2
     },
     {
+      "path": "/.git/config",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/_profiler/phpinfo",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/etc/machine-id",
+      "source": "centrestackpot",
+      "count": 2
+    },
+    {
+      "path": "/SDK/webLanguage",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
       "path": "/remote/fgt_lang?lang=en",
       "source": "fortipot",
       "count": 2
     },
     {
-      "path": "/SDK/webLanguage",
+      "path": "/fonts/lato-regular.woff2",
       "source": "fortipot",
       "count": 2
     },
@@ -126,38 +156,8 @@
       "count": 2
     },
     {
-      "path": "/sslvpn/js/login.js?q=507e35a9d9c89c8817a0723ad6dcfe36",
+      "path": "/config.json",
       "source": "fortipot",
-      "count": 2
-    },
-    {
-      "path": "/fonts/lato-regular.woff2",
-      "source": "fortipot",
-      "count": 2
-    },
-    {
-      "path": "/management/bootstrap4/js/bootstrap-material-design.js",
-      "source": "centrestackpot",
-      "count": 1
-    },
-    {
-      "path": "/portal/images/lockgray.png",
-      "source": "centrestackpot",
-      "count": 1
-    },
-    {
-      "path": "/robots.txt",
-      "source": "fortipot",
-      "count": 1
-    },
-    {
-      "path": "/query",
-      "source": "centrestackpot",
-      "count": 1
-    },
-    {
-      "path": "/storage/fonts/roboto-v15-latin-regular.woff2",
-      "source": "centrestackpot",
       "count": 1
     }
   ],
@@ -182,11 +182,18 @@
   ],
   "top_asns": [
     {
+      "asn": "AS396982",
+      "name": "Google LLC",
+      "country": "BE",
+      "ip_count": 5,
+      "event_count": 113
+    },
+    {
       "asn": "AS51396",
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 48
+      "event_count": 50
     },
     {
       "asn": "AS210558",
@@ -196,25 +203,18 @@
       "event_count": 22
     },
     {
+      "asn": "AS206264",
+      "name": "Amarutu Technology Ltd",
+      "country": "NL",
+      "ip_count": 3,
+      "event_count": 19
+    },
+    {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "DE",
       "ip_count": 8,
       "event_count": 19
-    },
-    {
-      "asn": "AS206264",
-      "name": "Amarutu Technology Ltd",
-      "country": "NL",
-      "ip_count": 3,
-      "event_count": 16
-    },
-    {
-      "asn": "AS396982",
-      "name": "Google LLC",
-      "country": "BE",
-      "ip_count": 3,
-      "event_count": 13
     },
     {
       "asn": "AS14618",
@@ -224,17 +224,24 @@
       "event_count": 11
     },
     {
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 4,
+      "event_count": 10
+    },
+    {
+      "asn": "AS201814",
+      "name": "MEVSPACE sp. z o.o.",
+      "country": "PL",
+      "ip_count": 1,
+      "event_count": 9
+    },
+    {
       "asn": "AS208323",
       "name": "Foundation for Applied Privacy",
       "country": "AT",
       "ip_count": 1,
-      "event_count": 8
-    },
-    {
-      "asn": "AS16509",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 3,
       "event_count": 8
     },
     {
@@ -245,18 +252,11 @@
       "event_count": 8
     },
     {
-      "asn": "AS201814",
-      "name": "MEVSPACE sp. z o.o.",
-      "country": "PL",
-      "ip_count": 1,
-      "event_count": 8
-    },
-    {
       "asn": "AS215925",
       "name": "VPSVAULT.HOST LTD",
       "country": "CA",
       "ip_count": 1,
-      "event_count": 6
+      "event_count": 7
     },
     {
       "asn": "AS398324",
