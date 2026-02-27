@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-02-27T16:39:36.476908Z",
+  "generated_at": "2026-02-27T16:44:31.636075Z",
   "period_days": 90,
-  "total_events": 96,
+  "total_events": 99,
   "unique_ips": 28,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 65,
+    "centrestackpot": 68,
     "fortipot": 31
   },
   "events_per_day": {
     "2026-02-27": {
       "fortipot": 31,
-      "centrestackpot": 65,
-      "total": 96
+      "centrestackpot": 68,
+      "total": 99
     }
   },
   "top_credentials": [
@@ -37,7 +37,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 12
+      "count": 14
     },
     {
       "user_agent": "Go-http-client/1.1",
@@ -53,7 +53,7 @@
     }
   ],
   "method_counts": {
-    "GET": 85,
+    "GET": 88,
     "POST": 3,
     "PROPFIND": 1,
     "OPTIONS": 1
@@ -62,7 +62,7 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 23
+      "count": 25
     },
     {
       "path": "/",
@@ -77,16 +77,16 @@
     {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
+      "count": 4
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "centrestackpot",
       "count": 3
     },
     {
       "path": "/favicon.ico",
       "source": "fortipot",
-      "count": 3
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "centrestackpot",
       "count": 3
     },
     {
@@ -166,6 +166,16 @@
       "count": 2,
       "sources": [
         "fortipot"
+      ],
+      "description": "Improper limitation of a pathname in FortiOS SSL VPN web portal allows an unauthenticated attacker to download system files via specially crafted HTTP requests, exposing credentials.",
+      "severity": "Critical",
+      "cvss_score": 9.8,
+      "sample_ips": [
+        "109.70.100.8",
+        "192.42.116.17"
+      ],
+      "sample_paths": [
+        "/sslvpn/js/login.js?q=507e35a9d9c89c8817a0723ad6dcfe36"
       ]
     }
   ],
@@ -196,7 +206,7 @@
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 4,
-      "event_count": 9
+      "event_count": 11
     },
     {
       "asn": "AS215125",
@@ -213,16 +223,16 @@
       "event_count": 8
     },
     {
-      "asn": "AS132203",
-      "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "HK",
-      "ip_count": 2,
-      "event_count": 4
-    },
-    {
       "asn": "AS206264",
       "name": "Amarutu Technology Ltd",
       "country": "NL",
+      "ip_count": 2,
+      "event_count": 5
+    },
+    {
+      "asn": "AS132203",
+      "name": "Tencent Building, Kejizhongyi Avenue",
+      "country": "HK",
       "ip_count": 2,
       "event_count": 4
     },
