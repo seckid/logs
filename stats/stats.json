@@ -1,0 +1,242 @@
+{
+  "generated_at": "2026-02-27T15:59:40.131255Z",
+  "period_days": 90,
+  "total_events": 61,
+  "unique_ips": 20,
+  "honeypots": [
+    "centrestackpot",
+    "fortipot"
+  ],
+  "totals_by_source": {
+    "centrestackpot": 37,
+    "fortipot": 24
+  },
+  "events_per_day": {
+    "2026-02-27": {
+      "fortipot": 24,
+      "centrestackpot": 37,
+      "total": 61
+    }
+  },
+  "top_credentials": [
+    {
+      "username": "admin",
+      "password": "fortigate",
+      "count": 1
+    },
+    {
+      "username": "Admin",
+      "password": "PA55w0rd",
+      "count": 1
+    }
+  ],
+  "top_user_agents": [
+    {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "count": 16
+    },
+    {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
+      "count": 8
+    },
+    {
+      "user_agent": "Go-http-client/1.1",
+      "count": 8
+    },
+    {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0",
+      "count": 7
+    },
+    {
+      "user_agent": "Mozilla/5.0 (compatible; Odin; https://docs.getodin.com/)",
+      "count": 6
+    }
+  ],
+  "method_counts": {
+    "GET": 53,
+    "POST": 3,
+    "OPTIONS": 1
+  },
+  "top_paths": [
+    {
+      "path": "/",
+      "source": "centrestackpot",
+      "count": 18
+    },
+    {
+      "path": "/",
+      "source": "fortipot",
+      "count": 5
+    },
+    {
+      "path": "/portal/loginpage.aspx",
+      "source": "centrestackpot",
+      "count": 4
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "fortipot",
+      "count": 3
+    },
+    {
+      "path": "/fonts/lato-regular.woff2",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/fonts/ftnt-icons.woff",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "centrestackpot",
+      "count": 2
+    },
+    {
+      "path": "/css/main-blue.css",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/sslvpn/js/login.js?q=507e35a9d9c89c8817a0723ad6dcfe36",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/SDK/webLanguage",
+      "source": "centrestackpot",
+      "count": 2
+    },
+    {
+      "path": "/remote/fgt_lang?lang=en",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/remote/logincheck",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/HNAP1",
+      "source": "centrestackpot",
+      "count": 1
+    },
+    {
+      "path": "/app.config",
+      "source": "centrestackpot",
+      "count": 1
+    },
+    {
+      "path": "/evox/about",
+      "source": "centrestackpot",
+      "count": 1
+    },
+    {
+      "path": "/cgi-bin/authLogin.cgi",
+      "source": "centrestackpot",
+      "count": 1
+    },
+    {
+      "path": "/sdk",
+      "source": "centrestackpot",
+      "count": 1
+    },
+    {
+      "path": "/v2/_catalog",
+      "source": "centrestackpot",
+      "count": 1
+    },
+    {
+      "path": "/query",
+      "source": "centrestackpot",
+      "count": 1
+    },
+    {
+      "path": "/web.config",
+      "source": "centrestackpot",
+      "count": 1
+    }
+  ],
+  "cve_attempts": [],
+  "top_asns": [
+    {
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
+      "country": "DE",
+      "ip_count": 8,
+      "event_count": 19
+    },
+    {
+      "asn": "AS396982",
+      "name": "Google LLC",
+      "country": "TW",
+      "ip_count": 2,
+      "event_count": 12
+    },
+    {
+      "asn": "AS208323",
+      "name": "Foundation for Applied Privacy",
+      "country": "AT",
+      "ip_count": 1,
+      "event_count": 8
+    },
+    {
+      "asn": "AS215125",
+      "name": "Church of Cyberology",
+      "country": "NL",
+      "ip_count": 1,
+      "event_count": 8
+    },
+    {
+      "asn": "AS51396",
+      "name": "Pfcloud UG",
+      "country": "NL",
+      "ip_count": 2,
+      "event_count": 5
+    },
+    {
+      "asn": "AS132203",
+      "name": "Tencent Building, Kejizhongyi Avenue",
+      "country": "BR",
+      "ip_count": 1,
+      "event_count": 2
+    },
+    {
+      "asn": "AS206264",
+      "name": "Amarutu Technology Ltd",
+      "country": "NL",
+      "ip_count": 1,
+      "event_count": 2
+    },
+    {
+      "asn": "AS201814",
+      "name": "MEVSPACE sp. z o.o.",
+      "country": "PL",
+      "ip_count": 1,
+      "event_count": 2
+    },
+    {
+      "asn": "AS215925",
+      "name": "VPSVAULT.HOST LTD",
+      "country": "CA",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
+      "asn": "AS50304",
+      "name": "Blix Solutions AS",
+      "country": "NO",
+      "ip_count": 1,
+      "event_count": 1
+    }
+  ]
+}
