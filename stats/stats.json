@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-01T08:02:14.895317Z",
+  "generated_at": "2026-03-01T08:42:26.463310Z",
   "period_days": 90,
-  "total_events": 642,
-  "unique_ips": 93,
+  "total_events": 774,
+  "unique_ips": 127,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 232,
-    "fortipot": 410
+    "centrestackpot": 264,
+    "fortipot": 510
   },
   "events_per_day": {
     "2026-02-27": {
@@ -18,9 +18,14 @@
       "total": 512
     },
     "2026-02-28": {
-      "fortipot": 85,
-      "centrestackpot": 45,
-      "total": 130
+      "fortipot": 135,
+      "centrestackpot": 62,
+      "total": 197
+    },
+    "2026-03-01": {
+      "fortipot": 50,
+      "centrestackpot": 15,
+      "total": 65
     }
   },
   "top_credentials": [
@@ -42,26 +47,28 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 73
+      "count": 81
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Firefox/121.0",
       "count": 57
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0",
       "count": 55
     },
     {
-      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0",
       "count": 55
     }
   ],
   "method_counts": {
-    "GET": 546,
-    "PROPFIND": 10,
-    "POST": 9,
+    "GET": 640,
+    "PROPFIND": 11,
+    "POST": 11,
     "OPTIONS": 4,
+    "CONNECT": 3,
+    "SSTP_DUPLEX_POST": 1,
     "PRI": 1,
     ":\u0000\u0000\u0000/\u0000\u0000\u0000\u0002\u0000\u0000@\u0002\u000f\u0000\u0001\u0000=\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000/\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@": 1,
     "AMQP\u0000\u0000": 1,
@@ -73,22 +80,22 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 113
+      "count": 128
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 40
+      "count": 60
     },
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot",
-      "count": 26
+      "count": 30
     },
     {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
-      "count": 19
+      "count": 21
     },
     {
       "path": "/favicon.ico",
@@ -98,50 +105,65 @@
     {
       "path": "/.env",
       "source": "fortipot",
-      "count": 6
+      "count": 8
     },
     {
       "path": "/favicon.ico",
       "source": "fortipot",
+      "count": 7
+    },
+    {
+      "path": "/%2e%2e/%2e%2e/api/v2.0/system/status",
+      "source": "fortipot",
       "count": 5
     },
     {
-      "path": "/s3/.env",
+      "path": "/fwb/login",
       "source": "fortipot",
-      "count": 4
+      "count": 5
     },
     {
-      "path": "/.env~",
+      "path": "/.git/config",
       "source": "fortipot",
-      "count": 4
+      "count": 5
     },
     {
-      "path": "/api/.env",
+      "path": "/api/v2.0/system/status",
       "source": "fortipot",
-      "count": 4
+      "count": 5
+    },
+    {
+      "path": "/api/v2.0/..;/..;/api/v2.0/system/status",
+      "source": "fortipot",
+      "count": 5
+    },
+    {
+      "path": "/api/v2.0/..;/..;/api/v2.0/cmdb/system/admin",
+      "source": "fortipot",
+      "count": 5
+    },
+    {
+      "path": "/api/v2.0/%2e%2e/%2e%2e/api/v2.0/system/status",
+      "source": "fortipot",
+      "count": 5
     },
     {
       "path": "/.env",
       "source": "centrestackpot",
-      "count": 4
+      "count": 5
     },
     {
-      "path": "/portal/WebResource.axd",
-      "source": "centrestackpot",
+      "path": "/api/.env",
+      "source": "fortipot",
+      "count": 5
+    },
+    {
+      "path": "/.env.swp",
+      "source": "fortipot",
       "count": 4
     },
     {
       "path": "/.env.production",
-      "source": "fortipot",
-      "count": 4
-    },
-    {
-      "path": "/.env.local",
-      "source": "fortipot",
-      "count": 4
-    },
-    {
-      "path": "/.env.bak",
       "source": "fortipot",
       "count": 4
     },
@@ -151,24 +173,9 @@
       "count": 4
     },
     {
-      "path": "/.env.swp",
+      "path": "/.env.local",
       "source": "fortipot",
       "count": 4
-    },
-    {
-      "path": "/.git/config",
-      "source": "fortipot",
-      "count": 4
-    },
-    {
-      "path": "/info.php",
-      "source": "fortipot",
-      "count": 3
-    },
-    {
-      "path": "/phpinfo.php",
-      "source": "fortipot",
-      "count": 3
     }
   ],
   "cve_attempts": [
@@ -194,37 +201,58 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
-      "ip_count": 8,
-      "event_count": 186
+      "country": "GB",
+      "ip_count": 10,
+      "event_count": 188
     },
     {
       "asn": "AS202412",
       "name": "Omegatech LTD",
       "country": "DE",
-      "ip_count": 1,
-      "event_count": 101
+      "ip_count": 2,
+      "event_count": 104
     },
     {
       "asn": "AS51396",
       "name": "Pfcloud UG",
       "country": "NL",
-      "ip_count": 5,
-      "event_count": 69
+      "ip_count": 6,
+      "event_count": 76
     },
     {
       "asn": "AS63949",
       "name": "Akamai Connected Cloud",
       "country": "US",
-      "ip_count": 1,
-      "event_count": 49
+      "ip_count": 3,
+      "event_count": 52
+    },
+    {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 13,
+      "event_count": 34
+    },
+    {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "ip_count": 4,
+      "event_count": 32
     },
     {
       "asn": "AS206264",
       "name": "Amarutu Technology Ltd",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 25
+      "event_count": 27
+    },
+    {
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
+      "country": "SG",
+      "ip_count": 12,
+      "event_count": 23
     },
     {
       "asn": "AS210558",
@@ -234,46 +262,53 @@
       "event_count": 22
     },
     {
-      "asn": "AS14061",
-      "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 9,
-      "event_count": 20
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "SG",
+      "ip_count": 7,
+      "event_count": 17
     },
     {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 13
+      "event_count": 15
     },
     {
-      "asn": "AS16509",
-      "name": "Amazon.com, Inc.",
+      "asn": "AS9009",
+      "name": "M247 Europe SRL",
       "country": "US",
-      "ip_count": 6,
-      "event_count": 13
+      "ip_count": 1,
+      "event_count": 14
     },
     {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 10,
-      "event_count": 12
+      "asn": "AS202425",
+      "name": "IP Volume inc",
+      "country": "NL",
+      "ip_count": 4,
+      "event_count": 13
     },
     {
       "asn": "AS215925",
       "name": "VPSVAULT.HOST LTD",
       "country": "CA",
       "ip_count": 1,
-      "event_count": 11
+      "event_count": 12
+    },
+    {
+      "asn": "AS132203",
+      "name": "Tencent Building, Kejizhongyi Avenue",
+      "country": "US",
+      "ip_count": 6,
+      "event_count": 12
     },
     {
       "asn": "AS60068",
       "name": "Datacamp Limited",
       "country": "US",
       "ip_count": 2,
-      "event_count": 10
+      "event_count": 11
     },
     {
       "asn": "AS6939",
@@ -281,6 +316,13 @@
       "country": "US",
       "ip_count": 1,
       "event_count": 9
+    },
+    {
+      "asn": "AS213412",
+      "name": "ONYPHE SAS",
+      "country": "US",
+      "ip_count": 8,
+      "event_count": 8
     },
     {
       "asn": "AS208323",
@@ -295,41 +337,6 @@
       "country": "NL",
       "ip_count": 1,
       "event_count": 8
-    },
-    {
-      "asn": "AS213412",
-      "name": "ONYPHE SAS",
-      "country": "US",
-      "ip_count": 8,
-      "event_count": 8
-    },
-    {
-      "asn": "AS132203",
-      "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "DE",
-      "ip_count": 3,
-      "event_count": 6
-    },
-    {
-      "asn": "AS398324",
-      "name": "Censys, Inc.",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 6
-    },
-    {
-      "asn": "AS50360",
-      "name": "Tamatiya EOOD",
-      "country": "BG",
-      "ip_count": 1,
-      "event_count": 4
-    },
-    {
-      "asn": "AS398705",
-      "name": "Censys, Inc.",
-      "country": "DE",
-      "ip_count": 1,
-      "event_count": 4
     }
   ]
 }
