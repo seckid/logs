@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-01T11:00:55.847288Z",
+  "generated_at": "2026-03-01T12:04:00.857059Z",
   "period_days": 90,
-  "total_events": 856,
-  "unique_ips": 151,
+  "total_events": 971,
+  "unique_ips": 153,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 290,
-    "fortipot": 566
+    "centrestackpot": 305,
+    "fortipot": 666
   },
   "events_per_day": {
     "2026-02-27": {
@@ -23,9 +23,9 @@
       "total": 197
     },
     "2026-03-01": {
-      "fortipot": 106,
-      "centrestackpot": 41,
-      "total": 147
+      "fortipot": 206,
+      "centrestackpot": 56,
+      "total": 262
     }
   },
   "top_credentials": [
@@ -42,28 +42,28 @@
   ],
   "top_user_agents": [
     {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
+      "count": 101
+    },
+    {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "count": 101
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 93
-    },
-    {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Firefox/121.0",
-      "count": 57
-    },
-    {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0",
-      "count": 55
+      "count": 98
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0",
-      "count": 55
+      "count": 88
+    },
+    {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0",
+      "count": 80
     }
   ],
   "method_counts": {
-    "GET": 687,
+    "GET": 801,
     "PROPFIND": 11,
     "POST": 11,
     "CONNECT": 11,
@@ -81,27 +81,32 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 141
+      "count": 150
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 67
+      "count": 68
     },
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot",
-      "count": 31
+      "count": 33
     },
     {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
-      "count": 23
+      "count": 25
     },
     {
       "path": "/favicon.ico",
       "source": "centrestackpot",
       "count": 14
+    },
+    {
+      "path": "/.env",
+      "source": "fortipot",
+      "count": 10
     },
     {
       "path": "443",
@@ -114,14 +119,29 @@
       "count": 9
     },
     {
-      "path": "/.env",
-      "source": "fortipot",
-      "count": 9
-    },
-    {
       "path": "/.git/config",
       "source": "fortipot",
+      "count": 8
+    },
+    {
+      "path": "/.env",
+      "source": "centrestackpot",
       "count": 7
+    },
+    {
+      "path": "/api/.env",
+      "source": "fortipot",
+      "count": 6
+    },
+    {
+      "path": "/api/v2.0/..;/..;/api/v2.0/cmdb/system/admin",
+      "source": "fortipot",
+      "count": 5
+    },
+    {
+      "path": "/.env.swp",
+      "source": "fortipot",
+      "count": 5
     },
     {
       "path": "/api/v2.0/%2e%2e/%2e%2e/api/v2.0/system/status",
@@ -129,7 +149,7 @@
       "count": 5
     },
     {
-      "path": "/api/v2.0/..;/..;/api/v2.0/cmdb/system/admin",
+      "path": "/.env.production",
       "source": "fortipot",
       "count": 5
     },
@@ -139,7 +159,17 @@
       "count": 5
     },
     {
+      "path": "/.env.old",
+      "source": "fortipot",
+      "count": 5
+    },
+    {
       "path": "/api/v2.0/..;/..;/api/v2.0/system/status",
+      "source": "fortipot",
+      "count": 5
+    },
+    {
+      "path": "/.env~",
       "source": "fortipot",
       "count": 5
     },
@@ -147,36 +177,6 @@
       "path": "/api/v2.0/system/status",
       "source": "fortipot",
       "count": 5
-    },
-    {
-      "path": "/%2e%2e/%2e%2e/api/v2.0/system/status",
-      "source": "fortipot",
-      "count": 5
-    },
-    {
-      "path": "/.env",
-      "source": "centrestackpot",
-      "count": 5
-    },
-    {
-      "path": "/api/.env",
-      "source": "fortipot",
-      "count": 5
-    },
-    {
-      "path": "/.env.old",
-      "source": "fortipot",
-      "count": 4
-    },
-    {
-      "path": "/s3/.env",
-      "source": "fortipot",
-      "count": 4
-    },
-    {
-      "path": "/.env~",
-      "source": "fortipot",
-      "count": 4
     }
   ],
   "cve_attempts": [
@@ -202,9 +202,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
-      "ip_count": 11,
-      "event_count": 189
+      "country": "NL",
+      "ip_count": 12,
+      "event_count": 291
     },
     {
       "asn": "AS202412",
@@ -218,14 +218,14 @@
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 6,
-      "event_count": 80
+      "event_count": 85
     },
     {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 15,
-      "event_count": 56
+      "ip_count": 16,
+      "event_count": 58
     },
     {
       "asn": "AS63949",
@@ -246,7 +246,7 @@
       "name": "Amarutu Technology Ltd",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 30
+      "event_count": 32
     },
     {
       "asn": "AS14061",
@@ -274,7 +274,7 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 18
+      "event_count": 19
     },
     {
       "asn": "AS16509",
@@ -284,16 +284,16 @@
       "event_count": 18
     },
     {
-      "asn": "AS9009",
-      "name": "M247 Europe SRL",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 14
-    },
-    {
       "asn": "AS215925",
       "name": "VPSVAULT.HOST LTD",
       "country": "CA",
+      "ip_count": 1,
+      "event_count": 15
+    },
+    {
+      "asn": "AS9009",
+      "name": "M247 Europe SRL",
+      "country": "US",
       "ip_count": 1,
       "event_count": 14
     },
