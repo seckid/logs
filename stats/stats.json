@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-01T16:00:14.942100Z",
+  "generated_at": "2026-03-01T17:04:00.839336Z",
   "period_days": 90,
-  "total_events": 1073,
-  "unique_ips": 190,
+  "total_events": 1088,
+  "unique_ips": 193,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 375,
-    "fortipot": 698
+    "centrestackpot": 385,
+    "fortipot": 703
   },
   "events_per_day": {
     "2026-02-27": {
@@ -23,9 +23,9 @@
       "total": 197
     },
     "2026-03-01": {
-      "fortipot": 238,
-      "centrestackpot": 126,
-      "total": 364
+      "fortipot": 243,
+      "centrestackpot": 136,
+      "total": 379
     }
   },
   "top_credentials": [
@@ -43,7 +43,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 123
+      "count": 132
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -63,7 +63,7 @@
     }
   ],
   "method_counts": {
-    "GET": 879,
+    "GET": 892,
     "POST": 15,
     "PROPFIND": 12,
     "CONNECT": 11,
@@ -81,12 +81,12 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 191
+      "count": 198
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 74
+      "count": 75
     },
     {
       "path": "/portal/loginpage.aspx",
@@ -96,7 +96,7 @@
     {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
-      "count": 30
+      "count": 33
     },
     {
       "path": "/favicon.ico",
@@ -106,7 +106,7 @@
     {
       "path": "/favicon.ico",
       "source": "fortipot",
-      "count": 11
+      "count": 12
     },
     {
       "path": "443",
@@ -218,7 +218,7 @@
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 6,
-      "event_count": 95
+      "event_count": 98
     },
     {
       "asn": "AS14618",
@@ -239,7 +239,14 @@
       "name": "Amarutu Technology Ltd",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 37
+      "event_count": 41
+    },
+    {
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
+      "country": "NL",
+      "ip_count": 17,
+      "event_count": 32
     },
     {
       "asn": "AS8075",
@@ -249,18 +256,11 @@
       "event_count": 32
     },
     {
-      "asn": "AS14061",
-      "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 16,
-      "event_count": 29
-    },
-    {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 24
+      "event_count": 25
     },
     {
       "asn": "AS6939",
@@ -277,25 +277,18 @@
       "event_count": 22
     },
     {
-      "asn": "AS16509",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 10,
-      "event_count": 20
-    },
-    {
       "asn": "AS215925",
       "name": "VPSVAULT.HOST LTD",
       "country": "CA",
       "ip_count": 1,
-      "event_count": 19
+      "event_count": 21
     },
     {
-      "asn": "AS398705",
-      "name": "Censys, Inc.",
-      "country": "DE",
-      "ip_count": 3,
-      "event_count": 16
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 11,
+      "event_count": 21
     },
     {
       "asn": "AS132203",
@@ -312,11 +305,11 @@
       "event_count": 16
     },
     {
-      "asn": "AS9009",
-      "name": "M247 Europe SRL",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 14
+      "asn": "AS398705",
+      "name": "Censys, Inc.",
+      "country": "DE",
+      "ip_count": 3,
+      "event_count": 16
     },
     {
       "asn": "AS401701",
@@ -326,17 +319,24 @@
       "event_count": 14
     },
     {
-      "asn": "AS202425",
-      "name": "IP Volume inc",
-      "country": "NL",
-      "ip_count": 4,
-      "event_count": 13
+      "asn": "AS9009",
+      "name": "M247 Europe SRL",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 14
     },
     {
       "asn": "AS211298",
       "name": "Driftnet Ltd",
       "country": "GB",
       "ip_count": 10,
+      "event_count": 13
+    },
+    {
+      "asn": "AS202425",
+      "name": "IP Volume inc",
+      "country": "NL",
+      "ip_count": 4,
       "event_count": 13
     }
   ]
