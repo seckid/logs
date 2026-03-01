@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-01T08:44:20.670347Z",
+  "generated_at": "2026-03-01T09:04:14.895144Z",
   "period_days": 90,
-  "total_events": 774,
-  "unique_ips": 127,
+  "total_events": 788,
+  "unique_ips": 129,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 264,
-    "fortipot": 510
+    "centrestackpot": 277,
+    "fortipot": 511
   },
   "events_per_day": {
     "2026-02-27": {
@@ -23,9 +23,9 @@
       "total": 197
     },
     "2026-03-01": {
-      "fortipot": 50,
-      "centrestackpot": 15,
-      "total": 65
+      "fortipot": 51,
+      "centrestackpot": 28,
+      "total": 79
     }
   },
   "top_credentials": [
@@ -47,7 +47,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 81
+      "count": 84
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Firefox/121.0",
@@ -63,11 +63,11 @@
     }
   ],
   "method_counts": {
-    "GET": 640,
+    "GET": 645,
     "PROPFIND": 11,
     "POST": 11,
+    "CONNECT": 11,
     "OPTIONS": 4,
-    "CONNECT": 3,
     "SSTP_DUPLEX_POST": 1,
     "PRI": 1,
     ":\u0000\u0000\u0000/\u0000\u0000\u0000\u0002\u0000\u0000@\u0002\u000f\u0000\u0001\u0000=\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000/\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@": 1,
@@ -80,7 +80,7 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 128
+      "count": 132
     },
     {
       "path": "/",
@@ -90,7 +90,7 @@
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot",
-      "count": 30
+      "count": 31
     },
     {
       "path": "/SDK/webLanguage",
@@ -101,6 +101,11 @@
       "path": "/favicon.ico",
       "source": "centrestackpot",
       "count": 13
+    },
+    {
+      "path": "443",
+      "source": "centrestackpot",
+      "count": 10
     },
     {
       "path": "/.env",
@@ -163,17 +168,12 @@
       "count": 4
     },
     {
-      "path": "/.env.production",
-      "source": "fortipot",
-      "count": 4
-    },
-    {
       "path": "/.env.old",
       "source": "fortipot",
       "count": 4
     },
     {
-      "path": "/.env.local",
+      "path": "/.env.production",
       "source": "fortipot",
       "count": 4
     }
@@ -209,15 +209,15 @@
       "asn": "AS202412",
       "name": "Omegatech LTD",
       "country": "DE",
-      "ip_count": 2,
-      "event_count": 104
+      "ip_count": 3,
+      "event_count": 112
     },
     {
       "asn": "AS51396",
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 6,
-      "event_count": 76
+      "event_count": 77
     },
     {
       "asn": "AS63949",
@@ -230,8 +230,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 13,
-      "event_count": 34
+      "ip_count": 14,
+      "event_count": 36
     },
     {
       "asn": "AS8075",
@@ -273,7 +273,7 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 15
+      "event_count": 16
     },
     {
       "asn": "AS9009",
@@ -294,7 +294,7 @@
       "name": "VPSVAULT.HOST LTD",
       "country": "CA",
       "ip_count": 1,
-      "event_count": 12
+      "event_count": 13
     },
     {
       "asn": "AS132203",
