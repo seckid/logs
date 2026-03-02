@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-02T11:03:00.123156Z",
+  "generated_at": "2026-03-02T12:01:56.109427Z",
   "period_days": 90,
-  "total_events": 1764,
-  "unique_ips": 279,
+  "total_events": 1776,
+  "unique_ips": 281,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 728,
-    "fortipot": 1036
+    "centrestackpot": 735,
+    "fortipot": 1041
   },
   "events_per_day": {
     "2026-02-27": {
@@ -28,9 +28,9 @@
       "total": 592
     },
     "2026-03-02": {
-      "fortipot": 156,
-      "centrestackpot": 294,
-      "total": 450
+      "fortipot": 161,
+      "centrestackpot": 301,
+      "total": 462
     }
   },
   "top_credentials": [
@@ -53,7 +53,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 217
+      "count": 223
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Firefox/121.0",
@@ -73,9 +73,9 @@
     }
   ],
   "method_counts": {
-    "GET": 1472,
+    "GET": 1482,
     "POST": 76,
-    "PROPFIND": 14,
+    "PROPFIND": 15,
     "CONNECT": 13,
     "OPTIONS": 5,
     "PRI": 4,
@@ -91,12 +91,12 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 318
+      "count": 322
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 99
+      "count": 100
     },
     {
       "path": "/portal/loginpage.aspx",
@@ -106,7 +106,7 @@
     {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
-      "count": 52
+      "count": 54
     },
     {
       "path": "/favicon.ico",
@@ -124,18 +124,13 @@
       "count": 13
     },
     {
-      "path": "443",
-      "source": "centrestackpot",
-      "count": 12
-    },
-    {
-      "path": "/.env",
-      "source": "centrestackpot",
-      "count": 12
-    },
-    {
       "path": "/api/v2/monitor/forticlient/registration",
       "source": "fortipot",
+      "count": 12
+    },
+    {
+      "path": "443",
+      "source": "centrestackpot",
       "count": 12
     },
     {
@@ -149,14 +144,14 @@
       "count": 12
     },
     {
+      "path": "/.env",
+      "source": "centrestackpot",
+      "count": 12
+    },
+    {
       "path": "/.git/config",
       "source": "fortipot",
       "count": 11
-    },
-    {
-      "path": "/api/.env",
-      "source": "fortipot",
-      "count": 8
     },
     {
       "path": "/robots.txt",
@@ -169,12 +164,12 @@
       "count": 8
     },
     {
-      "path": "/.env.bak",
+      "path": "/api/.env",
       "source": "fortipot",
-      "count": 7
+      "count": 8
     },
     {
-      "path": "/.env.old",
+      "path": "/.env.production",
       "source": "fortipot",
       "count": 7
     },
@@ -184,7 +179,12 @@
       "count": 7
     },
     {
-      "path": "/.env.production",
+      "path": "/.env.bak",
+      "source": "fortipot",
+      "count": 7
+    },
+    {
+      "path": "/.env.local",
       "source": "fortipot",
       "count": 7
     }
@@ -221,7 +221,7 @@
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 11,
-      "event_count": 200
+      "event_count": 202
     },
     {
       "asn": "AS202412",
@@ -234,8 +234,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 10,
-      "event_count": 83
+      "ip_count": 11,
+      "event_count": 84
     },
     {
       "asn": "AS14618",
@@ -249,7 +249,7 @@
       "name": "Amarutu Technology Ltd",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 61
+      "event_count": 63
     },
     {
       "asn": "AS6939",
@@ -277,14 +277,14 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 43
+      "event_count": 44
     },
     {
       "asn": "AS215925",
       "name": "VPSVAULT.HOST LTD",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 41
+      "event_count": 42
     },
     {
       "asn": "AS14061",
@@ -308,16 +308,16 @@
       "event_count": 26
     },
     {
-      "asn": "AS60729",
-      "name": "Stiftung Erneuerbare Freiheit",
-      "country": "DE",
+      "asn": "AS210558",
+      "name": "1337 Services GmbH",
+      "country": "PL",
       "ip_count": 1,
       "event_count": 22
     },
     {
-      "asn": "AS210558",
-      "name": "1337 Services GmbH",
-      "country": "PL",
+      "asn": "AS60729",
+      "name": "Stiftung Erneuerbare Freiheit",
+      "country": "DE",
       "ip_count": 1,
       "event_count": 22
     },
