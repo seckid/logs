@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-02T09:01:56.118200Z",
+  "generated_at": "2026-03-02T10:02:22.657270Z",
   "period_days": 90,
-  "total_events": 1731,
-  "unique_ips": 270,
+  "total_events": 1747,
+  "unique_ips": 275,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 697,
-    "fortipot": 1034
+    "centrestackpot": 712,
+    "fortipot": 1035
   },
   "events_per_day": {
     "2026-02-27": {
@@ -28,9 +28,9 @@
       "total": 592
     },
     "2026-03-02": {
-      "fortipot": 154,
-      "centrestackpot": 263,
-      "total": 417
+      "fortipot": 155,
+      "centrestackpot": 278,
+      "total": 433
     }
   },
   "top_credentials": [
@@ -53,7 +53,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 204
+      "count": 211
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Firefox/121.0",
@@ -69,12 +69,12 @@
     },
     {
       "user_agent": "libredtail-http",
-      "count": 112
+      "count": 114
     }
   ],
   "method_counts": {
-    "GET": 1444,
-    "POST": 73,
+    "GET": 1457,
+    "POST": 75,
     "PROPFIND": 14,
     "CONNECT": 13,
     "OPTIONS": 5,
@@ -91,7 +91,7 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 303
+      "count": 309
     },
     {
       "path": "/",
@@ -106,7 +106,7 @@
     {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
-      "count": 49
+      "count": 51
     },
     {
       "path": "/favicon.ico",
@@ -124,16 +124,6 @@
       "count": 13
     },
     {
-      "path": "443",
-      "source": "centrestackpot",
-      "count": 12
-    },
-    {
-      "path": "/fcck/register",
-      "source": "fortipot",
-      "count": 12
-    },
-    {
       "path": "/api/v2/monitor/forticlient/registration",
       "source": "fortipot",
       "count": 12
@@ -144,7 +134,17 @@
       "count": 12
     },
     {
+      "path": "443",
+      "source": "centrestackpot",
+      "count": 12
+    },
+    {
       "path": "/fpc/register",
+      "source": "fortipot",
+      "count": 12
+    },
+    {
+      "path": "/fcck/register",
       "source": "fortipot",
       "count": 12
     },
@@ -164,12 +164,7 @@
       "count": 8
     },
     {
-      "path": "/.env.bak",
-      "source": "fortipot",
-      "count": 7
-    },
-    {
-      "path": "/.env~",
+      "path": "/.env.local",
       "source": "fortipot",
       "count": 7
     },
@@ -179,12 +174,17 @@
       "count": 7
     },
     {
-      "path": "/.env.local",
+      "path": "/robots.txt",
+      "source": "centrestackpot",
+      "count": 7
+    },
+    {
+      "path": "/.env~",
       "source": "fortipot",
       "count": 7
     },
     {
-      "path": "/.env.swp",
+      "path": "/.env.bak",
       "source": "fortipot",
       "count": 7
     }
@@ -212,16 +212,16 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "GB",
-      "ip_count": 20,
-      "event_count": 502
+      "country": "BR",
+      "ip_count": 23,
+      "event_count": 506
     },
     {
       "asn": "AS51396",
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 11,
-      "event_count": 193
+      "event_count": 196
     },
     {
       "asn": "AS202412",
@@ -256,7 +256,7 @@
       "name": "Amarutu Technology Ltd",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 58
+      "event_count": 60
     },
     {
       "asn": "AS63949",
@@ -277,14 +277,14 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 41
+      "event_count": 42
     },
     {
       "asn": "AS215925",
       "name": "VPSVAULT.HOST LTD",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 38
+      "event_count": 40
     },
     {
       "asn": "AS14061",
@@ -336,17 +336,17 @@
       "event_count": 18
     },
     {
-      "asn": "AS398705",
-      "name": "Censys, Inc.",
-      "country": "DE",
-      "ip_count": 3,
-      "event_count": 16
-    },
-    {
       "asn": "AS202425",
       "name": "IP Volume inc",
       "country": "NL",
       "ip_count": 4,
+      "event_count": 16
+    },
+    {
+      "asn": "AS398705",
+      "name": "Censys, Inc.",
+      "country": "DE",
+      "ip_count": 3,
       "event_count": 16
     }
   ]
