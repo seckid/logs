@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-03T17:01:56.169087Z",
+  "generated_at": "2026-03-03T18:03:52.356105Z",
   "period_days": 90,
-  "total_events": 2595,
-  "unique_ips": 407,
+  "total_events": 2622,
+  "unique_ips": 410,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 1268,
-    "fortipot": 1327
+    "centrestackpot": 1274,
+    "fortipot": 1348
   },
   "events_per_day": {
     "2026-02-27": {
@@ -33,9 +33,9 @@
       "total": 662
     },
     "2026-03-03": {
-      "centrestackpot": 461,
-      "fortipot": 154,
-      "total": 615
+      "centrestackpot": 467,
+      "fortipot": 175,
+      "total": 642
     }
   },
   "top_credentials": [
@@ -58,11 +58,11 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 356
+      "count": 357
     },
     {
       "user_agent": "libredtail-http",
-      "count": 218
+      "count": 239
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Firefox/121.0",
@@ -78,8 +78,8 @@
     }
   ],
   "method_counts": {
-    "GET": 2176,
-    "POST": 100,
+    "GET": 2199,
+    "POST": 104,
     "PROPFIND": 17,
     "CONNECT": 17,
     "PRI": 7,
@@ -96,7 +96,7 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 504
+      "count": 507
     },
     {
       "path": "/",
@@ -106,7 +106,7 @@
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot",
-      "count": 106
+      "count": 109
     },
     {
       "path": "/SDK/webLanguage",
@@ -144,7 +144,7 @@
       "count": 15
     },
     {
-      "path": "/api/v2/monitor/forticlient/registration",
+      "path": "/fcck/register",
       "source": "fortipot",
       "count": 12
     },
@@ -154,7 +154,7 @@
       "count": 12
     },
     {
-      "path": "/fcck/register",
+      "path": "/api/v2/monitor/forticlient/registration",
       "source": "fortipot",
       "count": 12
     },
@@ -174,7 +174,7 @@
       "count": 9
     },
     {
-      "path": "/.env.production",
+      "path": "/.env.bak",
       "source": "fortipot",
       "count": 8
     },
@@ -184,12 +184,12 @@
       "count": 8
     },
     {
-      "path": "/.env.bak",
+      "path": "/.env.local",
       "source": "fortipot",
       "count": 8
     },
     {
-      "path": "/.env.local",
+      "path": "/.env.production",
       "source": "fortipot",
       "count": 8
     }
@@ -226,7 +226,7 @@
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 15,
-      "event_count": 285
+      "event_count": 286
     },
     {
       "asn": "AS202425",
@@ -316,8 +316,8 @@
       "asn": "AS132203",
       "name": "Tencent Building, Kejizhongyi Avenue",
       "country": "US",
-      "ip_count": 23,
-      "event_count": 54
+      "ip_count": 24,
+      "event_count": 57
     },
     {
       "asn": "AS35179",
@@ -327,16 +327,16 @@
       "event_count": 46
     },
     {
-      "asn": "AS6327",
-      "name": "Shaw Communications",
-      "country": "CA",
+      "asn": "AS31898",
+      "name": "Oracle Corporation",
+      "country": "DE",
       "ip_count": 1,
       "event_count": 46
     },
     {
-      "asn": "AS31898",
-      "name": "Oracle Corporation",
-      "country": "DE",
+      "asn": "AS6327",
+      "name": "Shaw Communications",
+      "country": "CA",
       "ip_count": 1,
       "event_count": 46
     },
