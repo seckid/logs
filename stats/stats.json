@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-03T07:02:30.424063Z",
+  "generated_at": "2026-03-03T08:00:40.963381Z",
   "period_days": 90,
-  "total_events": 2278,
-  "unique_ips": 353,
+  "total_events": 2358,
+  "unique_ips": 364,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 1020,
-    "fortipot": 1258
+    "centrestackpot": 1083,
+    "fortipot": 1275
   },
   "events_per_day": {
     "2026-02-27": {
@@ -33,9 +33,9 @@
       "total": 662
     },
     "2026-03-03": {
-      "centrestackpot": 213,
-      "fortipot": 85,
-      "total": 298
+      "centrestackpot": 276,
+      "fortipot": 102,
+      "total": 378
     }
   },
   "top_credentials": [
@@ -58,15 +58,15 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 295
+      "count": 300
+    },
+    {
+      "user_agent": "libredtail-http",
+      "count": 209
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Firefox/121.0",
       "count": 170
-    },
-    {
-      "user_agent": "libredtail-http",
-      "count": 163
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0",
@@ -78,8 +78,8 @@
     }
   ],
   "method_counts": {
-    "GET": 1917,
-    "POST": 87,
+    "GET": 1984,
+    "POST": 91,
     "PROPFIND": 17,
     "CONNECT": 14,
     "OPTIONS": 6,
@@ -96,12 +96,12 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 413
+      "count": 422
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 129
+      "count": 132
     },
     {
       "path": "/portal/loginpage.aspx",
@@ -111,7 +111,7 @@
     {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
-      "count": 70
+      "count": 71
     },
     {
       "path": "/favicon.ico",
@@ -144,6 +144,11 @@
       "count": 13
     },
     {
+      "path": "/api/v2/monitor/forticlient/registration",
+      "source": "fortipot",
+      "count": 12
+    },
+    {
       "path": "/fcck/register",
       "source": "fortipot",
       "count": 12
@@ -154,12 +159,7 @@
       "count": 12
     },
     {
-      "path": "/api/v2/monitor/forticlient/registration",
-      "source": "fortipot",
-      "count": 12
-    },
-    {
-      "path": "/robots.txt",
+      "path": "/index.php",
       "source": "centrestackpot",
       "count": 9
     },
@@ -169,17 +169,12 @@
       "count": 9
     },
     {
-      "path": "/.env.production",
-      "source": "fortipot",
-      "count": 8
+      "path": "/robots.txt",
+      "source": "centrestackpot",
+      "count": 9
     },
     {
       "path": "/.env.local",
-      "source": "fortipot",
-      "count": 8
-    },
-    {
-      "path": "/.env.bak",
       "source": "fortipot",
       "count": 8
     },
@@ -189,9 +184,14 @@
       "count": 8
     },
     {
-      "path": "/config/.env",
+      "path": "/.env.production",
       "source": "fortipot",
-      "count": 7
+      "count": 8
+    },
+    {
+      "path": "/.env.bak",
+      "source": "fortipot",
+      "count": 8
     }
   ],
   "cve_attempts": [
@@ -226,7 +226,7 @@
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 14,
-      "event_count": 251
+      "event_count": 253
     },
     {
       "asn": "AS202425",
@@ -257,11 +257,18 @@
       "event_count": 93
     },
     {
+      "asn": "AS6939",
+      "name": "Hurricane Electric LLC",
+      "country": "US",
+      "ip_count": 25,
+      "event_count": 82
+    },
+    {
       "asn": "AS206264",
       "name": "Amarutu Technology Ltd",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 79
+      "event_count": 80
     },
     {
       "asn": "AS52053",
@@ -271,25 +278,18 @@
       "event_count": 62
     },
     {
-      "asn": "AS6939",
-      "name": "Hurricane Electric LLC",
-      "country": "US",
-      "ip_count": 18,
-      "event_count": 60
-    },
-    {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 58
+      "event_count": 59
     },
     {
       "asn": "AS215925",
       "name": "VPSVAULT.HOST LTD",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 57
+      "event_count": 58
     },
     {
       "asn": "AS63949",
@@ -313,6 +313,13 @@
       "event_count": 49
     },
     {
+      "asn": "AS31898",
+      "name": "Oracle Corporation",
+      "country": "DE",
+      "ip_count": 1,
+      "event_count": 46
+    },
+    {
       "asn": "AS35179",
       "name": "Korbank S. A.",
       "country": "PL",
@@ -329,9 +336,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 21,
-      "event_count": 44
+      "country": "GB",
+      "ip_count": 22,
+      "event_count": 45
     },
     {
       "asn": "AS45102",
@@ -346,13 +353,6 @@
       "country": "US",
       "ip_count": 2,
       "event_count": 24
-    },
-    {
-      "asn": "AS60729",
-      "name": "Stiftung Erneuerbare Freiheit",
-      "country": "DE",
-      "ip_count": 1,
-      "event_count": 22
     }
   ]
 }
