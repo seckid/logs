@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-03T13:02:41.619362Z",
+  "generated_at": "2026-03-03T14:01:56.170744Z",
   "period_days": 90,
-  "total_events": 2495,
+  "total_events": 2509,
   "unique_ips": 392,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 1181,
-    "fortipot": 1314
+    "centrestackpot": 1190,
+    "fortipot": 1319
   },
   "events_per_day": {
     "2026-02-27": {
@@ -33,9 +33,9 @@
       "total": 662
     },
     "2026-03-03": {
-      "centrestackpot": 374,
-      "fortipot": 141,
-      "total": 515
+      "centrestackpot": 383,
+      "fortipot": 146,
+      "total": 529
     }
   },
   "top_credentials": [
@@ -58,7 +58,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 332
+      "count": 337
     },
     {
       "user_agent": "libredtail-http",
@@ -78,7 +78,7 @@
     }
   ],
   "method_counts": {
-    "GET": 2092,
+    "GET": 2103,
     "POST": 97,
     "PROPFIND": 17,
     "CONNECT": 15,
@@ -96,7 +96,7 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 470
+      "count": 475
     },
     {
       "path": "/",
@@ -144,6 +144,11 @@
       "count": 14
     },
     {
+      "path": "/fpc/register",
+      "source": "fortipot",
+      "count": 12
+    },
+    {
       "path": "/fcck/register",
       "source": "fortipot",
       "count": 12
@@ -154,19 +159,9 @@
       "count": 12
     },
     {
-      "path": "/fpc/register",
-      "source": "fortipot",
-      "count": 12
-    },
-    {
       "path": "/robots.txt",
       "source": "centrestackpot",
       "count": 10
-    },
-    {
-      "path": "/index.php",
-      "source": "centrestackpot",
-      "count": 9
     },
     {
       "path": "/api/.env",
@@ -174,12 +169,17 @@
       "count": 9
     },
     {
-      "path": "/.env.bak",
+      "path": "/index.php",
+      "source": "centrestackpot",
+      "count": 9
+    },
+    {
+      "path": "/.env.production",
       "source": "fortipot",
       "count": 8
     },
     {
-      "path": "/.env.local",
+      "path": "/.env.bak",
       "source": "fortipot",
       "count": 8
     },
@@ -189,7 +189,7 @@
       "count": 8
     },
     {
-      "path": "/.env.production",
+      "path": "/.env.local",
       "source": "fortipot",
       "count": 8
     }
@@ -226,7 +226,7 @@
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 14,
-      "event_count": 267
+      "event_count": 270
     },
     {
       "asn": "AS202425",
@@ -268,7 +268,7 @@
       "name": "Amarutu Technology Ltd",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 88
+      "event_count": 90
     },
     {
       "asn": "AS201814",
@@ -282,7 +282,7 @@
       "name": "VPSVAULT.HOST LTD",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 63
+      "event_count": 64
     },
     {
       "asn": "AS52053",
