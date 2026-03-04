@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-04T12:04:14.993075Z",
+  "generated_at": "2026-03-04T13:04:13.196491Z",
   "period_days": 90,
-  "total_events": 2746,
-  "unique_ips": 430,
+  "total_events": 2766,
+  "unique_ips": 432,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 1359,
-    "fortipot": 1387
+    "centrestackpot": 1373,
+    "fortipot": 1393
   },
   "events_per_day": {
     "2026-02-27": {
@@ -38,9 +38,9 @@
       "total": 696
     },
     "2026-03-04": {
-      "centrestackpot": 68,
-      "fortipot": 59,
-      "total": 127
+      "centrestackpot": 82,
+      "fortipot": 65,
+      "total": 147
     }
   },
   "top_credentials": [
@@ -63,11 +63,11 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 374
+      "count": 379
     },
     {
       "user_agent": "libredtail-http",
-      "count": 309
+      "count": 312
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Firefox/121.0",
@@ -83,7 +83,7 @@
     }
   ],
   "method_counts": {
-    "GET": 2377,
+    "GET": 2393,
     "POST": 114,
     "PROPFIND": 21,
     "CONNECT": 17,
@@ -101,7 +101,7 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 530
+      "count": 537
     },
     {
       "path": "/",
@@ -111,7 +111,7 @@
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot",
-      "count": 117
+      "count": 118
     },
     {
       "path": "/SDK/webLanguage",
@@ -121,7 +121,7 @@
     {
       "path": "/favicon.ico",
       "source": "centrestackpot",
-      "count": 50
+      "count": 52
     },
     {
       "path": "/favicon.ico",
@@ -154,8 +154,8 @@
       "count": 14
     },
     {
-      "path": "/api/v2/monitor/forticlient/registration",
-      "source": "fortipot",
+      "path": "/index.php",
+      "source": "centrestackpot",
       "count": 12
     },
     {
@@ -169,6 +169,11 @@
       "count": 12
     },
     {
+      "path": "/api/v2/monitor/forticlient/registration",
+      "source": "fortipot",
+      "count": 12
+    },
+    {
       "path": "/fcck/register",
       "source": "fortipot",
       "count": 12
@@ -177,11 +182,6 @@
       "path": "/api/v2/monitor/license/status",
       "source": "fortipot",
       "count": 11
-    },
-    {
-      "path": "/index.php",
-      "source": "centrestackpot",
-      "count": 10
     },
     {
       "path": "/robots.txt",
@@ -247,7 +247,7 @@
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 15,
-      "event_count": 302
+      "event_count": 306
     },
     {
       "asn": "AS8075",
@@ -296,21 +296,21 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 72
+      "event_count": 73
     },
     {
       "asn": "AS215925",
       "name": "VPSVAULT.HOST LTD",
       "country": "CA",
       "ip_count": 3,
-      "event_count": 71
+      "event_count": 72
     },
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "IN",
+      "country": "US",
       "ip_count": 27,
-      "event_count": 67
+      "event_count": 68
     },
     {
       "asn": "AS132203",
@@ -327,6 +327,13 @@
       "event_count": 62
     },
     {
+      "asn": "AS63949",
+      "name": "Akamai Connected Cloud",
+      "country": "US",
+      "ip_count": 10,
+      "event_count": 60
+    },
+    {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
@@ -334,23 +341,16 @@
       "event_count": 60
     },
     {
-      "asn": "AS63949",
-      "name": "Akamai Connected Cloud",
-      "country": "US",
-      "ip_count": 9,
-      "event_count": 58
+      "asn": "AS35179",
+      "name": "Korbank S. A.",
+      "country": "PL",
+      "ip_count": 1,
+      "event_count": 46
     },
     {
       "asn": "AS6327",
       "name": "Shaw Communications",
       "country": "CA",
-      "ip_count": 1,
-      "event_count": 46
-    },
-    {
-      "asn": "AS35179",
-      "name": "Korbank S. A.",
-      "country": "PL",
       "ip_count": 1,
       "event_count": 46
     },
@@ -366,7 +366,7 @@
       "name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 43
+      "event_count": 46
     },
     {
       "asn": "AS45102",
