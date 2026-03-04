@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-04T21:00:47.094428Z",
+  "generated_at": "2026-03-04T22:01:00.528165Z",
   "period_days": 90,
-  "total_events": 3143,
-  "unique_ips": 479,
+  "total_events": 3212,
+  "unique_ips": 484,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 1584,
-    "fortipot": 1559
+    "centrestackpot": 1647,
+    "fortipot": 1565
   },
   "events_per_day": {
     "2026-02-27": {
@@ -38,9 +38,9 @@
       "total": 696
     },
     "2026-03-04": {
-      "centrestackpot": 293,
-      "fortipot": 231,
-      "total": 524
+      "centrestackpot": 356,
+      "fortipot": 237,
+      "total": 593
     }
   },
   "top_credentials": [
@@ -63,7 +63,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 430
+      "count": 436
     },
     {
       "user_agent": "libredtail-http",
@@ -74,17 +74,17 @@
       "count": 195
     },
     {
-      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0",
-      "count": 185
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "count": 191
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0",
-      "count": 164
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0",
+      "count": 185
     }
   ],
   "method_counts": {
-    "GET": 2730,
-    "POST": 122,
+    "GET": 2742,
+    "POST": 177,
     "PROPFIND": 22,
     "CONNECT": 18,
     "PRI": 7,
@@ -101,12 +101,12 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 617
+      "count": 623
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 171
+      "count": 174
     },
     {
       "path": "/portal/loginpage.aspx",
@@ -116,7 +116,7 @@
     {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
-      "count": 101
+      "count": 102
     },
     {
       "path": "/favicon.ico",
@@ -164,6 +164,11 @@
       "count": 12
     },
     {
+      "path": "/fpc/register",
+      "source": "fortipot",
+      "count": 12
+    },
+    {
       "path": "/fcck/register",
       "source": "fortipot",
       "count": 12
@@ -171,11 +176,6 @@
     {
       "path": "/robots.txt",
       "source": "centrestackpot",
-      "count": 12
-    },
-    {
-      "path": "/fpc/register",
-      "source": "fortipot",
       "count": 12
     },
     {
@@ -189,12 +189,12 @@
       "count": 11
     },
     {
-      "path": "/api/.env",
+      "path": "/api/v2/cmdb/system/admin",
       "source": "fortipot",
       "count": 10
     },
     {
-      "path": "/api/v2/cmdb/system/admin",
+      "path": "/api/.env",
       "source": "fortipot",
       "count": 10
     }
@@ -239,16 +239,23 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
-      "ip_count": 35,
-      "event_count": 600
+      "country": "GB",
+      "ip_count": 36,
+      "event_count": 601
     },
     {
       "asn": "AS51396",
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 17,
-      "event_count": 334
+      "event_count": 336
+    },
+    {
+      "asn": "AS202425",
+      "name": "IP Volume inc",
+      "country": "NL",
+      "ip_count": 4,
+      "event_count": 202
     },
     {
       "asn": "AS8075",
@@ -258,18 +265,11 @@
       "event_count": 150
     },
     {
-      "asn": "AS202425",
-      "name": "IP Volume inc",
-      "country": "NL",
-      "ip_count": 4,
-      "event_count": 147
-    },
-    {
       "asn": "AS206264",
       "name": "Amarutu Technology Ltd",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 113
+      "event_count": 115
     },
     {
       "asn": "AS202412",
@@ -295,16 +295,16 @@
     {
       "asn": "AS215925",
       "name": "VPSVAULT.HOST LTD",
-      "country": "NL",
-      "ip_count": 4,
-      "event_count": 84
+      "country": "BR",
+      "ip_count": 5,
+      "event_count": 86
     },
     {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 81
+      "event_count": 82
     },
     {
       "asn": "AS16509",
