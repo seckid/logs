@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-05T13:01:57.580289Z",
+  "generated_at": "2026-03-05T14:01:57.576789Z",
   "period_days": 90,
-  "total_events": 3792,
-  "unique_ips": 549,
+  "total_events": 3801,
+  "unique_ips": 550,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 1925,
-    "fortipot": 1867
+    "centrestackpot": 1933,
+    "fortipot": 1868
   },
   "events_per_day": {
     "2026-02-27": {
@@ -43,9 +43,9 @@
       "total": 668
     },
     "2026-03-05": {
-      "fortipot": 165,
-      "centrestackpot": 266,
-      "total": 431
+      "fortipot": 166,
+      "centrestackpot": 274,
+      "total": 440
     }
   },
   "top_credentials": [
@@ -68,7 +68,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 501
+      "count": 505
     },
     {
       "user_agent": "libredtail-http",
@@ -88,7 +88,7 @@
     }
   ],
   "method_counts": {
-    "GET": 3124,
+    "GET": 3131,
     "POST": 246,
     "PROPFIND": 28,
     "CONNECT": 18,
@@ -106,7 +106,7 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 738
+      "count": 743
     },
     {
       "path": "/",
@@ -169,16 +169,6 @@
       "count": 13
     },
     {
-      "path": "/fcck/register",
-      "source": "fortipot",
-      "count": 12
-    },
-    {
-      "path": "/api/v2/monitor/forticlient/registration",
-      "source": "fortipot",
-      "count": 12
-    },
-    {
       "path": "/api/v2/cmdb/system/global",
       "source": "fortipot",
       "count": 12
@@ -189,17 +179,27 @@
       "count": 12
     },
     {
+      "path": "/api/v2/monitor/forticlient/registration",
+      "source": "fortipot",
+      "count": 12
+    },
+    {
+      "path": "/fcck/register",
+      "source": "fortipot",
+      "count": 12
+    },
+    {
       "path": "/api/v2/monitor/license/status",
       "source": "fortipot",
       "count": 11
     },
     {
-      "path": "/api/.env",
+      "path": "/SDK/webLanguage",
       "source": "fortipot",
       "count": 10
     },
     {
-      "path": "/SDK/webLanguage",
+      "path": "/api/v2/cmdb/system/admin",
       "source": "fortipot",
       "count": 10
     }
@@ -255,7 +255,7 @@
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 17,
-      "event_count": 388
+      "event_count": 391
     },
     {
       "asn": "AS202425",
@@ -268,8 +268,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 28,
-      "event_count": 155
+      "ip_count": 29,
+      "event_count": 156
     },
     {
       "asn": "AS6939",
@@ -304,14 +304,14 @@
       "name": "VPSVAULT.HOST LTD",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 107
+      "event_count": 108
     },
     {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 96
+      "event_count": 97
     },
     {
       "asn": "AS16509",
@@ -339,7 +339,7 @@
       "name": "Akamai Connected Cloud",
       "country": "US",
       "ip_count": 16,
-      "event_count": 74
+      "event_count": 75
     },
     {
       "asn": "AS46664",
