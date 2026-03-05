@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-05T15:03:57.602408Z",
+  "generated_at": "2026-03-05T16:04:04.853120Z",
   "period_days": 90,
-  "total_events": 3829,
-  "unique_ips": 555,
+  "total_events": 3869,
+  "unique_ips": 561,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 1951,
-    "fortipot": 1878
+    "centrestackpot": 1977,
+    "fortipot": 1892
   },
   "events_per_day": {
     "2026-02-27": {
@@ -43,9 +43,9 @@
       "total": 668
     },
     "2026-03-05": {
-      "fortipot": 176,
-      "centrestackpot": 292,
-      "total": 468
+      "fortipot": 190,
+      "centrestackpot": 318,
+      "total": 508
     }
   },
   "top_credentials": [
@@ -68,7 +68,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 511
+      "count": 516
     },
     {
       "user_agent": "libredtail-http",
@@ -88,11 +88,11 @@
     }
   ],
   "method_counts": {
-    "GET": 3152,
-    "POST": 246,
-    "PROPFIND": 28,
+    "GET": 3182,
+    "POST": 247,
+    "PROPFIND": 30,
     "CONNECT": 18,
-    "PRI": 7,
+    "PRI": 8,
     "HEAD": 7,
     "OPTIONS": 6,
     "SSTP_DUPLEX_POST": 2,
@@ -106,17 +106,17 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 755
+      "count": 767
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 209
+      "count": 216
     },
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot",
-      "count": 160
+      "count": 165
     },
     {
       "path": "/SDK/webLanguage",
@@ -126,7 +126,7 @@
     {
       "path": "/favicon.ico",
       "source": "centrestackpot",
-      "count": 69
+      "count": 73
     },
     {
       "path": "/favicon.ico",
@@ -169,6 +169,11 @@
       "count": 13
     },
     {
+      "path": "/api/v2/cmdb/system/global",
+      "source": "fortipot",
+      "count": 12
+    },
+    {
       "path": "/fcck/register",
       "source": "fortipot",
       "count": 12
@@ -184,22 +189,17 @@
       "count": 12
     },
     {
-      "path": "/api/v2/cmdb/system/global",
-      "source": "fortipot",
-      "count": 12
-    },
-    {
       "path": "/api/v2/monitor/license/status",
       "source": "fortipot",
       "count": 11
     },
     {
-      "path": "/api/v2/cmdb/system/admin",
+      "path": "/SDK/webLanguage",
       "source": "fortipot",
       "count": 10
     },
     {
-      "path": "/SDK/webLanguage",
+      "path": "/api/.env",
       "source": "fortipot",
       "count": 10
     }
@@ -254,15 +254,15 @@
       "asn": "AS51396",
       "name": "Pfcloud UG",
       "country": "NL",
-      "ip_count": 17,
-      "event_count": 395
+      "ip_count": 18,
+      "event_count": 403
     },
     {
       "asn": "AS202425",
       "name": "IP Volume inc",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 260
+      "event_count": 261
     },
     {
       "asn": "AS8075",
@@ -282,8 +282,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 42,
-      "event_count": 118
+      "ip_count": 43,
+      "event_count": 120
     },
     {
       "asn": "AS206264",
@@ -304,34 +304,34 @@
       "name": "VPSVAULT.HOST LTD",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 111
+      "event_count": 112
     },
     {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 98
+      "event_count": 99
     },
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 29,
-      "event_count": 90
+      "ip_count": 30,
+      "event_count": 94
+    },
+    {
+      "asn": "AS132203",
+      "name": "Tencent Building, Kejizhongyi Avenue",
+      "country": "US",
+      "ip_count": 34,
+      "event_count": 81
     },
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
       "ip_count": 37,
-      "event_count": 77
-    },
-    {
-      "asn": "AS132203",
-      "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "US",
-      "ip_count": 33,
       "event_count": 77
     },
     {
