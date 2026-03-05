@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-05T11:02:57.581950Z",
+  "generated_at": "2026-03-05T12:04:57.578159Z",
   "period_days": 90,
-  "total_events": 3710,
-  "unique_ips": 544,
+  "total_events": 3782,
+  "unique_ips": 549,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 1872,
-    "fortipot": 1838
+    "centrestackpot": 1919,
+    "fortipot": 1863
   },
   "events_per_day": {
     "2026-02-27": {
@@ -43,9 +43,9 @@
       "total": 668
     },
     "2026-03-05": {
-      "fortipot": 136,
-      "centrestackpot": 213,
-      "total": 349
+      "fortipot": 161,
+      "centrestackpot": 260,
+      "total": 421
     }
   },
   "top_credentials": [
@@ -68,11 +68,11 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 493
+      "count": 497
     },
     {
       "user_agent": "libredtail-http",
-      "count": 470
+      "count": 486
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
@@ -88,8 +88,8 @@
     }
   ],
   "method_counts": {
-    "GET": 3052,
-    "POST": 240,
+    "GET": 3115,
+    "POST": 246,
     "PROPFIND": 28,
     "CONNECT": 18,
     "PRI": 7,
@@ -106,17 +106,17 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 725
+      "count": 733
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 203
+      "count": 205
     },
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot",
-      "count": 156
+      "count": 158
     },
     {
       "path": "/SDK/webLanguage",
@@ -126,7 +126,7 @@
     {
       "path": "/favicon.ico",
       "source": "centrestackpot",
-      "count": 67
+      "count": 68
     },
     {
       "path": "/favicon.ico",
@@ -141,7 +141,7 @@
     {
       "path": "/.env",
       "source": "centrestackpot",
-      "count": 20
+      "count": 21
     },
     {
       "path": "/.git/config",
@@ -169,16 +169,6 @@
       "count": 13
     },
     {
-      "path": "/api/v2/monitor/forticlient/registration",
-      "source": "fortipot",
-      "count": 12
-    },
-    {
-      "path": "/fpc/register",
-      "source": "fortipot",
-      "count": 12
-    },
-    {
       "path": "/fcck/register",
       "source": "fortipot",
       "count": 12
@@ -189,17 +179,27 @@
       "count": 12
     },
     {
+      "path": "/api/v2/monitor/forticlient/registration",
+      "source": "fortipot",
+      "count": 12
+    },
+    {
+      "path": "/fpc/register",
+      "source": "fortipot",
+      "count": 12
+    },
+    {
       "path": "/api/v2/monitor/license/status",
       "source": "fortipot",
       "count": 11
     },
     {
-      "path": "/api/.env",
+      "path": "/SDK/webLanguage",
       "source": "fortipot",
       "count": 10
     },
     {
-      "path": "/api/v2/cmdb/system/admin",
+      "path": "/api/.env",
       "source": "fortipot",
       "count": 10
     }
@@ -223,7 +223,7 @@
     },
     {
       "cve": "CVE-2018-13379",
-      "count": 3,
+      "count": 4,
       "sources": [
         "fortipot"
       ],
@@ -233,9 +233,11 @@
       "sample_ips": [
         "109.70.100.8",
         "152.32.162.142",
-        "192.42.116.17"
+        "192.42.116.17",
+        "91.92.243.223"
       ],
       "sample_paths": [
+        "/remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession",
         "/sslvpn/js/login.js?q=507e35a9d9c89c8817a0723ad6dcfe36"
       ]
     }
@@ -244,7 +246,7 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "GB",
       "ip_count": 44,
       "event_count": 653
     },
@@ -253,7 +255,7 @@
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 17,
-      "event_count": 382
+      "event_count": 385
     },
     {
       "asn": "AS202425",
@@ -286,9 +288,9 @@
     {
       "asn": "AS202412",
       "name": "Omegatech LTD",
-      "country": "NL",
-      "ip_count": 4,
-      "event_count": 116
+      "country": "DE",
+      "ip_count": 5,
+      "event_count": 117
     },
     {
       "asn": "AS14618",
@@ -300,23 +302,30 @@
     {
       "asn": "AS215925",
       "name": "VPSVAULT.HOST LTD",
-      "country": "BR",
+      "country": "NL",
       "ip_count": 5,
-      "event_count": 103
+      "event_count": 105
     },
     {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 94
+      "event_count": 95
     },
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 29,
-      "event_count": 87
+      "event_count": 88
+    },
+    {
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
+      "country": "US",
+      "ip_count": 37,
+      "event_count": 77
     },
     {
       "asn": "AS132203",
@@ -326,18 +335,18 @@
       "event_count": 77
     },
     {
-      "asn": "AS14061",
-      "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 36,
-      "event_count": 76
-    },
-    {
       "asn": "AS63949",
       "name": "Akamai Connected Cloud",
-      "country": "GB",
+      "country": "US",
       "ip_count": 16,
       "event_count": 72
+    },
+    {
+      "asn": "AS46664",
+      "name": "VolumeDrive",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 70
     },
     {
       "asn": "AS52053",
@@ -361,9 +370,9 @@
       "event_count": 50
     },
     {
-      "asn": "AS215540",
-      "name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
-      "country": "NL",
+      "asn": "AS6327",
+      "name": "Shaw Communications",
+      "country": "CA",
       "ip_count": 1,
       "event_count": 46
     },
@@ -371,13 +380,6 @@
       "asn": "AS31898",
       "name": "Oracle Corporation",
       "country": "DE",
-      "ip_count": 1,
-      "event_count": 46
-    },
-    {
-      "asn": "AS6327",
-      "name": "Shaw Communications",
-      "country": "CA",
       "ip_count": 1,
       "event_count": 46
     }
