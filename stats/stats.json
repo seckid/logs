@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-05T17:01:27.600095Z",
+  "generated_at": "2026-03-05T18:01:27.678768Z",
   "period_days": 90,
-  "total_events": 3982,
-  "unique_ips": 566,
+  "total_events": 4008,
+  "unique_ips": 568,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 2088,
-    "fortipot": 1894
+    "centrestackpot": 2110,
+    "fortipot": 1898
   },
   "events_per_day": {
     "2026-02-27": {
@@ -43,9 +43,9 @@
       "total": 668
     },
     "2026-03-05": {
-      "fortipot": 192,
-      "centrestackpot": 429,
-      "total": 621
+      "fortipot": 196,
+      "centrestackpot": 451,
+      "total": 647
     }
   },
   "top_credentials": [
@@ -72,11 +72,11 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 520
+      "count": 524
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
-      "count": 300
+      "count": 301
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Firefox/121.0",
@@ -88,9 +88,9 @@
     }
   ],
   "method_counts": {
-    "GET": 3236,
-    "POST": 305,
-    "PROPFIND": 30,
+    "GET": 3260,
+    "POST": 306,
+    "PROPFIND": 31,
     "CONNECT": 18,
     "PRI": 8,
     "HEAD": 7,
@@ -106,17 +106,17 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 775
+      "count": 786
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 216
+      "count": 220
     },
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot",
-      "count": 168
+      "count": 171
     },
     {
       "path": "/SDK/webLanguage",
@@ -126,7 +126,7 @@
     {
       "path": "/favicon.ico",
       "source": "centrestackpot",
-      "count": 73
+      "count": 74
     },
     {
       "path": "/favicon.ico",
@@ -169,22 +169,22 @@
       "count": 13
     },
     {
-      "path": "/api/v2/cmdb/system/global",
-      "source": "fortipot",
-      "count": 12
-    },
-    {
       "path": "/fpc/register",
       "source": "fortipot",
       "count": 12
     },
     {
-      "path": "/fcck/register",
+      "path": "/api/v2/cmdb/system/global",
       "source": "fortipot",
       "count": 12
     },
     {
       "path": "/api/v2/monitor/forticlient/registration",
+      "source": "fortipot",
+      "count": 12
+    },
+    {
+      "path": "/fcck/register",
       "source": "fortipot",
       "count": 12
     },
@@ -199,8 +199,8 @@
       "count": 11
     },
     {
-      "path": "/SDK/webLanguage",
-      "source": "fortipot",
+      "path": "/vendor/phpunit/src/Util/PHP/eval-stdin.php",
+      "source": "centrestackpot",
       "count": 10
     }
   ],
@@ -255,14 +255,14 @@
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 19,
-      "event_count": 407
+      "event_count": 411
     },
     {
       "asn": "AS202425",
       "name": "IP Volume inc",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 315
+      "event_count": 316
     },
     {
       "asn": "AS8075",
@@ -304,14 +304,14 @@
       "name": "VPSVAULT.HOST LTD",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 113
+      "event_count": 114
     },
     {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 100
+      "event_count": 101
     },
     {
       "asn": "AS16509",
