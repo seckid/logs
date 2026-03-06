@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-06T00:02:27.620049Z",
+  "generated_at": "2026-03-06T01:03:27.664387Z",
   "period_days": 90,
-  "total_events": 4870,
-  "unique_ips": 646,
+  "total_events": 5022,
+  "unique_ips": 656,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 2224,
-    "fortipot": 2646
+    "centrestackpot": 2235,
+    "fortipot": 2787
   },
   "events_per_day": {
     "2026-02-27": {
@@ -48,25 +48,26 @@
       "total": 1507
     },
     "2026-03-06": {
-      "fortipot": 2,
-      "total": 2
+      "fortipot": 143,
+      "centrestackpot": 11,
+      "total": 154
     }
   },
   "top_credentials": [
     {
       "username": "administrator",
       "password": "(empty)",
-      "count": 45
-    },
-    {
-      "username": "admin",
-      "password": "(empty)",
-      "count": 18
+      "count": 55
     },
     {
       "username": "user",
       "password": "(empty)",
-      "count": 14
+      "count": 20
+    },
+    {
+      "username": "admin",
+      "password": "(empty)",
+      "count": 19
     },
     {
       "username": "TESTCREDS",
@@ -79,12 +80,17 @@
       "count": 6
     },
     {
-      "username": "richard",
+      "username": "usuario",
+      "password": "(empty)",
+      "count": 4
+    },
+    {
+      "username": "guest",
       "password": "(empty)",
       "count": 3
     },
     {
-      "username": "guest",
+      "username": "richard",
       "password": "(empty)",
       "count": 3
     },
@@ -94,82 +100,7 @@
       "count": 3
     },
     {
-      "username": "usuario",
-      "password": "(empty)",
-      "count": 3
-    },
-    {
-      "username": "convidado",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "chirag",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "audit",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "remote",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "invitado",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "eduardo",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "jessie",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "kainat",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "123",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "chaz",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "ashish",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "rahul",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "sanjay",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "backup",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "john",
+      "username": "chris",
       "password": "(empty)",
       "count": 2
     },
@@ -179,7 +110,7 @@
       "count": 2
     },
     {
-      "username": "gast",
+      "username": "audit",
       "password": "(empty)",
       "count": 2
     },
@@ -189,17 +120,12 @@
       "count": 2
     },
     {
-      "username": "jsmith",
+      "username": "chirag",
       "password": "(empty)",
       "count": 2
     },
     {
-      "username": "chris",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "office",
+      "username": "123",
       "password": "(empty)",
       "count": 2
     },
@@ -209,97 +135,172 @@
       "count": 2
     },
     {
+      "username": "printer",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "kiran",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "jsmith",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "invitado",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "john",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "ashish",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "backup",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "ops",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "chaz",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "anjali",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "rahul",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "jessie",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "office",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "sanjay",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "kainat",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "eduardo",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "gast",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
       "username": "ups",
       "password": "(empty)",
       "count": 2
     },
     {
-      "username": "park",
+      "username": "remote",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "convidado",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "mateus",
       "password": "(empty)",
       "count": 1
     },
     {
-      "username": "smk01",
+      "username": "gopal",
       "password": "(empty)",
       "count": 1
     },
     {
-      "username": "eureca1",
+      "username": "sysadmin",
       "password": "(empty)",
       "count": 1
     },
     {
-      "username": "generico",
+      "username": "joaquin",
       "password": "(empty)",
       "count": 1
     },
     {
-      "username": "barbara",
+      "username": "jtrenn",
       "password": "(empty)",
       "count": 1
     },
     {
-      "username": "maxence",
+      "username": "michele",
       "password": "(empty)",
       "count": 1
     },
     {
-      "username": "captura",
+      "username": "enk",
       "password": "(empty)",
       "count": 1
     },
     {
-      "username": "enrique",
+      "username": "rick",
       "password": "(empty)",
       "count": 1
     },
     {
-      "username": "ldap",
+      "username": "snxcit",
       "password": "(empty)",
       "count": 1
     },
     {
-      "username": "nouri",
+      "username": "cbrown",
       "password": "(empty)",
       "count": 1
     },
     {
-      "username": "warranty",
+      "username": "ywc",
       "password": "(empty)",
       "count": 1
     },
     {
-      "username": "nevintec",
+      "username": "maria",
       "password": "(empty)",
       "count": 1
     },
     {
-      "username": "sanchez",
+      "username": "cynthia",
       "password": "(empty)",
       "count": 1
     },
     {
-      "username": "kasa2",
-      "password": "(empty)",
-      "count": 1
-    },
-    {
-      "username": "lara",
-      "password": "(empty)",
-      "count": 1
-    },
-    {
-      "username": "vpnuser",
-      "password": "(empty)",
-      "count": 1
-    },
-    {
-      "username": "kanokwan",
-      "password": "(empty)",
-      "count": 1
-    },
-    {
-      "username": "demouser",
+      "username": "backupdb",
       "password": "(empty)",
       "count": 1
     }
@@ -307,11 +308,11 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 720
+      "count": 825
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 560
+      "count": 565
     },
     {
       "user_agent": "libredtail-http",
@@ -327,9 +328,9 @@
     }
   ],
   "method_counts": {
-    "GET": 3412,
-    "POST": 931,
-    "PROPFIND": 35,
+    "GET": 3441,
+    "POST": 1035,
+    "PROPFIND": 36,
     "CONNECT": 18,
     "PRI": 9,
     "HEAD": 7,
@@ -345,27 +346,27 @@
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 838
+      "count": 844
     },
     {
       "path": "/logincheck",
       "source": "fortipot",
-      "count": 627
+      "count": 731
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 243
+      "count": 249
     },
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot",
-      "count": 183
+      "count": 184
     },
     {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
-      "count": 112
+      "count": 113
     },
     {
       "path": "/favicon.ico",
@@ -375,7 +376,7 @@
     {
       "path": "/favicon.ico",
       "source": "fortipot",
-      "count": 31
+      "count": 32
     },
     {
       "path": "/.env",
@@ -390,7 +391,7 @@
     {
       "path": "/.git/config",
       "source": "fortipot",
-      "count": 21
+      "count": 22
     },
     {
       "path": "/index.php",
@@ -413,7 +414,7 @@
       "count": 14
     },
     {
-      "path": "/api/v2/monitor/forticlient/registration",
+      "path": "/fpc/register",
       "source": "fortipot",
       "count": 12
     },
@@ -423,18 +424,18 @@
       "count": 12
     },
     {
-      "path": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "source": "centrestackpot",
-      "count": 12
-    },
-    {
-      "path": "/fpc/register",
+      "path": "/api/v2/monitor/forticlient/registration",
       "source": "fortipot",
       "count": 12
     },
     {
       "path": "/fcck/register",
       "source": "fortipot",
+      "count": 12
+    },
+    {
+      "path": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "source": "centrestackpot",
       "count": 12
     },
     {
@@ -483,25 +484,25 @@
   ],
   "top_asns": [
     {
-      "asn": "AS396982",
-      "name": "Google LLC",
-      "country": "US",
-      "ip_count": 47,
-      "event_count": 657
-    },
-    {
       "asn": "AS211736",
       "name": "FOP Dmytro Nedilskyi",
       "country": "NL",
       "ip_count": 7,
-      "event_count": 626
+      "event_count": 730
+    },
+    {
+      "asn": "AS396982",
+      "name": "Google LLC",
+      "country": "TW",
+      "ip_count": 51,
+      "event_count": 661
     },
     {
       "asn": "AS51396",
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 19,
-      "event_count": 438
+      "event_count": 443
     },
     {
       "asn": "AS202425",
@@ -514,8 +515,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 54,
-      "event_count": 185
+      "ip_count": 55,
+      "event_count": 204
     },
     {
       "asn": "AS8075",
@@ -528,22 +529,22 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "ip_count": 38,
-      "event_count": 129
+      "ip_count": 42,
+      "event_count": 143
     },
     {
       "asn": "AS206264",
       "name": "Amarutu Technology Ltd",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 126
+      "event_count": 127
     },
     {
       "asn": "AS215925",
       "name": "VPSVAULT.HOST LTD",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 122
+      "event_count": 123
     },
     {
       "asn": "AS202412",
@@ -557,7 +558,7 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 108
+      "event_count": 109
     },
     {
       "asn": "AS16509",
@@ -616,9 +617,9 @@
       "event_count": 50
     },
     {
-      "asn": "AS6327",
-      "name": "Shaw Communications",
-      "country": "CA",
+      "asn": "AS35179",
+      "name": "Korbank S. A.",
+      "country": "PL",
       "ip_count": 1,
       "event_count": 46
     }
