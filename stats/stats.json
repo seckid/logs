@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-08T07:50:35.751424Z",
+  "generated_at": "2026-03-08T08:01:33.693143Z",
   "period_days": 90,
-  "total_events": 8675,
-  "unique_ips": 762,
+  "total_events": 8898,
+  "unique_ips": 796,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 2876,
-    "fortipot": 5799
+    "centrestackpot": 3080,
+    "fortipot": 5818
   },
   "events_per_day": {
     "2026-02-27": {
@@ -58,9 +58,9 @@
       "total": 287
     },
     "2026-03-08": {
-      "centrestackpot": 15,
-      "fortipot": 67,
-      "total": 82
+      "centrestackpot": 219,
+      "fortipot": 86,
+      "total": 305
     }
   },
   "top_credentials": [
@@ -70,22 +70,22 @@
       "count": 13
     },
     {
-      "username": "administrator",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "invitado",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
       "username": "kainat",
       "password": "1234",
       "count": 2
     },
     {
       "username": "gast",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "administrator",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "invitado",
       "password": "(empty)",
       "count": 2
     },
@@ -103,6 +103,11 @@
       "username": "chaz",
       "password": "1984",
       "count": 2
+    },
+    {
+      "username": "roger",
+      "password": "1234",
+      "count": 1
     },
     {
       "username": "gelisim",
@@ -205,6 +210,11 @@
       "count": 1
     },
     {
+      "username": "alfredo",
+      "password": "Alfredo123",
+      "count": 1
+    },
+    {
       "username": "morozova",
       "password": "123456789",
       "count": 1
@@ -303,30 +313,20 @@
       "username": "qasadm",
       "password": "qasadm",
       "count": 1
-    },
-    {
-      "username": "administrator",
-      "password": "1qazxcvbnm%2C.%2F",
-      "count": 1
-    },
-    {
-      "username": "joshi",
-      "password": "123",
-      "count": 1
     }
   ],
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 3410
+      "count": 3434
     },
     {
       "user_agent": "libredtail-http",
-      "count": 854
+      "count": 946
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 703
+      "count": 733
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
@@ -338,12 +338,12 @@
     }
   ],
   "method_counts": {
-    "GET": 4238,
-    "POST": 3767,
+    "GET": 4419,
+    "POST": 3794,
     "PROPFIND": 47,
-    "CONNECT": 19,
+    "CONNECT": 21,
     "HEAD": 14,
-    "PRI": 10,
+    "PRI": 11,
     "OPTIONS": 10,
     "SSTP_DUPLEX_POST": 3,
     ":\u0000\u0000\u0000/\u0000\u0000\u0000\u0002\u0000\u0000@\u0002\u000f\u0000\u0001\u0000=\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000/\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@": 2,
@@ -356,12 +356,12 @@
     {
       "path": "/logincheck",
       "source": "fortipot",
-      "count": 3308
+      "count": 3327
     },
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 1038
+      "count": 1100
     },
     {
       "path": "/",
@@ -371,17 +371,22 @@
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot",
-      "count": 226
+      "count": 240
     },
     {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
-      "count": 139
+      "count": 146
     },
     {
       "path": "/favicon.ico",
       "source": "centrestackpot",
-      "count": 90
+      "count": 96
+    },
+    {
+      "path": "/index.php",
+      "source": "centrestackpot",
+      "count": 39
     },
     {
       "path": "/favicon.ico",
@@ -389,23 +394,18 @@
       "count": 36
     },
     {
-      "path": "/index.php",
-      "source": "centrestackpot",
-      "count": 33
-    },
-    {
       "path": "/.env",
       "source": "fortipot",
       "count": 30
     },
     {
-      "path": "/.git/config",
-      "source": "fortipot",
-      "count": 26
-    },
-    {
       "path": "/.env",
       "source": "centrestackpot",
+      "count": 27
+    },
+    {
+      "path": "/.git/config",
+      "source": "fortipot",
       "count": 26
     },
     {
@@ -416,7 +416,17 @@
     {
       "path": "443",
       "source": "centrestackpot",
-      "count": 18
+      "count": 20
+    },
+    {
+      "path": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "source": "centrestackpot",
+      "count": 19
+    },
+    {
+      "path": "/vendor/phpunit/Util/PHP/eval-stdin.php",
+      "source": "centrestackpot",
+      "count": 17
     },
     {
       "path": "/Dr0v",
@@ -424,34 +434,24 @@
       "count": 17
     },
     {
-      "path": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "path": "/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php",
       "source": "centrestackpot",
       "count": 17
     },
     {
-      "path": "/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php",
-      "source": "centrestackpot",
-      "count": 15
-    },
-    {
       "path": "/vendor/phpunit/src/Util/PHP/eval-stdin.php",
       "source": "centrestackpot",
-      "count": 15
+      "count": 17
     },
     {
-      "path": "/vendor/phpunit/Util/PHP/eval-stdin.php",
+      "path": "/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
       "source": "centrestackpot",
-      "count": 15
+      "count": 16
     },
     {
-      "path": "/robots.txt",
-      "source": "fortipot",
-      "count": 14
-    },
-    {
-      "path": "/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "path": "/cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
       "source": "centrestackpot",
-      "count": 14
+      "count": 16
     }
   ],
   "cve_attempts": [
@@ -499,28 +499,28 @@
       "name": "FOP Dmytro Nedilskyi",
       "country": "NL",
       "ip_count": 7,
-      "event_count": 3305
+      "event_count": 3324
     },
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
-      "ip_count": 65,
-      "event_count": 758
+      "country": "GB",
+      "ip_count": 69,
+      "event_count": 764
     },
     {
       "asn": "AS51396",
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 19,
-      "event_count": 542
+      "event_count": 566
     },
     {
       "asn": "AS202425",
       "name": "IP Volume inc",
       "country": "NL",
       "ip_count": 6,
-      "event_count": 430
+      "event_count": 431
     },
     {
       "asn": "AS14618",
@@ -528,6 +528,13 @@
       "country": "US",
       "ip_count": 64,
       "event_count": 235
+    },
+    {
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
+      "country": "US",
+      "ip_count": 51,
+      "event_count": 184
     },
     {
       "asn": "AS6939",
@@ -548,49 +555,49 @@
       "name": "Amarutu Technology Ltd",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 156
+      "event_count": 163
     },
     {
       "asn": "AS215925",
       "name": "VPSVAULT.HOST LTD",
       "country": "NL",
-      "ip_count": 6,
-      "event_count": 150
+      "ip_count": 7,
+      "event_count": 152
     },
     {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 139
-    },
-    {
-      "asn": "AS14061",
-      "name": "DigitalOcean, LLC",
-      "country": "CA",
-      "ip_count": 49,
-      "event_count": 137
-    },
-    {
-      "asn": "AS16509",
-      "name": "Amazon.com, Inc.",
-      "country": "DE",
-      "ip_count": 37,
-      "event_count": 132
+      "event_count": 145
     },
     {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
       "country": "HK",
-      "ip_count": 5,
-      "event_count": 124
+      "ip_count": 6,
+      "event_count": 135
+    },
+    {
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "SG",
+      "ip_count": 37,
+      "event_count": 132
     },
     {
       "asn": "AS202412",
       "name": "Omegatech LTD",
-      "country": "DE",
+      "country": "NL",
       "ip_count": 5,
       "event_count": 118
+    },
+    {
+      "asn": "AS132203",
+      "name": "Tencent Building, Kejizhongyi Avenue",
+      "country": "DE",
+      "ip_count": 43,
+      "event_count": 101
     },
     {
       "asn": "AS51167",
@@ -598,13 +605,6 @@
       "country": "FR",
       "ip_count": 5,
       "event_count": 98
-    },
-    {
-      "asn": "AS132203",
-      "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "KR",
-      "ip_count": 41,
-      "event_count": 97
     },
     {
       "asn": "AS56046",
