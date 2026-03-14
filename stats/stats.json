@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-14T08:04:08.439105Z",
+  "generated_at": "2026-03-14T09:02:17.329737Z",
   "period_days": 90,
-  "total_events": 20238,
-  "unique_ips": 1302,
+  "total_events": 20276,
+  "unique_ips": 1304,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 5187,
-    "fortipot": 15051
+    "centrestackpot": 5194,
+    "fortipot": 15082
   },
   "events_per_day": {
     "2026-02-27": {
@@ -88,9 +88,9 @@
       "total": 1763
     },
     "2026-03-14": {
-      "centrestackpot": 127,
-      "fortipot": 503,
-      "total": 630
+      "centrestackpot": 134,
+      "fortipot": 534,
+      "total": 668
     }
   },
   "top_credentials": [
@@ -98,6 +98,26 @@
       "username": "TESTCREDS",
       "password": "RIRIRIIRIRI",
       "count": 25
+    },
+    {
+      "username": "invitado",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "kainat",
+      "password": "1234",
+      "count": 2
+    },
+    {
+      "username": "gast",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "administrator",
+      "password": "(empty)",
+      "count": 2
     },
     {
       "username": "convidado",
@@ -110,29 +130,34 @@
       "count": 2
     },
     {
-      "username": "administrator",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "kainat",
-      "password": "1234",
-      "count": 2
-    },
-    {
       "username": "chaz",
       "password": "1984",
       "count": 2
     },
     {
-      "username": "invitado",
-      "password": "(empty)",
-      "count": 2
+      "username": "admin",
+      "password": "casa",
+      "count": 1
     },
     {
-      "username": "gast",
-      "password": "(empty)",
-      "count": 2
+      "username": "shields",
+      "password": "shields",
+      "count": 1
+    },
+    {
+      "username": "scan",
+      "password": "P@ssw0rdS2012",
+      "count": 1
+    },
+    {
+      "username": "best",
+      "password": "best",
+      "count": 1
+    },
+    {
+      "username": "togge",
+      "password": "123",
+      "count": 1
     },
     {
       "username": "bonimachi",
@@ -200,28 +225,28 @@
       "count": 1
     },
     {
-      "username": "eb",
-      "password": "eb123!",
+      "username": "mediacloud",
+      "password": "M3diacloud",
       "count": 1
     },
     {
-      "username": "wilson",
-      "password": "12",
+      "username": "farmacie",
+      "password": "farmacie",
       "count": 1
     },
     {
-      "username": "maxi",
-      "password": "Maxi2023",
+      "username": "edgeware",
+      "password": "edgeware",
       "count": 1
     },
     {
-      "username": "nat",
-      "password": "20172017",
+      "username": "leclerc",
+      "password": "leclerc1",
       "count": 1
     },
     {
-      "username": "laboral",
-      "password": "laboral",
+      "username": "ctrls",
+      "password": "welcome@123",
       "count": 1
     },
     {
@@ -305,50 +330,25 @@
       "count": 1
     },
     {
-      "username": "admin",
-      "password": "casa",
+      "username": "alsancak",
+      "password": "ALSANCAK@2020",
       "count": 1
     },
     {
-      "username": "shields",
-      "password": "shields",
+      "username": "ana",
+      "password": "ana@2023",
       "count": 1
     },
     {
-      "username": "scan",
-      "password": "P@ssw0rdS2012",
-      "count": 1
-    },
-    {
-      "username": "best",
-      "password": "best",
-      "count": 1
-    },
-    {
-      "username": "togge",
-      "password": "123",
-      "count": 1
-    },
-    {
-      "username": "library",
-      "password": "(empty)",
-      "count": 1
-    },
-    {
-      "username": "harald",
-      "password": "123456",
-      "count": 1
-    },
-    {
-      "username": "bio",
-      "password": "bio",
+      "username": "ftpuser",
+      "password": "P@55w0rdS2012",
       "count": 1
     }
   ],
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 11346
+      "count": 11375
     },
     {
       "user_agent": "libredtail-http",
@@ -356,7 +356,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 1153
+      "count": 1154
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
@@ -368,11 +368,11 @@
     }
   ],
   "method_counts": {
-    "POST": 11756,
-    "GET": 7379,
+    "POST": 11786,
+    "GET": 7383,
     "PROPFIND": 57,
     "CONNECT": 26,
-    "HEAD": 22,
+    "HEAD": 24,
     "PRI": 21,
     "OPTIONS": 15,
     "SSTP_DUPLEX_POST": 6,
@@ -387,17 +387,17 @@
     {
       "path": "/logincheck",
       "source": "fortipot",
-      "count": 11185
+      "count": 11213
     },
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 1873
+      "count": 1878
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 451
+      "count": 452
     },
     {
       "path": "/portal/loginpage.aspx",
@@ -571,7 +571,7 @@
       "name": "FOP Dmytro Nedilskyi",
       "country": "NL",
       "ip_count": 8,
-      "event_count": 11183
+      "event_count": 11211
     },
     {
       "asn": "AS396982",
@@ -585,7 +585,7 @@
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 23,
-      "event_count": 848
+      "event_count": 854
     },
     {
       "asn": "AS202425",
@@ -605,8 +605,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 122,
-      "event_count": 346
+      "ip_count": 123,
+      "event_count": 347
     },
     {
       "asn": "AS6939",
@@ -620,7 +620,7 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 4,
-      "event_count": 270
+      "event_count": 271
     },
     {
       "asn": "AS8075",
