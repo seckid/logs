@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-14T04:03:25.175351Z",
+  "generated_at": "2026-03-14T05:02:11.285565Z",
   "period_days": 90,
-  "total_events": 20063,
-  "unique_ips": 1292,
+  "total_events": 20108,
+  "unique_ips": 1293,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 5149,
-    "fortipot": 14914
+    "centrestackpot": 5156,
+    "fortipot": 14952
   },
   "events_per_day": {
     "2026-02-27": {
@@ -88,9 +88,9 @@
       "total": 1763
     },
     "2026-03-14": {
-      "centrestackpot": 89,
-      "fortipot": 366,
-      "total": 455
+      "centrestackpot": 96,
+      "fortipot": 404,
+      "total": 500
     }
   },
   "top_credentials": [
@@ -100,22 +100,12 @@
       "count": 25
     },
     {
-      "username": "invitado",
-      "password": "(empty)",
-      "count": 2
-    },
-    {
-      "username": "chaz",
-      "password": "1984",
-      "count": 2
-    },
-    {
       "username": "kainat",
       "password": "1234",
       "count": 2
     },
     {
-      "username": "administrator",
+      "username": "invitado",
       "password": "(empty)",
       "count": 2
     },
@@ -125,7 +115,7 @@
       "count": 2
     },
     {
-      "username": "guest",
+      "username": "administrator",
       "password": "(empty)",
       "count": 2
     },
@@ -133,6 +123,31 @@
       "username": "gast",
       "password": "(empty)",
       "count": 2
+    },
+    {
+      "username": "chaz",
+      "password": "1984",
+      "count": 2
+    },
+    {
+      "username": "guest",
+      "password": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "balcao5",
+      "password": "12345",
+      "count": 1
+    },
+    {
+      "username": "kpis_admin",
+      "password": "Kpis_Admin",
+      "count": 1
+    },
+    {
+      "username": "kkouseris",
+      "password": "kkouseris",
+      "count": 1
     },
     {
       "username": "104",
@@ -190,11 +205,6 @@
       "count": 1
     },
     {
-      "username": "bio",
-      "password": "bio",
-      "count": 1
-    },
-    {
       "username": "ftpuser",
       "password": "P@55w0rdS2012",
       "count": 1
@@ -205,18 +215,23 @@
       "count": 1
     },
     {
-      "username": "despacho1",
-      "password": "despacho1",
+      "username": "togge",
+      "password": "123",
       "count": 1
     },
     {
-      "username": "harald",
-      "password": "123456",
+      "username": "bonimachi",
+      "password": "bonimachi",
       "count": 1
     },
     {
-      "username": "library",
-      "password": "(empty)",
+      "username": "super",
+      "password": "super123",
+      "count": 1
+    },
+    {
+      "username": "finance",
+      "password": "finance.123",
       "count": 1
     },
     {
@@ -320,35 +335,20 @@
       "count": 1
     },
     {
-      "username": "balcao5",
-      "password": "12345",
+      "username": "sekreter",
+      "password": "SEKRETER",
       "count": 1
     },
     {
-      "username": "kpis_admin",
-      "password": "Kpis_Admin",
-      "count": 1
-    },
-    {
-      "username": "kkouseris",
-      "password": "kkouseris",
-      "count": 1
-    },
-    {
-      "username": "profitcom",
-      "password": "P@ssw0rd",
-      "count": 1
-    },
-    {
-      "username": "administrator",
-      "password": "P@55w0rds2008",
+      "username": "guest1",
+      "password": "123",
       "count": 1
     }
   ],
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 11224
+      "count": 11255
     },
     {
       "user_agent": "libredtail-http",
@@ -356,7 +356,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 1134
+      "count": 1138
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
@@ -368,12 +368,12 @@
     }
   ],
   "method_counts": {
-    "POST": 11636,
-    "GET": 7329,
+    "POST": 11666,
+    "GET": 7342,
     "PROPFIND": 57,
     "CONNECT": 24,
     "HEAD": 22,
-    "PRI": 20,
+    "PRI": 21,
     "OPTIONS": 15,
     "SSTP_DUPLEX_POST": 6,
     "\u0000\u0000\u0000SMBR\u0000\u0000\u0000\u0000\b\u0001@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0006\u0000\u0000\u0001\u0000\u0000\u0000\u0002PC": 3,
@@ -387,17 +387,17 @@
     {
       "path": "/logincheck",
       "source": "fortipot",
-      "count": 11065
+      "count": 11095
     },
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 1849
+      "count": 1854
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 445
+      "count": 448
     },
     {
       "path": "/portal/loginpage.aspx",
@@ -407,7 +407,7 @@
     {
       "path": "/SDK/webLanguage",
       "source": "centrestackpot",
-      "count": 215
+      "count": 216
     },
     {
       "path": "/favicon.ico",
@@ -422,12 +422,12 @@
     {
       "path": "/favicon.ico",
       "source": "fortipot",
-      "count": 62
+      "count": 63
     },
     {
       "path": "/.env",
       "source": "fortipot",
-      "count": 43
+      "count": 44
     },
     {
       "path": "/.env",
@@ -571,21 +571,21 @@
       "name": "FOP Dmytro Nedilskyi",
       "country": "NL",
       "ip_count": 8,
-      "event_count": 11063
+      "event_count": 11093
     },
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "BE",
       "ip_count": 111,
-      "event_count": 1120
+      "event_count": 1121
     },
     {
       "asn": "AS51396",
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 23,
-      "event_count": 835
+      "event_count": 839
     },
     {
       "asn": "AS202425",
@@ -620,7 +620,7 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 4,
-      "event_count": 263
+      "event_count": 266
     },
     {
       "asn": "AS8075",
@@ -634,7 +634,7 @@
       "name": "Amarutu Technology Ltd",
       "country": "NL",
       "ip_count": 3,
-      "event_count": 239
+      "event_count": 240
     },
     {
       "asn": "AS51167",
@@ -682,8 +682,8 @@
       "asn": "AS398324",
       "name": "Censys, Inc.",
       "country": "US",
-      "ip_count": 22,
-      "event_count": 131
+      "ip_count": 23,
+      "event_count": 137
     },
     {
       "asn": "AS202412",
