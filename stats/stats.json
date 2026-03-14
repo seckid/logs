@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-14T11:04:29.450525Z",
+  "generated_at": "2026-03-14T12:05:29.483551Z",
   "period_days": 90,
-  "total_events": 20379,
+  "total_events": 20393,
   "unique_ips": 1322,
   "honeypots": [
     "centrestackpot",
     "fortipot"
   ],
   "totals_by_source": {
-    "centrestackpot": 5228,
-    "fortipot": 15151
+    "centrestackpot": 5238,
+    "fortipot": 15155
   },
   "events_per_day": {
     "2026-02-27": {
@@ -88,9 +88,9 @@
       "total": 1763
     },
     "2026-03-14": {
-      "centrestackpot": 168,
-      "fortipot": 603,
-      "total": 771
+      "centrestackpot": 178,
+      "fortipot": 607,
+      "total": 785
     }
   },
   "top_credentials": [
@@ -110,13 +110,13 @@
       "count": 2
     },
     {
-      "username": "gast",
-      "password": "(empty)",
+      "username": "chaz",
+      "password": "1984",
       "count": 2
     },
     {
-      "username": "chaz",
-      "password": "1984",
+      "username": "gast",
+      "password": "(empty)",
       "count": 2
     },
     {
@@ -133,11 +133,6 @@
       "username": "invitado",
       "password": "(empty)",
       "count": 2
-    },
-    {
-      "username": "justyna",
-      "password": "Justyna",
-      "count": 1
     },
     {
       "username": "dicasa",
@@ -215,8 +210,8 @@
       "count": 1
     },
     {
-      "username": "anderson",
-      "password": "1234",
+      "username": "gorgan",
+      "password": "123456",
       "count": 1
     },
     {
@@ -325,8 +320,8 @@
       "count": 1
     },
     {
-      "username": "notandi",
-      "password": "Notandi",
+      "username": "justyna",
+      "password": "Justyna",
       "count": 1
     },
     {
@@ -343,12 +338,17 @@
       "username": "itc",
       "password": "@123456",
       "count": 1
+    },
+    {
+      "username": "theo",
+      "password": "Welkom02",
+      "count": 1
     }
   ],
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 11434
+      "count": 11438
     },
     {
       "user_agent": "libredtail-http",
@@ -364,12 +364,12 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Firefox/121.0",
-      "count": 340
+      "count": 343
     }
   ],
   "method_counts": {
-    "POST": 11850,
-    "GET": 7408,
+    "POST": 11854,
+    "GET": 7418,
     "PROPFIND": 57,
     "CONNECT": 26,
     "HEAD": 24,
@@ -387,7 +387,7 @@
     {
       "path": "/logincheck",
       "source": "fortipot",
-      "count": 11271
+      "count": 11275
     },
     {
       "path": "/",
@@ -445,27 +445,12 @@
       "count": 36
     },
     {
-      "path": "/crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "source": "centrestackpot",
-      "count": 30
-    },
-    {
       "path": "/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
       "source": "centrestackpot",
       "count": 30
     },
     {
-      "path": "/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "source": "centrestackpot",
-      "count": 30
-    },
-    {
-      "path": "/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "source": "centrestackpot",
-      "count": 30
-    },
-    {
-      "path": "/cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "path": "/crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
       "source": "centrestackpot",
       "count": 30
     },
@@ -475,12 +460,27 @@
       "count": 30
     },
     {
+      "path": "/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "source": "centrestackpot",
+      "count": 30
+    },
+    {
+      "path": "/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "source": "centrestackpot",
+      "count": 30
+    },
+    {
+      "path": "/cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "source": "centrestackpot",
+      "count": 30
+    },
+    {
       "path": "/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
       "source": "centrestackpot",
       "count": 28
     },
     {
-      "path": "/containers/json",
+      "path": "/public/index.php",
       "source": "centrestackpot",
       "count": 27
     }
@@ -571,14 +571,14 @@
       "name": "FOP Dmytro Nedilskyi",
       "country": "NL",
       "ip_count": 8,
-      "event_count": 11269
+      "event_count": 11273
     },
     {
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "BE",
       "ip_count": 113,
-      "event_count": 1123
+      "event_count": 1133
     },
     {
       "asn": "AS51396",
