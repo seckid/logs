@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-26T10:04:28.523605Z",
+  "generated_at": "2026-03-26T11:01:28.512889Z",
   "period_days": 90,
-  "total_events": 50296,
-  "unique_ips": 2112,
+  "total_events": 50360,
+  "unique_ips": 2114,
   "honeypots": [
     "centrestackpot",
     "fortipot",
     "sharepointpot"
   ],
   "totals_by_source": {
-    "sharepointpot": 56,
-    "centrestackpot": 11389,
-    "fortipot": 38851
+    "sharepointpot": 63,
+    "centrestackpot": 11401,
+    "fortipot": 38896
   },
   "events_per_day": {
     "2026-02-27": {
@@ -152,10 +152,10 @@
       "total": 4413
     },
     "2026-03-26": {
-      "fortipot": 1388,
-      "sharepointpot": 5,
-      "centrestackpot": 469,
-      "total": 1862
+      "fortipot": 1433,
+      "sharepointpot": 12,
+      "centrestackpot": 481,
+      "total": 1926
     }
   },
   "top_credentials": [
@@ -163,6 +163,11 @@
       "username": "TESTCREDS",
       "password": "RIRIRIIRIRI",
       "count": 25
+    },
+    {
+      "username": "convidado",
+      "password": "(empty)",
+      "count": 2
     },
     {
       "username": "guest",
@@ -175,7 +180,7 @@
       "count": 2
     },
     {
-      "username": "invitado",
+      "username": "administrator",
       "password": "(empty)",
       "count": 2
     },
@@ -185,7 +190,7 @@
       "count": 2
     },
     {
-      "username": "administrator",
+      "username": "invitado",
       "password": "(empty)",
       "count": 2
     },
@@ -195,13 +200,13 @@
       "count": 2
     },
     {
-      "username": "convidado",
-      "password": "(empty)",
-      "count": 2
+      "username": "hosseini",
+      "password": "123",
+      "count": 1
     },
     {
-      "username": "canon",
-      "password": "1",
+      "username": "elton",
+      "password": "elton",
       "count": 1
     },
     {
@@ -210,38 +215,13 @@
       "count": 1
     },
     {
-      "username": "hosseini",
-      "password": "123",
+      "username": "scan",
+      "password": "12345",
       "count": 1
     },
     {
-      "username": "bwilliams",
-      "password": "Password1",
-      "count": 1
-    },
-    {
-      "username": "prod1",
-      "password": "prod1",
-      "count": 1
-    },
-    {
-      "username": "completo",
-      "password": "completo",
-      "count": 1
-    },
-    {
-      "username": "showroom",
-      "password": "password",
-      "count": 1
-    },
-    {
-      "username": "frank",
-      "password": "Frank1234",
-      "count": 1
-    },
-    {
-      "username": "rodrigues",
-      "password": "123",
+      "username": "canon",
+      "password": "1",
       "count": 1
     },
     {
@@ -252,6 +232,11 @@
     {
       "username": "cnc",
       "password": "CNC",
+      "count": 1
+    },
+    {
+      "username": "administrator",
+      "password": "123Admin",
       "count": 1
     },
     {
@@ -285,6 +270,11 @@
       "count": 1
     },
     {
+      "username": "bruno",
+      "password": "Pa$$word1",
+      "count": 1
+    },
+    {
       "username": "servers",
       "password": "!QAZ2wsx",
       "count": 1
@@ -292,6 +282,11 @@
     {
       "username": "sap",
       "password": "12345678",
+      "count": 1
+    },
+    {
+      "username": "bava",
+      "password": "bava",
       "count": 1
     },
     {
@@ -310,33 +305,13 @@
       "count": 1
     },
     {
+      "username": "herbert",
+      "password": "herbert",
+      "count": 1
+    },
+    {
       "username": "focus",
       "password": "focus",
-      "count": 1
-    },
-    {
-      "username": "omer",
-      "password": "omer@123",
-      "count": 1
-    },
-    {
-      "username": "fabricio",
-      "password": "fabricio123",
-      "count": 1
-    },
-    {
-      "username": "jamali",
-      "password": "12345",
-      "count": 1
-    },
-    {
-      "username": "maya",
-      "password": "12345",
-      "count": 1
-    },
-    {
-      "username": "mbus",
-      "password": "mbus",
       "count": 1
     },
     {
@@ -408,12 +383,37 @@
       "username": "loka",
       "password": "loka",
       "count": 1
+    },
+    {
+      "username": "zesinc",
+      "password": "zesinc",
+      "count": 1
+    },
+    {
+      "username": "printing",
+      "password": "p@123",
+      "count": 1
+    },
+    {
+      "username": "byoung",
+      "password": "Password1",
+      "count": 1
+    },
+    {
+      "username": "production",
+      "password": "Password123",
+      "count": 1
+    },
+    {
+      "username": "scanner",
+      "password": "5c@nn3r",
+      "count": 1
     }
   ],
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 28659
+      "count": 28697
     },
     {
       "user_agent": "libredtail-http",
@@ -421,7 +421,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
-      "count": 2045
+      "count": 2047
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0",
@@ -433,8 +433,8 @@
     }
   ],
   "method_counts": {
-    "POST": 29088,
-    "GET": 19282,
+    "POST": 29125,
+    "GET": 19309,
     "PROPFIND": 183,
     "CONNECT": 42,
     "HEAD": 38,
@@ -461,22 +461,22 @@
     {
       "path": "/logincheck",
       "source": "fortipot",
-      "count": 28270
+      "count": 28307
     },
     {
       "path": "/",
       "source": "centrestackpot",
-      "count": 3481
+      "count": 3485
     },
     {
       "path": "/cgi-bin/luci/;stok=/locale",
       "source": "centrestackpot",
-      "count": 2791
+      "count": 2799
     },
     {
       "path": "/cgi-bin/luci/;stok=/locale",
       "source": "fortipot",
-      "count": 2531
+      "count": 2539
     },
     {
       "path": "/",
@@ -549,12 +549,12 @@
       "count": 49
     },
     {
-      "path": "/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "path": "/crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
       "source": "centrestackpot",
       "count": 48
     },
     {
-      "path": "/crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "path": "/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
       "source": "centrestackpot",
       "count": 48
     }
@@ -652,14 +652,14 @@
       "name": "FOP Dmytro Nedilskyi",
       "country": "NL",
       "ip_count": 11,
-      "event_count": 28278
+      "event_count": 28315
     },
     {
       "asn": "AS215925",
       "name": "VPSVAULT.HOST LTD",
       "country": "BR",
       "ip_count": 12,
-      "event_count": 5678
+      "event_count": 5695
     },
     {
       "asn": "AS396982",
@@ -673,7 +673,7 @@
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 25,
-      "event_count": 1338
+      "event_count": 1339
     },
     {
       "asn": "AS48090",
@@ -715,7 +715,7 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 6,
-      "event_count": 520
+      "event_count": 522
     },
     {
       "asn": "AS51167",
