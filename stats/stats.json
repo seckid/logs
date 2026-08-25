@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T19:03:42.980613Z",
+  "generated_at": "2026-08-25T20:01:42.506529Z",
   "period_days": 90,
-  "total_events": 334,
+  "total_events": 399,
   "unique_ips": 35,
   "honeypots": [
     "fortipot",
@@ -9,13 +9,13 @@
   ],
   "totals_by_source": {
     "sharepointpot": 4,
-    "fortipot": 330
+    "fortipot": 395
   },
   "events_per_day": {
     "2026-08-25": {
       "sharepointpot": 4,
-      "fortipot": 330,
-      "total": 334
+      "fortipot": 395,
+      "total": 399
     }
   },
   "top_credentials": [],
@@ -33,16 +33,16 @@
       "count": 8
     },
     {
-      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
-      "count": 7
+      "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +https://www.anthropic.com/claude-user)",
+      "count": 8
     },
     {
-      "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +https://www.anthropic.com/claude-user)",
-      "count": 6
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "count": 7
     }
   ],
   "method_counts": {
-    "GET": 286,
+    "GET": 351,
     "POST": 19,
     "PROPFIND": 1
   },
@@ -63,17 +63,7 @@
       "count": 15
     },
     {
-      "path": "/appsettings.json",
-      "source": "fortipot",
-      "count": 3
-    },
-    {
       "path": "/actuator/env",
-      "source": "fortipot",
-      "count": 3
-    },
-    {
-      "path": "/.env.development",
       "source": "fortipot",
       "count": 3
     },
@@ -83,7 +73,17 @@
       "count": 3
     },
     {
+      "path": "/fonts/ftnt-icons.woff",
+      "source": "fortipot",
+      "count": 3
+    },
+    {
       "path": "/.env.backup",
+      "source": "fortipot",
+      "count": 3
+    },
+    {
+      "path": "/.env.development",
       "source": "fortipot",
       "count": 3
     },
@@ -93,7 +93,7 @@
       "count": 3
     },
     {
-      "path": "/fonts/ftnt-icons.woff",
+      "path": "/appsettings.json",
       "source": "fortipot",
       "count": 3
     },
@@ -103,22 +103,12 @@
       "count": 3
     },
     {
-      "path": "/.env.local",
+      "path": "/app/.env",
       "source": "fortipot",
       "count": 2
     },
     {
-      "path": "/sslvpn/js/login.js?q=507e35a9d9c89c8817a0723ad6dcfe36",
-      "source": "fortipot",
-      "count": 2
-    },
-    {
-      "path": "/info.php",
-      "source": "fortipot",
-      "count": 2
-    },
-    {
-      "path": "/.npmrc",
+      "path": "/api/.env",
       "source": "fortipot",
       "count": 2
     },
@@ -128,22 +118,32 @@
       "count": 2
     },
     {
-      "path": "/phpinfo.php",
+      "path": "/.env.prod",
       "source": "fortipot",
       "count": 2
     },
     {
-      "path": "/app/.env",
+      "path": "/.env.local",
       "source": "fortipot",
       "count": 2
     },
     {
-      "path": "/fonts/lato-regular.woff2",
+      "path": "/info.php",
       "source": "fortipot",
       "count": 2
     },
     {
-      "path": "/api/.env",
+      "path": "/.aws/credentials",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/sslvpn/js/login.js?q=507e35a9d9c89c8817a0723ad6dcfe36",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
+      "path": "/css/main-blue.css",
       "source": "fortipot",
       "count": 2
     }
@@ -173,7 +173,7 @@
       "name": "Google LLC",
       "country": "US",
       "ip_count": 1,
-      "event_count": 197
+      "event_count": 262
     },
     {
       "asn": "AS48090",
