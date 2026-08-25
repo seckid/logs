@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-25T14:01:15.045029Z",
+  "generated_at": "2026-08-25T15:03:45.945376Z",
   "period_days": 90,
-  "total_events": 87,
-  "unique_ips": 24,
+  "total_events": 96,
+  "unique_ips": 26,
   "honeypots": [
     "fortipot",
     "sharepointpot"
   ],
   "totals_by_source": {
     "sharepointpot": 4,
-    "fortipot": 83
+    "fortipot": 92
   },
   "events_per_day": {
     "2026-08-25": {
       "sharepointpot": 4,
-      "fortipot": 83,
-      "total": 87
+      "fortipot": 92,
+      "total": 96
     }
   },
   "top_credentials": [],
@@ -37,29 +37,29 @@
       "count": 5
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.",
       "count": 4
     }
   ],
   "method_counts": {
-    "GET": 58,
-    "POST": 7
+    "GET": 60,
+    "POST": 13
   },
   "top_paths": [
     {
       "path": "/remote/login",
       "source": "fortipot",
-      "count": 8
+      "count": 10
+    },
+    {
+      "path": "/remote/logincheck",
+      "source": "fortipot",
+      "count": 9
     },
     {
       "path": "/",
       "source": "fortipot",
       "count": 8
-    },
-    {
-      "path": "/remote/logincheck",
-      "source": "fortipot",
-      "count": 7
     },
     {
       "path": "/favicon.ico",
@@ -82,14 +82,19 @@
       "count": 2
     },
     {
+      "path": "/remote/fgt_lang?lang=en",
+      "source": "fortipot",
+      "count": 2
+    },
+    {
       "path": "/css/main-blue.css",
       "source": "fortipot",
       "count": 2
     },
     {
-      "path": "/remote/fgt_lang?lang=en",
+      "path": "/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh",
       "source": "fortipot",
-      "count": 2
+      "count": 1
     },
     {
       "path": "/actuator/env",
@@ -97,28 +102,13 @@
       "count": 1
     },
     {
-      "path": "/phpinfo.php",
-      "source": "fortipot",
-      "count": 1
-    },
-    {
-      "path": "/_layouts/15/login.aspx",
-      "source": "sharepointpot",
-      "count": 1
-    },
-    {
-      "path": "/actuator/health",
+      "path": "/.env.development",
       "source": "fortipot",
       "count": 1
     },
     {
       "path": "/",
       "source": "sharepointpot",
-      "count": 1
-    },
-    {
-      "path": "/.env.development",
-      "source": "fortipot",
       "count": 1
     },
     {
@@ -137,12 +127,22 @@
       "count": 1
     },
     {
+      "path": "/hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
+      "source": "fortipot",
+      "count": 1
+    },
+    {
       "path": "/api/.env",
       "source": "fortipot",
       "count": 1
     },
     {
       "path": "/appsettings.json",
+      "source": "fortipot",
+      "count": 1
+    },
+    {
+      "path": "/phpinfo.php",
       "source": "fortipot",
       "count": 1
     }
@@ -182,6 +182,13 @@
       "event_count": 16
     },
     {
+      "asn": "AS43350",
+      "name": "NForce Entertainment B.V.",
+      "country": "NL",
+      "ip_count": 1,
+      "event_count": 10
+    },
+    {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "GB",
@@ -189,9 +196,9 @@
       "event_count": 9
     },
     {
-      "asn": "AS43350",
-      "name": "NForce Entertainment B.V.",
-      "country": "NL",
+      "asn": "AS209160",
+      "name": "Miti 2000 EOOD",
+      "country": "BG",
       "ip_count": 1,
       "event_count": 8
     },
@@ -210,11 +217,11 @@
       "event_count": 6
     },
     {
-      "asn": "AS209160",
-      "name": "Miti 2000 EOOD",
-      "country": "BG",
+      "asn": "AS139659",
+      "name": "LUCIDACLOUD LIMITED",
+      "country": "HK",
       "ip_count": 1,
-      "event_count": 6
+      "event_count": 4
     },
     {
       "asn": "AS265393",
@@ -224,15 +231,8 @@
       "event_count": 2
     },
     {
-      "asn": "AS63949",
-      "name": "Akamai Connected Cloud",
-      "country": "IN",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
+      "asn": "AS215925",
+      "name": "VPSVAULT.HOST LTD",
       "country": "US",
       "ip_count": 1,
       "event_count": 1
@@ -245,9 +245,23 @@
       "event_count": 1
     },
     {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
       "asn": "AS7377",
       "name": "University of California, San Diego",
       "country": "US",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
+      "asn": "AS63949",
+      "name": "Akamai Connected Cloud",
+      "country": "IN",
       "ip_count": 1,
       "event_count": 1
     }
