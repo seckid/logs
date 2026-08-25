@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-25T17:00:43.017088Z",
+  "generated_at": "2026-08-25T18:00:34.908206Z",
   "period_days": 90,
-  "total_events": 108,
-  "unique_ips": 31,
+  "total_events": 114,
+  "unique_ips": 33,
   "honeypots": [
     "fortipot",
     "sharepointpot"
   ],
   "totals_by_source": {
     "sharepointpot": 4,
-    "fortipot": 104
+    "fortipot": 110
   },
   "events_per_day": {
     "2026-08-25": {
       "sharepointpot": 4,
-      "fortipot": 104,
-      "total": 108
+      "fortipot": 110,
+      "total": 114
     }
   },
   "top_credentials": [],
@@ -33,41 +33,41 @@
       "count": 7
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 5
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.",
+      "count": 6
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.1958",
-      "count": 4
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "count": 5
     }
   ],
   "method_counts": {
-    "GET": 65,
-    "POST": 16
+    "GET": 69,
+    "POST": 18
   },
   "top_paths": [
     {
       "path": "/remote/login",
       "source": "fortipot",
-      "count": 13
+      "count": 15
     },
     {
       "path": "/remote/logincheck",
       "source": "fortipot",
-      "count": 12
+      "count": 14
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 10
+      "count": 11
     },
     {
-      "path": "/favicon.ico",
+      "path": "/fonts/ftnt-icons.woff",
       "source": "fortipot",
       "count": 3
     },
     {
-      "path": "/fonts/ftnt-icons.woff",
+      "path": "/favicon.ico",
       "source": "fortipot",
       "count": 3
     },
@@ -142,7 +142,7 @@
       "count": 1
     },
     {
-      "path": "/phpinfo.php",
+      "path": "/autodiscover/autodiscover.json?@zdi/Powershell",
       "source": "fortipot",
       "count": 1
     }
@@ -186,14 +186,14 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 14
+      "event_count": 16
     },
     {
       "asn": "AS209160",
       "name": "Miti 2000 EOOD",
       "country": "BG",
       "ip_count": 1,
-      "event_count": 10
+      "event_count": 12
     },
     {
       "asn": "AS14061",
@@ -227,6 +227,13 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
+      "ip_count": 3,
+      "event_count": 3
+    },
+    {
+      "asn": "AS63949",
+      "name": "Akamai Connected Cloud",
+      "country": "JP",
       "ip_count": 2,
       "event_count": 2
     },
@@ -269,13 +276,6 @@
       "asn": "AS51396",
       "name": "Pfcloud UG",
       "country": "NL",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS63949",
-      "name": "Akamai Connected Cloud",
-      "country": "IN",
       "ip_count": 1,
       "event_count": 1
     }
