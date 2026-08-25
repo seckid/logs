@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-08-25T22:02:09.269319Z",
+  "generated_at": "2026-08-25T23:00:26.813887Z",
   "period_days": 90,
-  "total_events": 430,
-  "unique_ips": 39,
+  "total_events": 437,
+  "unique_ips": 41,
   "honeypots": [
     "fortipot",
     "sharepointpot"
   ],
   "totals_by_source": {
     "sharepointpot": 4,
-    "fortipot": 426
+    "fortipot": 433
   },
   "events_per_day": {
     "2026-08-25": {
       "sharepointpot": 4,
-      "fortipot": 426,
-      "total": 430
+      "fortipot": 433,
+      "total": 437
     }
   },
   "top_credentials": [],
   "top_user_agents": [
     {
       "user_agent": "l9explore/1.2.2",
-      "count": 48
+      "count": 50
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
       "count": 11
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.1958",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.",
       "count": 8
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.1958",
       "count": 8
     },
     {
@@ -42,7 +42,7 @@
     }
   ],
   "method_counts": {
-    "GET": 377,
+    "GET": 381,
     "POST": 24,
     "PROPFIND": 1
   },
@@ -60,7 +60,12 @@
     {
       "path": "/",
       "source": "fortipot",
-      "count": 19
+      "count": 20
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "fortipot",
+      "count": 5
     },
     {
       "path": "/.env",
@@ -73,12 +78,12 @@
       "count": 4
     },
     {
-      "path": "/.env.backup",
+      "path": "/actuator/env",
       "source": "fortipot",
       "count": 4
     },
     {
-      "path": "/favicon.ico",
+      "path": "/.env.backup",
       "source": "fortipot",
       "count": 4
     },
@@ -86,11 +91,6 @@
       "path": "/terraform.tfstate",
       "source": "fortipot",
       "count": 4
-    },
-    {
-      "path": "/actuator/env",
-      "source": "fortipot",
-      "count": 3
     },
     {
       "path": "/.aws/credentials",
@@ -118,6 +118,11 @@
       "count": 3
     },
     {
+      "path": "/phpinfo.php",
+      "source": "fortipot",
+      "count": 3
+    },
+    {
       "path": "/.git/HEAD",
       "source": "fortipot",
       "count": 3
@@ -139,11 +144,6 @@
     },
     {
       "path": "/app/.env",
-      "source": "fortipot",
-      "count": 2
-    },
-    {
-      "path": "/phpinfo.php",
       "source": "fortipot",
       "count": 2
     }
@@ -180,7 +180,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 54
+      "event_count": 56
     },
     {
       "asn": "AS43350",
@@ -211,17 +211,17 @@
       "event_count": 10
     },
     {
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 5,
+      "event_count": 9
+    },
+    {
       "asn": "AS41280",
       "name": "SKYNET BULGARIA Ltd.",
       "country": "BG",
       "ip_count": 1,
-      "event_count": 7
-    },
-    {
-      "asn": "AS16509",
-      "name": "Amazon.com, Inc.",
-      "country": "DE",
-      "ip_count": 4,
       "event_count": 7
     },
     {
@@ -237,6 +237,13 @@
       "country": "HK",
       "ip_count": 1,
       "event_count": 4
+    },
+    {
+      "asn": "AS135377",
+      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 3
     },
     {
       "asn": "AS14618",
