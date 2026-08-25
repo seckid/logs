@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-25T11:01:20.392248Z",
+  "generated_at": "2026-08-25T12:02:23.441885Z",
   "period_days": 90,
-  "total_events": 61,
-  "unique_ips": 18,
+  "total_events": 69,
+  "unique_ips": 19,
   "honeypots": [
     "fortipot",
     "sharepointpot"
   ],
   "totals_by_source": {
     "sharepointpot": 4,
-    "fortipot": 57
+    "fortipot": 65
   },
   "events_per_day": {
     "2026-08-25": {
       "sharepointpot": 4,
-      "fortipot": 57,
-      "total": 61
+      "fortipot": 65,
+      "total": 69
     }
   },
   "top_credentials": [],
@@ -33,33 +33,33 @@
       "count": 7
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.",
-      "count": 2
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.",
+      "count": 4
     },
     {
-      "user_agent": "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)",
-      "count": 2
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.3",
+      "count": 4
     }
   ],
   "method_counts": {
-    "GET": 43,
-    "POST": 3
+    "GET": 46,
+    "POST": 6
   },
   "top_paths": [
     {
-      "path": "/",
-      "source": "fortipot",
-      "count": 5
-    },
-    {
       "path": "/remote/login",
       "source": "fortipot",
-      "count": 3
+      "count": 6
     },
     {
       "path": "/remote/logincheck",
       "source": "fortipot",
-      "count": 3
+      "count": 6
+    },
+    {
+      "path": "/",
+      "source": "fortipot",
+      "count": 5
     },
     {
       "path": "/favicon.ico",
@@ -189,16 +189,23 @@
       "event_count": 7
     },
     {
+      "asn": "AS43350",
+      "name": "NForce Entertainment B.V.",
+      "country": "NL",
+      "ip_count": 1,
+      "event_count": 6
+    },
+    {
       "asn": "AS209160",
       "name": "Miti 2000 EOOD",
       "country": "BG",
       "ip_count": 1,
-      "event_count": 4
+      "event_count": 6
     },
     {
-      "asn": "AS43350",
-      "name": "NForce Entertainment B.V.",
-      "country": "NL",
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
       "ip_count": 1,
       "event_count": 2
     },
