@@ -1,32 +1,36 @@
 {
-  "generated_at": "2026-08-25T21:00:28.298841Z",
+  "generated_at": "2026-08-25T22:02:09.269319Z",
   "period_days": 90,
-  "total_events": 406,
-  "unique_ips": 38,
+  "total_events": 430,
+  "unique_ips": 39,
   "honeypots": [
     "fortipot",
     "sharepointpot"
   ],
   "totals_by_source": {
     "sharepointpot": 4,
-    "fortipot": 402
+    "fortipot": 426
   },
   "events_per_day": {
     "2026-08-25": {
       "sharepointpot": 4,
-      "fortipot": 402,
-      "total": 406
+      "fortipot": 426,
+      "total": 430
     }
   },
   "top_credentials": [],
   "top_user_agents": [
     {
       "user_agent": "l9explore/1.2.2",
-      "count": 33
+      "count": 48
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
       "count": 11
+    },
+    {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.1958",
+      "count": 8
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.",
@@ -35,32 +39,43 @@
     {
       "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +https://www.anthropic.com/claude-user)",
       "count": 8
-    },
-    {
-      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
-      "count": 7
     }
   ],
   "method_counts": {
-    "GET": 356,
-    "POST": 21,
+    "GET": 377,
+    "POST": 24,
     "PROPFIND": 1
   },
   "top_paths": [
     {
       "path": "/remote/login",
       "source": "fortipot",
-      "count": 18
+      "count": 21
     },
     {
       "path": "/remote/logincheck",
       "source": "fortipot",
-      "count": 17
+      "count": 20
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 17
+      "count": 19
+    },
+    {
+      "path": "/.env",
+      "source": "fortipot",
+      "count": 4
+    },
+    {
+      "path": "/appsettings.json",
+      "source": "fortipot",
+      "count": 4
+    },
+    {
+      "path": "/.env.backup",
+      "source": "fortipot",
+      "count": 4
     },
     {
       "path": "/favicon.ico",
@@ -70,7 +85,7 @@
     {
       "path": "/terraform.tfstate",
       "source": "fortipot",
-      "count": 3
+      "count": 4
     },
     {
       "path": "/actuator/env",
@@ -78,22 +93,22 @@
       "count": 3
     },
     {
-      "path": "/.env.development",
+      "path": "/.aws/credentials",
       "source": "fortipot",
       "count": 3
     },
     {
-      "path": "/.env",
+      "path": "/.env.staging",
       "source": "fortipot",
       "count": 3
     },
     {
-      "path": "/appsettings.json",
+      "path": "/.env.local",
       "source": "fortipot",
       "count": 3
     },
     {
-      "path": "/.env.backup",
+      "path": "/info.php",
       "source": "fortipot",
       "count": 3
     },
@@ -103,29 +118,19 @@
       "count": 3
     },
     {
-      "path": "/api/.env",
+      "path": "/.git/HEAD",
       "source": "fortipot",
-      "count": 2
+      "count": 3
     },
     {
-      "path": "/info.php",
+      "path": "/.npmrc",
       "source": "fortipot",
-      "count": 2
+      "count": 3
     },
     {
-      "path": "/.env.local",
+      "path": "/.env.development",
       "source": "fortipot",
-      "count": 2
-    },
-    {
-      "path": "/.env.staging",
-      "source": "fortipot",
-      "count": 2
-    },
-    {
-      "path": "/sslvpn/js/login.js?q=507e35a9d9c89c8817a0723ad6dcfe36",
-      "source": "fortipot",
-      "count": 2
+      "count": 3
     },
     {
       "path": "/.env.prod",
@@ -138,12 +143,7 @@
       "count": 2
     },
     {
-      "path": "/css/main-blue.css",
-      "source": "fortipot",
-      "count": 2
-    },
-    {
-      "path": "/robots.txt",
+      "path": "/phpinfo.php",
       "source": "fortipot",
       "count": 2
     }
@@ -180,14 +180,14 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 37
+      "event_count": 54
     },
     {
       "asn": "AS43350",
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 20
+      "event_count": 24
     },
     {
       "asn": "AS211298",
@@ -201,7 +201,7 @@
       "name": "Miti 2000 EOOD",
       "country": "BG",
       "ip_count": 1,
-      "event_count": 14
+      "event_count": 16
     },
     {
       "asn": "AS14061",
@@ -225,6 +225,13 @@
       "event_count": 7
     },
     {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "ip_count": 4,
+      "event_count": 4
+    },
+    {
       "asn": "AS139659",
       "name": "LUCIDACLOUD LIMITED",
       "country": "HK",
@@ -234,13 +241,6 @@
     {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 3,
-      "event_count": 3
-    },
-    {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
       "country": "US",
       "ip_count": 3,
       "event_count": 3
