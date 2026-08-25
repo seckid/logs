@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-25T13:01:41.962009Z",
+  "generated_at": "2026-08-25T14:01:15.045029Z",
   "period_days": 90,
-  "total_events": 74,
-  "unique_ips": 21,
+  "total_events": 87,
+  "unique_ips": 24,
   "honeypots": [
     "fortipot",
     "sharepointpot"
   ],
   "totals_by_source": {
     "sharepointpot": 4,
-    "fortipot": 70
+    "fortipot": 83
   },
   "events_per_day": {
     "2026-08-25": {
       "sharepointpot": 4,
-      "fortipot": 70,
-      "total": 74
+      "fortipot": 83,
+      "total": 87
     }
   },
   "top_credentials": [],
@@ -33,23 +33,28 @@
       "count": 7
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.",
-      "count": 4
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "count": 5
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.3",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.",
       "count": 4
     }
   ],
   "method_counts": {
-    "GET": 50,
+    "GET": 58,
     "POST": 7
   },
   "top_paths": [
     {
       "path": "/remote/login",
       "source": "fortipot",
-      "count": 7
+      "count": 8
+    },
+    {
+      "path": "/",
+      "source": "fortipot",
+      "count": 8
     },
     {
       "path": "/remote/logincheck",
@@ -57,9 +62,14 @@
       "count": 7
     },
     {
-      "path": "/",
+      "path": "/favicon.ico",
       "source": "fortipot",
-      "count": 6
+      "count": 3
+    },
+    {
+      "path": "/fonts/ftnt-icons.woff",
+      "source": "fortipot",
+      "count": 3
     },
     {
       "path": "/sslvpn/js/login.js?q=507e35a9d9c89c8817a0723ad6dcfe36",
@@ -72,7 +82,7 @@
       "count": 2
     },
     {
-      "path": "/fonts/ftnt-icons.woff",
+      "path": "/css/main-blue.css",
       "source": "fortipot",
       "count": 2
     },
@@ -82,14 +92,34 @@
       "count": 2
     },
     {
-      "path": "/css/main-blue.css",
+      "path": "/actuator/env",
       "source": "fortipot",
-      "count": 2
+      "count": 1
     },
     {
-      "path": "/favicon.ico",
+      "path": "/phpinfo.php",
       "source": "fortipot",
-      "count": 2
+      "count": 1
+    },
+    {
+      "path": "/_layouts/15/login.aspx",
+      "source": "sharepointpot",
+      "count": 1
+    },
+    {
+      "path": "/actuator/health",
+      "source": "fortipot",
+      "count": 1
+    },
+    {
+      "path": "/",
+      "source": "sharepointpot",
+      "count": 1
+    },
+    {
+      "path": "/.env.development",
+      "source": "fortipot",
+      "count": 1
     },
     {
       "path": "/app/.env",
@@ -113,36 +143,6 @@
     },
     {
       "path": "/appsettings.json",
-      "source": "fortipot",
-      "count": 1
-    },
-    {
-      "path": "/.aws/credentials",
-      "source": "fortipot",
-      "count": 1
-    },
-    {
-      "path": "/info.php",
-      "source": "fortipot",
-      "count": 1
-    },
-    {
-      "path": "/os.version",
-      "source": "fortipot",
-      "count": 1
-    },
-    {
-      "path": "/_layouts/15/login.aspx",
-      "source": "sharepointpot",
-      "count": 1
-    },
-    {
-      "path": "/actuator/health",
-      "source": "fortipot",
-      "count": 1
-    },
-    {
-      "path": "/phpinfo.php",
       "source": "fortipot",
       "count": 1
     }
@@ -182,6 +182,13 @@
       "event_count": 16
     },
     {
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
+      "country": "GB",
+      "ip_count": 1,
+      "event_count": 9
+    },
+    {
       "asn": "AS43350",
       "name": "NForce Entertainment B.V.",
       "country": "NL",
@@ -196,6 +203,13 @@
       "event_count": 7
     },
     {
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "SG",
+      "ip_count": 3,
+      "event_count": 6
+    },
+    {
       "asn": "AS209160",
       "name": "Miti 2000 EOOD",
       "country": "BG",
@@ -206,13 +220,6 @@
       "asn": "AS265393",
       "name": "FIRENET SERVIÇOS DE TELECOMUNICAÇÕES LTDA",
       "country": "BR",
-      "ip_count": 1,
-      "event_count": 2
-    },
-    {
-      "asn": "AS16509",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
       "ip_count": 1,
       "event_count": 2
     },
