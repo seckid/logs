@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-26T02:02:41.762822Z",
+  "generated_at": "2026-08-26T03:04:22.358222Z",
   "period_days": 90,
-  "total_events": 666,
-  "unique_ips": 53,
+  "total_events": 939,
+  "unique_ips": 55,
   "honeypots": [
     "fortipot",
     "sharepointpot"
   ],
   "totals_by_source": {
     "sharepointpot": 4,
-    "fortipot": 662
+    "fortipot": 935
   },
   "events_per_day": {
     "2026-08-25": {
@@ -18,15 +18,15 @@
       "total": 443
     },
     "2026-08-26": {
-      "fortipot": 223,
-      "total": 223
+      "fortipot": 496,
+      "total": 496
     }
   },
   "top_credentials": [],
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
-      "count": 154
+      "count": 422
     },
     {
       "user_agent": "l9explore/1.2.2",
@@ -37,39 +37,39 @@
       "count": 11
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.1958",
       "count": 10
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.1958",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.",
       "count": 10
     }
   ],
   "method_counts": {
-    "GET": 570,
-    "POST": 29,
+    "GET": 841,
+    "POST": 30,
     "PROPFIND": 1
   },
   "top_paths": [
     {
       "path": "/",
       "source": "fortipot",
-      "count": 28
+      "count": 29
     },
     {
       "path": "/remote/login",
       "source": "fortipot",
-      "count": 26
+      "count": 27
     },
     {
       "path": "/remote/logincheck",
       "source": "fortipot",
-      "count": 25
+      "count": 26
     },
     {
       "path": "/favicon.ico",
       "source": "fortipot",
-      "count": 7
+      "count": 8
     },
     {
       "path": "/terraform.tfstate",
@@ -82,7 +82,7 @@
       "count": 6
     },
     {
-      "path": "/appsettings.json",
+      "path": "/.env.staging",
       "source": "fortipot",
       "count": 5
     },
@@ -92,34 +92,14 @@
       "count": 5
     },
     {
-      "path": "/.env.staging",
-      "source": "fortipot",
-      "count": 5
-    },
-    {
       "path": "/actuator/env",
       "source": "fortipot",
       "count": 5
     },
     {
-      "path": "/.git-credentials",
+      "path": "/appsettings.json",
       "source": "fortipot",
-      "count": 4
-    },
-    {
-      "path": "/.env.backup",
-      "source": "fortipot",
-      "count": 4
-    },
-    {
-      "path": "/phpinfo.php",
-      "source": "fortipot",
-      "count": 4
-    },
-    {
-      "path": "/robots.txt",
-      "source": "fortipot",
-      "count": 4
+      "count": 5
     },
     {
       "path": "/.env.development",
@@ -127,12 +107,7 @@
       "count": 4
     },
     {
-      "path": "/.git/config",
-      "source": "fortipot",
-      "count": 4
-    },
-    {
-      "path": "/api/.env",
+      "path": "/.env.old",
       "source": "fortipot",
       "count": 4
     },
@@ -142,12 +117,37 @@
       "count": 4
     },
     {
-      "path": "/.aws/credentials",
+      "path": "/phpinfo.php",
       "source": "fortipot",
       "count": 4
     },
     {
-      "path": "/.env.production",
+      "path": "/.env.backup",
+      "source": "fortipot",
+      "count": 4
+    },
+    {
+      "path": "/.git/config",
+      "source": "fortipot",
+      "count": 4
+    },
+    {
+      "path": "/.git-credentials",
+      "source": "fortipot",
+      "count": 4
+    },
+    {
+      "path": "/api/.env",
+      "source": "fortipot",
+      "count": 4
+    },
+    {
+      "path": "/robots.txt",
+      "source": "fortipot",
+      "count": 4
+    },
+    {
+      "path": "/.aws/credentials",
       "source": "fortipot",
       "count": 4
     }
@@ -173,18 +173,18 @@
   ],
   "top_asns": [
     {
+      "asn": "AS18450",
+      "name": "WebNX, Inc.",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 456
+    },
+    {
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "US",
       "ip_count": 2,
       "event_count": 263
-    },
-    {
-      "asn": "AS18450",
-      "name": "WebNX, Inc.",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 188
     },
     {
       "asn": "AS48090",
@@ -205,7 +205,7 @@
       "name": "Miti 2000 EOOD",
       "country": "BG",
       "ip_count": 1,
-      "event_count": 20
+      "event_count": 22
     },
     {
       "asn": "AS211298",
@@ -271,18 +271,11 @@
       "event_count": 3
     },
     {
-      "asn": "AS265393",
-      "name": "FIRENET SERVIÇOS DE TELECOMUNICAÇÕES LTDA",
-      "country": "BR",
-      "ip_count": 1,
-      "event_count": 2
-    },
-    {
-      "asn": "AS7377",
-      "name": "University of California, San Diego",
+      "asn": "AS14987",
+      "name": "Rethem Hosting LLC",
       "country": "US",
-      "ip_count": 1,
-      "event_count": 2
+      "ip_count": 2,
+      "event_count": 3
     },
     {
       "asn": "AS63949",
@@ -296,6 +289,13 @@
       "name": "ONYPHE SAS",
       "country": "SG",
       "ip_count": 2,
+      "event_count": 2
+    },
+    {
+      "asn": "AS7377",
+      "name": "University of California, San Diego",
+      "country": "US",
+      "ip_count": 1,
       "event_count": 2
     },
     {
