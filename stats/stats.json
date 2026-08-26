@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-26T05:03:46.127315Z",
+  "generated_at": "2026-08-26T06:04:37.252493Z",
   "period_days": 90,
-  "total_events": 969,
-  "unique_ips": 60,
+  "total_events": 985,
+  "unique_ips": 65,
   "honeypots": [
     "fortipot",
     "sharepointpot"
   ],
   "totals_by_source": {
     "sharepointpot": 4,
-    "fortipot": 965
+    "fortipot": 981
   },
   "events_per_day": {
     "2026-08-25": {
@@ -18,8 +18,8 @@
       "total": 443
     },
     "2026-08-26": {
-      "fortipot": 526,
-      "total": 526
+      "fortipot": 542,
+      "total": 542
     }
   },
   "top_credentials": [],
@@ -46,30 +46,36 @@
     }
   ],
   "method_counts": {
-    "GET": 856,
-    "POST": 39,
+    "GET": 864,
+    "POST": 40,
+    "PRI": 1,
     "PROPFIND": 1
   },
   "top_paths": [
     {
       "path": "/",
       "source": "fortipot",
-      "count": 31
+      "count": 34
     },
     {
       "path": "/remote/login",
       "source": "fortipot",
-      "count": 29
+      "count": 30
     },
     {
       "path": "/remote/logincheck",
       "source": "fortipot",
-      "count": 28
+      "count": 29
     },
     {
       "path": "/favicon.ico",
       "source": "fortipot",
-      "count": 8
+      "count": 9
+    },
+    {
+      "path": "/robots.txt",
+      "source": "fortipot",
+      "count": 7
     },
     {
       "path": "/terraform.tfstate",
@@ -82,7 +88,7 @@
       "count": 6
     },
     {
-      "path": "/.env.local",
+      "path": "/.env.staging",
       "source": "fortipot",
       "count": 5
     },
@@ -92,22 +98,22 @@
       "count": 5
     },
     {
-      "path": "/.env.staging",
-      "source": "fortipot",
-      "count": 5
-    },
-    {
       "path": "/actuator/env",
       "source": "fortipot",
       "count": 5
     },
     {
-      "path": "/robots.txt",
+      "path": "/.env.local",
+      "source": "fortipot",
+      "count": 5
+    },
+    {
+      "path": "/.aws/credentials",
       "source": "fortipot",
       "count": 4
     },
     {
-      "path": "/phpinfo.php",
+      "path": "/.git-credentials",
       "source": "fortipot",
       "count": 4
     },
@@ -117,7 +123,7 @@
       "count": 4
     },
     {
-      "path": "/.env.development",
+      "path": "/.env.production",
       "source": "fortipot",
       "count": 4
     },
@@ -127,12 +133,12 @@
       "count": 4
     },
     {
-      "path": "/.aws/credentials",
+      "path": "/.env.old",
       "source": "fortipot",
       "count": 4
     },
     {
-      "path": "/.env.old",
+      "path": "/.env.development",
       "source": "fortipot",
       "count": 4
     },
@@ -142,12 +148,7 @@
       "count": 4
     },
     {
-      "path": "/.env.production",
-      "source": "fortipot",
-      "count": 4
-    },
-    {
-      "path": "/.git-credentials",
+      "path": "/api/.env",
       "source": "fortipot",
       "count": 4
     }
@@ -182,9 +183,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
-      "ip_count": 2,
-      "event_count": 263
+      "country": "BE",
+      "ip_count": 3,
+      "event_count": 264
     },
     {
       "asn": "AS48090",
@@ -205,7 +206,7 @@
       "name": "Miti 2000 EOOD",
       "country": "BG",
       "ip_count": 1,
-      "event_count": 22
+      "event_count": 24
     },
     {
       "asn": "AS8881",
@@ -225,8 +226,8 @@
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 7,
-      "event_count": 13
+      "ip_count": 8,
+      "event_count": 16
     },
     {
       "asn": "AS14061",
@@ -234,6 +235,13 @@
       "country": "DE",
       "ip_count": 2,
       "event_count": 10
+    },
+    {
+      "asn": "AS398324",
+      "name": "Censys, Inc.",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 8
     },
     {
       "asn": "AS41280",
@@ -250,13 +258,6 @@
       "event_count": 5
     },
     {
-      "asn": "AS139659",
-      "name": "LUCIDACLOUD LIMITED",
-      "country": "HK",
-      "ip_count": 1,
-      "event_count": 4
-    },
-    {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
@@ -264,17 +265,24 @@
       "event_count": 4
     },
     {
-      "asn": "AS135377",
-      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "US",
+      "asn": "AS139659",
+      "name": "LUCIDACLOUD LIMITED",
+      "country": "HK",
       "ip_count": 1,
-      "event_count": 3
+      "event_count": 4
     },
     {
       "asn": "AS51396",
       "name": "Pfcloud UG",
       "country": "NL",
       "ip_count": 3,
+      "event_count": 3
+    },
+    {
+      "asn": "AS135377",
+      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+      "country": "US",
+      "ip_count": 1,
       "event_count": 3
     },
     {
@@ -285,20 +293,6 @@
       "event_count": 3
     },
     {
-      "asn": "AS213412",
-      "name": "ONYPHE SAS",
-      "country": "SG",
-      "ip_count": 2,
-      "event_count": 2
-    },
-    {
-      "asn": "AS63949",
-      "name": "Akamai Connected Cloud",
-      "country": "JP",
-      "ip_count": 2,
-      "event_count": 2
-    },
-    {
       "asn": "AS219502",
       "name": "Storm Industries LLC",
       "country": "TR",
@@ -306,9 +300,16 @@
       "event_count": 2
     },
     {
-      "asn": "AS7377",
-      "name": "University of California, San Diego",
-      "country": "US",
+      "asn": "AS265393",
+      "name": "FIRENET SERVIÇOS DE TELECOMUNICAÇÕES LTDA",
+      "country": "BR",
+      "ip_count": 1,
+      "event_count": 2
+    },
+    {
+      "asn": "AS28267",
+      "name": "SIM INTERNET PROVEDORES DE INTERNET EIRELI.",
+      "country": "BR",
       "ip_count": 1,
       "event_count": 2
     }
