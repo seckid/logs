@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-25T23:00:26.813887Z",
+  "generated_at": "2026-08-26T00:01:45.968738Z",
   "period_days": 90,
-  "total_events": 437,
-  "unique_ips": 41,
+  "total_events": 443,
+  "unique_ips": 44,
   "honeypots": [
     "fortipot",
     "sharepointpot"
   ],
   "totals_by_source": {
     "sharepointpot": 4,
-    "fortipot": 433
+    "fortipot": 439
   },
   "events_per_day": {
     "2026-08-25": {
       "sharepointpot": 4,
-      "fortipot": 433,
-      "total": 437
+      "fortipot": 439,
+      "total": 443
     }
   },
   "top_credentials": [],
@@ -37,30 +37,30 @@
       "count": 8
     },
     {
-      "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +https://www.anthropic.com/claude-user)",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.10 Safari/605.1.1",
       "count": 8
     }
   ],
   "method_counts": {
-    "GET": 381,
-    "POST": 24,
+    "GET": 386,
+    "POST": 25,
     "PROPFIND": 1
   },
   "top_paths": [
     {
       "path": "/remote/login",
       "source": "fortipot",
-      "count": 21
+      "count": 22
     },
     {
       "path": "/remote/logincheck",
       "source": "fortipot",
-      "count": 20
+      "count": 21
     },
     {
       "path": "/",
       "source": "fortipot",
-      "count": 20
+      "count": 21
     },
     {
       "path": "/favicon.ico",
@@ -68,17 +68,7 @@
       "count": 5
     },
     {
-      "path": "/.env",
-      "source": "fortipot",
-      "count": 4
-    },
-    {
-      "path": "/appsettings.json",
-      "source": "fortipot",
-      "count": 4
-    },
-    {
-      "path": "/actuator/env",
+      "path": "/robots.txt",
       "source": "fortipot",
       "count": 4
     },
@@ -93,19 +83,19 @@
       "count": 4
     },
     {
-      "path": "/.aws/credentials",
+      "path": "/.env",
       "source": "fortipot",
-      "count": 3
+      "count": 4
     },
     {
-      "path": "/.env.staging",
+      "path": "/actuator/env",
       "source": "fortipot",
-      "count": 3
+      "count": 4
     },
     {
-      "path": "/.env.local",
+      "path": "/appsettings.json",
       "source": "fortipot",
-      "count": 3
+      "count": 4
     },
     {
       "path": "/info.php",
@@ -118,12 +108,22 @@
       "count": 3
     },
     {
-      "path": "/phpinfo.php",
+      "path": "/.env.local",
+      "source": "fortipot",
+      "count": 3
+    },
+    {
+      "path": "/.env.staging",
       "source": "fortipot",
       "count": 3
     },
     {
       "path": "/.git/HEAD",
+      "source": "fortipot",
+      "count": 3
+    },
+    {
+      "path": "/.aws/credentials",
       "source": "fortipot",
       "count": 3
     },
@@ -138,12 +138,12 @@
       "count": 3
     },
     {
-      "path": "/.env.prod",
+      "path": "/phpinfo.php",
       "source": "fortipot",
-      "count": 2
+      "count": 3
     },
     {
-      "path": "/app/.env",
+      "path": "/.env.prod",
       "source": "fortipot",
       "count": 2
     }
@@ -190,17 +190,17 @@
       "event_count": 24
     },
     {
-      "asn": "AS211298",
-      "name": "Driftnet Ltd",
-      "country": "GB",
-      "ip_count": 10,
-      "event_count": 16
-    },
-    {
       "asn": "AS209160",
       "name": "Miti 2000 EOOD",
       "country": "BG",
       "ip_count": 1,
+      "event_count": 18
+    },
+    {
+      "asn": "AS211298",
+      "name": "Driftnet Ltd",
+      "country": "GB",
+      "ip_count": 10,
       "event_count": 16
     },
     {
@@ -225,6 +225,13 @@
       "event_count": 7
     },
     {
+      "asn": "AS139659",
+      "name": "LUCIDACLOUD LIMITED",
+      "country": "HK",
+      "ip_count": 1,
+      "event_count": 4
+    },
+    {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
@@ -232,11 +239,11 @@
       "event_count": 4
     },
     {
-      "asn": "AS139659",
-      "name": "LUCIDACLOUD LIMITED",
-      "country": "HK",
-      "ip_count": 1,
-      "event_count": 4
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 3,
+      "event_count": 3
     },
     {
       "asn": "AS135377",
@@ -246,11 +253,11 @@
       "event_count": 3
     },
     {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 3,
-      "event_count": 3
+      "asn": "AS51396",
+      "name": "Pfcloud UG",
+      "country": "NL",
+      "ip_count": 2,
+      "event_count": 2
     },
     {
       "asn": "AS63949",
@@ -281,30 +288,23 @@
       "event_count": 2
     },
     {
+      "asn": "AS28267",
+      "name": "SIM INTERNET PROVEDORES DE INTERNET EIRELI.",
+      "country": "BR",
+      "ip_count": 1,
+      "event_count": 2
+    },
+    {
+      "asn": "AS10439",
+      "name": "CariNet, Inc.",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
       "asn": "AS211680",
       "name": "NSEC - Sistemas Informaticos, S.A.",
       "country": "US",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS215925",
-      "name": "VPSVAULT.HOST LTD",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS51396",
-      "name": "Pfcloud UG",
-      "country": "NL",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS209630",
-      "name": "LLC VASH KREDIT BANK",
-      "country": "DE",
       "ip_count": 1,
       "event_count": 1
     }
