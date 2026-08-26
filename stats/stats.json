@@ -1,21 +1,25 @@
 {
-  "generated_at": "2026-08-26T00:01:45.968738Z",
+  "generated_at": "2026-08-26T01:01:43.080183Z",
   "period_days": 90,
-  "total_events": 443,
-  "unique_ips": 44,
+  "total_events": 451,
+  "unique_ips": 50,
   "honeypots": [
     "fortipot",
     "sharepointpot"
   ],
   "totals_by_source": {
     "sharepointpot": 4,
-    "fortipot": 439
+    "fortipot": 447
   },
   "events_per_day": {
     "2026-08-25": {
       "sharepointpot": 4,
       "fortipot": 439,
       "total": 443
+    },
+    "2026-08-26": {
+      "fortipot": 8,
+      "total": 8
     }
   },
   "top_credentials": [],
@@ -37,35 +41,35 @@
       "count": 8
     },
     {
-      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.10 Safari/605.1.1",
+      "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +https://www.anthropic.com/claude-user)",
       "count": 8
     }
   ],
   "method_counts": {
-    "GET": 386,
-    "POST": 25,
+    "GET": 392,
+    "POST": 26,
     "PROPFIND": 1
   },
   "top_paths": [
     {
+      "path": "/",
+      "source": "fortipot",
+      "count": 24
+    },
+    {
       "path": "/remote/login",
       "source": "fortipot",
-      "count": 22
+      "count": 23
     },
     {
       "path": "/remote/logincheck",
       "source": "fortipot",
-      "count": 21
-    },
-    {
-      "path": "/",
-      "source": "fortipot",
-      "count": 21
+      "count": 22
     },
     {
       "path": "/favicon.ico",
       "source": "fortipot",
-      "count": 5
+      "count": 7
     },
     {
       "path": "/robots.txt",
@@ -172,8 +176,8 @@
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "US",
-      "ip_count": 1,
-      "event_count": 262
+      "ip_count": 2,
+      "event_count": 263
     },
     {
       "asn": "AS48090",
@@ -187,7 +191,7 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 24
+      "event_count": 26
     },
     {
       "asn": "AS209160",
@@ -242,8 +246,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 3,
-      "event_count": 3
+      "ip_count": 4,
+      "event_count": 4
     },
     {
       "asn": "AS135377",
@@ -253,17 +257,10 @@
       "event_count": 3
     },
     {
-      "asn": "AS51396",
-      "name": "Pfcloud UG",
-      "country": "NL",
-      "ip_count": 2,
-      "event_count": 2
-    },
-    {
-      "asn": "AS63949",
-      "name": "Akamai Connected Cloud",
-      "country": "JP",
-      "ip_count": 2,
+      "asn": "AS265393",
+      "name": "FIRENET SERVIÇOS DE TELECOMUNICAÇÕES LTDA",
+      "country": "BR",
+      "ip_count": 1,
       "event_count": 2
     },
     {
@@ -274,16 +271,30 @@
       "event_count": 2
     },
     {
-      "asn": "AS219502",
-      "name": "Storm Industries LLC",
-      "country": "TR",
-      "ip_count": 1,
+      "asn": "AS63949",
+      "name": "Akamai Connected Cloud",
+      "country": "JP",
+      "ip_count": 2,
       "event_count": 2
     },
     {
-      "asn": "AS265393",
-      "name": "FIRENET SERVIÇOS DE TELECOMUNICAÇÕES LTDA",
-      "country": "BR",
+      "asn": "AS51396",
+      "name": "Pfcloud UG",
+      "country": "NL",
+      "ip_count": 2,
+      "event_count": 2
+    },
+    {
+      "asn": "AS213412",
+      "name": "ONYPHE SAS",
+      "country": "SG",
+      "ip_count": 2,
+      "event_count": 2
+    },
+    {
+      "asn": "AS219502",
+      "name": "Storm Industries LLC",
+      "country": "TR",
       "ip_count": 1,
       "event_count": 2
     },
@@ -295,18 +306,11 @@
       "event_count": 2
     },
     {
-      "asn": "AS10439",
-      "name": "CariNet, Inc.",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS211680",
-      "name": "NSEC - Sistemas Informaticos, S.A.",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 1
+      "asn": "AS208843",
+      "name": "Alpha Strike Labs GmbH",
+      "country": "DE",
+      "ip_count": 2,
+      "event_count": 2
     }
   ]
 }
