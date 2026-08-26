@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-26T06:04:37.252493Z",
+  "generated_at": "2026-08-26T07:00:58.205961Z",
   "period_days": 90,
-  "total_events": 985,
-  "unique_ips": 65,
+  "total_events": 991,
+  "unique_ips": 66,
   "honeypots": [
     "fortipot",
     "sharepointpot"
   ],
   "totals_by_source": {
     "sharepointpot": 4,
-    "fortipot": 981
+    "fortipot": 987
   },
   "events_per_day": {
     "2026-08-25": {
@@ -18,8 +18,8 @@
       "total": 443
     },
     "2026-08-26": {
-      "fortipot": 542,
-      "total": 542
+      "fortipot": 548,
+      "total": 548
     }
   },
   "top_credentials": [],
@@ -46,8 +46,8 @@
     }
   ],
   "method_counts": {
-    "GET": 864,
-    "POST": 40,
+    "GET": 869,
+    "POST": 41,
     "PRI": 1,
     "PROPFIND": 1
   },
@@ -55,17 +55,17 @@
     {
       "path": "/",
       "source": "fortipot",
-      "count": 34
+      "count": 36
     },
     {
       "path": "/remote/login",
       "source": "fortipot",
-      "count": 30
+      "count": 31
     },
     {
       "path": "/remote/logincheck",
       "source": "fortipot",
-      "count": 29
+      "count": 30
     },
     {
       "path": "/favicon.ico",
@@ -75,7 +75,7 @@
     {
       "path": "/robots.txt",
       "source": "fortipot",
-      "count": 7
+      "count": 8
     },
     {
       "path": "/terraform.tfstate",
@@ -88,6 +88,11 @@
       "count": 6
     },
     {
+      "path": "/actuator/env",
+      "source": "fortipot",
+      "count": 5
+    },
+    {
       "path": "/.env.staging",
       "source": "fortipot",
       "count": 5
@@ -98,14 +103,14 @@
       "count": 5
     },
     {
-      "path": "/actuator/env",
+      "path": "/.env.local",
       "source": "fortipot",
       "count": 5
     },
     {
-      "path": "/.env.local",
+      "path": "/phpinfo.php",
       "source": "fortipot",
-      "count": 5
+      "count": 4
     },
     {
       "path": "/.aws/credentials",
@@ -128,22 +133,17 @@
       "count": 4
     },
     {
-      "path": "/.git/config",
-      "source": "fortipot",
-      "count": 4
-    },
-    {
       "path": "/.env.old",
       "source": "fortipot",
       "count": 4
     },
     {
-      "path": "/.env.development",
+      "path": "/.git/config",
       "source": "fortipot",
       "count": 4
     },
     {
-      "path": "/.env.backup",
+      "path": "/.env.development",
       "source": "fortipot",
       "count": 4
     },
@@ -199,7 +199,7 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 34
+      "event_count": 36
     },
     {
       "asn": "AS209160",
@@ -216,17 +216,17 @@
       "event_count": 18
     },
     {
-      "asn": "AS211298",
-      "name": "Driftnet Ltd",
-      "country": "GB",
-      "ip_count": 10,
-      "event_count": 16
-    },
-    {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 8,
+      "event_count": 17
+    },
+    {
+      "asn": "AS211298",
+      "name": "Driftnet Ltd",
+      "country": "GB",
+      "ip_count": 10,
       "event_count": 16
     },
     {
@@ -258,6 +258,13 @@
       "event_count": 5
     },
     {
+      "asn": "AS265393",
+      "name": "FIRENET SERVIÇOS DE TELECOMUNICAÇÕES LTDA",
+      "country": "BR",
+      "ip_count": 1,
+      "event_count": 4
+    },
+    {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
@@ -272,17 +279,17 @@
       "event_count": 4
     },
     {
-      "asn": "AS51396",
-      "name": "Pfcloud UG",
-      "country": "NL",
-      "ip_count": 3,
-      "event_count": 3
-    },
-    {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
       "country": "US",
       "ip_count": 1,
+      "event_count": 3
+    },
+    {
+      "asn": "AS51396",
+      "name": "Pfcloud UG",
+      "country": "NL",
+      "ip_count": 3,
       "event_count": 3
     },
     {
@@ -293,24 +300,17 @@
       "event_count": 3
     },
     {
-      "asn": "AS219502",
-      "name": "Storm Industries LLC",
-      "country": "TR",
-      "ip_count": 1,
+      "asn": "AS208843",
+      "name": "Alpha Strike Labs GmbH",
+      "country": "DE",
+      "ip_count": 2,
       "event_count": 2
     },
     {
-      "asn": "AS265393",
-      "name": "FIRENET SERVIÇOS DE TELECOMUNICAÇÕES LTDA",
-      "country": "BR",
-      "ip_count": 1,
-      "event_count": 2
-    },
-    {
-      "asn": "AS28267",
-      "name": "SIM INTERNET PROVEDORES DE INTERNET EIRELI.",
-      "country": "BR",
-      "ip_count": 1,
+      "asn": "AS63949",
+      "name": "Akamai Connected Cloud",
+      "country": "JP",
+      "ip_count": 2,
       "event_count": 2
     }
   ]
