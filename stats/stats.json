@@ -1,42 +1,214 @@
 {
-  "generated_at": "2026-08-27T18:04:48.980486Z",
+  "generated_at": "2026-08-27T19:03:39.799979Z",
   "period_days": 90,
-  "total_events": 2,
-  "unique_ips": 1,
+  "total_events": 112,
+  "unique_ips": 9,
   "honeypots": [
+    "centrestackpot:honeypot-01",
+    "fortipot:honeypot-01",
+    "front:honeypot-01",
     "sharepointpot:honeypot-01"
   ],
   "totals_by_source": {
-    "sharepointpot:honeypot-01": 2
+    "centrestackpot:honeypot-01": 47,
+    "front:honeypot-01": 55,
+    "fortipot:honeypot-01": 7,
+    "sharepointpot:honeypot-01": 3
   },
   "events_per_day": {
     "2026-08-27": {
-      "sharepointpot:honeypot-01": 2,
-      "total": 2
+      "centrestackpot:honeypot-01": 47,
+      "front:honeypot-01": 55,
+      "fortipot:honeypot-01": 7,
+      "sharepointpot:honeypot-01": 3,
+      "total": 112
     }
   },
   "top_credentials": [],
   "top_user_agents": [
     {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "count": 47
+    },
+    {
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "count": 28
+    },
+    {
       "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "count": 28
+    },
+    {
+      "user_agent": "NetworkingExtension/8624.2.5.10.4 Network/5812.122.1 iOS/26.5",
+      "count": 3
+    },
+    {
+      "user_agent": "RecordedFuture Global Inventory Crawler",
       "count": 2
     }
   ],
   "method_counts": {
-    "GET": 2
+    "GET": 111
   },
   "top_paths": [
     {
-      "path": "/_layouts/15/init.js",
-      "source": "sharepointpot:honeypot-01",
-      "count": 1
+      "path": "/",
+      "source": "centrestackpot:honeypot-01",
+      "count": 5
     },
     {
-      "path": "/_layouts/15/login.aspx?Source=/",
-      "source": "sharepointpot:honeypot-01",
-      "count": 1
+      "path": "/",
+      "source": "front:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/portal/loginpage.aspx",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/portal/WebResource.axd?d=wJDjX1rsY7suFvhoHWNiG0XoV1gCk69LjsPCw4jy_yyFefAwb-OmiidKdGn76mXBczE_cyZ1BVaLI_Amcr_ERq_NOAb6yB2D7iVfsP-dHJA1&t=638568460745067788",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/management/bootstrap4/css/bootstrap-material-design.min.css",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/storage/fonts/material-icons.css",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/storage/css/font-awesome.min.css",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/management/images/partnerbg.jpg",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/portal/images/centrestack_l.png",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/portal/css/css.css",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/management/bootstrap4/js/bootstrap-material-design.js",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/simple.php",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/webui/mytheme/c2steel/theme-steel-all.css",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/management/bootstrap4/extern/jquery.slim.min.js",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/portal/images/usergray.png",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/portal/images/lockgray.png",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/portal/css/css-steel.css",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/management/bootstrap4/extern/popper.js",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/storage/fonts/roboto.css",
+      "source": "centrestackpot:honeypot-01",
+      "count": 2
     }
   ],
   "cve_attempts": [],
-  "top_asns": []
+  "top_asns": [
+    {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "CA",
+      "ip_count": 1,
+      "event_count": 47
+    },
+    {
+      "asn": "AS29244",
+      "name": "CETIN Bulgaria EAD",
+      "country": "BG",
+      "ip_count": 1,
+      "event_count": 30
+    },
+    {
+      "asn": "AS208172",
+      "name": "Proton AG",
+      "country": "DE",
+      "ip_count": 1,
+      "event_count": 16
+    },
+    {
+      "asn": "AS212238",
+      "name": "Datacamp Limited",
+      "country": "CH",
+      "ip_count": 1,
+      "event_count": 6
+    },
+    {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 2
+    },
+    {
+      "asn": "AS208323",
+      "name": "Foundation for Applied Privacy",
+      "country": "AT",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
+      "asn": "AS16276",
+      "name": "OVH SAS",
+      "country": "FR",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
+      "asn": "AS62240",
+      "name": "Clouvider",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 1
+    }
+  ]
 }
