@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-27T20:00:43.228838Z",
+  "generated_at": "2026-08-27T21:04:48.298263Z",
   "period_days": 90,
-  "total_events": 136,
-  "unique_ips": 13,
+  "total_events": 157,
+  "unique_ips": 25,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -11,20 +11,20 @@
     "sharepointpot:honeypot-01"
   ],
   "totals_by_source": {
-    "bigippot:honeypot-01": 2,
+    "bigippot:honeypot-01": 16,
     "centrestackpot:honeypot-01": 67,
-    "front:honeypot-01": 57,
-    "fortipot:honeypot-01": 7,
+    "front:honeypot-01": 63,
+    "fortipot:honeypot-01": 8,
     "sharepointpot:honeypot-01": 3
   },
   "events_per_day": {
     "2026-08-27": {
       "centrestackpot:honeypot-01": 67,
-      "bigippot:honeypot-01": 2,
-      "front:honeypot-01": 57,
-      "fortipot:honeypot-01": 7,
+      "bigippot:honeypot-01": 16,
+      "front:honeypot-01": 63,
+      "fortipot:honeypot-01": 8,
       "sharepointpot:honeypot-01": 3,
-      "total": 136
+      "total": 157
     }
   },
   "top_credentials": [],
@@ -42,16 +42,18 @@
       "count": 28
     },
     {
-      "user_agent": "NetworkingExtension/8624.2.5.10.4 Network/5812.122.1 iOS/26.5",
-      "count": 3
+      "user_agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+      "count": 4
     },
     {
-      "user_agent": "RecordedFuture Global Inventory Crawler",
-      "count": 2
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "count": 3
     }
   ],
   "method_counts": {
-    "GET": 135
+    "GET": 149,
+    "POST": 2,
+    "PRI": 1
   },
   "top_paths": [
     {
@@ -62,7 +64,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 4
+      "count": 5
     },
     {
       "path": "/portal/loginpage.aspx",
@@ -70,17 +72,7 @@
       "count": 4
     },
     {
-      "path": "/management/bootstrap4/extern/jquery.slim.min.js",
-      "source": "centrestackpot:honeypot-01",
-      "count": 3
-    },
-    {
       "path": "/favicon.ico",
-      "source": "centrestackpot:honeypot-01",
-      "count": 3
-    },
-    {
-      "path": "/management/bootstrap4/js/bootstrap-material-design.js",
       "source": "centrestackpot:honeypot-01",
       "count": 3
     },
@@ -90,12 +82,32 @@
       "count": 3
     },
     {
-      "path": "/portal/css/css.css",
+      "path": "/management/bootstrap4/extern/jquery.slim.min.js",
       "source": "centrestackpot:honeypot-01",
       "count": 3
     },
     {
       "path": "/portal/images/centrestack_l.png",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/management/bootstrap4/js/bootstrap-material-design.js",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/",
+      "source": "bigippot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/portal/css/css.css",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/portal/images/lockgray.png",
       "source": "centrestackpot:honeypot-01",
       "count": 3
     },
@@ -116,11 +128,6 @@
     },
     {
       "path": "/portal/WebResource.axd?d=wJDjX1rsY7suFvhoHWNiG0XoV1gCk69LjsPCw4jy_yyFefAwb-OmiidKdGn76mXBczE_cyZ1BVaLI_Amcr_ERq_NOAb6yB2D7iVfsP-dHJA1&t=638568460745067788",
-      "source": "centrestackpot:honeypot-01",
-      "count": 3
-    },
-    {
-      "path": "/portal/images/lockgray.png",
       "source": "centrestackpot:honeypot-01",
       "count": 3
     },
@@ -146,11 +153,6 @@
     },
     {
       "path": "/portal/WebResource.axd?d=T7o6EAJeBsjBxZReforVT0Wx5BdgrZafrsnavJNI522pw-_ER-3H36UJePrE_jCb9G0m4ylKfA4LRYi13sy1ibAUNNEturWsf4A-TMQF4yw1&t=638568460745067788",
-      "source": "centrestackpot:honeypot-01",
-      "count": 3
-    },
-    {
-      "path": "/webui/mytheme/c2steel/theme-steel-all.css",
       "source": "centrestackpot:honeypot-01",
       "count": 3
     }
@@ -186,16 +188,30 @@
       "event_count": 16
     },
     {
+      "asn": "AS398324",
+      "name": "Censys, Inc.",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 7
+    },
+    {
+      "asn": "AS21859",
+      "name": "Zenlayer Inc",
+      "country": "US",
+      "ip_count": 3,
+      "event_count": 6
+    },
+    {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 2,
-      "event_count": 3
+      "ip_count": 5,
+      "event_count": 6
     },
     {
-      "asn": "AS56971",
-      "name": "AS56971 Cloud",
-      "country": "FR",
+      "asn": "AS34984",
+      "name": "Superonline Iletisim Hizmetleri A.S.",
+      "country": "TR",
       "ip_count": 1,
       "event_count": 1
     },
@@ -217,6 +233,41 @@
       "asn": "AS62240",
       "name": "Clouvider",
       "country": "US",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
+      "asn": "AS219502",
+      "name": "Storm Industries LLC",
+      "country": "TR",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
+      "asn": "AS30058",
+      "name": "FDCservers.net",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
+      "asn": "AS56971",
+      "name": "AS56971 Cloud",
+      "country": "FR",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
+      "asn": "AS50304",
+      "name": "Blix Solutions AS",
+      "country": "NO",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
+      "asn": "AS51396",
+      "name": "Pfcloud UG",
+      "country": "DE",
       "ip_count": 1,
       "event_count": 1
     }
