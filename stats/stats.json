@@ -1,71 +1,39 @@
 {
-  "generated_at": "2026-08-27T13:03:48.632357Z",
+  "generated_at": "2026-08-27T17:12:54.664922Z",
   "period_days": 90,
-  "total_events": 6,
-  "unique_ips": 4,
+  "total_events": 2,
+  "unique_ips": 1,
   "honeypots": [
-    "fortipot:honeypot-01",
-    "front:honeypot-01"
+    "sharepointpot:honeypot-01"
   ],
   "totals_by_source": {
-    "front:honeypot-01": 1,
-    "fortipot:honeypot-01": 5
+    "sharepointpot:honeypot-01": 2
   },
   "events_per_day": {
     "2026-08-27": {
-      "front:honeypot-01": 1,
-      "fortipot:honeypot-01": 5,
-      "total": 6
+      "sharepointpot:honeypot-01": 2,
+      "total": 2
     }
   },
   "top_credentials": [],
   "top_user_agents": [
     {
-      "user_agent": "Mozilla/5.0 (Linux; Android 11; M2004J15SC) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Mobile Safari/537.36",
-      "count": 3
-    },
-    {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
       "count": 2
-    },
-    {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-      "count": 1
     }
   ],
   "method_counts": {
-    "GET": 4,
-    "POST": 2
+    "GET": 2
   },
   "top_paths": [
     {
-      "path": "/contact",
-      "source": "front:honeypot-01",
+      "path": "/_layouts/15/init.js",
+      "source": "sharepointpot:honeypot-01",
       "count": 1
     },
     {
-      "path": "/remote/logincheck",
-      "source": "fortipot:honeypot-01",
-      "count": 1
-    },
-    {
-      "path": "/remote/login",
-      "source": "fortipot:honeypot-01",
-      "count": 1
-    },
-    {
-      "path": "/static/admin/javascript/hetong.js",
-      "source": "fortipot:honeypot-01",
-      "count": 1
-    },
-    {
-      "path": "/Public/home/js/check.js",
-      "source": "fortipot:honeypot-01",
-      "count": 1
-    },
-    {
-      "path": "/",
-      "source": "fortipot:honeypot-01",
+      "path": "/_layouts/15/login.aspx?Source=/",
+      "source": "sharepointpot:honeypot-01",
       "count": 1
     }
   ],
