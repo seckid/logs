@@ -1,38 +1,41 @@
 {
-  "generated_at": "2026-08-27T19:03:39.799979Z",
+  "generated_at": "2026-08-27T20:00:43.228838Z",
   "period_days": 90,
-  "total_events": 112,
-  "unique_ips": 9,
+  "total_events": 136,
+  "unique_ips": 13,
   "honeypots": [
+    "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
     "fortipot:honeypot-01",
     "front:honeypot-01",
     "sharepointpot:honeypot-01"
   ],
   "totals_by_source": {
-    "centrestackpot:honeypot-01": 47,
-    "front:honeypot-01": 55,
+    "bigippot:honeypot-01": 2,
+    "centrestackpot:honeypot-01": 67,
+    "front:honeypot-01": 57,
     "fortipot:honeypot-01": 7,
     "sharepointpot:honeypot-01": 3
   },
   "events_per_day": {
     "2026-08-27": {
-      "centrestackpot:honeypot-01": 47,
-      "front:honeypot-01": 55,
+      "centrestackpot:honeypot-01": 67,
+      "bigippot:honeypot-01": 2,
+      "front:honeypot-01": 57,
       "fortipot:honeypot-01": 7,
       "sharepointpot:honeypot-01": 3,
-      "total": 112
+      "total": 136
     }
   },
   "top_credentials": [],
   "top_user_agents": [
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 47
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "count": 48
     },
     {
-      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
-      "count": 28
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "count": 47
     },
     {
       "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
@@ -48,108 +51,108 @@
     }
   ],
   "method_counts": {
-    "GET": 111
+    "GET": 135
   },
   "top_paths": [
     {
       "path": "/",
       "source": "centrestackpot:honeypot-01",
-      "count": 5
+      "count": 6
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 3
+      "count": 4
     },
     {
       "path": "/portal/loginpage.aspx",
+      "source": "centrestackpot:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/management/bootstrap4/extern/jquery.slim.min.js",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/management/bootstrap4/js/bootstrap-material-design.js",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/management/images/partnerbg.jpg",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/portal/css/css.css",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/portal/images/centrestack_l.png",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/storage/css/font-awesome.min.css",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/storage/fonts/material-icons.css",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/management/bootstrap4/css/bootstrap-material-design.min.css",
       "source": "centrestackpot:honeypot-01",
       "count": 3
     },
     {
       "path": "/portal/WebResource.axd?d=wJDjX1rsY7suFvhoHWNiG0XoV1gCk69LjsPCw4jy_yyFefAwb-OmiidKdGn76mXBczE_cyZ1BVaLI_Amcr_ERq_NOAb6yB2D7iVfsP-dHJA1&t=638568460745067788",
       "source": "centrestackpot:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/management/bootstrap4/css/bootstrap-material-design.min.css",
-      "source": "centrestackpot:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/storage/fonts/material-icons.css",
-      "source": "centrestackpot:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/storage/css/font-awesome.min.css",
-      "source": "centrestackpot:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/management/images/partnerbg.jpg",
-      "source": "centrestackpot:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/portal/images/centrestack_l.png",
-      "source": "centrestackpot:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/portal/css/css.css",
-      "source": "centrestackpot:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "centrestackpot:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/management/bootstrap4/js/bootstrap-material-design.js",
-      "source": "centrestackpot:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/simple.php",
-      "source": "front:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/webui/mytheme/c2steel/theme-steel-all.css",
-      "source": "centrestackpot:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/management/bootstrap4/extern/jquery.slim.min.js",
-      "source": "centrestackpot:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/portal/images/usergray.png",
-      "source": "centrestackpot:honeypot-01",
-      "count": 2
+      "count": 3
     },
     {
       "path": "/portal/images/lockgray.png",
       "source": "centrestackpot:honeypot-01",
-      "count": 2
+      "count": 3
     },
     {
       "path": "/portal/css/css-steel.css",
       "source": "centrestackpot:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/management/bootstrap4/extern/popper.js",
-      "source": "centrestackpot:honeypot-01",
-      "count": 2
+      "count": 3
     },
     {
       "path": "/storage/fonts/roboto.css",
       "source": "centrestackpot:honeypot-01",
-      "count": 2
+      "count": 3
+    },
+    {
+      "path": "/management/bootstrap4/extern/popper.js",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/portal/images/blueloader.gif",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/portal/WebResource.axd?d=T7o6EAJeBsjBxZReforVT0Wx5BdgrZafrsnavJNI522pw-_ER-3H36UJePrE_jCb9G0m4ylKfA4LRYi13sy1ibAUNNEturWsf4A-TMQF4yw1&t=638568460745067788",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/webui/mytheme/c2steel/theme-steel-all.css",
+      "source": "centrestackpot:honeypot-01",
+      "count": 3
     }
   ],
   "cve_attempts": [],
@@ -157,9 +160,9 @@
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "CA",
-      "ip_count": 1,
-      "event_count": 47
+      "country": "US",
+      "ip_count": 2,
+      "event_count": 49
     },
     {
       "asn": "AS29244",
@@ -169,6 +172,13 @@
       "event_count": 30
     },
     {
+      "asn": "AS212238",
+      "name": "Datacamp Limited",
+      "country": "DE",
+      "ip_count": 2,
+      "event_count": 26
+    },
+    {
       "asn": "AS208172",
       "name": "Proton AG",
       "country": "DE",
@@ -176,18 +186,18 @@
       "event_count": 16
     },
     {
-      "asn": "AS212238",
-      "name": "Datacamp Limited",
-      "country": "CH",
-      "ip_count": 1,
-      "event_count": 6
-    },
-    {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
+      "ip_count": 2,
+      "event_count": 3
+    },
+    {
+      "asn": "AS56971",
+      "name": "AS56971 Cloud",
+      "country": "FR",
       "ip_count": 1,
-      "event_count": 2
+      "event_count": 1
     },
     {
       "asn": "AS208323",
