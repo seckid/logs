@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-28T03:00:48.287408Z",
+  "generated_at": "2026-08-28T04:01:59.249703Z",
   "period_days": 90,
-  "total_events": 357,
-  "unique_ips": 44,
+  "total_events": 453,
+  "unique_ips": 50,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -11,9 +11,9 @@
     "sharepointpot:honeypot-01"
   ],
   "totals_by_source": {
-    "bigippot:honeypot-01": 63,
-    "centrestackpot:honeypot-01": 92,
-    "front:honeypot-01": 184,
+    "bigippot:honeypot-01": 91,
+    "centrestackpot:honeypot-01": 112,
+    "front:honeypot-01": 232,
     "fortipot:honeypot-01": 15,
     "sharepointpot:honeypot-01": 3
   },
@@ -27,43 +27,56 @@
       "total": 325
     },
     "2026-08-28": {
-      "bigippot:honeypot-01": 32,
-      "total": 32
+      "front:honeypot-01": 48,
+      "bigippot:honeypot-01": 60,
+      "centrestackpot:honeypot-01": 20,
+      "total": 128
     }
   },
   "top_credentials": [],
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 167
+      "count": 210
+    },
+    {
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "count": 48
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
       "count": 48
     },
     {
-      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
-      "count": 28
-    },
-    {
       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
       "count": 21
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.",
-      "count": 6
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0",
+      "count": 19
     }
   ],
   "method_counts": {
-    "GET": 320,
-    "POST": 10,
+    "GET": 413,
+    "POST": 11,
+    "HEAD": 1,
     "PRI": 1
   },
   "top_paths": [
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 10
+      "count": 14
+    },
+    {
+      "path": "/",
+      "source": "front:honeypot-01",
+      "count": 11
+    },
+    {
+      "path": "/remote/login",
+      "source": "bigippot:honeypot-01",
+      "count": 9
     },
     {
       "path": "/",
@@ -73,17 +86,7 @@
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 8
-    },
-    {
-      "path": "/remote/login",
-      "source": "bigippot:honeypot-01",
-      "count": 8
-    },
-    {
-      "path": "/",
-      "source": "front:honeypot-01",
-      "count": 7
+      "count": 9
     },
     {
       "path": "/portal/loginpage.aspx",
@@ -91,74 +94,74 @@
       "count": 7
     },
     {
-      "path": "/management/bootstrap4/extern/jquery.slim.min.js",
+      "path": "/portal/WebResource.axd?d=T7o6EAJeBsjBxZReforVT0Wx5BdgrZafrsnavJNI522pw-_ER-3H36UJePrE_jCb9G0m4ylKfA4LRYi13sy1ibAUNNEturWsf4A-TMQF4yw1&t=638568460745067788",
       "source": "centrestackpot:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/storage/fonts/roboto.css",
-      "source": "centrestackpot:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/portal/css/css-steel.css",
-      "source": "centrestackpot:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/portal/images/lockgray.png",
-      "source": "centrestackpot:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/",
-      "source": "fortipot:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/portal/images/centrestack_l.png",
-      "source": "centrestackpot:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/management/images/partnerbg.jpg",
-      "source": "centrestackpot:honeypot-01",
-      "count": 4
+      "count": 5
     },
     {
       "path": "/portal/images/blueloader.gif",
       "source": "centrestackpot:honeypot-01",
-      "count": 4
+      "count": 5
     },
     {
-      "path": "/webui/mytheme/c2steel/theme-steel-all.css",
+      "path": "/storage/fonts/roboto.css",
       "source": "centrestackpot:honeypot-01",
-      "count": 4
+      "count": 5
     },
     {
-      "path": "/portal/images/usergray.png",
+      "path": "/management/bootstrap4/extern/jquery.slim.min.js",
       "source": "centrestackpot:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/tmui/login.jsp",
-      "source": "bigippot:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/storage/fonts/material-icons.css",
-      "source": "centrestackpot:honeypot-01",
-      "count": 4
+      "count": 5
     },
     {
       "path": "/management/bootstrap4/css/bootstrap-material-design.min.css",
       "source": "centrestackpot:honeypot-01",
-      "count": 4
+      "count": 5
+    },
+    {
+      "path": "/management/images/partnerbg.jpg",
+      "source": "centrestackpot:honeypot-01",
+      "count": 5
+    },
+    {
+      "path": "/tmui/login.jsp",
+      "source": "bigippot:honeypot-01",
+      "count": 5
+    },
+    {
+      "path": "/management/bootstrap4/extern/popper.js",
+      "source": "centrestackpot:honeypot-01",
+      "count": 5
+    },
+    {
+      "path": "/portal/images/lockgray.png",
+      "source": "centrestackpot:honeypot-01",
+      "count": 5
+    },
+    {
+      "path": "/management/bootstrap4/js/bootstrap-material-design.js",
+      "source": "centrestackpot:honeypot-01",
+      "count": 5
+    },
+    {
+      "path": "/portal/css/css.css",
+      "source": "centrestackpot:honeypot-01",
+      "count": 5
+    },
+    {
+      "path": "/portal/images/centrestack_l.png",
+      "source": "centrestackpot:honeypot-01",
+      "count": 5
     },
     {
       "path": "/portal/WebResource.axd?d=wJDjX1rsY7suFvhoHWNiG0XoV1gCk69LjsPCw4jy_yyFefAwb-OmiidKdGn76mXBczE_cyZ1BVaLI_Amcr_ERq_NOAb6yB2D7iVfsP-dHJA1&t=638568460745067788",
       "source": "centrestackpot:honeypot-01",
-      "count": 4
+      "count": 5
+    },
+    {
+      "path": "/storage/css/font-awesome.min.css",
+      "source": "centrestackpot:honeypot-01",
+      "count": 5
     }
   ],
   "cve_attempts": [],
@@ -166,16 +169,16 @@
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 5,
-      "event_count": 171
+      "country": "MX",
+      "ip_count": 7,
+      "event_count": 234
     },
     {
       "asn": "AS29244",
       "name": "CETIN Bulgaria EAD",
       "country": "BG",
       "ip_count": 1,
-      "event_count": 30
+      "event_count": 47
     },
     {
       "asn": "AS212238",
@@ -210,7 +213,7 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 10
+      "event_count": 12
     },
     {
       "asn": "AS398324",
@@ -218,13 +221,6 @@
       "country": "US",
       "ip_count": 1,
       "event_count": 7
-    },
-    {
-      "asn": "AS64286",
-      "name": "LogicWeb Inc.",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 6
     },
     {
       "asn": "AS209160",
@@ -241,11 +237,39 @@
       "event_count": 6
     },
     {
+      "asn": "AS64286",
+      "name": "LogicWeb Inc.",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 6
+    },
+    {
+      "asn": "AS135377",
+      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 5
+    },
+    {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
       "country": "SG",
       "ip_count": 1,
       "event_count": 3
+    },
+    {
+      "asn": "AS201814",
+      "name": "MEVSPACE sp. z o.o.",
+      "country": "PL",
+      "ip_count": 1,
+      "event_count": 3
+    },
+    {
+      "asn": "AS14987",
+      "name": "Rethem Hosting LLC",
+      "country": "US",
+      "ip_count": 2,
+      "event_count": 2
     },
     {
       "asn": "AS51396",
@@ -257,13 +281,6 @@
     {
       "asn": "AS46261",
       "name": "QuickPacket, LLC",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 2
-    },
-    {
-      "asn": "AS54103",
-      "name": "MOD Mission Critical, LLC",
       "country": "US",
       "ip_count": 1,
       "event_count": 2
@@ -283,25 +300,11 @@
       "event_count": 2
     },
     {
-      "asn": "AS14987",
-      "name": "Rethem Hosting LLC",
+      "asn": "AS54103",
+      "name": "MOD Mission Critical, LLC",
       "country": "US",
-      "ip_count": 2,
+      "ip_count": 1,
       "event_count": 2
-    },
-    {
-      "asn": "AS219502",
-      "name": "Storm Industries LLC",
-      "country": "TR",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS56971",
-      "name": "AS56971 Cloud",
-      "country": "FR",
-      "ip_count": 1,
-      "event_count": 1
     }
   ]
 }
