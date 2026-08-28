@@ -1,15 +1,214 @@
 {
-  "generated_at": "2026-08-28T13:12:17.020539Z",
+  "generated_at": "2026-08-28T14:03:59.504378Z",
   "period_days": 90,
-  "total_events": 0,
-  "unique_ips": 0,
-  "honeypots": [],
-  "totals_by_source": {},
-  "events_per_day": {},
+  "total_events": 368,
+  "unique_ips": 14,
+  "honeypots": [
+    "front:honeypot-01"
+  ],
+  "totals_by_source": {
+    "front:honeypot-01": 368
+  },
+  "events_per_day": {
+    "2026-08-28": {
+      "front:honeypot-01": 368,
+      "total": 368
+    }
+  },
   "top_credentials": [],
-  "top_user_agents": [],
-  "method_counts": {},
-  "top_paths": [],
+  "top_user_agents": [
+    {
+      "user_agent": "Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com)",
+      "count": 285
+    },
+    {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "count": 32
+    },
+    {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.0 Safari/537.36",
+      "count": 12
+    },
+    {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "count": 12
+    },
+    {
+      "user_agent": "NetworkingExtension/8624.2.5.10.4 Network/5812.122.1 iOS/26.5",
+      "count": 6
+    }
+  ],
+  "method_counts": {
+    "GET": 364,
+    "POST": 3,
+    "HEAD": 1
+  },
+  "top_paths": [
+    {
+      "path": "/",
+      "source": "front:honeypot-01",
+      "count": 14
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "front:honeypot-01",
+      "count": 8
+    },
+    {
+      "path": "/logo.svg",
+      "source": "front:honeypot-01",
+      "count": 7
+    },
+    {
+      "path": "/style.css",
+      "source": "front:honeypot-01",
+      "count": 6
+    },
+    {
+      "path": "/.env",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/api/env",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/apple-touch-icon-precomposed.png",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/.env.local",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/settings.js",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/config.js",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/graphql",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/.env.production",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/dashboard",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/apple-touch-icon.png",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/api/config",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/actuator/configprops",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/v1/graphql",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/config.json",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/.env.example",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/api/graphql",
+      "source": "front:honeypot-01",
+      "count": 2
+    }
+  ],
   "cve_attempts": [],
-  "top_asns": []
+  "top_asns": [
+    {
+      "asn": "AS396982",
+      "name": "Google LLC",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 301
+    },
+    {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "ip_count": 3,
+      "event_count": 19
+    },
+    {
+      "asn": "AS205759",
+      "name": "Ghosty Networks LLC",
+      "country": "LU",
+      "ip_count": 1,
+      "event_count": 12
+    },
+    {
+      "asn": "AS29244",
+      "name": "CETIN Bulgaria EAD",
+      "country": "BG",
+      "ip_count": 1,
+      "event_count": 9
+    },
+    {
+      "asn": "AS212238",
+      "name": "Datacamp Limited",
+      "country": "GB",
+      "ip_count": 1,
+      "event_count": 4
+    },
+    {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 3,
+      "event_count": 3
+    },
+    {
+      "asn": "AS197769",
+      "name": "VPS Dedicated LLC",
+      "country": "DE",
+      "ip_count": 1,
+      "event_count": 2
+    },
+    {
+      "asn": "AS219502",
+      "name": "Storm Industries LLC",
+      "country": "NL",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
+      "asn": "AS18881",
+      "name": "TELEFÔNICA BRASIL S.A",
+      "country": "BR",
+      "ip_count": 1,
+      "event_count": 1
+    }
+  ]
 }
