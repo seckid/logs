@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-27T23:02:19.576894Z",
+  "generated_at": "2026-08-28T00:01:38.057145Z",
   "period_days": 90,
-  "total_events": 319,
-  "unique_ips": 35,
+  "total_events": 325,
+  "unique_ips": 36,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -11,7 +11,7 @@
     "sharepointpot:honeypot-01"
   ],
   "totals_by_source": {
-    "bigippot:honeypot-01": 25,
+    "bigippot:honeypot-01": 31,
     "centrestackpot:honeypot-01": 92,
     "front:honeypot-01": 184,
     "fortipot:honeypot-01": 15,
@@ -20,11 +20,11 @@
   "events_per_day": {
     "2026-08-27": {
       "centrestackpot:honeypot-01": 92,
-      "bigippot:honeypot-01": 25,
+      "bigippot:honeypot-01": 31,
       "front:honeypot-01": 184,
       "fortipot:honeypot-01": 15,
       "sharepointpot:honeypot-01": 3,
-      "total": 319
+      "total": 325
     }
   },
   "top_credentials": [],
@@ -51,8 +51,8 @@
     }
   ],
   "method_counts": {
-    "GET": 307,
-    "POST": 6,
+    "GET": 309,
+    "POST": 8,
     "PRI": 1
   },
   "top_paths": [
@@ -74,7 +74,12 @@
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 4
+      "count": 6
+    },
+    {
+      "path": "/remote/login",
+      "source": "bigippot:honeypot-01",
+      "count": 6
     },
     {
       "path": "/portal/images/usergray.png",
@@ -119,11 +124,6 @@
     {
       "path": "/portal/css/css-steel.css",
       "source": "centrestackpot:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/remote/login",
-      "source": "bigippot:honeypot-01",
       "count": 4
     },
     {
@@ -195,6 +195,13 @@
       "event_count": 16
     },
     {
+      "asn": "AS43350",
+      "name": "NForce Entertainment B.V.",
+      "country": "NL",
+      "ip_count": 1,
+      "event_count": 8
+    },
+    {
       "asn": "AS398324",
       "name": "Censys, Inc.",
       "country": "US",
@@ -202,17 +209,10 @@
       "event_count": 7
     },
     {
-      "asn": "AS43350",
-      "name": "NForce Entertainment B.V.",
-      "country": "NL",
-      "ip_count": 1,
-      "event_count": 6
-    },
-    {
-      "asn": "AS21859",
-      "name": "Zenlayer Inc",
+      "asn": "AS64286",
+      "name": "LogicWeb Inc.",
       "country": "US",
-      "ip_count": 3,
+      "ip_count": 1,
       "event_count": 6
     },
     {
@@ -223,18 +223,18 @@
       "event_count": 6
     },
     {
-      "asn": "AS64286",
-      "name": "LogicWeb Inc.",
+      "asn": "AS21859",
+      "name": "Zenlayer Inc",
       "country": "US",
-      "ip_count": 1,
+      "ip_count": 3,
       "event_count": 6
     },
     {
-      "asn": "AS54103",
-      "name": "MOD Mission Critical, LLC",
-      "country": "US",
+      "asn": "AS209160",
+      "name": "Miti 2000 EOOD",
+      "country": "BG",
       "ip_count": 1,
-      "event_count": 2
+      "event_count": 4
     },
     {
       "asn": "AS46261",
@@ -251,9 +251,9 @@
       "event_count": 2
     },
     {
-      "asn": "AS209160",
-      "name": "Miti 2000 EOOD",
-      "country": "BG",
+      "asn": "AS54103",
+      "name": "MOD Mission Critical, LLC",
+      "country": "US",
       "ip_count": 1,
       "event_count": 2
     },
@@ -265,16 +265,16 @@
       "event_count": 2
     },
     {
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "AU",
+      "ip_count": 1,
+      "event_count": 2
+    },
+    {
       "asn": "AS50304",
       "name": "Blix Solutions AS",
       "country": "NO",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS219502",
-      "name": "Storm Industries LLC",
-      "country": "TR",
       "ip_count": 1,
       "event_count": 1
     },
@@ -286,16 +286,16 @@
       "event_count": 1
     },
     {
-      "asn": "AS16276",
-      "name": "OVH SAS",
-      "country": "FR",
+      "asn": "AS219502",
+      "name": "Storm Industries LLC",
+      "country": "TR",
       "ip_count": 1,
       "event_count": 1
     },
     {
-      "asn": "AS208323",
-      "name": "Foundation for Applied Privacy",
-      "country": "AT",
+      "asn": "AS16276",
+      "name": "OVH SAS",
+      "country": "FR",
       "ip_count": 1,
       "event_count": 1
     }
