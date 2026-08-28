@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-28T18:01:23.584640Z",
+  "generated_at": "2026-08-28T19:03:15.250776Z",
   "period_days": 90,
-  "total_events": 549,
-  "unique_ips": 46,
+  "total_events": 856,
+  "unique_ips": 49,
   "honeypots": [
     "bigippot:honeypot-01",
     "front:honeypot-01"
   ],
   "totals_by_source": {
     "bigippot:honeypot-01": 34,
-    "front:honeypot-01": 515
+    "front:honeypot-01": 822
   },
   "events_per_day": {
     "2026-08-28": {
       "bigippot:honeypot-01": 34,
-      "front:honeypot-01": 515,
-      "total": 549
+      "front:honeypot-01": 822,
+      "total": 856
     }
   },
   "top_credentials": [],
@@ -23,6 +23,10 @@
     {
       "user_agent": "Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com)",
       "count": 285
+    },
+    {
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 274
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -33,39 +37,40 @@
       "count": 32
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-      "count": 12
-    },
-    {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.0 Safari/537.36",
-      "count": 12
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 13
     }
   ],
   "method_counts": {
-    "GET": 528,
-    "POST": 9,
+    "GET": 831,
+    "POST": 13,
     "HEAD": 3
   },
   "top_paths": [
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 30
+      "count": 38
     },
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 11
+      "count": 12
     },
     {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
-      "count": 10
+      "count": 11
     },
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 9
+      "count": 11
+    },
+    {
+      "path": "/.env",
+      "source": "front:honeypot-01",
+      "count": 8
     },
     {
       "path": "/",
@@ -83,12 +88,17 @@
       "count": 6
     },
     {
-      "path": "/.env",
+      "path": "/sw.js",
       "source": "front:honeypot-01",
       "count": 4
     },
     {
       "path": "/robots.txt",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/.env.local",
       "source": "front:honeypot-01",
       "count": 4
     },
@@ -100,52 +110,42 @@
     {
       "path": "/apple-touch-icon-precomposed.png",
       "source": "front:honeypot-01",
-      "count": 3
+      "count": 4
+    },
+    {
+      "path": "/test.php",
+      "source": "front:honeypot-01",
+      "count": 4
     },
     {
       "path": "/apple-touch-icon.png",
       "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/.env.production",
+      "source": "front:honeypot-01",
       "count": 3
     },
     {
-      "path": "/sellers.json",
+      "path": "/backend/.env",
       "source": "front:honeypot-01",
-      "count": 2
+      "count": 3
     },
     {
-      "path": "/api/config",
+      "path": "/phpinfo.php",
       "source": "front:honeypot-01",
-      "count": 2
+      "count": 3
     },
     {
-      "path": "/actuator/configprops",
+      "path": "/.env.example",
       "source": "front:honeypot-01",
-      "count": 2
+      "count": 3
     },
     {
-      "path": "/config.json",
+      "path": "/.env.bak",
       "source": "front:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/v1/graphql",
-      "source": "front:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/ads.txt",
-      "source": "front:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/open/",
-      "source": "front:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/dashboard",
-      "source": "front:honeypot-01",
-      "count": 2
+      "count": 3
     }
   ],
   "cve_attempts": [],
@@ -156,6 +156,13 @@
       "country": "TW",
       "ip_count": 2,
       "event_count": 303
+    },
+    {
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 262
     },
     {
       "asn": "AS8075",
@@ -191,6 +198,13 @@
       "country": "GB",
       "ip_count": 9,
       "event_count": 11
+    },
+    {
+      "asn": "AS14593",
+      "name": "Space Exploration Technologies Corporation",
+      "country": "GR",
+      "ip_count": 1,
+      "event_count": 10
     },
     {
       "asn": "AS43350",
@@ -273,20 +287,6 @@
       "asn": "AS32934",
       "name": "Facebook, Inc.",
       "country": "US",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS19084",
-      "name": "ColoUp",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS219502",
-      "name": "Storm Industries LLC",
-      "country": "NL",
       "ip_count": 1,
       "event_count": 1
     }
