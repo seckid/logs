@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-28T17:03:12.470028Z",
+  "generated_at": "2026-08-28T18:01:23.584640Z",
   "period_days": 90,
-  "total_events": 543,
-  "unique_ips": 44,
+  "total_events": 549,
+  "unique_ips": 46,
   "honeypots": [
     "bigippot:honeypot-01",
     "front:honeypot-01"
   ],
   "totals_by_source": {
-    "bigippot:honeypot-01": 28,
+    "bigippot:honeypot-01": 34,
     "front:honeypot-01": 515
   },
   "events_per_day": {
     "2026-08-28": {
-      "bigippot:honeypot-01": 28,
+      "bigippot:honeypot-01": 34,
       "front:honeypot-01": 515,
-      "total": 543
+      "total": 549
     }
   },
   "top_credentials": [],
@@ -33,17 +33,17 @@
       "count": 32
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.0 Safari/537.36",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
       "count": 12
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.0 Safari/537.36",
       "count": 12
     }
   ],
   "method_counts": {
-    "GET": 523,
-    "POST": 8,
+    "GET": 528,
+    "POST": 9,
     "HEAD": 3
   },
   "top_paths": [
@@ -68,14 +68,19 @@
       "count": 9
     },
     {
+      "path": "/",
+      "source": "bigippot:honeypot-01",
+      "count": 7
+    },
+    {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 5
+      "count": 6
     },
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 5
+      "count": 6
     },
     {
       "path": "/.env",
@@ -88,18 +93,13 @@
       "count": 4
     },
     {
-      "path": "/",
+      "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
       "count": 4
     },
     {
       "path": "/apple-touch-icon-precomposed.png",
       "source": "front:honeypot-01",
-      "count": 3
-    },
-    {
-      "path": "/tmui/login.jsp",
-      "source": "bigippot:honeypot-01",
       "count": 3
     },
     {
@@ -197,19 +197,12 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 6
+      "event_count": 8
     },
     {
       "asn": "AS212238",
       "name": "Datacamp Limited",
       "country": "GB",
-      "ip_count": 1,
-      "event_count": 4
-    },
-    {
-      "asn": "AS209160",
-      "name": "Miti 2000 EOOD",
-      "country": "BG",
       "ip_count": 1,
       "event_count": 4
     },
@@ -221,8 +214,22 @@
       "event_count": 4
     },
     {
+      "asn": "AS209160",
+      "name": "Miti 2000 EOOD",
+      "country": "BG",
+      "ip_count": 1,
+      "event_count": 4
+    },
+    {
       "asn": "AS202422",
       "name": "G-Core Labs S.A.",
+      "country": "JP",
+      "ip_count": 1,
+      "event_count": 3
+    },
+    {
+      "asn": "AS154177",
+      "name": "LIGHT NODE LIMITED",
       "country": "JP",
       "ip_count": 1,
       "event_count": 3
@@ -235,9 +242,9 @@
       "event_count": 3
     },
     {
-      "asn": "AS154177",
-      "name": "LIGHT NODE LIMITED",
-      "country": "JP",
+      "asn": "AS45102",
+      "name": "Alibaba (US) Technology Co., Ltd.",
+      "country": "US",
       "ip_count": 1,
       "event_count": 3
     },
@@ -256,23 +263,16 @@
       "event_count": 2
     },
     {
-      "asn": "AS24940",
-      "name": "Hetzner Online GmbH",
-      "country": "DE",
+      "asn": "AS18881",
+      "name": "TELEFÔNICA BRASIL S.A",
+      "country": "BR",
       "ip_count": 1,
       "event_count": 1
     },
     {
-      "asn": "AS215925",
-      "name": "VPSVAULT.HOST LTD",
+      "asn": "AS32934",
+      "name": "Facebook, Inc.",
       "country": "US",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS219502",
-      "name": "Storm Industries LLC",
-      "country": "NL",
       "ip_count": 1,
       "event_count": 1
     },
@@ -284,9 +284,9 @@
       "event_count": 1
     },
     {
-      "asn": "AS18881",
-      "name": "TELEFÔNICA BRASIL S.A",
-      "country": "BR",
+      "asn": "AS219502",
+      "name": "Storm Industries LLC",
+      "country": "NL",
       "ip_count": 1,
       "event_count": 1
     }
