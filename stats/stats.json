@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-28T15:04:19.224340Z",
+  "generated_at": "2026-08-28T16:04:23.618777Z",
   "period_days": 90,
-  "total_events": 485,
-  "unique_ips": 25,
+  "total_events": 505,
+  "unique_ips": 30,
   "honeypots": [
     "bigippot:honeypot-01",
     "front:honeypot-01"
   ],
   "totals_by_source": {
-    "bigippot:honeypot-01": 6,
-    "front:honeypot-01": 479
+    "bigippot:honeypot-01": 12,
+    "front:honeypot-01": 493
   },
   "events_per_day": {
     "2026-08-28": {
-      "bigippot:honeypot-01": 6,
-      "front:honeypot-01": 479,
-      "total": 485
+      "bigippot:honeypot-01": 12,
+      "front:honeypot-01": 493,
+      "total": 505
     }
   },
   "top_credentials": [],
@@ -42,30 +42,40 @@
     }
   ],
   "method_counts": {
-    "GET": 479,
-    "POST": 5,
+    "GET": 497,
+    "POST": 7,
     "HEAD": 1
   },
   "top_paths": [
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 19
+      "count": 24
     },
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 8
+      "count": 9
     },
     {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
-      "count": 7
+      "count": 8
     },
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 6
+      "count": 7
+    },
+    {
+      "path": "/remote/logincheck",
+      "source": "bigippot:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/remote/login",
+      "source": "bigippot:honeypot-01",
+      "count": 4
     },
     {
       "path": "/.env",
@@ -78,12 +88,17 @@
       "count": 4
     },
     {
-      "path": "/test.php",
+      "path": "/apple-touch-icon-precomposed.png",
       "source": "front:honeypot-01",
-      "count": 2
+      "count": 3
     },
     {
-      "path": "/api/config",
+      "path": "/apple-touch-icon.png",
+      "source": "front:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/dashboard",
       "source": "front:honeypot-01",
       "count": 2
     },
@@ -93,22 +108,17 @@
       "count": 2
     },
     {
-      "path": "/config.json",
-      "source": "front:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/v1/graphql",
-      "source": "front:honeypot-01",
-      "count": 2
-    },
-    {
       "path": "/api/graphql",
       "source": "front:honeypot-01",
       "count": 2
     },
     {
-      "path": "/.git/HEAD",
+      "path": "/",
+      "source": "bigippot:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/open/visitors/info/gets?uuid=1",
       "source": "front:honeypot-01",
       "count": 2
     },
@@ -118,32 +128,22 @@
       "count": 2
     },
     {
-      "path": "/apple-touch-icon.png",
+      "path": "/open/",
       "source": "front:honeypot-01",
       "count": 2
     },
     {
-      "path": "/dashboard",
+      "path": "/api/config",
       "source": "front:honeypot-01",
       "count": 2
     },
     {
-      "path": "/apple-touch-icon-precomposed.png",
+      "path": "/.git/HEAD",
       "source": "front:honeypot-01",
       "count": 2
     },
     {
-      "path": "/settings.js",
-      "source": "front:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/graphql",
-      "source": "front:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/.env.production",
+      "path": "/config.json",
       "source": "front:honeypot-01",
       "count": 2
     }
@@ -153,9 +153,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 301
+      "country": "TW",
+      "ip_count": 2,
+      "event_count": 303
     },
     {
       "asn": "AS8075",
@@ -165,6 +165,13 @@
       "event_count": 126
     },
     {
+      "asn": "AS29244",
+      "name": "CETIN Bulgaria EAD",
+      "country": "BG",
+      "ip_count": 1,
+      "event_count": 15
+    },
+    {
       "asn": "AS205759",
       "name": "Ghosty Networks LLC",
       "country": "LU",
@@ -172,11 +179,18 @@
       "event_count": 12
     },
     {
-      "asn": "AS29244",
-      "name": "CETIN Bulgaria EAD",
+      "asn": "AS43350",
+      "name": "NForce Entertainment B.V.",
+      "country": "NL",
+      "ip_count": 1,
+      "event_count": 4
+    },
+    {
+      "asn": "AS209160",
+      "name": "Miti 2000 EOOD",
       "country": "BG",
       "ip_count": 1,
-      "event_count": 9
+      "event_count": 4
     },
     {
       "asn": "AS212238",
@@ -186,6 +200,13 @@
       "event_count": 4
     },
     {
+      "asn": "AS202422",
+      "name": "G-Core Labs S.A.",
+      "country": "JP",
+      "ip_count": 1,
+      "event_count": 3
+    },
+    {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
@@ -193,23 +214,16 @@
       "event_count": 3
     },
     {
-      "asn": "AS43350",
-      "name": "NForce Entertainment B.V.",
-      "country": "NL",
+      "asn": "AS154177",
+      "name": "LIGHT NODE LIMITED",
+      "country": "JP",
       "ip_count": 1,
-      "event_count": 2
+      "event_count": 3
     },
     {
       "asn": "AS197769",
       "name": "VPS Dedicated LLC",
       "country": "DE",
-      "ip_count": 1,
-      "event_count": 2
-    },
-    {
-      "asn": "AS209160",
-      "name": "Miti 2000 EOOD",
-      "country": "BG",
       "ip_count": 1,
       "event_count": 2
     },
@@ -221,15 +235,29 @@
       "event_count": 2
     },
     {
-      "asn": "AS3356",
-      "name": "Level 3 Parent, LLC",
+      "asn": "AS24940",
+      "name": "Hetzner Online GmbH",
+      "country": "DE",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
+      "asn": "AS215925",
+      "name": "VPSVAULT.HOST LTD",
       "country": "US",
       "ip_count": 1,
       "event_count": 1
     },
     {
-      "asn": "AS32934",
-      "name": "Facebook, Inc.",
+      "asn": "AS219502",
+      "name": "Storm Industries LLC",
+      "country": "NL",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
+      "asn": "AS19084",
+      "name": "ColoUp",
       "country": "US",
       "ip_count": 1,
       "event_count": 1
@@ -242,23 +270,23 @@
       "event_count": 1
     },
     {
-      "asn": "AS219502",
-      "name": "Storm Industries LLC",
-      "country": "NL",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS215925",
-      "name": "VPSVAULT.HOST LTD",
+      "asn": "AS32934",
+      "name": "Facebook, Inc.",
       "country": "US",
       "ip_count": 1,
       "event_count": 1
     },
     {
-      "asn": "AS24940",
-      "name": "Hetzner Online GmbH",
-      "country": "DE",
+      "asn": "AS3356",
+      "name": "Level 3 Parent, LLC",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 1
+    },
+    {
+      "asn": "AS63949",
+      "name": "Akamai Connected Cloud",
+      "country": "NL",
       "ip_count": 1,
       "event_count": 1
     }
