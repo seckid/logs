@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-28T16:04:23.618777Z",
+  "generated_at": "2026-08-28T17:03:12.470028Z",
   "period_days": 90,
-  "total_events": 505,
-  "unique_ips": 30,
+  "total_events": 543,
+  "unique_ips": 44,
   "honeypots": [
     "bigippot:honeypot-01",
     "front:honeypot-01"
   ],
   "totals_by_source": {
-    "bigippot:honeypot-01": 12,
-    "front:honeypot-01": 493
+    "bigippot:honeypot-01": 28,
+    "front:honeypot-01": 515
   },
   "events_per_day": {
     "2026-08-28": {
-      "bigippot:honeypot-01": 12,
-      "front:honeypot-01": 493,
-      "total": 505
+      "bigippot:honeypot-01": 28,
+      "front:honeypot-01": 515,
+      "total": 543
     }
   },
   "top_credentials": [],
@@ -42,40 +42,40 @@
     }
   ],
   "method_counts": {
-    "GET": 497,
-    "POST": 7,
-    "HEAD": 1
+    "GET": 523,
+    "POST": 8,
+    "HEAD": 3
   },
   "top_paths": [
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 24
+      "count": 30
     },
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 9
+      "count": 11
     },
     {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
-      "count": 8
+      "count": 10
     },
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 7
+      "count": 9
     },
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 4
+      "count": 5
     },
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 4
+      "count": 5
     },
     {
       "path": "/.env",
@@ -88,8 +88,18 @@
       "count": 4
     },
     {
+      "path": "/",
+      "source": "bigippot:honeypot-01",
+      "count": 4
+    },
+    {
       "path": "/apple-touch-icon-precomposed.png",
       "source": "front:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/tmui/login.jsp",
+      "source": "bigippot:honeypot-01",
       "count": 3
     },
     {
@@ -98,37 +108,7 @@
       "count": 3
     },
     {
-      "path": "/dashboard",
-      "source": "front:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/actuator/configprops",
-      "source": "front:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/api/graphql",
-      "source": "front:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/",
-      "source": "bigippot:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/open/visitors/info/gets?uuid=1",
-      "source": "front:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/.env.example",
-      "source": "front:honeypot-01",
-      "count": 2
-    },
-    {
-      "path": "/open/",
+      "path": "/sellers.json",
       "source": "front:honeypot-01",
       "count": 2
     },
@@ -138,12 +118,32 @@
       "count": 2
     },
     {
-      "path": "/.git/HEAD",
+      "path": "/actuator/configprops",
       "source": "front:honeypot-01",
       "count": 2
     },
     {
       "path": "/config.json",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/v1/graphql",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/ads.txt",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/open/",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/dashboard",
       "source": "front:honeypot-01",
       "count": 2
     }
@@ -165,6 +165,13 @@
       "event_count": 126
     },
     {
+      "asn": "AS12876",
+      "name": "Scaleway SAS",
+      "country": "FR",
+      "ip_count": 2,
+      "event_count": 19
+    },
+    {
       "asn": "AS29244",
       "name": "CETIN Bulgaria EAD",
       "country": "BG",
@@ -179,9 +186,23 @@
       "event_count": 12
     },
     {
+      "asn": "AS211298",
+      "name": "Driftnet Ltd",
+      "country": "GB",
+      "ip_count": 9,
+      "event_count": 11
+    },
+    {
       "asn": "AS43350",
       "name": "NForce Entertainment B.V.",
       "country": "NL",
+      "ip_count": 1,
+      "event_count": 6
+    },
+    {
+      "asn": "AS212238",
+      "name": "Datacamp Limited",
+      "country": "GB",
       "ip_count": 1,
       "event_count": 4
     },
@@ -193,10 +214,10 @@
       "event_count": 4
     },
     {
-      "asn": "AS212238",
-      "name": "Datacamp Limited",
-      "country": "GB",
-      "ip_count": 1,
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 4,
       "event_count": 4
     },
     {
@@ -207,10 +228,10 @@
       "event_count": 3
     },
     {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 3,
+      "asn": "AS209630",
+      "name": "LLC VASH KREDIT BANK",
+      "country": "DE",
+      "ip_count": 1,
       "event_count": 3
     },
     {
@@ -266,27 +287,6 @@
       "asn": "AS18881",
       "name": "TELEFÔNICA BRASIL S.A",
       "country": "BR",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS32934",
-      "name": "Facebook, Inc.",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS3356",
-      "name": "Level 3 Parent, LLC",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS63949",
-      "name": "Akamai Connected Cloud",
-      "country": "NL",
       "ip_count": 1,
       "event_count": 1
     }
