@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-28T02:02:39.141510Z",
+  "generated_at": "2026-08-28T03:00:48.287408Z",
   "period_days": 90,
-  "total_events": 352,
-  "unique_ips": 41,
+  "total_events": 357,
+  "unique_ips": 44,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -11,7 +11,7 @@
     "sharepointpot:honeypot-01"
   ],
   "totals_by_source": {
-    "bigippot:honeypot-01": 58,
+    "bigippot:honeypot-01": 63,
     "centrestackpot:honeypot-01": 92,
     "front:honeypot-01": 184,
     "fortipot:honeypot-01": 15,
@@ -27,8 +27,8 @@
       "total": 325
     },
     "2026-08-28": {
-      "bigippot:honeypot-01": 27,
-      "total": 27
+      "bigippot:honeypot-01": 32,
+      "total": 32
     }
   },
   "top_credentials": [],
@@ -50,35 +50,35 @@
       "count": 21
     },
     {
-      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.",
       "count": 6
     }
   ],
   "method_counts": {
-    "GET": 317,
-    "POST": 9,
+    "GET": 320,
+    "POST": 10,
     "PRI": 1
   },
   "top_paths": [
+    {
+      "path": "/",
+      "source": "bigippot:honeypot-01",
+      "count": 10
+    },
     {
       "path": "/",
       "source": "centrestackpot:honeypot-01",
       "count": 9
     },
     {
-      "path": "/",
-      "source": "bigippot:honeypot-01",
-      "count": 9
-    },
-    {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 7
+      "count": 8
     },
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 7
+      "count": 8
     },
     {
       "path": "/",
@@ -167,8 +167,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 4,
-      "event_count": 170
+      "ip_count": 5,
+      "event_count": 171
     },
     {
       "asn": "AS29244",
@@ -210,7 +210,7 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 8
+      "event_count": 10
     },
     {
       "asn": "AS398324",
@@ -283,6 +283,13 @@
       "event_count": 2
     },
     {
+      "asn": "AS14987",
+      "name": "Rethem Hosting LLC",
+      "country": "US",
+      "ip_count": 2,
+      "event_count": 2
+    },
+    {
       "asn": "AS219502",
       "name": "Storm Industries LLC",
       "country": "TR",
@@ -293,13 +300,6 @@
       "asn": "AS56971",
       "name": "AS56971 Cloud",
       "country": "FR",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS50304",
-      "name": "Blix Solutions AS",
-      "country": "NO",
       "ip_count": 1,
       "event_count": 1
     }
