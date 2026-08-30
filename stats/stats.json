@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T15:02:23.460304Z",
+  "generated_at": "2026-08-30T16:01:19.238566Z",
   "period_days": 90,
-  "total_events": 1742,
-  "unique_ips": 88,
+  "total_events": 1751,
+  "unique_ips": 91,
   "honeypots": [
     "bigippot:honeypot-01",
     "fortipot:honeypot-01",
@@ -10,8 +10,8 @@
   ],
   "totals_by_source": {
     "fortipot:honeypot-01": 7,
-    "bigippot:honeypot-01": 721,
-    "front:honeypot-01": 1014
+    "bigippot:honeypot-01": 722,
+    "front:honeypot-01": 1022
   },
   "events_per_day": {
     "2026-08-28": {
@@ -20,10 +20,10 @@
       "total": 856
     },
     "2026-08-30": {
-      "front:honeypot-01": 192,
+      "front:honeypot-01": 200,
       "fortipot:honeypot-01": 7,
-      "bigippot:honeypot-01": 687,
-      "total": 886
+      "bigippot:honeypot-01": 688,
+      "total": 895
     }
   },
   "top_credentials": [],
@@ -50,8 +50,8 @@
     }
   ],
   "method_counts": {
-    "GET": 1664,
-    "POST": 52,
+    "GET": 1672,
+    "POST": 53,
     "HEAD": 5,
     "OPTIONS": 2
   },
@@ -59,7 +59,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 75
+      "count": 81
     },
     {
       "path": "/",
@@ -102,12 +102,12 @@
       "count": 9
     },
     {
-      "path": "/.well-known/security.txt",
+      "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 6
+      "count": 8
     },
     {
-      "path": "/robots.txt",
+      "path": "/.well-known/security.txt",
       "source": "front:honeypot-01",
       "count": 6
     },
@@ -122,22 +122,7 @@
       "count": 5
     },
     {
-      "path": "/apple-touch-icon-precomposed.png",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/sellers.json",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/security.txt",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/.env.local",
+      "path": "/graphql",
       "source": "front:honeypot-01",
       "count": 4
     },
@@ -152,7 +137,22 @@
       "count": 4
     },
     {
-      "path": "/test.php",
+      "path": "/fetch",
+      "source": "bigippot:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/api/graphql",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/apple-touch-icon-precomposed.png",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/info.php",
       "source": "front:honeypot-01",
       "count": 4
     }
@@ -196,7 +196,7 @@
       "name": "Microsoft Corporation",
       "country": "CA",
       "ip_count": 14,
-      "event_count": 206
+      "event_count": 208
     },
     {
       "asn": "AS14061",
@@ -276,6 +276,13 @@
       "event_count": 8
     },
     {
+      "asn": "AS6698",
+      "name": "Virtual Systems LLC",
+      "country": "UA",
+      "ip_count": 1,
+      "event_count": 7
+    },
+    {
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
@@ -308,13 +315,6 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 4,
-      "event_count": 4
-    },
-    {
-      "asn": "AS209160",
-      "name": "Miti 2000 EOOD",
-      "country": "BG",
-      "ip_count": 1,
       "event_count": 4
     }
   ]
