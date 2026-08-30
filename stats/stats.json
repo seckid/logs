@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T17:03:23.459334Z",
+  "generated_at": "2026-08-30T18:00:23.463056Z",
   "period_days": 90,
-  "total_events": 1773,
-  "unique_ips": 101,
+  "total_events": 1789,
+  "unique_ips": 105,
   "honeypots": [
     "bigippot:honeypot-01",
     "fortipot:honeypot-01",
@@ -10,8 +10,8 @@
   ],
   "totals_by_source": {
     "fortipot:honeypot-01": 7,
-    "bigippot:honeypot-01": 734,
-    "front:honeypot-01": 1032
+    "bigippot:honeypot-01": 747,
+    "front:honeypot-01": 1035
   },
   "events_per_day": {
     "2026-08-28": {
@@ -20,10 +20,10 @@
       "total": 856
     },
     "2026-08-30": {
-      "front:honeypot-01": 210,
+      "front:honeypot-01": 213,
       "fortipot:honeypot-01": 7,
-      "bigippot:honeypot-01": 700,
-      "total": 917
+      "bigippot:honeypot-01": 713,
+      "total": 933
     }
   },
   "top_credentials": [],
@@ -50,8 +50,8 @@
     }
   ],
   "method_counts": {
-    "GET": 1692,
-    "POST": 55,
+    "GET": 1704,
+    "POST": 56,
     "HEAD": 5,
     "OPTIONS": 2
   },
@@ -59,12 +59,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 84
+      "count": 86
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 20
+      "count": 23
+    },
+    {
+      "path": "/tmui/login.jsp",
+      "source": "bigippot:honeypot-01",
+      "count": 15
     },
     {
       "path": "/favicon.ico",
@@ -74,11 +79,6 @@
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 14
-    },
-    {
-      "path": "/tmui/login.jsp",
-      "source": "bigippot:honeypot-01",
       "count": 14
     },
     {
@@ -94,12 +94,12 @@
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 10
+      "count": 11
     },
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 10
+      "count": 11
     },
     {
       "path": "/robots.txt",
@@ -122,37 +122,37 @@
       "count": 6
     },
     {
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
+      "count": 5
+    },
+    {
       "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 5
     },
     {
-      "path": "/open/visitors/info/gets?uuid=1",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/apple-touch-icon-precomposed.png",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
       "path": "/.git/config",
+      "source": "bigippot:honeypot-01",
+      "count": 5
+    },
+    {
+      "path": "/app-ads.txt",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/.git/HEAD",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/fetch",
       "source": "bigippot:honeypot-01",
       "count": 4
     },
     {
-      "path": "/.env.local",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/open/",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/api/graphql",
+      "path": "/open/visitors/info/gets?uuid=1",
       "source": "front:honeypot-01",
       "count": 4
     }
@@ -188,29 +188,29 @@
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 3,
-      "event_count": 268
+      "ip_count": 4,
+      "event_count": 272
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "CA",
-      "ip_count": 14,
-      "event_count": 208
+      "country": "US",
+      "ip_count": 15,
+      "event_count": 209
     },
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 3,
-      "event_count": 92
+      "country": "SG",
+      "ip_count": 4,
+      "event_count": 93
     },
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "US",
-      "ip_count": 4,
-      "event_count": 56
+      "country": "JP",
+      "ip_count": 5,
+      "event_count": 59
     },
     {
       "asn": "AS215540",
@@ -238,7 +238,7 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 16
+      "event_count": 18
     },
     {
       "asn": "AS29244",
@@ -255,6 +255,13 @@
       "event_count": 14
     },
     {
+      "asn": "AS201814",
+      "name": "MEVSPACE sp. z o.o.",
+      "country": "PL",
+      "ip_count": 2,
+      "event_count": 12
+    },
+    {
       "asn": "AS205759",
       "name": "Ghosty Networks LLC",
       "country": "LU",
@@ -267,13 +274,6 @@
       "country": "GB",
       "ip_count": 9,
       "event_count": 11
-    },
-    {
-      "asn": "AS201814",
-      "name": "MEVSPACE sp. z o.o.",
-      "country": "PL",
-      "ip_count": 2,
-      "event_count": 10
     },
     {
       "asn": "AS202422",
@@ -304,17 +304,17 @@
       "event_count": 6
     },
     {
-      "asn": "AS47007",
-      "name": "Colocation America Corporation",
+      "asn": "AS62164",
+      "name": "Heymman Servers Corporation",
       "country": "US",
       "ip_count": 2,
       "event_count": 5
     },
     {
-      "asn": "AS135377",
-      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+      "asn": "AS47007",
+      "name": "Colocation America Corporation",
       "country": "US",
-      "ip_count": 1,
+      "ip_count": 2,
       "event_count": 5
     }
   ]
