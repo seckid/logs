@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T09:01:19.089420Z",
+  "generated_at": "2026-08-30T10:02:20.231671Z",
   "period_days": 90,
-  "total_events": 936,
-  "unique_ips": 56,
+  "total_events": 938,
+  "unique_ips": 57,
   "honeypots": [
     "bigippot:honeypot-01",
     "fortipot:honeypot-01",
@@ -10,7 +10,7 @@
   ],
   "totals_by_source": {
     "fortipot:honeypot-01": 7,
-    "bigippot:honeypot-01": 107,
+    "bigippot:honeypot-01": 109,
     "front:honeypot-01": 822
   },
   "events_per_day": {
@@ -21,8 +21,8 @@
     },
     "2026-08-30": {
       "fortipot:honeypot-01": 7,
-      "bigippot:honeypot-01": 73,
-      "total": 80
+      "bigippot:honeypot-01": 75,
+      "total": 82
     }
   },
   "top_credentials": [],
@@ -49,7 +49,7 @@
     }
   ],
   "method_counts": {
-    "GET": 895,
+    "GET": 897,
     "POST": 22,
     "HEAD": 3
   },
@@ -75,6 +75,11 @@
       "count": 11
     },
     {
+      "path": "/",
+      "source": "bigippot:honeypot-01",
+      "count": 9
+    },
+    {
       "path": "/.env",
       "source": "front:honeypot-01",
       "count": 8
@@ -90,14 +95,9 @@
       "count": 8
     },
     {
-      "path": "/",
-      "source": "bigippot:honeypot-01",
-      "count": 8
-    },
-    {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 5
+      "count": 6
     },
     {
       "path": "/sw.js",
