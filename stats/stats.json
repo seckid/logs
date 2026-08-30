@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T14:02:23.490880Z",
+  "generated_at": "2026-08-30T15:02:23.460304Z",
   "period_days": 90,
-  "total_events": 1543,
-  "unique_ips": 64,
+  "total_events": 1742,
+  "unique_ips": 88,
   "honeypots": [
     "bigippot:honeypot-01",
     "fortipot:honeypot-01",
@@ -10,8 +10,8 @@
   ],
   "totals_by_source": {
     "fortipot:honeypot-01": 7,
-    "bigippot:honeypot-01": 714,
-    "front:honeypot-01": 822
+    "bigippot:honeypot-01": 721,
+    "front:honeypot-01": 1014
   },
   "events_per_day": {
     "2026-08-28": {
@@ -20,9 +20,10 @@
       "total": 856
     },
     "2026-08-30": {
+      "front:honeypot-01": 192,
       "fortipot:honeypot-01": 7,
-      "bigippot:honeypot-01": 680,
-      "total": 687
+      "bigippot:honeypot-01": 687,
+      "total": 886
     }
   },
   "top_credentials": [],
@@ -33,59 +34,65 @@
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 274
+      "count": 276
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 104
+      "count": 177
     },
     {
       "user_agent": "libredtail-http",
       "count": 98
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
-      "count": 32
+      "user_agent": "Mozilla/5.0 (l9scan/2.0.6343e2734323e2738313e25383; +https://leakix.net)",
+      "count": 62
     }
   ],
   "method_counts": {
-    "GET": 1480,
-    "POST": 42,
-    "HEAD": 3
+    "GET": 1664,
+    "POST": 52,
+    "HEAD": 5,
+    "OPTIONS": 2
   },
   "top_paths": [
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 38
+      "count": 75
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
+      "count": 17
+    },
+    {
+      "path": "/style.css",
+      "source": "front:honeypot-01",
       "count": 14
     },
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 12
-    },
-    {
-      "path": "/style.css",
-      "source": "front:honeypot-01",
-      "count": 11
+      "count": 14
     },
     {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
+      "count": 13
+    },
+    {
+      "path": "/.env",
+      "source": "front:honeypot-01",
+      "count": 12
+    },
+    {
+      "path": "/tmui/login.jsp",
+      "source": "bigippot:honeypot-01",
       "count": 11
     },
     {
       "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
-      "count": 9
-    },
-    {
-      "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
       "count": 9
     },
@@ -95,24 +102,24 @@
       "count": 9
     },
     {
-      "path": "/.env",
+      "path": "/.well-known/security.txt",
       "source": "front:honeypot-01",
-      "count": 8
+      "count": 6
     },
     {
-      "path": "/.env.local",
+      "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 4
+      "count": 6
     },
     {
-      "path": "/fetch",
-      "source": "bigippot:honeypot-01",
-      "count": 4
+      "path": "/sw.js",
+      "source": "front:honeypot-01",
+      "count": 6
     },
     {
-      "path": "/apple-touch-icon.png",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 4
+      "count": 5
     },
     {
       "path": "/apple-touch-icon-precomposed.png",
@@ -120,39 +127,34 @@
       "count": 4
     },
     {
-      "path": "/sw.js",
+      "path": "/sellers.json",
       "source": "front:honeypot-01",
       "count": 4
     },
     {
-      "path": "/robots.txt",
+      "path": "/security.txt",
       "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/.env.local",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/app-ads.txt",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
       "count": 4
     },
     {
       "path": "/test.php",
       "source": "front:honeypot-01",
       "count": 4
-    },
-    {
-      "path": "/config.js",
-      "source": "front:honeypot-01",
-      "count": 3
-    },
-    {
-      "path": "/backend/.env",
-      "source": "front:honeypot-01",
-      "count": 3
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
-      "count": 3
-    },
-    {
-      "path": "/.env.production",
-      "source": "front:honeypot-01",
-      "count": 3
     }
   ],
   "cve_attempts": [
@@ -192,16 +194,23 @@
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
+      "country": "CA",
+      "ip_count": 14,
+      "event_count": 206
+    },
+    {
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 9,
-      "event_count": 129
+      "ip_count": 3,
+      "event_count": 92
     },
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "DE",
-      "ip_count": 2,
-      "event_count": 52
+      "country": "US",
+      "ip_count": 4,
+      "event_count": 56
     },
     {
       "asn": "AS215540",
@@ -213,16 +222,16 @@
     {
       "asn": "AS12876",
       "name": "Scaleway SAS",
-      "country": "FR",
-      "ip_count": 2,
-      "event_count": 19
+      "country": "NL",
+      "ip_count": 4,
+      "event_count": 38
     },
     {
       "asn": "AS14593",
       "name": "Space Exploration Technologies Corporation",
       "country": "GR",
       "ip_count": 1,
-      "event_count": 17
+      "event_count": 21
     },
     {
       "asn": "AS29244",
@@ -235,6 +244,13 @@
       "asn": "AS43350",
       "name": "NForce Entertainment B.V.",
       "country": "NL",
+      "ip_count": 1,
+      "event_count": 14
+    },
+    {
+      "asn": "AS197769",
+      "name": "VPS Dedicated LLC",
+      "country": "DE",
       "ip_count": 1,
       "event_count": 14
     },
@@ -253,6 +269,13 @@
       "event_count": 11
     },
     {
+      "asn": "AS201814",
+      "name": "MEVSPACE sp. z o.o.",
+      "country": "PL",
+      "ip_count": 2,
+      "event_count": 8
+    },
+    {
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
@@ -260,11 +283,25 @@
       "event_count": 6
     },
     {
+      "asn": "AS47007",
+      "name": "Colocation America Corporation",
+      "country": "US",
+      "ip_count": 2,
+      "event_count": 5
+    },
+    {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
       "country": "US",
       "ip_count": 1,
       "event_count": 5
+    },
+    {
+      "asn": "AS62164",
+      "name": "Heymman Servers Corporation",
+      "country": "US",
+      "ip_count": 2,
+      "event_count": 4
     },
     {
       "asn": "AS14618",
@@ -279,41 +316,6 @@
       "country": "BG",
       "ip_count": 1,
       "event_count": 4
-    },
-    {
-      "asn": "AS212238",
-      "name": "Datacamp Limited",
-      "country": "GB",
-      "ip_count": 1,
-      "event_count": 4
-    },
-    {
-      "asn": "AS201814",
-      "name": "MEVSPACE sp. z o.o.",
-      "country": "PL",
-      "ip_count": 1,
-      "event_count": 4
-    },
-    {
-      "asn": "AS154177",
-      "name": "LIGHT NODE LIMITED",
-      "country": "JP",
-      "ip_count": 1,
-      "event_count": 3
-    },
-    {
-      "asn": "AS202422",
-      "name": "G-Core Labs S.A.",
-      "country": "JP",
-      "ip_count": 1,
-      "event_count": 3
-    },
-    {
-      "asn": "AS209630",
-      "name": "LLC VASH KREDIT BANK",
-      "country": "DE",
-      "ip_count": 1,
-      "event_count": 3
     }
   ]
 }
