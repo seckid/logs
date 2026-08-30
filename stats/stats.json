@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T13:01:19.240218Z",
+  "generated_at": "2026-08-30T14:02:23.490880Z",
   "period_days": 90,
-  "total_events": 1542,
-  "unique_ips": 63,
+  "total_events": 1543,
+  "unique_ips": 64,
   "honeypots": [
     "bigippot:honeypot-01",
     "fortipot:honeypot-01",
@@ -10,7 +10,7 @@
   ],
   "totals_by_source": {
     "fortipot:honeypot-01": 7,
-    "bigippot:honeypot-01": 713,
+    "bigippot:honeypot-01": 714,
     "front:honeypot-01": 822
   },
   "events_per_day": {
@@ -21,8 +21,8 @@
     },
     "2026-08-30": {
       "fortipot:honeypot-01": 7,
-      "bigippot:honeypot-01": 679,
-      "total": 686
+      "bigippot:honeypot-01": 680,
+      "total": 687
     }
   },
   "top_credentials": [],
@@ -49,7 +49,7 @@
     }
   ],
   "method_counts": {
-    "GET": 1479,
+    "GET": 1480,
     "POST": 42,
     "HEAD": 3
   },
@@ -120,7 +120,7 @@
       "count": 4
     },
     {
-      "path": "/test.php",
+      "path": "/sw.js",
       "source": "front:honeypot-01",
       "count": 4
     },
@@ -130,17 +130,17 @@
       "count": 4
     },
     {
-      "path": "/sw.js",
+      "path": "/test.php",
       "source": "front:honeypot-01",
       "count": 4
     },
     {
-      "path": "/phpinfo.php",
+      "path": "/config.js",
       "source": "front:honeypot-01",
       "count": 3
     },
     {
-      "path": "/.git/config",
+      "path": "/backend/.env",
       "source": "front:honeypot-01",
       "count": 3
     },
@@ -150,7 +150,7 @@
       "count": 3
     },
     {
-      "path": "/.env.bak",
+      "path": "/.env.production",
       "source": "front:honeypot-01",
       "count": 3
     }
@@ -193,8 +193,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 8,
-      "event_count": 128
+      "ip_count": 9,
+      "event_count": 129
     },
     {
       "asn": "AS45102",
