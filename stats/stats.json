@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T16:01:19.238566Z",
+  "generated_at": "2026-08-30T17:03:23.459334Z",
   "period_days": 90,
-  "total_events": 1751,
-  "unique_ips": 91,
+  "total_events": 1773,
+  "unique_ips": 101,
   "honeypots": [
     "bigippot:honeypot-01",
     "fortipot:honeypot-01",
@@ -10,8 +10,8 @@
   ],
   "totals_by_source": {
     "fortipot:honeypot-01": 7,
-    "bigippot:honeypot-01": 722,
-    "front:honeypot-01": 1022
+    "bigippot:honeypot-01": 734,
+    "front:honeypot-01": 1032
   },
   "events_per_day": {
     "2026-08-28": {
@@ -20,10 +20,10 @@
       "total": 856
     },
     "2026-08-30": {
-      "front:honeypot-01": 200,
+      "front:honeypot-01": 210,
       "fortipot:honeypot-01": 7,
-      "bigippot:honeypot-01": 688,
-      "total": 895
+      "bigippot:honeypot-01": 700,
+      "total": 917
     }
   },
   "top_credentials": [],
@@ -50,8 +50,8 @@
     }
   ],
   "method_counts": {
-    "GET": 1672,
-    "POST": 53,
+    "GET": 1692,
+    "POST": 55,
     "HEAD": 5,
     "OPTIONS": 2
   },
@@ -59,12 +59,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 81
+      "count": 84
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 17
+      "count": 20
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "front:honeypot-01",
+      "count": 15
     },
     {
       "path": "/style.css",
@@ -72,8 +77,8 @@
       "count": 14
     },
     {
-      "path": "/favicon.ico",
-      "source": "front:honeypot-01",
+      "path": "/tmui/login.jsp",
+      "source": "bigippot:honeypot-01",
       "count": 14
     },
     {
@@ -87,19 +92,14 @@
       "count": 12
     },
     {
-      "path": "/tmui/login.jsp",
-      "source": "bigippot:honeypot-01",
-      "count": 11
-    },
-    {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 9
+      "count": 10
     },
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 9
+      "count": 10
     },
     {
       "path": "/robots.txt",
@@ -107,12 +107,17 @@
       "count": 8
     },
     {
-      "path": "/.well-known/security.txt",
+      "path": "/sw.js",
       "source": "front:honeypot-01",
       "count": 6
     },
     {
-      "path": "/sw.js",
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
+      "count": 6
+    },
+    {
+      "path": "/.well-known/security.txt",
       "source": "front:honeypot-01",
       "count": 6
     },
@@ -122,27 +127,7 @@
       "count": 5
     },
     {
-      "path": "/graphql",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/app-ads.txt",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/fetch",
-      "source": "bigippot:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/api/graphql",
+      "path": "/open/visitors/info/gets?uuid=1",
       "source": "front:honeypot-01",
       "count": 4
     },
@@ -152,7 +137,22 @@
       "count": 4
     },
     {
-      "path": "/info.php",
+      "path": "/.git/config",
+      "source": "bigippot:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/.env.local",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/open/",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/api/graphql",
       "source": "front:honeypot-01",
       "count": 4
     }
@@ -180,9 +180,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
-      "ip_count": 5,
-      "event_count": 802
+      "country": "US",
+      "ip_count": 6,
+      "event_count": 804
     },
     {
       "asn": "AS16509",
@@ -234,18 +234,18 @@
       "event_count": 21
     },
     {
+      "asn": "AS43350",
+      "name": "NForce Entertainment B.V.",
+      "country": "NL",
+      "ip_count": 1,
+      "event_count": 16
+    },
+    {
       "asn": "AS29244",
       "name": "CETIN Bulgaria EAD",
       "country": "BG",
       "ip_count": 1,
       "event_count": 15
-    },
-    {
-      "asn": "AS43350",
-      "name": "NForce Entertainment B.V.",
-      "country": "NL",
-      "ip_count": 1,
-      "event_count": 14
     },
     {
       "asn": "AS197769",
@@ -273,7 +273,14 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 8
+      "event_count": 10
+    },
+    {
+      "asn": "AS202422",
+      "name": "G-Core Labs S.A.",
+      "country": "JP",
+      "ip_count": 2,
+      "event_count": 9
     },
     {
       "asn": "AS6698",
@@ -281,6 +288,13 @@
       "country": "UA",
       "ip_count": 1,
       "event_count": 7
+    },
+    {
+      "asn": "AS212238",
+      "name": "Datacamp Limited",
+      "country": "BE",
+      "ip_count": 3,
+      "event_count": 6
     },
     {
       "asn": "AS6939",
@@ -302,20 +316,6 @@
       "country": "US",
       "ip_count": 1,
       "event_count": 5
-    },
-    {
-      "asn": "AS62164",
-      "name": "Heymman Servers Corporation",
-      "country": "US",
-      "ip_count": 2,
-      "event_count": 4
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 4,
-      "event_count": 4
     }
   ]
 }
