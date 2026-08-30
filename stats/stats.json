@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T07:07:03.814898Z",
+  "generated_at": "2026-08-30T08:03:23.635406Z",
   "period_days": 90,
-  "total_events": 869,
-  "unique_ips": 49,
+  "total_events": 923,
+  "unique_ips": 53,
   "honeypots": [
     "bigippot:honeypot-01",
     "fortipot:honeypot-01",
@@ -10,7 +10,7 @@
   ],
   "totals_by_source": {
     "fortipot:honeypot-01": 7,
-    "bigippot:honeypot-01": 40,
+    "bigippot:honeypot-01": 94,
     "front:honeypot-01": 822
   },
   "events_per_day": {
@@ -21,8 +21,8 @@
     },
     "2026-08-30": {
       "fortipot:honeypot-01": 7,
-      "bigippot:honeypot-01": 6,
-      "total": 13
+      "bigippot:honeypot-01": 60,
+      "total": 67
     }
   },
   "top_credentials": [],
@@ -40,17 +40,17 @@
       "count": 104
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
-      "count": 32
+      "user_agent": "libredtail-http",
+      "count": 49
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 13
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "count": 32
     }
   ],
   "method_counts": {
-    "GET": 843,
-    "POST": 13,
+    "GET": 887,
+    "POST": 20,
     "HEAD": 3
   },
   "top_paths": [
@@ -95,32 +95,7 @@
       "count": 6
     },
     {
-      "path": "/.env.local",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
       "path": "/robots.txt",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/apple-touch-icon-precomposed.png",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/apple-touch-icon.png",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/sw.js",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/test.php",
       "source": "front:honeypot-01",
       "count": 4
     },
@@ -130,12 +105,32 @@
       "count": 4
     },
     {
-      "path": "/.git/config",
+      "path": "/.env.local",
       "source": "front:honeypot-01",
-      "count": 3
+      "count": 4
     },
     {
-      "path": "/phpinfo.php",
+      "path": "/sw.js",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/apple-touch-icon.png",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/apple-touch-icon-precomposed.png",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/test.php",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/config.js",
       "source": "front:honeypot-01",
       "count": 3
     },
@@ -145,12 +140,17 @@
       "count": 3
     },
     {
+      "path": "/api/.env",
+      "source": "front:honeypot-01",
+      "count": 3
+    },
+    {
       "path": "/.env.backup",
       "source": "front:honeypot-01",
       "count": 3
     },
     {
-      "path": "/config.js",
+      "path": "/.env.dev",
       "source": "front:honeypot-01",
       "count": 3
     }
@@ -167,9 +167,9 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 262
+      "country": "GB",
+      "ip_count": 2,
+      "event_count": 264
     },
     {
       "asn": "AS8075",
@@ -177,6 +177,13 @@
       "country": "US",
       "ip_count": 7,
       "event_count": 126
+    },
+    {
+      "asn": "AS215540",
+      "name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+      "country": "FI",
+      "ip_count": 1,
+      "event_count": 49
     },
     {
       "asn": "AS12876",
@@ -277,25 +284,18 @@
       "event_count": 3
     },
     {
-      "asn": "AS197769",
-      "name": "VPS Dedicated LLC",
-      "country": "DE",
+      "asn": "AS201814",
+      "name": "MEVSPACE sp. z o.o.",
+      "country": "PL",
       "ip_count": 1,
       "event_count": 2
     },
     {
-      "asn": "AS6698",
-      "name": "Virtual Systems LLC",
-      "country": "UA",
-      "ip_count": 1,
+      "asn": "AS63949",
+      "name": "Akamai Connected Cloud",
+      "country": "US",
+      "ip_count": 2,
       "event_count": 2
-    },
-    {
-      "asn": "AS16276",
-      "name": "OVH SAS",
-      "country": "FR",
-      "ip_count": 1,
-      "event_count": 1
     }
   ]
 }
