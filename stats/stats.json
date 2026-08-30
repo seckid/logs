@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T10:02:20.231671Z",
+  "generated_at": "2026-08-30T11:02:19.088756Z",
   "period_days": 90,
-  "total_events": 938,
-  "unique_ips": 57,
+  "total_events": 944,
+  "unique_ips": 59,
   "honeypots": [
     "bigippot:honeypot-01",
     "fortipot:honeypot-01",
@@ -10,7 +10,7 @@
   ],
   "totals_by_source": {
     "fortipot:honeypot-01": 7,
-    "bigippot:honeypot-01": 109,
+    "bigippot:honeypot-01": 115,
     "front:honeypot-01": 822
   },
   "events_per_day": {
@@ -21,8 +21,8 @@
     },
     "2026-08-30": {
       "fortipot:honeypot-01": 7,
-      "bigippot:honeypot-01": 75,
-      "total": 82
+      "bigippot:honeypot-01": 81,
+      "total": 88
     }
   },
   "top_credentials": [],
@@ -49,8 +49,8 @@
     }
   ],
   "method_counts": {
-    "GET": 897,
-    "POST": 22,
+    "GET": 902,
+    "POST": 23,
     "HEAD": 3
   },
   "top_paths": [
@@ -70,12 +70,22 @@
       "count": 11
     },
     {
+      "path": "/",
+      "source": "bigippot:honeypot-01",
+      "count": 11
+    },
+    {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 11
     },
     {
-      "path": "/",
+      "path": "/remote/login",
+      "source": "bigippot:honeypot-01",
+      "count": 9
+    },
+    {
+      "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
       "count": 9
     },
@@ -85,19 +95,9 @@
       "count": 8
     },
     {
-      "path": "/remote/login",
-      "source": "bigippot:honeypot-01",
-      "count": 8
-    },
-    {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
-      "count": 8
-    },
-    {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 6
+      "count": 8
     },
     {
       "path": "/sw.js",
@@ -160,9 +160,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
-      "ip_count": 2,
-      "event_count": 303
+      "country": "BR",
+      "ip_count": 3,
+      "event_count": 305
     },
     {
       "asn": "AS16509",
@@ -175,8 +175,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 7,
-      "event_count": 126
+      "ip_count": 8,
+      "event_count": 128
     },
     {
       "asn": "AS215540",
@@ -207,16 +207,16 @@
       "event_count": 15
     },
     {
-      "asn": "AS205759",
-      "name": "Ghosty Networks LLC",
-      "country": "LU",
-      "ip_count": 1,
-      "event_count": 12
-    },
-    {
       "asn": "AS43350",
       "name": "NForce Entertainment B.V.",
       "country": "NL",
+      "ip_count": 1,
+      "event_count": 14
+    },
+    {
+      "asn": "AS205759",
+      "name": "Ghosty Networks LLC",
+      "country": "LU",
       "ip_count": 1,
       "event_count": 12
     },
