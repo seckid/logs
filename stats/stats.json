@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T08:03:23.635406Z",
+  "generated_at": "2026-08-30T09:01:19.089420Z",
   "period_days": 90,
-  "total_events": 923,
-  "unique_ips": 53,
+  "total_events": 936,
+  "unique_ips": 56,
   "honeypots": [
     "bigippot:honeypot-01",
     "fortipot:honeypot-01",
@@ -10,7 +10,7 @@
   ],
   "totals_by_source": {
     "fortipot:honeypot-01": 7,
-    "bigippot:honeypot-01": 94,
+    "bigippot:honeypot-01": 107,
     "front:honeypot-01": 822
   },
   "events_per_day": {
@@ -21,8 +21,8 @@
     },
     "2026-08-30": {
       "fortipot:honeypot-01": 7,
-      "bigippot:honeypot-01": 60,
-      "total": 67
+      "bigippot:honeypot-01": 73,
+      "total": 80
     }
   },
   "top_credentials": [],
@@ -49,8 +49,8 @@
     }
   ],
   "method_counts": {
-    "GET": 887,
-    "POST": 20,
+    "GET": 895,
+    "POST": 22,
     "HEAD": 3
   },
   "top_paths": [
@@ -80,47 +80,27 @@
       "count": 8
     },
     {
-      "path": "/",
+      "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 7
+      "count": 8
     },
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 6
+      "count": 8
     },
     {
-      "path": "/remote/login",
+      "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 6
-    },
-    {
-      "path": "/robots.txt",
-      "source": "front:honeypot-01",
-      "count": 4
+      "count": 8
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/.env.local",
-      "source": "front:honeypot-01",
-      "count": 4
+      "count": 5
     },
     {
       "path": "/sw.js",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/apple-touch-icon.png",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/apple-touch-icon-precomposed.png",
       "source": "front:honeypot-01",
       "count": 4
     },
@@ -130,7 +110,32 @@
       "count": 4
     },
     {
-      "path": "/config.js",
+      "path": "/robots.txt",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/apple-touch-icon.png",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/.env.local",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/apple-touch-icon-precomposed.png",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/backend/.env",
+      "source": "front:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 3
     },
@@ -140,17 +145,12 @@
       "count": 3
     },
     {
-      "path": "/api/.env",
+      "path": "/.env.old",
       "source": "front:honeypot-01",
       "count": 3
     },
     {
-      "path": "/.env.backup",
-      "source": "front:honeypot-01",
-      "count": 3
-    },
-    {
-      "path": "/.env.dev",
+      "path": "/config.js",
       "source": "front:honeypot-01",
       "count": 3
     }
@@ -214,6 +214,13 @@
       "event_count": 12
     },
     {
+      "asn": "AS43350",
+      "name": "NForce Entertainment B.V.",
+      "country": "NL",
+      "ip_count": 1,
+      "event_count": 12
+    },
+    {
       "asn": "AS211298",
       "name": "Driftnet Ltd",
       "country": "GB",
@@ -221,18 +228,25 @@
       "event_count": 11
     },
     {
-      "asn": "AS43350",
-      "name": "NForce Entertainment B.V.",
-      "country": "NL",
-      "ip_count": 1,
-      "event_count": 8
-    },
-    {
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
       "ip_count": 1,
       "event_count": 6
+    },
+    {
+      "asn": "AS135377",
+      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 5
+    },
+    {
+      "asn": "AS201814",
+      "name": "MEVSPACE sp. z o.o.",
+      "country": "PL",
+      "ip_count": 1,
+      "event_count": 4
     },
     {
       "asn": "AS14618",
@@ -282,20 +296,6 @@
       "country": "JP",
       "ip_count": 1,
       "event_count": 3
-    },
-    {
-      "asn": "AS201814",
-      "name": "MEVSPACE sp. z o.o.",
-      "country": "PL",
-      "ip_count": 1,
-      "event_count": 2
-    },
-    {
-      "asn": "AS63949",
-      "name": "Akamai Connected Cloud",
-      "country": "US",
-      "ip_count": 2,
-      "event_count": 2
     }
   ]
 }
