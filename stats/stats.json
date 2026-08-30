@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-30T06:03:06.070021Z",
+  "generated_at": "2026-08-30T07:01:23.652455Z",
   "period_days": 90,
-  "total_events": 856,
-  "unique_ips": 49,
+  "total_events": 862,
+  "unique_ips": 50,
   "honeypots": [
     "bigippot:honeypot-01",
     "front:honeypot-01"
   ],
   "totals_by_source": {
-    "bigippot:honeypot-01": 34,
+    "bigippot:honeypot-01": 40,
     "front:honeypot-01": 822
   },
   "events_per_day": {
@@ -16,6 +16,10 @@
       "bigippot:honeypot-01": 34,
       "front:honeypot-01": 822,
       "total": 856
+    },
+    "2026-08-30": {
+      "bigippot:honeypot-01": 6,
+      "total": 6
     }
   },
   "top_credentials": [],
@@ -42,7 +46,7 @@
     }
   ],
   "method_counts": {
-    "GET": 831,
+    "GET": 836,
     "POST": 13,
     "HEAD": 3
   },
@@ -58,12 +62,12 @@
       "count": 12
     },
     {
-      "path": "/logo.svg",
+      "path": "/style.css",
       "source": "front:honeypot-01",
       "count": 11
     },
     {
-      "path": "/style.css",
+      "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 11
     },
@@ -88,7 +92,17 @@
       "count": 6
     },
     {
+      "path": "/tmui/login.jsp",
+      "source": "bigippot:honeypot-01",
+      "count": 4
+    },
+    {
       "path": "/sw.js",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/test.php",
       "source": "front:honeypot-01",
       "count": 4
     },
@@ -103,8 +117,8 @@
       "count": 4
     },
     {
-      "path": "/tmui/login.jsp",
-      "source": "bigippot:honeypot-01",
+      "path": "/apple-touch-icon.png",
+      "source": "front:honeypot-01",
       "count": 4
     },
     {
@@ -113,27 +127,12 @@
       "count": 4
     },
     {
-      "path": "/test.php",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/apple-touch-icon.png",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/.env.production",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 3
     },
     {
-      "path": "/backend/.env",
-      "source": "front:honeypot-01",
-      "count": 3
-    },
-    {
-      "path": "/phpinfo.php",
+      "path": "/.env.dev",
       "source": "front:honeypot-01",
       "count": 3
     },
@@ -143,7 +142,12 @@
       "count": 3
     },
     {
-      "path": "/.env.bak",
+      "path": "/backend/.env",
+      "source": "front:honeypot-01",
+      "count": 3
+    },
+    {
+      "path": "/.env.production",
       "source": "front:honeypot-01",
       "count": 3
     }
@@ -214,9 +218,23 @@
       "event_count": 8
     },
     {
+      "asn": "AS6939",
+      "name": "Hurricane Electric LLC",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 6
+    },
+    {
       "asn": "AS212238",
       "name": "Datacamp Limited",
       "country": "GB",
+      "ip_count": 1,
+      "event_count": 4
+    },
+    {
+      "asn": "AS209160",
+      "name": "Miti 2000 EOOD",
+      "country": "BG",
       "ip_count": 1,
       "event_count": 4
     },
@@ -228,22 +246,8 @@
       "event_count": 4
     },
     {
-      "asn": "AS209160",
-      "name": "Miti 2000 EOOD",
-      "country": "BG",
-      "ip_count": 1,
-      "event_count": 4
-    },
-    {
       "asn": "AS202422",
       "name": "G-Core Labs S.A.",
-      "country": "JP",
-      "ip_count": 1,
-      "event_count": 3
-    },
-    {
-      "asn": "AS154177",
-      "name": "LIGHT NODE LIMITED",
       "country": "JP",
       "ip_count": 1,
       "event_count": 3
@@ -252,6 +256,13 @@
       "asn": "AS209630",
       "name": "LLC VASH KREDIT BANK",
       "country": "DE",
+      "ip_count": 1,
+      "event_count": 3
+    },
+    {
+      "asn": "AS154177",
+      "name": "LIGHT NODE LIMITED",
+      "country": "JP",
       "ip_count": 1,
       "event_count": 3
     },
@@ -277,15 +288,8 @@
       "event_count": 2
     },
     {
-      "asn": "AS18881",
-      "name": "TELEFÔNICA BRASIL S.A",
-      "country": "BR",
-      "ip_count": 1,
-      "event_count": 1
-    },
-    {
-      "asn": "AS32934",
-      "name": "Facebook, Inc.",
+      "asn": "AS215925",
+      "name": "VPSVAULT.HOST LTD",
       "country": "US",
       "ip_count": 1,
       "event_count": 1
