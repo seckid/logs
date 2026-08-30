@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-30T22:05:03.215442Z",
+  "generated_at": "2026-08-30T23:01:23.465124Z",
   "period_days": 90,
-  "total_events": 1990,
-  "unique_ips": 117,
+  "total_events": 2071,
+  "unique_ips": 121,
   "honeypots": [
     "bigippot:honeypot-01",
     "fortipot:honeypot-01",
     "front:honeypot-01"
   ],
   "totals_by_source": {
-    "fortipot:honeypot-01": 7,
-    "bigippot:honeypot-01": 771,
-    "front:honeypot-01": 1212
+    "fortipot:honeypot-01": 8,
+    "bigippot:honeypot-01": 777,
+    "front:honeypot-01": 1286
   },
   "events_per_day": {
     "2026-08-28": {
@@ -20,17 +20,17 @@
       "total": 856
     },
     "2026-08-30": {
-      "front:honeypot-01": 390,
-      "fortipot:honeypot-01": 7,
-      "bigippot:honeypot-01": 737,
-      "total": 1134
+      "front:honeypot-01": 464,
+      "fortipot:honeypot-01": 8,
+      "bigippot:honeypot-01": 743,
+      "total": 1215
     }
   },
   "top_credentials": [],
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 351
+      "count": 425
     },
     {
       "user_agent": "Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com)",
@@ -50,8 +50,8 @@
     }
   ],
   "method_counts": {
-    "GET": 1900,
-    "POST": 58,
+    "GET": 1978,
+    "POST": 59,
     "HEAD": 5,
     "OPTIONS": 2,
     "PRI": 1
@@ -60,12 +60,12 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 90
+      "count": 91
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 26
+      "count": 27
     },
     {
       "path": "/tmui/login.jsp",
@@ -78,23 +78,23 @@
       "count": 15
     },
     {
+      "path": "/remote/logincheck",
+      "source": "bigippot:honeypot-01",
+      "count": 14
+    },
+    {
       "path": "/style.css",
       "source": "front:honeypot-01",
       "count": 14
     },
     {
-      "path": "/logo.svg",
-      "source": "front:honeypot-01",
-      "count": 13
-    },
-    {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 13
+      "count": 14
     },
     {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
+      "path": "/logo.svg",
+      "source": "front:honeypot-01",
       "count": 13
     },
     {
@@ -108,14 +108,14 @@
       "count": 9
     },
     {
-      "path": "/robots.txt",
-      "source": "front:honeypot-01",
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
       "count": 8
     },
     {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
-      "count": 7
+      "path": "/robots.txt",
+      "source": "front:honeypot-01",
+      "count": 8
     },
     {
       "path": "/.git/config",
@@ -123,12 +123,12 @@
       "count": 7
     },
     {
-      "path": "/sw.js",
+      "path": "/.well-known/security.txt",
       "source": "front:honeypot-01",
       "count": 6
     },
     {
-      "path": "/.well-known/security.txt",
+      "path": "/sw.js",
       "source": "front:honeypot-01",
       "count": 6
     },
@@ -138,22 +138,22 @@
       "count": 5
     },
     {
-      "path": "/test.php",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/apple-touch-icon.png",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/sellers.json",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
       "path": "/open/visitors/info/gets?uuid=1",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/app-ads.txt",
+      "source": "front:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/fetch",
+      "source": "bigippot:honeypot-01",
+      "count": 4
+    },
+    {
+      "path": "/.env.local",
       "source": "front:honeypot-01",
       "count": 4
     }
@@ -188,16 +188,16 @@
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "PL",
-      "ip_count": 16,
-      "event_count": 383
+      "country": "MX",
+      "ip_count": 17,
+      "event_count": 457
     },
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 4,
-      "event_count": 272
+      "ip_count": 5,
+      "event_count": 274
     },
     {
       "asn": "AS14061",
@@ -232,7 +232,7 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 22
+      "event_count": 24
     },
     {
       "asn": "AS14593",
@@ -246,7 +246,7 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 16
+      "event_count": 17
     },
     {
       "asn": "AS29244",
