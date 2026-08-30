@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T19:02:29.128433Z",
+  "generated_at": "2026-08-30T20:01:19.297040Z",
   "period_days": 90,
-  "total_events": 1797,
+  "total_events": 1798,
   "unique_ips": 109,
   "honeypots": [
     "bigippot:honeypot-01",
@@ -10,7 +10,7 @@
   ],
   "totals_by_source": {
     "fortipot:honeypot-01": 7,
-    "bigippot:honeypot-01": 754,
+    "bigippot:honeypot-01": 755,
     "front:honeypot-01": 1036
   },
   "events_per_day": {
@@ -22,8 +22,8 @@
     "2026-08-30": {
       "front:honeypot-01": 214,
       "fortipot:honeypot-01": 7,
-      "bigippot:honeypot-01": 720,
-      "total": 941
+      "bigippot:honeypot-01": 721,
+      "total": 942
     }
   },
   "top_credentials": [],
@@ -50,7 +50,7 @@
     }
   ],
   "method_counts": {
-    "GET": 1710,
+    "GET": 1711,
     "POST": 57,
     "HEAD": 5,
     "OPTIONS": 2
@@ -112,12 +112,7 @@
       "count": 7
     },
     {
-      "path": "/sw.js",
-      "source": "front:honeypot-01",
-      "count": 6
-    },
-    {
-      "path": "/.git/config",
+      "path": "/.env",
       "source": "bigippot:honeypot-01",
       "count": 6
     },
@@ -127,9 +122,14 @@
       "count": 6
     },
     {
-      "path": "/.env",
+      "path": "/.git/config",
       "source": "bigippot:honeypot-01",
-      "count": 5
+      "count": 6
+    },
+    {
+      "path": "/sw.js",
+      "source": "front:honeypot-01",
+      "count": 6
     },
     {
       "path": "/.git/config",
@@ -248,18 +248,18 @@
       "event_count": 15
     },
     {
+      "asn": "AS201814",
+      "name": "MEVSPACE sp. z o.o.",
+      "country": "PL",
+      "ip_count": 2,
+      "event_count": 14
+    },
+    {
       "asn": "AS197769",
       "name": "VPS Dedicated LLC",
       "country": "DE",
       "ip_count": 1,
       "event_count": 14
-    },
-    {
-      "asn": "AS201814",
-      "name": "MEVSPACE sp. z o.o.",
-      "country": "PL",
-      "ip_count": 2,
-      "event_count": 13
     },
     {
       "asn": "AS205759",
