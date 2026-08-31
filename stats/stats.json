@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T14:04:19.137269Z",
+  "generated_at": "2026-08-31T15:03:23.594941Z",
   "period_days": 90,
-  "total_events": 3499,
-  "unique_ips": 187,
+  "total_events": 3929,
+  "unique_ips": 190,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 46,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 14,
-    "bigippot:honeypot-01": 916,
-    "front:honeypot-01": 2517
+    "bigippot:honeypot-01": 918,
+    "front:honeypot-01": 2945
   },
   "events_per_day": {
     "2026-08-28": {
@@ -33,16 +33,20 @@
       "centrestackpot:honeypot-01": 46,
       "sharepointpot:honeypot-01": 6,
       "fortipot:honeypot-01": 6,
-      "bigippot:honeypot-01": 137,
-      "front:honeypot-01": 1079,
-      "total": 1274
+      "bigippot:honeypot-01": 139,
+      "front:honeypot-01": 1507,
+      "total": 1704
     }
   },
   "top_credentials": [],
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 1129
+      "count": 1276
+    },
+    {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 293
     },
     {
       "user_agent": "Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com)",
@@ -55,16 +59,12 @@
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "count": 276
-    },
-    {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0",
-      "count": 155
     }
   ],
   "method_counts": {
-    "GET": 2893,
-    "POST": 542,
-    "HEAD": 5,
+    "GET": 3315,
+    "POST": 547,
+    "HEAD": 8,
     "OPTIONS": 3,
     "T3": 1,
     "PRI": 1
@@ -73,7 +73,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 180
+      "count": 188
     },
     {
       "path": "/",
@@ -88,20 +88,20 @@
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 20
+      "count": 21
     },
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 20
+      "count": 21
     },
     {
-      "path": "/favicon.ico",
+      "path": "/login",
       "source": "front:honeypot-01",
       "count": 19
     },
     {
-      "path": "/login",
+      "path": "/favicon.ico",
       "source": "front:honeypot-01",
       "count": 19
     },
@@ -116,12 +116,12 @@
       "count": 17
     },
     {
-      "path": "/wp-json/batch/v1",
+      "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 16
     },
     {
-      "path": "/logo.svg",
+      "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 16
     },
@@ -131,14 +131,14 @@
       "count": 14
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/.env",
       "source": "front:honeypot-01",
       "count": 14
     },
     {
-      "path": "/.env",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
-      "count": 13
+      "count": 14
     },
     {
       "path": "/favicon.ico",
@@ -156,9 +156,9 @@
       "count": 12
     },
     {
-      "path": "/account",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 11
+      "count": 12
     },
     {
       "path": "/robots.txt",
@@ -166,7 +166,7 @@
       "count": 11
     },
     {
-      "path": "/.git/config",
+      "path": "/account",
       "source": "front:honeypot-01",
       "count": 11
     }
@@ -218,9 +218,9 @@
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 21,
-      "event_count": 822
+      "country": "CA",
+      "ip_count": 22,
+      "event_count": 969
     },
     {
       "asn": "AS48090",
@@ -276,7 +276,7 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 36
+      "event_count": 38
     },
     {
       "asn": "AS29244",
