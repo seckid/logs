@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T00:01:45.231894Z",
+  "generated_at": "2026-08-31T01:00:49.115754Z",
   "period_days": 90,
-  "total_events": 2225,
-  "unique_ips": 122,
+  "total_events": 2244,
+  "unique_ips": 126,
   "honeypots": [
     "bigippot:honeypot-01",
     "fortipot:honeypot-01",
@@ -10,8 +10,8 @@
   ],
   "totals_by_source": {
     "fortipot:honeypot-01": 8,
-    "bigippot:honeypot-01": 779,
-    "front:honeypot-01": 1438
+    "bigippot:honeypot-01": 790,
+    "front:honeypot-01": 1446
   },
   "events_per_day": {
     "2026-08-28": {
@@ -24,6 +24,11 @@
       "fortipot:honeypot-01": 8,
       "bigippot:honeypot-01": 745,
       "total": 1369
+    },
+    "2026-08-31": {
+      "bigippot:honeypot-01": 11,
+      "front:honeypot-01": 8,
+      "total": 19
     }
   },
   "top_credentials": [],
@@ -50,7 +55,7 @@
     }
   ],
   "method_counts": {
-    "GET": 2131,
+    "GET": 2147,
     "POST": 59,
     "HEAD": 5,
     "OPTIONS": 2,
@@ -61,32 +66,32 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 93
+      "count": 95
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 27
+      "count": 30
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 17
+      "count": 18
     },
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 15
+      "count": 16
     },
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 14
+      "count": 16
     },
     {
-      "path": "/remote/login",
-      "source": "bigippot:honeypot-01",
-      "count": 14
+      "path": "/logo.svg",
+      "source": "front:honeypot-01",
+      "count": 15
     },
     {
       "path": "/remote/logincheck",
@@ -94,9 +99,9 @@
       "count": 14
     },
     {
-      "path": "/logo.svg",
-      "source": "front:honeypot-01",
-      "count": 13
+      "path": "/remote/login",
+      "source": "bigippot:honeypot-01",
+      "count": 14
     },
     {
       "path": "/.env",
@@ -111,12 +116,12 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 8
+      "count": 9
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 8
+      "count": 9
     },
     {
       "path": "/.git/config",
@@ -124,19 +129,14 @@
       "count": 8
     },
     {
-      "path": "/.well-known/security.txt",
-      "source": "front:honeypot-01",
-      "count": 6
-    },
-    {
       "path": "/sw.js",
       "source": "front:honeypot-01",
       "count": 6
     },
     {
-      "path": "/classwithtostring.php",
+      "path": "/.well-known/security.txt",
       "source": "front:honeypot-01",
-      "count": 5
+      "count": 6
     },
     {
       "path": "/tool.php",
@@ -149,12 +149,17 @@
       "count": 5
     },
     {
-      "path": "/ws.php",
+      "path": "/classwithtostring.php",
+      "source": "front:honeypot-01",
+      "count": 5
+    },
+    {
+      "path": "/wp-includes/interactivity-api/index.php",
       "source": "front:honeypot-01",
       "count": 4
     },
     {
-      "path": "/mah.php",
+      "path": "/sellers.json",
       "source": "front:honeypot-01",
       "count": 4
     }
@@ -247,7 +252,14 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 18
+      "event_count": 19
+    },
+    {
+      "asn": "AS6939",
+      "name": "Hurricane Electric LLC",
+      "country": "US",
+      "ip_count": 2,
+      "event_count": 16
     },
     {
       "asn": "AS29244",
@@ -285,6 +297,13 @@
       "event_count": 9
     },
     {
+      "asn": "AS15169",
+      "name": "Google LLC",
+      "country": "US",
+      "ip_count": 3,
+      "event_count": 8
+    },
+    {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
@@ -304,20 +323,6 @@
       "country": "UA",
       "ip_count": 1,
       "event_count": 7
-    },
-    {
-      "asn": "AS398324",
-      "name": "Censys, Inc.",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 6
-    },
-    {
-      "asn": "AS212238",
-      "name": "Datacamp Limited",
-      "country": "BE",
-      "ip_count": 3,
-      "event_count": 6
     }
   ]
 }
