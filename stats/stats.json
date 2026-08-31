@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T18:03:39.185215Z",
+  "generated_at": "2026-08-31T19:01:14.062228Z",
   "period_days": 90,
-  "total_events": 3947,
-  "unique_ips": 199,
+  "total_events": 3950,
+  "unique_ips": 200,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,7 +14,7 @@
     "centrestackpot:honeypot-01": 46,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 14,
-    "bigippot:honeypot-01": 928,
+    "bigippot:honeypot-01": 931,
     "front:honeypot-01": 2953
   },
   "events_per_day": {
@@ -33,9 +33,9 @@
       "centrestackpot:honeypot-01": 46,
       "sharepointpot:honeypot-01": 6,
       "fortipot:honeypot-01": 6,
-      "bigippot:honeypot-01": 149,
+      "bigippot:honeypot-01": 152,
       "front:honeypot-01": 1515,
-      "total": 1722
+      "total": 1725
     }
   },
   "top_credentials": [],
@@ -62,7 +62,7 @@
     }
   ],
   "method_counts": {
-    "GET": 3330,
+    "GET": 3332,
     "POST": 549,
     "HEAD": 8,
     "OPTIONS": 3,
@@ -126,13 +126,13 @@
       "count": 16
     },
     {
-      "path": "/blog/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 14
-    },
-    {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
+      "count": 16
+    },
+    {
+      "path": "/blog/wp-json/batch/v1",
+      "source": "front:honeypot-01",
       "count": 14
     },
     {
@@ -246,9 +246,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 12,
-      "event_count": 103
+      "country": "GB",
+      "ip_count": 13,
+      "event_count": 104
     },
     {
       "asn": "AS45102",
@@ -286,17 +286,17 @@
       "event_count": 32
     },
     {
-      "asn": "AS211298",
-      "name": "Driftnet Ltd",
-      "country": "GB",
-      "ip_count": 21,
-      "event_count": 24
-    },
-    {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
+      "event_count": 26
+    },
+    {
+      "asn": "AS211298",
+      "name": "Driftnet Ltd",
+      "country": "GB",
+      "ip_count": 21,
       "event_count": 24
     },
     {
