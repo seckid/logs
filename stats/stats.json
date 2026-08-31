@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T04:03:09.114311Z",
+  "generated_at": "2026-08-31T05:00:49.130303Z",
   "period_days": 90,
-  "total_events": 2271,
-  "unique_ips": 136,
+  "total_events": 2275,
+  "unique_ips": 139,
   "honeypots": [
     "bigippot:honeypot-01",
     "fortipot:honeypot-01",
@@ -10,7 +10,7 @@
   ],
   "totals_by_source": {
     "fortipot:honeypot-01": 8,
-    "bigippot:honeypot-01": 805,
+    "bigippot:honeypot-01": 809,
     "front:honeypot-01": 1458
   },
   "events_per_day": {
@@ -26,9 +26,9 @@
       "total": 1369
     },
     "2026-08-31": {
-      "bigippot:honeypot-01": 26,
+      "bigippot:honeypot-01": 30,
       "front:honeypot-01": 20,
-      "total": 46
+      "total": 50
     }
   },
   "top_credentials": [],
@@ -55,7 +55,7 @@
     }
   ],
   "method_counts": {
-    "GET": 2173,
+    "GET": 2177,
     "POST": 60,
     "HEAD": 5,
     "OPTIONS": 2,
@@ -71,7 +71,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 35
+      "count": 36
     },
     {
       "path": "/tmui/login.jsp",
@@ -89,6 +89,11 @@
       "count": 16
     },
     {
+      "path": "/logo.svg",
+      "source": "front:honeypot-01",
+      "count": 15
+    },
+    {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
       "count": 15
@@ -99,18 +104,13 @@
       "count": 15
     },
     {
-      "path": "/logo.svg",
-      "source": "front:honeypot-01",
-      "count": 15
-    },
-    {
       "path": "/.env",
       "source": "front:honeypot-01",
       "count": 12
     },
     {
-      "path": "/robots.txt",
-      "source": "front:honeypot-01",
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
       "count": 10
     },
     {
@@ -119,9 +119,9 @@
       "count": 10
     },
     {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
-      "count": 9
+      "path": "/robots.txt",
+      "source": "front:honeypot-01",
+      "count": 10
     },
     {
       "path": "/.git/config",
@@ -132,11 +132,6 @@
       "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 7
-    },
-    {
-      "path": "/open/visitors/info/gets?uuid=1",
-      "source": "front:honeypot-01",
-      "count": 6
     },
     {
       "path": "/sw.js",
@@ -154,7 +149,12 @@
       "count": 6
     },
     {
-      "path": "/tool.php",
+      "path": "/open/visitors/info/gets?uuid=1",
+      "source": "front:honeypot-01",
+      "count": 6
+    },
+    {
+      "path": "/classwithtostring.php",
       "source": "front:honeypot-01",
       "count": 5
     },
@@ -195,8 +195,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 18,
-      "event_count": 609
+      "ip_count": 19,
+      "event_count": 610
     },
     {
       "asn": "AS16509",
@@ -252,7 +252,7 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 19
+      "event_count": 20
     },
     {
       "asn": "AS6939",
