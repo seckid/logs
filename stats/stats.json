@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T01:00:49.115754Z",
+  "generated_at": "2026-08-31T02:02:29.156905Z",
   "period_days": 90,
-  "total_events": 2244,
-  "unique_ips": 126,
+  "total_events": 2253,
+  "unique_ips": 130,
   "honeypots": [
     "bigippot:honeypot-01",
     "fortipot:honeypot-01",
@@ -10,8 +10,8 @@
   ],
   "totals_by_source": {
     "fortipot:honeypot-01": 8,
-    "bigippot:honeypot-01": 790,
-    "front:honeypot-01": 1446
+    "bigippot:honeypot-01": 796,
+    "front:honeypot-01": 1449
   },
   "events_per_day": {
     "2026-08-28": {
@@ -26,9 +26,9 @@
       "total": 1369
     },
     "2026-08-31": {
-      "bigippot:honeypot-01": 11,
-      "front:honeypot-01": 8,
-      "total": 19
+      "bigippot:honeypot-01": 17,
+      "front:honeypot-01": 11,
+      "total": 28
     }
   },
   "top_credentials": [],
@@ -55,7 +55,7 @@
     }
   ],
   "method_counts": {
-    "GET": 2147,
+    "GET": 2156,
     "POST": 59,
     "HEAD": 5,
     "OPTIONS": 2,
@@ -71,20 +71,20 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 30
+      "count": 32
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 18
+      "count": 20
     },
     {
-      "path": "/favicon.ico",
+      "path": "/style.css",
       "source": "front:honeypot-01",
       "count": 16
     },
     {
-      "path": "/style.css",
+      "path": "/favicon.ico",
       "source": "front:honeypot-01",
       "count": 16
     },
@@ -94,12 +94,12 @@
       "count": 15
     },
     {
-      "path": "/remote/logincheck",
+      "path": "/remote/login",
       "source": "bigippot:honeypot-01",
       "count": 14
     },
     {
-      "path": "/remote/login",
+      "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
       "count": 14
     },
@@ -109,9 +109,9 @@
       "count": 12
     },
     {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
-      "count": 9
+      "path": "/robots.txt",
+      "source": "front:honeypot-01",
+      "count": 10
     },
     {
       "path": "/.env",
@@ -119,8 +119,8 @@
       "count": 9
     },
     {
-      "path": "/robots.txt",
-      "source": "front:honeypot-01",
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
       "count": 9
     },
     {
@@ -129,24 +129,19 @@
       "count": 8
     },
     {
-      "path": "/sw.js",
-      "source": "front:honeypot-01",
-      "count": 6
-    },
-    {
       "path": "/.well-known/security.txt",
       "source": "front:honeypot-01",
       "count": 6
     },
     {
-      "path": "/tool.php",
+      "path": "/sw.js",
       "source": "front:honeypot-01",
-      "count": 5
+      "count": 6
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 5
+      "count": 6
     },
     {
       "path": "/classwithtostring.php",
@@ -154,12 +149,17 @@
       "count": 5
     },
     {
-      "path": "/wp-includes/interactivity-api/index.php",
+      "path": "/tool.php",
       "source": "front:honeypot-01",
-      "count": 4
+      "count": 5
     },
     {
-      "path": "/sellers.json",
+      "path": "/.git/HEAD",
+      "source": "front:honeypot-01",
+      "count": 5
+    },
+    {
+      "path": "/ads.txt",
       "source": "front:honeypot-01",
       "count": 4
     }
