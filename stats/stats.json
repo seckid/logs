@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-31T16:03:23.620546Z",
+  "generated_at": "2026-08-31T17:03:39.374829Z",
   "period_days": 90,
-  "total_events": 3938,
+  "total_events": 3942,
   "unique_ips": 198,
   "honeypots": [
     "bigippot:honeypot-01",
@@ -14,7 +14,7 @@
     "centrestackpot:honeypot-01": 46,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 14,
-    "bigippot:honeypot-01": 921,
+    "bigippot:honeypot-01": 925,
     "front:honeypot-01": 2951
   },
   "events_per_day": {
@@ -33,9 +33,9 @@
       "centrestackpot:honeypot-01": 46,
       "sharepointpot:honeypot-01": 6,
       "fortipot:honeypot-01": 6,
-      "bigippot:honeypot-01": 142,
+      "bigippot:honeypot-01": 146,
       "front:honeypot-01": 1513,
-      "total": 1713
+      "total": 1717
     }
   },
   "top_credentials": [],
@@ -62,8 +62,8 @@
     }
   ],
   "method_counts": {
-    "GET": 3323,
-    "POST": 548,
+    "GET": 3326,
+    "POST": 549,
     "HEAD": 8,
     "OPTIONS": 3,
     "T3": 1,
@@ -88,17 +88,12 @@
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 21
+      "count": 22
     },
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 21
-    },
-    {
-      "path": "/login",
-      "source": "front:honeypot-01",
-      "count": 19
+      "count": 22
     },
     {
       "path": "/favicon.ico",
@@ -106,12 +101,17 @@
       "count": 19
     },
     {
-      "path": "/signup",
+      "path": "/login",
+      "source": "front:honeypot-01",
+      "count": 19
+    },
+    {
+      "path": "/style.css",
       "source": "front:honeypot-01",
       "count": 18
     },
     {
-      "path": "/style.css",
+      "path": "/signup",
       "source": "front:honeypot-01",
       "count": 18
     },
@@ -141,12 +141,12 @@
       "count": 14
     },
     {
-      "path": "/.env",
+      "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
       "count": 13
     },
     {
-      "path": "/favicon.ico",
+      "path": "/.env",
       "source": "bigippot:honeypot-01",
       "count": 13
     },
@@ -265,18 +265,18 @@
       "event_count": 49
     },
     {
+      "asn": "AS43350",
+      "name": "NForce Entertainment B.V.",
+      "country": "NL",
+      "ip_count": 1,
+      "event_count": 40
+    },
+    {
       "asn": "AS12876",
       "name": "Scaleway SAS",
       "country": "FR",
       "ip_count": 5,
       "event_count": 39
-    },
-    {
-      "asn": "AS43350",
-      "name": "NForce Entertainment B.V.",
-      "country": "NL",
-      "ip_count": 1,
-      "event_count": 38
     },
     {
       "asn": "AS29244",
