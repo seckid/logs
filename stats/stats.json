@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T09:00:59.743110Z",
+  "generated_at": "2026-08-31T10:00:16.175791Z",
   "period_days": 90,
-  "total_events": 2601,
-  "unique_ips": 154,
+  "total_events": 2607,
+  "unique_ips": 159,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 26,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 14,
-    "bigippot:honeypot-01": 872,
-    "front:honeypot-01": 1683
+    "bigippot:honeypot-01": 874,
+    "front:honeypot-01": 1687
   },
   "events_per_day": {
     "2026-08-28": {
@@ -33,9 +33,9 @@
       "centrestackpot:honeypot-01": 26,
       "sharepointpot:honeypot-01": 6,
       "fortipot:honeypot-01": 6,
-      "bigippot:honeypot-01": 93,
-      "front:honeypot-01": 245,
-      "total": 376
+      "bigippot:honeypot-01": 95,
+      "front:honeypot-01": 249,
+      "total": 382
     }
   },
   "top_credentials": [],
@@ -62,7 +62,7 @@
     }
   ],
   "method_counts": {
-    "GET": 2491,
+    "GET": 2497,
     "POST": 67,
     "HEAD": 5,
     "OPTIONS": 2,
@@ -73,12 +73,12 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 106
+      "count": 108
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 38
+      "count": 39
     },
     {
       "path": "/tmui/login.jsp",
@@ -132,21 +132,21 @@
     },
     {
       "path": "/.git/config",
+      "source": "front:honeypot-01",
+      "count": 9
+    },
+    {
+      "path": "/.git/config",
       "source": "bigippot:honeypot-01",
       "count": 8
     },
     {
-      "path": "/.git/config",
-      "source": "front:honeypot-01",
-      "count": 7
-    },
-    {
-      "path": "/open/visitors/info/gets?uuid=1",
+      "path": "/open/",
       "source": "front:honeypot-01",
       "count": 6
     },
     {
-      "path": "/sw.js",
+      "path": "/open/visitors/info/gets?uuid=1",
       "source": "front:honeypot-01",
       "count": 6
     },
@@ -156,17 +156,17 @@
       "count": 6
     },
     {
-      "path": "/open/",
+      "path": "/sw.js",
       "source": "front:honeypot-01",
       "count": 6
     },
     {
-      "path": "/wp-admin/user/index.php",
+      "path": "/mah.php",
       "source": "front:honeypot-01",
       "count": 5
     },
     {
-      "path": "/about.php",
+      "path": "/info.php",
       "source": "front:honeypot-01",
       "count": 5
     }
@@ -212,8 +212,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 20,
-      "event_count": 821
+      "ip_count": 21,
+      "event_count": 822
     },
     {
       "asn": "AS396982",
@@ -328,6 +328,13 @@
       "event_count": 12
     },
     {
+      "asn": "AS63949",
+      "name": "Akamai Connected Cloud",
+      "country": "JP",
+      "ip_count": 6,
+      "event_count": 9
+    },
+    {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
@@ -340,13 +347,6 @@
       "country": "US",
       "ip_count": 3,
       "event_count": 9
-    },
-    {
-      "asn": "AS63949",
-      "name": "Akamai Connected Cloud",
-      "country": "US",
-      "ip_count": 5,
-      "event_count": 8
     }
   ]
 }
