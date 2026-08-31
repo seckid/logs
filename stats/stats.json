@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T07:02:23.761943Z",
+  "generated_at": "2026-08-31T08:02:23.392604Z",
   "period_days": 90,
-  "total_events": 2585,
-  "unique_ips": 143,
+  "total_events": 2595,
+  "unique_ips": 149,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 26,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 14,
-    "bigippot:honeypot-01": 865,
-    "front:honeypot-01": 1674
+    "bigippot:honeypot-01": 870,
+    "front:honeypot-01": 1679
   },
   "events_per_day": {
     "2026-08-28": {
@@ -33,9 +33,9 @@
       "centrestackpot:honeypot-01": 26,
       "sharepointpot:honeypot-01": 6,
       "fortipot:honeypot-01": 6,
-      "bigippot:honeypot-01": 86,
-      "front:honeypot-01": 236,
-      "total": 360
+      "bigippot:honeypot-01": 91,
+      "front:honeypot-01": 241,
+      "total": 370
     }
   },
   "top_credentials": [],
@@ -62,7 +62,7 @@
     }
   ],
   "method_counts": {
-    "GET": 2479,
+    "GET": 2486,
     "POST": 67,
     "HEAD": 5,
     "OPTIONS": 2,
@@ -73,30 +73,30 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 100
+      "count": 102
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 37
+      "count": 38
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 22
-    },
-    {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
-      "count": 18
+      "count": 23
     },
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 18
+      "count": 19
     },
     {
       "path": "/remote/login",
+      "source": "bigippot:honeypot-01",
+      "count": 18
+    },
+    {
+      "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
       "count": 18
     },
@@ -112,18 +112,18 @@
     },
     {
       "path": "/.env",
-      "source": "bigippot:honeypot-01",
+      "source": "front:honeypot-01",
       "count": 12
     },
     {
       "path": "/.env",
-      "source": "front:honeypot-01",
+      "source": "bigippot:honeypot-01",
       "count": 12
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 10
+      "count": 11
     },
     {
       "path": "/favicon.ico",
@@ -161,12 +161,12 @@
       "count": 6
     },
     {
-      "path": "/tool.php",
+      "path": "/apple-touch-icon-precomposed.png",
       "source": "front:honeypot-01",
       "count": 5
     },
     {
-      "path": "/apple-touch-icon-precomposed.png",
+      "path": "/tool.php",
       "source": "front:honeypot-01",
       "count": 5
     }
@@ -178,9 +178,9 @@
       "sources": [
         "bigippot:honeypot-01"
       ],
-      "description": null,
-      "severity": null,
-      "cvss_score": null,
+      "description": "Critical argument injection in PHP running as CGI on Windows. Attackers smuggle -d directives (allow_url_include, auto_prepend_file=php://input) via soft-hyphen (%AD) encoding that bypasses CVE-2012-1823 mitigations. Unauthenticated RCE when php-cgi.exe is exposed. Actively exploited by RedTail cryptominer (libredtail-http).",
+      "severity": "Critical",
+      "cvss_score": 9.8,
       "sample_ips": [
         "31.132.90.3"
       ],
@@ -195,9 +195,9 @@
       "sources": [
         "bigippot:honeypot-01"
       ],
-      "description": null,
-      "severity": null,
-      "cvss_score": null,
+      "description": "Remote code execution in the F5 BIG-IP Traffic Management User Interface (TMUI) via authenticated path traversal (..;/). Unauthenticated attackers can create administrative accounts or execute arbitrary system commands. Widely scanned on internet-facing BIG-IP appliances.",
+      "severity": "Critical",
+      "cvss_score": 9.8,
       "sample_ips": [
         "34.86.14.228"
       ],
@@ -226,8 +226,8 @@
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 5,
-      "event_count": 274
+      "ip_count": 7,
+      "event_count": 277
     },
     {
       "asn": "AS197556",
@@ -239,9 +239,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 5,
-      "event_count": 95
+      "country": "NL",
+      "ip_count": 7,
+      "event_count": 98
     },
     {
       "asn": "AS45102",
@@ -328,24 +328,24 @@
       "event_count": 11
     },
     {
-      "asn": "AS63949",
-      "name": "Akamai Connected Cloud",
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 5,
-      "event_count": 8
+      "ip_count": 8,
+      "event_count": 9
     },
     {
       "asn": "AS15169",
       "name": "Google LLC",
       "country": "US",
       "ip_count": 3,
-      "event_count": 8
+      "event_count": 9
     },
     {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
+      "asn": "AS63949",
+      "name": "Akamai Connected Cloud",
       "country": "US",
-      "ip_count": 7,
+      "ip_count": 5,
       "event_count": 8
     }
   ]
