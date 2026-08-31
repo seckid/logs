@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T06:00:27.103870Z",
+  "generated_at": "2026-08-31T07:02:23.761943Z",
   "period_days": 90,
-  "total_events": 2323,
-  "unique_ips": 141,
+  "total_events": 2585,
+  "unique_ips": 143,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -12,10 +12,10 @@
   ],
   "totals_by_source": {
     "centrestackpot:honeypot-01": 26,
-    "sharepointpot:honeypot-01": 4,
+    "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 14,
-    "bigippot:honeypot-01": 815,
-    "front:honeypot-01": 1464
+    "bigippot:honeypot-01": 865,
+    "front:honeypot-01": 1674
   },
   "events_per_day": {
     "2026-08-28": {
@@ -31,18 +31,18 @@
     },
     "2026-08-31": {
       "centrestackpot:honeypot-01": 26,
-      "sharepointpot:honeypot-01": 4,
+      "sharepointpot:honeypot-01": 6,
       "fortipot:honeypot-01": 6,
-      "bigippot:honeypot-01": 36,
-      "front:honeypot-01": 26,
-      "total": 98
+      "bigippot:honeypot-01": 86,
+      "front:honeypot-01": 236,
+      "total": 360
     }
   },
   "top_credentials": [],
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 576
+      "count": 786
     },
     {
       "user_agent": "Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com)",
@@ -54,7 +54,7 @@
     },
     {
       "user_agent": "libredtail-http",
-      "count": 98
+      "count": 144
     },
     {
       "user_agent": "Mozilla/5.0 (l9scan/2.0.6343e2734323e2738313e25383; +https://leakix.net)",
@@ -62,8 +62,8 @@
     }
   ],
   "method_counts": {
-    "GET": 2222,
-    "POST": 62,
+    "GET": 2479,
+    "POST": 67,
     "HEAD": 5,
     "OPTIONS": 2,
     "T3": 1,
@@ -73,17 +73,22 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 99
+      "count": 100
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 36
+      "count": 37
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
       "count": 22
+    },
+    {
+      "path": "/remote/logincheck",
+      "source": "bigippot:honeypot-01",
+      "count": 18
     },
     {
       "path": "/favicon.ico",
@@ -93,12 +98,7 @@
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 17
-    },
-    {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
-      "count": 17
+      "count": 18
     },
     {
       "path": "/style.css",
@@ -112,22 +112,22 @@
     },
     {
       "path": "/.env",
-      "source": "front:honeypot-01",
+      "source": "bigippot:honeypot-01",
       "count": 12
     },
     {
       "path": "/.env",
-      "source": "bigippot:honeypot-01",
-      "count": 11
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
-      "count": 10
+      "source": "front:honeypot-01",
+      "count": 12
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
+      "count": 10
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
       "count": 10
     },
     {
@@ -141,7 +141,7 @@
       "count": 7
     },
     {
-      "path": "/sw.js",
+      "path": "/.well-known/security.txt",
       "source": "front:honeypot-01",
       "count": 6
     },
@@ -156,22 +156,39 @@
       "count": 6
     },
     {
-      "path": "/.well-known/security.txt",
+      "path": "/sw.js",
       "source": "front:honeypot-01",
       "count": 6
-    },
-    {
-      "path": "/.git/HEAD",
-      "source": "front:honeypot-01",
-      "count": 5
     },
     {
       "path": "/tool.php",
       "source": "front:honeypot-01",
       "count": 5
+    },
+    {
+      "path": "/apple-touch-icon-precomposed.png",
+      "source": "front:honeypot-01",
+      "count": 5
     }
   ],
   "cve_attempts": [
+    {
+      "cve": "CVE-2024-4577",
+      "count": 2,
+      "sources": [
+        "bigippot:honeypot-01"
+      ],
+      "description": null,
+      "severity": null,
+      "cvss_score": null,
+      "sample_ips": [
+        "31.132.90.3"
+      ],
+      "sample_paths": [
+        "/?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
+        "/hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input"
+      ]
+    },
     {
       "cve": "CVE-2020-5902",
       "count": 2,
@@ -192,6 +209,13 @@
   ],
   "top_asns": [
     {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "PL",
+      "ip_count": 19,
+      "event_count": 820
+    },
+    {
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "US",
@@ -199,18 +223,18 @@
       "event_count": 804
     },
     {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 19,
-      "event_count": 610
-    },
-    {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 5,
       "event_count": 274
+    },
+    {
+      "asn": "AS197556",
+      "name": "Kar-Tel LLC",
+      "country": "KZ",
+      "ip_count": 1,
+      "event_count": 124
     },
     {
       "asn": "AS14061",
@@ -252,20 +276,20 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 30
-    },
-    {
-      "asn": "AS14593",
-      "name": "Space Exploration Technologies Corporation",
-      "country": "GR",
-      "ip_count": 1,
-      "event_count": 21
+      "event_count": 32
     },
     {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
+      "event_count": 22
+    },
+    {
+      "asn": "AS14593",
+      "name": "Space Exploration Technologies Corporation",
+      "country": "GR",
+      "ip_count": 1,
       "event_count": 21
     },
     {
@@ -311,13 +335,6 @@
       "event_count": 8
     },
     {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 7,
-      "event_count": 8
-    },
-    {
       "asn": "AS15169",
       "name": "Google LLC",
       "country": "US",
@@ -325,11 +342,11 @@
       "event_count": 8
     },
     {
-      "asn": "AS135377",
-      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "HK",
-      "ip_count": 2,
-      "event_count": 7
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 7,
+      "event_count": 8
     }
   ]
 }
