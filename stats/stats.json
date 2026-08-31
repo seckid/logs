@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T23:01:23.465124Z",
+  "generated_at": "2026-08-31T00:01:45.231894Z",
   "period_days": 90,
-  "total_events": 2071,
-  "unique_ips": 121,
+  "total_events": 2225,
+  "unique_ips": 122,
   "honeypots": [
     "bigippot:honeypot-01",
     "fortipot:honeypot-01",
@@ -10,8 +10,8 @@
   ],
   "totals_by_source": {
     "fortipot:honeypot-01": 8,
-    "bigippot:honeypot-01": 777,
-    "front:honeypot-01": 1286
+    "bigippot:honeypot-01": 779,
+    "front:honeypot-01": 1438
   },
   "events_per_day": {
     "2026-08-28": {
@@ -20,17 +20,17 @@
       "total": 856
     },
     "2026-08-30": {
-      "front:honeypot-01": 464,
+      "front:honeypot-01": 616,
       "fortipot:honeypot-01": 8,
-      "bigippot:honeypot-01": 743,
-      "total": 1215
+      "bigippot:honeypot-01": 745,
+      "total": 1369
     }
   },
   "top_credentials": [],
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 425
+      "count": 576
     },
     {
       "user_agent": "Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com)",
@@ -50,17 +50,18 @@
     }
   ],
   "method_counts": {
-    "GET": 1978,
+    "GET": 2131,
     "POST": 59,
     "HEAD": 5,
     "OPTIONS": 2,
+    "T3": 1,
     "PRI": 1
   },
   "top_paths": [
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 91
+      "count": 93
     },
     {
       "path": "/",
@@ -78,17 +79,17 @@
       "count": 15
     },
     {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
-      "count": 14
-    },
-    {
       "path": "/style.css",
       "source": "front:honeypot-01",
       "count": 14
     },
     {
       "path": "/remote/login",
+      "source": "bigippot:honeypot-01",
+      "count": 14
+    },
+    {
+      "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
       "count": 14
     },
@@ -120,7 +121,7 @@
     {
       "path": "/.git/config",
       "source": "bigippot:honeypot-01",
-      "count": 7
+      "count": 8
     },
     {
       "path": "/.well-known/security.txt",
@@ -133,27 +134,27 @@
       "count": 6
     },
     {
+      "path": "/classwithtostring.php",
+      "source": "front:honeypot-01",
+      "count": 5
+    },
+    {
+      "path": "/tool.php",
+      "source": "front:honeypot-01",
+      "count": 5
+    },
+    {
       "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 5
     },
     {
-      "path": "/open/visitors/info/gets?uuid=1",
+      "path": "/ws.php",
       "source": "front:honeypot-01",
       "count": 4
     },
     {
-      "path": "/app-ads.txt",
-      "source": "front:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/fetch",
-      "source": "bigippot:honeypot-01",
-      "count": 4
-    },
-    {
-      "path": "/.env.local",
+      "path": "/mah.php",
       "source": "front:honeypot-01",
       "count": 4
     }
@@ -190,7 +191,7 @@
       "name": "Microsoft Corporation",
       "country": "MX",
       "ip_count": 17,
-      "event_count": 457
+      "event_count": 608
     },
     {
       "asn": "AS16509",
@@ -246,7 +247,7 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 17
+      "event_count": 18
     },
     {
       "asn": "AS29244",
@@ -291,6 +292,13 @@
       "event_count": 8
     },
     {
+      "asn": "AS135377",
+      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+      "country": "HK",
+      "ip_count": 2,
+      "event_count": 7
+    },
+    {
       "asn": "AS6698",
       "name": "Virtual Systems LLC",
       "country": "UA",
@@ -309,13 +317,6 @@
       "name": "Datacamp Limited",
       "country": "BE",
       "ip_count": 3,
-      "event_count": 6
-    },
-    {
-      "asn": "AS6939",
-      "name": "Hurricane Electric LLC",
-      "country": "US",
-      "ip_count": 1,
       "event_count": 6
     }
   ]
