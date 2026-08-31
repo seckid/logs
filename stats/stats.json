@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T17:03:39.374829Z",
+  "generated_at": "2026-08-31T18:03:39.185215Z",
   "period_days": 90,
-  "total_events": 3942,
-  "unique_ips": 198,
+  "total_events": 3947,
+  "unique_ips": 199,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 46,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 14,
-    "bigippot:honeypot-01": 925,
-    "front:honeypot-01": 2951
+    "bigippot:honeypot-01": 928,
+    "front:honeypot-01": 2953
   },
   "events_per_day": {
     "2026-08-28": {
@@ -33,9 +33,9 @@
       "centrestackpot:honeypot-01": 46,
       "sharepointpot:honeypot-01": 6,
       "fortipot:honeypot-01": 6,
-      "bigippot:honeypot-01": 146,
-      "front:honeypot-01": 1513,
-      "total": 1717
+      "bigippot:honeypot-01": 149,
+      "front:honeypot-01": 1515,
+      "total": 1722
     }
   },
   "top_credentials": [],
@@ -62,7 +62,7 @@
     }
   ],
   "method_counts": {
-    "GET": 3326,
+    "GET": 3330,
     "POST": 549,
     "HEAD": 8,
     "OPTIONS": 3,
@@ -78,7 +78,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 48
+      "count": 49
     },
     {
       "path": "/tmui/login.jsp",
@@ -132,6 +132,11 @@
     },
     {
       "path": "/.env",
+      "source": "bigippot:honeypot-01",
+      "count": 14
+    },
+    {
+      "path": "/.env",
       "source": "front:honeypot-01",
       "count": 14
     },
@@ -141,19 +146,14 @@
       "count": 14
     },
     {
+      "path": "/robots.txt",
+      "source": "front:honeypot-01",
+      "count": 14
+    },
+    {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
       "count": 13
-    },
-    {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
-      "count": 13
-    },
-    {
-      "path": "/robots.txt",
-      "source": "front:honeypot-01",
-      "count": 12
     },
     {
       "path": "/dashboard",
@@ -297,7 +297,7 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 23
+      "event_count": 24
     },
     {
       "asn": "AS14593",
@@ -342,11 +342,11 @@
       "event_count": 12
     },
     {
-      "asn": "AS211680",
-      "name": "NSEC - Sistemas Informaticos, S.A.",
+      "asn": "AS15169",
+      "name": "Google LLC",
       "country": "US",
       "ip_count": 3,
-      "event_count": 10
+      "event_count": 11
     }
   ]
 }
