@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T03:01:49.873454Z",
+  "generated_at": "2026-08-31T04:03:09.114311Z",
   "period_days": 90,
-  "total_events": 2264,
-  "unique_ips": 132,
+  "total_events": 2271,
+  "unique_ips": 136,
   "honeypots": [
     "bigippot:honeypot-01",
     "fortipot:honeypot-01",
@@ -10,8 +10,8 @@
   ],
   "totals_by_source": {
     "fortipot:honeypot-01": 8,
-    "bigippot:honeypot-01": 801,
-    "front:honeypot-01": 1455
+    "bigippot:honeypot-01": 805,
+    "front:honeypot-01": 1458
   },
   "events_per_day": {
     "2026-08-28": {
@@ -26,9 +26,9 @@
       "total": 1369
     },
     "2026-08-31": {
-      "bigippot:honeypot-01": 22,
-      "front:honeypot-01": 17,
-      "total": 39
+      "bigippot:honeypot-01": 26,
+      "front:honeypot-01": 20,
+      "total": 46
     }
   },
   "top_credentials": [],
@@ -55,7 +55,7 @@
     }
   ],
   "method_counts": {
-    "GET": 2166,
+    "GET": 2173,
     "POST": 60,
     "HEAD": 5,
     "OPTIONS": 2,
@@ -66,22 +66,22 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 97
+      "count": 98
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 33
+      "count": 35
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 21
+      "count": 22
     },
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 16
+      "count": 17
     },
     {
       "path": "/style.css",
@@ -116,7 +116,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 9
+      "count": 10
     },
     {
       "path": "/.env",
@@ -127,6 +127,11 @@
       "path": "/.git/config",
       "source": "bigippot:honeypot-01",
       "count": 8
+    },
+    {
+      "path": "/.git/config",
+      "source": "front:honeypot-01",
+      "count": 7
     },
     {
       "path": "/open/visitors/info/gets?uuid=1",
@@ -145,11 +150,6 @@
     },
     {
       "path": "/open/",
-      "source": "front:honeypot-01",
-      "count": 6
-    },
-    {
-      "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 6
     },
@@ -208,9 +208,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "SG",
-      "ip_count": 4,
-      "event_count": 93
+      "country": "US",
+      "ip_count": 5,
+      "event_count": 95
     },
     {
       "asn": "AS45102",
@@ -297,6 +297,13 @@
       "event_count": 11
     },
     {
+      "asn": "AS63949",
+      "name": "Akamai Connected Cloud",
+      "country": "US",
+      "ip_count": 5,
+      "event_count": 8
+    },
+    {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
@@ -315,13 +322,6 @@
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
       "country": "HK",
       "ip_count": 2,
-      "event_count": 7
-    },
-    {
-      "asn": "AS6698",
-      "name": "Virtual Systems LLC",
-      "country": "UA",
-      "ip_count": 1,
       "event_count": 7
     }
   ]
