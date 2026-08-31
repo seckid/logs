@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-08-31T05:00:49.130303Z",
+  "generated_at": "2026-08-31T06:00:27.103870Z",
   "period_days": 90,
-  "total_events": 2275,
-  "unique_ips": 139,
+  "total_events": 2323,
+  "unique_ips": 141,
   "honeypots": [
     "bigippot:honeypot-01",
+    "centrestackpot:honeypot-01",
     "fortipot:honeypot-01",
-    "front:honeypot-01"
+    "front:honeypot-01",
+    "sharepointpot:honeypot-01"
   ],
   "totals_by_source": {
-    "fortipot:honeypot-01": 8,
-    "bigippot:honeypot-01": 809,
-    "front:honeypot-01": 1458
+    "centrestackpot:honeypot-01": 26,
+    "sharepointpot:honeypot-01": 4,
+    "fortipot:honeypot-01": 14,
+    "bigippot:honeypot-01": 815,
+    "front:honeypot-01": 1464
   },
   "events_per_day": {
     "2026-08-28": {
@@ -26,9 +30,12 @@
       "total": 1369
     },
     "2026-08-31": {
-      "bigippot:honeypot-01": 30,
-      "front:honeypot-01": 20,
-      "total": 50
+      "centrestackpot:honeypot-01": 26,
+      "sharepointpot:honeypot-01": 4,
+      "fortipot:honeypot-01": 6,
+      "bigippot:honeypot-01": 36,
+      "front:honeypot-01": 26,
+      "total": 98
     }
   },
   "top_credentials": [],
@@ -55,8 +62,8 @@
     }
   ],
   "method_counts": {
-    "GET": 2177,
-    "POST": 60,
+    "GET": 2222,
+    "POST": 62,
     "HEAD": 5,
     "OPTIONS": 2,
     "T3": 1,
@@ -66,7 +73,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 98
+      "count": 99
     },
     {
       "path": "/",
@@ -81,27 +88,27 @@
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
+      "count": 18
+    },
+    {
+      "path": "/remote/login",
+      "source": "bigippot:honeypot-01",
+      "count": 17
+    },
+    {
+      "path": "/remote/logincheck",
+      "source": "bigippot:honeypot-01",
       "count": 17
     },
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 16
+      "count": 17
     },
     {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
-      "count": 15
-    },
-    {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
-      "count": 15
-    },
-    {
-      "path": "/remote/login",
-      "source": "bigippot:honeypot-01",
-      "count": 15
+      "count": 16
     },
     {
       "path": "/.env",
@@ -111,7 +118,7 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 10
+      "count": 11
     },
     {
       "path": "/favicon.ico",
@@ -139,11 +146,6 @@
       "count": 6
     },
     {
-      "path": "/.well-known/security.txt",
-      "source": "front:honeypot-01",
-      "count": 6
-    },
-    {
       "path": "/open/",
       "source": "front:honeypot-01",
       "count": 6
@@ -154,12 +156,17 @@
       "count": 6
     },
     {
-      "path": "/classwithtostring.php",
+      "path": "/.well-known/security.txt",
+      "source": "front:honeypot-01",
+      "count": 6
+    },
+    {
+      "path": "/.git/HEAD",
       "source": "front:honeypot-01",
       "count": 5
     },
     {
-      "path": "/.git/HEAD",
+      "path": "/tool.php",
       "source": "front:honeypot-01",
       "count": 5
     }
@@ -234,11 +241,18 @@
       "event_count": 39
     },
     {
+      "asn": "AS29244",
+      "name": "CETIN Bulgaria EAD",
+      "country": "BG",
+      "ip_count": 2,
+      "event_count": 32
+    },
+    {
       "asn": "AS43350",
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 26
+      "event_count": 30
     },
     {
       "asn": "AS14593",
@@ -252,7 +266,7 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 20
+      "event_count": 21
     },
     {
       "asn": "AS6939",
@@ -260,13 +274,6 @@
       "country": "US",
       "ip_count": 2,
       "event_count": 16
-    },
-    {
-      "asn": "AS29244",
-      "name": "CETIN Bulgaria EAD",
-      "country": "BG",
-      "ip_count": 1,
-      "event_count": 15
     },
     {
       "asn": "AS202422",
