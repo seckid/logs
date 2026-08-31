@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T19:01:14.062228Z",
+  "generated_at": "2026-08-31T20:04:34.886268Z",
   "period_days": 90,
-  "total_events": 3950,
-  "unique_ips": 200,
+  "total_events": 3961,
+  "unique_ips": 204,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 46,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 14,
-    "bigippot:honeypot-01": 931,
-    "front:honeypot-01": 2953
+    "bigippot:honeypot-01": 938,
+    "front:honeypot-01": 2957
   },
   "events_per_day": {
     "2026-08-28": {
@@ -33,9 +33,9 @@
       "centrestackpot:honeypot-01": 46,
       "sharepointpot:honeypot-01": 6,
       "fortipot:honeypot-01": 6,
-      "bigippot:honeypot-01": 152,
-      "front:honeypot-01": 1515,
-      "total": 1725
+      "bigippot:honeypot-01": 159,
+      "front:honeypot-01": 1519,
+      "total": 1736
     }
   },
   "top_credentials": [],
@@ -62,8 +62,8 @@
     }
   ],
   "method_counts": {
-    "GET": 3332,
-    "POST": 549,
+    "GET": 3342,
+    "POST": 550,
     "HEAD": 8,
     "OPTIONS": 3,
     "T3": 1,
@@ -73,35 +73,35 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 190
+      "count": 193
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 49
+      "count": 50
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 27
+      "count": 28
     },
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 22
+      "count": 23
     },
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 22
+      "count": 23
     },
     {
-      "path": "/favicon.ico",
+      "path": "/login",
       "source": "front:honeypot-01",
       "count": 19
     },
     {
-      "path": "/login",
+      "path": "/favicon.ico",
       "source": "front:honeypot-01",
       "count": 19
     },
@@ -136,6 +136,11 @@
       "count": 14
     },
     {
+      "path": "/robots.txt",
+      "source": "front:honeypot-01",
+      "count": 14
+    },
+    {
       "path": "/.env",
       "source": "front:honeypot-01",
       "count": 14
@@ -146,22 +151,17 @@
       "count": 14
     },
     {
-      "path": "/robots.txt",
-      "source": "front:honeypot-01",
-      "count": 14
-    },
-    {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
       "count": 13
     },
     {
-      "path": "/dashboard",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 12
     },
     {
-      "path": "/.git/config",
+      "path": "/dashboard",
       "source": "front:honeypot-01",
       "count": 12
     },
@@ -218,16 +218,16 @@
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "CA",
-      "ip_count": 22,
-      "event_count": 969
+      "country": "US",
+      "ip_count": 23,
+      "event_count": 970
     },
     {
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "ip_count": 4,
-      "event_count": 505
+      "ip_count": 6,
+      "event_count": 508
     },
     {
       "asn": "AS16509",
@@ -269,14 +269,14 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 40
+      "event_count": 42
     },
     {
       "asn": "AS12876",
       "name": "Scaleway SAS",
       "country": "FR",
       "ip_count": 5,
-      "event_count": 39
+      "event_count": 40
     },
     {
       "asn": "AS29244",
