@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T10:00:16.175791Z",
+  "generated_at": "2026-08-31T11:04:23.486777Z",
   "period_days": 90,
-  "total_events": 2607,
-  "unique_ips": 159,
+  "total_events": 2926,
+  "unique_ips": 177,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -11,11 +11,11 @@
     "sharepointpot:honeypot-01"
   ],
   "totals_by_source": {
-    "centrestackpot:honeypot-01": 26,
+    "centrestackpot:honeypot-01": 46,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 14,
-    "bigippot:honeypot-01": 874,
-    "front:honeypot-01": 1687
+    "bigippot:honeypot-01": 894,
+    "front:honeypot-01": 1966
   },
   "events_per_day": {
     "2026-08-28": {
@@ -30,12 +30,12 @@
       "total": 1369
     },
     "2026-08-31": {
-      "centrestackpot:honeypot-01": 26,
+      "centrestackpot:honeypot-01": 46,
       "sharepointpot:honeypot-01": 6,
       "fortipot:honeypot-01": 6,
-      "bigippot:honeypot-01": 95,
-      "front:honeypot-01": 249,
-      "total": 382
+      "bigippot:honeypot-01": 115,
+      "front:honeypot-01": 528,
+      "total": 701
     }
   },
   "top_credentials": [],
@@ -49,23 +49,23 @@
       "count": 285
     },
     {
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 280
+    },
+    {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "count": 276
     },
     {
       "user_agent": "libredtail-http",
       "count": 144
-    },
-    {
-      "user_agent": "Mozilla/5.0 (l9scan/2.0.6343e2734323e2738313e25383; +https://leakix.net)",
-      "count": 62
     }
   ],
   "method_counts": {
-    "GET": 2497,
-    "POST": 67,
+    "GET": 2798,
+    "POST": 71,
     "HEAD": 5,
-    "OPTIONS": 2,
+    "OPTIONS": 3,
     "T3": 1,
     "PRI": 1
   },
@@ -73,17 +73,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 108
+      "count": 115
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 39
+      "count": 43
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 23
+      "count": 25
     },
     {
       "path": "/favicon.ico",
@@ -113,7 +113,7 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 12
+      "count": 13
     },
     {
       "path": "/.env",
@@ -128,12 +128,12 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 10
+      "count": 11
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 9
+      "count": 10
     },
     {
       "path": "/.git/config",
@@ -141,12 +141,12 @@
       "count": 8
     },
     {
-      "path": "/open/",
+      "path": "/info.php",
       "source": "front:honeypot-01",
       "count": 6
     },
     {
-      "path": "/open/visitors/info/gets?uuid=1",
+      "path": "/open/",
       "source": "front:honeypot-01",
       "count": 6
     },
@@ -161,12 +161,12 @@
       "count": 6
     },
     {
-      "path": "/mah.php",
+      "path": "/open/visitors/info/gets?uuid=1",
       "source": "front:honeypot-01",
-      "count": 5
+      "count": 6
     },
     {
-      "path": "/info.php",
+      "path": "/.env.local",
       "source": "front:honeypot-01",
       "count": 5
     }
@@ -209,6 +209,13 @@
   ],
   "top_asns": [
     {
+      "asn": "AS396982",
+      "name": "Google LLC",
+      "country": "US",
+      "ip_count": 9,
+      "event_count": 1083
+    },
+    {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
@@ -216,18 +223,11 @@
       "event_count": 822
     },
     {
-      "asn": "AS396982",
-      "name": "Google LLC",
-      "country": "US",
-      "ip_count": 6,
-      "event_count": 804
-    },
-    {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 7,
-      "event_count": 277
+      "country": "AU",
+      "ip_count": 8,
+      "event_count": 279
     },
     {
       "asn": "AS197556",
@@ -239,9 +239,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 9,
-      "event_count": 100
+      "country": "NL",
+      "ip_count": 10,
+      "event_count": 101
     },
     {
       "asn": "AS45102",
@@ -279,6 +279,13 @@
       "event_count": 32
     },
     {
+      "asn": "AS211298",
+      "name": "Driftnet Ltd",
+      "country": "GB",
+      "ip_count": 21,
+      "event_count": 24
+    },
+    {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
@@ -314,18 +321,18 @@
       "event_count": 14
     },
     {
-      "asn": "AS211298",
-      "name": "Driftnet Ltd",
-      "country": "GB",
-      "ip_count": 10,
-      "event_count": 12
-    },
-    {
       "asn": "AS205759",
       "name": "Ghosty Networks LLC",
       "country": "LU",
       "ip_count": 1,
       "event_count": 12
+    },
+    {
+      "asn": "AS135377",
+      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+      "country": "US",
+      "ip_count": 3,
+      "event_count": 11
     },
     {
       "asn": "AS63949",
@@ -339,13 +346,6 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 8,
-      "event_count": 9
-    },
-    {
-      "asn": "AS15169",
-      "name": "Google LLC",
-      "country": "US",
-      "ip_count": 3,
       "event_count": 9
     }
   ]
