@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T11:04:23.486777Z",
+  "generated_at": "2026-08-31T12:03:23.607594Z",
   "period_days": 90,
-  "total_events": 2926,
-  "unique_ips": 177,
+  "total_events": 2945,
+  "unique_ips": 183,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 46,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 14,
-    "bigippot:honeypot-01": 894,
-    "front:honeypot-01": 1966
+    "bigippot:honeypot-01": 912,
+    "front:honeypot-01": 1967
   },
   "events_per_day": {
     "2026-08-28": {
@@ -33,9 +33,9 @@
       "centrestackpot:honeypot-01": 46,
       "sharepointpot:honeypot-01": 6,
       "fortipot:honeypot-01": 6,
-      "bigippot:honeypot-01": 115,
-      "front:honeypot-01": 528,
-      "total": 701
+      "bigippot:honeypot-01": 133,
+      "front:honeypot-01": 529,
+      "total": 720
     }
   },
   "top_credentials": [],
@@ -62,8 +62,8 @@
     }
   ],
   "method_counts": {
-    "GET": 2798,
-    "POST": 71,
+    "GET": 2809,
+    "POST": 73,
     "HEAD": 5,
     "OPTIONS": 3,
     "T3": 1,
@@ -73,17 +73,22 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 115
+      "count": 116
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 43
+      "count": 46
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 25
+      "count": 27
+    },
+    {
+      "path": "/remote/login",
+      "source": "bigippot:honeypot-01",
+      "count": 19
     },
     {
       "path": "/favicon.ico",
@@ -91,14 +96,9 @@
       "count": 19
     },
     {
-      "path": "/remote/login",
-      "source": "bigippot:honeypot-01",
-      "count": 18
-    },
-    {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 18
+      "count": 19
     },
     {
       "path": "/style.css",
@@ -116,6 +116,11 @@
       "count": 13
     },
     {
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
+      "count": 13
+    },
+    {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
       "count": 12
@@ -123,11 +128,6 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 11
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
       "count": 11
     },
     {
@@ -141,17 +141,7 @@
       "count": 8
     },
     {
-      "path": "/info.php",
-      "source": "front:honeypot-01",
-      "count": 6
-    },
-    {
       "path": "/open/",
-      "source": "front:honeypot-01",
-      "count": 6
-    },
-    {
-      "path": "/.well-known/security.txt",
       "source": "front:honeypot-01",
       "count": 6
     },
@@ -166,7 +156,17 @@
       "count": 6
     },
     {
-      "path": "/.env.local",
+      "path": "/.well-known/security.txt",
+      "source": "front:honeypot-01",
+      "count": 6
+    },
+    {
+      "path": "/info.php",
+      "source": "front:honeypot-01",
+      "count": 6
+    },
+    {
+      "path": "/apple-touch-icon.png",
       "source": "front:honeypot-01",
       "count": 5
     }
@@ -225,9 +225,9 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "AU",
-      "ip_count": 8,
-      "event_count": 279
+      "country": "US",
+      "ip_count": 9,
+      "event_count": 283
     },
     {
       "asn": "AS197556",
@@ -240,8 +240,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "NL",
-      "ip_count": 10,
-      "event_count": 101
+      "ip_count": 11,
+      "event_count": 102
     },
     {
       "asn": "AS45102",
@@ -265,17 +265,17 @@
       "event_count": 39
     },
     {
-      "asn": "AS29244",
-      "name": "CETIN Bulgaria EAD",
-      "country": "BG",
-      "ip_count": 2,
-      "event_count": 32
-    },
-    {
       "asn": "AS43350",
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
+      "event_count": 34
+    },
+    {
+      "asn": "AS29244",
+      "name": "CETIN Bulgaria EAD",
+      "country": "BG",
+      "ip_count": 2,
       "event_count": 32
     },
     {
@@ -321,6 +321,13 @@
       "event_count": 14
     },
     {
+      "asn": "AS135377",
+      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+      "country": "US",
+      "ip_count": 3,
+      "event_count": 12
+    },
+    {
       "asn": "AS205759",
       "name": "Ghosty Networks LLC",
       "country": "LU",
@@ -328,24 +335,17 @@
       "event_count": 12
     },
     {
-      "asn": "AS135377",
-      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+      "asn": "AS211680",
+      "name": "NSEC - Sistemas Informaticos, S.A.",
       "country": "US",
       "ip_count": 3,
-      "event_count": 11
+      "event_count": 10
     },
     {
       "asn": "AS63949",
       "name": "Akamai Connected Cloud",
       "country": "JP",
       "ip_count": 6,
-      "event_count": 9
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 8,
       "event_count": 9
     }
   ]
