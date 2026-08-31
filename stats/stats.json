@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T08:02:35.202022Z",
+  "generated_at": "2026-08-31T09:00:59.743110Z",
   "period_days": 90,
-  "total_events": 2595,
-  "unique_ips": 149,
+  "total_events": 2601,
+  "unique_ips": 154,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 26,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 14,
-    "bigippot:honeypot-01": 870,
-    "front:honeypot-01": 1679
+    "bigippot:honeypot-01": 872,
+    "front:honeypot-01": 1683
   },
   "events_per_day": {
     "2026-08-28": {
@@ -33,9 +33,9 @@
       "centrestackpot:honeypot-01": 26,
       "sharepointpot:honeypot-01": 6,
       "fortipot:honeypot-01": 6,
-      "bigippot:honeypot-01": 91,
-      "front:honeypot-01": 241,
-      "total": 370
+      "bigippot:honeypot-01": 93,
+      "front:honeypot-01": 245,
+      "total": 376
     }
   },
   "top_credentials": [],
@@ -62,7 +62,7 @@
     }
   ],
   "method_counts": {
-    "GET": 2486,
+    "GET": 2491,
     "POST": 67,
     "HEAD": 5,
     "OPTIONS": 2,
@@ -73,7 +73,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 102
+      "count": 106
     },
     {
       "path": "/",
@@ -141,16 +141,6 @@
       "count": 7
     },
     {
-      "path": "/.well-known/security.txt",
-      "source": "front:honeypot-01",
-      "count": 6
-    },
-    {
-      "path": "/open/",
-      "source": "front:honeypot-01",
-      "count": 6
-    },
-    {
       "path": "/open/visitors/info/gets?uuid=1",
       "source": "front:honeypot-01",
       "count": 6
@@ -161,12 +151,22 @@
       "count": 6
     },
     {
-      "path": "/apple-touch-icon-precomposed.png",
+      "path": "/.well-known/security.txt",
+      "source": "front:honeypot-01",
+      "count": 6
+    },
+    {
+      "path": "/open/",
+      "source": "front:honeypot-01",
+      "count": 6
+    },
+    {
+      "path": "/wp-admin/user/index.php",
       "source": "front:honeypot-01",
       "count": 5
     },
     {
-      "path": "/tool.php",
+      "path": "/about.php",
       "source": "front:honeypot-01",
       "count": 5
     }
@@ -211,9 +211,9 @@
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "PL",
-      "ip_count": 19,
-      "event_count": 820
+      "country": "US",
+      "ip_count": 20,
+      "event_count": 821
     },
     {
       "asn": "AS396982",
@@ -239,9 +239,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "NL",
-      "ip_count": 7,
-      "event_count": 98
+      "country": "US",
+      "ip_count": 9,
+      "event_count": 100
     },
     {
       "asn": "AS45102",
@@ -314,18 +314,18 @@
       "event_count": 14
     },
     {
+      "asn": "AS211298",
+      "name": "Driftnet Ltd",
+      "country": "GB",
+      "ip_count": 10,
+      "event_count": 12
+    },
+    {
       "asn": "AS205759",
       "name": "Ghosty Networks LLC",
       "country": "LU",
       "ip_count": 1,
       "event_count": 12
-    },
-    {
-      "asn": "AS211298",
-      "name": "Driftnet Ltd",
-      "country": "GB",
-      "ip_count": 9,
-      "event_count": 11
     },
     {
       "asn": "AS14618",
