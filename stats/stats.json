@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T22:02:39.149569Z",
+  "generated_at": "2026-08-31T23:00:23.535563Z",
   "period_days": 90,
-  "total_events": 4004,
-  "unique_ips": 215,
+  "total_events": 4006,
+  "unique_ips": 216,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -13,9 +13,9 @@
   "totals_by_source": {
     "centrestackpot:honeypot-01": 48,
     "sharepointpot:honeypot-01": 6,
-    "fortipot:honeypot-01": 15,
+    "fortipot:honeypot-01": 16,
     "bigippot:honeypot-01": 974,
-    "front:honeypot-01": 2961
+    "front:honeypot-01": 2962
   },
   "events_per_day": {
     "2026-08-28": {
@@ -32,10 +32,10 @@
     "2026-08-31": {
       "centrestackpot:honeypot-01": 48,
       "sharepointpot:honeypot-01": 6,
-      "fortipot:honeypot-01": 7,
+      "fortipot:honeypot-01": 8,
       "bigippot:honeypot-01": 195,
-      "front:honeypot-01": 1523,
-      "total": 1779
+      "front:honeypot-01": 1524,
+      "total": 1781
     }
   },
   "top_credentials": [],
@@ -62,7 +62,7 @@
     }
   ],
   "method_counts": {
-    "GET": 3378,
+    "GET": 3380,
     "POST": 551,
     "HEAD": 8,
     "OPTIONS": 3,
@@ -86,12 +86,12 @@
       "count": 30
     },
     {
-      "path": "/remote/login",
+      "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
       "count": 24
     },
     {
-      "path": "/remote/logincheck",
+      "path": "/remote/login",
       "source": "bigippot:honeypot-01",
       "count": 24
     },
@@ -151,14 +151,14 @@
       "count": 14
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 14
     },
     {
-      "path": "/.git/config",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
-      "count": 13
+      "count": 14
     },
     {
       "path": "/dashboard",
@@ -227,7 +227,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 6,
-      "event_count": 509
+      "event_count": 510
     },
     {
       "asn": "AS16509",
