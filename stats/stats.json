@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T20:04:23.679816Z",
+  "generated_at": "2026-09-01T21:02:10.963312Z",
   "period_days": 90,
-  "total_events": 5217,
-  "unique_ips": 305,
+  "total_events": 5230,
+  "unique_ips": 309,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,7 +14,7 @@
     "centrestackpot:honeypot-01": 48,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 30,
-    "bigippot:honeypot-01": 1880,
+    "bigippot:honeypot-01": 1893,
     "front:honeypot-01": 3253
   },
   "events_per_day": {
@@ -39,9 +39,9 @@
     },
     "2026-09-01": {
       "fortipot:honeypot-01": 14,
-      "bigippot:honeypot-01": 890,
+      "bigippot:honeypot-01": 903,
       "front:honeypot-01": 283,
-      "total": 1187
+      "total": 1200
     }
   },
   "top_credentials": [],
@@ -68,8 +68,8 @@
     }
   ],
   "method_counts": {
-    "GET": 4512,
-    "POST": 589,
+    "GET": 4523,
+    "POST": 591,
     "HEAD": 13,
     "PRI": 5,
     "OPTIONS": 3,
@@ -85,7 +85,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 115
+      "count": 116
     },
     {
       "path": "/tmui/login.jsp",
@@ -95,26 +95,26 @@
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 38
+      "count": 40
     },
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 38
+      "count": 40
     },
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 24
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "front:honeypot-01",
-      "count": 22
+      "count": 25
     },
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
+      "count": 22
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "front:honeypot-01",
       "count": 22
     },
     {
@@ -128,7 +128,7 @@
       "count": 20
     },
     {
-      "path": "/login",
+      "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 19
     },
@@ -138,7 +138,7 @@
       "count": 19
     },
     {
-      "path": "/logo.svg",
+      "path": "/login",
       "source": "front:honeypot-01",
       "count": 19
     },
@@ -158,23 +158,23 @@
       "count": 16
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 14
-    },
-    {
       "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 14
     },
     {
-      "path": "/.git/config",
-      "source": "bigippot:honeypot-01",
-      "count": 12
+      "path": "/wordpress/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 14
     },
     {
       "path": "/dashboard",
       "source": "front:honeypot-01",
+      "count": 12
+    },
+    {
+      "path": "/.git/config",
+      "source": "bigippot:honeypot-01",
       "count": 12
     }
   ],
@@ -263,7 +263,7 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 71
+      "event_count": 75
     },
     {
       "asn": "AS45102",
@@ -343,18 +343,18 @@
       "event_count": 21
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 17,
+      "event_count": 19
+    },
+    {
       "asn": "AS202422",
       "name": "G-Core Labs S.A.",
       "country": "JP",
       "ip_count": 2,
       "event_count": 18
-    },
-    {
-      "asn": "AS211680",
-      "name": "NSEC - Sistemas Informaticos, S.A.",
-      "country": "NL",
-      "ip_count": 7,
-      "event_count": 16
     }
   ]
 }
