@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T22:01:22.076383Z",
+  "generated_at": "2026-09-01T23:01:09.341473Z",
   "period_days": 90,
-  "total_events": 5515,
-  "unique_ips": 312,
+  "total_events": 5527,
+  "unique_ips": 314,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -13,9 +13,9 @@
   "totals_by_source": {
     "centrestackpot:honeypot-01": 48,
     "sharepointpot:honeypot-01": 6,
-    "fortipot:honeypot-01": 30,
-    "bigippot:honeypot-01": 1901,
-    "front:honeypot-01": 3530
+    "fortipot:honeypot-01": 31,
+    "bigippot:honeypot-01": 1911,
+    "front:honeypot-01": 3531
   },
   "events_per_day": {
     "2026-08-28": {
@@ -38,10 +38,10 @@
       "total": 1805
     },
     "2026-09-01": {
-      "fortipot:honeypot-01": 14,
-      "bigippot:honeypot-01": 911,
-      "front:honeypot-01": 560,
-      "total": 1485
+      "fortipot:honeypot-01": 15,
+      "bigippot:honeypot-01": 921,
+      "front:honeypot-01": 561,
+      "total": 1497
     }
   },
   "top_credentials": [],
@@ -68,8 +68,8 @@
     }
   ],
   "method_counts": {
-    "GET": 4803,
-    "POST": 594,
+    "GET": 4811,
+    "POST": 597,
     "HEAD": 13,
     "PRI": 5,
     "OPTIONS": 3,
@@ -80,12 +80,12 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 229
+      "count": 230
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 116
+      "count": 117
     },
     {
       "path": "/tmui/login.jsp",
@@ -95,12 +95,12 @@
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 43
+      "count": 46
     },
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 43
+      "count": 46
     },
     {
       "path": "/favicon.ico",
@@ -108,14 +108,14 @@
       "count": 25
     },
     {
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
+      "count": 24
+    },
+    {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
       "count": 23
-    },
-    {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
-      "count": 22
     },
     {
       "path": "/.env",
@@ -128,17 +128,17 @@
       "count": 20
     },
     {
+      "path": "/login",
+      "source": "front:honeypot-01",
+      "count": 19
+    },
+    {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
       "count": 19
     },
     {
       "path": "/logo.svg",
-      "source": "front:honeypot-01",
-      "count": 19
-    },
-    {
-      "path": "/login",
       "source": "front:honeypot-01",
       "count": 19
     },
@@ -168,12 +168,12 @@
       "count": 14
     },
     {
-      "path": "/.git/config",
+      "path": "/robots.txt",
       "source": "bigippot:honeypot-01",
       "count": 12
     },
     {
-      "path": "/robots.txt",
+      "path": "/.git/config",
       "source": "bigippot:honeypot-01",
       "count": 12
     }
@@ -263,7 +263,7 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 80
+      "event_count": 86
     },
     {
       "asn": "AS45102",
@@ -294,17 +294,17 @@
       "event_count": 40
     },
     {
-      "asn": "AS398324",
-      "name": "Censys, Inc.",
-      "country": "US",
-      "ip_count": 6,
-      "event_count": 31
-    },
-    {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
+      "event_count": 33
+    },
+    {
+      "asn": "AS398324",
+      "name": "Censys, Inc.",
+      "country": "US",
+      "ip_count": 6,
       "event_count": 31
     },
     {
@@ -322,17 +322,17 @@
       "event_count": 29
     },
     {
-      "asn": "AS63949",
-      "name": "Akamai Connected Cloud",
-      "country": "US",
-      "ip_count": 10,
-      "event_count": 24
-    },
-    {
       "asn": "AS211298",
       "name": "Driftnet Ltd",
       "country": "GB",
       "ip_count": 21,
+      "event_count": 25
+    },
+    {
+      "asn": "AS63949",
+      "name": "Akamai Connected Cloud",
+      "country": "US",
+      "ip_count": 10,
       "event_count": 24
     },
     {
