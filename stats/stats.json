@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T11:04:23.584313Z",
+  "generated_at": "2026-09-01T12:03:29.236693Z",
   "period_days": 90,
-  "total_events": 4840,
-  "unique_ips": 271,
+  "total_events": 4853,
+  "unique_ips": 277,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 48,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 16,
-    "bigippot:honeypot-01": 1661,
-    "front:honeypot-01": 3109
+    "bigippot:honeypot-01": 1669,
+    "front:honeypot-01": 3114
   },
   "events_per_day": {
     "2026-08-28": {
@@ -38,9 +38,9 @@
       "total": 1805
     },
     "2026-09-01": {
-      "bigippot:honeypot-01": 671,
-      "front:honeypot-01": 139,
-      "total": 810
+      "bigippot:honeypot-01": 679,
+      "front:honeypot-01": 144,
+      "total": 823
     }
   },
   "top_credentials": [],
@@ -67,10 +67,10 @@
     }
   ],
   "method_counts": {
-    "GET": 4164,
+    "GET": 4173,
     "POST": 577,
     "HEAD": 11,
-    "PRI": 3,
+    "PRI": 4,
     "OPTIONS": 3,
     "PROPFIND": 2,
     "T3": 1
@@ -79,22 +79,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 213
+      "count": 214
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 90
+      "count": 92
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 46
-    },
-    {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
-      "count": 30
+      "count": 47
     },
     {
       "path": "/remote/login",
@@ -102,6 +97,16 @@
       "count": 30
     },
     {
+      "path": "/remote/logincheck",
+      "source": "bigippot:honeypot-01",
+      "count": 30
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "front:honeypot-01",
+      "count": 21
+    },
+    {
       "path": "/.env",
       "source": "front:honeypot-01",
       "count": 20
@@ -109,11 +114,6 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 20
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "front:honeypot-01",
       "count": 20
     },
     {
@@ -122,8 +122,13 @@
       "count": 19
     },
     {
-      "path": "/style.css",
+      "path": "/robots.txt",
       "source": "front:honeypot-01",
+      "count": 18
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
       "count": 18
     },
     {
@@ -132,14 +137,9 @@
       "count": 18
     },
     {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
-      "count": 17
-    },
-    {
-      "path": "/robots.txt",
+      "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 17
+      "count": 18
     },
     {
       "path": "/logo.svg",
@@ -147,22 +147,22 @@
       "count": 17
     },
     {
-      "path": "/.git/config",
-      "source": "front:honeypot-01",
-      "count": 16
-    },
-    {
       "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 16
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/.git/config",
+      "source": "front:honeypot-01",
+      "count": 16
+    },
+    {
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 14
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 14
     },
@@ -225,9 +225,9 @@
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "IN",
-      "ip_count": 26,
-      "event_count": 1076
+      "country": "US",
+      "ip_count": 27,
+      "event_count": 1077
     },
     {
       "asn": "AS48090",
@@ -321,6 +321,13 @@
       "event_count": 21
     },
     {
+      "asn": "AS398324",
+      "name": "Censys, Inc.",
+      "country": "US",
+      "ip_count": 4,
+      "event_count": 20
+    },
+    {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
       "country": "JP",
@@ -335,10 +342,10 @@
       "event_count": 18
     },
     {
-      "asn": "AS398324",
-      "name": "Censys, Inc.",
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 3,
+      "ip_count": 14,
       "event_count": 16
     },
     {
@@ -347,13 +354,6 @@
       "country": "US",
       "ip_count": 2,
       "event_count": 16
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 13,
-      "event_count": 14
     }
   ]
 }
