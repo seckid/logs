@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T01:00:19.221639Z",
+  "generated_at": "2026-09-01T02:02:29.136640Z",
   "period_days": 90,
-  "total_events": 4092,
-  "unique_ips": 230,
+  "total_events": 4106,
+  "unique_ips": 234,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 48,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 16,
-    "bigippot:honeypot-01": 1002,
-    "front:honeypot-01": 3020
+    "bigippot:honeypot-01": 1014,
+    "front:honeypot-01": 3022
   },
   "events_per_day": {
     "2026-08-28": {
@@ -38,9 +38,9 @@
       "total": 1805
     },
     "2026-09-01": {
-      "bigippot:honeypot-01": 12,
-      "front:honeypot-01": 50,
-      "total": 62
+      "bigippot:honeypot-01": 24,
+      "front:honeypot-01": 52,
+      "total": 76
     }
   },
   "top_credentials": [],
@@ -67,8 +67,8 @@
     }
   ],
   "method_counts": {
-    "GET": 3457,
-    "POST": 554,
+    "GET": 3468,
+    "POST": 556,
     "HEAD": 9,
     "OPTIONS": 3,
     "PRI": 2,
@@ -78,17 +78,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 199
+      "count": 200
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 63
+      "count": 68
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 34
+      "count": 36
     },
     {
       "path": "/remote/logincheck",
@@ -111,12 +111,17 @@
       "count": 19
     },
     {
+      "path": "/style.css",
+      "source": "front:honeypot-01",
+      "count": 18
+    },
+    {
       "path": "/signup",
       "source": "front:honeypot-01",
       "count": 18
     },
     {
-      "path": "/style.css",
+      "path": "/.env",
       "source": "front:honeypot-01",
       "count": 18
     },
@@ -126,22 +131,17 @@
       "count": 17
     },
     {
-      "path": "/.env",
-      "source": "front:honeypot-01",
-      "count": 17
-    },
-    {
       "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 16
     },
     {
-      "path": "/favicon.ico",
+      "path": "/.env",
       "source": "bigippot:honeypot-01",
       "count": 16
     },
     {
-      "path": "/.env",
+      "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
       "count": 16
     },
@@ -156,12 +156,12 @@
       "count": 14
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 14
     },
     {
-      "path": "/.git/config",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 14
     },
@@ -242,18 +242,18 @@
       "event_count": 285
     },
     {
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
+      "country": "DE",
+      "ip_count": 23,
+      "event_count": 129
+    },
+    {
       "asn": "AS197556",
       "name": "Kar-Tel LLC",
       "country": "KZ",
       "ip_count": 1,
       "event_count": 124
-    },
-    {
-      "asn": "AS14061",
-      "name": "DigitalOcean, LLC",
-      "country": "DE",
-      "ip_count": 19,
-      "event_count": 116
     },
     {
       "asn": "AS45102",
