@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T03:00:39.630204Z",
+  "generated_at": "2026-09-01T04:02:23.677382Z",
   "period_days": 90,
-  "total_events": 4118,
-  "unique_ips": 241,
+  "total_events": 4770,
+  "unique_ips": 252,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 48,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 16,
-    "bigippot:honeypot-01": 1024,
-    "front:honeypot-01": 3024
+    "bigippot:honeypot-01": 1628,
+    "front:honeypot-01": 3072
   },
   "events_per_day": {
     "2026-08-28": {
@@ -38,16 +38,16 @@
       "total": 1805
     },
     "2026-09-01": {
-      "bigippot:honeypot-01": 34,
-      "front:honeypot-01": 54,
-      "total": 88
+      "bigippot:honeypot-01": 638,
+      "front:honeypot-01": 102,
+      "total": 740
     }
   },
   "top_credentials": [],
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 1325
+      "count": 1365
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -67,8 +67,8 @@
     }
   ],
   "method_counts": {
-    "GET": 3474,
-    "POST": 558,
+    "GET": 4105,
+    "POST": 573,
     "HEAD": 9,
     "OPTIONS": 3,
     "PRI": 2,
@@ -79,25 +79,25 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 202
+      "count": 206
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 71
+      "count": 80
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 36
+      "count": 41
     },
     {
-      "path": "/remote/logincheck",
+      "path": "/remote/login",
       "source": "bigippot:honeypot-01",
       "count": 27
     },
     {
-      "path": "/remote/login",
+      "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
       "count": 27
     },
@@ -112,6 +112,11 @@
       "count": 19
     },
     {
+      "path": "/.env",
+      "source": "front:honeypot-01",
+      "count": 19
+    },
+    {
       "path": "/style.css",
       "source": "front:honeypot-01",
       "count": 18
@@ -122,13 +127,18 @@
       "count": 18
     },
     {
-      "path": "/.env",
-      "source": "front:honeypot-01",
-      "count": 18
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
+      "count": 17
     },
     {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
+      "count": 17
+    },
+    {
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
       "count": 17
     },
     {
@@ -137,22 +147,12 @@
       "count": 16
     },
     {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
-      "count": 16
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
-      "count": 16
-    },
-    {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
       "count": 15
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 14
     },
@@ -162,7 +162,7 @@
       "count": 14
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 14
     },
@@ -179,6 +179,24 @@
   ],
   "cve_attempts": [
     {
+      "cve": "CVE-2020-5902",
+      "count": 4,
+      "sources": [
+        "bigippot:honeypot-01"
+      ],
+      "description": "Remote code execution in the F5 BIG-IP Traffic Management User Interface (TMUI) via authenticated path traversal (..;/). Unauthenticated attackers can create administrative accounts or execute arbitrary system commands. Widely scanned on internet-facing BIG-IP appliances.",
+      "severity": "Critical",
+      "cvss_score": 9.8,
+      "sample_ips": [
+        "34.86.14.228",
+        "34.86.163.64"
+      ],
+      "sample_paths": [
+        "/..;/..;/.aws/credentials",
+        "/..;/..;/.azure/credentials"
+      ]
+    },
+    {
       "cve": "CVE-2024-4577",
       "count": 2,
       "sources": [
@@ -194,23 +212,6 @@
         "/?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
         "/hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input"
       ]
-    },
-    {
-      "cve": "CVE-2020-5902",
-      "count": 2,
-      "sources": [
-        "bigippot:honeypot-01"
-      ],
-      "description": "Remote code execution in the F5 BIG-IP Traffic Management User Interface (TMUI) via authenticated path traversal (..;/). Unauthenticated attackers can create administrative accounts or execute arbitrary system commands. Widely scanned on internet-facing BIG-IP appliances.",
-      "severity": "Critical",
-      "cvss_score": 9.8,
-      "sample_ips": [
-        "34.86.14.228"
-      ],
-      "sample_paths": [
-        "/..;/..;/.aws/credentials",
-        "/..;/..;/.azure/credentials"
-      ]
     }
   ],
   "top_asns": [
@@ -218,36 +219,36 @@
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "US",
-      "ip_count": 11,
-      "event_count": 1085
+      "ip_count": 12,
+      "event_count": 1558
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "SG",
       "ip_count": 25,
-      "event_count": 1034
+      "event_count": 1074
     },
     {
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 9,
-      "event_count": 518
+      "event_count": 520
     },
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "CA",
-      "ip_count": 10,
-      "event_count": 285
+      "country": "US",
+      "ip_count": 11,
+      "event_count": 286
     },
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "DE",
-      "ip_count": 23,
-      "event_count": 129
+      "ip_count": 28,
+      "event_count": 141
     },
     {
       "asn": "AS197556",
@@ -320,18 +321,18 @@
       "event_count": 20
     },
     {
+      "asn": "AS63949",
+      "name": "Akamai Connected Cloud",
+      "country": "IN",
+      "ip_count": 8,
+      "event_count": 17
+    },
+    {
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
       "ip_count": 2,
       "event_count": 16
-    },
-    {
-      "asn": "AS63949",
-      "name": "Akamai Connected Cloud",
-      "country": "US",
-      "ip_count": 7,
-      "event_count": 15
     },
     {
       "asn": "AS202422",
