@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T12:03:29.236693Z",
+  "generated_at": "2026-09-01T13:02:23.705469Z",
   "period_days": 90,
-  "total_events": 4853,
-  "unique_ips": 277,
+  "total_events": 4869,
+  "unique_ips": 283,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,7 +14,7 @@
     "centrestackpot:honeypot-01": 48,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 16,
-    "bigippot:honeypot-01": 1669,
+    "bigippot:honeypot-01": 1685,
     "front:honeypot-01": 3114
   },
   "events_per_day": {
@@ -38,9 +38,9 @@
       "total": 1805
     },
     "2026-09-01": {
-      "bigippot:honeypot-01": 679,
+      "bigippot:honeypot-01": 695,
       "front:honeypot-01": 144,
-      "total": 823
+      "total": 839
     }
   },
   "top_credentials": [],
@@ -67,7 +67,7 @@
     }
   ],
   "method_counts": {
-    "GET": 4173,
+    "GET": 4187,
     "POST": 577,
     "HEAD": 11,
     "PRI": 4,
@@ -84,20 +84,20 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 92
+      "count": 96
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 47
+      "count": 49
     },
     {
-      "path": "/remote/login",
+      "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
       "count": 30
     },
     {
-      "path": "/remote/logincheck",
+      "path": "/remote/login",
       "source": "bigippot:honeypot-01",
       "count": 30
     },
@@ -108,13 +108,18 @@
     },
     {
       "path": "/.env",
-      "source": "front:honeypot-01",
+      "source": "bigippot:honeypot-01",
       "count": 20
     },
     {
       "path": "/.env",
-      "source": "bigippot:honeypot-01",
+      "source": "front:honeypot-01",
       "count": 20
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
+      "count": 19
     },
     {
       "path": "/login",
@@ -124,11 +129,6 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 18
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
       "count": 18
     },
     {
@@ -218,9 +218,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BR",
-      "ip_count": 14,
-      "event_count": 1566
+      "country": "BE",
+      "ip_count": 16,
+      "event_count": 1568
     },
     {
       "asn": "AS8075",
@@ -293,6 +293,13 @@
       "event_count": 32
     },
     {
+      "asn": "AS6939",
+      "name": "Hurricane Electric LLC",
+      "country": "US",
+      "ip_count": 6,
+      "event_count": 29
+    },
+    {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
@@ -346,13 +353,6 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 14,
-      "event_count": 16
-    },
-    {
-      "asn": "AS6939",
-      "name": "Hurricane Electric LLC",
-      "country": "US",
-      "ip_count": 2,
       "event_count": 16
     }
   ]
