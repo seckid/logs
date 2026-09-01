@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T07:04:24.161508Z",
+  "generated_at": "2026-09-01T08:03:09.231570Z",
   "period_days": 90,
-  "total_events": 4801,
-  "unique_ips": 261,
+  "total_events": 4806,
+  "unique_ips": 263,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 48,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 16,
-    "bigippot:honeypot-01": 1638,
-    "front:honeypot-01": 3093
+    "bigippot:honeypot-01": 1639,
+    "front:honeypot-01": 3097
   },
   "events_per_day": {
     "2026-08-28": {
@@ -38,9 +38,9 @@
       "total": 1805
     },
     "2026-09-01": {
-      "bigippot:honeypot-01": 648,
-      "front:honeypot-01": 123,
-      "total": 771
+      "bigippot:honeypot-01": 649,
+      "front:honeypot-01": 127,
+      "total": 776
     }
   },
   "top_credentials": [],
@@ -67,7 +67,7 @@
     }
   ],
   "method_counts": {
-    "GET": 4133,
+    "GET": 4138,
     "POST": 575,
     "HEAD": 10,
     "OPTIONS": 3,
@@ -79,7 +79,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 208
+      "count": 210
     },
     {
       "path": "/",
@@ -107,6 +107,11 @@
       "count": 20
     },
     {
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
+      "count": 20
+    },
+    {
       "path": "/login",
       "source": "front:honeypot-01",
       "count": 19
@@ -114,11 +119,6 @@
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 19
-    },
-    {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
       "count": 19
     },
     {
@@ -147,14 +147,14 @@
       "count": 16
     },
     {
-      "path": "/.git/config",
+      "path": "/robots.txt",
       "source": "front:honeypot-01",
       "count": 16
     },
     {
-      "path": "/robots.txt",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 15
+      "count": 16
     },
     {
       "path": "/blog/wp-json/batch/v1",
@@ -297,7 +297,7 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 28
+      "event_count": 29
     },
     {
       "asn": "AS211298",
