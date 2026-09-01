@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T14:00:19.196018Z",
+  "generated_at": "2026-09-01T15:03:59.197884Z",
   "period_days": 90,
-  "total_events": 4881,
-  "unique_ips": 287,
+  "total_events": 4981,
+  "unique_ips": 291,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 48,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 16,
-    "bigippot:honeypot-01": 1697,
-    "front:honeypot-01": 3114
+    "bigippot:honeypot-01": 1703,
+    "front:honeypot-01": 3208
   },
   "events_per_day": {
     "2026-08-28": {
@@ -38,16 +38,16 @@
       "total": 1805
     },
     "2026-09-01": {
-      "bigippot:honeypot-01": 707,
-      "front:honeypot-01": 144,
-      "total": 851
+      "bigippot:honeypot-01": 713,
+      "front:honeypot-01": 238,
+      "total": 951
     }
   },
   "top_credentials": [],
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 1371
+      "count": 1466
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -67,8 +67,8 @@
     }
   ],
   "method_counts": {
-    "GET": 4196,
-    "POST": 578,
+    "GET": 4295,
+    "POST": 579,
     "HEAD": 12,
     "PRI": 4,
     "OPTIONS": 3,
@@ -79,22 +79,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 214
+      "count": 215
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 99
+      "count": 102
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 51
-    },
-    {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
-      "count": 31
+      "count": 52
     },
     {
       "path": "/remote/login",
@@ -102,9 +97,9 @@
       "count": 31
     },
     {
-      "path": "/favicon.ico",
+      "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 21
+      "count": 31
     },
     {
       "path": "/favicon.ico",
@@ -112,13 +107,18 @@
       "count": 21
     },
     {
-      "path": "/.env",
+      "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
+      "count": 21
+    },
+    {
+      "path": "/.env",
+      "source": "front:honeypot-01",
       "count": 20
     },
     {
       "path": "/.env",
-      "source": "front:honeypot-01",
+      "source": "bigippot:honeypot-01",
       "count": 20
     },
     {
@@ -127,17 +127,17 @@
       "count": 19
     },
     {
+      "path": "/style.css",
+      "source": "front:honeypot-01",
+      "count": 18
+    },
+    {
       "path": "/signup",
       "source": "front:honeypot-01",
       "count": 18
     },
     {
       "path": "/robots.txt",
-      "source": "front:honeypot-01",
-      "count": 18
-    },
-    {
-      "path": "/style.css",
       "source": "front:honeypot-01",
       "count": 18
     },
@@ -157,12 +157,12 @@
       "count": 16
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 14
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 14
     },
@@ -218,16 +218,16 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
-      "ip_count": 16,
-      "event_count": 1568
+      "country": "IN",
+      "ip_count": 17,
+      "event_count": 1570
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
       "ip_count": 27,
-      "event_count": 1077
+      "event_count": 1171
     },
     {
       "asn": "AS48090",
@@ -349,10 +349,10 @@
       "event_count": 18
     },
     {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 14,
+      "asn": "AS211680",
+      "name": "NSEC - Sistemas Informaticos, S.A.",
+      "country": "NL",
+      "ip_count": 7,
       "event_count": 16
     }
   ]
