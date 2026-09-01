@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T17:04:16.459725Z",
+  "generated_at": "2026-09-01T18:04:17.796428Z",
   "period_days": 90,
-  "total_events": 5146,
-  "unique_ips": 297,
+  "total_events": 5163,
+  "unique_ips": 300,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 48,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 30,
-    "bigippot:honeypot-01": 1844,
-    "front:honeypot-01": 3218
+    "bigippot:honeypot-01": 1859,
+    "front:honeypot-01": 3220
   },
   "events_per_day": {
     "2026-08-28": {
@@ -39,9 +39,9 @@
     },
     "2026-09-01": {
       "fortipot:honeypot-01": 14,
-      "bigippot:honeypot-01": 854,
-      "front:honeypot-01": 248,
-      "total": 1116
+      "bigippot:honeypot-01": 869,
+      "front:honeypot-01": 250,
+      "total": 1133
     }
   },
   "top_credentials": [],
@@ -68,10 +68,10 @@
     }
   ],
   "method_counts": {
-    "GET": 4453,
-    "POST": 582,
+    "GET": 4465,
+    "POST": 584,
     "HEAD": 12,
-    "PRI": 4,
+    "PRI": 5,
     "OPTIONS": 3,
     "T3": 2,
     "PROPFIND": 2
@@ -80,27 +80,32 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 218
+      "count": 219
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 106
+      "count": 109
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 52
-    },
-    {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
-      "count": 32
+      "count": 53
     },
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 32
+      "count": 34
+    },
+    {
+      "path": "/remote/logincheck",
+      "source": "bigippot:honeypot-01",
+      "count": 34
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
+      "count": 23
     },
     {
       "path": "/.env",
@@ -111,11 +116,6 @@
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
       "count": 22
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
-      "count": 21
     },
     {
       "path": "/.env",
@@ -128,12 +128,17 @@
       "count": 20
     },
     {
-      "path": "/logo.svg",
+      "path": "/login",
       "source": "front:honeypot-01",
       "count": 19
     },
     {
-      "path": "/login",
+      "path": "/robots.txt",
+      "source": "front:honeypot-01",
+      "count": 19
+    },
+    {
+      "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 19
     },
@@ -143,17 +148,12 @@
       "count": 18
     },
     {
-      "path": "/robots.txt",
-      "source": "front:honeypot-01",
-      "count": 18
-    },
-    {
-      "path": "/wp-json/batch/v1",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 16
     },
     {
-      "path": "/.git/config",
+      "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 16
     },
@@ -235,7 +235,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 9,
-      "event_count": 520
+      "event_count": 521
     },
     {
       "asn": "AS16509",
@@ -259,18 +259,18 @@
       "event_count": 124
     },
     {
+      "asn": "AS43350",
+      "name": "NForce Entertainment B.V.",
+      "country": "NL",
+      "ip_count": 1,
+      "event_count": 64
+    },
+    {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
       "country": "SG",
       "ip_count": 7,
       "event_count": 63
-    },
-    {
-      "asn": "AS43350",
-      "name": "NForce Entertainment B.V.",
-      "country": "NL",
-      "ip_count": 1,
-      "event_count": 60
     },
     {
       "asn": "AS215540",
@@ -315,6 +315,13 @@
       "event_count": 29
     },
     {
+      "asn": "AS398324",
+      "name": "Censys, Inc.",
+      "country": "US",
+      "ip_count": 5,
+      "event_count": 26
+    },
+    {
       "asn": "AS63949",
       "name": "Akamai Connected Cloud",
       "country": "US",
@@ -334,13 +341,6 @@
       "country": "GR",
       "ip_count": 1,
       "event_count": 21
-    },
-    {
-      "asn": "AS398324",
-      "name": "Censys, Inc.",
-      "country": "US",
-      "ip_count": 4,
-      "event_count": 20
     },
     {
       "asn": "AS202422",
