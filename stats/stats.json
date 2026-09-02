@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T01:01:23.691374Z",
+  "generated_at": "2026-09-02T02:03:29.325652Z",
   "period_days": 90,
-  "total_events": 5560,
-  "unique_ips": 326,
+  "total_events": 5835,
+  "unique_ips": 327,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 48,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 31,
-    "bigippot:honeypot-01": 1941,
-    "front:honeypot-01": 3534
+    "bigippot:honeypot-01": 1943,
+    "front:honeypot-01": 3807
   },
   "events_per_day": {
     "2026-08-28": {
@@ -44,9 +44,9 @@
       "total": 1514
     },
     "2026-09-02": {
-      "front:honeypot-01": 2,
-      "bigippot:honeypot-01": 14,
-      "total": 16
+      "front:honeypot-01": 275,
+      "bigippot:honeypot-01": 16,
+      "total": 291
     }
   },
   "top_credentials": [],
@@ -57,7 +57,11 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 566
+      "count": 567
+    },
+    {
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 548
     },
     {
       "user_agent": "Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com)",
@@ -66,14 +70,10 @@
     {
       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "count": 281
-    },
-    {
-      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 276
     }
   ],
   "method_counts": {
-    "GET": 4835,
+    "GET": 5110,
     "POST": 601,
     "HEAD": 13,
     "PRI": 5,
@@ -85,7 +85,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 232
+      "count": 234
     },
     {
       "path": "/",
@@ -125,17 +125,12 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 22
+      "count": 23
     },
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
       "count": 20
-    },
-    {
-      "path": "/login",
-      "source": "front:honeypot-01",
-      "count": 19
     },
     {
       "path": "/robots.txt",
@@ -148,14 +143,19 @@
       "count": 19
     },
     {
-      "path": "/signup",
+      "path": "/login",
       "source": "front:honeypot-01",
-      "count": 18
+      "count": 19
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 17
+      "count": 18
+    },
+    {
+      "path": "/signup",
+      "source": "front:honeypot-01",
+      "count": 18
     },
     {
       "path": "/wp-json/batch/v1",
@@ -163,9 +163,9 @@
       "count": 16
     },
     {
-      "path": "/blog/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 14
+      "path": "/.git/config",
+      "source": "bigippot:honeypot-01",
+      "count": 15
     },
     {
       "path": "/wordpress/wp-json/batch/v1",
@@ -173,9 +173,9 @@
       "count": 14
     },
     {
-      "path": "/.git/config",
-      "source": "bigippot:honeypot-01",
-      "count": 13
+      "path": "/blog/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 14
     },
     {
       "path": "/robots.txt",
@@ -224,9 +224,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
-      "ip_count": 20,
-      "event_count": 1850
+      "country": "JP",
+      "ip_count": 21,
+      "event_count": 2123
     },
     {
       "asn": "AS8075",
@@ -303,7 +303,7 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 35
+      "event_count": 37
     },
     {
       "asn": "AS398324",
