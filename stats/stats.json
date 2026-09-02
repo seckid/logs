@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T10:03:09.327514Z",
+  "generated_at": "2026-09-02T11:02:55.492487Z",
   "period_days": 90,
-  "total_events": 6107,
-  "unique_ips": 357,
+  "total_events": 6117,
+  "unique_ips": 358,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 48,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 39,
-    "bigippot:honeypot-01": 2170,
-    "front:honeypot-01": 3844
+    "bigippot:honeypot-01": 2171,
+    "front:honeypot-01": 3853
   },
   "events_per_day": {
     "2026-08-28": {
@@ -44,10 +44,10 @@
       "total": 1514
     },
     "2026-09-02": {
-      "front:honeypot-01": 312,
-      "bigippot:honeypot-01": 243,
+      "front:honeypot-01": 321,
+      "bigippot:honeypot-01": 244,
       "fortipot:honeypot-01": 8,
-      "total": 563
+      "total": 573
     }
   },
   "top_credentials": [],
@@ -74,9 +74,9 @@
     }
   ],
   "method_counts": {
-    "GET": 5366,
+    "GET": 5375,
     "POST": 605,
-    "HEAD": 14,
+    "HEAD": 15,
     "PRI": 5,
     "OPTIONS": 3,
     "T3": 2,
@@ -86,12 +86,12 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 243
+      "count": 246
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 137
+      "count": 138
     },
     {
       "path": "/tmui/login.jsp",
@@ -110,13 +110,13 @@
     },
     {
       "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
-      "count": 30
+      "source": "front:honeypot-01",
+      "count": 31
     },
     {
       "path": "/favicon.ico",
-      "source": "front:honeypot-01",
-      "count": 29
+      "source": "bigippot:honeypot-01",
+      "count": 30
     },
     {
       "path": "/.env",
@@ -139,22 +139,22 @@
       "count": 20
     },
     {
-      "path": "/login",
-      "source": "front:honeypot-01",
-      "count": 19
-    },
-    {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 19
     },
     {
-      "path": "/.git/config",
+      "path": "/login",
+      "source": "front:honeypot-01",
+      "count": 19
+    },
+    {
+      "path": "/signup",
       "source": "front:honeypot-01",
       "count": 18
     },
     {
-      "path": "/signup",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 18
     },
@@ -283,7 +283,7 @@
       "name": "CETIN Bulgaria EAD",
       "country": "BG",
       "ip_count": 2,
-      "event_count": 67
+      "event_count": 75
     },
     {
       "asn": "AS45102",
@@ -352,8 +352,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 19,
-      "event_count": 22
+      "ip_count": 20,
+      "event_count": 23
     },
     {
       "asn": "AS14593",
