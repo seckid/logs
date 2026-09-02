@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T22:00:07.170608Z",
+  "generated_at": "2026-09-02T23:04:18.689385Z",
   "period_days": 90,
-  "total_events": 7460,
-  "unique_ips": 398,
+  "total_events": 7517,
+  "unique_ips": 399,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 98,
-    "bigippot:honeypot-01": 2789,
-    "front:honeypot-01": 4433
+    "bigippot:honeypot-01": 2845,
+    "front:honeypot-01": 4434
   },
   "events_per_day": {
     "2026-08-28": {
@@ -47,12 +47,12 @@
     },
     "2026-09-02": {
       "centrestackpot:honeypot-01": 72,
-      "bigippot:honeypot-01": 862,
-      "front:honeypot-01": 901,
+      "bigippot:honeypot-01": 918,
+      "front:honeypot-01": 902,
       "ivantipot:honeypot-01": 8,
       "fortipot:honeypot-01": 67,
       "sharepointpot:honeypot-01": 6,
-      "total": 1916
+      "total": 1973
     }
   },
   "top_credentials": [
@@ -105,8 +105,8 @@
     }
   ],
   "method_counts": {
-    "GET": 6220,
-    "POST": 1095,
+    "GET": 6266,
+    "POST": 1105,
     "HEAD": 15,
     "PRI": 5,
     "OPTIONS": 3,
@@ -119,7 +119,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 308
+      "count": 309
     },
     {
       "path": "/",
@@ -134,17 +134,22 @@
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 57
+      "count": 60
     },
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 57
+      "count": 60
     },
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
       "count": 33
+    },
+    {
+      "path": "/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 32
     },
     {
       "path": "/favicon.ico",
@@ -157,9 +162,9 @@
       "count": 32
     },
     {
-      "path": "/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
-      "count": 32
+      "count": 28
     },
     {
       "path": "/api/auth/signin",
@@ -172,18 +177,13 @@
       "count": 28
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 28
-    },
-    {
       "path": "/.env",
-      "source": "front:honeypot-01",
+      "source": "bigippot:honeypot-01",
       "count": 27
     },
     {
       "path": "/.env",
-      "source": "bigippot:honeypot-01",
+      "source": "front:honeypot-01",
       "count": 27
     },
     {
@@ -212,12 +212,53 @@
       "count": 22
     },
     {
-      "path": "/?rest_route=/batch/v1",
+      "path": "/signin",
       "source": "front:honeypot-01",
       "count": 20
     }
   ],
   "cve_attempts": [
+    {
+      "cve": "CVE-2017-9841",
+      "count": 37,
+      "sources": [
+        "bigippot:honeypot-01"
+      ],
+      "description": "Remote code execution via PHPUnit's eval-stdin.php when left deployed in web-accessible vendor directories. Often probed alongside CVE-2024-4577 spray (Hello PHPUnit fingerprint).",
+      "severity": "Critical",
+      "cvss_score": 9.8,
+      "sample_ips": [
+        "168.144.80.239"
+      ],
+      "sample_paths": [
+        "/phpunit/Util/PHP/eval-stdin.php",
+        "/phpunit/phpunit/Util/PHP/eval-stdin.php",
+        "/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+        "/phpunit/src/Util/PHP/eval-stdin.php",
+        "/vendor/phpunit/Util/PHP/eval-stdin.php"
+      ]
+    },
+    {
+      "cve": "CVE-2024-4577",
+      "count": 16,
+      "sources": [
+        "bigippot:honeypot-01"
+      ],
+      "description": "Critical argument injection in PHP running as CGI on Windows. Attackers smuggle -d directives (allow_url_include, auto_prepend_file=php://input) via soft-hyphen (%AD) encoding that bypasses CVE-2012-1823 mitigations. Unauthenticated RCE when php-cgi.exe is exposed. Actively exploited by RedTail cryptominer (libredtail-http).",
+      "severity": "Critical",
+      "cvss_score": 9.8,
+      "sample_ips": [
+        "168.144.80.239",
+        "31.132.90.3"
+      ],
+      "sample_paths": [
+        "/?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
+        "/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
+        "/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh",
+        "/hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
+        "/index.php?%25ADd+allow_url_include%3D1+%25ADd+auto_prepend_file%3Dphp://input"
+      ]
+    },
     {
       "cve": "CVE-2020-5902",
       "count": 6,
@@ -235,23 +276,6 @@
       "sample_paths": [
         "/..;/..;/.aws/credentials",
         "/..;/..;/.azure/credentials"
-      ]
-    },
-    {
-      "cve": "CVE-2024-4577",
-      "count": 2,
-      "sources": [
-        "bigippot:honeypot-01"
-      ],
-      "description": "Critical argument injection in PHP running as CGI on Windows. Attackers smuggle -d directives (allow_url_include, auto_prepend_file=php://input) via soft-hyphen (%AD) encoding that bypasses CVE-2012-1823 mitigations. Unauthenticated RCE when php-cgi.exe is exposed. Actively exploited by RedTail cryptominer (libredtail-http).",
-      "severity": "Critical",
-      "cvss_score": 9.8,
-      "sample_ips": [
-        "31.132.90.3"
-      ],
-      "sample_paths": [
-        "/?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
-        "/hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input"
       ]
     }
   ],
@@ -294,9 +318,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 38,
-      "event_count": 162
+      "country": "IN",
+      "ip_count": 39,
+      "event_count": 211
     },
     {
       "asn": "AS208137",
@@ -317,7 +341,7 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 108
+      "event_count": 113
     },
     {
       "asn": "AS29244",
@@ -387,7 +411,7 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 23,
-      "event_count": 29
+      "event_count": 30
     },
     {
       "asn": "AS63949",
