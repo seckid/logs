@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T19:04:13.741223Z",
+  "generated_at": "2026-09-02T20:00:23.798720Z",
   "period_days": 90,
-  "total_events": 6859,
-  "unique_ips": 386,
+  "total_events": 6871,
+  "unique_ips": 392,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 98,
-    "bigippot:honeypot-01": 2195,
-    "front:honeypot-01": 4426
+    "bigippot:honeypot-01": 2204,
+    "front:honeypot-01": 4429
   },
   "events_per_day": {
     "2026-08-28": {
@@ -47,18 +47,23 @@
     },
     "2026-09-02": {
       "centrestackpot:honeypot-01": 72,
-      "bigippot:honeypot-01": 268,
-      "front:honeypot-01": 894,
+      "bigippot:honeypot-01": 277,
+      "front:honeypot-01": 897,
       "ivantipot:honeypot-01": 8,
       "fortipot:honeypot-01": 67,
       "sharepointpot:honeypot-01": 6,
-      "total": 1315
+      "total": 1327
     }
   },
   "top_credentials": [
     {
       "username": "admin",
       "password": "admin",
+      "count": 2
+    },
+    {
+      "username": "(empty)",
+      "password": "Deft2731",
       "count": 2
     },
     {
@@ -80,7 +85,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 1809
+      "count": 1810
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -91,17 +96,17 @@
       "count": 548
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0",
+      "user_agent": "Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com)",
       "count": 285
     },
     {
-      "user_agent": "Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com)",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0",
       "count": 285
     }
   ],
   "method_counts": {
-    "GET": 5644,
-    "POST": 1073,
+    "GET": 5650,
+    "POST": 1077,
     "HEAD": 15,
     "PRI": 5,
     "OPTIONS": 3,
@@ -119,22 +124,27 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 148
+      "count": 150
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 75
+      "count": 77
     },
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 50
+      "count": 51
     },
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 50
+      "count": 51
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
+      "count": 33
     },
     {
       "path": "/favicon.ico",
@@ -149,11 +159,6 @@
     {
       "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
-      "count": 32
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
       "count": 32
     },
     {
@@ -307,17 +312,17 @@
       "event_count": 124
     },
     {
-      "asn": "AS29244",
-      "name": "CETIN Bulgaria EAD",
-      "country": "BG",
-      "ip_count": 3,
-      "event_count": 94
-    },
-    {
       "asn": "AS43350",
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
+      "event_count": 96
+    },
+    {
+      "asn": "AS29244",
+      "name": "CETIN Bulgaria EAD",
+      "country": "BG",
+      "ip_count": 3,
       "event_count": 94
     },
     {
