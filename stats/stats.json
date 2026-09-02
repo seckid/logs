@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T13:02:18.522798Z",
+  "generated_at": "2026-09-02T14:04:59.520860Z",
   "period_days": 90,
-  "total_events": 6782,
-  "unique_ips": 366,
+  "total_events": 6788,
+  "unique_ips": 367,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -12,12 +12,12 @@
     "sharepointpot:honeypot-01"
   ],
   "totals_by_source": {
-    "ivantipot:honeypot-01": 4,
+    "ivantipot:honeypot-01": 8,
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 92,
-    "bigippot:honeypot-01": 2171,
-    "front:honeypot-01": 4383
+    "bigippot:honeypot-01": 2172,
+    "front:honeypot-01": 4384
   },
   "events_per_day": {
     "2026-08-28": {
@@ -47,12 +47,12 @@
     },
     "2026-09-02": {
       "centrestackpot:honeypot-01": 72,
-      "bigippot:honeypot-01": 244,
-      "front:honeypot-01": 851,
-      "ivantipot:honeypot-01": 4,
+      "bigippot:honeypot-01": 245,
+      "front:honeypot-01": 852,
+      "ivantipot:honeypot-01": 8,
       "fortipot:honeypot-01": 61,
       "sharepointpot:honeypot-01": 6,
-      "total": 1238
+      "total": 1244
     }
   },
   "top_credentials": [
@@ -69,6 +69,11 @@
     {
       "username": "admin",
       "password": "passwordtwo",
+      "count": 1
+    },
+    {
+      "username": "testing",
+      "password": "logs",
       "count": 1
     }
   ],
@@ -95,20 +100,21 @@
     }
   ],
   "method_counts": {
-    "GET": 5578,
-    "POST": 1065,
+    "GET": 5582,
+    "POST": 1066,
     "HEAD": 15,
     "PRI": 5,
     "OPTIONS": 3,
     "T3": 2,
     "HEARTBEAT": 2,
-    "PROPFIND": 2
+    "PROPFIND": 2,
+    "SSTP_DUPLEX_POST": 1
   },
   "top_paths": [
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 290
+      "count": 291
     },
     {
       "path": "/",
@@ -121,22 +127,22 @@
       "count": 69
     },
     {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
-      "count": 50
-    },
-    {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
       "count": 50
     },
     {
-      "path": "/wp-json/batch/v1",
+      "path": "/remote/logincheck",
+      "source": "bigippot:honeypot-01",
+      "count": 50
+    },
+    {
+      "path": "/signup",
       "source": "front:honeypot-01",
       "count": 32
     },
     {
-      "path": "/signup",
+      "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 32
     },
@@ -151,7 +157,7 @@
       "count": 30
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -161,7 +167,7 @@
       "count": 28
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -186,22 +192,22 @@
       "count": 23
     },
     {
-      "path": "/style.css",
-      "source": "front:honeypot-01",
-      "count": 22
-    },
-    {
       "path": "/login",
       "source": "front:honeypot-01",
       "count": 22
     },
     {
-      "path": "/?rest_route=/batch/v1",
+      "path": "/style.css",
+      "source": "front:honeypot-01",
+      "count": 22
+    },
+    {
+      "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 20
     },
     {
-      "path": "/auth/callback",
+      "path": "/?rest_route=/batch/v1",
       "source": "front:honeypot-01",
       "count": 20
     }
@@ -298,9 +304,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 33,
-      "event_count": 153
+      "country": "NL",
+      "ip_count": 34,
+      "event_count": 154
     },
     {
       "asn": "AS208137",
