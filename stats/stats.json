@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T04:04:24.385025Z",
+  "generated_at": "2026-09-02T05:02:29.379514Z",
   "period_days": 90,
-  "total_events": 6019,
-  "unique_ips": 332,
+  "total_events": 6034,
+  "unique_ips": 334,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,7 +14,7 @@
     "centrestackpot:honeypot-01": 48,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 39,
-    "bigippot:honeypot-01": 2116,
+    "bigippot:honeypot-01": 2131,
     "front:honeypot-01": 3810
   },
   "events_per_day": {
@@ -45,9 +45,9 @@
     },
     "2026-09-02": {
       "front:honeypot-01": 278,
-      "bigippot:honeypot-01": 189,
+      "bigippot:honeypot-01": 204,
       "fortipot:honeypot-01": 8,
-      "total": 475
+      "total": 490
     }
   },
   "top_credentials": [],
@@ -74,8 +74,8 @@
     }
   ],
   "method_counts": {
-    "GET": 5291,
-    "POST": 603,
+    "GET": 5302,
+    "POST": 605,
     "HEAD": 13,
     "PRI": 5,
     "OPTIONS": 3,
@@ -91,20 +91,20 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 126
+      "count": 128
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 61
+      "count": 64
     },
     {
-      "path": "/remote/logincheck",
+      "path": "/remote/login",
       "source": "bigippot:honeypot-01",
       "count": 50
     },
     {
-      "path": "/remote/login",
+      "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
       "count": 50
     },
@@ -134,17 +134,17 @@
       "count": 20
     },
     {
-      "path": "/logo.svg",
-      "source": "front:honeypot-01",
-      "count": 19
-    },
-    {
       "path": "/login",
       "source": "front:honeypot-01",
       "count": 19
     },
     {
       "path": "/robots.txt",
+      "source": "front:honeypot-01",
+      "count": 19
+    },
+    {
+      "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 19
     },
@@ -169,12 +169,12 @@
       "count": 15
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 14
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 14
     },
@@ -246,9 +246,9 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 13,
-      "event_count": 296
+      "country": "SG",
+      "ip_count": 14,
+      "event_count": 298
     },
     {
       "asn": "AS14061",
