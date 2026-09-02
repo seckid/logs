@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T00:04:23.790893Z",
+  "generated_at": "2026-09-02T01:01:23.691374Z",
   "period_days": 90,
-  "total_events": 5544,
-  "unique_ips": 317,
+  "total_events": 5560,
+  "unique_ips": 326,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 48,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 31,
-    "bigippot:honeypot-01": 1927,
-    "front:honeypot-01": 3532
+    "bigippot:honeypot-01": 1941,
+    "front:honeypot-01": 3534
   },
   "events_per_day": {
     "2026-08-28": {
@@ -24,24 +24,29 @@
       "total": 856
     },
     "2026-08-30": {
-      "front:honeypot-01": 616,
-      "fortipot:honeypot-01": 8,
       "bigippot:honeypot-01": 745,
+      "fortipot:honeypot-01": 8,
+      "front:honeypot-01": 616,
       "total": 1369
     },
     "2026-08-31": {
-      "centrestackpot:honeypot-01": 48,
-      "sharepointpot:honeypot-01": 6,
-      "fortipot:honeypot-01": 8,
       "bigippot:honeypot-01": 211,
+      "fortipot:honeypot-01": 8,
+      "sharepointpot:honeypot-01": 6,
+      "centrestackpot:honeypot-01": 48,
       "front:honeypot-01": 1532,
       "total": 1805
     },
     "2026-09-01": {
-      "fortipot:honeypot-01": 15,
-      "bigippot:honeypot-01": 937,
       "front:honeypot-01": 562,
+      "bigippot:honeypot-01": 937,
+      "fortipot:honeypot-01": 15,
       "total": 1514
+    },
+    "2026-09-02": {
+      "front:honeypot-01": 2,
+      "bigippot:honeypot-01": 14,
+      "total": 16
     }
   },
   "top_credentials": [],
@@ -68,8 +73,8 @@
     }
   ],
   "method_counts": {
-    "GET": 4822,
-    "POST": 599,
+    "GET": 4835,
+    "POST": 601,
     "HEAD": 13,
     "PRI": 5,
     "OPTIONS": 3,
@@ -80,42 +85,42 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 231
+      "count": 232
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 122
+      "count": 124
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 58
+      "count": 60
     },
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 48
+      "count": 50
     },
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 48
+      "count": 50
     },
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 25
+      "count": 27
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "front:honeypot-01",
+      "count": 24
     },
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
       "count": 24
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "front:honeypot-01",
-      "count": 23
     },
     {
       "path": "/.env",
@@ -168,12 +173,12 @@
       "count": 14
     },
     {
-      "path": "/robots.txt",
+      "path": "/.git/config",
       "source": "bigippot:honeypot-01",
-      "count": 12
+      "count": 13
     },
     {
-      "path": "/.git/config",
+      "path": "/robots.txt",
       "source": "bigippot:honeypot-01",
       "count": 12
     }
@@ -227,8 +232,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 28,
-      "event_count": 1172
+      "ip_count": 30,
+      "event_count": 1174
     },
     {
       "asn": "AS48090",
@@ -247,9 +252,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "DE",
-      "ip_count": 30,
-      "event_count": 148
+      "country": "US",
+      "ip_count": 31,
+      "event_count": 150
     },
     {
       "asn": "AS197556",
@@ -263,7 +268,7 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 90
+      "event_count": 94
     },
     {
       "asn": "AS45102",
@@ -298,7 +303,7 @@
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 34
+      "event_count": 35
     },
     {
       "asn": "AS398324",
@@ -339,8 +344,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 18,
-      "event_count": 21
+      "ip_count": 19,
+      "event_count": 22
     },
     {
       "asn": "AS14593",
