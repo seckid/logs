@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T03:01:19.366718Z",
+  "generated_at": "2026-09-02T04:04:24.385025Z",
   "period_days": 90,
-  "total_events": 5850,
-  "unique_ips": 330,
+  "total_events": 6019,
+  "unique_ips": 332,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,8 +14,8 @@
     "centrestackpot:honeypot-01": 48,
     "sharepointpot:honeypot-01": 6,
     "fortipot:honeypot-01": 39,
-    "bigippot:honeypot-01": 1948,
-    "front:honeypot-01": 3809
+    "bigippot:honeypot-01": 2116,
+    "front:honeypot-01": 3810
   },
   "events_per_day": {
     "2026-08-28": {
@@ -44,10 +44,10 @@
       "total": 1514
     },
     "2026-09-02": {
-      "front:honeypot-01": 277,
-      "bigippot:honeypot-01": 21,
+      "front:honeypot-01": 278,
+      "bigippot:honeypot-01": 189,
       "fortipot:honeypot-01": 8,
-      "total": 306
+      "total": 475
     }
   },
   "top_credentials": [],
@@ -74,7 +74,7 @@
     }
   ],
   "method_counts": {
-    "GET": 5122,
+    "GET": 5291,
     "POST": 603,
     "HEAD": 13,
     "PRI": 5,
@@ -91,7 +91,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 125
+      "count": 126
     },
     {
       "path": "/tmui/login.jsp",
@@ -116,7 +116,7 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 25
+      "count": 26
     },
     {
       "path": "/favicon.ico",
@@ -134,17 +134,17 @@
       "count": 20
     },
     {
-      "path": "/robots.txt",
-      "source": "front:honeypot-01",
-      "count": 19
-    },
-    {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 19
     },
     {
       "path": "/login",
+      "source": "front:honeypot-01",
+      "count": 19
+    },
+    {
+      "path": "/robots.txt",
       "source": "front:honeypot-01",
       "count": 19
     },
@@ -179,8 +179,8 @@
       "count": 14
     },
     {
-      "path": "/robots.txt",
-      "source": "bigippot:honeypot-01",
+      "path": "/dashboard",
+      "source": "front:honeypot-01",
       "count": 12
     }
   ],
@@ -240,8 +240,8 @@
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "ip_count": 11,
-      "event_count": 525
+      "ip_count": 12,
+      "event_count": 526
     },
     {
       "asn": "AS16509",
@@ -256,6 +256,13 @@
       "country": "US",
       "ip_count": 31,
       "event_count": 150
+    },
+    {
+      "asn": "AS208137",
+      "name": "Feo Prest SRL",
+      "country": "DE",
+      "ip_count": 1,
+      "event_count": 130
     },
     {
       "asn": "AS197556",
@@ -354,13 +361,6 @@
       "country": "GR",
       "ip_count": 1,
       "event_count": 21
-    },
-    {
-      "asn": "AS197769",
-      "name": "VPS Dedicated LLC",
-      "country": "SI",
-      "ip_count": 2,
-      "event_count": 19
     }
   ]
 }
