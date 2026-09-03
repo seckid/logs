@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T07:01:08.663835Z",
+  "generated_at": "2026-09-03T08:04:29.278360Z",
   "period_days": 90,
-  "total_events": 7817,
-  "unique_ips": 431,
+  "total_events": 7828,
+  "unique_ips": 434,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 98,
-    "bigippot:honeypot-01": 3137,
-    "front:honeypot-01": 4442
+    "bigippot:honeypot-01": 3141,
+    "front:honeypot-01": 4449
   },
   "events_per_day": {
     "2026-08-28": {
@@ -55,9 +55,9 @@
       "total": 2030
     },
     "2026-09-03": {
-      "front:honeypot-01": 7,
-      "bigippot:honeypot-01": 236,
-      "total": 243
+      "front:honeypot-01": 14,
+      "bigippot:honeypot-01": 240,
+      "total": 254
     }
   },
   "top_credentials": [
@@ -94,7 +94,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 571
+      "count": 574
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -105,13 +105,13 @@
       "count": 396
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0",
+      "user_agent": "Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com)",
       "count": 285
     }
   ],
   "method_counts": {
-    "GET": 6506,
-    "POST": 1154,
+    "GET": 6513,
+    "POST": 1156,
     "HEAD": 15,
     "PRI": 6,
     "OPTIONS": 3,
@@ -124,7 +124,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 312
+      "count": 315
     },
     {
       "path": "/",
@@ -139,12 +139,12 @@
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 81
+      "count": 82
     },
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 81
+      "count": 82
     },
     {
       "path": "/favicon.ico",
@@ -157,22 +157,22 @@
       "count": 32
     },
     {
-      "path": "/favicon.ico",
+      "path": "/signup",
       "source": "front:honeypot-01",
       "count": 32
     },
     {
-      "path": "/signup",
+      "path": "/favicon.ico",
       "source": "front:honeypot-01",
       "count": 32
     },
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 29
+      "count": 30
     },
     {
-      "path": "/api/auth/signin",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -182,7 +182,7 @@
       "count": 28
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/api/auth/signin",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -192,12 +192,12 @@
       "count": 27
     },
     {
-      "path": "/robots.txt",
+      "path": "/account",
       "source": "front:honeypot-01",
       "count": 25
     },
     {
-      "path": "/account",
+      "path": "/robots.txt",
       "source": "front:honeypot-01",
       "count": 25
     },
@@ -304,7 +304,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "ip_count": 39,
-      "event_count": 1185
+      "event_count": 1188
     },
     {
       "asn": "AS48090",
@@ -325,7 +325,7 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 17,
-      "event_count": 312
+      "event_count": 313
     },
     {
       "asn": "AS14061",
@@ -339,7 +339,7 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 153
+      "event_count": 155
     },
     {
       "asn": "AS208137",
@@ -426,10 +426,10 @@
       "event_count": 40
     },
     {
-      "asn": "AS398324",
-      "name": "Censys, Inc.",
-      "country": "US",
-      "ip_count": 7,
+      "asn": "AS63949",
+      "name": "Akamai Connected Cloud",
+      "country": "DE",
+      "ip_count": 15,
       "event_count": 37
     }
   ]
