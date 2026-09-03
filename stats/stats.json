@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T06:02:39.615470Z",
+  "generated_at": "2026-09-03T07:01:08.663835Z",
   "period_days": 90,
-  "total_events": 7795,
-  "unique_ips": 424,
+  "total_events": 7817,
+  "unique_ips": 431,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 98,
-    "bigippot:honeypot-01": 3118,
-    "front:honeypot-01": 4439
+    "bigippot:honeypot-01": 3137,
+    "front:honeypot-01": 4442
   },
   "events_per_day": {
     "2026-08-28": {
@@ -55,9 +55,9 @@
       "total": 2030
     },
     "2026-09-03": {
-      "front:honeypot-01": 4,
-      "bigippot:honeypot-01": 217,
-      "total": 221
+      "front:honeypot-01": 7,
+      "bigippot:honeypot-01": 236,
+      "total": 243
     }
   },
   "top_credentials": [
@@ -105,13 +105,13 @@
       "count": 396
     },
     {
-      "user_agent": "Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com)",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0",
       "count": 285
     }
   ],
   "method_counts": {
-    "GET": 6488,
-    "POST": 1150,
+    "GET": 6506,
+    "POST": 1154,
     "HEAD": 15,
     "PRI": 6,
     "OPTIONS": 3,
@@ -124,32 +124,37 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 311
+      "count": 312
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 166
+      "count": 169
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 89
-    },
-    {
-      "path": "/remote/login",
-      "source": "bigippot:honeypot-01",
-      "count": 78
+      "count": 91
     },
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 78
+      "count": 81
+    },
+    {
+      "path": "/remote/login",
+      "source": "bigippot:honeypot-01",
+      "count": 81
     },
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 35
+      "count": 36
+    },
+    {
+      "path": "/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 32
     },
     {
       "path": "/favicon.ico",
@@ -158,11 +163,6 @@
     },
     {
       "path": "/signup",
-      "source": "front:honeypot-01",
-      "count": 32
-    },
-    {
-      "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 32
     },
@@ -177,12 +177,12 @@
       "count": 28
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -192,12 +192,12 @@
       "count": 27
     },
     {
-      "path": "/account",
+      "path": "/robots.txt",
       "source": "front:honeypot-01",
       "count": 25
     },
     {
-      "path": "/robots.txt",
+      "path": "/account",
       "source": "front:honeypot-01",
       "count": 25
     },
@@ -207,17 +207,17 @@
       "count": 24
     },
     {
-      "path": "/logo.svg",
-      "source": "front:honeypot-01",
-      "count": 22
-    },
-    {
       "path": "/login",
       "source": "front:honeypot-01",
       "count": 22
     },
     {
-      "path": "/signin",
+      "path": "/logo.svg",
+      "source": "front:honeypot-01",
+      "count": 22
+    },
+    {
+      "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 20
     }
@@ -339,7 +339,7 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 147
+      "event_count": 153
     },
     {
       "asn": "AS208137",
@@ -377,6 +377,13 @@
       "event_count": 60
     },
     {
+      "asn": "AS6939",
+      "name": "Hurricane Electric LLC",
+      "country": "US",
+      "ip_count": 16,
+      "event_count": 54
+    },
+    {
       "asn": "AS51167",
       "name": "Contabo GmbH",
       "country": "FR",
@@ -391,16 +398,16 @@
       "event_count": 49
     },
     {
-      "asn": "AS329678",
-      "name": "High Speed Access Company for Telecommunication and Technology",
-      "country": "LY",
+      "asn": "AS215540",
+      "name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+      "country": "FI",
       "ip_count": 1,
       "event_count": 49
     },
     {
-      "asn": "AS215540",
-      "name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
-      "country": "FI",
+      "asn": "AS329678",
+      "name": "High Speed Access Company for Telecommunication and Technology",
+      "country": "LY",
       "ip_count": 1,
       "event_count": 49
     },
@@ -410,13 +417,6 @@
       "country": "US",
       "ip_count": 1,
       "event_count": 46
-    },
-    {
-      "asn": "AS6939",
-      "name": "Hurricane Electric LLC",
-      "country": "US",
-      "ip_count": 11,
-      "event_count": 41
     },
     {
       "asn": "AS12876",
