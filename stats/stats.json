@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T01:03:31.530506Z",
+  "generated_at": "2026-09-03T02:00:23.805491Z",
   "period_days": 90,
-  "total_events": 7587,
-  "unique_ips": 405,
+  "total_events": 7696,
+  "unique_ips": 410,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 98,
-    "bigippot:honeypot-01": 2912,
-    "front:honeypot-01": 4437
+    "bigippot:honeypot-01": 3020,
+    "front:honeypot-01": 4438
   },
   "events_per_day": {
     "2026-08-28": {
@@ -55,9 +55,9 @@
       "total": 2030
     },
     "2026-09-03": {
-      "front:honeypot-01": 2,
-      "bigippot:honeypot-01": 11,
-      "total": 13
+      "front:honeypot-01": 3,
+      "bigippot:honeypot-01": 119,
+      "total": 122
     }
   },
   "top_credentials": [
@@ -101,19 +101,19 @@
       "count": 548
     },
     {
-      "user_agent": "Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com)",
-      "count": 285
+      "user_agent": "libredtail-http",
+      "count": 347
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0",
+      "user_agent": "Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com)",
       "count": 285
     }
   ],
   "method_counts": {
-    "GET": 6320,
-    "POST": 1117,
+    "GET": 6413,
+    "POST": 1131,
     "HEAD": 15,
-    "PRI": 5,
+    "PRI": 6,
     "OPTIONS": 3,
     "T3": 2,
     "HEARTBEAT": 2,
@@ -124,37 +124,32 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 309
+      "count": 310
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 154
+      "count": 157
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 80
-    },
-    {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
-      "count": 65
+      "count": 82
     },
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 65
+      "count": 67
+    },
+    {
+      "path": "/remote/logincheck",
+      "source": "bigippot:honeypot-01",
+      "count": 67
     },
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 33
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "front:honeypot-01",
-      "count": 32
+      "count": 34
     },
     {
       "path": "/wp-json/batch/v1",
@@ -167,9 +162,19 @@
       "count": 32
     },
     {
+      "path": "/favicon.ico",
+      "source": "front:honeypot-01",
+      "count": 32
+    },
+    {
       "path": "/.env",
       "source": "front:honeypot-01",
       "count": 29
+    },
+    {
+      "path": "/api/auth/signin",
+      "source": "front:honeypot-01",
+      "count": 28
     },
     {
       "path": "/blog/wp-json/batch/v1",
@@ -182,22 +187,17 @@
       "count": 28
     },
     {
-      "path": "/api/auth/signin",
-      "source": "front:honeypot-01",
-      "count": 28
-    },
-    {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
       "count": 27
     },
     {
-      "path": "/account",
+      "path": "/robots.txt",
       "source": "front:honeypot-01",
       "count": 25
     },
     {
-      "path": "/robots.txt",
+      "path": "/account",
       "source": "front:honeypot-01",
       "count": 25
     },
@@ -225,7 +225,7 @@
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 74,
+      "count": 148,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -233,6 +233,8 @@
       "severity": "Critical",
       "cvss_score": 9.8,
       "sample_ips": [
+        "144.225.6.182",
+        "144.91.95.188",
         "148.66.142.9",
         "168.144.80.239"
       ],
@@ -246,7 +248,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 30,
+      "count": 52,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -254,6 +256,8 @@
       "severity": "Critical",
       "cvss_score": 9.8,
       "sample_ips": [
+        "144.225.6.182",
+        "144.91.95.188",
         "148.66.142.9",
         "168.144.80.239",
         "31.132.90.3"
@@ -325,9 +329,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "IN",
-      "ip_count": 39,
-      "event_count": 211
+      "country": "GB",
+      "ip_count": 40,
+      "event_count": 212
     },
     {
       "asn": "AS208137",
@@ -337,18 +341,18 @@
       "event_count": 130
     },
     {
+      "asn": "AS43350",
+      "name": "NForce Entertainment B.V.",
+      "country": "NL",
+      "ip_count": 1,
+      "event_count": 126
+    },
+    {
       "asn": "AS197556",
       "name": "Kar-Tel LLC",
       "country": "KZ",
       "ip_count": 1,
       "event_count": 124
-    },
-    {
-      "asn": "AS43350",
-      "name": "NForce Entertainment B.V.",
-      "country": "NL",
-      "ip_count": 1,
-      "event_count": 122
     },
     {
       "asn": "AS29244",
@@ -372,6 +376,13 @@
       "event_count": 60
     },
     {
+      "asn": "AS51167",
+      "name": "Contabo GmbH",
+      "country": "FR",
+      "ip_count": 4,
+      "event_count": 52
+    },
+    {
       "asn": "AS26496",
       "name": "GoDaddy.com, LLC",
       "country": "SG",
@@ -384,6 +395,13 @@
       "country": "FI",
       "ip_count": 1,
       "event_count": 49
+    },
+    {
+      "asn": "AS7488",
+      "name": "CNServer LLC",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 46
     },
     {
       "asn": "AS6939",
@@ -400,32 +418,18 @@
       "event_count": 40
     },
     {
+      "asn": "AS398324",
+      "name": "Censys, Inc.",
+      "country": "US",
+      "ip_count": 7,
+      "event_count": 37
+    },
+    {
       "asn": "AS201814",
       "name": "MEVSPACE sp. z o.o.",
       "country": "PL",
       "ip_count": 2,
       "event_count": 37
-    },
-    {
-      "asn": "AS135377",
-      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "US",
-      "ip_count": 7,
-      "event_count": 35
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 23,
-      "event_count": 31
-    },
-    {
-      "asn": "AS398324",
-      "name": "Censys, Inc.",
-      "country": "US",
-      "ip_count": 6,
-      "event_count": 31
     }
   ]
 }
