@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T10:00:29.513348Z",
+  "generated_at": "2026-09-03T11:04:23.853944Z",
   "period_days": 90,
-  "total_events": 7845,
-  "unique_ips": 439,
+  "total_events": 8041,
+  "unique_ips": 444,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 98,
-    "bigippot:honeypot-01": 3151,
-    "front:honeypot-01": 4456
+    "bigippot:honeypot-01": 3344,
+    "front:honeypot-01": 4459
   },
   "events_per_day": {
     "2026-08-28": {
@@ -55,9 +55,9 @@
       "total": 2030
     },
     "2026-09-03": {
-      "front:honeypot-01": 21,
-      "bigippot:honeypot-01": 250,
-      "total": 271
+      "front:honeypot-01": 24,
+      "bigippot:honeypot-01": 443,
+      "total": 467
     }
   },
   "top_credentials": [
@@ -102,7 +102,7 @@
     },
     {
       "user_agent": "libredtail-http",
-      "count": 396
+      "count": 445
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0",
@@ -110,8 +110,8 @@
     }
   ],
   "method_counts": {
-    "GET": 6523,
-    "POST": 1161,
+    "GET": 6708,
+    "POST": 1171,
     "HEAD": 15,
     "PRI": 6,
     "OPTIONS": 3,
@@ -124,12 +124,12 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 319
+      "count": 321
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 169
+      "count": 170
     },
     {
       "path": "/tmui/login.jsp",
@@ -139,22 +139,17 @@
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 86
+      "count": 89
     },
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 86
+      "count": 89
     },
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
       "count": 36
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "front:honeypot-01",
-      "count": 32
     },
     {
       "path": "/wp-json/batch/v1",
@@ -167,13 +162,28 @@
       "count": 32
     },
     {
+      "path": "/favicon.ico",
+      "source": "front:honeypot-01",
+      "count": 32
+    },
+    {
       "path": "/.env",
       "source": "front:honeypot-01",
       "count": 30
     },
     {
+      "path": "/blog/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 28
+    },
+    {
       "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
+      "count": 28
+    },
+    {
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
       "count": 28
     },
     {
@@ -182,22 +192,12 @@
       "count": 28
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 28
-    },
-    {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
-      "count": 27
+      "count": 26
     },
     {
       "path": "/account",
-      "source": "front:honeypot-01",
-      "count": 25
-    },
-    {
-      "path": "/robots.txt",
       "source": "front:honeypot-01",
       "count": 25
     },
@@ -207,12 +207,12 @@
       "count": 24
     },
     {
-      "path": "/logo.svg",
+      "path": "/login",
       "source": "front:honeypot-01",
       "count": 22
     },
     {
-      "path": "/login",
+      "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 22
     },
@@ -225,7 +225,7 @@
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 185,
+      "count": 222,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -237,7 +237,7 @@
         "144.225.6.182",
         "144.91.95.188",
         "148.66.142.9",
-        "168.144.80.239"
+        "160.187.247.119"
       ],
       "sample_paths": [
         "/phpunit/Util/PHP/eval-stdin.php",
@@ -249,7 +249,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 66,
+      "count": 80,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -261,7 +261,7 @@
         "144.225.6.182",
         "144.91.95.188",
         "148.66.142.9",
-        "168.144.80.239"
+        "160.187.247.119"
       ],
       "sample_paths": [
         "/?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
@@ -303,8 +303,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 39,
-      "event_count": 1188
+      "ip_count": 40,
+      "event_count": 1189
     },
     {
       "asn": "AS48090",
@@ -332,14 +332,14 @@
       "name": "DigitalOcean, LLC",
       "country": "SG",
       "ip_count": 44,
-      "event_count": 220
+      "event_count": 221
     },
     {
       "asn": "AS43350",
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 163
+      "event_count": 169
     },
     {
       "asn": "AS208137",
@@ -354,6 +354,13 @@
       "country": "KZ",
       "ip_count": 1,
       "event_count": 124
+    },
+    {
+      "asn": "AS202412",
+      "name": "Omegatech LTD",
+      "country": "NL",
+      "ip_count": 2,
+      "event_count": 94
     },
     {
       "asn": "AS29244",
@@ -391,6 +398,13 @@
       "event_count": 52
     },
     {
+      "asn": "AS150862",
+      "name": "VPSTTT COMPUTER COMPANY LIMITED",
+      "country": "VN",
+      "ip_count": 1,
+      "event_count": 49
+    },
+    {
       "asn": "AS26496",
       "name": "GoDaddy.com, LLC",
       "country": "SG",
@@ -417,20 +431,6 @@
       "country": "US",
       "ip_count": 1,
       "event_count": 46
-    },
-    {
-      "asn": "AS12876",
-      "name": "Scaleway SAS",
-      "country": "FR",
-      "ip_count": 5,
-      "event_count": 42
-    },
-    {
-      "asn": "AS63949",
-      "name": "Akamai Connected Cloud",
-      "country": "DE",
-      "ip_count": 15,
-      "event_count": 37
     }
   ]
 }
