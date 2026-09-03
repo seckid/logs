@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T02:00:23.805491Z",
+  "generated_at": "2026-09-03T03:02:23.825379Z",
   "period_days": 90,
-  "total_events": 7696,
-  "unique_ips": 410,
+  "total_events": 7756,
+  "unique_ips": 414,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,7 +16,7 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 98,
-    "bigippot:honeypot-01": 3020,
+    "bigippot:honeypot-01": 3080,
     "front:honeypot-01": 4438
   },
   "events_per_day": {
@@ -56,8 +56,8 @@
     },
     "2026-09-03": {
       "front:honeypot-01": 3,
-      "bigippot:honeypot-01": 119,
-      "total": 122
+      "bigippot:honeypot-01": 179,
+      "total": 182
     }
   },
   "top_credentials": [
@@ -102,7 +102,7 @@
     },
     {
       "user_agent": "libredtail-http",
-      "count": 347
+      "count": 396
     },
     {
       "user_agent": "Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com)",
@@ -110,8 +110,8 @@
     }
   ],
   "method_counts": {
-    "GET": 6413,
-    "POST": 1131,
+    "GET": 6462,
+    "POST": 1141,
     "HEAD": 15,
     "PRI": 6,
     "OPTIONS": 3,
@@ -129,27 +129,32 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 157
+      "count": 158
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 82
+      "count": 83
     },
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 67
+      "count": 70
     },
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 67
+      "count": 70
     },
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
       "count": 34
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "front:honeypot-01",
+      "count": 32
     },
     {
       "path": "/wp-json/batch/v1",
@@ -158,11 +163,6 @@
     },
     {
       "path": "/signup",
-      "source": "front:honeypot-01",
-      "count": 32
-    },
-    {
-      "path": "/favicon.ico",
       "source": "front:honeypot-01",
       "count": 32
     },
@@ -207,17 +207,17 @@
       "count": 24
     },
     {
-      "path": "/logo.svg",
-      "source": "front:honeypot-01",
-      "count": 22
-    },
-    {
       "path": "/login",
       "source": "front:honeypot-01",
       "count": 22
     },
     {
-      "path": "/signin",
+      "path": "/logo.svg",
+      "source": "front:honeypot-01",
+      "count": 22
+    },
+    {
+      "path": "/auth/callback",
       "source": "front:honeypot-01",
       "count": 20
     }
@@ -225,7 +225,7 @@
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 148,
+      "count": 185,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -233,6 +233,7 @@
       "severity": "Critical",
       "cvss_score": 9.8,
       "sample_ips": [
+        "102.203.197.6",
         "144.225.6.182",
         "144.91.95.188",
         "148.66.142.9",
@@ -248,7 +249,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 52,
+      "count": 66,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -256,11 +257,11 @@
       "severity": "Critical",
       "cvss_score": 9.8,
       "sample_ips": [
+        "102.203.197.6",
         "144.225.6.182",
         "144.91.95.188",
         "148.66.142.9",
-        "168.144.80.239",
-        "31.132.90.3"
+        "168.144.80.239"
       ],
       "sample_paths": [
         "/?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
@@ -302,8 +303,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 36,
-      "event_count": 1182
+      "ip_count": 38,
+      "event_count": 1184
     },
     {
       "asn": "AS48090",
@@ -329,9 +330,16 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "GB",
-      "ip_count": 40,
-      "event_count": 212
+      "country": "US",
+      "ip_count": 41,
+      "event_count": 215
+    },
+    {
+      "asn": "AS43350",
+      "name": "NForce Entertainment B.V.",
+      "country": "NL",
+      "ip_count": 1,
+      "event_count": 132
     },
     {
       "asn": "AS208137",
@@ -339,13 +347,6 @@
       "country": "DE",
       "ip_count": 1,
       "event_count": 130
-    },
-    {
-      "asn": "AS43350",
-      "name": "NForce Entertainment B.V.",
-      "country": "NL",
-      "ip_count": 1,
-      "event_count": 126
     },
     {
       "asn": "AS197556",
@@ -397,6 +398,13 @@
       "event_count": 49
     },
     {
+      "asn": "AS329678",
+      "name": "High Speed Access Company for Telecommunication and Technology",
+      "country": "LY",
+      "ip_count": 1,
+      "event_count": 49
+    },
+    {
       "asn": "AS7488",
       "name": "CNServer LLC",
       "country": "US",
@@ -422,13 +430,6 @@
       "name": "Censys, Inc.",
       "country": "US",
       "ip_count": 7,
-      "event_count": 37
-    },
-    {
-      "asn": "AS201814",
-      "name": "MEVSPACE sp. z o.o.",
-      "country": "PL",
-      "ip_count": 2,
       "event_count": 37
     }
   ]
