@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T20:03:23.985431Z",
+  "generated_at": "2026-09-03T21:03:03.868809Z",
   "period_days": 90,
-  "total_events": 8575,
-  "unique_ips": 480,
+  "total_events": 8584,
+  "unique_ips": 486,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,9 +15,9 @@
     "ivantipot:honeypot-01": 8,
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
-    "fortipot:honeypot-01": 99,
-    "bigippot:honeypot-01": 3517,
-    "front:honeypot-01": 4819
+    "fortipot:honeypot-01": 100,
+    "bigippot:honeypot-01": 3523,
+    "front:honeypot-01": 4821
   },
   "events_per_day": {
     "2026-08-28": {
@@ -55,10 +55,10 @@
       "total": 2030
     },
     "2026-09-03": {
-      "fortipot:honeypot-01": 1,
-      "front:honeypot-01": 384,
-      "bigippot:honeypot-01": 616,
-      "total": 1001
+      "fortipot:honeypot-01": 2,
+      "front:honeypot-01": 386,
+      "bigippot:honeypot-01": 622,
+      "total": 1010
     }
   },
   "top_credentials": [
@@ -111,7 +111,7 @@
     }
   ],
   "method_counts": {
-    "GET": 7197,
+    "GET": 7206,
     "POST": 1191,
     "HEAD": 17,
     "PRI": 7,
@@ -126,22 +126,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 351
+      "count": 352
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 188
+      "count": 190
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 99
-    },
-    {
-      "path": "/remote/login",
-      "source": "bigippot:honeypot-01",
-      "count": 98
+      "count": 100
     },
     {
       "path": "/remote/logincheck",
@@ -149,9 +144,14 @@
       "count": 98
     },
     {
+      "path": "/remote/login",
+      "source": "bigippot:honeypot-01",
+      "count": 98
+    },
+    {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 40
+      "count": 41
     },
     {
       "path": "/favicon.ico",
@@ -189,7 +189,7 @@
       "count": 28
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/api/auth/signin",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -199,7 +199,7 @@
       "count": 28
     },
     {
-      "path": "/api/auth/signin",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -209,14 +209,14 @@
       "count": 27
     },
     {
-      "path": "/account",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 25
     },
     {
-      "path": "/.git/config",
+      "path": "/account",
       "source": "front:honeypot-01",
-      "count": 24
+      "count": 25
     },
     {
       "path": "/login",
@@ -305,8 +305,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 43,
-      "event_count": 1197
+      "ip_count": 44,
+      "event_count": 1199
     },
     {
       "asn": "AS16509",
@@ -320,7 +320,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 13,
-      "event_count": 576
+      "event_count": 577
     },
     {
       "asn": "AS142430",
@@ -407,6 +407,13 @@
       "event_count": 54
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 36,
+      "event_count": 52
+    },
+    {
       "asn": "AS51167",
       "name": "Contabo GmbH",
       "country": "FR",
@@ -424,13 +431,6 @@
       "asn": "AS26496",
       "name": "GoDaddy.com, LLC",
       "country": "SG",
-      "ip_count": 1,
-      "event_count": 49
-    },
-    {
-      "asn": "AS215540",
-      "name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
-      "country": "FI",
       "ip_count": 1,
       "event_count": 49
     }
