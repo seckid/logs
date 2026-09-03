@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T11:04:23.853944Z",
+  "generated_at": "2026-09-03T12:01:13.813273Z",
   "period_days": 90,
-  "total_events": 8041,
-  "unique_ips": 444,
+  "total_events": 8106,
+  "unique_ips": 446,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 98,
-    "bigippot:honeypot-01": 3344,
-    "front:honeypot-01": 4459
+    "bigippot:honeypot-01": 3402,
+    "front:honeypot-01": 4466
   },
   "events_per_day": {
     "2026-08-28": {
@@ -55,9 +55,9 @@
       "total": 2030
     },
     "2026-09-03": {
-      "front:honeypot-01": 24,
-      "bigippot:honeypot-01": 443,
-      "total": 467
+      "front:honeypot-01": 31,
+      "bigippot:honeypot-01": 501,
+      "total": 532
     }
   },
   "top_credentials": [
@@ -110,8 +110,8 @@
     }
   ],
   "method_counts": {
-    "GET": 6708,
-    "POST": 1171,
+    "GET": 6769,
+    "POST": 1173,
     "HEAD": 15,
     "PRI": 6,
     "OPTIONS": 3,
@@ -124,37 +124,37 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 321
+      "count": 323
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 170
+      "count": 173
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 91
+      "count": 92
     },
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 89
+      "count": 90
     },
     {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
-      "count": 89
+      "count": 90
     },
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 36
+      "count": 37
     },
     {
-      "path": "/wp-json/batch/v1",
+      "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 32
+      "count": 33
     },
     {
       "path": "/signup",
@@ -162,7 +162,7 @@
       "count": 32
     },
     {
-      "path": "/favicon.ico",
+      "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 32
     },
@@ -172,11 +172,6 @@
       "count": 30
     },
     {
-      "path": "/blog/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 28
-    },
-    {
       "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
@@ -184,6 +179,11 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
+      "count": 28
+    },
+    {
+      "path": "/blog/wp-json/batch/v1",
+      "source": "front:honeypot-01",
       "count": 28
     },
     {
@@ -197,22 +197,22 @@
       "count": 26
     },
     {
+      "path": "/style.css",
+      "source": "front:honeypot-01",
+      "count": 25
+    },
+    {
       "path": "/account",
       "source": "front:honeypot-01",
       "count": 25
     },
     {
-      "path": "/style.css",
+      "path": "/logo.svg",
       "source": "front:honeypot-01",
-      "count": 24
+      "count": 23
     },
     {
       "path": "/login",
-      "source": "front:honeypot-01",
-      "count": 22
-    },
-    {
-      "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 22
     },
@@ -325,7 +325,7 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 17,
-      "event_count": 313
+      "event_count": 314
     },
     {
       "asn": "AS14061",
@@ -339,7 +339,7 @@
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 169
+      "event_count": 171
     },
     {
       "asn": "AS208137",
@@ -384,6 +384,13 @@
       "event_count": 60
     },
     {
+      "asn": "AS153622",
+      "name": "Madina IT",
+      "country": "FI",
+      "ip_count": 1,
+      "event_count": 55
+    },
+    {
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
@@ -424,13 +431,6 @@
       "country": "LY",
       "ip_count": 1,
       "event_count": 49
-    },
-    {
-      "asn": "AS7488",
-      "name": "CNServer LLC",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 46
     }
   ]
 }
