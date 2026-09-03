@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T09:00:19.543093Z",
+  "generated_at": "2026-09-03T10:00:29.513348Z",
   "period_days": 90,
-  "total_events": 7839,
-  "unique_ips": 436,
+  "total_events": 7845,
+  "unique_ips": 439,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 98,
-    "bigippot:honeypot-01": 3149,
-    "front:honeypot-01": 4452
+    "bigippot:honeypot-01": 3151,
+    "front:honeypot-01": 4456
   },
   "events_per_day": {
     "2026-08-28": {
@@ -55,9 +55,9 @@
       "total": 2030
     },
     "2026-09-03": {
-      "front:honeypot-01": 17,
-      "bigippot:honeypot-01": 248,
-      "total": 265
+      "front:honeypot-01": 21,
+      "bigippot:honeypot-01": 250,
+      "total": 271
     }
   },
   "top_credentials": [
@@ -110,8 +110,8 @@
     }
   ],
   "method_counts": {
-    "GET": 6519,
-    "POST": 1159,
+    "GET": 6523,
+    "POST": 1161,
     "HEAD": 15,
     "PRI": 6,
     "OPTIONS": 3,
@@ -124,7 +124,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 317
+      "count": 319
     },
     {
       "path": "/",
@@ -137,19 +137,24 @@
       "count": 91
     },
     {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
-      "count": 85
-    },
-    {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 85
+      "count": 86
+    },
+    {
+      "path": "/remote/logincheck",
+      "source": "bigippot:honeypot-01",
+      "count": 86
     },
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
       "count": 36
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "front:honeypot-01",
+      "count": 32
     },
     {
       "path": "/wp-json/batch/v1",
@@ -158,11 +163,6 @@
     },
     {
       "path": "/signup",
-      "source": "front:honeypot-01",
-      "count": 32
-    },
-    {
-      "path": "/favicon.ico",
       "source": "front:honeypot-01",
       "count": 32
     },
@@ -177,12 +177,12 @@
       "count": 28
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/api/auth/signin",
       "source": "front:honeypot-01",
       "count": 28
     },
     {
-      "path": "/api/auth/signin",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -207,12 +207,12 @@
       "count": 24
     },
     {
-      "path": "/login",
+      "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 22
     },
     {
-      "path": "/logo.svg",
+      "path": "/login",
       "source": "front:honeypot-01",
       "count": 22
     },
@@ -330,16 +330,16 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 43,
-      "event_count": 219
+      "country": "SG",
+      "ip_count": 44,
+      "event_count": 220
     },
     {
       "asn": "AS43350",
       "name": "NForce Entertainment B.V.",
       "country": "NL",
       "ip_count": 1,
-      "event_count": 161
+      "event_count": 163
     },
     {
       "asn": "AS208137",
@@ -423,7 +423,7 @@
       "name": "Scaleway SAS",
       "country": "FR",
       "ip_count": 5,
-      "event_count": 41
+      "event_count": 42
     },
     {
       "asn": "AS63949",
