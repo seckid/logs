@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T00:05:23.839145Z",
+  "generated_at": "2026-09-04T01:01:59.463053Z",
   "period_days": 90,
-  "total_events": 8733,
-  "unique_ips": 494,
+  "total_events": 8738,
+  "unique_ips": 497,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 100,
-    "bigippot:honeypot-01": 3662,
-    "front:honeypot-01": 4831
+    "bigippot:honeypot-01": 3665,
+    "front:honeypot-01": 4833
   },
   "events_per_day": {
     "2026-08-28": {
@@ -61,8 +61,9 @@
       "total": 1157
     },
     "2026-09-04": {
-      "front:honeypot-01": 2,
-      "total": 2
+      "bigippot:honeypot-01": 3,
+      "front:honeypot-01": 4,
+      "total": 7
     }
   },
   "top_credentials": [
@@ -115,8 +116,8 @@
     }
   ],
   "method_counts": {
-    "GET": 7350,
-    "POST": 1195,
+    "GET": 7353,
+    "POST": 1196,
     "HEAD": 17,
     "PRI": 7,
     "OPTIONS": 3,
@@ -130,12 +131,12 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 358
+      "count": 359
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 193
+      "count": 195
     },
     {
       "path": "/tmui/login.jsp",
@@ -308,9 +309,9 @@
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 44,
-      "event_count": 1199
+      "country": "SE",
+      "ip_count": 46,
+      "event_count": 1202
     },
     {
       "asn": "AS16509",
@@ -408,7 +409,7 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 39,
-      "event_count": 57
+      "event_count": 58
     },
     {
       "asn": "AS6939",
@@ -432,9 +433,9 @@
       "event_count": 49
     },
     {
-      "asn": "AS26496",
-      "name": "GoDaddy.com, LLC",
-      "country": "SG",
+      "asn": "AS329678",
+      "name": "High Speed Access Company for Telecommunication and Technology",
+      "country": "LY",
       "ip_count": 1,
       "event_count": 49
     }
