@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T21:04:02.224415Z",
+  "generated_at": "2026-09-04T22:01:43.011439Z",
   "period_days": 90,
-  "total_events": 10119,
-  "unique_ips": 589,
+  "total_events": 10142,
+  "unique_ips": 595,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 103,
-    "bigippot:honeypot-01": 4714,
-    "front:honeypot-01": 5162
+    "bigippot:honeypot-01": 4733,
+    "front:honeypot-01": 5166
   },
   "events_per_day": {
     "2026-08-28": {
@@ -62,9 +62,9 @@
     },
     "2026-09-04": {
       "fortipot:honeypot-01": 3,
-      "bigippot:honeypot-01": 1052,
-      "front:honeypot-01": 333,
-      "total": 1388
+      "bigippot:honeypot-01": 1071,
+      "front:honeypot-01": 337,
+      "total": 1411
     }
   },
   "top_credentials": [
@@ -170,9 +170,9 @@
     }
   ],
   "method_counts": {
-    "GET": 8629,
+    "GET": 8646,
     "POST": 1260,
-    "HEAD": 21,
+    "HEAD": 22,
     "PRI": 8,
     "HEARTBEAT": 6,
     "OPTIONS": 5,
@@ -186,17 +186,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 436
+      "count": 439
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 228
+      "count": 231
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 118
+      "count": 120
     },
     {
       "path": "/remote/login",
@@ -216,7 +216,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 46
+      "count": 49
     },
     {
       "path": "/favicon.ico",
@@ -231,12 +231,17 @@
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 37
+      "count": 38
     },
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
       "count": 34
+    },
+    {
+      "path": "/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 32
     },
     {
       "path": "/.env",
@@ -249,14 +254,14 @@
       "count": 32
     },
     {
-      "path": "/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 32
-    },
-    {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 31
+    },
+    {
+      "path": "/api/auth/signin",
+      "source": "front:honeypot-01",
+      "count": 28
     },
     {
       "path": "/wordpress/wp-json/batch/v1",
@@ -269,11 +274,6 @@
       "count": 28
     },
     {
-      "path": "/api/auth/signin",
-      "source": "front:honeypot-01",
-      "count": 28
-    },
-    {
       "path": "/account",
       "source": "front:honeypot-01",
       "count": 25
@@ -281,7 +281,7 @@
     {
       "path": "/robots.txt",
       "source": "bigippot:honeypot-01",
-      "count": 23
+      "count": 24
     }
   ],
   "cve_attempts": [
@@ -366,16 +366,16 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
-      "ip_count": 40,
-      "event_count": 3089
+      "country": "TW",
+      "ip_count": 41,
+      "event_count": 3090
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 49,
-      "event_count": 1259
+      "ip_count": 50,
+      "event_count": 1260
     },
     {
       "asn": "AS48090",
@@ -387,9 +387,9 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "CA",
-      "ip_count": 21,
-      "event_count": 590
+      "country": "GB",
+      "ip_count": 22,
+      "event_count": 591
     },
     {
       "asn": "AS142430",
@@ -401,9 +401,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "GB",
-      "ip_count": 59,
-      "event_count": 315
+      "country": "NL",
+      "ip_count": 60,
+      "event_count": 316
     },
     {
       "asn": "AS202412",
@@ -505,12 +505,11 @@
     }
   ],
   "events_by_country": {
-    "BE": 3089,
-    "US": 2259,
-    "NL": 900,
-    "CA": 590,
-    "GB": 409,
-    "DE": 403,
+    "TW": 3090,
+    "US": 2278,
+    "NL": 1234,
+    "GB": 685,
+    "DE": 386,
     "JP": 169,
     "BG": 158,
     "FI": 155,
