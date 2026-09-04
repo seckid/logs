@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T06:03:16.290249Z",
+  "generated_at": "2026-09-04T06:20:07.211202Z",
   "period_days": 90,
   "total_events": 8824,
   "unique_ips": 505,
@@ -89,6 +89,46 @@
     },
     {
       "username": "testing",
+      "password": "logs",
+      "count": 1
+    }
+  ],
+  "top_usernames": [
+    {
+      "username": "admin",
+      "count": 3
+    },
+    {
+      "username": "(empty)",
+      "count": 2
+    },
+    {
+      "username": "a",
+      "count": 1
+    },
+    {
+      "username": "testing",
+      "count": 1
+    }
+  ],
+  "top_passwords": [
+    {
+      "password": "admin",
+      "count": 2
+    },
+    {
+      "password": "Deft2731",
+      "count": 2
+    },
+    {
+      "password": "p",
+      "count": 1
+    },
+    {
+      "password": "passwordtwo",
+      "count": 1
+    },
+    {
       "password": "logs",
       "count": 1
     }
@@ -244,7 +284,8 @@
         "144.225.6.182",
         "144.91.95.188",
         "148.66.142.9",
-        "160.187.247.119"
+        "160.187.247.119",
+        "168.144.80.239"
       ],
       "sample_paths": [
         "/phpunit/Util/PHP/eval-stdin.php",
@@ -268,7 +309,9 @@
         "144.225.6.182",
         "144.91.95.188",
         "148.66.142.9",
-        "160.187.247.119"
+        "160.187.247.119",
+        "168.144.80.239",
+        "31.132.90.3"
       ],
       "sample_paths": [
         "/?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
@@ -298,6 +341,9 @@
       ]
     }
   ],
+  "cve_severity_counts": {
+    "Critical": 308
+  },
   "top_asns": [
     {
       "asn": "AS396982",
@@ -439,5 +485,47 @@
       "ip_count": 1,
       "event_count": 49
     }
-  ]
+  ],
+  "events_by_country": {
+    "US": 4933,
+    "NL": 1093,
+    "DE": 839,
+    "BG": 158,
+    "FI": 155,
+    "KZ": 124,
+    "FR": 83,
+    "SG": 55,
+    "LY": 49,
+    "VN": 49,
+    "GB": 38,
+    "PL": 37,
+    "JP": 25,
+    "GR": 21,
+    "BR": 19,
+    "SI": 19,
+    "CN": 16,
+    "NO": 14,
+    "HK": 13,
+    "LU": 13,
+    "UA": 11,
+    "TH": 9,
+    "IR": 5,
+    "AE": 4,
+    "RO": 4,
+    "ES": 3,
+    "KR": 3,
+    "SE": 3,
+    "MN": 2,
+    "AT": 1,
+    "AU": 1,
+    "CH": 1,
+    "EG": 1,
+    "ID": 1,
+    "IN": 1,
+    "IT": 1,
+    "LT": 1,
+    "MD": 1,
+    "RU": 1,
+    "VE": 1
+  }
 }
