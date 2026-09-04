@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T19:01:39.671086Z",
+  "generated_at": "2026-09-04T20:04:42.362913Z",
   "period_days": 90,
-  "total_events": 9457,
-  "unique_ips": 575,
+  "total_events": 10062,
+  "unique_ips": 580,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,7 +16,7 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 103,
-    "bigippot:honeypot-01": 4056,
+    "bigippot:honeypot-01": 4661,
     "front:honeypot-01": 5158
   },
   "events_per_day": {
@@ -62,9 +62,9 @@
     },
     "2026-09-04": {
       "fortipot:honeypot-01": 3,
-      "bigippot:honeypot-01": 394,
+      "bigippot:honeypot-01": 999,
       "front:honeypot-01": 329,
-      "total": 726
+      "total": 1331
     }
   },
   "top_credentials": [
@@ -150,7 +150,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 1813
+      "count": 1814
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -162,7 +162,7 @@
     },
     {
       "user_agent": "libredtail-http",
-      "count": 592
+      "count": 593
     },
     {
       "user_agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
@@ -170,8 +170,8 @@
     }
   ],
   "method_counts": {
-    "GET": 7987,
-    "POST": 1242,
+    "GET": 8576,
+    "POST": 1256,
     "HEAD": 21,
     "PRI": 8,
     "HEARTBEAT": 6,
@@ -191,12 +191,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 218
+      "count": 225
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 116
+      "count": 118
     },
     {
       "path": "/remote/login",
@@ -239,29 +239,24 @@
       "count": 34
     },
     {
+      "path": "/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 32
+    },
+    {
       "path": "/signup",
       "source": "front:honeypot-01",
       "count": 32
     },
     {
-      "path": "/wp-json/batch/v1",
-      "source": "front:honeypot-01",
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
       "count": 32
     },
     {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 31
-    },
-    {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
-      "count": 31
-    },
-    {
-      "path": "/blog/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 28
     },
     {
       "path": "/api/auth/signin",
@@ -274,13 +269,18 @@
       "count": 28
     },
     {
+      "path": "/blog/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 28
+    },
+    {
       "path": "/account",
       "source": "front:honeypot-01",
       "count": 25
     },
     {
-      "path": "/",
-      "source": "fortipot:honeypot-01",
+      "path": "/.git/config",
+      "source": "bigippot:honeypot-01",
       "count": 23
     }
   ],
@@ -314,7 +314,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 122,
+      "count": 124,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -360,22 +360,22 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 461
+    "Critical": 463
   },
   "top_asns": [
     {
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "US",
-      "ip_count": 38,
-      "event_count": 2618
+      "ip_count": 39,
+      "event_count": 3088
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 47,
-      "event_count": 1257
+      "ip_count": 48,
+      "event_count": 1258
     },
     {
       "asn": "AS48090",
@@ -464,9 +464,9 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "SG",
-      "ip_count": 12,
-      "event_count": 75
+      "country": "MY",
+      "ip_count": 13,
+      "event_count": 76
     },
     {
       "asn": "AS14618",
@@ -505,17 +505,18 @@
     }
   ],
   "events_by_country": {
-    "US": 4961,
+    "US": 5437,
     "NL": 900,
     "CA": 590,
     "GB": 409,
     "DE": 403,
-    "SG": 173,
     "BG": 158,
     "FI": 155,
     "PL": 125,
     "KZ": 124,
+    "SG": 98,
     "VN": 98,
+    "MY": 76,
     "FR": 66,
     "LY": 49,
     "JP": 27,
@@ -531,6 +532,7 @@
     "RO": 5,
     "AE": 4,
     "DK": 3,
+    "IN": 3,
     "KR": 3,
     "LT": 2,
     "MN": 2,
@@ -542,7 +544,6 @@
     "EG": 1,
     "ES": 1,
     "ID": 1,
-    "IN": 1,
     "IT": 1,
     "MD": 1,
     "RU": 1,
