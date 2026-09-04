@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T15:04:02.056236Z",
+  "generated_at": "2026-09-04T16:02:26.382841Z",
   "period_days": 90,
-  "total_events": 9114,
-  "unique_ips": 553,
+  "total_events": 9212,
+  "unique_ips": 558,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 103,
-    "bigippot:honeypot-01": 3765,
-    "front:honeypot-01": 5106
+    "bigippot:honeypot-01": 3851,
+    "front:honeypot-01": 5118
   },
   "events_per_day": {
     "2026-08-28": {
@@ -62,9 +62,9 @@
     },
     "2026-09-04": {
       "fortipot:honeypot-01": 3,
-      "bigippot:honeypot-01": 103,
-      "front:honeypot-01": 277,
-      "total": 383
+      "bigippot:honeypot-01": 189,
+      "front:honeypot-01": 289,
+      "total": 481
     }
   },
   "top_credentials": [
@@ -92,6 +92,11 @@
       "username": "testing",
       "password": "logs",
       "count": 1
+    },
+    {
+      "username": "root",
+      "password": "wrong",
+      "count": 1
     }
   ],
   "top_usernames": [
@@ -109,6 +114,10 @@
     },
     {
       "username": "testing",
+      "count": 1
+    },
+    {
+      "username": "root",
       "count": 1
     }
   ],
@@ -132,6 +141,10 @@
     {
       "password": "logs",
       "count": 1
+    },
+    {
+      "password": "wrong",
+      "count": 1
     }
   ],
   "top_user_agents": [
@@ -149,16 +162,16 @@
     },
     {
       "user_agent": "libredtail-http",
-      "count": 463
+      "count": 494
     },
     {
       "user_agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
-      "count": 409
+      "count": 416
     }
   ],
   "method_counts": {
-    "GET": 7673,
-    "POST": 1226,
+    "GET": 7763,
+    "POST": 1227,
     "HEAD": 18,
     "PRI": 7,
     "HEARTBEAT": 6,
@@ -173,7 +186,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 420
+      "count": 425
     },
     {
       "path": "/",
@@ -213,12 +226,12 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 36
+      "count": 38
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 33
+      "count": 34
     },
     {
       "path": "/wp-json/batch/v1",
@@ -238,15 +251,10 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 29
+      "count": 30
     },
     {
-      "path": "/blog/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 28
-    },
-    {
-      "path": "/api/auth/signin",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -256,7 +264,12 @@
       "count": 28
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/api/auth/signin",
+      "source": "front:honeypot-01",
+      "count": 28
+    },
+    {
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -274,7 +287,7 @@
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 233,
+      "count": 259,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -346,22 +359,22 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 333
+    "Critical": 359
   },
   "top_asns": [
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
-      "ip_count": 34,
-      "event_count": 2612
+      "country": "SG",
+      "ip_count": 35,
+      "event_count": 2613
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
       "ip_count": 46,
-      "event_count": 1206
+      "event_count": 1208
     },
     {
       "asn": "AS48090",
@@ -373,9 +386,9 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "SG",
-      "ip_count": 20,
-      "event_count": 586
+      "country": "CA",
+      "ip_count": 21,
+      "event_count": 590
     },
     {
       "asn": "AS142430",
@@ -444,8 +457,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 43,
-      "event_count": 68
+      "ip_count": 44,
+      "event_count": 70
     },
     {
       "asn": "AS63949",
@@ -483,33 +496,32 @@
       "event_count": 52
     },
     {
-      "asn": "AS329678",
-      "name": "High Speed Access Company for Telecommunication and Technology",
-      "country": "LY",
+      "asn": "AS13213",
+      "name": "THG HOSTING LIMITED",
+      "country": "GB",
       "ip_count": 1,
-      "event_count": 49
+      "event_count": 51
     }
   ],
   "events_by_country": {
-    "TW": 2612,
-    "US": 2518,
+    "SG": 2786,
+    "US": 2522,
     "NL": 933,
-    "SG": 728,
-    "DE": 384,
+    "CA": 590,
+    "DE": 403,
     "BG": 158,
     "FI": 155,
     "KZ": 124,
+    "GB": 94,
     "FR": 66,
     "LY": 49,
     "VN": 49,
-    "GB": 43,
     "PL": 39,
+    "JP": 27,
     "LU": 24,
     "GR": 21,
-    "JP": 21,
     "UA": 20,
     "BR": 19,
-    "CA": 18,
     "CN": 16,
     "HK": 16,
     "NO": 14,
