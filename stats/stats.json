@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T04:01:09.505195Z",
+  "generated_at": "2026-09-04T05:04:24.392279Z",
   "period_days": 90,
-  "total_events": 8782,
-  "unique_ips": 502,
+  "total_events": 8799,
+  "unique_ips": 503,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 100,
-    "bigippot:honeypot-01": 3667,
-    "front:honeypot-01": 4875
+    "bigippot:honeypot-01": 3682,
+    "front:honeypot-01": 4877
   },
   "events_per_day": {
     "2026-08-28": {
@@ -61,9 +61,9 @@
       "total": 1157
     },
     "2026-09-04": {
-      "bigippot:honeypot-01": 5,
-      "front:honeypot-01": 46,
-      "total": 51
+      "bigippot:honeypot-01": 20,
+      "front:honeypot-01": 48,
+      "total": 68
     }
   },
   "top_credentials": [
@@ -116,8 +116,8 @@
     }
   ],
   "method_counts": {
-    "GET": 7391,
-    "POST": 1200,
+    "GET": 7400,
+    "POST": 1201,
     "HEAD": 17,
     "PRI": 7,
     "OPTIONS": 3,
@@ -131,17 +131,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 363
+      "count": 364
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 195
+      "count": 196
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 102
+      "count": 103
     },
     {
       "path": "/remote/login",
@@ -156,7 +156,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 41
+      "count": 42
     },
     {
       "path": "/.env",
@@ -184,13 +184,13 @@
       "count": 30
     },
     {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
-      "count": 29
-    },
-    {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
+      "count": 30
+    },
+    {
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
       "count": 29
     },
     {
@@ -309,9 +309,9 @@
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "SE",
+      "country": "US",
       "ip_count": 46,
-      "event_count": 1202
+      "event_count": 1203
     },
     {
       "asn": "AS48090",
@@ -391,18 +391,18 @@
       "event_count": 73
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 40,
+      "event_count": 63
+    },
+    {
       "asn": "AS12876",
       "name": "Scaleway SAS",
       "country": "NL",
       "ip_count": 8,
       "event_count": 63
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 40,
-      "event_count": 62
     },
     {
       "asn": "AS41280",
@@ -433,9 +433,9 @@
       "event_count": 49
     },
     {
-      "asn": "AS329678",
-      "name": "High Speed Access Company for Telecommunication and Technology",
-      "country": "LY",
+      "asn": "AS26496",
+      "name": "GoDaddy.com, LLC",
+      "country": "SG",
       "ip_count": 1,
       "event_count": 49
     }
