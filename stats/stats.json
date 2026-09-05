@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T22:04:35.345414Z",
+  "generated_at": "2026-09-05T23:05:02.356351Z",
   "period_days": 90,
-  "total_events": 11123,
-  "unique_ips": 666,
+  "total_events": 11176,
+  "unique_ips": 668,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 103,
-    "bigippot:honeypot-01": 5034,
-    "front:honeypot-01": 5846
+    "bigippot:honeypot-01": 5085,
+    "front:honeypot-01": 5848
   },
   "events_per_day": {
     "2026-08-28": {
@@ -67,9 +67,9 @@
       "total": 1485
     },
     "2026-09-05": {
-      "front:honeypot-01": 671,
-      "bigippot:honeypot-01": 236,
-      "total": 907
+      "front:honeypot-01": 673,
+      "bigippot:honeypot-01": 287,
+      "total": 960
     }
   },
   "top_credentials": [
@@ -167,7 +167,7 @@
     },
     {
       "user_agent": "libredtail-http",
-      "count": 786
+      "count": 835
     },
     {
       "user_agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
@@ -175,8 +175,8 @@
     }
   ],
   "method_counts": {
-    "GET": 9553,
-    "POST": 1304,
+    "GET": 9597,
+    "POST": 1311,
     "HEAD": 27,
     "PRI": 9,
     "HEARTBEAT": 6,
@@ -191,7 +191,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 497
+      "count": 498
     },
     {
       "path": "/",
@@ -236,7 +236,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 45
+      "count": 46
     },
     {
       "path": "/style.css",
@@ -249,13 +249,13 @@
       "count": 35
     },
     {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
+      "path": "/wp-json/batch/v1",
+      "source": "front:honeypot-01",
       "count": 34
     },
     {
-      "path": "/wp-json/batch/v1",
-      "source": "front:honeypot-01",
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
       "count": 34
     },
     {
@@ -292,7 +292,7 @@
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 481,
+      "count": 518,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -319,7 +319,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 174,
+      "count": 188,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -365,15 +365,15 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 661
+    "Critical": 712
   },
   "top_asns": [
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "CH",
-      "ip_count": 48,
-      "event_count": 3379
+      "country": "US",
+      "ip_count": 49,
+      "event_count": 3380
     },
     {
       "asn": "AS8075",
@@ -385,9 +385,9 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "KR",
+      "country": "AU",
       "ip_count": 27,
-      "event_count": 865
+      "event_count": 866
     },
     {
       "asn": "AS48090",
@@ -430,6 +430,13 @@
       "country": "JP",
       "ip_count": 21,
       "event_count": 143
+    },
+    {
+      "asn": "AS135377",
+      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+      "country": "US",
+      "ip_count": 8,
+      "event_count": 138
     },
     {
       "asn": "AS208137",
@@ -477,15 +484,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 54,
-      "event_count": 90
-    },
-    {
-      "asn": "AS135377",
-      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "US",
-      "ip_count": 8,
-      "event_count": 89
+      "ip_count": 55,
+      "event_count": 91
     },
     {
       "asn": "AS45102",
@@ -510,10 +510,9 @@
     }
   ],
   "events_by_country": {
-    "CH": 3478,
-    "US": 2706,
-    "NL": 940,
-    "KR": 868,
+    "US": 6136,
+    "NL": 941,
+    "AU": 867,
     "DE": 372,
     "SG": 236,
     "FR": 181,
@@ -522,6 +521,7 @@
     "KZ": 124,
     "GB": 116,
     "FI": 106,
+    "CH": 99,
     "VN": 98,
     "LY": 49,
     "PL": 39,
@@ -538,10 +538,10 @@
     "RO": 5,
     "AE": 4,
     "IN": 3,
+    "KR": 3,
     "LT": 2,
     "MN": 2,
     "AT": 1,
-    "AU": 1,
     "BY": 1,
     "EG": 1,
     "ES": 1,
