@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T05:02:40.935596Z",
+  "generated_at": "2026-09-05T06:02:32.043639Z",
   "period_days": 90,
-  "total_events": 10316,
-  "unique_ips": 612,
+  "total_events": 10372,
+  "unique_ips": 613,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 103,
-    "bigippot:honeypot-01": 4857,
-    "front:honeypot-01": 5216
+    "bigippot:honeypot-01": 4906,
+    "front:honeypot-01": 5223
   },
   "events_per_day": {
     "2026-08-28": {
@@ -67,9 +67,9 @@
       "total": 1485
     },
     "2026-09-05": {
-      "front:honeypot-01": 41,
-      "bigippot:honeypot-01": 59,
-      "total": 100
+      "front:honeypot-01": 48,
+      "bigippot:honeypot-01": 108,
+      "total": 156
     }
   },
   "top_credentials": [
@@ -163,7 +163,7 @@
     },
     {
       "user_agent": "libredtail-http",
-      "count": 688
+      "count": 737
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -171,12 +171,12 @@
     },
     {
       "user_agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
-      "count": 416
+      "count": 418
     }
   ],
   "method_counts": {
-    "GET": 8803,
-    "POST": 1268,
+    "GET": 8848,
+    "POST": 1279,
     "HEAD": 23,
     "PRI": 8,
     "HEARTBEAT": 6,
@@ -191,7 +191,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 449
+      "count": 453
     },
     {
       "path": "/",
@@ -231,12 +231,12 @@
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 42
+      "count": 43
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 40
+      "count": 41
     },
     {
       "path": "/style.css",
@@ -264,7 +264,7 @@
       "count": 31
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -274,7 +274,7 @@
       "count": 28
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -292,7 +292,7 @@
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 407,
+      "count": 444,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -319,7 +319,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 146,
+      "count": 160,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -365,7 +365,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 559
+    "Critical": 610
   },
   "top_asns": [
     {
@@ -373,7 +373,7 @@
       "name": "Google LLC",
       "country": "TW",
       "ip_count": 43,
-      "event_count": 3092
+      "event_count": 3093
     },
     {
       "asn": "AS8075",
@@ -460,6 +460,13 @@
       "event_count": 94
     },
     {
+      "asn": "AS135377",
+      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+      "country": "US",
+      "ip_count": 8,
+      "event_count": 89
+    },
+    {
       "asn": "AS12876",
       "name": "Scaleway SAS",
       "country": "PL",
@@ -500,18 +507,11 @@
       "country": "US",
       "ip_count": 16,
       "event_count": 54
-    },
-    {
-      "asn": "AS51167",
-      "name": "Contabo GmbH",
-      "country": "FR",
-      "ip_count": 4,
-      "event_count": 52
     }
   ],
   "events_by_country": {
-    "TW": 3092,
-    "US": 2606,
+    "TW": 3093,
+    "US": 2661,
     "NL": 921,
     "GB": 686,
     "DE": 387,
