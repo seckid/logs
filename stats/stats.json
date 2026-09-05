@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T11:01:32.607299Z",
+  "generated_at": "2026-09-05T12:03:02.237401Z",
   "period_days": 90,
-  "total_events": 10466,
-  "unique_ips": 629,
+  "total_events": 10477,
+  "unique_ips": 634,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 103,
-    "bigippot:honeypot-01": 4969,
-    "front:honeypot-01": 5254
+    "bigippot:honeypot-01": 4978,
+    "front:honeypot-01": 5256
   },
   "events_per_day": {
     "2026-08-28": {
@@ -67,9 +67,9 @@
       "total": 1485
     },
     "2026-09-05": {
-      "front:honeypot-01": 79,
-      "bigippot:honeypot-01": 171,
-      "total": 250
+      "front:honeypot-01": 81,
+      "bigippot:honeypot-01": 180,
+      "total": 261
     }
   },
   "top_credentials": [
@@ -175,8 +175,8 @@
     }
   ],
   "method_counts": {
-    "GET": 8925,
-    "POST": 1289,
+    "GET": 8933,
+    "POST": 1291,
     "HEAD": 24,
     "PRI": 8,
     "HEARTBEAT": 6,
@@ -191,17 +191,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 469
+      "count": 471
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 241
+      "count": 246
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 126
+      "count": 127
     },
     {
       "path": "/remote/login",
@@ -216,7 +216,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 53
+      "count": 54
     },
     {
       "path": "/.env",
@@ -279,13 +279,13 @@
       "count": 28
     },
     {
-      "path": "/account",
-      "source": "front:honeypot-01",
-      "count": 25
-    },
-    {
       "path": "/robots.txt",
       "source": "bigippot:honeypot-01",
+      "count": 26
+    },
+    {
+      "path": "/account",
+      "source": "front:honeypot-01",
       "count": 25
     }
   ],
@@ -392,9 +392,9 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "GB",
-      "ip_count": 24,
-      "event_count": 597
+      "country": "US",
+      "ip_count": 25,
+      "event_count": 600
     },
     {
       "asn": "AS142430",
@@ -406,9 +406,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
+      "country": "NL",
       "ip_count": 61,
-      "event_count": 319
+      "event_count": 320
     },
     {
       "asn": "AS202412",
@@ -429,7 +429,7 @@
       "name": "Akamai Connected Cloud",
       "country": "JP",
       "ip_count": 21,
-      "event_count": 142
+      "event_count": 143
     },
     {
       "asn": "AS208137",
@@ -485,7 +485,7 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 51,
-      "event_count": 82
+      "event_count": 83
     },
     {
       "asn": "AS45102",
@@ -502,19 +502,18 @@
       "event_count": 60
     },
     {
-      "asn": "AS31898",
-      "name": "Oracle Corporation",
-      "country": "SG",
-      "ip_count": 4,
-      "event_count": 56
+      "asn": "AS6939",
+      "name": "Hurricane Electric LLC",
+      "country": "US",
+      "ip_count": 20,
+      "event_count": 59
     }
   ],
   "events_by_country": {
-    "US": 5771,
-    "NL": 923,
-    "GB": 692,
+    "US": 6058,
+    "NL": 1243,
     "DE": 390,
-    "JP": 254,
+    "JP": 255,
     "BG": 158,
     "SG": 154,
     "PL": 125,
@@ -522,6 +521,7 @@
     "FI": 106,
     "CH": 99,
     "VN": 98,
+    "GB": 95,
     "FR": 58,
     "LY": 49,
     "CN": 31,
