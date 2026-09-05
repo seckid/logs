@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T19:02:53.760039Z",
+  "generated_at": "2026-09-05T20:01:52.457573Z",
   "period_days": 90,
-  "total_events": 10803,
-  "unique_ips": 655,
+  "total_events": 11080,
+  "unique_ips": 660,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 103,
-    "bigippot:honeypot-01": 5013,
-    "front:honeypot-01": 5547
+    "bigippot:honeypot-01": 5016,
+    "front:honeypot-01": 5821
   },
   "events_per_day": {
     "2026-08-28": {
@@ -67,9 +67,9 @@
       "total": 1485
     },
     "2026-09-05": {
-      "front:honeypot-01": 372,
-      "bigippot:honeypot-01": 215,
-      "total": 587
+      "front:honeypot-01": 646,
+      "bigippot:honeypot-01": 218,
+      "total": 864
     }
   },
   "top_credentials": [
@@ -158,12 +158,12 @@
       "count": 1820
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 865
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 1102
     },
     {
-      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 840
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 865
     },
     {
       "user_agent": "libredtail-http",
@@ -175,9 +175,9 @@
     }
   ],
   "method_counts": {
-    "GET": 9239,
-    "POST": 1300,
-    "HEAD": 26,
+    "GET": 9510,
+    "POST": 1304,
+    "HEAD": 27,
     "PRI": 9,
     "HEARTBEAT": 6,
     "OPTIONS": 5,
@@ -191,7 +191,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 486
+      "count": 495
     },
     {
       "path": "/",
@@ -221,17 +221,17 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 52
+      "count": 53
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 48
+      "count": 49
     },
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 47
+      "count": 48
     },
     {
       "path": "/robots.txt",
@@ -241,15 +241,15 @@
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 37
-    },
-    {
-      "path": "/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 34
+      "count": 38
     },
     {
       "path": "/logo.svg",
+      "source": "front:honeypot-01",
+      "count": 35
+    },
+    {
+      "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 34
     },
@@ -269,12 +269,12 @@
       "count": 28
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -379,22 +379,22 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 53,
-      "event_count": 1265
+      "ip_count": 55,
+      "event_count": 1267
+    },
+    {
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "KR",
+      "ip_count": 27,
+      "event_count": 865
     },
     {
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "ip_count": 15,
-      "event_count": 654
-    },
-    {
-      "asn": "AS16509",
-      "name": "Amazon.com, Inc.",
-      "country": "GB",
-      "ip_count": 26,
-      "event_count": 604
+      "ip_count": 16,
+      "event_count": 655
     },
     {
       "asn": "AS142430",
@@ -446,6 +446,13 @@
       "event_count": 124
     },
     {
+      "asn": "AS12876",
+      "name": "Scaleway SAS",
+      "country": "FR",
+      "ip_count": 13,
+      "event_count": 107
+    },
+    {
       "asn": "AS153622",
       "name": "Madina IT",
       "country": "FI",
@@ -458,13 +465,6 @@
       "country": "CH",
       "ip_count": 2,
       "event_count": 98
-    },
-    {
-      "asn": "AS12876",
-      "name": "Scaleway SAS",
-      "country": "FR",
-      "ip_count": 12,
-      "event_count": 96
     },
     {
       "asn": "AS29244",
@@ -511,15 +511,16 @@
   ],
   "events_by_country": {
     "HK": 3383,
-    "US": 2696,
-    "NL": 928,
-    "GB": 720,
+    "US": 2699,
+    "NL": 929,
+    "KR": 868,
     "DE": 371,
     "JP": 255,
-    "FR": 170,
+    "FR": 181,
     "BG": 164,
     "SG": 154,
     "KZ": 124,
+    "GB": 116,
     "FI": 106,
     "CH": 99,
     "VN": 98,
@@ -537,7 +538,6 @@
     "RO": 5,
     "AE": 4,
     "IN": 3,
-    "KR": 3,
     "LT": 2,
     "MN": 2,
     "AT": 1,
