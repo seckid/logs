@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T01:01:46.464101Z",
+  "generated_at": "2026-09-05T02:03:28.128951Z",
   "period_days": 90,
-  "total_events": 10217,
-  "unique_ips": 601,
+  "total_events": 10228,
+  "unique_ips": 606,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 103,
-    "bigippot:honeypot-01": 4798,
-    "front:honeypot-01": 5176
+    "bigippot:honeypot-01": 4803,
+    "front:honeypot-01": 5182
   },
   "events_per_day": {
     "2026-08-28": {
@@ -67,8 +67,9 @@
       "total": 1485
     },
     "2026-09-05": {
-      "front:honeypot-01": 1,
-      "total": 1
+      "front:honeypot-01": 7,
+      "bigippot:honeypot-01": 5,
+      "total": 12
     }
   },
   "top_credentials": [
@@ -174,7 +175,7 @@
     }
   ],
   "method_counts": {
-    "GET": 8719,
+    "GET": 8727,
     "POST": 1260,
     "HEAD": 22,
     "PRI": 8,
@@ -190,17 +191,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 443
+      "count": 444
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 235
+      "count": 236
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 123
+      "count": 124
     },
     {
       "path": "/remote/login",
@@ -213,29 +214,29 @@
       "count": 98
     },
     {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
-      "count": 50
-    },
-    {
       "path": "/.env",
       "source": "front:honeypot-01",
       "count": 50
     },
     {
       "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
+      "count": 50
+    },
+    {
+      "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 42
+      "count": 43
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 40
+      "count": 42
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 39
+      "count": 40
     },
     {
       "path": "/style.css",
@@ -248,12 +249,12 @@
       "count": 33
     },
     {
-      "path": "/signup",
+      "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 32
     },
     {
-      "path": "/wp-json/batch/v1",
+      "path": "/signup",
       "source": "front:honeypot-01",
       "count": 32
     },
@@ -263,7 +264,7 @@
       "count": 31
     },
     {
-      "path": "/api/auth/signin",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -273,18 +274,18 @@
       "count": 28
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/api/auth/signin",
       "source": "front:honeypot-01",
       "count": 28
     },
     {
-      "path": "/robots.txt",
-      "source": "bigippot:honeypot-01",
+      "path": "/account",
+      "source": "front:honeypot-01",
       "count": 25
     },
     {
-      "path": "/account",
-      "source": "front:honeypot-01",
+      "path": "/robots.txt",
+      "source": "bigippot:honeypot-01",
       "count": 25
     }
   ],
@@ -370,23 +371,23 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "SG",
-      "ip_count": 42,
-      "event_count": 3091
+      "country": "TW",
+      "ip_count": 43,
+      "event_count": 3092
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 50,
-      "event_count": 1260
+      "ip_count": 51,
+      "event_count": 1262
     },
     {
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 15,
-      "event_count": 650
+      "event_count": 651
     },
     {
       "asn": "AS16509",
@@ -476,8 +477,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 48,
-      "event_count": 75
+      "ip_count": 50,
+      "event_count": 78
     },
     {
       "asn": "AS41280",
@@ -509,14 +510,15 @@
     }
   ],
   "events_by_country": {
-    "SG": 3245,
-    "US": 2278,
-    "NL": 1236,
+    "TW": 3092,
+    "US": 2283,
+    "NL": 1238,
     "GB": 685,
-    "DE": 386,
+    "DE": 387,
     "JP": 254,
     "BG": 158,
     "FI": 155,
+    "SG": 154,
     "PL": 125,
     "KZ": 124,
     "VN": 98,
@@ -533,12 +535,12 @@
     "IR": 5,
     "RO": 5,
     "AE": 4,
+    "SE": 4,
     "DK": 3,
     "IN": 3,
     "KR": 3,
     "LT": 2,
     "MN": 2,
-    "SE": 2,
     "AT": 1,
     "AU": 1,
     "BY": 1,
