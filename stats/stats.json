@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T18:00:23.211884Z",
+  "generated_at": "2026-09-05T19:02:53.760039Z",
   "period_days": 90,
-  "total_events": 10793,
-  "unique_ips": 651,
+  "total_events": 10803,
+  "unique_ips": 655,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 103,
-    "bigippot:honeypot-01": 5004,
-    "front:honeypot-01": 5546
+    "bigippot:honeypot-01": 5013,
+    "front:honeypot-01": 5547
   },
   "events_per_day": {
     "2026-08-28": {
@@ -67,9 +67,9 @@
       "total": 1485
     },
     "2026-09-05": {
-      "front:honeypot-01": 371,
-      "bigippot:honeypot-01": 206,
-      "total": 577
+      "front:honeypot-01": 372,
+      "bigippot:honeypot-01": 215,
+      "total": 587
     }
   },
   "top_credentials": [
@@ -175,10 +175,10 @@
     }
   ],
   "method_counts": {
-    "GET": 9232,
+    "GET": 9239,
     "POST": 1300,
-    "HEAD": 25,
-    "PRI": 8,
+    "HEAD": 26,
+    "PRI": 9,
     "HEARTBEAT": 6,
     "OPTIONS": 5,
     "CONNECT": 3,
@@ -191,17 +191,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 485
+      "count": 486
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 252
+      "count": 256
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 131
+      "count": 132
     },
     {
       "path": "/remote/login",
@@ -216,7 +216,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 55
+      "count": 56
     },
     {
       "path": "/.env",
@@ -281,7 +281,7 @@
     {
       "path": "/robots.txt",
       "source": "bigippot:honeypot-01",
-      "count": 26
+      "count": 27
     },
     {
       "path": "/account",
@@ -406,9 +406,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "SG",
-      "ip_count": 62,
-      "event_count": 323
+      "country": "US",
+      "ip_count": 63,
+      "event_count": 324
     },
     {
       "asn": "AS202412",
@@ -511,21 +511,21 @@
   ],
   "events_by_country": {
     "HK": 3383,
-    "US": 2367,
+    "US": 2696,
     "NL": 928,
     "GB": 720,
-    "SG": 477,
     "DE": 371,
     "JP": 255,
     "FR": 170,
-    "BG": 162,
+    "BG": 164,
+    "SG": 154,
     "KZ": 124,
     "FI": 106,
     "CH": 99,
     "VN": 98,
     "LY": 49,
     "PL": 39,
-    "BR": 24,
+    "BR": 25,
     "LU": 24,
     "GR": 21,
     "UA": 20,
@@ -550,6 +550,7 @@
     "KE": 1,
     "MD": 1,
     "RU": 1,
+    "TR": 1,
     "VE": 1
   }
 }
