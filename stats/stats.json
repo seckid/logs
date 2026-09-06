@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T19:04:53.051019Z",
+  "generated_at": "2026-09-06T20:01:33.443048Z",
   "period_days": 90,
-  "total_events": 12704,
-  "unique_ips": 738,
+  "total_events": 12759,
+  "unique_ips": 741,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 104,
-    "bigippot:honeypot-01": 5676,
-    "front:honeypot-01": 6784
+    "bigippot:honeypot-01": 5730,
+    "front:honeypot-01": 6785
   },
   "events_per_day": {
     "2026-08-28": {
@@ -72,10 +72,10 @@
       "total": 965
     },
     "2026-09-06": {
-      "front:honeypot-01": 935,
+      "front:honeypot-01": 936,
       "fortipot:honeypot-01": 1,
-      "bigippot:honeypot-01": 587,
-      "total": 1523
+      "bigippot:honeypot-01": 641,
+      "total": 1578
     }
   },
   "top_credentials": [
@@ -161,7 +161,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 1824
+      "count": 1825
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -173,7 +173,7 @@
     },
     {
       "user_agent": "libredtail-http",
-      "count": 933
+      "count": 981
     },
     {
       "user_agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
@@ -181,8 +181,8 @@
     }
   ],
   "method_counts": {
-    "GET": 11038,
-    "POST": 1359,
+    "GET": 11085,
+    "POST": 1367,
     "HEAD": 28,
     "PRI": 10,
     "HEARTBEAT": 6,
@@ -197,17 +197,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 541
+      "count": 542
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 298
+      "count": 301
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 154
+      "count": 155
     },
     {
       "path": "/remote/login",
@@ -222,7 +222,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 68
+      "count": 69
     },
     {
       "path": "/.env",
@@ -275,7 +275,7 @@
       "count": 30
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -285,7 +285,7 @@
       "count": 28
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -298,7 +298,7 @@
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 592,
+      "count": 629,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -325,7 +325,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 216,
+      "count": 230,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -371,7 +371,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 814
+    "Critical": 865
   },
   "top_asns": [
     {
@@ -385,8 +385,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 58,
-      "event_count": 1272
+      "ip_count": 59,
+      "event_count": 1275
     },
     {
       "asn": "AS16509",
@@ -431,6 +431,13 @@
       "event_count": 299
     },
     {
+      "asn": "AS215540",
+      "name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+      "country": "CH",
+      "ip_count": 2,
+      "event_count": 192
+    },
+    {
       "asn": "AS43350",
       "name": "NForce Entertainment B.V.",
       "country": "NL",
@@ -457,13 +464,6 @@
       "country": "US",
       "ip_count": 24,
       "event_count": 150
-    },
-    {
-      "asn": "AS215540",
-      "name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
-      "country": "CH",
-      "ip_count": 2,
-      "event_count": 147
     },
     {
       "asn": "AS197556",
@@ -496,9 +496,9 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "MY",
-      "ip_count": 16,
-      "event_count": 85
+      "country": "SG",
+      "ip_count": 17,
+      "event_count": 86
     },
     {
       "asn": "AS6939",
@@ -517,21 +517,20 @@
   ],
   "events_by_country": {
     "IN": 3927,
-    "US": 2913,
+    "US": 2916,
     "NL": 1329,
     "CA": 890,
     "DE": 356,
+    "SG": 255,
+    "CH": 193,
     "FR": 193,
     "HK": 176,
-    "SG": 169,
     "BG": 164,
-    "CH": 148,
     "KZ": 124,
     "GB": 107,
     "FI": 106,
     "VN": 98,
-    "BR": 91,
-    "MY": 85,
+    "BR": 94,
     "LY": 49,
     "PL": 39,
     "JP": 33,
