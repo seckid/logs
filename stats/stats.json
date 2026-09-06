@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T13:01:02.304419Z",
+  "generated_at": "2026-09-06T14:01:02.506089Z",
   "period_days": 90,
-  "total_events": 12346,
-  "unique_ips": 721,
+  "total_events": 12355,
+  "unique_ips": 723,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,7 +17,7 @@
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 103,
     "bigippot:honeypot-01": 5503,
-    "front:honeypot-01": 6600
+    "front:honeypot-01": 6609
   },
   "events_per_day": {
     "2026-08-28": {
@@ -73,8 +73,8 @@
     },
     "2026-09-06": {
       "bigippot:honeypot-01": 414,
-      "front:honeypot-01": 751,
-      "total": 1165
+      "front:honeypot-01": 760,
+      "total": 1174
     }
   },
   "top_credentials": [
@@ -160,7 +160,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 1820
+      "count": 1823
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -180,7 +180,7 @@
     }
   ],
   "method_counts": {
-    "GET": 10694,
+    "GET": 10703,
     "POST": 1352,
     "HEAD": 28,
     "PRI": 10,
@@ -196,7 +196,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 529
+      "count": 532
     },
     {
       "path": "/",
@@ -254,13 +254,13 @@
       "count": 36
     },
     {
-      "path": "/wp-json/batch/v1",
-      "source": "front:honeypot-01",
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
       "count": 35
     },
     {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
+      "path": "/wp-json/batch/v1",
+      "source": "front:honeypot-01",
       "count": 35
     },
     {
@@ -279,12 +279,12 @@
       "count": 28
     },
     {
-      "path": "/api/auth/signin",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/api/auth/signin",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -411,9 +411,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "NL",
-      "ip_count": 69,
-      "event_count": 333
+      "country": "US",
+      "ip_count": 70,
+      "event_count": 334
     },
     {
       "asn": "AS208137",
@@ -515,8 +515,8 @@
     }
   ],
   "events_by_country": {
-    "US": 7370,
-    "NL": 1276,
+    "US": 7712,
+    "NL": 943,
     "DE": 541,
     "FR": 193,
     "HK": 173,
