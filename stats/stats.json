@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T09:04:42.423071Z",
+  "generated_at": "2026-09-06T10:03:02.496283Z",
   "period_days": 90,
-  "total_events": 12128,
-  "unique_ips": 700,
+  "total_events": 12242,
+  "unique_ips": 706,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 103,
-    "bigippot:honeypot-01": 5358,
-    "front:honeypot-01": 6527
+    "bigippot:honeypot-01": 5469,
+    "front:honeypot-01": 6530
   },
   "events_per_day": {
     "2026-08-28": {
@@ -72,9 +72,9 @@
       "total": 965
     },
     "2026-09-06": {
-      "bigippot:honeypot-01": 269,
-      "front:honeypot-01": 678,
-      "total": 947
+      "bigippot:honeypot-01": 380,
+      "front:honeypot-01": 681,
+      "total": 1061
     }
   },
   "top_credentials": [
@@ -172,7 +172,7 @@
     },
     {
       "user_agent": "libredtail-http",
-      "count": 884
+      "count": 933
     },
     {
       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -180,10 +180,10 @@
     }
   ],
   "method_counts": {
-    "GET": 10505,
-    "POST": 1344,
+    "GET": 10606,
+    "POST": 1351,
     "HEAD": 28,
-    "PRI": 9,
+    "PRI": 10,
     "HEARTBEAT": 6,
     "OPTIONS": 5,
     "CONNECT": 3,
@@ -196,17 +196,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 523
+      "count": 525
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 276
+      "count": 278
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 145
+      "count": 146
     },
     {
       "path": "/remote/login",
@@ -221,7 +221,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 64
+      "count": 65
     },
     {
       "path": "/.env",
@@ -236,7 +236,7 @@
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 50
+      "count": 51
     },
     {
       "path": "/robots.txt",
@@ -274,11 +274,6 @@
       "count": 29
     },
     {
-      "path": "/blog/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 28
-    },
-    {
       "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
@@ -289,15 +284,20 @@
       "count": 28
     },
     {
-      "path": "/account",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
+      "count": 28
+    },
+    {
+      "path": "/.git/config",
+      "source": "bigippot:honeypot-01",
       "count": 25
     }
   ],
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 555,
+      "count": 592,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -324,7 +324,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 202,
+      "count": 216,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -370,7 +370,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 763
+    "Critical": 814
   },
   "top_asns": [
     {
@@ -411,9 +411,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "SG",
-      "ip_count": 67,
-      "event_count": 330
+      "country": "NL",
+      "ip_count": 69,
+      "event_count": 333
     },
     {
       "asn": "AS208137",
@@ -440,8 +440,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 57,
-      "event_count": 174
+      "ip_count": 58,
+      "event_count": 175
     },
     {
       "asn": "AS135377",
@@ -507,18 +507,18 @@
       "event_count": 77
     },
     {
-      "asn": "AS41280",
-      "name": "SKYNET BULGARIA Ltd.",
-      "country": "BG",
-      "ip_count": 1,
-      "event_count": 60
+      "asn": "AS16276",
+      "name": "OVH SAS",
+      "country": "SG",
+      "ip_count": 16,
+      "event_count": 71
     }
   ],
   "events_by_country": {
-    "US": 6465,
-    "DE": 1448,
-    "NL": 943,
-    "SG": 510,
+    "US": 6472,
+    "DE": 1426,
+    "NL": 1276,
+    "SG": 251,
     "FR": 193,
     "BG": 164,
     "HK": 163,
