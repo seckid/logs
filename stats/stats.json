@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T15:01:22.283344Z",
+  "generated_at": "2026-09-06T16:00:39.726944Z",
   "period_days": 90,
-  "total_events": 12361,
-  "unique_ips": 726,
+  "total_events": 12370,
+  "unique_ips": 733,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 104,
-    "bigippot:honeypot-01": 5506,
-    "front:honeypot-01": 6611
+    "bigippot:honeypot-01": 5513,
+    "front:honeypot-01": 6613
   },
   "events_per_day": {
     "2026-08-28": {
@@ -72,10 +72,10 @@
       "total": 965
     },
     "2026-09-06": {
-      "front:honeypot-01": 762,
+      "front:honeypot-01": 764,
       "fortipot:honeypot-01": 1,
-      "bigippot:honeypot-01": 417,
-      "total": 1180
+      "bigippot:honeypot-01": 424,
+      "total": 1189
     }
   },
   "top_credentials": [
@@ -181,8 +181,8 @@
     }
   ],
   "method_counts": {
-    "GET": 10708,
-    "POST": 1353,
+    "GET": 10714,
+    "POST": 1354,
     "HEAD": 28,
     "PRI": 10,
     "HEARTBEAT": 6,
@@ -197,17 +197,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 534
+      "count": 535
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 287
+      "count": 289
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 151
+      "count": 152
     },
     {
       "path": "/remote/login",
@@ -222,7 +222,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 66
+      "count": 67
     },
     {
       "path": "/.env",
@@ -275,12 +275,12 @@
       "count": 30
     },
     {
-      "path": "/api/auth/signin",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/api/auth/signin",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -290,8 +290,8 @@
       "count": 28
     },
     {
-      "path": "/account",
-      "source": "front:honeypot-01",
+      "path": "/.git/config",
+      "source": "bigippot:honeypot-01",
       "count": 25
     }
   ],
@@ -448,8 +448,8 @@
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
       "country": "HK",
-      "ip_count": 10,
-      "event_count": 150
+      "ip_count": 11,
+      "event_count": 153
     },
     {
       "asn": "AS63949",
@@ -518,9 +518,9 @@
   "events_by_country": {
     "US": 7717,
     "NL": 943,
-    "DE": 541,
+    "DE": 551,
     "FR": 193,
-    "HK": 173,
+    "HK": 176,
     "SG": 169,
     "BG": 164,
     "CH": 148,
@@ -534,16 +534,15 @@
     "PL": 39,
     "JP": 33,
     "LU": 24,
+    "CN": 23,
     "GR": 21,
     "UA": 21,
-    "CN": 19,
     "NO": 18,
     "SE": 9,
-    "TH": 9,
     "RO": 7,
     "AE": 6,
     "IR": 5,
-    "IN": 3,
+    "IN": 4,
     "KR": 3,
     "LT": 2,
     "MN": 2,
