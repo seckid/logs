@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T22:03:22.159673Z",
+  "generated_at": "2026-09-06T23:04:55.016464Z",
   "period_days": 90,
-  "total_events": 12819,
-  "unique_ips": 748,
+  "total_events": 12825,
+  "unique_ips": 753,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,7 +16,7 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 105,
-    "bigippot:honeypot-01": 5785,
+    "bigippot:honeypot-01": 5791,
     "front:honeypot-01": 6789
   },
   "events_per_day": {
@@ -74,8 +74,8 @@
     "2026-09-06": {
       "front:honeypot-01": 940,
       "fortipot:honeypot-01": 2,
-      "bigippot:honeypot-01": 696,
-      "total": 1638
+      "bigippot:honeypot-01": 702,
+      "total": 1644
     }
   },
   "top_credentials": [
@@ -181,7 +181,7 @@
     }
   ],
   "method_counts": {
-    "GET": 11137,
+    "GET": 11143,
     "POST": 1374,
     "HEAD": 28,
     "PRI": 10,
@@ -202,12 +202,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 304
+      "count": 306
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 155
+      "count": 157
     },
     {
       "path": "/remote/login",
@@ -275,7 +275,7 @@
       "count": 31
     },
     {
-      "path": "/api/auth/signin",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -285,7 +285,7 @@
       "count": 28
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/api/auth/signin",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -496,9 +496,9 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "SG",
-      "ip_count": 17,
-      "event_count": 86
+      "country": "US",
+      "ip_count": 21,
+      "event_count": 90
     },
     {
       "asn": "AS6939",
@@ -517,14 +517,14 @@
   ],
   "events_by_country": {
     "IN": 3927,
-    "US": 2920,
-    "NL": 1329,
+    "US": 3010,
+    "NL": 1331,
     "CA": 890,
     "DE": 356,
-    "SG": 255,
     "CH": 193,
     "FR": 193,
     "HK": 176,
+    "SG": 169,
     "BG": 164,
     "KZ": 124,
     "GB": 107,
