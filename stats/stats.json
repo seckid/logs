@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T16:00:39.726944Z",
+  "generated_at": "2026-09-06T17:05:02.450802Z",
   "period_days": 90,
-  "total_events": 12370,
-  "unique_ips": 733,
+  "total_events": 12689,
+  "unique_ips": 734,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 104,
-    "bigippot:honeypot-01": 5513,
-    "front:honeypot-01": 6613
+    "bigippot:honeypot-01": 5662,
+    "front:honeypot-01": 6783
   },
   "events_per_day": {
     "2026-08-28": {
@@ -72,10 +72,10 @@
       "total": 965
     },
     "2026-09-06": {
-      "front:honeypot-01": 764,
+      "front:honeypot-01": 934,
       "fortipot:honeypot-01": 1,
-      "bigippot:honeypot-01": 424,
-      "total": 1189
+      "bigippot:honeypot-01": 573,
+      "total": 1508
     }
   },
   "top_credentials": [
@@ -164,25 +164,25 @@
       "count": 1823
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1142
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 1272
     },
     {
-      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1102
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 1142
     },
     {
       "user_agent": "libredtail-http",
       "count": 933
     },
     {
-      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 573
+      "user_agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+      "count": 620
     }
   ],
   "method_counts": {
-    "GET": 10714,
-    "POST": 1354,
+    "GET": 11028,
+    "POST": 1358,
     "HEAD": 28,
     "PRI": 10,
     "HEARTBEAT": 6,
@@ -197,12 +197,12 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 535
+      "count": 540
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 289
+      "count": 290
     },
     {
       "path": "/tmui/login.jsp",
@@ -227,12 +227,12 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 61
+      "count": 62
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 52
+      "count": 53
     },
     {
       "path": "/favicon.ico",
@@ -250,6 +250,11 @@
       "count": 39
     },
     {
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
+      "count": 36
+    },
+    {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 36
@@ -257,11 +262,6 @@
     {
       "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
-      "count": 35
-    },
-    {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
       "count": 35
     },
     {
@@ -275,7 +275,7 @@
       "count": 30
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -285,14 +285,14 @@
       "count": 28
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
     {
       "path": "/.git/config",
       "source": "bigippot:honeypot-01",
-      "count": 25
+      "count": 26
     }
   ],
   "cve_attempts": [
@@ -410,6 +410,13 @@
       "event_count": 521
     },
     {
+      "asn": "AS202412",
+      "name": "Omegatech LTD",
+      "country": "NL",
+      "ip_count": 5,
+      "event_count": 397
+    },
+    {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
@@ -424,13 +431,6 @@
       "event_count": 299
     },
     {
-      "asn": "AS202412",
-      "name": "Omegatech LTD",
-      "country": "DE",
-      "ip_count": 4,
-      "event_count": 195
-    },
-    {
       "asn": "AS43350",
       "name": "NForce Entertainment B.V.",
       "country": "NL",
@@ -442,7 +442,7 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 58,
-      "event_count": 180
+      "event_count": 181
     },
     {
       "asn": "AS135377",
@@ -516,9 +516,9 @@
     }
   ],
   "events_by_country": {
-    "US": 7717,
-    "NL": 943,
-    "DE": 551,
+    "US": 7718,
+    "NL": 1340,
+    "DE": 356,
     "FR": 193,
     "HK": 176,
     "SG": 169,
