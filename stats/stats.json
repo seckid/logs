@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T01:02:02.224627Z",
+  "generated_at": "2026-09-06T02:04:38.146199Z",
   "period_days": 90,
-  "total_events": 11209,
-  "unique_ips": 677,
+  "total_events": 11219,
+  "unique_ips": 681,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 103,
-    "bigippot:honeypot-01": 5105,
-    "front:honeypot-01": 5861
+    "bigippot:honeypot-01": 5112,
+    "front:honeypot-01": 5864
   },
   "events_per_day": {
     "2026-08-28": {
@@ -72,9 +72,9 @@
       "total": 965
     },
     "2026-09-06": {
-      "bigippot:honeypot-01": 16,
-      "front:honeypot-01": 12,
-      "total": 28
+      "bigippot:honeypot-01": 23,
+      "front:honeypot-01": 15,
+      "total": 38
     }
   },
   "top_credentials": [
@@ -180,7 +180,7 @@
     }
   ],
   "method_counts": {
-    "GET": 9625,
+    "GET": 9634,
     "POST": 1311,
     "HEAD": 27,
     "PRI": 9,
@@ -196,17 +196,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 499
+      "count": 501
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 265
+      "count": 267
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 137
+      "count": 139
     },
     {
       "path": "/remote/login",
@@ -221,7 +221,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 59
+      "count": 61
     },
     {
       "path": "/.env",
@@ -236,7 +236,7 @@
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 48
+      "count": 49
     },
     {
       "path": "/robots.txt",
@@ -412,8 +412,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "DE",
-      "ip_count": 65,
-      "event_count": 326
+      "ip_count": 66,
+      "event_count": 328
     },
     {
       "asn": "AS202412",
@@ -432,16 +432,16 @@
     {
       "asn": "AS63949",
       "name": "Akamai Connected Cloud",
-      "country": "JP",
-      "ip_count": 21,
-      "event_count": 143
+      "country": "US",
+      "ip_count": 22,
+      "event_count": 145
     },
     {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
       "country": "US",
-      "ip_count": 8,
-      "event_count": 138
+      "ip_count": 9,
+      "event_count": 143
     },
     {
       "asn": "AS208137",
@@ -515,20 +515,20 @@
     }
   ],
   "events_by_country": {
-    "US": 5825,
+    "US": 5975,
     "SG": 1103,
     "NL": 941,
-    "DE": 698,
+    "DE": 722,
     "FR": 182,
-    "JP": 176,
     "BG": 164,
     "KZ": 124,
-    "GB": 116,
     "FI": 106,
     "CH": 99,
     "VN": 98,
+    "GB": 95,
     "LY": 49,
     "PL": 39,
+    "JP": 33,
     "BR": 28,
     "LU": 24,
     "GR": 21,
