@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T07:04:32.752575Z",
+  "generated_at": "2026-09-06T08:01:23.764596Z",
   "period_days": 90,
-  "total_events": 12033,
-  "unique_ips": 694,
+  "total_events": 12066,
+  "unique_ips": 698,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 103,
-    "bigippot:honeypot-01": 5288,
-    "front:honeypot-01": 6502
+    "bigippot:honeypot-01": 5297,
+    "front:honeypot-01": 6526
   },
   "events_per_day": {
     "2026-08-28": {
@@ -72,9 +72,9 @@
       "total": 965
     },
     "2026-09-06": {
-      "bigippot:honeypot-01": 199,
-      "front:honeypot-01": 653,
-      "total": 852
+      "bigippot:honeypot-01": 208,
+      "front:honeypot-01": 677,
+      "total": 885
     }
   },
   "top_credentials": [
@@ -180,8 +180,8 @@
     }
   ],
   "method_counts": {
-    "GET": 10436,
-    "POST": 1322,
+    "GET": 10453,
+    "POST": 1336,
     "HEAD": 28,
     "PRI": 9,
     "HEARTBEAT": 6,
@@ -196,17 +196,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 519
+      "count": 522
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 271
+      "count": 274
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 141
+      "count": 143
     },
     {
       "path": "/remote/login",
@@ -221,12 +221,12 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 61
+      "count": 62
     },
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 60
+      "count": 61
     },
     {
       "path": "/.git/config",
@@ -254,13 +254,13 @@
       "count": 36
     },
     {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
+      "path": "/wp-json/batch/v1",
+      "source": "front:honeypot-01",
       "count": 35
     },
     {
-      "path": "/wp-json/batch/v1",
-      "source": "front:honeypot-01",
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
       "count": 35
     },
     {
@@ -271,7 +271,7 @@
     {
       "path": "/robots.txt",
       "source": "bigippot:honeypot-01",
-      "count": 28
+      "count": 29
     },
     {
       "path": "/api/auth/signin",
@@ -390,9 +390,9 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "SG",
-      "ip_count": 27,
-      "event_count": 867
+      "country": "GB",
+      "ip_count": 28,
+      "event_count": 883
     },
     {
       "asn": "AS48090",
@@ -441,14 +441,14 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 57,
-      "event_count": 172
+      "event_count": 173
     },
     {
       "asn": "AS63949",
       "name": "Akamai Connected Cloud",
       "country": "US",
-      "ip_count": 23,
-      "event_count": 149
+      "ip_count": 24,
+      "event_count": 150
     },
     {
       "asn": "AS135377",
@@ -515,18 +515,18 @@
     }
   ],
   "events_by_country": {
-    "US": 6603,
-    "SG": 1377,
+    "US": 6607,
+    "GB": 978,
     "NL": 943,
     "DE": 563,
+    "SG": 510,
     "FR": 193,
     "BG": 164,
     "KZ": 124,
     "FI": 106,
     "CH": 99,
     "VN": 98,
-    "GB": 95,
-    "BR": 85,
+    "BR": 86,
     "LY": 49,
     "PL": 39,
     "JP": 33,
@@ -538,9 +538,9 @@
     "HK": 13,
     "SE": 9,
     "TH": 9,
+    "AE": 6,
     "IR": 5,
     "RO": 5,
-    "AE": 4,
     "IN": 3,
     "KR": 3,
     "LT": 2,
