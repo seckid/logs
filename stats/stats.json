@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T17:05:02.450802Z",
+  "generated_at": "2026-09-06T18:00:42.417456Z",
   "period_days": 90,
-  "total_events": 12689,
-  "unique_ips": 734,
+  "total_events": 12697,
+  "unique_ips": 736,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 104,
-    "bigippot:honeypot-01": 5662,
-    "front:honeypot-01": 6783
+    "bigippot:honeypot-01": 5669,
+    "front:honeypot-01": 6784
   },
   "events_per_day": {
     "2026-08-28": {
@@ -72,10 +72,10 @@
       "total": 965
     },
     "2026-09-06": {
-      "front:honeypot-01": 934,
+      "front:honeypot-01": 935,
       "fortipot:honeypot-01": 1,
-      "bigippot:honeypot-01": 573,
-      "total": 1508
+      "bigippot:honeypot-01": 580,
+      "total": 1516
     }
   },
   "top_credentials": [
@@ -181,15 +181,15 @@
     }
   ],
   "method_counts": {
-    "GET": 11028,
+    "GET": 11035,
     "POST": 1358,
     "HEAD": 28,
     "PRI": 10,
     "HEARTBEAT": 6,
     "OPTIONS": 5,
+    "PROPFIND": 4,
     "CONNECT": 3,
     "SSTP_DUPLEX_POST": 3,
-    "PROPFIND": 3,
     "T3": 2,
     "FOX": 1
   },
@@ -197,17 +197,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 540
+      "count": 541
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 290
+      "count": 295
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 152
+      "count": 153
     },
     {
       "path": "/remote/login",
@@ -222,7 +222,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 67
+      "count": 68
     },
     {
       "path": "/.env",
@@ -421,7 +421,7 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "ip_count": 71,
-      "event_count": 337
+      "event_count": 338
     },
     {
       "asn": "AS208137",
@@ -516,8 +516,8 @@
     }
   ],
   "events_by_country": {
-    "US": 7718,
-    "NL": 1340,
+    "US": 7719,
+    "NL": 1329,
     "DE": 356,
     "FR": 193,
     "HK": 176,
@@ -528,7 +528,7 @@
     "GB": 107,
     "FI": 106,
     "VN": 98,
-    "BR": 88,
+    "BR": 91,
     "MY": 85,
     "LY": 49,
     "PL": 39,
@@ -537,7 +537,8 @@
     "CN": 23,
     "GR": 21,
     "UA": 21,
-    "NO": 18,
+    "NO": 19,
+    "TR": 15,
     "SE": 9,
     "RO": 7,
     "AE": 6,
@@ -556,7 +557,6 @@
     "IT": 1,
     "KE": 1,
     "MD": 1,
-    "TR": 1,
     "VE": 1
   }
 }
