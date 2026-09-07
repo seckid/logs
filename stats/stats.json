@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-07T06:01:41.315103Z",
+  "generated_at": "2026-09-07T07:04:42.144466Z",
   "period_days": 90,
-  "total_events": 13535,
-  "unique_ips": 768,
+  "total_events": 13657,
+  "unique_ips": 776,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 105,
-    "bigippot:honeypot-01": 6487,
-    "front:honeypot-01": 6803
+    "bigippot:honeypot-01": 6608,
+    "front:honeypot-01": 6804
   },
   "events_per_day": {
     "2026-08-28": {
@@ -78,9 +78,9 @@
       "total": 1654
     },
     "2026-09-07": {
-      "bigippot:honeypot-01": 690,
-      "front:honeypot-01": 10,
-      "total": 700
+      "bigippot:honeypot-01": 811,
+      "front:honeypot-01": 11,
+      "total": 822
     }
   },
   "top_credentials": [
@@ -199,8 +199,8 @@
     }
   ],
   "method_counts": {
-    "GET": 11819,
-    "POST": 1400,
+    "GET": 11938,
+    "POST": 1401,
     "HEAD": 28,
     "PRI": 10,
     "PROPFIND": 8,
@@ -215,17 +215,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 548
+      "count": 549
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 330
+      "count": 334
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 164
+      "count": 165
     },
     {
       "path": "/remote/login",
@@ -270,7 +270,7 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 37
+      "count": 38
     },
     {
       "path": "/logo.svg",
@@ -293,12 +293,12 @@
       "count": 32
     },
     {
-      "path": "/api/auth/signin",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/api/auth/signin",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -395,23 +395,23 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
-      "ip_count": 55,
-      "event_count": 4398
+      "country": "TW",
+      "ip_count": 58,
+      "event_count": 4466
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 59,
-      "event_count": 1276
+      "ip_count": 60,
+      "event_count": 1277
     },
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "IN",
+      "country": "US",
       "ip_count": 32,
-      "event_count": 894
+      "event_count": 895
     },
     {
       "asn": "AS48090",
@@ -534,15 +534,14 @@
     }
   ],
   "events_by_country": {
-    "BE": 4398,
-    "US": 3016,
-    "NL": 1371,
-    "IN": 898,
-    "DE": 356,
+    "TW": 4466,
+    "US": 3913,
+    "NL": 1340,
+    "DE": 389,
     "CH": 193,
     "FR": 193,
     "HK": 176,
-    "SG": 169,
+    "SG": 171,
     "BG": 164,
     "GB": 124,
     "KZ": 124,
@@ -563,6 +562,7 @@
     "RO": 7,
     "AE": 6,
     "IR": 5,
+    "IN": 4,
     "AT": 3,
     "KR": 3,
     "LT": 2,
