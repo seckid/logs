@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-07T08:02:02.474967Z",
+  "generated_at": "2026-09-07T09:03:23.672056Z",
   "period_days": 90,
-  "total_events": 13944,
-  "unique_ips": 778,
+  "total_events": 13990,
+  "unique_ips": 781,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,8 +17,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 106,
-    "bigippot:honeypot-01": 6616,
-    "sshppot:honeypot-01": 1,
+    "bigippot:honeypot-01": 6621,
+    "sshppot:honeypot-01": 42,
     "front:honeypot-01": 7081
   },
   "events_per_day": {
@@ -80,14 +80,19 @@
       "total": 1654
     },
     "2026-09-07": {
-      "sshppot:honeypot-01": 1,
-      "bigippot:honeypot-01": 819,
+      "sshppot:honeypot-01": 42,
+      "bigippot:honeypot-01": 824,
       "front:honeypot-01": 288,
       "fortipot:honeypot-01": 1,
-      "total": 1109
+      "total": 1155
     }
   },
   "top_credentials": [
+    {
+      "username": "ops",
+      "password": "(empty)",
+      "count": 41
+    },
     {
       "username": "admin",
       "password": "admin",
@@ -126,6 +131,10 @@
   ],
   "top_usernames": [
     {
+      "username": "ops",
+      "count": 41
+    },
+    {
       "username": "admin",
       "count": 3
     },
@@ -152,6 +161,10 @@
   ],
   "top_passwords": [
     {
+      "password": "(empty)",
+      "count": 42
+    },
+    {
       "password": "admin",
       "count": 2
     },
@@ -173,10 +186,6 @@
     },
     {
       "password": "wrong",
-      "count": 1
-    },
-    {
-      "password": "(empty)",
       "count": 1
     }
   ],
@@ -203,17 +212,18 @@
     }
   ],
   "method_counts": {
-    "GET": 12212,
+    "GET": 12215,
     "POST": 1405,
+    "SSH": 41,
     "HEAD": 28,
     "PRI": 10,
     "PROPFIND": 9,
     "HEARTBEAT": 8,
-    "OPTIONS": 5,
-    "CONNECT": 3,
+    "OPTIONS": 6,
     "SSTP_DUPLEX_POST": 3,
-    "{\"PARAMS\":": 2,
+    "CONNECT": 3,
     "T3": 2,
+    "{\"PARAMS\":": 2,
     "FOX": 1,
     "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"BLUE1\",\"PASS\":\"X\",\"AGENT\":\"WINDOWS": 1
   },
@@ -226,12 +236,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 336
+      "count": 338
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 165
+      "count": 166
     },
     {
       "path": "/remote/login",
@@ -289,17 +299,17 @@
       "count": 35
     },
     {
-      "path": "/robots.txt",
-      "source": "bigippot:honeypot-01",
-      "count": 32
-    },
-    {
       "path": "/signup",
       "source": "front:honeypot-01",
       "count": 32
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/robots.txt",
+      "source": "bigippot:honeypot-01",
+      "count": 32
+    },
+    {
+      "path": "/api/auth/signin",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -309,7 +319,7 @@
       "count": 28
     },
     {
-      "path": "/api/auth/signin",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -401,9 +411,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "JP",
-      "ip_count": 59,
-      "event_count": 4742
+      "country": "US",
+      "ip_count": 60,
+      "event_count": 4743
     },
     {
       "asn": "AS8075",
@@ -486,8 +496,8 @@
       "asn": "AS63949",
       "name": "Akamai Connected Cloud",
       "country": "US",
-      "ip_count": 24,
-      "event_count": 150
+      "ip_count": 25,
+      "event_count": 151
     },
     {
       "asn": "AS197556",
@@ -540,23 +550,23 @@
     }
   ],
   "events_by_country": {
-    "JP": 4775,
-    "US": 3913,
+    "US": 8657,
     "NL": 1340,
     "DE": 389,
+    "SG": 232,
     "CH": 193,
     "FR": 193,
     "HK": 182,
-    "SG": 171,
     "BG": 164,
     "GB": 124,
     "KZ": 124,
     "FI": 106,
     "VN": 98,
-    "BR": 96,
     "LY": 49,
     "PK": 49,
     "PL": 39,
+    "BR": 38,
+    "JP": 33,
     "CN": 27,
     "TR": 26,
     "LU": 24,
