@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-07T05:05:00.289354Z",
+  "generated_at": "2026-09-07T06:01:41.315103Z",
   "period_days": 90,
-  "total_events": 13495,
-  "unique_ips": 765,
+  "total_events": 13535,
+  "unique_ips": 768,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,8 +16,8 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 105,
-    "bigippot:honeypot-01": 6449,
-    "front:honeypot-01": 6801
+    "bigippot:honeypot-01": 6487,
+    "front:honeypot-01": 6803
   },
   "events_per_day": {
     "2026-08-28": {
@@ -78,9 +78,9 @@
       "total": 1654
     },
     "2026-09-07": {
-      "bigippot:honeypot-01": 652,
-      "front:honeypot-01": 8,
-      "total": 660
+      "bigippot:honeypot-01": 690,
+      "front:honeypot-01": 10,
+      "total": 700
     }
   },
   "top_credentials": [
@@ -187,7 +187,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1142
+      "count": 1171
     },
     {
       "user_agent": "libredtail-http",
@@ -199,11 +199,11 @@
     }
   ],
   "method_counts": {
-    "GET": 11795,
-    "POST": 1387,
+    "GET": 11819,
+    "POST": 1400,
     "HEAD": 28,
     "PRI": 10,
-    "PROPFIND": 7,
+    "PROPFIND": 8,
     "HEARTBEAT": 6,
     "OPTIONS": 5,
     "CONNECT": 3,
@@ -220,17 +220,17 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 321
+      "count": 330
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 162
+      "count": 164
     },
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 99
+      "count": 100
     },
     {
       "path": "/remote/logincheck",
@@ -255,7 +255,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 52
+      "count": 53
     },
     {
       "path": "/favicon.ico",
@@ -268,13 +268,13 @@
       "count": 40
     },
     {
-      "path": "/logo.svg",
-      "source": "front:honeypot-01",
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
       "count": 37
     },
     {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
+      "path": "/logo.svg",
+      "source": "front:honeypot-01",
       "count": 37
     },
     {
@@ -283,14 +283,14 @@
       "count": 35
     },
     {
-      "path": "/signup",
-      "source": "front:honeypot-01",
+      "path": "/robots.txt",
+      "source": "bigippot:honeypot-01",
       "count": 32
     },
     {
-      "path": "/robots.txt",
-      "source": "bigippot:honeypot-01",
-      "count": 31
+      "path": "/signup",
+      "source": "front:honeypot-01",
+      "count": 32
     },
     {
       "path": "/api/auth/signin",
@@ -298,12 +298,12 @@
       "count": 28
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -395,9 +395,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "JP",
-      "ip_count": 54,
-      "event_count": 4397
+      "country": "BE",
+      "ip_count": 55,
+      "event_count": 4398
     },
     {
       "asn": "AS8075",
@@ -417,8 +417,8 @@
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "ip_count": 16,
-      "event_count": 655
+      "ip_count": 17,
+      "event_count": 656
     },
     {
       "asn": "AS142430",
@@ -467,7 +467,7 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 61,
-      "event_count": 184
+      "event_count": 185
     },
     {
       "asn": "AS135377",
@@ -534,9 +534,9 @@
     }
   ],
   "events_by_country": {
-    "JP": 4430,
-    "US": 3015,
-    "NL": 1338,
+    "BE": 4398,
+    "US": 3016,
+    "NL": 1371,
     "IN": 898,
     "DE": 356,
     "CH": 193,
@@ -548,16 +548,17 @@
     "KZ": 124,
     "FI": 106,
     "VN": 98,
-    "BR": 94,
+    "BR": 96,
     "LY": 49,
     "PK": 49,
     "PL": 39,
+    "JP": 33,
     "CN": 27,
     "LU": 24,
-    "TR": 22,
+    "TR": 24,
     "GR": 21,
+    "NO": 21,
     "UA": 21,
-    "NO": 20,
     "SE": 9,
     "RO": 7,
     "AE": 6,
