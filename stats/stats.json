@@ -1,23 +1,25 @@
 {
-  "generated_at": "2026-09-07T07:04:42.144466Z",
+  "generated_at": "2026-09-07T08:02:02.474967Z",
   "period_days": 90,
-  "total_events": 13657,
-  "unique_ips": 776,
+  "total_events": 13944,
+  "unique_ips": 778,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
     "fortipot:honeypot-01",
     "front:honeypot-01",
     "ivantipot:honeypot-01",
-    "sharepointpot:honeypot-01"
+    "sharepointpot:honeypot-01",
+    "sshppot:honeypot-01"
   ],
   "totals_by_source": {
     "ivantipot:honeypot-01": 8,
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
-    "fortipot:honeypot-01": 105,
-    "bigippot:honeypot-01": 6608,
-    "front:honeypot-01": 6804
+    "fortipot:honeypot-01": 106,
+    "bigippot:honeypot-01": 6616,
+    "sshppot:honeypot-01": 1,
+    "front:honeypot-01": 7081
   },
   "events_per_day": {
     "2026-08-28": {
@@ -27,43 +29,43 @@
     },
     "2026-08-30": {
       "bigippot:honeypot-01": 745,
-      "front:honeypot-01": 616,
       "fortipot:honeypot-01": 8,
+      "front:honeypot-01": 616,
       "total": 1369
     },
     "2026-08-31": {
       "centrestackpot:honeypot-01": 48,
+      "front:honeypot-01": 1532,
+      "sharepointpot:honeypot-01": 6,
       "bigippot:honeypot-01": 211,
       "fortipot:honeypot-01": 8,
-      "sharepointpot:honeypot-01": 6,
-      "front:honeypot-01": 1532,
       "total": 1805
     },
     "2026-09-01": {
       "fortipot:honeypot-01": 15,
-      "front:honeypot-01": 562,
       "bigippot:honeypot-01": 937,
+      "front:honeypot-01": 562,
       "total": 1514
     },
     "2026-09-02": {
-      "front:honeypot-01": 903,
-      "bigippot:honeypot-01": 974,
-      "ivantipot:honeypot-01": 8,
-      "sharepointpot:honeypot-01": 6,
       "fortipot:honeypot-01": 67,
       "centrestackpot:honeypot-01": 72,
+      "sharepointpot:honeypot-01": 6,
+      "front:honeypot-01": 903,
+      "ivantipot:honeypot-01": 8,
+      "bigippot:honeypot-01": 974,
       "total": 2030
     },
     "2026-09-03": {
-      "bigippot:honeypot-01": 761,
       "front:honeypot-01": 394,
+      "bigippot:honeypot-01": 761,
       "fortipot:honeypot-01": 2,
       "total": 1157
     },
     "2026-09-04": {
       "fortipot:honeypot-01": 3,
-      "front:honeypot-01": 346,
       "bigippot:honeypot-01": 1136,
+      "front:honeypot-01": 346,
       "total": 1485
     },
     "2026-09-05": {
@@ -73,14 +75,16 @@
     },
     "2026-09-06": {
       "fortipot:honeypot-01": 2,
-      "front:honeypot-01": 944,
       "bigippot:honeypot-01": 708,
+      "front:honeypot-01": 944,
       "total": 1654
     },
     "2026-09-07": {
-      "bigippot:honeypot-01": 811,
-      "front:honeypot-01": 11,
-      "total": 822
+      "sshppot:honeypot-01": 1,
+      "bigippot:honeypot-01": 819,
+      "front:honeypot-01": 288,
+      "fortipot:honeypot-01": 1,
+      "total": 1109
     }
   },
   "top_credentials": [
@@ -182,12 +186,12 @@
       "count": 1828
     },
     {
-      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1272
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 1447
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1171
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 1272
     },
     {
       "user_agent": "libredtail-http",
@@ -199,28 +203,30 @@
     }
   ],
   "method_counts": {
-    "GET": 11938,
-    "POST": 1401,
+    "GET": 12212,
+    "POST": 1405,
     "HEAD": 28,
     "PRI": 10,
-    "PROPFIND": 8,
-    "HEARTBEAT": 6,
+    "PROPFIND": 9,
+    "HEARTBEAT": 8,
     "OPTIONS": 5,
     "CONNECT": 3,
     "SSTP_DUPLEX_POST": 3,
+    "{\"PARAMS\":": 2,
     "T3": 2,
-    "FOX": 1
+    "FOX": 1,
+    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"BLUE1\",\"PASS\":\"X\",\"AGENT\":\"WINDOWS": 1
   },
   "top_paths": [
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 549
+      "count": 555
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 334
+      "count": 336
     },
     {
       "path": "/tmui/login.jsp",
@@ -245,12 +251,12 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 63
+      "count": 64
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 54
+      "count": 55
     },
     {
       "path": "/robots.txt",
@@ -298,12 +304,12 @@
       "count": 28
     },
     {
-      "path": "/api/auth/signin",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/api/auth/signin",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -395,9 +401,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
-      "ip_count": 58,
-      "event_count": 4466
+      "country": "JP",
+      "ip_count": 59,
+      "event_count": 4742
     },
     {
       "asn": "AS8075",
@@ -473,8 +479,8 @@
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
       "country": "HK",
-      "ip_count": 11,
-      "event_count": 153
+      "ip_count": 12,
+      "event_count": 159
     },
     {
       "asn": "AS63949",
@@ -534,13 +540,13 @@
     }
   ],
   "events_by_country": {
-    "TW": 4466,
+    "JP": 4775,
     "US": 3913,
     "NL": 1340,
     "DE": 389,
     "CH": 193,
     "FR": 193,
-    "HK": 176,
+    "HK": 182,
     "SG": 171,
     "BG": 164,
     "GB": 124,
@@ -551,10 +557,9 @@
     "LY": 49,
     "PK": 49,
     "PL": 39,
-    "JP": 33,
     "CN": 27,
+    "TR": 26,
     "LU": 24,
-    "TR": 24,
     "GR": 21,
     "NO": 21,
     "UA": 21,
