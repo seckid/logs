@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-07T03:03:02.160554Z",
+  "generated_at": "2026-09-07T04:04:02.164633Z",
   "period_days": 90,
-  "total_events": 12863,
-  "unique_ips": 762,
+  "total_events": 13487,
+  "unique_ips": 763,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,7 +16,7 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 105,
-    "bigippot:honeypot-01": 5824,
+    "bigippot:honeypot-01": 6448,
     "front:honeypot-01": 6794
   },
   "events_per_day": {
@@ -78,9 +78,9 @@
       "total": 1654
     },
     "2026-09-07": {
-      "bigippot:honeypot-01": 27,
+      "bigippot:honeypot-01": 651,
       "front:honeypot-01": 1,
-      "total": 28
+      "total": 652
     }
   },
   "top_credentials": [
@@ -199,8 +199,8 @@
     }
   ],
   "method_counts": {
-    "GET": 11176,
-    "POST": 1375,
+    "GET": 11787,
+    "POST": 1387,
     "HEAD": 28,
     "PRI": 10,
     "PROPFIND": 7,
@@ -220,12 +220,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 318
+      "count": 320
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 160
+      "count": 162
     },
     {
       "path": "/remote/login",
@@ -268,14 +268,14 @@
       "count": 40
     },
     {
-      "path": "/logo.svg",
-      "source": "front:honeypot-01",
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
       "count": 37
     },
     {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
-      "count": 36
+      "path": "/logo.svg",
+      "source": "front:honeypot-01",
+      "count": 37
     },
     {
       "path": "/wp-json/batch/v1",
@@ -293,7 +293,7 @@
       "count": 31
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/api/auth/signin",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -303,14 +303,14 @@
       "count": 28
     },
     {
-      "path": "/api/auth/signin",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
     {
       "path": "/.git/config",
       "source": "bigippot:honeypot-01",
-      "count": 26
+      "count": 27
     }
   ],
   "cve_attempts": [
@@ -395,9 +395,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "IN",
-      "ip_count": 53,
-      "event_count": 3924
+      "country": "JP",
+      "ip_count": 54,
+      "event_count": 4397
     },
     {
       "asn": "AS8075",
@@ -534,9 +534,9 @@
     }
   ],
   "events_by_country": {
-    "IN": 3928,
+    "JP": 4430,
     "US": 3013,
-    "NL": 1335,
+    "NL": 1336,
     "CA": 890,
     "DE": 356,
     "CH": 193,
@@ -552,7 +552,6 @@
     "LY": 49,
     "PK": 49,
     "PL": 39,
-    "JP": 33,
     "CN": 27,
     "LU": 24,
     "TR": 22,
@@ -563,6 +562,7 @@
     "RO": 7,
     "AE": 6,
     "IR": 5,
+    "IN": 4,
     "AT": 3,
     "KR": 3,
     "LT": 2,
