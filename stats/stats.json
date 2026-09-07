@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-07T00:04:55.558250Z",
+  "generated_at": "2026-09-07T01:00:02.174588Z",
   "period_days": 90,
-  "total_events": 12835,
-  "unique_ips": 758,
+  "total_events": 12857,
+  "unique_ips": 761,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,7 +16,7 @@
     "centrestackpot:honeypot-01": 120,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 105,
-    "bigippot:honeypot-01": 5797,
+    "bigippot:honeypot-01": 5819,
     "front:honeypot-01": 6793
   },
   "events_per_day": {
@@ -26,32 +26,32 @@
       "total": 856
     },
     "2026-08-30": {
-      "fortipot:honeypot-01": 8,
       "bigippot:honeypot-01": 745,
+      "fortipot:honeypot-01": 8,
       "front:honeypot-01": 616,
       "total": 1369
     },
     "2026-08-31": {
+      "centrestackpot:honeypot-01": 48,
       "front:honeypot-01": 1532,
       "sharepointpot:honeypot-01": 6,
-      "centrestackpot:honeypot-01": 48,
       "fortipot:honeypot-01": 8,
       "bigippot:honeypot-01": 211,
       "total": 1805
     },
     "2026-09-01": {
-      "front:honeypot-01": 562,
       "fortipot:honeypot-01": 15,
+      "front:honeypot-01": 562,
       "bigippot:honeypot-01": 937,
       "total": 1514
     },
     "2026-09-02": {
-      "fortipot:honeypot-01": 67,
-      "bigippot:honeypot-01": 974,
-      "centrestackpot:honeypot-01": 72,
       "ivantipot:honeypot-01": 8,
       "sharepointpot:honeypot-01": 6,
+      "bigippot:honeypot-01": 974,
       "front:honeypot-01": 903,
+      "fortipot:honeypot-01": 67,
+      "centrestackpot:honeypot-01": 72,
       "total": 2030
     },
     "2026-09-03": {
@@ -61,9 +61,9 @@
       "total": 1157
     },
     "2026-09-04": {
-      "bigippot:honeypot-01": 1136,
       "fortipot:honeypot-01": 3,
       "front:honeypot-01": 346,
+      "bigippot:honeypot-01": 1136,
       "total": 1485
     },
     "2026-09-05": {
@@ -76,6 +76,10 @@
       "fortipot:honeypot-01": 2,
       "bigippot:honeypot-01": 708,
       "total": 1654
+    },
+    "2026-09-07": {
+      "bigippot:honeypot-01": 22,
+      "total": 22
     }
   },
   "top_credentials": [
@@ -174,7 +178,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 1825
+      "count": 1828
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -194,13 +198,13 @@
     }
   ],
   "method_counts": {
-    "GET": 11150,
+    "GET": 11171,
     "POST": 1375,
     "HEAD": 28,
     "PRI": 10,
     "HEARTBEAT": 6,
+    "PROPFIND": 6,
     "OPTIONS": 5,
-    "PROPFIND": 5,
     "CONNECT": 3,
     "SSTP_DUPLEX_POST": 3,
     "T3": 2,
@@ -215,12 +219,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 308
+      "count": 314
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 158
+      "count": 159
     },
     {
       "path": "/remote/login",
@@ -235,7 +239,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 71
+      "count": 72
     },
     {
       "path": "/.env",
@@ -288,17 +292,17 @@
       "count": 31
     },
     {
-      "path": "/api/auth/signin",
-      "source": "front:honeypot-01",
-      "count": 28
-    },
-    {
       "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
     {
       "path": "/blog/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 28
+    },
+    {
+      "path": "/api/auth/signin",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -517,8 +521,8 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "ip_count": 25,
-      "event_count": 77
+      "ip_count": 26,
+      "event_count": 87
     },
     {
       "asn": "AS16276",
@@ -530,8 +534,8 @@
   ],
   "events_by_country": {
     "IN": 3928,
-    "US": 2675,
-    "NL": 1332,
+    "US": 2685,
+    "NL": 1335,
     "CA": 890,
     "DE": 697,
     "CH": 193,
@@ -548,12 +552,12 @@
     "PK": 49,
     "PL": 39,
     "JP": 33,
+    "CN": 27,
     "LU": 24,
-    "CN": 23,
     "GR": 21,
     "UA": 21,
     "NO": 20,
-    "TR": 18,
+    "TR": 20,
     "SE": 9,
     "RO": 7,
     "AE": 6,
