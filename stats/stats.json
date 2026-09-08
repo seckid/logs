@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-08T13:01:02.309733Z",
+  "generated_at": "2026-09-08T14:01:02.513416Z",
   "period_days": 90,
-  "total_events": 14122,
-  "unique_ips": 789,
+  "total_events": 14401,
+  "unique_ips": 790,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -19,7 +19,7 @@
     "fortipot:honeypot-01": 106,
     "bigippot:honeypot-01": 6624,
     "sshppot:honeypot-01": 44,
-    "front:honeypot-01": 7208
+    "front:honeypot-01": 7487
   },
   "events_per_day": {
     "2026-08-28": {
@@ -87,9 +87,9 @@
       "total": 1158
     },
     "2026-09-08": {
-      "front:honeypot-01": 127,
+      "front:honeypot-01": 406,
       "sshppot:honeypot-01": 2,
-      "total": 129
+      "total": 408
     }
   },
   "top_credentials": [
@@ -201,7 +201,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1447
+      "count": 1724
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -217,8 +217,8 @@
     }
   ],
   "method_counts": {
-    "GET": 12344,
-    "POST": 1405,
+    "GET": 12619,
+    "POST": 1409,
     "SSH": 43,
     "HEAD": 28,
     "PROPFIND": 10,
@@ -236,7 +236,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 570
+      "count": 578
     },
     {
       "path": "/",
@@ -266,17 +266,17 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 64
+      "count": 65
+    },
+    {
+      "path": "/.git/config",
+      "source": "front:honeypot-01",
+      "count": 56
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
       "count": 56
-    },
-    {
-      "path": "/.git/config",
-      "source": "front:honeypot-01",
-      "count": 55
     },
     {
       "path": "/favicon.ico",
@@ -304,13 +304,13 @@
       "count": 35
     },
     {
-      "path": "/robots.txt",
-      "source": "bigippot:honeypot-01",
+      "path": "/signup",
+      "source": "front:honeypot-01",
       "count": 32
     },
     {
-      "path": "/signup",
-      "source": "front:honeypot-01",
+      "path": "/robots.txt",
+      "source": "bigippot:honeypot-01",
       "count": 32
     },
     {
@@ -319,12 +319,12 @@
       "count": 28
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -416,9 +416,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
-      "ip_count": 60,
-      "event_count": 4743
+      "country": "JP",
+      "ip_count": 61,
+      "event_count": 5020
     },
     {
       "asn": "AS8075",
@@ -551,11 +551,12 @@
       "name": "OVH SAS",
       "country": "CA",
       "ip_count": 18,
-      "event_count": 75
+      "event_count": 76
     }
   ],
   "events_by_country": {
-    "US": 8659,
+    "JP": 5059,
+    "US": 3917,
     "NL": 945,
     "DE": 777,
     "FR": 204,
@@ -567,11 +568,10 @@
     "KZ": 124,
     "FI": 106,
     "VN": 98,
-    "CA": 75,
+    "CA": 76,
     "LY": 49,
     "PK": 49,
     "BR": 40,
-    "JP": 39,
     "PL": 39,
     "TR": 28,
     "CN": 27,
