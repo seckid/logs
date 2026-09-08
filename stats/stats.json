@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-08T17:03:50.386907Z",
+  "generated_at": "2026-09-08T18:03:52.167743Z",
   "period_days": 90,
-  "total_events": 14823,
-  "unique_ips": 792,
+  "total_events": 14832,
+  "unique_ips": 794,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -19,7 +19,7 @@
     "fortipot:honeypot-01": 106,
     "bigippot:honeypot-01": 6624,
     "sshppot:honeypot-01": 44,
-    "front:honeypot-01": 7909
+    "front:honeypot-01": 7918
   },
   "events_per_day": {
     "2026-08-28": {
@@ -87,9 +87,9 @@
       "total": 1158
     },
     "2026-09-08": {
-      "front:honeypot-01": 828,
+      "front:honeypot-01": 837,
       "sshppot:honeypot-01": 2,
-      "total": 830
+      "total": 839
     }
   },
   "top_credentials": [
@@ -217,8 +217,8 @@
     }
   ],
   "method_counts": {
-    "GET": 12714,
-    "POST": 1736,
+    "GET": 12722,
+    "POST": 1737,
     "SSH": 43,
     "HEAD": 28,
     "PROPFIND": 10,
@@ -236,7 +236,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 590
+      "count": 593
     },
     {
       "path": "/",
@@ -291,20 +291,20 @@
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 45
-    },
-    {
-      "path": "/blog/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 42
+      "count": 47
     },
     {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
-      "count": 42
+      "count": 44
     },
     {
       "path": "/wordpress/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 42
+    },
+    {
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 42
     },
@@ -460,7 +460,7 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "ip_count": 73,
-      "event_count": 342
+      "event_count": 343
     },
     {
       "asn": "AS208137",
@@ -556,9 +556,9 @@
   ],
   "events_by_country": {
     "JP": 5059,
-    "US": 3919,
+    "US": 3920,
     "NL": 1254,
-    "DE": 777,
+    "DE": 783,
     "FR": 204,
     "CH": 193,
     "HK": 182,
@@ -579,7 +579,7 @@
     "LU": 24,
     "GR": 21,
     "NO": 21,
-    "SE": 10,
+    "SE": 11,
     "RO": 7,
     "AE": 6,
     "IR": 5,
@@ -590,6 +590,7 @@
     "MN": 2,
     "RU": 2,
     "AU": 1,
+    "BO": 1,
     "BY": 1,
     "EG": 1,
     "ES": 1,
