@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-08T19:03:02.211437Z",
+  "generated_at": "2026-09-08T20:01:24.902897Z",
   "period_days": 90,
-  "total_events": 14832,
-  "unique_ips": 794,
+  "total_events": 14865,
+  "unique_ips": 796,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,8 +18,8 @@
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 106,
     "bigippot:honeypot-01": 6624,
-    "sshppot:honeypot-01": 44,
-    "front:honeypot-01": 7918
+    "sshppot:honeypot-01": 45,
+    "front:honeypot-01": 7950
   },
   "events_per_day": {
     "2026-08-28": {
@@ -87,9 +87,9 @@
       "total": 1158
     },
     "2026-09-08": {
-      "front:honeypot-01": 837,
-      "sshppot:honeypot-01": 2,
-      "total": 839
+      "front:honeypot-01": 869,
+      "sshppot:honeypot-01": 3,
+      "total": 872
     }
   },
   "top_credentials": [
@@ -132,6 +132,11 @@
       "username": "j.ic.oc.o.h.e.l.o.23.3@gmail.com",
       "password": "(empty)",
       "count": 1
+    },
+    {
+      "username": "a",
+      "password": "a",
+      "count": 1
     }
   ],
   "top_usernames": [
@@ -149,7 +154,7 @@
     },
     {
       "username": "a",
-      "count": 1
+      "count": 2
     },
     {
       "username": "testing",
@@ -192,6 +197,10 @@
     {
       "password": "wrong",
       "count": 1
+    },
+    {
+      "password": "a",
+      "count": 1
     }
   ],
   "top_user_agents": [
@@ -217,10 +226,10 @@
     }
   ],
   "method_counts": {
-    "GET": 12722,
-    "POST": 1737,
-    "SSH": 43,
-    "HEAD": 28,
+    "GET": 12752,
+    "POST": 1738,
+    "SSH": 44,
+    "HEAD": 29,
     "PROPFIND": 10,
     "PRI": 10,
     "HEARTBEAT": 8,
@@ -236,7 +245,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 593
+      "count": 597
     },
     {
       "path": "/",
@@ -266,7 +275,7 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 65
+      "count": 66
     },
     {
       "path": "/robots.txt",
@@ -319,13 +328,13 @@
       "count": 33
     },
     {
-      "path": "/robots.txt",
-      "source": "bigippot:honeypot-01",
+      "path": "/signup",
+      "source": "front:honeypot-01",
       "count": 32
     },
     {
-      "path": "/signup",
-      "source": "front:honeypot-01",
+      "path": "/robots.txt",
+      "source": "bigippot:honeypot-01",
       "count": 32
     },
     {
@@ -424,8 +433,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 60,
-      "event_count": 1280
+      "ip_count": 61,
+      "event_count": 1281
     },
     {
       "asn": "AS48090",
@@ -459,8 +468,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 73,
-      "event_count": 343
+      "ip_count": 74,
+      "event_count": 344
     },
     {
       "asn": "AS208137",
@@ -556,7 +565,7 @@
   ],
   "events_by_country": {
     "JP": 5059,
-    "US": 3920,
+    "US": 3922,
     "NL": 1254,
     "DE": 783,
     "FR": 204,
