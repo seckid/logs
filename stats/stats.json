@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-08T11:01:02.446048Z",
+  "generated_at": "2026-09-08T12:05:02.803821Z",
   "period_days": 90,
-  "total_events": 14107,
-  "unique_ips": 783,
+  "total_events": 14118,
+  "unique_ips": 786,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,8 +18,8 @@
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 106,
     "bigippot:honeypot-01": 6624,
-    "sshppot:honeypot-01": 42,
-    "front:honeypot-01": 7195
+    "sshppot:honeypot-01": 44,
+    "front:honeypot-01": 7204
   },
   "events_per_day": {
     "2026-08-28": {
@@ -28,8 +28,8 @@
       "total": 856
     },
     "2026-08-30": {
-      "bigippot:honeypot-01": 745,
       "fortipot:honeypot-01": 8,
+      "bigippot:honeypot-01": 745,
       "front:honeypot-01": 616,
       "total": 1369
     },
@@ -42,30 +42,30 @@
       "total": 1805
     },
     "2026-09-01": {
+      "front:honeypot-01": 562,
       "fortipot:honeypot-01": 15,
       "bigippot:honeypot-01": 937,
-      "front:honeypot-01": 562,
       "total": 1514
     },
     "2026-09-02": {
       "fortipot:honeypot-01": 67,
+      "front:honeypot-01": 903,
       "centrestackpot:honeypot-01": 72,
       "sharepointpot:honeypot-01": 6,
-      "front:honeypot-01": 903,
-      "ivantipot:honeypot-01": 8,
       "bigippot:honeypot-01": 974,
+      "ivantipot:honeypot-01": 8,
       "total": 2030
     },
     "2026-09-03": {
-      "front:honeypot-01": 394,
       "bigippot:honeypot-01": 761,
       "fortipot:honeypot-01": 2,
+      "front:honeypot-01": 394,
       "total": 1157
     },
     "2026-09-04": {
-      "fortipot:honeypot-01": 3,
       "bigippot:honeypot-01": 1136,
       "front:honeypot-01": 346,
+      "fortipot:honeypot-01": 3,
       "total": 1485
     },
     "2026-09-05": {
@@ -87,8 +87,9 @@
       "total": 1158
     },
     "2026-09-08": {
-      "front:honeypot-01": 114,
-      "total": 114
+      "front:honeypot-01": 123,
+      "sshppot:honeypot-01": 2,
+      "total": 125
     }
   },
   "top_credentials": [
@@ -100,7 +101,7 @@
     {
       "username": "admin",
       "password": "admin",
-      "count": 2
+      "count": 4
     },
     {
       "username": "(empty)",
@@ -140,7 +141,7 @@
     },
     {
       "username": "admin",
-      "count": 3
+      "count": 5
     },
     {
       "username": "(empty)",
@@ -170,7 +171,7 @@
     },
     {
       "password": "admin",
-      "count": 2
+      "count": 4
     },
     {
       "password": "Deft2731",
@@ -216,9 +217,9 @@
     }
   ],
   "method_counts": {
-    "GET": 12331,
+    "GET": 12340,
     "POST": 1405,
-    "SSH": 41,
+    "SSH": 43,
     "HEAD": 28,
     "PROPFIND": 10,
     "PRI": 10,
@@ -235,7 +236,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 564
+      "count": 568
     },
     {
       "path": "/",
@@ -268,29 +269,29 @@
       "count": 64
     },
     {
-      "path": "/.git/config",
+      "path": "/robots.txt",
       "source": "front:honeypot-01",
       "count": 55
     },
     {
-      "path": "/robots.txt",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 55
     },
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 52
+      "count": 53
     },
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 41
+      "count": 42
     },
     {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
-      "count": 38
+      "count": 39
     },
     {
       "path": "/.env",
@@ -303,14 +304,19 @@
       "count": 35
     },
     {
+      "path": "/robots.txt",
+      "source": "bigippot:honeypot-01",
+      "count": 32
+    },
+    {
       "path": "/signup",
       "source": "front:honeypot-01",
       "count": 32
     },
     {
-      "path": "/robots.txt",
-      "source": "bigippot:honeypot-01",
-      "count": 32
+      "path": "/api/auth/signin",
+      "source": "front:honeypot-01",
+      "count": 28
     },
     {
       "path": "/wordpress/wp-json/batch/v1",
@@ -319,11 +325,6 @@
     },
     {
       "path": "/blog/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 28
-    },
-    {
-      "path": "/api/auth/signin",
       "source": "front:honeypot-01",
       "count": 28
     },
@@ -450,9 +451,9 @@
     {
       "asn": "AS202412",
       "name": "Omegatech LTD",
-      "country": "NL",
-      "ip_count": 5,
-      "event_count": 397
+      "country": "DE",
+      "ip_count": 6,
+      "event_count": 398
     },
     {
       "asn": "AS14061",
@@ -548,27 +549,27 @@
     {
       "asn": "AS16276",
       "name": "OVH SAS",
-      "country": "SG",
+      "country": "DE",
       "ip_count": 16,
-      "event_count": 71
+      "event_count": 73
     }
   ],
   "events_by_country": {
     "US": 8659,
-    "NL": 1342,
-    "DE": 389,
-    "SG": 232,
+    "NL": 945,
+    "DE": 850,
+    "FR": 204,
     "CH": 193,
-    "FR": 193,
     "HK": 182,
     "BG": 164,
+    "SG": 161,
     "GB": 124,
     "KZ": 124,
     "FI": 106,
     "VN": 98,
     "LY": 49,
     "PK": 49,
-    "BR": 39,
+    "BR": 40,
     "JP": 39,
     "PL": 39,
     "TR": 28,
