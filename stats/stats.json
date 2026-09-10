@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T10:11:51.942105Z",
+  "generated_at": "2026-09-10T11:04:30.027040Z",
   "period_days": 90,
-  "total_events": 17027,
-  "unique_ips": 952,
+  "total_events": 17106,
+  "unique_ips": 959,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,17 +14,17 @@
   ],
   "totals_by_source": {
     "ivantipot:honeypot-01": 8,
-    "centrestackpot:honeypot-01": 153,
+    "centrestackpot:honeypot-01": 174,
     "sharepointpot:honeypot-01": 12,
-    "fortipot:honeypot-01": 111,
-    "bigippot:honeypot-01": 6873,
-    "sshppot:honeypot-01": 429,
-    "front:honeypot-01": 9441
+    "fortipot:honeypot-01": 117,
+    "bigippot:honeypot-01": 6878,
+    "sshppot:honeypot-01": 462,
+    "front:honeypot-01": 9455
   },
   "events_per_day": {
     "2026-08-28": {
-      "bigippot:honeypot-01": 34,
       "front:honeypot-01": 822,
+      "bigippot:honeypot-01": 34,
       "total": 856
     },
     "2026-08-30": {
@@ -34,17 +34,17 @@
       "total": 1369
     },
     "2026-08-31": {
-      "centrestackpot:honeypot-01": 48,
       "bigippot:honeypot-01": 211,
       "fortipot:honeypot-01": 8,
       "sharepointpot:honeypot-01": 6,
+      "centrestackpot:honeypot-01": 48,
       "front:honeypot-01": 1532,
       "total": 1805
     },
     "2026-09-01": {
       "bigippot:honeypot-01": 937,
-      "fortipot:honeypot-01": 15,
       "front:honeypot-01": 562,
+      "fortipot:honeypot-01": 15,
       "total": 1514
     },
     "2026-09-02": {
@@ -58,14 +58,14 @@
     },
     "2026-09-03": {
       "front:honeypot-01": 394,
-      "fortipot:honeypot-01": 2,
       "bigippot:honeypot-01": 761,
+      "fortipot:honeypot-01": 2,
       "total": 1157
     },
     "2026-09-04": {
-      "fortipot:honeypot-01": 3,
       "front:honeypot-01": 346,
       "bigippot:honeypot-01": 1136,
+      "fortipot:honeypot-01": 3,
       "total": 1485
     },
     "2026-09-05": {
@@ -74,43 +74,45 @@
       "total": 965
     },
     "2026-09-06": {
+      "bigippot:honeypot-01": 708,
       "front:honeypot-01": 944,
       "fortipot:honeypot-01": 2,
-      "bigippot:honeypot-01": 708,
       "total": 1654
     },
     "2026-09-07": {
       "bigippot:honeypot-01": 827,
       "front:honeypot-01": 288,
-      "sshppot:honeypot-01": 42,
       "fortipot:honeypot-01": 1,
+      "sshppot:honeypot-01": 42,
       "total": 1158
     },
     "2026-09-08": {
-      "sshppot:honeypot-01": 30,
       "front:honeypot-01": 872,
+      "sshppot:honeypot-01": 30,
       "total": 902
     },
     "2026-09-09": {
-      "bigippot:honeypot-01": 153,
-      "front:honeypot-01": 1484,
       "fortipot:honeypot-01": 5,
-      "centrestackpot:honeypot-01": 33,
       "sshppot:honeypot-01": 304,
+      "front:honeypot-01": 1484,
+      "bigippot:honeypot-01": 153,
+      "centrestackpot:honeypot-01": 33,
       "total": 1979
     },
     "2026-09-10": {
-      "bigippot:honeypot-01": 96,
-      "front:honeypot-01": 4,
-      "sshppot:honeypot-01": 53,
-      "total": 153
+      "fortipot:honeypot-01": 6,
+      "bigippot:honeypot-01": 101,
+      "front:honeypot-01": 18,
+      "sshppot:honeypot-01": 86,
+      "centrestackpot:honeypot-01": 21,
+      "total": 232
     }
   },
   "top_credentials": [
     {
       "username": "admin",
       "password": "(empty)",
-      "count": 89
+      "count": 111
     },
     {
       "username": "root",
@@ -123,19 +125,19 @@
       "count": 51
     },
     {
+      "username": "user",
+      "password": "(empty)",
+      "count": 21
+    },
+    {
       "username": "Admin",
       "password": "(empty)",
       "count": 19
     },
     {
-      "username": "user",
-      "password": "(empty)",
-      "count": 17
-    },
-    {
       "username": "support",
       "password": "(empty)",
-      "count": 15
+      "count": 16
     },
     {
       "username": "AdminGPON",
@@ -160,7 +162,7 @@
     {
       "username": "support",
       "password": "support",
-      "count": 8
+      "count": 9
     },
     {
       "username": "ubnt",
@@ -263,6 +265,31 @@
       "count": 2
     },
     {
+      "username": "admin",
+      "password": "password",
+      "count": 2
+    },
+    {
+      "username": "admin",
+      "password": "admin123",
+      "count": 2
+    },
+    {
+      "username": "admin",
+      "password": "Admin@123",
+      "count": 2
+    },
+    {
+      "username": "user",
+      "password": "password",
+      "count": 2
+    },
+    {
+      "username": "admin",
+      "password": "1234",
+      "count": 2
+    },
+    {
       "username": "Admin",
       "password": "Admin",
       "count": 2
@@ -298,38 +325,13 @@
       "count": 1
     },
     {
-      "username": "admin",
-      "password": "password",
-      "count": 1
-    },
-    {
-      "username": "admin",
-      "password": "admin123",
-      "count": 1
-    },
-    {
-      "username": "admin",
-      "password": "Admin@123",
-      "count": 1
-    },
-    {
       "username": "test",
       "password": "test",
       "count": 1
     },
     {
-      "username": "user",
-      "password": "password",
-      "count": 1
-    },
-    {
       "username": "root",
       "password": "12345678",
-      "count": 1
-    },
-    {
-      "username": "admin",
-      "password": "1234",
       "count": 1
     },
     {
@@ -361,7 +363,7 @@
   "top_usernames": [
     {
       "username": "admin",
-      "count": 107
+      "count": 133
     },
     {
       "username": "root",
@@ -372,16 +374,16 @@
       "count": 51
     },
     {
+      "username": "user",
+      "count": 26
+    },
+    {
       "username": "support",
-      "count": 23
+      "count": 25
     },
     {
       "username": "Admin",
       "count": 22
-    },
-    {
-      "username": "user",
-      "count": 21
     },
     {
       "username": "AdminGPON",
@@ -443,7 +445,7 @@
   "top_passwords": [
     {
       "password": "(empty)",
-      "count": 354
+      "count": 381
     },
     {
       "password": "admin",
@@ -451,7 +453,11 @@
     },
     {
       "password": "support",
-      "count": 8
+      "count": 9
+    },
+    {
+      "password": "password",
+      "count": 4
     },
     {
       "password": "ALC#FGU",
@@ -459,6 +465,10 @@
     },
     {
       "password": "user",
+      "count": 3
+    },
+    {
+      "password": "1234",
       "count": 3
     },
     {
@@ -478,15 +488,15 @@
       "count": 2
     },
     {
+      "password": "admin123",
+      "count": 2
+    },
+    {
+      "password": "Admin@123",
+      "count": 2
+    },
+    {
       "password": "Admin",
-      "count": 2
-    },
-    {
-      "password": "password",
-      "count": 2
-    },
-    {
-      "password": "1234",
       "count": 2
     },
     {
@@ -511,14 +521,6 @@
     },
     {
       "password": "a",
-      "count": 1
-    },
-    {
-      "password": "admin123",
-      "count": 1
-    },
-    {
-      "password": "Admin@123",
       "count": 1
     }
   ],
@@ -545,11 +547,11 @@
     }
   ],
   "method_counts": {
-    "GET": 13815,
-    "POST": 2407,
-    "SSH": 428,
+    "GET": 13855,
+    "POST": 2410,
+    "SSH": 461,
     "HEAD": 30,
-    "PROPFIND": 19,
+    "PROPFIND": 20,
     "PRI": 11,
     "HEARTBEAT": 8,
     "OPTIONS": 6,
@@ -564,17 +566,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 696
-    },
-    {
-      "path": "/",
-      "source": "bigippot:honeypot-01",
-      "count": 398
+      "count": 699
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 393
+      "count": 426
+    },
+    {
+      "path": "/",
+      "source": "bigippot:honeypot-01",
+      "count": 401
     },
     {
       "path": "/tmui/login.jsp",
@@ -629,12 +631,17 @@
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 58
+      "count": 59
     },
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 55
+      "count": 58
+    },
+    {
+      "path": "/logo.svg",
+      "source": "front:honeypot-01",
+      "count": 53
     },
     {
       "path": "/?rest_route=/batch/v1",
@@ -642,9 +649,9 @@
       "count": 53
     },
     {
-      "path": "/logo.svg",
+      "path": "/signup",
       "source": "front:honeypot-01",
-      "count": 51
+      "count": 40
     },
     {
       "path": "/api/auth/signin",
@@ -652,12 +659,7 @@
       "count": 40
     },
     {
-      "path": "/signup",
-      "source": "front:honeypot-01",
-      "count": 40
-    },
-    {
-      "path": "/robots.txt",
+      "path": "/.env",
       "source": "bigippot:honeypot-01",
       "count": 38
     }
@@ -763,8 +765,8 @@
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "DE",
-      "ip_count": 71,
-      "event_count": 5599
+      "ip_count": 72,
+      "event_count": 5600
     },
     {
       "asn": "AS48090",
@@ -783,9 +785,9 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "DE",
+      "country": "SG",
       "ip_count": 32,
-      "event_count": 905
+      "event_count": 907
     },
     {
       "asn": "AS142430",
@@ -858,6 +860,13 @@
       "event_count": 155
     },
     {
+      "asn": "AS29244",
+      "name": "CETIN Bulgaria EAD",
+      "country": "BG",
+      "ip_count": 4,
+      "event_count": 135
+    },
+    {
       "asn": "AS12876",
       "name": "Scaleway SAS",
       "country": "NL",
@@ -870,13 +879,6 @@
       "country": "KZ",
       "ip_count": 1,
       "event_count": 124
-    },
-    {
-      "asn": "AS29244",
-      "name": "CETIN Bulgaria EAD",
-      "country": "BG",
-      "ip_count": 4,
-      "event_count": 103
     },
     {
       "asn": "AS6939",
@@ -901,26 +903,26 @@
     }
   ],
   "events_by_country": {
-    "DE": 7298,
-    "US": 2925,
+    "DE": 6394,
+    "US": 2930,
     "NL": 2014,
+    "SG": 1007,
     "GB": 289,
+    "BG": 214,
     "HK": 198,
     "CH": 193,
-    "BG": 173,
     "FI": 156,
     "FR": 139,
     "JP": 139,
+    "VN": 126,
     "KZ": 124,
-    "VN": 116,
-    "SG": 100,
     "IN": 88,
     "PK": 78,
     "BR": 70,
-    "KR": 58,
+    "KR": 69,
+    "TR": 55,
+    "PL": 50,
     "LY": 49,
-    "PL": 48,
-    "TR": 48,
     "RU": 43,
     "CN": 41,
     "SE": 37,
