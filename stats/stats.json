@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T20:00:29.799070Z",
+  "generated_at": "2026-09-10T21:04:03.486805Z",
   "period_days": 90,
-  "total_events": 18148,
-  "unique_ips": 1008,
+  "total_events": 18170,
+  "unique_ips": 1017,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,10 +16,10 @@
     "ivantipot:honeypot-01": 8,
     "centrestackpot:honeypot-01": 195,
     "sharepointpot:honeypot-01": 12,
-    "fortipot:honeypot-01": 123,
-    "bigippot:honeypot-01": 7110,
+    "fortipot:honeypot-01": 124,
+    "bigippot:honeypot-01": 7128,
     "sshppot:honeypot-01": 505,
-    "front:honeypot-01": 10195
+    "front:honeypot-01": 10198
   },
   "events_per_day": {
     "2026-08-28": {
@@ -100,12 +100,12 @@
       "total": 1979
     },
     "2026-09-10": {
-      "fortipot:honeypot-01": 12,
-      "bigippot:honeypot-01": 333,
-      "front:honeypot-01": 758,
+      "fortipot:honeypot-01": 13,
+      "bigippot:honeypot-01": 351,
+      "front:honeypot-01": 761,
       "sshppot:honeypot-01": 129,
       "centrestackpot:honeypot-01": 42,
-      "total": 1274
+      "total": 1296
     }
   },
   "top_credentials": [
@@ -543,12 +543,12 @@
     },
     {
       "user_agent": "libredtail-http",
-      "count": 1107
+      "count": 1109
     }
   ],
   "method_counts": {
-    "GET": 14795,
-    "POST": 2443,
+    "GET": 14809,
+    "POST": 2446,
     "SSH": 504,
     "HEAD": 32,
     "PROPFIND": 22,
@@ -566,7 +566,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 770
+      "count": 771
     },
     {
       "path": "/",
@@ -576,12 +576,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 416
+      "count": 419
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 199
+      "count": 201
     },
     {
       "path": "/remote/login",
@@ -596,12 +596,12 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 88
+      "count": 90
     },
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 85
+      "count": 86
     },
     {
       "path": "/wp-json/batch/v1",
@@ -621,7 +621,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 68
+      "count": 69
     },
     {
       "path": "/style.css",
@@ -694,7 +694,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 272,
+      "count": 276,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -775,7 +775,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1007
+    "Critical": 1011
   },
   "top_asns": [
     {
@@ -838,8 +838,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 71,
-      "event_count": 206
+      "ip_count": 73,
+      "event_count": 210
     },
     {
       "asn": "AS215540",
@@ -920,20 +920,20 @@
     }
   ],
   "events_by_country": {
-    "US": 10261,
-    "NL": 1930,
+    "US": 10321,
+    "NL": 1908,
     "DE": 734,
     "BG": 272,
     "PL": 204,
     "JP": 201,
     "CH": 199,
     "HK": 198,
-    "FR": 170,
+    "FR": 171,
     "FI": 156,
-    "GB": 134,
     "VN": 126,
     "KZ": 124,
-    "SG": 100,
+    "GB": 115,
+    "SG": 101,
     "IN": 89,
     "PK": 78,
     "BR": 71,
@@ -946,8 +946,8 @@
     "LU": 36,
     "PY": 28,
     "SI": 28,
+    "NO": 25,
     "UA": 25,
-    "NO": 24,
     "GR": 21,
     "CA": 14,
     "ES": 12,
