@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T08:03:04.950878Z",
+  "generated_at": "2026-09-10T09:02:11.837828Z",
   "period_days": 90,
-  "total_events": 16983,
+  "total_events": 16988,
   "unique_ips": 938,
   "honeypots": [
     "bigippot:diagnose-upload",
@@ -15,14 +15,14 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "bigippot:diagnose-upload": 18,
+    "bigippot:diagnose-upload": 19,
     "fortipot:diagnose-script": 1,
     "ivantipot:honeypot-01": 8,
     "centrestackpot:honeypot-01": 153,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 111,
-    "bigippot:honeypot-01": 6864,
-    "sshppot:honeypot-01": 378,
+    "bigippot:honeypot-01": 6866,
+    "sshppot:honeypot-01": 380,
     "front:honeypot-01": 9438
   },
   "events_per_day": {
@@ -107,10 +107,10 @@
     },
     "2026-09-10": {
       "front:honeypot-01": 1,
-      "bigippot:honeypot-01": 87,
-      "bigippot:diagnose-upload": 2,
-      "sshppot:honeypot-01": 2,
-      "total": 92
+      "bigippot:honeypot-01": 89,
+      "bigippot:diagnose-upload": 3,
+      "sshppot:honeypot-01": 4,
+      "total": 97
     }
   },
   "top_credentials": [
@@ -145,6 +145,11 @@
       "count": 10
     },
     {
+      "username": "support",
+      "password": "(empty)",
+      "count": 10
+    },
+    {
       "username": "AdminGPON",
       "password": "(empty)",
       "count": 10
@@ -156,18 +161,13 @@
     },
     {
       "username": "support",
-      "password": "(empty)",
-      "count": 9
+      "password": "support",
+      "count": 6
     },
     {
       "username": "linksys",
       "password": "(empty)",
       "count": 6
-    },
-    {
-      "username": "support",
-      "password": "support",
-      "count": 5
     },
     {
       "username": "operator",
@@ -388,7 +388,7 @@
     },
     {
       "username": "support",
-      "count": 14
+      "count": 16
     },
     {
       "username": "AdminGPON",
@@ -450,7 +450,7 @@
   "top_passwords": [
     {
       "password": "(empty)",
-      "count": 314
+      "count": 315
     },
     {
       "password": "admin",
@@ -458,7 +458,7 @@
     },
     {
       "password": "support",
-      "count": 5
+      "count": 6
     },
     {
       "password": "Deft2731",
@@ -552,11 +552,11 @@
     }
   ],
   "method_counts": {
-    "GET": 13806,
-    "POST": 2425,
-    "SSH": 377,
+    "GET": 13807,
+    "POST": 2426,
+    "SSH": 379,
     "HEAD": 30,
-    "PROPFIND": 18,
+    "PROPFIND": 19,
     "PRI": 11,
     "HEARTBEAT": 8,
     "OPTIONS": 6,
@@ -576,12 +576,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 394
+      "count": 396
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 342
+      "count": 344
     },
     {
       "path": "/tmui/login.jsp",
@@ -926,8 +926,8 @@
     "BR": 69,
     "KR": 52,
     "LY": 49,
-    "TR": 46,
-    "PL": 44,
+    "TR": 48,
+    "PL": 46,
     "SE": 37,
     "CN": 36,
     "RU": 30,
