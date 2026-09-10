@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T14:02:16.913582Z",
+  "generated_at": "2026-09-10T15:03:57.576484Z",
   "period_days": 90,
-  "total_events": 17886,
-  "unique_ips": 974,
+  "total_events": 17936,
+  "unique_ips": 981,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -19,7 +19,7 @@
     "fortipot:honeypot-01": 117,
     "bigippot:honeypot-01": 7046,
     "sshppot:honeypot-01": 493,
-    "front:honeypot-01": 10036
+    "front:honeypot-01": 10086
   },
   "events_per_day": {
     "2026-08-28": {
@@ -102,10 +102,10 @@
     "2026-09-10": {
       "fortipot:honeypot-01": 6,
       "bigippot:honeypot-01": 269,
-      "front:honeypot-01": 599,
+      "front:honeypot-01": 649,
       "sshppot:honeypot-01": 117,
       "centrestackpot:honeypot-01": 21,
-      "total": 1012
+      "total": 1062
     }
   },
   "top_credentials": [
@@ -531,7 +531,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 2033
+      "count": 2037
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -547,14 +547,14 @@
     }
   ],
   "method_counts": {
-    "GET": 14583,
-    "POST": 2426,
+    "GET": 14626,
+    "POST": 2431,
     "SSH": 492,
-    "HEAD": 30,
+    "HEAD": 31,
     "PROPFIND": 22,
     "PRI": 11,
     "HEARTBEAT": 8,
-    "OPTIONS": 6,
+    "OPTIONS": 7,
     "SSTP_DUPLEX_POST": 4,
     "CONNECT": 3,
     "T3": 2,
@@ -566,7 +566,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 721
+      "count": 741
     },
     {
       "path": "/",
@@ -606,7 +606,7 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 80
+      "count": 82
     },
     {
       "path": "/wordpress/wp-json/batch/v1",
@@ -616,15 +616,15 @@
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 67
+      "count": 68
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/robots.txt",
       "source": "front:honeypot-01",
       "count": 63
     },
     {
-      "path": "/robots.txt",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 63
     },
@@ -649,12 +649,12 @@
       "count": 53
     },
     {
-      "path": "/signup",
+      "path": "/api/auth/signin",
       "source": "front:honeypot-01",
       "count": 40
     },
     {
-      "path": "/api/auth/signin",
+      "path": "/signup",
       "source": "front:honeypot-01",
       "count": 40
     },
@@ -755,10 +755,26 @@
       "sample_paths": [
         "/mgmt/tm/util/bash"
       ]
+    },
+    {
+      "cve": "CVE-2026-41940",
+      "count": 1,
+      "sources": [
+        "front:honeypot-01"
+      ],
+      "description": "Critical authentication bypass in cPanel & WHM (and WP Squared) allowing unauthenticated remote attackers to obtain root-level administrative access via session poisoning in the login flow (CWE-306). Internet scanners probe /___proxy_subdomain_whm/login/?login_only=1 and related WHM management ports. Patch to fixed cPanel builds immediately.",
+      "severity": "Critical",
+      "cvss_score": 9.8,
+      "sample_ips": [
+        "207.154.197.113"
+      ],
+      "sample_paths": [
+        "/___proxy_subdomain_whm/login"
+      ]
     }
   ],
   "cve_severity_counts": {
-    "Critical": 970
+    "Critical": 971
   },
   "top_asns": [
     {
@@ -778,9 +794,9 @@
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "US",
+      "country": "SG",
       "ip_count": 64,
-      "event_count": 1289
+      "event_count": 1290
     },
     {
       "asn": "AS16509",
@@ -797,18 +813,18 @@
       "event_count": 521
     },
     {
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
+      "country": "US",
+      "ip_count": 84,
+      "event_count": 411
+    },
+    {
       "asn": "AS202412",
       "name": "Omegatech LTD",
       "country": "DE",
       "ip_count": 6,
       "event_count": 400
-    },
-    {
-      "asn": "AS14061",
-      "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 83,
-      "event_count": 379
     },
     {
       "asn": "AS208137",
@@ -903,34 +919,35 @@
     }
   ],
   "events_by_country": {
-    "US": 9151,
+    "US": 7917,
+    "SG": 2297,
     "NL": 2053,
-    "SG": 1007,
-    "DE": 758,
+    "DE": 733,
     "JP": 295,
     "BG": 233,
     "HK": 198,
     "CH": 193,
     "FI": 156,
-    "FR": 139,
     "GB": 134,
     "VN": 126,
     "KZ": 124,
     "IN": 89,
+    "CA": 81,
     "PK": 78,
     "BR": 70,
     "KR": 69,
-    "PL": 59,
+    "FR": 61,
+    "PL": 60,
     "TR": 59,
     "LY": 49,
     "CN": 44,
     "RU": 43,
     "SE": 37,
+    "SI": 27,
     "UA": 25,
     "LU": 24,
     "NO": 23,
     "GR": 21,
-    "CO": 12,
     "ES": 12,
     "RO": 10,
     "MA": 9,
