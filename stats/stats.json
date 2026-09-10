@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T16:05:10.931298Z",
+  "generated_at": "2026-09-10T17:02:19.755501Z",
   "period_days": 90,
-  "total_events": 18005,
-  "unique_ips": 994,
+  "total_events": 18086,
+  "unique_ips": 1000,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,12 +14,12 @@
   ],
   "totals_by_source": {
     "ivantipot:honeypot-01": 8,
-    "centrestackpot:honeypot-01": 174,
+    "centrestackpot:honeypot-01": 195,
     "sharepointpot:honeypot-01": 12,
-    "fortipot:honeypot-01": 117,
-    "bigippot:honeypot-01": 7050,
-    "sshppot:honeypot-01": 493,
-    "front:honeypot-01": 10151
+    "fortipot:honeypot-01": 123,
+    "bigippot:honeypot-01": 7072,
+    "sshppot:honeypot-01": 494,
+    "front:honeypot-01": 10182
   },
   "events_per_day": {
     "2026-08-28": {
@@ -100,12 +100,12 @@
       "total": 1979
     },
     "2026-09-10": {
-      "fortipot:honeypot-01": 6,
-      "bigippot:honeypot-01": 273,
-      "front:honeypot-01": 714,
-      "sshppot:honeypot-01": 117,
-      "centrestackpot:honeypot-01": 21,
-      "total": 1131
+      "fortipot:honeypot-01": 12,
+      "bigippot:honeypot-01": 295,
+      "front:honeypot-01": 745,
+      "sshppot:honeypot-01": 118,
+      "centrestackpot:honeypot-01": 42,
+      "total": 1212
     }
   },
   "top_credentials": [
@@ -137,7 +137,7 @@
     {
       "username": "support",
       "password": "support",
-      "count": 17
+      "count": 18
     },
     {
       "username": "support",
@@ -375,7 +375,7 @@
     },
     {
       "username": "support",
-      "count": 34
+      "count": 35
     },
     {
       "username": "user",
@@ -449,7 +449,7 @@
     },
     {
       "password": "support",
-      "count": 17
+      "count": 18
     },
     {
       "password": "admin",
@@ -547,9 +547,9 @@
     }
   ],
   "method_counts": {
-    "GET": 14686,
+    "GET": 14755,
     "POST": 2436,
-    "SSH": 492,
+    "SSH": 493,
     "HEAD": 32,
     "PROPFIND": 22,
     "PRI": 11,
@@ -566,22 +566,22 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 756
+      "count": 766
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 451
+      "count": 452
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 410
+      "count": 415
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 195
+      "count": 198
     },
     {
       "path": "/remote/login",
@@ -596,7 +596,12 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 85
+      "count": 87
+    },
+    {
+      "path": "/.env",
+      "source": "front:honeypot-01",
+      "count": 84
     },
     {
       "path": "/wp-json/batch/v1",
@@ -604,9 +609,9 @@
       "count": 83
     },
     {
-      "path": "/.env",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 83
+      "count": 70
     },
     {
       "path": "/wordpress/wp-json/batch/v1",
@@ -614,19 +619,19 @@
       "count": 70
     },
     {
-      "path": "/.git/config",
-      "source": "front:honeypot-01",
-      "count": 70
-    },
-    {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 66
+      "count": 68
     },
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 64
+      "count": 66
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "front:honeypot-01",
+      "count": 65
     },
     {
       "path": "/blog/wp-json/batch/v1",
@@ -634,14 +639,9 @@
       "count": 63
     },
     {
-      "path": "/favicon.ico",
-      "source": "front:honeypot-01",
-      "count": 63
-    },
-    {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
-      "count": 57
+      "count": 59
     },
     {
       "path": "/?rest_route=/batch/v1",
@@ -649,12 +649,12 @@
       "count": 53
     },
     {
-      "path": "/api/auth/signin",
+      "path": "/signup",
       "source": "front:honeypot-01",
       "count": 40
     },
     {
-      "path": "/signup",
+      "path": "/api/auth/signin",
       "source": "front:honeypot-01",
       "count": 40
     },
@@ -797,7 +797,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "ip_count": 65,
-      "event_count": 1295
+      "event_count": 1297
     },
     {
       "asn": "AS16509",
@@ -849,6 +849,13 @@
       "event_count": 192
     },
     {
+      "asn": "AS29244",
+      "name": "CETIN Bulgaria EAD",
+      "country": "BG",
+      "ip_count": 4,
+      "event_count": 186
+    },
+    {
       "asn": "AS43350",
       "name": "NForce Entertainment B.V.",
       "country": "NL",
@@ -877,13 +884,6 @@
       "event_count": 156
     },
     {
-      "asn": "AS29244",
-      "name": "CETIN Bulgaria EAD",
-      "country": "BG",
-      "ip_count": 4,
-      "event_count": 149
-    },
-    {
       "asn": "AS12876",
       "name": "Scaleway SAS",
       "country": "PL",
@@ -898,6 +898,13 @@
       "event_count": 124
     },
     {
+      "asn": "AS45102",
+      "name": "Alibaba (US) Technology Co., Ltd.",
+      "country": "US",
+      "ip_count": 25,
+      "event_count": 98
+    },
+    {
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
@@ -910,44 +917,37 @@
       "country": "US",
       "ip_count": 2,
       "event_count": 95
-    },
-    {
-      "asn": "AS45102",
-      "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "JP",
-      "ip_count": 23,
-      "event_count": 94
     }
   ],
   "events_by_country": {
-    "US": 10141,
+    "US": 10241,
     "NL": 1930,
     "DE": 734,
-    "JP": 295,
-    "BG": 235,
+    "BG": 272,
+    "JP": 201,
+    "PL": 201,
     "HK": 198,
-    "PL": 198,
     "CH": 193,
     "FI": 156,
     "GB": 134,
     "VN": 126,
     "KZ": 124,
     "SG": 100,
+    "CA": 96,
     "IN": 89,
-    "CA": 83,
-    "FR": 83,
+    "FR": 85,
     "PK": 78,
-    "BR": 70,
+    "BR": 71,
     "KR": 69,
     "TR": 59,
     "LY": 49,
-    "CN": 44,
+    "CN": 47,
     "RU": 43,
     "SE": 37,
+    "LU": 36,
     "SI": 27,
     "UA": 25,
-    "LU": 24,
-    "NO": 23,
+    "NO": 24,
     "GR": 21,
     "ES": 12,
     "RO": 10,
