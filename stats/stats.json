@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-11T20:01:14.424095Z",
+  "generated_at": "2026-09-11T21:01:14.392476Z",
   "period_days": 90,
-  "total_events": 19419,
-  "unique_ips": 1105,
+  "total_events": 19435,
+  "unique_ips": 1109,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 197,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 124,
-    "bigippot:honeypot-01": 7288,
-    "sshppot:honeypot-01": 579,
-    "front:honeypot-01": 11211
+    "bigippot:honeypot-01": 7302,
+    "sshppot:honeypot-01": 580,
+    "front:honeypot-01": 11212
   },
   "events_per_day": {
     "2026-08-28": {
@@ -108,10 +108,10 @@
       "total": 1325
     },
     "2026-09-11": {
-      "front:honeypot-01": 1010,
-      "sshppot:honeypot-01": 55,
-      "bigippot:honeypot-01": 155,
-      "total": 1220
+      "front:honeypot-01": 1011,
+      "sshppot:honeypot-01": 56,
+      "bigippot:honeypot-01": 169,
+      "total": 1236
     }
   },
   "top_credentials": [
@@ -133,7 +133,7 @@
     {
       "username": "support",
       "password": "support",
-      "count": 37
+      "count": 38
     },
     {
       "username": "user",
@@ -381,7 +381,7 @@
     },
     {
       "username": "support",
-      "count": 54
+      "count": 55
     },
     {
       "username": "user",
@@ -455,7 +455,7 @@
     },
     {
       "password": "support",
-      "count": 37
+      "count": 38
     },
     {
       "password": "admin",
@@ -553,12 +553,12 @@
     }
   ],
   "method_counts": {
-    "GET": 15891,
+    "GET": 15904,
     "POST": 2483,
-    "SSH": 578,
+    "SSH": 579,
     "HEAD": 63,
     "PROPFIND": 23,
-    "PRI": 13,
+    "PRI": 14,
     "OPTIONS": 8,
     "HEARTBEAT": 8,
     "SSTP_DUPLEX_POST": 4,
@@ -577,17 +577,17 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 535
+      "count": 536
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 435
+      "count": 439
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 211
+      "count": 214
     },
     {
       "path": "/remote/login",
@@ -602,12 +602,12 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 95
+      "count": 96
     },
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 90
+      "count": 92
     },
     {
       "path": "/wp-json/batch/v1",
@@ -615,12 +615,12 @@
       "count": 85
     },
     {
-      "path": "/robots.txt",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 80
     },
     {
-      "path": "/.git/config",
+      "path": "/robots.txt",
       "source": "front:honeypot-01",
       "count": 80
     },
@@ -665,9 +665,9 @@
       "count": 40
     },
     {
-      "path": "/.env",
+      "path": "/robots.txt",
       "source": "bigippot:honeypot-01",
-      "count": 39
+      "count": 40
     }
   ],
   "cve_attempts": [
@@ -827,9 +827,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
+      "country": "NL",
       "ip_count": 90,
-      "event_count": 451
+      "event_count": 452
     },
     {
       "asn": "AS202412",
@@ -849,8 +849,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 78,
-      "event_count": 223
+      "ip_count": 80,
+      "event_count": 226
     },
     {
       "asn": "AS215540",
@@ -932,10 +932,10 @@
   ],
   "events_by_country": {
     "DE": 7344,
-    "US": 4292,
-    "NL": 1874,
+    "US": 3793,
+    "NL": 2364,
     "BG": 272,
-    "PL": 236,
+    "PL": 237,
     "HK": 202,
     "CH": 199,
     "SG": 159,
@@ -944,8 +944,8 @@
     "VN": 127,
     "KZ": 124,
     "GB": 115,
+    "FR": 106,
     "JP": 91,
-    "FR": 83,
     "PK": 80,
     "SA": 75,
     "KR": 73,
@@ -959,7 +959,7 @@
     "LU": 36,
     "PY": 28,
     "SI": 28,
-    "NO": 26,
+    "NO": 27,
     "UA": 25,
     "GR": 21,
     "CA": 14,
