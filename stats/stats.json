@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-11T09:03:14.356167Z",
+  "generated_at": "2026-09-11T10:02:30.233595Z",
   "period_days": 90,
-  "total_events": 18277,
-  "unique_ips": 1029,
+  "total_events": 18294,
+  "unique_ips": 1034,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 197,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 124,
-    "bigippot:honeypot-01": 7189,
-    "sshppot:honeypot-01": 525,
-    "front:honeypot-01": 10222
+    "bigippot:honeypot-01": 7193,
+    "sshppot:honeypot-01": 530,
+    "front:honeypot-01": 10230
   },
   "events_per_day": {
     "2026-08-28": {
@@ -108,10 +108,10 @@
       "total": 1325
     },
     "2026-09-11": {
-      "front:honeypot-01": 21,
-      "sshppot:honeypot-01": 1,
-      "bigippot:honeypot-01": 56,
-      "total": 78
+      "front:honeypot-01": 29,
+      "sshppot:honeypot-01": 4,
+      "bigippot:honeypot-01": 60,
+      "total": 93
     }
   },
   "top_credentials": [
@@ -123,7 +123,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 74
+      "count": 75
     },
     {
       "username": "ops",
@@ -133,7 +133,7 @@
     {
       "username": "support",
       "password": "support",
-      "count": 26
+      "count": 28
     },
     {
       "username": "user",
@@ -266,6 +266,11 @@
       "count": 3
     },
     {
+      "username": "root",
+      "password": "------fuck------",
+      "count": 3
+    },
+    {
       "username": "(empty)",
       "password": "Deft2731",
       "count": 2
@@ -359,11 +364,6 @@
       "username": "test",
       "password": "test",
       "count": 1
-    },
-    {
-      "username": "root",
-      "password": "12345678",
-      "count": 1
     }
   ],
   "top_usernames": [
@@ -373,7 +373,7 @@
     },
     {
       "username": "root",
-      "count": 90
+      "count": 93
     },
     {
       "username": "ops",
@@ -381,7 +381,7 @@
     },
     {
       "username": "support",
-      "count": 43
+      "count": 45
     },
     {
       "username": "user",
@@ -451,11 +451,11 @@
   "top_passwords": [
     {
       "password": "(empty)",
-      "count": 399
+      "count": 400
     },
     {
       "password": "support",
-      "count": 26
+      "count": 28
     },
     {
       "password": "admin",
@@ -487,6 +487,10 @@
     },
     {
       "password": "---fuck_you----",
+      "count": 3
+    },
+    {
+      "password": "------fuck------",
       "count": 3
     },
     {
@@ -524,10 +528,6 @@
     {
       "password": "p",
       "count": 1
-    },
-    {
-      "password": "passwordtwo",
-      "count": 1
     }
   ],
   "top_user_agents": [
@@ -537,7 +537,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 2050
+      "count": 2052
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -553,9 +553,9 @@
     }
   ],
   "method_counts": {
-    "GET": 14878,
-    "POST": 2458,
-    "SSH": 524,
+    "GET": 14886,
+    "POST": 2460,
+    "SSH": 529,
     "HEAD": 32,
     "PROPFIND": 22,
     "PRI": 12,
@@ -572,22 +572,22 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 791
+      "count": 796
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 483
+      "count": 487
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 420
+      "count": 421
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 202
+      "count": 203
     },
     {
       "path": "/remote/login",
@@ -612,12 +612,12 @@
     {
       "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
-      "count": 83
+      "count": 84
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 73
+      "count": 74
     },
     {
       "path": "/wordpress/wp-json/batch/v1",
@@ -652,7 +652,7 @@
     {
       "path": "/?rest_route=/batch/v1",
       "source": "front:honeypot-01",
-      "count": 53
+      "count": 54
     },
     {
       "path": "/api/auth/signin",
@@ -665,7 +665,7 @@
       "count": 40
     },
     {
-      "path": "/.env",
+      "path": "/robots.txt",
       "source": "bigippot:honeypot-01",
       "count": 39
     }
@@ -799,21 +799,21 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 20,
-      "event_count": 1521
+      "event_count": 1522
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 67,
-      "event_count": 1299
+      "ip_count": 68,
+      "event_count": 1300
     },
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 32,
-      "event_count": 908
+      "country": "AU",
+      "ip_count": 33,
+      "event_count": 909
     },
     {
       "asn": "AS142430",
@@ -826,8 +826,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 87,
-      "event_count": 446
+      "ip_count": 88,
+      "event_count": 448
     },
     {
       "asn": "AS202412",
@@ -840,8 +840,8 @@
       "asn": "AS208137",
       "name": "Feo Prest SRL",
       "country": "DE",
-      "ip_count": 1,
-      "event_count": 299
+      "ip_count": 2,
+      "event_count": 304
     },
     {
       "asn": "AS14618",
@@ -929,11 +929,12 @@
     }
   ],
   "events_by_country": {
-    "US": 10332,
-    "NL": 1910,
-    "DE": 754,
+    "US": 9427,
+    "NL": 1913,
+    "AU": 916,
+    "DE": 759,
     "BG": 272,
-    "PL": 207,
+    "PL": 209,
     "JP": 201,
     "CH": 199,
     "HK": 198,
@@ -948,7 +949,7 @@
     "BR": 71,
     "IN": 71,
     "KR": 69,
-    "CN": 59,
+    "CN": 62,
     "TR": 59,
     "LY": 49,
     "RU": 43,
@@ -964,7 +965,6 @@
     "RO": 12,
     "MA": 9,
     "AE": 8,
-    "AU": 7,
     "MX": 6,
     "TW": 6,
     "VE": 6,
