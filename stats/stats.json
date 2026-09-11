@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T22:00:29.815517Z",
+  "generated_at": "2026-09-11T07:01:06.530452Z",
   "period_days": 90,
-  "total_events": 18185,
-  "unique_ips": 1019,
+  "total_events": 18200,
+  "unique_ips": 1023,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 197,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 124,
-    "bigippot:honeypot-01": 7130,
-    "sshppot:honeypot-01": 515,
-    "front:honeypot-01": 10199
+    "bigippot:honeypot-01": 7133,
+    "sshppot:honeypot-01": 524,
+    "front:honeypot-01": 10202
   },
   "events_per_day": {
     "2026-08-28": {
@@ -28,8 +28,8 @@
       "total": 856
     },
     "2026-08-30": {
-      "bigippot:honeypot-01": 745,
       "front:honeypot-01": 616,
+      "bigippot:honeypot-01": 745,
       "fortipot:honeypot-01": 8,
       "total": 1369
     },
@@ -37,8 +37,8 @@
       "bigippot:honeypot-01": 211,
       "fortipot:honeypot-01": 8,
       "sharepointpot:honeypot-01": 6,
-      "centrestackpot:honeypot-01": 48,
       "front:honeypot-01": 1532,
+      "centrestackpot:honeypot-01": 48,
       "total": 1805
     },
     "2026-09-01": {
@@ -49,11 +49,11 @@
     },
     "2026-09-02": {
       "centrestackpot:honeypot-01": 72,
-      "bigippot:honeypot-01": 974,
-      "fortipot:honeypot-01": 67,
       "ivantipot:honeypot-01": 8,
       "sharepointpot:honeypot-01": 6,
+      "fortipot:honeypot-01": 67,
       "front:honeypot-01": 903,
+      "bigippot:honeypot-01": 974,
       "total": 2030
     },
     "2026-09-03": {
@@ -63,9 +63,9 @@
       "total": 1157
     },
     "2026-09-04": {
-      "front:honeypot-01": 346,
-      "bigippot:honeypot-01": 1136,
       "fortipot:honeypot-01": 3,
+      "bigippot:honeypot-01": 1136,
+      "front:honeypot-01": 346,
       "total": 1485
     },
     "2026-09-05": {
@@ -74,38 +74,42 @@
       "total": 965
     },
     "2026-09-06": {
-      "bigippot:honeypot-01": 708,
       "front:honeypot-01": 944,
       "fortipot:honeypot-01": 2,
+      "bigippot:honeypot-01": 708,
       "total": 1654
     },
     "2026-09-07": {
       "bigippot:honeypot-01": 827,
       "front:honeypot-01": 288,
-      "fortipot:honeypot-01": 1,
       "sshppot:honeypot-01": 42,
+      "fortipot:honeypot-01": 1,
       "total": 1158
     },
     "2026-09-08": {
-      "front:honeypot-01": 872,
       "sshppot:honeypot-01": 30,
+      "front:honeypot-01": 872,
       "total": 902
     },
     "2026-09-09": {
-      "fortipot:honeypot-01": 5,
-      "sshppot:honeypot-01": 304,
-      "front:honeypot-01": 1484,
       "bigippot:honeypot-01": 153,
       "centrestackpot:honeypot-01": 33,
+      "front:honeypot-01": 1484,
+      "sshppot:honeypot-01": 304,
+      "fortipot:honeypot-01": 5,
       "total": 1979
     },
     "2026-09-10": {
-      "fortipot:honeypot-01": 13,
-      "bigippot:honeypot-01": 353,
-      "front:honeypot-01": 762,
-      "sshppot:honeypot-01": 139,
+      "sshppot:honeypot-01": 148,
       "centrestackpot:honeypot-01": 44,
-      "total": 1311
+      "fortipot:honeypot-01": 13,
+      "front:honeypot-01": 764,
+      "bigippot:honeypot-01": 356,
+      "total": 1325
+    },
+    "2026-09-11": {
+      "front:honeypot-01": 1,
+      "total": 1
     }
   },
   "top_credentials": [
@@ -547,9 +551,9 @@
     }
   ],
   "method_counts": {
-    "GET": 14814,
-    "POST": 2446,
-    "SSH": 514,
+    "GET": 14816,
+    "POST": 2447,
+    "SSH": 523,
     "HEAD": 32,
     "PROPFIND": 22,
     "PRI": 12,
@@ -571,7 +575,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 473
+      "count": 482
     },
     {
       "path": "/",
@@ -611,7 +615,7 @@
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 72
+      "count": 73
     },
     {
       "path": "/wordpress/wp-json/batch/v1",
@@ -782,8 +786,8 @@
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "US",
-      "ip_count": 78,
-      "event_count": 6167
+      "ip_count": 79,
+      "event_count": 6168
     },
     {
       "asn": "AS48090",
@@ -920,7 +924,7 @@
     }
   ],
   "events_by_country": {
-    "US": 10324,
+    "US": 10325,
     "NL": 1910,
     "DE": 734,
     "BG": 272,
@@ -938,9 +942,9 @@
     "SA": 75,
     "BR": 71,
     "KR": 69,
+    "CN": 59,
     "TR": 59,
     "LY": 49,
-    "CN": 47,
     "RU": 43,
     "SE": 37,
     "LU": 36,
@@ -952,7 +956,7 @@
     "GR": 21,
     "CA": 14,
     "ES": 12,
-    "RO": 11,
+    "RO": 12,
     "MA": 9,
     "AE": 8,
     "AU": 7,
@@ -965,6 +969,7 @@
     "TN": 4,
     "AT": 3,
     "MD": 3,
+    "ID": 2,
     "LT": 2,
     "AR": 1,
     "AZ": 1,
@@ -972,7 +977,6 @@
     "BO": 1,
     "BY": 1,
     "EG": 1,
-    "ID": 1,
     "IT": 1,
     "KE": 1,
     "ZW": 1
