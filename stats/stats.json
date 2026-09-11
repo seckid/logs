@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-11T08:01:06.344887Z",
+  "generated_at": "2026-09-11T09:03:14.356167Z",
   "period_days": 90,
-  "total_events": 18227,
-  "unique_ips": 1027,
+  "total_events": 18277,
+  "unique_ips": 1029,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,7 +17,7 @@
     "centrestackpot:honeypot-01": 197,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 124,
-    "bigippot:honeypot-01": 7139,
+    "bigippot:honeypot-01": 7189,
     "sshppot:honeypot-01": 525,
     "front:honeypot-01": 10222
   },
@@ -110,8 +110,8 @@
     "2026-09-11": {
       "front:honeypot-01": 21,
       "sshppot:honeypot-01": 1,
-      "bigippot:honeypot-01": 6,
-      "total": 28
+      "bigippot:honeypot-01": 56,
+      "total": 78
     }
   },
   "top_credentials": [
@@ -544,17 +544,17 @@
       "count": 1563
     },
     {
-      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1144
+      "user_agent": "libredtail-http",
+      "count": 1158
     },
     {
-      "user_agent": "libredtail-http",
-      "count": 1109
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 1144
     }
   ],
   "method_counts": {
-    "GET": 14836,
-    "POST": 2451,
+    "GET": 14878,
+    "POST": 2458,
     "SSH": 524,
     "HEAD": 32,
     "PROPFIND": 22,
@@ -665,7 +665,7 @@
       "count": 40
     },
     {
-      "path": "/robots.txt",
+      "path": "/.env",
       "source": "bigippot:honeypot-01",
       "count": 39
     }
@@ -673,7 +673,7 @@
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 724,
+      "count": 761,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -700,7 +700,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 276,
+      "count": 290,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -784,7 +784,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1015
+    "Critical": 1066
   },
   "top_asns": [
     {
@@ -826,8 +826,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 86,
-      "event_count": 445
+      "ip_count": 87,
+      "event_count": 446
     },
     {
       "asn": "AS202412",
@@ -929,7 +929,7 @@
     }
   ],
   "events_by_country": {
-    "US": 10331,
+    "US": 10332,
     "NL": 1910,
     "DE": 754,
     "BG": 272,
@@ -946,6 +946,7 @@
     "PK": 78,
     "SA": 75,
     "BR": 71,
+    "IN": 71,
     "KR": 69,
     "CN": 59,
     "TR": 59,
@@ -957,7 +958,6 @@
     "SI": 28,
     "NO": 25,
     "UA": 25,
-    "IN": 22,
     "GR": 21,
     "CA": 14,
     "ES": 12,
