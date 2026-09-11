@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-11T13:02:14.452281Z",
+  "generated_at": "2026-09-11T14:02:52.651449Z",
   "period_days": 90,
-  "total_events": 18402,
-  "unique_ips": 1057,
+  "total_events": 18414,
+  "unique_ips": 1062,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 197,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 124,
-    "bigippot:honeypot-01": 7207,
-    "sshppot:honeypot-01": 555,
-    "front:honeypot-01": 10299
+    "bigippot:honeypot-01": 7211,
+    "sshppot:honeypot-01": 556,
+    "front:honeypot-01": 10306
   },
   "events_per_day": {
     "2026-08-28": {
@@ -108,10 +108,10 @@
       "total": 1325
     },
     "2026-09-11": {
-      "front:honeypot-01": 98,
-      "sshppot:honeypot-01": 31,
-      "bigippot:honeypot-01": 74,
-      "total": 203
+      "front:honeypot-01": 105,
+      "sshppot:honeypot-01": 32,
+      "bigippot:honeypot-01": 78,
+      "total": 215
     }
   },
   "top_credentials": [
@@ -133,7 +133,7 @@
     {
       "username": "support",
       "password": "support",
-      "count": 32
+      "count": 33
     },
     {
       "username": "user",
@@ -381,7 +381,7 @@
     },
     {
       "username": "support",
-      "count": 49
+      "count": 50
     },
     {
       "username": "user",
@@ -455,7 +455,7 @@
     },
     {
       "password": "support",
-      "count": 32
+      "count": 33
     },
     {
       "password": "admin",
@@ -533,7 +533,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 2760
+      "count": 2761
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -553,11 +553,11 @@
     }
   ],
   "method_counts": {
-    "GET": 14937,
+    "GET": 14947,
     "POST": 2463,
-    "SSH": 554,
+    "SSH": 555,
     "HEAD": 61,
-    "PROPFIND": 22,
+    "PROPFIND": 23,
     "PRI": 12,
     "OPTIONS": 8,
     "HEARTBEAT": 8,
@@ -572,22 +572,22 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 805
+      "count": 806
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 511
+      "count": 512
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 426
+      "count": 428
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 206
+      "count": 207
     },
     {
       "path": "/remote/login",
@@ -622,7 +622,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 72
+      "count": 74
     },
     {
       "path": "/wordpress/wp-json/batch/v1",
@@ -806,15 +806,15 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 69,
-      "event_count": 1301
+      "ip_count": 70,
+      "event_count": 1306
     },
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 35,
-      "event_count": 915
+      "ip_count": 36,
+      "event_count": 917
     },
     {
       "asn": "AS142430",
@@ -826,9 +826,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 88,
-      "event_count": 448
+      "country": "SG",
+      "ip_count": 89,
+      "event_count": 449
     },
     {
       "asn": "AS202412",
@@ -882,9 +882,9 @@
     {
       "asn": "AS63949",
       "name": "Akamai Connected Cloud",
-      "country": "JP",
-      "ip_count": 26,
-      "event_count": 156
+      "country": "US",
+      "ip_count": 27,
+      "event_count": 158
     },
     {
       "asn": "AS153622",
@@ -930,17 +930,16 @@
     }
   ],
   "events_by_country": {
-    "US": 10218,
+    "US": 9935,
     "NL": 1914,
     "DE": 804,
+    "SG": 600,
     "BG": 272,
-    "PL": 212,
-    "JP": 201,
+    "PL": 213,
     "CH": 199,
     "HK": 198,
-    "FR": 171,
+    "FR": 172,
     "FI": 156,
-    "SG": 151,
     "PH": 129,
     "VN": 126,
     "KZ": 124,
@@ -953,6 +952,7 @@
     "CN": 62,
     "TR": 59,
     "LY": 49,
+    "JP": 45,
     "RU": 43,
     "SE": 37,
     "LU": 36,
