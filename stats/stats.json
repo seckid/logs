@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-11T17:03:14.279962Z",
+  "generated_at": "2026-09-11T18:05:03.035590Z",
   "period_days": 90,
-  "total_events": 18778,
-  "unique_ips": 1090,
+  "total_events": 19130,
+  "unique_ips": 1101,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 197,
     "sharepointpot:honeypot-01": 12,
     "fortipot:honeypot-01": 124,
-    "bigippot:honeypot-01": 7234,
-    "sshppot:honeypot-01": 572,
-    "front:honeypot-01": 10631
+    "bigippot:honeypot-01": 7283,
+    "sshppot:honeypot-01": 578,
+    "front:honeypot-01": 10928
   },
   "events_per_day": {
     "2026-08-28": {
@@ -108,10 +108,10 @@
       "total": 1325
     },
     "2026-09-11": {
-      "front:honeypot-01": 430,
-      "sshppot:honeypot-01": 48,
-      "bigippot:honeypot-01": 101,
-      "total": 579
+      "front:honeypot-01": 727,
+      "sshppot:honeypot-01": 54,
+      "bigippot:honeypot-01": 150,
+      "total": 931
     }
   },
   "top_credentials": [
@@ -123,7 +123,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 76
+      "count": 77
     },
     {
       "username": "ops",
@@ -133,7 +133,7 @@
     {
       "username": "support",
       "password": "support",
-      "count": 35
+      "count": 36
     },
     {
       "username": "user",
@@ -287,6 +287,11 @@
     },
     {
       "username": "test",
+      "password": "test",
+      "count": 3
+    },
+    {
+      "username": "test",
       "password": "(empty)",
       "count": 3
     },
@@ -331,8 +336,18 @@
       "count": 2
     },
     {
-      "username": "test",
-      "password": "test",
+      "username": "root",
+      "password": "12345678",
+      "count": 2
+    },
+    {
+      "username": "guest",
+      "password": "guest",
+      "count": 2
+    },
+    {
+      "username": "telecomadmin",
+      "password": "admintelecom",
       "count": 2
     },
     {
@@ -349,21 +364,6 @@
       "username": "admin",
       "password": "passwordtwo",
       "count": 1
-    },
-    {
-      "username": "testing",
-      "password": "logs",
-      "count": 1
-    },
-    {
-      "username": "root",
-      "password": "wrong",
-      "count": 1
-    },
-    {
-      "username": "j.ic.oc.o.h.e.l.o.23.3@gmail.com",
-      "password": "(empty)",
-      "count": 1
     }
   ],
   "top_usernames": [
@@ -373,7 +373,7 @@
     },
     {
       "username": "root",
-      "count": 101
+      "count": 103
     },
     {
       "username": "ops",
@@ -381,7 +381,7 @@
     },
     {
       "username": "support",
-      "count": 52
+      "count": 53
     },
     {
       "username": "user",
@@ -408,7 +408,19 @@
       "count": 10
     },
     {
+      "username": "telecomadmin",
+      "count": 7
+    },
+    {
       "username": "linksys",
+      "count": 6
+    },
+    {
+      "username": "guest",
+      "count": 6
+    },
+    {
+      "username": "test",
       "count": 6
     },
     {
@@ -428,23 +440,11 @@
       "count": 5
     },
     {
-      "username": "telecomadmin",
-      "count": 5
-    },
-    {
       "username": "digicel",
       "count": 5
     },
     {
-      "username": "test",
-      "count": 5
-    },
-    {
       "username": "Administrator",
-      "count": 4
-    },
-    {
-      "username": "guest",
       "count": 4
     }
   ],
@@ -455,7 +455,7 @@
     },
     {
       "password": "support",
-      "count": 35
+      "count": 36
     },
     {
       "password": "admin",
@@ -506,6 +506,10 @@
       "count": 3
     },
     {
+      "password": "test",
+      "count": 3
+    },
+    {
       "password": "Admin",
       "count": 3
     },
@@ -524,10 +528,6 @@
     {
       "password": "Deft2731",
       "count": 2
-    },
-    {
-      "password": "test",
-      "count": 2
     }
   ],
   "top_user_agents": [
@@ -537,15 +537,15 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 2060
+      "count": 2061
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1563
+      "count": 1839
     },
     {
       "user_agent": "libredtail-http",
-      "count": 1158
+      "count": 1204
     },
     {
       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -553,10 +553,10 @@
     }
   ],
   "method_counts": {
-    "GET": 15274,
-    "POST": 2471,
-    "SSH": 571,
-    "HEAD": 61,
+    "GET": 15610,
+    "POST": 2479,
+    "SSH": 577,
+    "HEAD": 63,
     "PROPFIND": 23,
     "PRI": 13,
     "OPTIONS": 8,
@@ -572,22 +572,22 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 811
+      "count": 821
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 528
+      "count": 534
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 433
+      "count": 434
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 210
+      "count": 211
     },
     {
       "path": "/remote/login",
@@ -602,7 +602,7 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 93
+      "count": 94
     },
     {
       "path": "/favicon.ico",
@@ -622,7 +622,12 @@
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 76
+      "count": 77
+    },
+    {
+      "path": "/style.css",
+      "source": "front:honeypot-01",
+      "count": 71
     },
     {
       "path": "/wordpress/wp-json/batch/v1",
@@ -630,24 +635,19 @@
       "count": 70
     },
     {
-      "path": "/style.css",
+      "path": "/favicon.ico",
       "source": "front:honeypot-01",
       "count": 69
     },
     {
-      "path": "/favicon.ico",
+      "path": "/logo.svg",
       "source": "front:honeypot-01",
-      "count": 67
+      "count": 64
     },
     {
       "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 63
-    },
-    {
-      "path": "/logo.svg",
-      "source": "front:honeypot-01",
-      "count": 62
     },
     {
       "path": "/?rest_route=/batch/v1",
@@ -665,7 +665,7 @@
       "count": 40
     },
     {
-      "path": "/robots.txt",
+      "path": "/.env",
       "source": "bigippot:honeypot-01",
       "count": 39
     }
@@ -673,7 +673,7 @@
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 761,
+      "count": 798,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -700,7 +700,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 290,
+      "count": 298,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -786,15 +786,15 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1069
+    "Critical": 1114
   },
   "top_asns": [
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
-      "ip_count": 79,
-      "event_count": 6168
+      "country": "BR",
+      "ip_count": 80,
+      "event_count": 6170
     },
     {
       "asn": "AS48090",
@@ -888,18 +888,18 @@
       "event_count": 170
     },
     {
+      "asn": "AS12876",
+      "name": "Scaleway SAS",
+      "country": "PL",
+      "ip_count": 18,
+      "event_count": 158
+    },
+    {
       "asn": "AS153622",
       "name": "Madina IT",
       "country": "FI",
       "ip_count": 1,
       "event_count": 156
-    },
-    {
-      "asn": "AS12876",
-      "name": "Scaleway SAS",
-      "country": "PL",
-      "ip_count": 16,
-      "event_count": 138
     },
     {
       "asn": "AS45102",
@@ -931,30 +931,30 @@
     }
   ],
   "events_by_country": {
-    "US": 9107,
-    "NL": 1909,
+    "BR": 6242,
+    "US": 2977,
+    "NL": 1874,
     "IT": 1313,
     "DE": 804,
     "BG": 272,
-    "PL": 214,
+    "PL": 235,
     "CH": 199,
     "HK": 199,
     "FR": 172,
     "SG": 159,
     "FI": 156,
     "PH": 129,
-    "VN": 126,
+    "VN": 127,
     "KZ": 124,
     "GB": 115,
-    "PK": 79,
+    "JP": 91,
+    "PK": 80,
     "SA": 75,
     "KR": 73,
-    "BR": 72,
     "IN": 71,
     "CN": 64,
     "TR": 59,
     "LY": 49,
-    "JP": 45,
     "RU": 44,
     "SE": 37,
     "LU": 36,
@@ -970,8 +970,8 @@
     "MA": 9,
     "AU": 7,
     "TW": 7,
+    "VE": 7,
     "MX": 6,
-    "VE": 6,
     "IR": 5,
     "MN": 4,
     "TN": 4,
