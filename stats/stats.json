@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-12T22:02:30.211896Z",
+  "generated_at": "2026-09-12T23:01:41.577485Z",
   "period_days": 90,
-  "total_events": 17041,
-  "unique_ips": 113,
+  "total_events": 17528,
+  "unique_ips": 119,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 6922,
-    "sshppot:honeypot-01": 157,
-    "front:honeypot-01": 9639
+    "bigippot:honeypot-01": 6927,
+    "sshppot:honeypot-01": 159,
+    "front:honeypot-01": 10119
   },
   "events_per_day": {
     "2026-08-28": {
@@ -101,12 +101,12 @@
     },
     "2026-09-12": {
       "sharepointpot:honeypot-01": 4,
-      "bigippot:honeypot-01": 242,
-      "sshppot:honeypot-01": 74,
+      "bigippot:honeypot-01": 247,
+      "sshppot:honeypot-01": 76,
       "fortipot:honeypot-01": 22,
-      "front:honeypot-01": 604,
+      "front:honeypot-01": 1084,
       "centrestackpot:honeypot-01": 21,
-      "total": 967
+      "total": 1454
     }
   },
   "top_credentials": [
@@ -118,7 +118,7 @@
     {
       "username": "support",
       "password": "support",
-      "count": 13
+      "count": 15
     },
     {
       "username": "admin",
@@ -376,7 +376,7 @@
     },
     {
       "username": "support",
-      "count": 18
+      "count": 20
     },
     {
       "username": "AdminGPON",
@@ -442,7 +442,7 @@
     },
     {
       "password": "support",
-      "count": 13
+      "count": 15
     },
     {
       "password": "admin",
@@ -540,9 +540,9 @@
     }
   ],
   "method_counts": {
-    "GET": 14338,
+    "GET": 14819,
     "POST": 2176,
-    "SSH": 156,
+    "SSH": 158,
     "HEAD": 30,
     "PROPFIND": 13,
     "PRI": 12,
@@ -560,12 +560,12 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 706
+      "count": 708
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 379
+      "count": 380
     },
     {
       "path": "/tmui/login.jsp",
@@ -575,7 +575,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 121
+      "count": 123
     },
     {
       "path": "/remote/login",
@@ -595,22 +595,22 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 77
+      "count": 79
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 71
+      "count": 72
+    },
+    {
+      "path": "/.git/config",
+      "source": "front:honeypot-01",
+      "count": 67
     },
     {
       "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 67
-    },
-    {
-      "path": "/.git/config",
-      "source": "front:honeypot-01",
-      "count": 65
     },
     {
       "path": "/style.css",
@@ -623,17 +623,17 @@
       "count": 60
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 56
-    },
-    {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
       "path": "/blog/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 56
+    },
+    {
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -724,6 +724,13 @@
       "event_count": 487
     },
     {
+      "asn": "AS399979",
+      "name": "49.3 Networking LLC",
+      "country": "DE",
+      "ip_count": 2,
+      "event_count": 487
+    },
+    {
       "asn": "AS202412",
       "name": "Omegatech LTD",
       "country": "NL",
@@ -745,18 +752,18 @@
       "event_count": 49
     },
     {
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 12,
+      "event_count": 25
+    },
+    {
       "asn": "AS51167",
       "name": "Contabo GmbH",
       "country": "FR",
       "ip_count": 1,
       "event_count": 22
-    },
-    {
-      "asn": "AS16509",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 10,
-      "event_count": 21
     },
     {
       "asn": "AS37963",
@@ -773,6 +780,13 @@
       "event_count": 14
     },
     {
+      "asn": "AS154383",
+      "name": "ZORNTECH WEB SOLUTIONS",
+      "country": "PL",
+      "ip_count": 1,
+      "event_count": 12
+    },
+    {
       "asn": "AS8717",
       "name": "A1 Bulgaria EAD",
       "country": "BG",
@@ -787,13 +801,6 @@
       "event_count": 11
     },
     {
-      "asn": "AS399979",
-      "name": "49.3 Networking LLC",
-      "country": "DE",
-      "ip_count": 2,
-      "event_count": 10
-    },
-    {
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
@@ -801,11 +808,11 @@
       "event_count": 10
     },
     {
-      "asn": "AS154383",
-      "name": "ZORNTECH WEB SOLUTIONS",
-      "country": "PL",
-      "ip_count": 1,
-      "event_count": 10
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
+      "country": "US",
+      "ip_count": 6,
+      "event_count": 7
     },
     {
       "asn": "AS41280",
@@ -826,13 +833,6 @@
       "name": "Alibaba (US) Technology Co., Ltd.",
       "country": "US",
       "ip_count": 3,
-      "event_count": 6
-    },
-    {
-      "asn": "AS14061",
-      "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 5,
       "event_count": 6
     },
     {
@@ -858,14 +858,14 @@
     }
   ],
   "events_by_country": {
-    "US": 611,
+    "US": 619,
+    "DE": 489,
     "NL": 130,
     "BG": 86,
     "FR": 35,
     "CN": 26,
     "CA": 17,
-    "PL": 13,
-    "DE": 12,
+    "PL": 15,
     "KR": 7,
     "IN": 6,
     "RU": 5,
