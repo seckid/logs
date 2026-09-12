@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-12T21:03:19.057291Z",
+  "generated_at": "2026-09-12T22:02:30.211896Z",
   "period_days": 90,
-  "total_events": 16989,
-  "unique_ips": 110,
+  "total_events": 17041,
+  "unique_ips": 113,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 6872,
+    "bigippot:honeypot-01": 6922,
     "sshppot:honeypot-01": 157,
-    "front:honeypot-01": 9637
+    "front:honeypot-01": 9639
   },
   "events_per_day": {
     "2026-08-28": {
@@ -101,12 +101,12 @@
     },
     "2026-09-12": {
       "sharepointpot:honeypot-01": 4,
-      "bigippot:honeypot-01": 192,
+      "bigippot:honeypot-01": 242,
       "sshppot:honeypot-01": 74,
       "fortipot:honeypot-01": 22,
-      "front:honeypot-01": 602,
+      "front:honeypot-01": 604,
       "centrestackpot:honeypot-01": 21,
-      "total": 915
+      "total": 967
     }
   },
   "top_credentials": [
@@ -532,7 +532,7 @@
     },
     {
       "user_agent": "libredtail-http",
-      "count": 1031
+      "count": 1080
     },
     {
       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -540,8 +540,8 @@
     }
   ],
   "method_counts": {
-    "GET": 14293,
-    "POST": 2169,
+    "GET": 14338,
+    "POST": 2176,
     "SSH": 156,
     "HEAD": 30,
     "PROPFIND": 13,
@@ -600,7 +600,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 70
+      "count": 71
     },
     {
       "path": "/wp-json/batch/v1",
@@ -623,12 +623,12 @@
       "count": 60
     },
     {
-      "path": "/logo.svg",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -661,27 +661,43 @@
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 666,
+      "count": 703,
       "sources": [
         "bigippot:honeypot-01"
       ],
       "description": "Remote code execution via PHPUnit's eval-stdin.php when left deployed in web-accessible vendor directories. Often probed alongside CVE-2024-4577 spray (Hello PHPUnit fingerprint).",
       "severity": "Critical",
       "cvss_score": 9.8,
-      "sample_ips": [],
-      "sample_paths": []
+      "sample_ips": [
+        "141.11.122.40"
+      ],
+      "sample_paths": [
+        "/phpunit/Util/PHP/eval-stdin.php",
+        "/phpunit/phpunit/Util/PHP/eval-stdin.php",
+        "/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+        "/phpunit/src/Util/PHP/eval-stdin.php",
+        "/vendor/phpunit/Util/PHP/eval-stdin.php"
+      ]
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 123,
+      "count": 133,
       "sources": [
         "bigippot:honeypot-01"
       ],
       "description": "Critical argument injection in PHP running as CGI on Windows. Attackers smuggle -d directives (allow_url_include, auto_prepend_file=php://input) via soft-hyphen (%AD) encoding that bypasses CVE-2012-1823 mitigations. Unauthenticated RCE when php-cgi.exe is exposed. Actively exploited by RedTail cryptominer (libredtail-http).",
       "severity": "Critical",
       "cvss_score": 9.8,
-      "sample_ips": [],
-      "sample_paths": []
+      "sample_ips": [
+        "141.11.122.40"
+      ],
+      "sample_paths": [
+        "/?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
+        "/hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
+        "/index.php?%25ADd+allow_url_include%3D1+%25ADd+auto_prepend_file%3Dphp://input",
+        "/index.php?-d+allow_url_include%3don+-d+auto_prepend_file%3dphp%3a//input",
+        "/test.hello?%25ADd+allow_url_include%3D1+%25ADd+auto_prepend_file%3Dphp://input"
+      ]
     },
     {
       "cve": "CVE-2020-5902",
@@ -697,7 +713,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 795
+    "Critical": 842
   },
   "top_asns": [
     {
@@ -722,6 +738,13 @@
       "event_count": 67
     },
     {
+      "asn": "AS63023",
+      "name": "GTHost",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 49
+    },
+    {
       "asn": "AS51167",
       "name": "Contabo GmbH",
       "country": "FR",
@@ -729,18 +752,18 @@
       "event_count": 22
     },
     {
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 10,
+      "event_count": 21
+    },
+    {
       "asn": "AS37963",
       "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "country": "CN",
       "ip_count": 2,
       "event_count": 20
-    },
-    {
-      "asn": "AS16509",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 9,
-      "event_count": 19
     },
     {
       "asn": "AS16276",
@@ -832,24 +855,17 @@
       "country": "US",
       "ip_count": 1,
       "event_count": 5
-    },
-    {
-      "asn": "AS4134",
-      "name": "CHINANET BACKBONE",
-      "country": "CN",
-      "ip_count": 3,
-      "event_count": 5
     }
   ],
   "events_by_country": {
-    "US": 560,
+    "US": 611,
     "NL": 130,
     "BG": 86,
     "FR": 35,
     "CN": 26,
     "CA": 17,
+    "PL": 13,
     "DE": 12,
-    "PL": 12,
     "KR": 7,
     "IN": 6,
     "RU": 5,
