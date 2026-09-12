@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-12T20:01:07.219780Z",
+  "generated_at": "2026-09-12T21:03:19.057291Z",
   "period_days": 90,
-  "total_events": 16973,
-  "unique_ips": 96,
+  "total_events": 16989,
+  "unique_ips": 110,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 6868,
-    "sshppot:honeypot-01": 147,
-    "front:honeypot-01": 9635
+    "bigippot:honeypot-01": 6872,
+    "sshppot:honeypot-01": 157,
+    "front:honeypot-01": 9637
   },
   "events_per_day": {
     "2026-08-28": {
@@ -101,12 +101,12 @@
     },
     "2026-09-12": {
       "sharepointpot:honeypot-01": 4,
-      "bigippot:honeypot-01": 188,
-      "sshppot:honeypot-01": 64,
+      "bigippot:honeypot-01": 192,
+      "sshppot:honeypot-01": 74,
       "fortipot:honeypot-01": 22,
-      "front:honeypot-01": 600,
+      "front:honeypot-01": 602,
       "centrestackpot:honeypot-01": 21,
-      "total": 899
+      "total": 915
     }
   },
   "top_credentials": [
@@ -118,12 +118,22 @@
     {
       "username": "support",
       "password": "support",
-      "count": 12
+      "count": 13
     },
     {
       "username": "admin",
       "password": "admin",
       "count": 8
+    },
+    {
+      "username": "root",
+      "password": "(empty)",
+      "count": 6
+    },
+    {
+      "username": "admin",
+      "password": "(empty)",
+      "count": 6
     },
     {
       "username": "support",
@@ -137,13 +147,8 @@
     },
     {
       "username": "root",
-      "password": "(empty)",
-      "count": 5
-    },
-    {
-      "username": "admin",
-      "password": "(empty)",
-      "count": 5
+      "password": "12345678",
+      "count": 4
     },
     {
       "username": "root",
@@ -158,11 +163,6 @@
     {
       "username": "user",
       "password": "(empty)",
-      "count": 3
-    },
-    {
-      "username": "root",
-      "password": "12345678",
       "count": 3
     },
     {
@@ -193,6 +193,26 @@
     {
       "username": "root",
       "password": "123456",
+      "count": 2
+    },
+    {
+      "username": "test",
+      "password": "test",
+      "count": 2
+    },
+    {
+      "username": "admin",
+      "password": "password",
+      "count": 2
+    },
+    {
+      "username": "guest",
+      "password": "guest",
+      "count": 2
+    },
+    {
+      "username": "admin",
+      "password": "1234",
       "count": 2
     },
     {
@@ -256,16 +276,6 @@
       "count": 1
     },
     {
-      "username": "test",
-      "password": "test",
-      "count": 1
-    },
-    {
-      "username": "admin",
-      "password": "password",
-      "count": 1
-    },
-    {
       "username": "debian",
       "password": "temppwd",
       "count": 1
@@ -278,16 +288,6 @@
     {
       "username": "admin",
       "password": "admin1",
-      "count": 1
-    },
-    {
-      "username": "guest",
-      "password": "guest",
-      "count": 1
-    },
-    {
-      "username": "admin",
-      "password": "1234",
       "count": 1
     },
     {
@@ -368,15 +368,15 @@
     },
     {
       "username": "root",
-      "count": 32
+      "count": 34
     },
     {
       "username": "admin",
-      "count": 20
+      "count": 23
     },
     {
       "username": "support",
-      "count": 17
+      "count": 18
     },
     {
       "username": "AdminGPON",
@@ -387,15 +387,19 @@
       "count": 7
     },
     {
+      "username": "test",
+      "count": 3
+    },
+    {
       "username": "(empty)",
       "count": 2
     },
     {
-      "username": "a",
+      "username": "guest",
       "count": 2
     },
     {
-      "username": "test",
+      "username": "a",
       "count": 2
     },
     {
@@ -419,10 +423,6 @@
       "count": 1
     },
     {
-      "username": "guest",
-      "count": 1
-    },
-    {
       "username": "ubnt",
       "count": 1
     },
@@ -438,11 +438,11 @@
   "top_passwords": [
     {
       "password": "(empty)",
-      "count": 75
+      "count": 77
     },
     {
       "password": "support",
-      "count": 12
+      "count": 13
     },
     {
       "password": "admin",
@@ -450,6 +450,10 @@
     },
     {
       "password": "12345678",
+      "count": 5
+    },
+    {
+      "password": "password",
       "count": 4
     },
     {
@@ -457,7 +461,7 @@
       "count": 3
     },
     {
-      "password": "password",
+      "password": "1234",
       "count": 3
     },
     {
@@ -481,11 +485,15 @@
       "count": 2
     },
     {
-      "password": "Tencent@123",
+      "password": "test",
       "count": 2
     },
     {
-      "password": "1234",
+      "password": "guest",
+      "count": 2
+    },
+    {
+      "password": "Tencent@123",
       "count": 2
     },
     {
@@ -506,14 +514,6 @@
     },
     {
       "password": "a",
-      "count": 1
-    },
-    {
-      "password": "P",
-      "count": 1
-    },
-    {
-      "password": "orangepi",
       "count": 1
     }
   ],
@@ -540,9 +540,9 @@
     }
   ],
   "method_counts": {
-    "GET": 14287,
+    "GET": 14293,
     "POST": 2169,
-    "SSH": 146,
+    "SSH": 156,
     "HEAD": 30,
     "PROPFIND": 13,
     "PRI": 12,
@@ -565,7 +565,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 378
+      "count": 379
     },
     {
       "path": "/tmui/login.jsp",
@@ -575,7 +575,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 111
+      "count": 121
     },
     {
       "path": "/remote/login",
@@ -590,7 +590,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 84
+      "count": 85
     },
     {
       "path": "/.env",
@@ -600,7 +600,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 69
+      "count": 70
     },
     {
       "path": "/wp-json/batch/v1",
@@ -623,17 +623,17 @@
       "count": 60
     },
     {
-      "path": "/blog/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 56
-    },
-    {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
       "path": "/wordpress/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 56
+    },
+    {
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -782,7 +782,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 9
+      "event_count": 10
     },
     {
       "asn": "AS41280",
@@ -790,6 +790,13 @@
       "country": "BG",
       "ip_count": 1,
       "event_count": 7
+    },
+    {
+      "asn": "AS4766",
+      "name": "Korea Telecom",
+      "country": "KR",
+      "ip_count": 6,
+      "event_count": 6
     },
     {
       "asn": "AS45102",
@@ -813,6 +820,13 @@
       "event_count": 6
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 5,
+      "event_count": 5
+    },
+    {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
       "country": "US",
@@ -825,40 +839,27 @@
       "country": "CN",
       "ip_count": 3,
       "event_count": 5
-    },
-    {
-      "asn": "AS210644",
-      "name": "AEZA GROUP LLC",
-      "country": "FR",
-      "ip_count": 1,
-      "event_count": 5
-    },
-    {
-      "asn": "AS36903",
-      "name": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
-      "country": "MA",
-      "ip_count": 3,
-      "event_count": 4
     }
   ],
   "events_by_country": {
-    "US": 555,
-    "NL": 129,
+    "US": 560,
+    "NL": 130,
     "BG": 86,
     "FR": 35,
     "CN": 26,
     "CA": 17,
     "DE": 12,
-    "PL": 11,
-    "IN": 5,
+    "PL": 12,
+    "KR": 7,
+    "IN": 6,
+    "RU": 5,
     "MA": 4,
     "RO": 4,
-    "KR": 3,
-    "RU": 3,
     "AE": 2,
+    "NO": 2,
     "SI": 2,
     "BD": 1,
-    "NO": 1,
+    "IT": 1,
     "TW": 1,
     "VN": 1
   }
