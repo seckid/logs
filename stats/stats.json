@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-12T18:00:46.784052Z",
+  "generated_at": "2026-09-12T19:03:58.702364Z",
   "period_days": 90,
-  "total_events": 16447,
-  "unique_ips": 75,
+  "total_events": 16735,
+  "unique_ips": 81,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 6864,
-    "sshppot:honeypot-01": 123,
-    "front:honeypot-01": 9137
+    "bigippot:honeypot-01": 6867,
+    "sshppot:honeypot-01": 124,
+    "front:honeypot-01": 9421
   },
   "events_per_day": {
     "2026-08-28": {
@@ -101,12 +101,12 @@
     },
     "2026-09-12": {
       "sharepointpot:honeypot-01": 4,
-      "bigippot:honeypot-01": 184,
-      "sshppot:honeypot-01": 40,
+      "bigippot:honeypot-01": 187,
+      "sshppot:honeypot-01": 41,
       "fortipot:honeypot-01": 22,
-      "front:honeypot-01": 102,
+      "front:honeypot-01": 386,
       "centrestackpot:honeypot-01": 21,
-      "total": 373
+      "total": 661
     }
   },
   "top_credentials": [
@@ -118,7 +118,7 @@
     {
       "username": "support",
       "password": "support",
-      "count": 9
+      "count": 10
     },
     {
       "username": "admin",
@@ -346,7 +346,7 @@
     },
     {
       "username": "support",
-      "count": 14
+      "count": 15
     },
     {
       "username": "AdminGPON",
@@ -400,7 +400,7 @@
     },
     {
       "password": "support",
-      "count": 9
+      "count": 10
     },
     {
       "password": "admin",
@@ -481,12 +481,12 @@
       "count": 2512
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1732
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 1824
     },
     {
-      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1548
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 1732
     },
     {
       "user_agent": "libredtail-http",
@@ -494,13 +494,13 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 850
+      "count": 851
     }
   ],
   "method_counts": {
-    "GET": 13803,
-    "POST": 2153,
-    "SSH": 122,
+    "GET": 14084,
+    "POST": 2159,
+    "SSH": 123,
     "HEAD": 30,
     "PROPFIND": 13,
     "PRI": 12,
@@ -517,17 +517,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 695
+      "count": 704
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 376
+      "count": 378
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 185
+      "count": 186
     },
     {
       "path": "/remote/login",
@@ -542,7 +542,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 87
+      "count": 88
     },
     {
       "path": "/favicon.ico",
@@ -552,12 +552,12 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 74
+      "count": 75
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 67
+      "count": 68
     },
     {
       "path": "/wp-json/batch/v1",
@@ -567,7 +567,7 @@
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 64
+      "count": 65
     },
     {
       "path": "/style.css",
@@ -658,6 +658,13 @@
   },
   "top_asns": [
     {
+      "asn": "AS396982",
+      "name": "Google LLC",
+      "country": "CA",
+      "ip_count": 5,
+      "event_count": 282
+    },
+    {
       "asn": "AS202412",
       "name": "Omegatech LTD",
       "country": "NL",
@@ -681,9 +688,9 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "SG",
-      "ip_count": 7,
-      "event_count": 15
+      "country": "US",
+      "ip_count": 8,
+      "event_count": 17
     },
     {
       "asn": "AS16276",
@@ -707,6 +714,13 @@
       "event_count": 10
     },
     {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "ip_count": 6,
+      "event_count": 10
+    },
+    {
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
@@ -721,10 +735,10 @@
       "event_count": 9
     },
     {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 5,
+      "asn": "AS154383",
+      "name": "ZORNTECH WEB SOLUTIONS",
+      "country": "PL",
+      "ip_count": 1,
       "event_count": 8
     },
     {
@@ -735,11 +749,11 @@
       "event_count": 7
     },
     {
-      "asn": "AS154383",
-      "name": "ZORNTECH WEB SOLUTIONS",
-      "country": "PL",
-      "ip_count": 1,
-      "event_count": 7
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
+      "country": "US",
+      "ip_count": 5,
+      "event_count": 6
     },
     {
       "asn": "AS398324",
@@ -747,13 +761,6 @@
       "country": "US",
       "ip_count": 1,
       "event_count": 6
-    },
-    {
-      "asn": "AS14061",
-      "name": "DigitalOcean, LLC",
-      "country": "GB",
-      "ip_count": 4,
-      "event_count": 5
     },
     {
       "asn": "AS45102",
@@ -767,13 +774,6 @@
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
       "country": "US",
       "ip_count": 1,
-      "event_count": 5
-    },
-    {
-      "asn": "AS396982",
-      "name": "Google LLC",
-      "country": "US",
-      "ip_count": 4,
       "event_count": 5
     },
     {
@@ -791,27 +791,25 @@
       "event_count": 5
     },
     {
-      "asn": "AS213412",
-      "name": "ONYPHE SAS",
-      "country": "FR",
-      "ip_count": 4,
+      "asn": "AS47890",
+      "name": "UNMANAGED LTD",
+      "country": "RO",
+      "ip_count": 2,
       "event_count": 4
     }
   ],
   "events_by_country": {
+    "CA": 299,
     "NL": 118,
     "BG": 80,
-    "US": 54,
+    "US": 74,
     "FR": 35,
-    "CA": 17,
     "CN": 15,
-    "SG": 15,
-    "DE": 11,
-    "PL": 9,
-    "GB": 5,
-    "RO": 3,
+    "DE": 12,
+    "PL": 10,
+    "IN": 5,
+    "RO": 4,
     "AE": 2,
-    "IN": 2,
     "MA": 2,
     "SI": 2,
     "BD": 1,
