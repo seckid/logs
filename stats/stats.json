@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-12T11:02:58.966555Z",
+  "generated_at": "2026-09-12T12:00:49.094249Z",
   "period_days": 90,
-  "total_events": 16209,
-  "unique_ips": 28,
+  "total_events": 16225,
+  "unique_ips": 34,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 6696,
-    "sshppot:honeypot-01": 109,
-    "front:honeypot-01": 9081
+    "bigippot:honeypot-01": 6702,
+    "sshppot:honeypot-01": 110,
+    "front:honeypot-01": 9090
   },
   "events_per_day": {
     "2026-08-28": {
@@ -101,12 +101,12 @@
     },
     "2026-09-12": {
       "sharepointpot:honeypot-01": 4,
-      "bigippot:honeypot-01": 16,
-      "sshppot:honeypot-01": 26,
+      "bigippot:honeypot-01": 22,
+      "sshppot:honeypot-01": 27,
       "fortipot:honeypot-01": 22,
-      "front:honeypot-01": 46,
+      "front:honeypot-01": 55,
       "centrestackpot:honeypot-01": 21,
-      "total": 135
+      "total": 151
     }
   },
   "top_credentials": [
@@ -123,7 +123,7 @@
     {
       "username": "support",
       "password": "support",
-      "count": 5
+      "count": 6
     },
     {
       "username": "support",
@@ -306,7 +306,7 @@
     },
     {
       "username": "support",
-      "count": 10
+      "count": 11
     },
     {
       "username": "AdminGPON",
@@ -364,7 +364,7 @@
     },
     {
       "password": "support",
-      "count": 5
+      "count": 6
     },
     {
       "password": "Deft2731",
@@ -458,12 +458,12 @@
     }
   ],
   "method_counts": {
-    "GET": 13598,
+    "GET": 13611,
     "POST": 2152,
-    "SSH": 108,
+    "SSH": 109,
     "HEAD": 30,
     "PROPFIND": 13,
-    "PRI": 11,
+    "PRI": 12,
     "HEARTBEAT": 8,
     "OPTIONS": 6,
     "SSTP_DUPLEX_POST": 4,
@@ -477,17 +477,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 680
+      "count": 684
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 359
+      "count": 360
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 175
+      "count": 176
     },
     {
       "path": "/remote/login",
@@ -502,12 +502,12 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 78
+      "count": 79
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 74
+      "count": 75
     },
     {
       "path": "/.env",
@@ -522,7 +522,7 @@
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 62
+      "count": 63
     },
     {
       "path": "/robots.txt",
@@ -532,7 +532,7 @@
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 58
+      "count": 59
     },
     {
       "path": "/blog/wp-json/batch/v1",
@@ -646,11 +646,25 @@
       "event_count": 10
     },
     {
+      "asn": "AS398324",
+      "name": "Censys, Inc.",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 6
+    },
+    {
       "asn": "AS210644",
       "name": "AEZA GROUP LLC",
       "country": "FR",
       "ip_count": 1,
       "event_count": 5
+    },
+    {
+      "asn": "AS154383",
+      "name": "ZORNTECH WEB SOLUTIONS",
+      "country": "PL",
+      "ip_count": 1,
+      "event_count": 4
     },
     {
       "asn": "AS16276",
@@ -667,6 +681,13 @@
       "event_count": 4
     },
     {
+      "asn": "AS211590",
+      "name": "Bucklog SARL",
+      "country": "FR",
+      "ip_count": 1,
+      "event_count": 3
+    },
+    {
       "asn": "AS135392",
       "name": "MillenialHost Limited",
       "country": "US",
@@ -674,44 +695,16 @@
       "event_count": 3
     },
     {
-      "asn": "AS154383",
-      "name": "ZORNTECH WEB SOLUTIONS",
-      "country": "PL",
+      "asn": "AS41280",
+      "name": "SKYNET BULGARIA Ltd.",
+      "country": "BG",
       "ip_count": 1,
       "event_count": 3
-    },
-    {
-      "asn": "AS213412",
-      "name": "ONYPHE SAS",
-      "country": "FR",
-      "ip_count": 2,
-      "event_count": 2
-    },
-    {
-      "asn": "AS36903",
-      "name": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
-      "country": "MA",
-      "ip_count": 1,
-      "event_count": 2
     },
     {
       "asn": "AS197769",
       "name": "VPS Dedicated LLC",
       "country": "SI",
-      "ip_count": 1,
-      "event_count": 2
-    },
-    {
-      "asn": "AS201814",
-      "name": "MEVSPACE sp. z o.o.",
-      "country": "PL",
-      "ip_count": 1,
-      "event_count": 2
-    },
-    {
-      "asn": "AS62164",
-      "name": "Heymman Servers Corporation",
-      "country": "US",
       "ip_count": 1,
       "event_count": 2
     },
@@ -730,43 +723,51 @@
       "event_count": 2
     },
     {
-      "asn": "AS60068",
-      "name": "Datacamp Limited",
-      "country": "US",
+      "asn": "AS201814",
+      "name": "MEVSPACE sp. z o.o.",
+      "country": "PL",
       "ip_count": 1,
-      "event_count": 1
+      "event_count": 2
     },
     {
-      "asn": "AS9009",
-      "name": "M247 Europe SRL",
+      "asn": "AS62164",
+      "name": "Heymman Servers Corporation",
       "country": "US",
       "ip_count": 1,
-      "event_count": 1
+      "event_count": 2
     },
     {
-      "asn": "AS202412",
-      "name": "Omegatech LTD",
-      "country": "DE",
+      "asn": "AS213412",
+      "name": "ONYPHE SAS",
+      "country": "FR",
+      "ip_count": 2,
+      "event_count": 2
+    },
+    {
+      "asn": "AS36903",
+      "name": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
+      "country": "MA",
       "ip_count": 1,
-      "event_count": 1
+      "event_count": 2
     },
     {
-      "asn": "AS14061",
-      "name": "DigitalOcean, LLC",
-      "country": "US",
+      "asn": "AS215599",
+      "name": "Zkillu SAS",
+      "country": "FR",
       "ip_count": 1,
       "event_count": 1
     }
   ],
   "events_by_country": {
-    "BG": 64,
-    "FR": 29,
-    "US": 26,
-    "PL": 5,
+    "BG": 67,
+    "FR": 33,
+    "US": 33,
+    "PL": 6,
     "CA": 4,
     "DE": 2,
     "MA": 2,
     "SI": 2,
+    "RO": 1,
     "TW": 1
   }
 }
