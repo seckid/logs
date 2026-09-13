@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T14:00:59.179563Z",
+  "generated_at": "2026-09-13T15:03:39.184183Z",
   "period_days": 90,
-  "total_events": 18300,
-  "unique_ips": 220,
+  "total_events": 19159,
+  "unique_ips": 224,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 7214,
-    "sshppot:honeypot-01": 240,
-    "front:honeypot-01": 10523
+    "bigippot:honeypot-01": 7217,
+    "sshppot:honeypot-01": 257,
+    "front:honeypot-01": 11362
   },
   "events_per_day": {
     "2026-08-28": {
@@ -109,10 +109,10 @@
       "total": 1495
     },
     "2026-09-13": {
-      "sshppot:honeypot-01": 46,
-      "front:honeypot-01": 399,
-      "bigippot:honeypot-01": 286,
-      "total": 731
+      "sshppot:honeypot-01": 63,
+      "front:honeypot-01": 1238,
+      "bigippot:honeypot-01": 289,
+      "total": 1590
     }
   },
   "top_credentials": [
@@ -124,12 +124,12 @@
     {
       "username": "support",
       "password": "support",
-      "count": 30
+      "count": 31
     },
     {
       "username": "admin",
       "password": "admin",
-      "count": 11
+      "count": 12
     },
     {
       "username": "root",
@@ -140,6 +140,21 @@
       "username": "admin",
       "password": "(empty)",
       "count": 7
+    },
+    {
+      "username": "root",
+      "password": "admin",
+      "count": 6
+    },
+    {
+      "username": "user",
+      "password": "user",
+      "count": 6
+    },
+    {
+      "username": "root",
+      "password": "root",
+      "count": 6
     },
     {
       "username": "root",
@@ -157,38 +172,33 @@
       "count": 5
     },
     {
-      "username": "root",
-      "password": "admin",
-      "count": 5
-    },
-    {
-      "username": "user",
-      "password": "user",
-      "count": 5
-    },
-    {
-      "username": "root",
-      "password": "root",
-      "count": 5
-    },
-    {
       "username": "admin",
       "password": "admin123",
-      "count": 4
+      "count": 5
     },
     {
       "username": "root",
       "password": "123456",
-      "count": 4
+      "count": 5
     },
     {
       "username": "test",
       "password": "test",
-      "count": 4
+      "count": 5
     },
     {
       "username": "admin",
       "password": "password",
+      "count": 5
+    },
+    {
+      "username": "root",
+      "password": "password",
+      "count": 4
+    },
+    {
+      "username": "debian",
+      "password": "temppwd",
       "count": 4
     },
     {
@@ -217,43 +227,33 @@
       "count": 3
     },
     {
+      "username": "user",
+      "password": "1234",
+      "count": 3
+    },
+    {
       "username": "root",
-      "password": "password",
+      "password": "P",
+      "count": 3
+    },
+    {
+      "username": "orangepi",
+      "password": "orangepi",
+      "count": 3
+    },
+    {
+      "username": "admin",
+      "password": "adminadmin",
+      "count": 3
+    },
+    {
+      "username": "root",
+      "password": "abcd1234",
       "count": 3
     },
     {
       "username": "(empty)",
       "password": "Deft2731",
-      "count": 2
-    },
-    {
-      "username": "user",
-      "password": "1234",
-      "count": 2
-    },
-    {
-      "username": "root",
-      "password": "P",
-      "count": 2
-    },
-    {
-      "username": "orangepi",
-      "password": "orangepi",
-      "count": 2
-    },
-    {
-      "username": "admin",
-      "password": "adminadmin",
-      "count": 2
-    },
-    {
-      "username": "root",
-      "password": "abcd1234",
-      "count": 2
-    },
-    {
-      "username": "debian",
-      "password": "temppwd",
       "count": 2
     },
     {
@@ -370,7 +370,7 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 53
+      "count": 59
     },
     {
       "username": "ops",
@@ -378,15 +378,15 @@
     },
     {
       "username": "admin",
-      "count": 37
+      "count": 41
     },
     {
       "username": "support",
-      "count": 35
+      "count": 36
     },
     {
       "username": "user",
-      "count": 12
+      "count": 14
     },
     {
       "username": "AdminGPON",
@@ -394,6 +394,10 @@
     },
     {
       "username": "test",
+      "count": 5
+    },
+    {
+      "username": "debian",
       "count": 4
     },
     {
@@ -401,15 +405,11 @@
       "count": 4
     },
     {
-      "username": "(empty)",
-      "count": 2
-    },
-    {
       "username": "orangepi",
-      "count": 2
+      "count": 3
     },
     {
-      "username": "debian",
+      "username": "(empty)",
       "count": 2
     },
     {
@@ -452,42 +452,46 @@
     },
     {
       "password": "support",
-      "count": 30
+      "count": 31
     },
     {
       "password": "admin",
-      "count": 16
+      "count": 18
     },
     {
       "password": "password",
-      "count": 9
+      "count": 11
+    },
+    {
+      "password": "1234",
+      "count": 7
+    },
+    {
+      "password": "user",
+      "count": 6
+    },
+    {
+      "password": "root",
+      "count": 6
     },
     {
       "password": "12345678",
       "count": 6
     },
     {
-      "password": "1234",
-      "count": 6
-    },
-    {
-      "password": "user",
-      "count": 5
-    },
-    {
-      "password": "root",
-      "count": 5
-    },
-    {
       "password": "admin123",
-      "count": 4
+      "count": 5
     },
     {
       "password": "123456",
-      "count": 4
+      "count": 5
     },
     {
       "password": "test",
+      "count": 5
+    },
+    {
+      "password": "temppwd",
       "count": 4
     },
     {
@@ -503,27 +507,23 @@
       "count": 3
     },
     {
-      "password": "Deft2731",
-      "count": 2
-    },
-    {
       "password": "P",
-      "count": 2
+      "count": 3
     },
     {
       "password": "orangepi",
-      "count": 2
+      "count": 3
     },
     {
       "password": "adminadmin",
-      "count": 2
+      "count": 3
     },
     {
       "password": "abcd1234",
-      "count": 2
+      "count": 3
     },
     {
-      "password": "temppwd",
+      "password": "Deft2731",
       "count": 2
     }
   ],
@@ -550,9 +550,9 @@
     }
   ],
   "method_counts": {
-    "GET": 15454,
+    "GET": 16296,
     "POST": 2199,
-    "SSH": 239,
+    "SSH": 256,
     "HEAD": 36,
     "PROPFIND": 13,
     "PRI": 13,
@@ -570,17 +570,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 749
+      "count": 755
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 401
+      "count": 402
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 202
+      "count": 219
     },
     {
       "path": "/tmui/login.jsp",
@@ -598,14 +598,14 @@
       "count": 98
     },
     {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
+      "path": "/.env",
+      "source": "front:honeypot-01",
       "count": 87
     },
     {
-      "path": "/.env",
-      "source": "front:honeypot-01",
-      "count": 84
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
+      "count": 87
     },
     {
       "path": "/robots.txt",
@@ -615,7 +615,7 @@
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 74
+      "count": 76
     },
     {
       "path": "/wp-json/batch/v1",
@@ -638,12 +638,12 @@
       "count": 61
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -734,8 +734,8 @@
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "US",
-      "ip_count": 9,
-      "event_count": 776
+      "ip_count": 10,
+      "event_count": 1614
     },
     {
       "asn": "AS399979",
@@ -749,7 +749,7 @@
       "name": "Omegatech LTD",
       "country": "DE",
       "ip_count": 3,
-      "event_count": 231
+      "event_count": 232
     },
     {
       "asn": "AS197556",
@@ -766,6 +766,13 @@
       "event_count": 73
     },
     {
+      "asn": "AS45102",
+      "name": "Alibaba (US) Technology Co., Ltd.",
+      "country": "PH",
+      "ip_count": 4,
+      "event_count": 57
+    },
+    {
       "asn": "AS206134",
       "name": "NEKOBYTE INTERNATIONAL LIMITED",
       "country": "DE",
@@ -780,13 +787,6 @@
       "event_count": 49
     },
     {
-      "asn": "AS45102",
-      "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "PH",
-      "ip_count": 4,
-      "event_count": 41
-    },
-    {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "GB",
@@ -797,8 +797,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 16,
-      "event_count": 31
+      "ip_count": 17,
+      "event_count": 32
     },
     {
       "asn": "AS12876",
@@ -872,26 +872,26 @@
     }
   ],
   "events_by_country": {
-    "US": 953,
-    "DE": 773,
+    "US": 1793,
+    "DE": 774,
     "KZ": 138,
     "BG": 92,
     "GB": 65,
     "PL": 58,
-    "PH": 41,
+    "PH": 57,
     "FR": 38,
     "CN": 36,
-    "NL": 30,
+    "NL": 31,
     "KR": 9,
     "RU": 8,
     "JP": 5,
     "MA": 5,
     "RO": 5,
     "IN": 4,
+    "BR": 3,
     "CA": 3,
     "CH": 3,
     "AE": 2,
-    "BR": 2,
     "HK": 2,
     "ID": 2,
     "NO": 2,
