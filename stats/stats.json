@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T15:03:39.184183Z",
+  "generated_at": "2026-09-13T16:03:59.163741Z",
   "period_days": 90,
-  "total_events": 19159,
-  "unique_ips": 224,
+  "total_events": 19492,
+  "unique_ips": 227,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 7217,
+    "bigippot:honeypot-01": 7218,
     "sshppot:honeypot-01": 257,
-    "front:honeypot-01": 11362
+    "front:honeypot-01": 11694
   },
   "events_per_day": {
     "2026-08-28": {
@@ -110,9 +110,9 @@
     },
     "2026-09-13": {
       "sshppot:honeypot-01": 63,
-      "front:honeypot-01": 1238,
-      "bigippot:honeypot-01": 289,
-      "total": 1590
+      "front:honeypot-01": 1570,
+      "bigippot:honeypot-01": 290,
+      "total": 1923
     }
   },
   "top_credentials": [
@@ -550,8 +550,8 @@
     }
   ],
   "method_counts": {
-    "GET": 16296,
-    "POST": 2199,
+    "GET": 16618,
+    "POST": 2208,
     "SSH": 256,
     "HEAD": 36,
     "PROPFIND": 13,
@@ -559,9 +559,9 @@
     "HEARTBEAT": 8,
     "OPTIONS": 6,
     "SSTP_DUPLEX_POST": 5,
+    "DELETE": 4,
     "CONNECT": 3,
     "T3": 2,
-    "DELETE": 2,
     "{\"PARAMS\":": 2,
     "FOX": 1,
     "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"BLUE1\",\"PASS\":\"X\",\"AGENT\":\"WINDOWS": 1
@@ -570,12 +570,12 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 755
+      "count": 763
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 402
+      "count": 403
     },
     {
       "path": "/",
@@ -600,7 +600,7 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 87
+      "count": 90
     },
     {
       "path": "/favicon.ico",
@@ -608,12 +608,12 @@
       "count": 87
     },
     {
-      "path": "/robots.txt",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 76
+      "count": 77
     },
     {
-      "path": "/.git/config",
+      "path": "/robots.txt",
       "source": "front:honeypot-01",
       "count": 76
     },
@@ -638,12 +638,12 @@
       "count": 61
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -655,7 +655,7 @@
     {
       "path": "/signup",
       "source": "front:honeypot-01",
-      "count": 41
+      "count": 42
     },
     {
       "path": "/api/auth/signin",
@@ -872,8 +872,8 @@
     }
   ],
   "events_by_country": {
-    "US": 1793,
-    "DE": 774,
+    "US": 1794,
+    "DE": 779,
     "KZ": 138,
     "BG": 92,
     "GB": 65,
@@ -900,6 +900,7 @@
     "SG": 2,
     "SI": 2,
     "BD": 1,
+    "BH": 1,
     "CO": 1,
     "ES": 1,
     "IT": 1,
