@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T02:03:07.423468Z",
+  "generated_at": "2026-09-13T03:00:56.149541Z",
   "period_days": 90,
-  "total_events": 17866,
-  "unique_ips": 135,
+  "total_events": 17880,
+  "unique_ips": 141,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 6935,
+    "bigippot:honeypot-01": 6943,
     "sshppot:honeypot-01": 200,
-    "front:honeypot-01": 10408
+    "front:honeypot-01": 10412
   },
   "events_per_day": {
     "2026-08-28": {
@@ -110,9 +110,9 @@
     },
     "2026-09-13": {
       "sshppot:honeypot-01": 6,
-      "front:honeypot-01": 284,
-      "bigippot:honeypot-01": 7,
-      "total": 297
+      "front:honeypot-01": 288,
+      "bigippot:honeypot-01": 14,
+      "total": 308
     }
   },
   "top_credentials": [
@@ -546,7 +546,7 @@
     }
   ],
   "method_counts": {
-    "GET": 15109,
+    "GET": 15128,
     "POST": 2181,
     "SSH": 199,
     "HEAD": 30,
@@ -566,12 +566,12 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 719
+      "count": 722
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 383
+      "count": 384
     },
     {
       "path": "/tmui/login.jsp",
@@ -626,12 +626,7 @@
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 61
-    },
-    {
-      "path": "/blog/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 56
+      "count": 62
     },
     {
       "path": "/wordpress/wp-json/batch/v1",
@@ -640,6 +635,11 @@
     },
     {
       "path": "/logo.svg",
+      "source": "front:honeypot-01",
+      "count": 56
+    },
+    {
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -739,9 +739,9 @@
     {
       "asn": "AS202412",
       "name": "Omegatech LTD",
-      "country": "NL",
-      "ip_count": 2,
-      "event_count": 116
+      "country": "DE",
+      "ip_count": 3,
+      "event_count": 132
     },
     {
       "asn": "AS29244",
@@ -793,18 +793,18 @@
       "event_count": 15
     },
     {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "SG",
+      "ip_count": 11,
+      "event_count": 15
+    },
+    {
       "asn": "AS154383",
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
       "event_count": 15
-    },
-    {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 9,
-      "event_count": 13
     },
     {
       "asn": "AS8717",
@@ -814,18 +814,18 @@
       "event_count": 12
     },
     {
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
+      "country": "GB",
+      "ip_count": 9,
+      "event_count": 11
+    },
+    {
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
       "ip_count": 3,
       "event_count": 10
-    },
-    {
-      "asn": "AS14061",
-      "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 8,
-      "event_count": 9
     },
     {
       "asn": "AS41280",
@@ -864,25 +864,28 @@
     }
   ],
   "events_by_country": {
-    "US": 915,
-    "DE": 494,
-    "NL": 122,
+    "US": 893,
+    "DE": 626,
     "BG": 86,
     "PH": 41,
     "FR": 35,
     "CN": 26,
+    "GB": 26,
     "PL": 18,
-    "GB": 15,
+    "SG": 15,
     "KR": 7,
-    "IN": 6,
+    "NL": 6,
     "RU": 5,
+    "IN": 4,
     "MA": 4,
     "RO": 4,
     "CA": 3,
+    "JP": 3,
     "AE": 2,
     "NO": 2,
     "SI": 2,
     "BD": 1,
+    "HK": 1,
     "IT": 1,
     "TW": 1,
     "VN": 1
