@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T09:02:43.545189Z",
+  "generated_at": "2026-09-13T10:02:29.038198Z",
   "period_days": 90,
-  "total_events": 18187,
-  "unique_ips": 184,
+  "total_events": 18207,
+  "unique_ips": 201,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,8 +17,8 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 7144,
-    "sshppot:honeypot-01": 217,
+    "bigippot:honeypot-01": 7152,
+    "sshppot:honeypot-01": 229,
     "front:honeypot-01": 10503
   },
   "events_per_day": {
@@ -109,10 +109,10 @@
       "total": 1495
     },
     "2026-09-13": {
-      "sshppot:honeypot-01": 23,
+      "sshppot:honeypot-01": 35,
       "front:honeypot-01": 379,
-      "bigippot:honeypot-01": 216,
-      "total": 618
+      "bigippot:honeypot-01": 224,
+      "total": 638
     }
   },
   "top_credentials": [
@@ -139,7 +139,7 @@
     {
       "username": "admin",
       "password": "(empty)",
-      "count": 6
+      "count": 7
     },
     {
       "username": "support",
@@ -157,23 +157,38 @@
       "count": 5
     },
     {
+      "username": "user",
+      "password": "user",
+      "count": 5
+    },
+    {
+      "username": "root",
+      "password": "root",
+      "count": 5
+    },
+    {
       "username": "root",
       "password": "12345678",
       "count": 5
     },
     {
-      "username": "user",
-      "password": "user",
-      "count": 4
-    },
-    {
-      "username": "root",
-      "password": "root",
+      "username": "admin",
+      "password": "admin123",
       "count": 4
     },
     {
       "username": "root",
       "password": "123456",
+      "count": 4
+    },
+    {
+      "username": "admin",
+      "password": "password",
+      "count": 4
+    },
+    {
+      "username": "admin",
+      "password": "1234",
       "count": 4
     },
     {
@@ -187,11 +202,6 @@
       "count": 3
     },
     {
-      "username": "admin",
-      "password": "admin123",
-      "count": 3
-    },
-    {
       "username": "root",
       "password": "password",
       "count": 3
@@ -202,18 +212,8 @@
       "count": 3
     },
     {
-      "username": "admin",
-      "password": "password",
-      "count": 3
-    },
-    {
       "username": "guest",
       "password": "guest",
-      "count": 3
-    },
-    {
-      "username": "admin",
-      "password": "1234",
       "count": 3
     },
     {
@@ -277,8 +277,38 @@
       "count": 2
     },
     {
+      "username": "ubnt",
+      "password": "ubnt",
+      "count": 2
+    },
+    {
+      "username": "operator",
+      "password": "operator",
+      "count": 2
+    },
+    {
+      "username": "Admin",
+      "password": "Admin",
+      "count": 2
+    },
+    {
       "username": "root",
       "password": "Aa123456",
+      "count": 2
+    },
+    {
+      "username": "admin",
+      "password": "Admin@123",
+      "count": 2
+    },
+    {
+      "username": "user",
+      "password": "password",
+      "count": 2
+    },
+    {
+      "username": "telecomadmin",
+      "password": "admintelecom",
       "count": 2
     },
     {
@@ -335,36 +365,6 @@
       "username": "root",
       "password": "Li123456.",
       "count": 1
-    },
-    {
-      "username": "root",
-      "password": "aDm8H%MdA",
-      "count": 1
-    },
-    {
-      "username": "root",
-      "password": "1qazcde3!@#",
-      "count": 1
-    },
-    {
-      "username": "ubnt",
-      "password": "ubnt",
-      "count": 1
-    },
-    {
-      "username": "operator",
-      "password": "operator",
-      "count": 1
-    },
-    {
-      "username": "Admin",
-      "password": "Admin",
-      "count": 1
-    },
-    {
-      "username": "root",
-      "password": "yt3g7eGqJH",
-      "count": 1
     }
   ],
   "top_usernames": [
@@ -374,19 +374,19 @@
     },
     {
       "username": "root",
-      "count": 50
+      "count": 48
+    },
+    {
+      "username": "admin",
+      "count": 37
     },
     {
       "username": "support",
       "count": 31
     },
     {
-      "username": "admin",
-      "count": 31
-    },
-    {
       "username": "user",
-      "count": 9
+      "count": 12
     },
     {
       "username": "AdminGPON",
@@ -417,6 +417,22 @@
       "count": 2
     },
     {
+      "username": "ubnt",
+      "count": 2
+    },
+    {
+      "username": "operator",
+      "count": 2
+    },
+    {
+      "username": "Admin",
+      "count": 2
+    },
+    {
+      "username": "telecomadmin",
+      "count": 2
+    },
+    {
       "username": "a",
       "count": 2
     },
@@ -427,24 +443,12 @@
     {
       "username": "j.ic.oc.o.h.e.l.o.23.3@gmail.com",
       "count": 1
-    },
-    {
-      "username": "ubnt",
-      "count": 1
-    },
-    {
-      "username": "operator",
-      "count": 1
-    },
-    {
-      "username": "Admin",
-      "count": 1
     }
   ],
   "top_passwords": [
     {
       "password": "(empty)",
-      "count": 78
+      "count": 79
     },
     {
       "password": "support",
@@ -456,22 +460,26 @@
     },
     {
       "password": "password",
+      "count": 9
+    },
+    {
+      "password": "1234",
       "count": 6
+    },
+    {
+      "password": "user",
+      "count": 5
+    },
+    {
+      "password": "root",
+      "count": 5
     },
     {
       "password": "12345678",
       "count": 5
     },
     {
-      "password": "1234",
-      "count": 5
-    },
-    {
-      "password": "user",
-      "count": 4
-    },
-    {
-      "password": "root",
+      "password": "admin123",
       "count": 4
     },
     {
@@ -480,10 +488,6 @@
     },
     {
       "password": "ALC#FGU",
-      "count": 3
-    },
-    {
-      "password": "admin123",
       "count": 3
     },
     {
@@ -546,9 +550,9 @@
     }
   ],
   "method_counts": {
-    "GET": 15379,
+    "GET": 15383,
     "POST": 2194,
-    "SSH": 216,
+    "SSH": 228,
     "HEAD": 35,
     "PROPFIND": 13,
     "PRI": 12,
@@ -571,17 +575,17 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 396
+      "count": 397
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 194
+      "count": 195
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 180
+      "count": 192
     },
     {
       "path": "/remote/login",
@@ -776,9 +780,9 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 16,
-      "event_count": 32
+      "country": "AU",
+      "ip_count": 17,
+      "event_count": 34
     },
     {
       "asn": "AS8075",
@@ -823,18 +827,18 @@
       "event_count": 20
     },
     {
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
+      "country": "US",
+      "ip_count": 12,
+      "event_count": 17
+    },
+    {
       "asn": "AS16276",
       "name": "OVH SAS",
       "country": "GB",
       "ip_count": 6,
       "event_count": 15
-    },
-    {
-      "asn": "AS14061",
-      "name": "DigitalOcean, LLC",
-      "country": "SG",
-      "ip_count": 10,
-      "event_count": 13
     },
     {
       "asn": "AS211298",
@@ -854,44 +858,48 @@
       "asn": "AS4766",
       "name": "Korea Telecom",
       "country": "KR",
-      "ip_count": 7,
-      "event_count": 7
+      "ip_count": 8,
+      "event_count": 8
     },
     {
-      "asn": "AS41280",
-      "name": "SKYNET BULGARIA Ltd.",
-      "country": "BG",
-      "ip_count": 1,
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 6,
       "event_count": 7
     }
   ],
   "events_by_country": {
-    "US": 926,
+    "US": 913,
     "DE": 776,
     "BG": 92,
     "PL": 44,
     "PH": 41,
-    "FR": 37,
-    "CN": 32,
+    "FR": 38,
+    "AU": 34,
+    "CN": 33,
     "CH": 29,
     "GB": 27,
     "NL": 19,
-    "SG": 14,
-    "KR": 8,
-    "RU": 6,
+    "KR": 9,
+    "RU": 8,
     "JP": 5,
+    "MA": 5,
     "IN": 4,
-    "MA": 4,
     "RO": 4,
     "CA": 3,
     "AE": 2,
+    "BR": 2,
+    "HK": 2,
     "NO": 2,
+    "PK": 2,
     "SI": 2,
     "BD": 1,
-    "BR": 1,
-    "HK": 1,
+    "ES": 1,
     "ID": 1,
     "IT": 1,
+    "SE": 1,
+    "SG": 1,
     "TW": 1,
     "VN": 1
   }
