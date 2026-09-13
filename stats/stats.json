@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T20:03:48.253150Z",
+  "generated_at": "2026-09-13T21:00:59.260500Z",
   "period_days": 90,
-  "total_events": 19872,
-  "unique_ips": 243,
+  "total_events": 19889,
+  "unique_ips": 249,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 7286,
+    "bigippot:honeypot-01": 7299,
     "sshppot:honeypot-01": 262,
-    "front:honeypot-01": 12001
+    "front:honeypot-01": 12005
   },
   "events_per_day": {
     "2026-08-28": {
@@ -110,9 +110,9 @@
     },
     "2026-09-13": {
       "sshppot:honeypot-01": 68,
-      "front:honeypot-01": 1877,
-      "bigippot:honeypot-01": 358,
-      "total": 2303
+      "front:honeypot-01": 1881,
+      "bigippot:honeypot-01": 371,
+      "total": 2320
     }
   },
   "top_credentials": [
@@ -550,8 +550,8 @@
     }
   ],
   "method_counts": {
-    "GET": 16972,
-    "POST": 2220,
+    "GET": 16985,
+    "POST": 2221,
     "SSH": 261,
     "HEAD": 37,
     "PROPFIND": 13,
@@ -570,12 +570,12 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 773
+      "count": 775
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 411
+      "count": 415
     },
     {
       "path": "/",
@@ -605,7 +605,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 88
+      "count": 89
     },
     {
       "path": "/.git/config",
@@ -615,17 +615,17 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 77
+      "count": 78
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "front:honeypot-01",
+      "count": 70
     },
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
       "count": 70
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "front:honeypot-01",
-      "count": 69
     },
     {
       "path": "/wp-json/batch/v1",
@@ -638,12 +638,12 @@
       "count": 63
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -796,22 +796,22 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "US",
+      "country": "SG",
       "ip_count": 20,
-      "event_count": 43
+      "event_count": 45
+    },
+    {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "ip_count": 19,
+      "event_count": 42
     },
     {
       "asn": "AS12876",
       "name": "Scaleway SAS",
       "country": "PL",
       "ip_count": 3,
-      "event_count": 40
-    },
-    {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 18,
       "event_count": 40
     },
     {
@@ -857,28 +857,29 @@
       "event_count": 15
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 10,
+      "event_count": 14
+    },
+    {
       "asn": "AS398324",
       "name": "Censys, Inc.",
       "country": "US",
       "ip_count": 2,
-      "event_count": 12
-    },
-    {
-      "asn": "AS211298",
-      "name": "Driftnet Ltd",
-      "country": "GB",
-      "ip_count": 10,
       "event_count": 12
     }
   ],
   "events_by_country": {
     "TW": 1892,
     "DE": 843,
-    "US": 236,
+    "US": 210,
     "KZ": 138,
     "BG": 97,
     "PL": 73,
     "FI": 50,
+    "SG": 47,
     "FR": 38,
     "CN": 36,
     "NL": 35,
@@ -887,9 +888,9 @@
     "RU": 8,
     "CH": 6,
     "IN": 5,
-    "JP": 5,
     "MA": 5,
     "RO": 5,
+    "SE": 4,
     "BR": 3,
     "CA": 3,
     "AE": 2,
@@ -898,13 +899,12 @@
     "ID": 2,
     "NO": 2,
     "PK": 2,
-    "SE": 2,
-    "SG": 2,
     "SI": 2,
     "BH": 1,
     "CO": 1,
     "ES": 1,
     "IT": 1,
+    "JP": 1,
     "LT": 1,
     "VN": 1
   }
