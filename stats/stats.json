@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T08:03:07.439017Z",
+  "generated_at": "2026-09-13T09:02:43.545189Z",
   "period_days": 90,
-  "total_events": 18121,
-  "unique_ips": 178,
+  "total_events": 18187,
+  "unique_ips": 184,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 7091,
-    "sshppot:honeypot-01": 212,
-    "front:honeypot-01": 10495
+    "bigippot:honeypot-01": 7144,
+    "sshppot:honeypot-01": 217,
+    "front:honeypot-01": 10503
   },
   "events_per_day": {
     "2026-08-28": {
@@ -109,10 +109,10 @@
       "total": 1495
     },
     "2026-09-13": {
-      "sshppot:honeypot-01": 18,
-      "front:honeypot-01": 371,
-      "bigippot:honeypot-01": 163,
-      "total": 552
+      "sshppot:honeypot-01": 23,
+      "front:honeypot-01": 379,
+      "bigippot:honeypot-01": 216,
+      "total": 618
     }
   },
   "top_credentials": [
@@ -124,12 +124,12 @@
     {
       "username": "support",
       "password": "support",
-      "count": 24
+      "count": 26
     },
     {
       "username": "admin",
       "password": "admin",
-      "count": 10
+      "count": 11
     },
     {
       "username": "root",
@@ -153,13 +153,13 @@
     },
     {
       "username": "root",
-      "password": "12345678",
+      "password": "admin",
       "count": 5
     },
     {
       "username": "root",
-      "password": "admin",
-      "count": 4
+      "password": "12345678",
+      "count": 5
     },
     {
       "username": "user",
@@ -175,6 +175,11 @@
       "username": "root",
       "password": "123456",
       "count": 4
+    },
+    {
+      "username": "AdminGPON",
+      "password": "ALC#FGU",
+      "count": 3
     },
     {
       "username": "user",
@@ -214,11 +219,6 @@
     {
       "username": "(empty)",
       "password": "Deft2731",
-      "count": 2
-    },
-    {
-      "username": "AdminGPON",
-      "password": "ALC#FGU",
       "count": 2
     },
     {
@@ -374,15 +374,15 @@
     },
     {
       "username": "root",
-      "count": 49
-    },
-    {
-      "username": "admin",
-      "count": 30
+      "count": 50
     },
     {
       "username": "support",
-      "count": 29
+      "count": 31
+    },
+    {
+      "username": "admin",
+      "count": 31
     },
     {
       "username": "user",
@@ -390,7 +390,7 @@
     },
     {
       "username": "AdminGPON",
-      "count": 7
+      "count": 8
     },
     {
       "username": "test",
@@ -448,11 +448,11 @@
     },
     {
       "password": "support",
-      "count": 24
+      "count": 26
     },
     {
       "password": "admin",
-      "count": 14
+      "count": 16
     },
     {
       "password": "password",
@@ -479,6 +479,10 @@
       "count": 4
     },
     {
+      "password": "ALC#FGU",
+      "count": 3
+    },
+    {
       "password": "admin123",
       "count": 3
     },
@@ -492,10 +496,6 @@
     },
     {
       "password": "Deft2731",
-      "count": 2
-    },
-    {
-      "password": "ALC#FGU",
       "count": 2
     },
     {
@@ -534,21 +534,21 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1742
+      "count": 1750
+    },
+    {
+      "user_agent": "libredtail-http",
+      "count": 1129
     },
     {
       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "count": 1127
-    },
-    {
-      "user_agent": "libredtail-http",
-      "count": 1080
     }
   ],
   "method_counts": {
-    "GET": 15327,
-    "POST": 2185,
-    "SSH": 211,
+    "GET": 15379,
+    "POST": 2194,
+    "SSH": 216,
     "HEAD": 35,
     "PROPFIND": 13,
     "PRI": 12,
@@ -566,22 +566,22 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 741
+      "count": 742
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 393
+      "count": 396
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 193
+      "count": 194
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 175
+      "count": 180
     },
     {
       "path": "/remote/login",
@@ -606,7 +606,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 74
+      "count": 75
     },
     {
       "path": "/.git/config",
@@ -616,7 +616,7 @@
     {
       "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
-      "count": 68
+      "count": 69
     },
     {
       "path": "/style.css",
@@ -646,7 +646,7 @@
     {
       "path": "/?rest_route=/batch/v1",
       "source": "front:honeypot-01",
-      "count": 44
+      "count": 45
     },
     {
       "path": "/signup",
@@ -667,7 +667,7 @@
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 703,
+      "count": 740,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -675,7 +675,8 @@
       "severity": "Critical",
       "cvss_score": 9.8,
       "sample_ips": [
-        "141.11.122.40"
+        "141.11.122.40",
+        "31.76.98.105"
       ],
       "sample_paths": [
         "/phpunit/Util/PHP/eval-stdin.php",
@@ -687,7 +688,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 133,
+      "count": 143,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -695,7 +696,8 @@
       "severity": "Critical",
       "cvss_score": 9.8,
       "sample_ips": [
-        "141.11.122.40"
+        "141.11.122.40",
+        "31.76.98.105"
       ],
       "sample_paths": [
         "/?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
@@ -719,7 +721,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 842
+    "Critical": 889
   },
   "top_asns": [
     {
@@ -751,6 +753,13 @@
       "event_count": 73
     },
     {
+      "asn": "AS206134",
+      "name": "NEKOBYTE INTERNATIONAL LIMITED",
+      "country": "DE",
+      "ip_count": 1,
+      "event_count": 49
+    },
+    {
       "asn": "AS63023",
       "name": "GTHost",
       "country": "US",
@@ -767,16 +776,16 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "DE",
-      "ip_count": 15,
-      "event_count": 31
+      "country": "US",
+      "ip_count": 16,
+      "event_count": 32
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "CH",
       "ip_count": 14,
-      "event_count": 23
+      "event_count": 29
     },
     {
       "asn": "AS6939",
@@ -793,6 +802,13 @@
       "event_count": 22
     },
     {
+      "asn": "AS154383",
+      "name": "ZORNTECH WEB SOLUTIONS",
+      "country": "PL",
+      "ip_count": 1,
+      "event_count": 21
+    },
+    {
       "asn": "AS12876",
       "name": "Scaleway SAS",
       "country": "PL",
@@ -804,13 +820,6 @@
       "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "country": "CN",
       "ip_count": 2,
-      "event_count": 20
-    },
-    {
-      "asn": "AS154383",
-      "name": "ZORNTECH WEB SOLUTIONS",
-      "country": "PL",
-      "ip_count": 1,
       "event_count": 20
     },
     {
@@ -842,42 +851,35 @@
       "event_count": 12
     },
     {
+      "asn": "AS4766",
+      "name": "Korea Telecom",
+      "country": "KR",
+      "ip_count": 7,
+      "event_count": 7
+    },
+    {
       "asn": "AS41280",
       "name": "SKYNET BULGARIA Ltd.",
       "country": "BG",
       "ip_count": 1,
       "event_count": 7
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 6,
-      "event_count": 7
-    },
-    {
-      "asn": "AS137266",
-      "name": "CHINATELECOM Hubei province Wuhan 5G network",
-      "country": "CN",
-      "ip_count": 1,
-      "event_count": 6
     }
   ],
   "events_by_country": {
-    "US": 893,
-    "DE": 758,
+    "US": 926,
+    "DE": 776,
     "BG": 92,
-    "PL": 43,
+    "PL": 44,
     "PH": 41,
     "FR": 37,
     "CN": 32,
+    "CH": 29,
     "GB": 27,
-    "CH": 23,
-    "NL": 14,
+    "NL": 19,
     "SG": 14,
-    "KR": 7,
+    "KR": 8,
+    "RU": 6,
     "JP": 5,
-    "RU": 5,
     "IN": 4,
     "MA": 4,
     "RO": 4,
@@ -886,6 +888,7 @@
     "NO": 2,
     "SI": 2,
     "BD": 1,
+    "BR": 1,
     "HK": 1,
     "ID": 1,
     "IT": 1,
