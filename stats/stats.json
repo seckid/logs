@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T01:00:03.869786Z",
+  "generated_at": "2026-09-13T02:03:07.423468Z",
   "period_days": 90,
-  "total_events": 17579,
-  "unique_ips": 130,
+  "total_events": 17866,
+  "unique_ips": 135,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 6933,
-    "sshppot:honeypot-01": 198,
-    "front:honeypot-01": 10125
+    "bigippot:honeypot-01": 6935,
+    "sshppot:honeypot-01": 200,
+    "front:honeypot-01": 10408
   },
   "events_per_day": {
     "2026-08-28": {
@@ -109,10 +109,10 @@
       "total": 1495
     },
     "2026-09-13": {
-      "sshppot:honeypot-01": 4,
-      "front:honeypot-01": 1,
-      "bigippot:honeypot-01": 5,
-      "total": 10
+      "sshppot:honeypot-01": 6,
+      "front:honeypot-01": 284,
+      "bigippot:honeypot-01": 7,
+      "total": 297
     }
   },
   "top_credentials": [
@@ -124,7 +124,7 @@
     {
       "username": "support",
       "password": "support",
-      "count": 17
+      "count": 19
     },
     {
       "username": "admin",
@@ -382,7 +382,7 @@
     },
     {
       "username": "support",
-      "count": 22
+      "count": 24
     },
     {
       "username": "user",
@@ -448,7 +448,7 @@
     },
     {
       "password": "support",
-      "count": 17
+      "count": 19
     },
     {
       "password": "admin",
@@ -530,25 +530,25 @@
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1824
+      "count": 1825
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "count": 1734
     },
     {
-      "user_agent": "libredtail-http",
-      "count": 1080
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 1127
     },
     {
-      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 851
+      "user_agent": "libredtail-http",
+      "count": 1080
     }
   ],
   "method_counts": {
-    "GET": 14829,
-    "POST": 2177,
-    "SSH": 197,
+    "GET": 15109,
+    "POST": 2181,
+    "SSH": 199,
     "HEAD": 30,
     "PROPFIND": 13,
     "PRI": 12,
@@ -566,12 +566,12 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 712
+      "count": 719
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 382
+      "count": 383
     },
     {
       "path": "/tmui/login.jsp",
@@ -581,7 +581,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 162
+      "count": 164
     },
     {
       "path": "/remote/login",
@@ -601,20 +601,20 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 79
+      "count": 80
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 72
-    },
-    {
-      "path": "/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 67
+      "count": 73
     },
     {
       "path": "/.git/config",
+      "source": "front:honeypot-01",
+      "count": 71
+    },
+    {
+      "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 67
     },
@@ -725,16 +725,16 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "NL",
-      "ip_count": 7,
-      "event_count": 488
+      "country": "US",
+      "ip_count": 8,
+      "event_count": 765
     },
     {
       "asn": "AS399979",
       "name": "49.3 Networking LLC",
       "country": "DE",
       "ip_count": 2,
-      "event_count": 487
+      "event_count": 490
     },
     {
       "asn": "AS202412",
@@ -793,17 +793,17 @@
       "event_count": 15
     },
     {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 9,
-      "event_count": 13
-    },
-    {
       "asn": "AS154383",
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
+      "event_count": 15
+    },
+    {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "ip_count": 9,
       "event_count": 13
     },
     {
@@ -824,8 +824,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 7,
-      "event_count": 8
+      "ip_count": 8,
+      "event_count": 9
     },
     {
       "asn": "AS41280",
@@ -864,14 +864,14 @@
     }
   ],
   "events_by_country": {
-    "NL": 609,
-    "DE": 490,
-    "US": 147,
+    "US": 915,
+    "DE": 494,
+    "NL": 122,
     "BG": 86,
     "PH": 41,
     "FR": 35,
     "CN": 26,
-    "PL": 16,
+    "PL": 18,
     "GB": 15,
     "KR": 7,
     "IN": 6,
