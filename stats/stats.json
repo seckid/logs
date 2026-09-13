@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T12:03:59.205744Z",
+  "generated_at": "2026-09-13T13:00:59.156883Z",
   "period_days": 90,
-  "total_events": 18286,
-  "unique_ips": 216,
+  "total_events": 18297,
+  "unique_ips": 220,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 7204,
+    "bigippot:honeypot-01": 7213,
     "sshppot:honeypot-01": 238,
-    "front:honeypot-01": 10521
+    "front:honeypot-01": 10523
   },
   "events_per_day": {
     "2026-08-28": {
@@ -110,9 +110,9 @@
     },
     "2026-09-13": {
       "sshppot:honeypot-01": 44,
-      "front:honeypot-01": 397,
-      "bigippot:honeypot-01": 276,
-      "total": 717
+      "front:honeypot-01": 399,
+      "bigippot:honeypot-01": 285,
+      "total": 728
     }
   },
   "top_credentials": [
@@ -538,7 +538,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1750
+      "count": 1752
     },
     {
       "user_agent": "libredtail-http",
@@ -550,12 +550,12 @@
     }
   ],
   "method_counts": {
-    "GET": 15446,
-    "POST": 2198,
+    "GET": 15453,
+    "POST": 2199,
     "SSH": 237,
     "HEAD": 36,
     "PROPFIND": 13,
-    "PRI": 12,
+    "PRI": 13,
     "HEARTBEAT": 8,
     "OPTIONS": 6,
     "SSTP_DUPLEX_POST": 5,
@@ -575,7 +575,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 398
+      "count": 400
     },
     {
       "path": "/",
@@ -585,7 +585,7 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 196
+      "count": 198
     },
     {
       "path": "/remote/login",
@@ -600,7 +600,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 86
+      "count": 87
     },
     {
       "path": "/.env",
@@ -610,7 +610,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 75
+      "count": 76
     },
     {
       "path": "/.git/config",
@@ -650,7 +650,7 @@
     {
       "path": "/?rest_route=/batch/v1",
       "source": "front:honeypot-01",
-      "count": 45
+      "count": 46
     },
     {
       "path": "/signup",
@@ -794,17 +794,17 @@
       "event_count": 38
     },
     {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "ip_count": 16,
+      "event_count": 31
+    },
+    {
       "asn": "AS12876",
       "name": "Scaleway SAS",
       "country": "PL",
       "ip_count": 2,
-      "event_count": 30
-    },
-    {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 15,
       "event_count": 30
     },
     {
@@ -839,8 +839,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 12,
-      "event_count": 17
+      "ip_count": 13,
+      "event_count": 18
     },
     {
       "asn": "AS16276",
@@ -848,6 +848,13 @@
       "country": "GB",
       "ip_count": 6,
       "event_count": 15
+    },
+    {
+      "asn": "AS398324",
+      "name": "Censys, Inc.",
+      "country": "US",
+      "ip_count": 2,
+      "event_count": 12
     },
     {
       "asn": "AS211298",
@@ -862,17 +869,10 @@
       "country": "BG",
       "ip_count": 1,
       "event_count": 12
-    },
-    {
-      "asn": "AS4766",
-      "name": "Korea Telecom",
-      "country": "KR",
-      "ip_count": 8,
-      "event_count": 8
     }
   ],
   "events_by_country": {
-    "US": 945,
+    "US": 953,
     "DE": 773,
     "KZ": 138,
     "BG": 92,
@@ -881,7 +881,7 @@
     "PH": 41,
     "FR": 38,
     "CN": 36,
-    "NL": 27,
+    "NL": 29,
     "KR": 9,
     "RU": 8,
     "JP": 5,
@@ -903,6 +903,7 @@
     "CO": 1,
     "ES": 1,
     "IT": 1,
+    "LT": 1,
     "TW": 1,
     "VN": 1
   }
