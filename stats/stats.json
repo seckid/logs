@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14T03:00:59.122693Z",
+  "generated_at": "2026-09-14T04:01:29.836446Z",
   "period_days": 90,
-  "total_events": 20084,
-  "unique_ips": 296,
+  "total_events": 20095,
+  "unique_ips": 298,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 7379,
-    "sshppot:honeypot-01": 350,
-    "front:honeypot-01": 12032
+    "bigippot:honeypot-01": 7383,
+    "sshppot:honeypot-01": 355,
+    "front:honeypot-01": 12034
   },
   "events_per_day": {
     "2026-08-28": {
@@ -115,10 +115,10 @@
       "total": 2388
     },
     "2026-09-14": {
-      "sshppot:honeypot-01": 81,
-      "bigippot:honeypot-01": 22,
-      "front:honeypot-01": 24,
-      "total": 127
+      "sshppot:honeypot-01": 86,
+      "bigippot:honeypot-01": 26,
+      "front:honeypot-01": 26,
+      "total": 138
     }
   },
   "top_credentials": [
@@ -130,7 +130,7 @@
     {
       "username": "support",
       "password": "support",
-      "count": 46
+      "count": 47
     },
     {
       "username": "admin",
@@ -140,11 +140,16 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 11
+      "count": 12
     },
     {
       "username": "root",
       "password": "admin",
+      "count": 9
+    },
+    {
+      "username": "user",
+      "password": "user",
       "count": 9
     },
     {
@@ -155,11 +160,6 @@
     {
       "username": "admin",
       "password": "(empty)",
-      "count": 8
-    },
-    {
-      "username": "user",
-      "password": "user",
       "count": 8
     },
     {
@@ -193,6 +193,11 @@
       "count": 6
     },
     {
+      "username": "root",
+      "password": "abcd1234",
+      "count": 6
+    },
+    {
       "username": "guest",
       "password": "guest",
       "count": 6
@@ -210,11 +215,6 @@
     {
       "username": "AdminGPON",
       "password": "(empty)",
-      "count": 5
-    },
-    {
-      "username": "root",
-      "password": "abcd1234",
       "count": 5
     },
     {
@@ -376,23 +376,23 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 82
+      "count": 84
     },
     {
       "username": "admin",
       "count": 58
     },
     {
+      "username": "support",
+      "count": 52
+    },
+    {
       "username": "ops",
       "count": 51
     },
     {
-      "username": "support",
-      "count": 51
-    },
-    {
       "username": "user",
-      "count": 18
+      "count": 19
     },
     {
       "username": "test",
@@ -450,11 +450,11 @@
   "top_passwords": [
     {
       "password": "(empty)",
-      "count": 83
+      "count": 84
     },
     {
       "password": "support",
-      "count": 46
+      "count": 47
     },
     {
       "password": "admin",
@@ -473,16 +473,16 @@
       "count": 10
     },
     {
+      "password": "user",
+      "count": 9
+    },
+    {
       "password": "admin123",
       "count": 9
     },
     {
       "password": "123456",
       "count": 9
-    },
-    {
-      "password": "user",
-      "count": 8
     },
     {
       "password": "root",
@@ -497,12 +497,12 @@
       "count": 7
     },
     {
-      "password": "guest",
+      "password": "abcd1234",
       "count": 6
     },
     {
-      "password": "abcd1234",
-      "count": 5
+      "password": "guest",
+      "count": 6
     },
     {
       "password": "temppwd",
@@ -540,7 +540,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1766
+      "count": 1768
     },
     {
       "user_agent": "libredtail-http",
@@ -552,9 +552,9 @@
     }
   ],
   "method_counts": {
-    "GET": 17073,
+    "GET": 17079,
     "POST": 2231,
-    "SSH": 349,
+    "SSH": 354,
     "HEAD": 37,
     "PRI": 15,
     "PROPFIND": 13,
@@ -577,17 +577,17 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 423
+      "count": 426
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 311
+      "count": 316
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 205
+      "count": 206
     },
     {
       "path": "/remote/login",
@@ -617,7 +617,7 @@
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 78
+      "count": 79
     },
     {
       "path": "/favicon.ico",
@@ -751,9 +751,9 @@
     {
       "asn": "AS202412",
       "name": "Omegatech LTD",
-      "country": "DE",
-      "ip_count": 4,
-      "event_count": 234
+      "country": "NL",
+      "ip_count": 5,
+      "event_count": 236
     },
     {
       "asn": "AS197556",
@@ -830,7 +830,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 36
+      "event_count": 37
     },
     {
       "asn": "AS150862",
@@ -877,12 +877,12 @@
   ],
   "events_by_country": {
     "BE": 1892,
-    "DE": 806,
-    "US": 332,
+    "DE": 572,
+    "US": 321,
+    "NL": 290,
     "KZ": 138,
     "BG": 97,
-    "PL": 80,
-    "NL": 52,
+    "PL": 81,
     "CN": 50,
     "FI": 50,
     "SG": 48,
@@ -890,9 +890,10 @@
     "VN": 33,
     "GB": 32,
     "KR": 16,
+    "JP": 14,
+    "RO": 13,
     "RU": 10,
     "HK": 9,
-    "RO": 9,
     "MA": 7,
     "CH": 6,
     "IN": 6,
@@ -911,7 +912,6 @@
     "EG": 1,
     "ES": 1,
     "IT": 1,
-    "JP": 1,
     "LT": 1
   }
 }
