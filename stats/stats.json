@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14T11:04:38.944348Z",
+  "generated_at": "2026-09-14T12:00:48.269840Z",
   "period_days": 90,
-  "total_events": 20513,
-  "unique_ips": 335,
+  "total_events": 20534,
+  "unique_ips": 343,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,8 +17,8 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 145,
-    "bigippot:honeypot-01": 7700,
-    "sshppot:honeypot-01": 376,
+    "bigippot:honeypot-01": 7715,
+    "sshppot:honeypot-01": 382,
     "front:honeypot-01": 12085
   },
   "events_per_day": {
@@ -116,28 +116,28 @@
     },
     "2026-09-14": {
       "ivantipot:honeypot-01": 17,
-      "sshppot:honeypot-01": 107,
-      "bigippot:honeypot-01": 343,
+      "sshppot:honeypot-01": 113,
+      "bigippot:honeypot-01": 358,
       "front:honeypot-01": 77,
       "fortipot:honeypot-01": 12,
-      "total": 556
+      "total": 577
     }
   },
   "top_credentials": [
+    {
+      "username": "support",
+      "password": "support",
+      "count": 53
+    },
     {
       "username": "ops",
       "password": "(empty)",
       "count": 51
     },
     {
-      "username": "support",
-      "password": "support",
-      "count": 51
-    },
-    {
       "username": "admin",
       "password": "admin",
-      "count": 15
+      "count": 16
     },
     {
       "username": "root",
@@ -147,12 +147,12 @@
     {
       "username": "root",
       "password": "admin",
-      "count": 9
+      "count": 10
     },
     {
       "username": "user",
       "password": "user",
-      "count": 9
+      "count": 10
     },
     {
       "username": "root",
@@ -216,6 +216,11 @@
     },
     {
       "username": "AdminGPON",
+      "password": "ALC#FGU",
+      "count": 5
+    },
+    {
+      "username": "AdminGPON",
       "password": "(empty)",
       "count": 5
     },
@@ -238,11 +243,6 @@
       "username": "ubnt",
       "password": "ubnt",
       "count": 5
-    },
-    {
-      "username": "AdminGPON",
-      "password": "ALC#FGU",
-      "count": 4
     },
     {
       "username": "user",
@@ -378,15 +378,15 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 101
+      "count": 102
     },
     {
       "username": "admin",
-      "count": 58
+      "count": 59
     },
     {
       "username": "support",
-      "count": 56
+      "count": 58
     },
     {
       "username": "ops",
@@ -394,7 +394,7 @@
     },
     {
       "username": "user",
-      "count": 19
+      "count": 20
     },
     {
       "username": "test",
@@ -402,7 +402,7 @@
     },
     {
       "username": "AdminGPON",
-      "count": 9
+      "count": 10
     },
     {
       "username": "guest",
@@ -452,11 +452,11 @@
     },
     {
       "password": "support",
-      "count": 51
+      "count": 53
     },
     {
       "password": "admin",
-      "count": 24
+      "count": 26
     },
     {
       "password": "password",
@@ -471,12 +471,12 @@
       "count": 11
     },
     {
-      "password": "1234",
+      "password": "user",
       "count": 10
     },
     {
-      "password": "user",
-      "count": 9
+      "password": "1234",
+      "count": 10
     },
     {
       "password": "admin123",
@@ -503,6 +503,10 @@
       "count": 6
     },
     {
+      "password": "ALC#FGU",
+      "count": 5
+    },
+    {
       "password": "temppwd",
       "count": 5
     },
@@ -517,10 +521,6 @@
     {
       "password": "ubnt",
       "count": 5
-    },
-    {
-      "password": "ALC#FGU",
-      "count": 4
     },
     {
       "password": "P",
@@ -550,9 +550,9 @@
     }
   ],
   "method_counts": {
-    "GET": 17438,
+    "GET": 17443,
     "POST": 2242,
-    "SSH": 375,
+    "SSH": 381,
     "HEAD": 40,
     "PRI": 15,
     "PROPFIND": 13,
@@ -575,17 +575,17 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 441
+      "count": 444
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 334
+      "count": 340
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 213
+      "count": 214
     },
     {
       "path": "/remote/login",
@@ -598,13 +598,13 @@
       "count": 98
     },
     {
-      "path": "/.env",
-      "source": "front:honeypot-01",
-      "count": 93
-    },
-    {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
+      "count": 94
+    },
+    {
+      "path": "/.env",
+      "source": "front:honeypot-01",
       "count": 93
     },
     {
@@ -822,8 +822,8 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "ip_count": 13,
-      "event_count": 51
+      "ip_count": 14,
+      "event_count": 52
     },
     {
       "asn": "AS153622",
@@ -858,7 +858,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 41
+      "event_count": 42
     },
     {
       "asn": "AS150862",
@@ -868,34 +868,34 @@
       "event_count": 32
     },
     {
-      "asn": "AS14061",
-      "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 16,
-      "event_count": 28
+      "asn": "AS209334",
+      "name": "Modat B.V.",
+      "country": "CA",
+      "ip_count": 3,
+      "event_count": 29
     }
   ],
   "events_by_country": {
     "BE": 1895,
     "DE": 743,
-    "US": 464,
-    "NL": 296,
+    "US": 465,
+    "NL": 297,
     "KZ": 138,
     "BG": 109,
     "FR": 103,
     "CN": 66,
     "SG": 57,
-    "IN": 55,
+    "IN": 56,
     "FI": 50,
-    "PL": 45,
+    "PL": 46,
     "VN": 33,
-    "CA": 16,
-    "KR": 16,
+    "CA": 29,
+    "KR": 18,
     "RO": 14,
     "GB": 12,
-    "RU": 10,
+    "RU": 11,
     "HK": 9,
-    "MA": 7,
+    "MA": 8,
     "CH": 6,
     "SE": 6,
     "BR": 4,
