@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14T18:02:35.096291Z",
+  "generated_at": "2026-09-14T19:00:56.554230Z",
   "period_days": 90,
-  "total_events": 21098,
-  "unique_ips": 390,
+  "total_events": 21172,
+  "unique_ips": 393,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,8 +17,8 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 145,
-    "bigippot:honeypot-01": 7767,
-    "sshppot:honeypot-01": 605,
+    "bigippot:honeypot-01": 7777,
+    "sshppot:honeypot-01": 669,
     "front:honeypot-01": 12373
   },
   "events_per_day": {
@@ -116,18 +116,18 @@
     },
     "2026-09-14": {
       "ivantipot:honeypot-01": 18,
-      "sshppot:honeypot-01": 336,
-      "bigippot:honeypot-01": 410,
+      "sshppot:honeypot-01": 400,
+      "bigippot:honeypot-01": 420,
       "front:honeypot-01": 365,
       "fortipot:honeypot-01": 12,
-      "total": 1141
+      "total": 1215
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 76
+      "count": 77
     },
     {
       "username": "ops",
@@ -211,6 +211,11 @@
     },
     {
       "username": "root",
+      "password": "------fuck------",
+      "count": 6
+    },
+    {
+      "username": "root",
       "password": "Li123456.",
       "count": 6
     },
@@ -237,11 +242,6 @@
     {
       "username": "debian",
       "password": "temppwd",
-      "count": 5
-    },
-    {
-      "username": "root",
-      "password": "------fuck------",
       "count": 5
     },
     {
@@ -378,11 +378,11 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 114
+      "count": 115
     },
     {
       "username": "support",
-      "count": 81
+      "count": 82
     },
     {
       "username": "admin",
@@ -452,7 +452,7 @@
     },
     {
       "password": "support",
-      "count": 76
+      "count": 77
     },
     {
       "password": "admin",
@@ -503,6 +503,10 @@
       "count": 7
     },
     {
+      "password": "------fuck------",
+      "count": 6
+    },
+    {
       "password": "Li123456.",
       "count": 6
     },
@@ -516,10 +520,6 @@
     },
     {
       "password": "temppwd",
-      "count": 5
-    },
-    {
-      "password": "------fuck------",
       "count": 5
     },
     {
@@ -550,9 +550,9 @@
     }
   ],
   "method_counts": {
-    "GET": 17766,
-    "POST": 2253,
-    "SSH": 604,
+    "GET": 17774,
+    "POST": 2255,
+    "SSH": 668,
     "HEAD": 40,
     "PRI": 15,
     "PROPFIND": 13,
@@ -577,17 +577,17 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 562
+      "count": 626
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 459
+      "count": 463
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 225
+      "count": 229
     },
     {
       "path": "/remote/login",
@@ -595,12 +595,12 @@
       "count": 101
     },
     {
-      "path": "/remote/logincheck",
+      "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
       "count": 98
     },
     {
-      "path": "/favicon.ico",
+      "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
       "count": 98
     },
@@ -640,12 +640,12 @@
       "count": 67
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -751,18 +751,18 @@
       "event_count": 490
     },
     {
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
+      "country": "US",
+      "ip_count": 19,
+      "event_count": 269
+    },
+    {
       "asn": "AS202412",
       "name": "Omegatech LTD",
       "country": "NL",
       "ip_count": 5,
       "event_count": 236
-    },
-    {
-      "asn": "AS14061",
-      "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 19,
-      "event_count": 207
     },
     {
       "asn": "AS208137",
@@ -797,7 +797,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 65
+      "event_count": 66
     },
     {
       "asn": "AS6939",
@@ -879,14 +879,14 @@
   ],
   "events_by_country": {
     "BE": 1898,
+    "US": 741,
     "DE": 726,
-    "US": 679,
-    "NL": 296,
+    "NL": 300,
     "KZ": 138,
     "BG": 112,
-    "FR": 99,
-    "CN": 83,
-    "PL": 69,
+    "FR": 105,
+    "CN": 84,
+    "PL": 70,
     "JP": 58,
     "IN": 57,
     "FI": 50,
