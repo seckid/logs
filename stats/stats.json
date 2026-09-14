@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14T13:03:59.070412Z",
+  "generated_at": "2026-09-14T14:05:00.362124Z",
   "period_days": 90,
-  "total_events": 20561,
-  "unique_ips": 361,
+  "total_events": 20572,
+  "unique_ips": 365,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,8 +17,8 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 145,
-    "bigippot:honeypot-01": 7726,
-    "sshppot:honeypot-01": 396,
+    "bigippot:honeypot-01": 7730,
+    "sshppot:honeypot-01": 403,
     "front:honeypot-01": 12087
   },
   "events_per_day": {
@@ -116,18 +116,18 @@
     },
     "2026-09-14": {
       "ivantipot:honeypot-01": 17,
-      "sshppot:honeypot-01": 127,
-      "bigippot:honeypot-01": 369,
+      "sshppot:honeypot-01": 134,
+      "bigippot:honeypot-01": 373,
       "front:honeypot-01": 79,
       "fortipot:honeypot-01": 12,
-      "total": 604
+      "total": 615
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 54
+      "count": 59
     },
     {
       "username": "ops",
@@ -142,7 +142,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 15
+      "count": 16
     },
     {
       "username": "root",
@@ -195,6 +195,11 @@
       "count": 7
     },
     {
+      "username": "guest",
+      "password": "guest",
+      "count": 7
+    },
+    {
       "username": "admin",
       "password": "1234",
       "count": 7
@@ -202,11 +207,6 @@
     {
       "username": "root",
       "password": "password",
-      "count": 6
-    },
-    {
-      "username": "guest",
-      "password": "guest",
       "count": 6
     },
     {
@@ -378,15 +378,15 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 104
+      "count": 105
+    },
+    {
+      "username": "support",
+      "count": 64
     },
     {
       "username": "admin",
       "count": 64
-    },
-    {
-      "username": "support",
-      "count": 59
     },
     {
       "username": "ops",
@@ -406,7 +406,7 @@
     },
     {
       "username": "guest",
-      "count": 6
+      "count": 7
     },
     {
       "username": "ubnt",
@@ -448,11 +448,11 @@
   "top_passwords": [
     {
       "password": "(empty)",
-      "count": 88
+      "count": 89
     },
     {
       "password": "support",
-      "count": 54
+      "count": 59
     },
     {
       "password": "admin",
@@ -495,12 +495,12 @@
       "count": 7
     },
     {
-      "password": "Aa123456",
+      "password": "guest",
       "count": 7
     },
     {
-      "password": "guest",
-      "count": 6
+      "password": "Aa123456",
+      "count": 7
     },
     {
       "password": "ubnt",
@@ -550,9 +550,9 @@
     }
   ],
   "method_counts": {
-    "GET": 17455,
+    "GET": 17459,
     "POST": 2242,
-    "SSH": 395,
+    "SSH": 402,
     "HEAD": 40,
     "PRI": 15,
     "PROPFIND": 13,
@@ -575,17 +575,17 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 446
+      "count": 448
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 354
+      "count": 361
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 216
+      "count": 217
     },
     {
       "path": "/remote/login",
@@ -600,7 +600,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 95
+      "count": 96
     },
     {
       "path": "/.env",
@@ -808,8 +808,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 26,
-      "event_count": 56
+      "ip_count": 27,
+      "event_count": 58
     },
     {
       "asn": "AS31898",
@@ -858,7 +858,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 43
+      "event_count": 48
     },
     {
       "asn": "AS150862",
@@ -878,7 +878,7 @@
   "events_by_country": {
     "BE": 1895,
     "DE": 726,
-    "US": 495,
+    "US": 497,
     "NL": 297,
     "KZ": 138,
     "BG": 109,
@@ -886,27 +886,27 @@
     "CN": 67,
     "IN": 57,
     "SG": 57,
+    "PL": 52,
     "FI": 50,
-    "PL": 47,
     "VN": 33,
     "CA": 31,
     "KR": 23,
+    "GB": 16,
     "RO": 14,
-    "GB": 12,
     "RU": 12,
     "HK": 9,
     "MA": 8,
     "SE": 7,
     "CH": 6,
+    "PK": 6,
     "BR": 4,
-    "PK": 4,
-    "AE": 3,
     "BD": 3,
     "NO": 3,
     "ID": 2,
     "LT": 2,
     "SI": 2,
     "TW": 2,
+    "AE": 1,
     "BH": 1,
     "CO": 1,
     "EG": 1,
