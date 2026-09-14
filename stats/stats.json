@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14T10:03:17.623760Z",
+  "generated_at": "2026-09-14T11:04:38.944348Z",
   "period_days": 90,
-  "total_events": 20364,
-  "unique_ips": 327,
+  "total_events": 20513,
+  "unique_ips": 335,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,10 +16,10 @@
     "ivantipot:honeypot-01": 25,
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
-    "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 7583,
-    "sshppot:honeypot-01": 369,
-    "front:honeypot-01": 12072
+    "fortipot:honeypot-01": 145,
+    "bigippot:honeypot-01": 7700,
+    "sshppot:honeypot-01": 376,
+    "front:honeypot-01": 12085
   },
   "events_per_day": {
     "2026-08-28": {
@@ -42,18 +42,18 @@
       "total": 1805
     },
     "2026-09-01": {
-      "fortipot:honeypot-01": 15,
-      "bigippot:honeypot-01": 937,
       "front:honeypot-01": 562,
+      "bigippot:honeypot-01": 937,
+      "fortipot:honeypot-01": 15,
       "total": 1514
     },
     "2026-09-02": {
       "bigippot:honeypot-01": 974,
       "ivantipot:honeypot-01": 8,
-      "centrestackpot:honeypot-01": 72,
       "sharepointpot:honeypot-01": 6,
-      "fortipot:honeypot-01": 67,
       "front:honeypot-01": 903,
+      "centrestackpot:honeypot-01": 72,
+      "fortipot:honeypot-01": 67,
       "total": 2030
     },
     "2026-09-03": {
@@ -75,51 +75,52 @@
     },
     "2026-09-06": {
       "front:honeypot-01": 944,
-      "fortipot:honeypot-01": 2,
       "bigippot:honeypot-01": 708,
+      "fortipot:honeypot-01": 2,
       "total": 1654
     },
     "2026-09-07": {
-      "sshppot:honeypot-01": 42,
-      "fortipot:honeypot-01": 1,
-      "front:honeypot-01": 288,
       "bigippot:honeypot-01": 827,
+      "front:honeypot-01": 288,
+      "fortipot:honeypot-01": 1,
+      "sshppot:honeypot-01": 42,
       "total": 1158
     },
     "2026-09-08": {
-      "sshppot:honeypot-01": 30,
       "front:honeypot-01": 872,
+      "sshppot:honeypot-01": 30,
       "total": 902
     },
     "2026-09-09": {
       "centrestackpot:honeypot-01": 25,
-      "bigippot:honeypot-01": 56,
-      "front:honeypot-01": 1082,
-      "fortipot:honeypot-01": 5,
       "sshppot:honeypot-01": 11,
+      "fortipot:honeypot-01": 5,
+      "front:honeypot-01": 1082,
+      "bigippot:honeypot-01": 56,
       "total": 1179
     },
     "2026-09-12": {
-      "sharepointpot:honeypot-01": 4,
-      "centrestackpot:honeypot-01": 21,
-      "front:honeypot-01": 1089,
-      "fortipot:honeypot-01": 22,
-      "sshppot:honeypot-01": 111,
       "bigippot:honeypot-01": 248,
+      "sshppot:honeypot-01": 111,
+      "front:honeypot-01": 1089,
+      "centrestackpot:honeypot-01": 21,
+      "fortipot:honeypot-01": 22,
+      "sharepointpot:honeypot-01": 4,
       "total": 1495
     },
     "2026-09-13": {
-      "sshppot:honeypot-01": 75,
-      "front:honeypot-01": 1884,
       "bigippot:honeypot-01": 429,
+      "front:honeypot-01": 1884,
+      "sshppot:honeypot-01": 75,
       "total": 2388
     },
     "2026-09-14": {
       "ivantipot:honeypot-01": 17,
-      "sshppot:honeypot-01": 100,
-      "bigippot:honeypot-01": 226,
-      "front:honeypot-01": 64,
-      "total": 407
+      "sshppot:honeypot-01": 107,
+      "bigippot:honeypot-01": 343,
+      "front:honeypot-01": 77,
+      "fortipot:honeypot-01": 12,
+      "total": 556
     }
   },
   "top_credentials": [
@@ -141,7 +142,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 14
+      "count": 15
     },
     {
       "username": "root",
@@ -184,6 +185,11 @@
       "count": 7
     },
     {
+      "username": "root",
+      "password": "abcd1234",
+      "count": 7
+    },
+    {
       "username": "admin",
       "password": "password",
       "count": 7
@@ -191,11 +197,6 @@
     {
       "username": "root",
       "password": "password",
-      "count": 6
-    },
-    {
-      "username": "root",
-      "password": "abcd1234",
       "count": 6
     },
     {
@@ -221,6 +222,11 @@
     {
       "username": "debian",
       "password": "temppwd",
+      "count": 5
+    },
+    {
+      "username": "root",
+      "password": "Li123456.",
       "count": 5
     },
     {
@@ -260,6 +266,16 @@
     },
     {
       "username": "root",
+      "password": "------fuck------",
+      "count": 4
+    },
+    {
+      "username": "root",
+      "password": "Test@2022",
+      "count": 4
+    },
+    {
+      "username": "root",
       "password": "Aa123456",
       "count": 4
     },
@@ -290,17 +306,7 @@
     },
     {
       "username": "root",
-      "password": "------fuck------",
-      "count": 3
-    },
-    {
-      "username": "root",
-      "password": "Test@2022",
-      "count": 3
-    },
-    {
-      "username": "root",
-      "password": "Li123456.",
+      "password": "team2",
       "count": 3
     },
     {
@@ -340,11 +346,6 @@
     },
     {
       "username": "root",
-      "password": "team2",
-      "count": 2
-    },
-    {
-      "username": "root",
       "password": "Tencent@123",
       "count": 2
     },
@@ -377,7 +378,7 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 94
+      "count": 101
     },
     {
       "username": "admin",
@@ -447,7 +448,7 @@
   "top_passwords": [
     {
       "password": "(empty)",
-      "count": 86
+      "count": 87
     },
     {
       "password": "support",
@@ -490,12 +491,12 @@
       "count": 8
     },
     {
-      "password": "Aa123456",
+      "password": "abcd1234",
       "count": 7
     },
     {
-      "password": "abcd1234",
-      "count": 6
+      "password": "Aa123456",
+      "count": 7
     },
     {
       "password": "guest",
@@ -503,6 +504,10 @@
     },
     {
       "password": "temppwd",
+      "count": 5
+    },
+    {
+      "password": "Li123456.",
       "count": 5
     },
     {
@@ -520,10 +525,6 @@
     {
       "password": "P",
       "count": 4
-    },
-    {
-      "password": "orangepi",
-      "count": 4
     }
   ],
   "top_user_agents": [
@@ -537,11 +538,11 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1770
+      "count": 1774
     },
     {
       "user_agent": "libredtail-http",
-      "count": 1224
+      "count": 1273
     },
     {
       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -549,10 +550,10 @@
     }
   ],
   "method_counts": {
-    "GET": 17321,
-    "POST": 2232,
-    "SSH": 368,
-    "HEAD": 39,
+    "GET": 17438,
+    "POST": 2242,
+    "SSH": 375,
+    "HEAD": 40,
     "PRI": 15,
     "PROPFIND": 13,
     "HEARTBEAT": 8,
@@ -569,22 +570,22 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 800
+      "count": 805
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 438
+      "count": 441
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 328
+      "count": 334
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 211
+      "count": 213
     },
     {
       "path": "/remote/login",
@@ -604,7 +605,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 92
+      "count": 93
     },
     {
       "path": "/robots.txt",
@@ -612,19 +613,19 @@
       "count": 83
     },
     {
+      "path": "/favicon.ico",
+      "source": "front:honeypot-01",
+      "count": 79
+    },
+    {
       "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 79
     },
     {
-      "path": "/favicon.ico",
-      "source": "front:honeypot-01",
-      "count": 77
-    },
-    {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 73
+      "count": 74
     },
     {
       "path": "/wp-json/batch/v1",
@@ -634,15 +635,15 @@
     {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
-      "count": 65
+      "count": 66
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -659,18 +660,18 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 41
+      "count": 42
     },
     {
-      "path": "/api/auth/signin",
-      "source": "front:honeypot-01",
+      "path": "/robots.txt",
+      "source": "bigippot:honeypot-01",
       "count": 40
     }
   ],
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 888,
+      "count": 925,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -681,7 +682,8 @@
         "107.150.97.10",
         "141.11.122.40",
         "31.132.90.3",
-        "31.76.98.105"
+        "31.76.98.105",
+        "45.127.73.6"
       ],
       "sample_paths": [
         "/phpunit/Util/PHP/eval-stdin.php",
@@ -693,7 +695,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 177,
+      "count": 187,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -704,7 +706,8 @@
         "107.150.97.10",
         "141.11.122.40",
         "31.132.90.3",
-        "31.76.98.105"
+        "31.76.98.105",
+        "45.127.73.6"
       ],
       "sample_paths": [
         "/?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
@@ -728,7 +731,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1071
+    "Critical": 1118
   },
   "top_asns": [
     {
@@ -771,7 +774,7 @@
       "name": "CETIN Bulgaria EAD",
       "country": "BG",
       "ip_count": 2,
-      "event_count": 78
+      "event_count": 87
     },
     {
       "asn": "AS45102",
@@ -802,11 +805,25 @@
       "event_count": 56
     },
     {
+      "asn": "AS31898",
+      "name": "Oracle Corporation",
+      "country": "SG",
+      "ip_count": 2,
+      "event_count": 55
+    },
+    {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 22,
       "event_count": 53
+    },
+    {
+      "asn": "AS6939",
+      "name": "Hurricane Electric LLC",
+      "country": "US",
+      "ip_count": 13,
+      "event_count": 51
     },
     {
       "asn": "AS153622",
@@ -819,6 +836,13 @@
       "asn": "AS63023",
       "name": "GTHost",
       "country": "US",
+      "ip_count": 1,
+      "event_count": 49
+    },
+    {
+      "asn": "AS154115",
+      "name": "KANHALABS-ORG",
+      "country": "IN",
       "ip_count": 1,
       "event_count": 49
     },
@@ -837,13 +861,6 @@
       "event_count": 41
     },
     {
-      "asn": "AS6939",
-      "name": "Hurricane Electric LLC",
-      "country": "US",
-      "ip_count": 12,
-      "event_count": 39
-    },
-    {
       "asn": "AS150862",
       "name": "VPSTTT COMPUTER COMPANY LIMITED",
       "country": "VN",
@@ -856,34 +873,23 @@
       "country": "US",
       "ip_count": 16,
       "event_count": 28
-    },
-    {
-      "asn": "AS51167",
-      "name": "Contabo GmbH",
-      "country": "FR",
-      "ip_count": 2,
-      "event_count": 23
-    },
-    {
-      "asn": "AS37963",
-      "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "country": "CN",
-      "ip_count": 2,
-      "event_count": 20
     }
   ],
   "events_by_country": {
     "BE": 1895,
     "DE": 743,
-    "US": 451,
-    "NL": 292,
+    "US": 464,
+    "NL": 296,
     "KZ": 138,
+    "BG": 109,
     "FR": 103,
-    "BG": 100,
-    "CN": 60,
+    "CN": 66,
+    "SG": 57,
+    "IN": 55,
     "FI": 50,
     "PL": 45,
     "VN": 33,
+    "CA": 16,
     "KR": 16,
     "RO": 14,
     "GB": 12,
@@ -891,16 +897,14 @@
     "HK": 9,
     "MA": 7,
     "CH": 6,
-    "IN": 6,
     "SE": 6,
-    "BR": 5,
+    "BR": 4,
     "PK": 4,
     "AE": 3,
-    "CA": 3,
     "NO": 3,
     "BD": 2,
     "ID": 2,
-    "SG": 2,
+    "LT": 2,
     "SI": 2,
     "TW": 2,
     "BH": 1,
@@ -909,7 +913,6 @@
     "ES": 1,
     "ET": 1,
     "IT": 1,
-    "JP": 1,
-    "LT": 1
+    "JP": 1
   }
 }
