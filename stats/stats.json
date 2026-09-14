@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14T21:02:07.214856Z",
+  "generated_at": "2026-09-14T22:00:58.912499Z",
   "period_days": 90,
-  "total_events": 21239,
-  "unique_ips": 404,
+  "total_events": 21246,
+  "unique_ips": 406,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,9 +16,9 @@
     "ivantipot:honeypot-01": 28,
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
-    "fortipot:honeypot-01": 145,
-    "bigippot:honeypot-01": 7835,
-    "sshppot:honeypot-01": 671,
+    "fortipot:honeypot-01": 148,
+    "bigippot:honeypot-01": 7837,
+    "sshppot:honeypot-01": 673,
     "front:honeypot-01": 12378
   },
   "events_per_day": {
@@ -116,18 +116,18 @@
     },
     "2026-09-14": {
       "ivantipot:honeypot-01": 20,
-      "sshppot:honeypot-01": 402,
-      "bigippot:honeypot-01": 478,
+      "sshppot:honeypot-01": 404,
+      "bigippot:honeypot-01": 480,
       "front:honeypot-01": 370,
-      "fortipot:honeypot-01": 12,
-      "total": 1282
+      "fortipot:honeypot-01": 15,
+      "total": 1289
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 79
+      "count": 80
     },
     {
       "username": "ops",
@@ -171,6 +171,11 @@
     },
     {
       "username": "root",
+      "password": "abcd1234",
+      "count": 9
+    },
+    {
+      "username": "root",
       "password": "123456",
       "count": 9
     },
@@ -182,11 +187,6 @@
     {
       "username": "admin",
       "password": "admin123",
-      "count": 8
-    },
-    {
-      "username": "root",
-      "password": "abcd1234",
       "count": 8
     },
     {
@@ -378,11 +378,11 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 115
+      "count": 116
     },
     {
       "username": "support",
-      "count": 84
+      "count": 85
     },
     {
       "username": "admin",
@@ -452,7 +452,7 @@
     },
     {
       "password": "support",
-      "count": 79
+      "count": 80
     },
     {
       "password": "admin",
@@ -479,6 +479,10 @@
       "count": 9
     },
     {
+      "password": "abcd1234",
+      "count": 9
+    },
+    {
       "password": "123456",
       "count": 9
     },
@@ -488,10 +492,6 @@
     },
     {
       "password": "admin123",
-      "count": 8
-    },
-    {
-      "password": "abcd1234",
       "count": 8
     },
     {
@@ -550,9 +550,9 @@
     }
   ],
   "method_counts": {
-    "GET": 17830,
+    "GET": 17833,
     "POST": 2262,
-    "SSH": 670,
+    "SSH": 672,
     "HEAD": 40,
     "PRI": 15,
     "PROPFIND": 13,
@@ -577,7 +577,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 628
+      "count": 630
     },
     {
       "path": "/",
@@ -640,12 +640,12 @@
       "count": 67
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -755,9 +755,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 19,
-      "event_count": 269
+      "country": "GB",
+      "ip_count": 20,
+      "event_count": 270
     },
     {
       "asn": "AS202412",
@@ -799,7 +799,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 68
+      "event_count": 69
     },
     {
       "asn": "AS6939",
@@ -826,8 +826,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 29,
-      "event_count": 60
+      "ip_count": 30,
+      "event_count": 61
     },
     {
       "asn": "AS31898",
@@ -851,9 +851,9 @@
       "event_count": 50
     },
     {
-      "asn": "AS63023",
-      "name": "GTHost",
-      "country": "US",
+      "asn": "AS206134",
+      "name": "NEKOBYTE INTERNATIONAL LIMITED",
+      "country": "DE",
       "ip_count": 1,
       "event_count": 49
     },
@@ -865,16 +865,16 @@
       "event_count": 49
     },
     {
-      "asn": "AS202660",
-      "name": "Uzbektelekom Joint Stock Company",
-      "country": "UZ",
+      "asn": "AS63023",
+      "name": "GTHost",
+      "country": "US",
       "ip_count": 1,
       "event_count": 49
     },
     {
-      "asn": "AS206134",
-      "name": "NEKOBYTE INTERNATIONAL LIMITED",
-      "country": "DE",
+      "asn": "AS202660",
+      "name": "Uzbektelekom Joint Stock Company",
+      "country": "UZ",
       "ip_count": 1,
       "event_count": 49
     }
@@ -882,19 +882,19 @@
   "events_by_country": {
     "BR": 1904,
     "DE": 726,
-    "US": 703,
-    "NL": 301,
+    "US": 435,
+    "GB": 309,
+    "NL": 305,
     "KZ": 138,
     "BG": 112,
     "FR": 99,
     "CN": 84,
-    "PL": 72,
+    "PL": 73,
     "JP": 58,
     "IN": 57,
     "AU": 56,
     "FI": 50,
     "UZ": 49,
-    "GB": 39,
     "VN": 33,
     "CA": 31,
     "KR": 24,
