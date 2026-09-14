@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T23:03:52.985033Z",
+  "generated_at": "2026-09-14T00:00:29.046008Z",
   "period_days": 90,
-  "total_events": 19949,
-  "unique_ips": 255,
+  "total_events": 19957,
+  "unique_ips": 259,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 7356,
-    "sshppot:honeypot-01": 265,
-    "front:honeypot-01": 12005
+    "bigippot:honeypot-01": 7357,
+    "sshppot:honeypot-01": 269,
+    "front:honeypot-01": 12008
   },
   "events_per_day": {
     "2026-08-28": {
@@ -109,10 +109,10 @@
       "total": 1495
     },
     "2026-09-13": {
-      "sshppot:honeypot-01": 71,
-      "front:honeypot-01": 1881,
-      "bigippot:honeypot-01": 428,
-      "total": 2380
+      "sshppot:honeypot-01": 75,
+      "front:honeypot-01": 1884,
+      "bigippot:honeypot-01": 429,
+      "total": 2388
     }
   },
   "top_credentials": [
@@ -124,7 +124,7 @@
     {
       "username": "support",
       "password": "support",
-      "count": 38
+      "count": 40
     },
     {
       "username": "admin",
@@ -197,6 +197,11 @@
       "count": 4
     },
     {
+      "username": "root",
+      "password": "abcd1234",
+      "count": 4
+    },
+    {
       "username": "debian",
       "password": "temppwd",
       "count": 4
@@ -247,8 +252,8 @@
       "count": 3
     },
     {
-      "username": "root",
-      "password": "abcd1234",
+      "username": "telecomadmin",
+      "password": "admintelecom",
       "count": 3
     },
     {
@@ -304,11 +309,6 @@
     {
       "username": "user",
       "password": "password",
-      "count": 2
-    },
-    {
-      "username": "telecomadmin",
-      "password": "admintelecom",
       "count": 2
     },
     {
@@ -370,7 +370,7 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 60
+      "count": 61
     },
     {
       "username": "ops",
@@ -378,7 +378,7 @@
     },
     {
       "username": "support",
-      "count": 43
+      "count": 45
     },
     {
       "username": "admin",
@@ -409,6 +409,10 @@
       "count": 3
     },
     {
+      "username": "telecomadmin",
+      "count": 3
+    },
+    {
       "username": "(empty)",
       "count": 2
     },
@@ -426,10 +430,6 @@
     },
     {
       "username": "Admin",
-      "count": 2
-    },
-    {
-      "username": "telecomadmin",
       "count": 2
     },
     {
@@ -452,7 +452,7 @@
     },
     {
       "password": "support",
-      "count": 38
+      "count": 40
     },
     {
       "password": "admin",
@@ -491,6 +491,10 @@
       "count": 5
     },
     {
+      "password": "abcd1234",
+      "count": 4
+    },
+    {
       "password": "temppwd",
       "count": 4
     },
@@ -519,12 +523,8 @@
       "count": 3
     },
     {
-      "password": "abcd1234",
+      "password": "admintelecom",
       "count": 3
-    },
-    {
-      "password": "Deft2731",
-      "count": 2
     }
   ],
   "top_user_agents": [
@@ -550,9 +550,9 @@
     }
   ],
   "method_counts": {
-    "GET": 17033,
+    "GET": 17036,
     "POST": 2229,
-    "SSH": 264,
+    "SSH": 268,
     "HEAD": 37,
     "PROPFIND": 13,
     "PRI": 13,
@@ -570,7 +570,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 775
+      "count": 778
     },
     {
       "path": "/",
@@ -580,7 +580,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 227
+      "count": 231
     },
     {
       "path": "/tmui/login.jsp",
@@ -813,8 +813,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 19,
-      "event_count": 42
+      "ip_count": 20,
+      "event_count": 43
     },
     {
       "asn": "AS12876",
@@ -828,7 +828,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 32
+      "event_count": 33
     },
     {
       "asn": "AS6939",
@@ -876,15 +876,15 @@
   "events_by_country": {
     "BE": 1892,
     "DE": 783,
-    "US": 324,
+    "US": 325,
     "KZ": 138,
     "BG": 97,
-    "PL": 75,
+    "PL": 76,
     "FI": 50,
     "SG": 47,
-    "FR": 38,
-    "NL": 37,
-    "CN": 36,
+    "NL": 40,
+    "FR": 39,
+    "CN": 38,
     "GB": 27,
     "KR": 9,
     "RU": 8,
