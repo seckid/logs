@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14T05:01:31.089003Z",
+  "generated_at": "2026-09-14T06:01:59.116163Z",
   "period_days": 90,
-  "total_events": 20107,
-  "unique_ips": 303,
+  "total_events": 20121,
+  "unique_ips": 309,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 133,
-    "bigippot:honeypot-01": 7386,
-    "sshppot:honeypot-01": 362,
-    "front:honeypot-01": 12036
+    "bigippot:honeypot-01": 7394,
+    "sshppot:honeypot-01": 367,
+    "front:honeypot-01": 12037
   },
   "events_per_day": {
     "2026-08-28": {
@@ -115,10 +115,10 @@
       "total": 2388
     },
     "2026-09-14": {
-      "sshppot:honeypot-01": 93,
-      "bigippot:honeypot-01": 29,
-      "front:honeypot-01": 28,
-      "total": 150
+      "sshppot:honeypot-01": 98,
+      "bigippot:honeypot-01": 37,
+      "front:honeypot-01": 29,
+      "total": 164
     }
   },
   "top_credentials": [
@@ -130,7 +130,7 @@
     {
       "username": "support",
       "password": "support",
-      "count": 48
+      "count": 49
     },
     {
       "username": "admin",
@@ -140,7 +140,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 13
+      "count": 14
     },
     {
       "username": "root",
@@ -150,6 +150,11 @@
     {
       "username": "user",
       "password": "user",
+      "count": 9
+    },
+    {
+      "username": "root",
+      "password": "123456",
       "count": 9
     },
     {
@@ -175,11 +180,6 @@
     {
       "username": "admin",
       "password": "admin123",
-      "count": 7
-    },
-    {
-      "username": "root",
-      "password": "123456",
       "count": 7
     },
     {
@@ -223,6 +223,11 @@
       "count": 5
     },
     {
+      "username": "root",
+      "password": "---fuck_you----",
+      "count": 5
+    },
+    {
       "username": "ubnt",
       "password": "ubnt",
       "count": 5
@@ -250,11 +255,6 @@
     {
       "username": "admin",
       "password": "adminadmin",
-      "count": 4
-    },
-    {
-      "username": "root",
-      "password": "---fuck_you----",
       "count": 4
     },
     {
@@ -376,7 +376,7 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 90
+      "count": 94
     },
     {
       "username": "admin",
@@ -384,7 +384,7 @@
     },
     {
       "username": "support",
-      "count": 53
+      "count": 54
     },
     {
       "username": "ops",
@@ -446,11 +446,11 @@
   "top_passwords": [
     {
       "password": "(empty)",
-      "count": 85
+      "count": 86
     },
     {
       "password": "support",
-      "count": 48
+      "count": 49
     },
     {
       "password": "admin",
@@ -465,6 +465,10 @@
       "count": 14
     },
     {
+      "password": "123456",
+      "count": 11
+    },
+    {
       "password": "1234",
       "count": 10
     },
@@ -474,10 +478,6 @@
     },
     {
       "password": "admin123",
-      "count": 9
-    },
-    {
-      "password": "123456",
       "count": 9
     },
     {
@@ -505,6 +505,10 @@
       "count": 5
     },
     {
+      "password": "---fuck_you----",
+      "count": 5
+    },
+    {
       "password": "ubnt",
       "count": 5
     },
@@ -519,10 +523,6 @@
     {
       "password": "orangepi",
       "count": 4
-    },
-    {
-      "password": "adminadmin",
-      "count": 4
     }
   ],
   "top_user_agents": [
@@ -536,7 +536,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1768
+      "count": 1770
     },
     {
       "user_agent": "libredtail-http",
@@ -548,9 +548,9 @@
     }
   ],
   "method_counts": {
-    "GET": 17083,
+    "GET": 17089,
     "POST": 2231,
-    "SSH": 361,
+    "SSH": 366,
     "HEAD": 37,
     "PRI": 15,
     "PROPFIND": 13,
@@ -568,22 +568,22 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 790
+      "count": 791
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 427
+      "count": 429
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 322
+      "count": 326
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 206
+      "count": 207
     },
     {
       "path": "/remote/login",
@@ -661,9 +661,9 @@
       "count": 40
     },
     {
-      "path": "/robots.txt",
+      "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 39
+      "count": 40
     }
   ],
   "cve_attempts": [
@@ -783,8 +783,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 24,
-      "event_count": 54
+      "ip_count": 25,
+      "event_count": 55
     },
     {
       "asn": "AS153622",
@@ -792,6 +792,13 @@
       "country": "FI",
       "ip_count": 1,
       "event_count": 50
+    },
+    {
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 22,
+      "event_count": 49
     },
     {
       "asn": "AS63023",
@@ -808,13 +815,6 @@
       "event_count": 49
     },
     {
-      "asn": "AS16509",
-      "name": "Amazon.com, Inc.",
-      "country": "DE",
-      "ip_count": 21,
-      "event_count": 47
-    },
-    {
       "asn": "AS12876",
       "name": "Scaleway SAS",
       "country": "PL",
@@ -826,7 +826,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 38
+      "event_count": 39
     },
     {
       "asn": "AS150862",
@@ -873,13 +873,13 @@
   ],
   "events_by_country": {
     "BE": 1892,
-    "DE": 619,
-    "US": 351,
-    "NL": 290,
+    "DE": 573,
+    "US": 402,
+    "NL": 292,
     "KZ": 138,
     "BG": 97,
-    "PL": 82,
-    "CN": 50,
+    "PL": 83,
+    "CN": 54,
     "FI": 50,
     "FR": 41,
     "VN": 33,
@@ -897,9 +897,9 @@
     "SE": 4,
     "AE": 3,
     "CA": 3,
+    "NO": 3,
     "BD": 2,
     "ID": 2,
-    "NO": 2,
     "SG": 2,
     "SI": 2,
     "TW": 2,
@@ -907,6 +907,7 @@
     "CO": 1,
     "EG": 1,
     "ES": 1,
+    "ET": 1,
     "IT": 1,
     "LT": 1
   }
