@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14T20:01:07.229391Z",
+  "generated_at": "2026-09-14T21:02:07.214856Z",
   "period_days": 90,
-  "total_events": 21181,
-  "unique_ips": 399,
+  "total_events": 21239,
+  "unique_ips": 404,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 145,
-    "bigippot:honeypot-01": 7780,
-    "sshppot:honeypot-01": 669,
-    "front:honeypot-01": 12377
+    "bigippot:honeypot-01": 7835,
+    "sshppot:honeypot-01": 671,
+    "front:honeypot-01": 12378
   },
   "events_per_day": {
     "2026-08-28": {
@@ -116,18 +116,18 @@
     },
     "2026-09-14": {
       "ivantipot:honeypot-01": 20,
-      "sshppot:honeypot-01": 400,
-      "bigippot:honeypot-01": 423,
-      "front:honeypot-01": 369,
+      "sshppot:honeypot-01": 402,
+      "bigippot:honeypot-01": 478,
+      "front:honeypot-01": 370,
       "fortipot:honeypot-01": 12,
-      "total": 1224
+      "total": 1282
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 77
+      "count": 79
     },
     {
       "username": "ops",
@@ -382,7 +382,7 @@
     },
     {
       "username": "support",
-      "count": 82
+      "count": 84
     },
     {
       "username": "admin",
@@ -452,7 +452,7 @@
     },
     {
       "password": "support",
-      "count": 77
+      "count": 79
     },
     {
       "password": "admin",
@@ -542,7 +542,7 @@
     },
     {
       "user_agent": "libredtail-http",
-      "count": 1273
+      "count": 1322
     },
     {
       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -550,9 +550,9 @@
     }
   ],
   "method_counts": {
-    "GET": 17781,
-    "POST": 2255,
-    "SSH": 668,
+    "GET": 17830,
+    "POST": 2262,
+    "SSH": 670,
     "HEAD": 40,
     "PRI": 15,
     "PROPFIND": 13,
@@ -577,17 +577,17 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 626
+      "count": 628
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 464
+      "count": 466
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 229
+      "count": 230
     },
     {
       "path": "/remote/login",
@@ -597,7 +597,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 98
+      "count": 99
     },
     {
       "path": "/remote/logincheck",
@@ -612,7 +612,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 85
+      "count": 86
     },
     {
       "path": "/.git/config",
@@ -640,12 +640,12 @@
       "count": 67
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -665,15 +665,15 @@
       "count": 42
     },
     {
-      "path": "/api/auth/signin",
-      "source": "front:honeypot-01",
-      "count": 40
+      "path": "/robots.txt",
+      "source": "bigippot:honeypot-01",
+      "count": 41
     }
   ],
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 925,
+      "count": 962,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -685,7 +685,8 @@
         "141.11.122.40",
         "31.132.90.3",
         "31.76.98.105",
-        "45.127.73.6"
+        "45.127.73.6",
+        "87.192.253.110"
       ],
       "sample_paths": [
         "/phpunit/Util/PHP/eval-stdin.php",
@@ -697,7 +698,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 187,
+      "count": 197,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -709,7 +710,8 @@
         "141.11.122.40",
         "31.132.90.3",
         "31.76.98.105",
-        "45.127.73.6"
+        "45.127.73.6",
+        "87.192.253.110"
       ],
       "sample_paths": [
         "/?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
@@ -733,7 +735,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1118
+    "Critical": 1165
   },
   "top_asns": [
     {
@@ -797,7 +799,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 66
+      "event_count": 68
     },
     {
       "asn": "AS6939",
@@ -824,8 +826,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 28,
-      "event_count": 59
+      "ip_count": 29,
+      "event_count": 60
     },
     {
       "asn": "AS31898",
@@ -863,34 +865,35 @@
       "event_count": 49
     },
     {
+      "asn": "AS202660",
+      "name": "Uzbektelekom Joint Stock Company",
+      "country": "UZ",
+      "ip_count": 1,
+      "event_count": 49
+    },
+    {
       "asn": "AS206134",
       "name": "NEKOBYTE INTERNATIONAL LIMITED",
       "country": "DE",
       "ip_count": 1,
       "event_count": 49
-    },
-    {
-      "asn": "AS150862",
-      "name": "VPSTTT COMPUTER COMPANY LIMITED",
-      "country": "VN",
-      "ip_count": 1,
-      "event_count": 32
     }
   ],
   "events_by_country": {
     "BR": 1904,
     "DE": 726,
-    "US": 691,
+    "US": 703,
     "NL": 301,
     "KZ": 138,
     "BG": 112,
-    "FR": 105,
+    "FR": 99,
     "CN": 84,
-    "PL": 70,
+    "PL": 72,
     "JP": 58,
     "IN": 57,
     "AU": 56,
     "FI": 50,
+    "UZ": 49,
     "GB": 39,
     "VN": 33,
     "CA": 31,
@@ -902,7 +905,7 @@
     "SE": 7,
     "CH": 6,
     "PK": 6,
-    "NO": 4,
+    "NO": 5,
     "BD": 3,
     "LT": 3,
     "TR": 3,
