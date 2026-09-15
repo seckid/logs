@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T05:01:28.865818Z",
+  "generated_at": "2026-09-15T06:01:39.352058Z",
   "period_days": 90,
-  "total_events": 21739,
-  "unique_ips": 483,
+  "total_events": 21794,
+  "unique_ips": 488,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -13,13 +13,13 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "ivantipot:honeypot-01": 32,
+    "ivantipot:honeypot-01": 35,
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
-    "fortipot:honeypot-01": 156,
-    "bigippot:honeypot-01": 7898,
-    "sshppot:honeypot-01": 736,
-    "front:honeypot-01": 12735
+    "fortipot:honeypot-01": 159,
+    "bigippot:honeypot-01": 7902,
+    "sshppot:honeypot-01": 780,
+    "front:honeypot-01": 12736
   },
   "events_per_day": {
     "2026-08-28": {
@@ -123,12 +123,12 @@
       "total": 1346
     },
     "2026-09-15": {
-      "bigippot:honeypot-01": 28,
-      "front:honeypot-01": 355,
-      "fortipot:honeypot-01": 8,
-      "sshppot:honeypot-01": 41,
-      "ivantipot:honeypot-01": 4,
-      "total": 436
+      "bigippot:honeypot-01": 32,
+      "front:honeypot-01": 356,
+      "fortipot:honeypot-01": 11,
+      "sshppot:honeypot-01": 85,
+      "ivantipot:honeypot-01": 7,
+      "total": 491
     }
   },
   "top_credentials": [
@@ -145,7 +145,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 19
+      "count": 20
     },
     {
       "username": "admin",
@@ -153,13 +153,13 @@
       "count": 18
     },
     {
-      "username": "root",
-      "password": "admin",
-      "count": 12
-    },
-    {
       "username": "user",
       "password": "user",
+      "count": 13
+    },
+    {
+      "username": "root",
+      "password": "admin",
       "count": 12
     },
     {
@@ -223,18 +223,23 @@
       "count": 7
     },
     {
+      "username": "root",
+      "password": "password",
+      "count": 7
+    },
+    {
       "username": "telecomadmin",
       "password": "admintelecom",
       "count": 7
     },
     {
       "username": "root",
-      "password": "password",
+      "password": "------fuck------",
       "count": 6
     },
     {
       "username": "root",
-      "password": "------fuck------",
+      "password": "Test@2022",
       "count": 6
     },
     {
@@ -279,11 +284,6 @@
     },
     {
       "username": "root",
-      "password": "Test@2022",
-      "count": 5
-    },
-    {
-      "username": "root",
       "password": "---fuck_you----",
       "count": 5
     },
@@ -305,6 +305,11 @@
     {
       "username": "admin",
       "password": "adminadmin",
+      "count": 4
+    },
+    {
+      "username": "root",
+      "password": "Admin123",
       "count": 4
     },
     {
@@ -334,7 +339,7 @@
     },
     {
       "username": "root",
-      "password": "Admin123",
+      "password": "aDm8H%MdA",
       "count": 3
     },
     {
@@ -353,13 +358,13 @@
       "count": 3
     },
     {
-      "username": "(empty)",
-      "password": "Deft2731",
-      "count": 2
+      "username": "root",
+      "password": "5nWt3P-fF4WosQm5O",
+      "count": 3
     },
     {
-      "username": "root",
-      "password": "aDm8H%MdA",
+      "username": "(empty)",
+      "password": "Deft2731",
       "count": 2
     },
     {
@@ -376,17 +381,12 @@
       "username": "nobody",
       "password": "nobody",
       "count": 2
-    },
-    {
-      "username": "root",
-      "password": "root123",
-      "count": 2
     }
   ],
   "top_usernames": [
     {
       "username": "root",
-      "count": 126
+      "count": 132
     },
     {
       "username": "support",
@@ -402,7 +402,7 @@
     },
     {
       "username": "user",
-      "count": 25
+      "count": 26
     },
     {
       "username": "test",
@@ -456,7 +456,7 @@
   "top_passwords": [
     {
       "password": "(empty)",
-      "count": 94
+      "count": 95
     },
     {
       "password": "support",
@@ -468,19 +468,19 @@
     },
     {
       "password": "password",
-      "count": 22
+      "count": 23
     },
     {
       "password": "12345678",
       "count": 17
     },
     {
-      "password": "1234",
+      "password": "user",
       "count": 13
     },
     {
-      "password": "user",
-      "count": 12
+      "password": "1234",
+      "count": 13
     },
     {
       "password": "root",
@@ -527,11 +527,11 @@
       "count": 6
     },
     {
-      "password": "Li123456.",
+      "password": "Test@2022",
       "count": 6
     },
     {
-      "password": "operator",
+      "password": "Li123456.",
       "count": 6
     }
   ],
@@ -558,9 +558,9 @@
     }
   ],
   "method_counts": {
-    "GET": 18231,
+    "GET": 18240,
     "POST": 2280,
-    "SSH": 735,
+    "SSH": 779,
     "HEAD": 40,
     "PRI": 16,
     "PROPFIND": 14,
@@ -585,17 +585,17 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 693
+      "count": 736
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 488
+      "count": 490
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 239
+      "count": 240
     },
     {
       "path": "/favicon.ico",
@@ -625,7 +625,7 @@
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 87
+      "count": 88
     },
     {
       "path": "/favicon.ico",
@@ -750,9 +750,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
-      "ip_count": 20,
-      "event_count": 1903
+      "country": "BE",
+      "ip_count": 21,
+      "event_count": 1904
     },
     {
       "asn": "AS399979",
@@ -780,7 +780,7 @@
       "name": "Feo Prest SRL",
       "country": "DE",
       "ip_count": 3,
-      "event_count": 181
+      "event_count": 182
     },
     {
       "asn": "AS197556",
@@ -889,9 +889,10 @@
     }
   ],
   "events_by_country": {
-    "US": 2654,
-    "DE": 748,
-    "NL": 314,
+    "BE": 1904,
+    "DE": 763,
+    "US": 753,
+    "NL": 325,
     "KZ": 138,
     "BG": 112,
     "FR": 99,
@@ -905,13 +906,13 @@
     "GB": 41,
     "KR": 38,
     "VN": 34,
+    "BR": 33,
     "CA": 31,
     "RU": 17,
     "RO": 15,
     "PK": 12,
     "MA": 8,
     "SE": 8,
-    "BR": 7,
     "CH": 6,
     "NO": 5,
     "LT": 4,
