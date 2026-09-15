@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T06:01:39.352058Z",
+  "generated_at": "2026-09-15T07:00:39.138940Z",
   "period_days": 90,
-  "total_events": 21794,
-  "unique_ips": 488,
+  "total_events": 21813,
+  "unique_ips": 491,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,8 +17,8 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 159,
-    "bigippot:honeypot-01": 7902,
-    "sshppot:honeypot-01": 780,
+    "bigippot:honeypot-01": 7904,
+    "sshppot:honeypot-01": 797,
     "front:honeypot-01": 12736
   },
   "events_per_day": {
@@ -123,19 +123,19 @@
       "total": 1346
     },
     "2026-09-15": {
-      "bigippot:honeypot-01": 32,
+      "bigippot:honeypot-01": 34,
       "front:honeypot-01": 356,
       "fortipot:honeypot-01": 11,
-      "sshppot:honeypot-01": 85,
+      "sshppot:honeypot-01": 102,
       "ivantipot:honeypot-01": 7,
-      "total": 491
+      "total": 510
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 89
+      "count": 90
     },
     {
       "username": "ops",
@@ -151,6 +151,11 @@
       "username": "admin",
       "password": "admin",
       "count": 18
+    },
+    {
+      "username": "admin",
+      "password": "(empty)",
+      "count": 13
     },
     {
       "username": "user",
@@ -173,13 +178,13 @@
       "count": 12
     },
     {
-      "username": "admin",
-      "password": "(empty)",
+      "username": "test",
+      "password": "test",
       "count": 11
     },
     {
-      "username": "test",
-      "password": "test",
+      "username": "admin",
+      "password": "password",
       "count": 11
     },
     {
@@ -190,11 +195,6 @@
     {
       "username": "root",
       "password": "abcd1234",
-      "count": 10
-    },
-    {
-      "username": "admin",
-      "password": "password",
       "count": 10
     },
     {
@@ -278,6 +278,11 @@
       "count": 5
     },
     {
+      "username": "user",
+      "password": "1234",
+      "count": 5
+    },
+    {
       "username": "debian",
       "password": "temppwd",
       "count": 5
@@ -286,11 +291,6 @@
       "username": "root",
       "password": "---fuck_you----",
       "count": 5
-    },
-    {
-      "username": "user",
-      "password": "1234",
-      "count": 4
     },
     {
       "username": "root",
@@ -390,11 +390,11 @@
     },
     {
       "username": "support",
-      "count": 94
+      "count": 95
     },
     {
       "username": "admin",
-      "count": 74
+      "count": 77
     },
     {
       "username": "ops",
@@ -402,7 +402,7 @@
     },
     {
       "username": "user",
-      "count": 26
+      "count": 27
     },
     {
       "username": "test",
@@ -456,11 +456,11 @@
   "top_passwords": [
     {
       "password": "(empty)",
-      "count": 95
+      "count": 97
     },
     {
       "password": "support",
-      "count": 89
+      "count": 90
     },
     {
       "password": "admin",
@@ -468,18 +468,18 @@
     },
     {
       "password": "password",
-      "count": 23
+      "count": 24
     },
     {
       "password": "12345678",
       "count": 17
     },
     {
-      "password": "user",
-      "count": 13
+      "password": "1234",
+      "count": 14
     },
     {
-      "password": "1234",
+      "password": "user",
       "count": 13
     },
     {
@@ -559,8 +559,8 @@
   ],
   "method_counts": {
     "GET": 18240,
-    "POST": 2280,
-    "SSH": 779,
+    "POST": 2282,
+    "SSH": 796,
     "HEAD": 40,
     "PRI": 16,
     "PROPFIND": 14,
@@ -585,7 +585,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 736
+      "count": 753
     },
     {
       "path": "/",
@@ -741,10 +741,27 @@
       "cvss_score": 9.8,
       "sample_ips": [],
       "sample_paths": []
+    },
+    {
+      "cve": "CVE-2022-1388",
+      "count": 2,
+      "sources": [
+        "bigippot:honeypot-01"
+      ],
+      "description": "Authentication bypass in F5 BIG-IP iControl REST allows unauthenticated attackers to execute arbitrary system commands via /mgmt/tm/util/bash.",
+      "severity": "Critical",
+      "cvss_score": 9.8,
+      "sample_ips": [
+        "176.110.216.7",
+        "176.110.216.9"
+      ],
+      "sample_paths": [
+        "/mgmt/tm/util/bash"
+      ]
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1175
+    "Critical": 1177
   },
   "top_asns": [
     {
@@ -801,7 +818,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 76
+      "event_count": 77
     },
     {
       "asn": "AS45102",
@@ -890,15 +907,15 @@
   ],
   "events_by_country": {
     "BE": 1904,
-    "DE": 763,
-    "US": 753,
-    "NL": 325,
+    "DE": 775,
+    "US": 755,
+    "NL": 329,
     "KZ": 138,
     "BG": 112,
     "FR": 99,
     "HK": 90,
     "CN": 84,
-    "PL": 80,
+    "PL": 81,
     "IN": 60,
     "JP": 58,
     "FI": 50,
