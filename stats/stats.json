@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T21:00:35.219877Z",
+  "generated_at": "2026-09-15T22:04:28.954997Z",
   "period_days": 90,
-  "total_events": 23165,
-  "unique_ips": 629,
+  "total_events": 23338,
+  "unique_ips": 631,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,8 +18,8 @@
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 197,
     "bigippot:honeypot-01": 8203,
-    "sshppot:honeypot-01": 981,
-    "front:honeypot-01": 13549
+    "sshppot:honeypot-01": 983,
+    "front:honeypot-01": 13720
   },
   "events_per_day": {
     "2026-08-28": {
@@ -124,18 +124,18 @@
     },
     "2026-09-15": {
       "bigippot:honeypot-01": 333,
-      "front:honeypot-01": 1169,
+      "front:honeypot-01": 1340,
       "fortipot:honeypot-01": 49,
-      "sshppot:honeypot-01": 286,
+      "sshppot:honeypot-01": 288,
       "ivantipot:honeypot-01": 25,
-      "total": 1862
+      "total": 2035
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 104
+      "count": 105
     },
     {
       "username": "ops",
@@ -390,7 +390,7 @@
     },
     {
       "username": "support",
-      "count": 109
+      "count": 110
     },
     {
       "username": "admin",
@@ -456,7 +456,7 @@
     },
     {
       "password": "support",
-      "count": 104
+      "count": 105
     },
     {
       "password": "admin",
@@ -533,12 +533,12 @@
   ],
   "top_user_agents": [
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 2512
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 2637
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 2467
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "count": 2512
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -554,9 +554,9 @@
     }
   ],
   "method_counts": {
-    "GET": 19309,
-    "POST": 2333,
-    "SSH": 980,
+    "GET": 19476,
+    "POST": 2337,
+    "SSH": 982,
     "HEAD": 43,
     "PRI": 16,
     "PROPFIND": 15,
@@ -576,12 +576,12 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 936
+      "count": 938
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 875
+      "count": 881
     },
     {
       "path": "/",
@@ -596,7 +596,7 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 106
+      "count": 107
     },
     {
       "path": "/favicon.ico",
@@ -621,7 +621,7 @@
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 95
+      "count": 96
     },
     {
       "path": "/favicon.ico",
@@ -666,11 +666,11 @@
     {
       "path": "/.env.production",
       "source": "front:honeypot-01",
-      "count": 44
+      "count": 45
     },
     {
-      "path": "/robots.txt",
-      "source": "bigippot:honeypot-01",
+      "path": "/.env.local",
+      "source": "front:honeypot-01",
       "count": 44
     }
   ],
@@ -847,7 +847,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 88
+      "event_count": 89
     },
     {
       "asn": "AS29244",
@@ -921,14 +921,14 @@
     }
   ],
   "events_by_country": {
-    "US": 3209,
-    "DE": 814,
+    "US": 3190,
+    "DE": 834,
     "NL": 466,
     "FR": 148,
     "KZ": 138,
     "JP": 132,
     "BG": 112,
-    "PL": 92,
+    "PL": 93,
     "CN": 82,
     "IN": 62,
     "KR": 54,
@@ -937,7 +937,7 @@
     "FI": 50,
     "UZ": 49,
     "GB": 41,
-    "RO": 40,
+    "RO": 41,
     "SI": 39,
     "BR": 38,
     "VN": 38,
