@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T17:02:58.869249Z",
+  "generated_at": "2026-09-15T18:00:58.941652Z",
   "period_days": 90,
-  "total_events": 22671,
-  "unique_ips": 600,
+  "total_events": 22690,
+  "unique_ips": 610,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,10 +16,10 @@
     "ivantipot:honeypot-01": 52,
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
-    "fortipot:honeypot-01": 190,
-    "bigippot:honeypot-01": 8104,
-    "sshppot:honeypot-01": 956,
-    "front:honeypot-01": 13187
+    "fortipot:honeypot-01": 194,
+    "bigippot:honeypot-01": 8108,
+    "sshppot:honeypot-01": 965,
+    "front:honeypot-01": 13189
   },
   "events_per_day": {
     "2026-08-28": {
@@ -123,19 +123,19 @@
       "total": 1346
     },
     "2026-09-15": {
-      "bigippot:honeypot-01": 234,
-      "front:honeypot-01": 807,
-      "fortipot:honeypot-01": 42,
-      "sshppot:honeypot-01": 261,
+      "bigippot:honeypot-01": 238,
+      "front:honeypot-01": 809,
+      "fortipot:honeypot-01": 46,
+      "sshppot:honeypot-01": 270,
       "ivantipot:honeypot-01": 24,
-      "total": 1368
+      "total": 1387
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 100
+      "count": 101
     },
     {
       "username": "ops",
@@ -145,7 +145,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 25
+      "count": 30
     },
     {
       "username": "admin",
@@ -178,13 +178,13 @@
       "count": 15
     },
     {
-      "username": "admin",
-      "password": "password",
-      "count": 14
-    },
-    {
       "username": "root",
       "password": "12345678",
+      "count": 15
+    },
+    {
+      "username": "admin",
+      "password": "password",
       "count": 14
     },
     {
@@ -195,6 +195,11 @@
     {
       "username": "root",
       "password": "abcd1234",
+      "count": 12
+    },
+    {
+      "username": "guest",
+      "password": "guest",
       "count": 12
     },
     {
@@ -211,11 +216,6 @@
       "username": "user",
       "password": "password",
       "count": 12
-    },
-    {
-      "username": "guest",
-      "password": "guest",
-      "count": 11
     },
     {
       "username": "AdminGPON",
@@ -386,11 +386,11 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 159
+      "count": 165
     },
     {
       "username": "support",
-      "count": 105
+      "count": 106
     },
     {
       "username": "admin",
@@ -413,12 +413,12 @@
       "count": 15
     },
     {
-      "username": "ubnt",
+      "username": "guest",
       "count": 12
     },
     {
-      "username": "guest",
-      "count": 11
+      "username": "ubnt",
+      "count": 12
     },
     {
       "username": "operator",
@@ -452,11 +452,11 @@
   "top_passwords": [
     {
       "password": "(empty)",
-      "count": 105
+      "count": 110
     },
     {
       "password": "support",
-      "count": 100
+      "count": 101
     },
     {
       "password": "admin",
@@ -467,11 +467,11 @@
       "count": 34
     },
     {
-      "password": "root",
-      "count": 17
+      "password": "12345678",
+      "count": 18
     },
     {
-      "password": "12345678",
+      "password": "root",
       "count": 17
     },
     {
@@ -495,12 +495,12 @@
       "count": 12
     },
     {
-      "password": "ubnt",
+      "password": "guest",
       "count": 12
     },
     {
-      "password": "guest",
-      "count": 11
+      "password": "ubnt",
+      "count": 12
     },
     {
       "password": "ALC#FGU",
@@ -554,9 +554,9 @@
     }
   ],
   "method_counts": {
-    "GET": 18886,
-    "POST": 2316,
-    "SSH": 955,
+    "GET": 18893,
+    "POST": 2318,
+    "SSH": 964,
     "HEAD": 42,
     "PRI": 16,
     "PROPFIND": 15,
@@ -576,7 +576,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 912
+      "count": 921
     },
     {
       "path": "/",
@@ -586,12 +586,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 506
+      "count": 508
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 248
+      "count": 249
     },
     {
       "path": "/.env",
@@ -634,19 +634,14 @@
       "count": 79
     },
     {
+      "path": "/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 72
+    },
+    {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
       "count": 71
-    },
-    {
-      "path": "/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 71
-    },
-    {
-      "path": "/wordpress/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 56
     },
     {
       "path": "/blog/wp-json/batch/v1",
@@ -654,9 +649,19 @@
       "count": 56
     },
     {
+      "path": "/wordpress/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 56
+    },
+    {
       "path": "/?rest_route=/batch/v1",
       "source": "front:honeypot-01",
-      "count": 48
+      "count": 49
+    },
+    {
+      "path": "/",
+      "source": "fortipot:honeypot-01",
+      "count": 45
     },
     {
       "path": "/.env",
@@ -666,11 +671,6 @@
     {
       "path": "/signup",
       "source": "front:honeypot-01",
-      "count": 43
-    },
-    {
-      "path": "/",
-      "source": "fortipot:honeypot-01",
       "count": 43
     }
   ],
@@ -783,8 +783,8 @@
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "US",
-      "ip_count": 26,
-      "event_count": 2245
+      "ip_count": 27,
+      "event_count": 2246
     },
     {
       "asn": "AS399979",
@@ -836,17 +836,17 @@
       "event_count": 87
     },
     {
-      "asn": "AS12876",
-      "name": "Scaleway SAS",
-      "country": "FR",
-      "ip_count": 7,
-      "event_count": 84
-    },
-    {
       "asn": "AS154383",
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
+      "event_count": 85
+    },
+    {
+      "asn": "AS12876",
+      "name": "Scaleway SAS",
+      "country": "FR",
+      "ip_count": 7,
       "event_count": 84
     },
     {
@@ -859,9 +859,9 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "US",
-      "ip_count": 12,
-      "event_count": 73
+      "country": "JP",
+      "ip_count": 13,
+      "event_count": 74
     },
     {
       "asn": "AS16509",
@@ -871,18 +871,18 @@
       "event_count": 73
     },
     {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "ip_count": 34,
+      "event_count": 71
+    },
+    {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
       "country": "HK",
       "ip_count": 4,
       "event_count": 71
-    },
-    {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 33,
-      "event_count": 70
     },
     {
       "asn": "AS31898",
@@ -913,37 +913,37 @@
       "event_count": 49
     },
     {
-      "asn": "AS63023",
-      "name": "GTHost",
-      "country": "US",
+      "asn": "AS154115",
+      "name": "KANHALABS-ORG",
+      "country": "IN",
       "ip_count": 1,
       "event_count": 49
     }
   ],
   "events_by_country": {
-    "US": 2701,
+    "US": 2647,
     "DE": 1153,
-    "NL": 458,
+    "NL": 460,
     "KZ": 138,
-    "FR": 134,
+    "FR": 137,
+    "JP": 132,
     "GB": 114,
     "BG": 112,
     "HK": 90,
-    "PL": 88,
+    "PL": 89,
     "CN": 79,
     "IN": 61,
-    "JP": 58,
     "KR": 54,
     "ID": 51,
     "FI": 50,
-    "CA": 49,
     "UZ": 49,
+    "VN": 38,
     "BR": 37,
-    "VN": 37,
+    "RO": 35,
     "SI": 35,
-    "RO": 34,
+    "CA": 34,
+    "PK": 26,
     "RU": 22,
-    "PK": 21,
     "MA": 11,
     "SE": 9,
     "TR": 9,
@@ -956,10 +956,10 @@
     "SG": 3,
     "AE": 2,
     "AU": 2,
+    "CL": 2,
     "TH": 2,
     "ZA": 2,
     "BH": 1,
-    "CL": 1,
     "CO": 1,
     "EG": 1,
     "ES": 1,
