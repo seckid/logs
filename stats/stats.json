@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T10:02:52.294851Z",
+  "generated_at": "2026-09-15T11:03:43.254810Z",
   "period_days": 90,
-  "total_events": 22098,
-  "unique_ips": 528,
+  "total_events": 22343,
+  "unique_ips": 532,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 173,
-    "bigippot:honeypot-01": 7913,
-    "sshppot:honeypot-01": 859,
-    "front:honeypot-01": 12919
+    "bigippot:honeypot-01": 7914,
+    "sshppot:honeypot-01": 870,
+    "front:honeypot-01": 13152
   },
   "events_per_day": {
     "2026-08-28": {
@@ -123,19 +123,19 @@
       "total": 1346
     },
     "2026-09-15": {
-      "bigippot:honeypot-01": 43,
-      "front:honeypot-01": 539,
+      "bigippot:honeypot-01": 44,
+      "front:honeypot-01": 772,
       "fortipot:honeypot-01": 25,
-      "sshppot:honeypot-01": 164,
+      "sshppot:honeypot-01": 175,
       "ivantipot:honeypot-01": 24,
-      "total": 795
+      "total": 1040
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 94
+      "count": 95
     },
     {
       "username": "ops",
@@ -145,7 +145,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 23
+      "count": 24
     },
     {
       "username": "admin",
@@ -228,6 +228,11 @@
       "count": 8
     },
     {
+      "username": "user",
+      "password": "password",
+      "count": 8
+    },
+    {
       "username": "telecomadmin",
       "password": "admintelecom",
       "count": 8
@@ -245,11 +250,6 @@
     {
       "username": "admin",
       "password": "Admin@123",
-      "count": 7
-    },
-    {
-      "username": "user",
-      "password": "password",
       "count": 7
     },
     {
@@ -308,6 +308,11 @@
       "count": 4
     },
     {
+      "username": "admin",
+      "password": "admin1",
+      "count": 4
+    },
+    {
       "username": "root",
       "password": "Admin123",
       "count": 4
@@ -330,11 +335,6 @@
     {
       "username": "sshadmin",
       "password": "sshadmin",
-      "count": 3
-    },
-    {
-      "username": "admin",
-      "password": "admin1",
       "count": 3
     },
     {
@@ -386,15 +386,15 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 141
+      "count": 142
     },
     {
       "username": "support",
-      "count": 99
+      "count": 100
     },
     {
       "username": "admin",
-      "count": 84
+      "count": 85
     },
     {
       "username": "ops",
@@ -402,7 +402,7 @@
     },
     {
       "username": "user",
-      "count": 29
+      "count": 30
     },
     {
       "username": "test",
@@ -456,11 +456,11 @@
   "top_passwords": [
     {
       "password": "(empty)",
-      "count": 101
+      "count": 102
     },
     {
       "password": "support",
-      "count": 94
+      "count": 95
     },
     {
       "password": "admin",
@@ -468,7 +468,7 @@
     },
     {
       "password": "password",
-      "count": 27
+      "count": 28
     },
     {
       "password": "12345678",
@@ -541,12 +541,12 @@
       "count": 2512
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 2116
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 2271
     },
     {
-      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 2101
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 2116
     },
     {
       "user_agent": "libredtail-http",
@@ -558,14 +558,14 @@
     }
   ],
   "method_counts": {
-    "GET": 18454,
-    "POST": 2287,
-    "SSH": 858,
+    "GET": 18671,
+    "POST": 2301,
+    "SSH": 869,
     "HEAD": 40,
     "PRI": 16,
     "PROPFIND": 14,
+    "OPTIONS": 9,
     "HEARTBEAT": 8,
-    "OPTIONS": 7,
     "DELETE": 6,
     "SSTP_DUPLEX_POST": 5,
     "CONNECT": 3,
@@ -580,12 +580,12 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 840
+      "count": 851
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 815
+      "count": 826
     },
     {
       "path": "/",
@@ -598,6 +598,11 @@
       "count": 242
     },
     {
+      "path": "/.env",
+      "source": "front:honeypot-01",
+      "count": 104
+    },
+    {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
       "count": 102
@@ -608,24 +613,19 @@
       "count": 101
     },
     {
-      "path": "/.env",
-      "source": "front:honeypot-01",
-      "count": 101
-    },
-    {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
       "count": 98
     },
     {
-      "path": "/robots.txt",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 92
     },
     {
-      "path": "/.git/config",
+      "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 89
+      "count": 92
     },
     {
       "path": "/favicon.ico",
@@ -648,12 +648,12 @@
       "count": 68
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -673,9 +673,9 @@
       "count": 43
     },
     {
-      "path": "/",
-      "source": "fortipot:honeypot-01",
-      "count": 41
+      "path": "/.env.production",
+      "source": "front:honeypot-01",
+      "count": 42
     }
   ],
   "cve_attempts": [
@@ -743,6 +743,23 @@
       "sample_paths": []
     },
     {
+      "cve": "CVE-2026-41940",
+      "count": 2,
+      "sources": [
+        "front:honeypot-01"
+      ],
+      "description": "Critical authentication bypass in cPanel & WHM (and WP Squared) allowing unauthenticated remote attackers to obtain root-level administrative access via session poisoning in the login flow (CWE-306). Internet scanners probe /___proxy_subdomain_whm/login/?login_only=1 and related WHM management ports. Patch to fixed cPanel builds immediately.",
+      "severity": "Critical",
+      "cvss_score": 9.8,
+      "sample_ips": [
+        "206.81.24.74",
+        "209.38.208.202"
+      ],
+      "sample_paths": [
+        "/___proxy_subdomain_whm/login"
+      ]
+    },
+    {
       "cve": "CVE-2022-1388",
       "count": 2,
       "sources": [
@@ -761,15 +778,15 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1177
+    "Critical": 1179
   },
   "top_asns": [
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "PL",
-      "ip_count": 22,
-      "event_count": 2071
+      "country": "US",
+      "ip_count": 23,
+      "event_count": 2241
     },
     {
       "asn": "AS399979",
@@ -782,8 +799,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "DE",
-      "ip_count": 23,
-      "event_count": 276
+      "ip_count": 25,
+      "event_count": 338
     },
     {
       "asn": "AS202412",
@@ -825,7 +842,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 80
+      "event_count": 81
     },
     {
       "asn": "AS45102",
@@ -863,18 +880,18 @@
       "event_count": 62
     },
     {
+      "asn": "AS197170",
+      "name": "TechTies Inc.",
+      "country": "DE",
+      "ip_count": 4,
+      "event_count": 59
+    },
+    {
       "asn": "AS31898",
       "name": "Oracle Corporation",
       "country": "JP",
       "ip_count": 3,
       "event_count": 57
-    },
-    {
-      "asn": "AS197170",
-      "name": "TechTies Inc.",
-      "country": "DE",
-      "ip_count": 4,
-      "event_count": 53
     },
     {
       "asn": "AS153622",
@@ -906,15 +923,15 @@
     }
   ],
   "events_by_country": {
-    "PL": 2155,
-    "DE": 1083,
-    "US": 507,
-    "NL": 337,
+    "US": 2749,
+    "DE": 1151,
+    "NL": 340,
     "KZ": 138,
     "BG": 112,
     "FR": 102,
     "HK": 90,
     "CN": 85,
+    "PL": 85,
     "IN": 61,
     "JP": 58,
     "FI": 50,
@@ -924,7 +941,7 @@
     "GB": 41,
     "BR": 34,
     "VN": 34,
-    "RO": 22,
+    "RO": 23,
     "RU": 21,
     "PK": 14,
     "MA": 10,
@@ -935,10 +952,10 @@
     "TR": 4,
     "TW": 4,
     "BD": 3,
+    "SG": 3,
     "AE": 2,
     "AU": 2,
     "ID": 2,
-    "SG": 2,
     "ZA": 2,
     "BH": 1,
     "CL": 1,
