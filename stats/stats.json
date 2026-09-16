@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T14:03:11.129806Z",
+  "generated_at": "2026-09-16T15:00:37.373309Z",
   "period_days": 90,
-  "total_events": 24376,
-  "unique_ips": 729,
+  "total_events": 24430,
+  "unique_ips": 731,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -19,7 +19,7 @@
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 285,
-    "bigippot:honeypot-01": 8547,
+    "bigippot:honeypot-01": 8601,
     "sshppot:honeypot-01": 1084,
     "front:honeypot-01": 14160
   },
@@ -137,10 +137,10 @@
       "sshppot:honeypot-01": 98,
       "fortipot:honeypot-01": 88,
       "front:honeypot-01": 440,
-      "bigippot:honeypot-01": 342,
+      "bigippot:honeypot-01": 396,
       "panospot:honeypot-01": 9,
       "sharepointpot:honeypot-01": 7,
-      "total": 1033
+      "total": 1087
     }
   },
   "top_credentials": [
@@ -546,7 +546,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 2653
+      "count": 2655
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -562,12 +562,12 @@
     },
     {
       "user_agent": "libredtail-http",
-      "count": 1473
+      "count": 1522
     }
   ],
   "method_counts": {
-    "GET": 20320,
-    "POST": 2374,
+    "GET": 20366,
+    "POST": 2381,
     "SSH": 1083,
     "HEAD": 44,
     "PRI": 18,
@@ -598,12 +598,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 548
+      "count": 550
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 275
+      "count": 277
     },
     {
       "path": "/favicon.ico",
@@ -681,15 +681,15 @@
       "count": 47
     },
     {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
+      "path": "/.env.local",
+      "source": "front:honeypot-01",
       "count": 46
     }
   ],
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 1073,
+      "count": 1110,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -704,7 +704,7 @@
         "31.76.98.105",
         "43.110.38.5",
         "45.127.73.6",
-        "87.192.253.110"
+        "84.235.240.157"
       ],
       "sample_paths": [
         "/phpunit/Util/PHP/eval-stdin.php",
@@ -716,7 +716,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 231,
+      "count": 241,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -790,7 +790,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1316
+    "Critical": 1363
   },
   "top_asns": [
     {
@@ -839,8 +839,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 41,
-      "event_count": 144
+      "ip_count": 42,
+      "event_count": 145
     },
     {
       "asn": "AS45102",
@@ -885,6 +885,13 @@
       "event_count": 106
     },
     {
+      "asn": "AS31898",
+      "name": "Oracle Corporation",
+      "country": "AE",
+      "ip_count": 4,
+      "event_count": 106
+    },
+    {
       "asn": "AS154383",
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
@@ -920,13 +927,6 @@
       "event_count": 67
     },
     {
-      "asn": "AS31898",
-      "name": "Oracle Corporation",
-      "country": "JP",
-      "ip_count": 3,
-      "event_count": 57
-    },
-    {
       "asn": "AS4766",
       "name": "Korea Telecom",
       "country": "KR",
@@ -935,20 +935,20 @@
     }
   ],
   "events_by_country": {
-    "US": 3423,
+    "US": 3424,
+    "NL": 834,
     "DE": 827,
-    "NL": 822,
     "BG": 277,
     "FR": 146,
     "KZ": 138,
     "LT": 138,
     "CN": 119,
+    "AE": 108,
     "PL": 107,
     "IL": 85,
     "SI": 72,
     "CA": 70,
     "IN": 64,
-    "JP": 58,
     "KR": 58,
     "RO": 53,
     "ID": 51,
@@ -962,14 +962,12 @@
     "HK": 20,
     "MA": 11,
     "SE": 10,
-    "TR": 9,
     "NO": 8,
     "CH": 6,
     "SG": 6,
     "VE": 5,
     "BD": 4,
     "TW": 4,
-    "AE": 2,
     "AU": 2,
     "CL": 2,
     "TH": 2,
@@ -984,8 +982,10 @@
     "GA": 1,
     "IR": 1,
     "IT": 1,
+    "JP": 1,
     "LV": 1,
     "PH": 1,
+    "TR": 1,
     "ZW": 1
   }
 }
