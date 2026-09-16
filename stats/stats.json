@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T15:00:37.373309Z",
+  "generated_at": "2026-09-16T16:03:46.092158Z",
   "period_days": 90,
-  "total_events": 24430,
-  "unique_ips": 731,
+  "total_events": 24477,
+  "unique_ips": 737,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,14 +14,14 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "panospot:honeypot-01": 9,
+    "panospot:honeypot-01": 18,
     "ivantipot:honeypot-01": 53,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 285,
-    "bigippot:honeypot-01": 8601,
+    "bigippot:honeypot-01": 8634,
     "sshppot:honeypot-01": 1084,
-    "front:honeypot-01": 14160
+    "front:honeypot-01": 14165
   },
   "events_per_day": {
     "2026-08-28": {
@@ -136,11 +136,11 @@
       "centrestackpot:honeypot-01": 49,
       "sshppot:honeypot-01": 98,
       "fortipot:honeypot-01": 88,
-      "front:honeypot-01": 440,
-      "bigippot:honeypot-01": 396,
-      "panospot:honeypot-01": 9,
+      "front:honeypot-01": 445,
+      "bigippot:honeypot-01": 429,
+      "panospot:honeypot-01": 18,
       "sharepointpot:honeypot-01": 7,
-      "total": 1087
+      "total": 1134
     }
   },
   "top_credentials": [
@@ -562,15 +562,15 @@
     },
     {
       "user_agent": "libredtail-http",
-      "count": 1522
+      "count": 1552
     }
   ],
   "method_counts": {
-    "GET": 20366,
-    "POST": 2381,
+    "GET": 20401,
+    "POST": 2388,
     "SSH": 1083,
     "HEAD": 44,
-    "PRI": 18,
+    "PRI": 19,
     "PROPFIND": 15,
     "OPTIONS": 9,
     "HEARTBEAT": 8,
@@ -593,7 +593,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 914
+      "count": 915
     },
     {
       "path": "/",
@@ -616,14 +616,14 @@
       "count": 110
     },
     {
-      "path": "/.git/config",
+      "path": "/robots.txt",
       "source": "front:honeypot-01",
       "count": 104
     },
     {
-      "path": "/robots.txt",
+      "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 103
+      "count": 104
     },
     {
       "path": "/remote/login",
@@ -631,14 +631,14 @@
       "count": 101
     },
     {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
+      "path": "/favicon.ico",
+      "source": "front:honeypot-01",
       "count": 98
     },
     {
-      "path": "/favicon.ico",
-      "source": "front:honeypot-01",
-      "count": 97
+      "path": "/remote/logincheck",
+      "source": "bigippot:honeypot-01",
+      "count": 98
     },
     {
       "path": "/style.css",
@@ -661,12 +661,12 @@
       "count": 60
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -689,7 +689,7 @@
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 1110,
+      "count": 1133,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -704,7 +704,7 @@
         "31.76.98.105",
         "43.110.38.5",
         "45.127.73.6",
-        "84.235.240.157"
+        "47.237.172.159"
       ],
       "sample_paths": [
         "/phpunit/Util/PHP/eval-stdin.php",
@@ -716,7 +716,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 241,
+      "count": 251,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -790,7 +790,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1363
+    "Critical": 1396
   },
   "top_asns": [
     {
@@ -836,18 +836,18 @@
       "event_count": 182
     },
     {
+      "asn": "AS45102",
+      "name": "Alibaba (US) Technology Co., Ltd.",
+      "country": "SG",
+      "ip_count": 19,
+      "event_count": 168
+    },
+    {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 42,
-      "event_count": 145
-    },
-    {
-      "asn": "AS45102",
-      "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "US",
-      "ip_count": 18,
-      "event_count": 138
+      "ip_count": 44,
+      "event_count": 151
     },
     {
       "asn": "AS197556",
@@ -923,8 +923,8 @@
       "asn": "AS209334",
       "name": "Modat B.V.",
       "country": "CA",
-      "ip_count": 9,
-      "event_count": 67
+      "ip_count": 10,
+      "event_count": 68
     },
     {
       "asn": "AS4766",
@@ -935,10 +935,11 @@
     }
   ],
   "events_by_country": {
-    "US": 3424,
+    "US": 3294,
+    "DE": 835,
     "NL": 834,
-    "DE": 827,
     "BG": 277,
+    "SG": 174,
     "FR": 146,
     "KZ": 138,
     "LT": 138,
@@ -947,7 +948,7 @@
     "PL": 107,
     "IL": 85,
     "SI": 72,
-    "CA": 70,
+    "CA": 71,
     "IN": 64,
     "KR": 58,
     "RO": 53,
@@ -964,7 +965,6 @@
     "SE": 10,
     "NO": 8,
     "CH": 6,
-    "SG": 6,
     "VE": 5,
     "BD": 4,
     "TW": 4,
