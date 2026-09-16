@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T07:00:48.310465Z",
+  "generated_at": "2026-09-16T08:00:51.654531Z",
   "period_days": 90,
-  "total_events": 23882,
-  "unique_ips": 685,
+  "total_events": 23917,
+  "unique_ips": 689,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,9 +17,9 @@
     "centrestackpot:honeypot-01": 166,
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 217,
-    "bigippot:honeypot-01": 8244,
-    "sshppot:honeypot-01": 1067,
-    "front:honeypot-01": 14119
+    "bigippot:honeypot-01": 8273,
+    "sshppot:honeypot-01": 1070,
+    "front:honeypot-01": 14122
   },
   "events_per_day": {
     "2026-08-28": {
@@ -132,17 +132,17 @@
     },
     "2026-09-16": {
       "fortipot:honeypot-01": 20,
-      "sshppot:honeypot-01": 81,
-      "front:honeypot-01": 399,
-      "bigippot:honeypot-01": 39,
-      "total": 539
+      "sshppot:honeypot-01": 84,
+      "front:honeypot-01": 402,
+      "bigippot:honeypot-01": 68,
+      "total": 574
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 115
+      "count": 116
     },
     {
       "username": "ops",
@@ -397,7 +397,7 @@
     },
     {
       "username": "support",
-      "count": 120
+      "count": 121
     },
     {
       "username": "admin",
@@ -459,7 +459,7 @@
     },
     {
       "password": "support",
-      "count": 115
+      "count": 116
     },
     {
       "password": "admin",
@@ -557,9 +557,9 @@
     }
   ],
   "method_counts": {
-    "GET": 19907,
+    "GET": 19918,
     "POST": 2348,
-    "SSH": 1066,
+    "SSH": 1069,
     "HEAD": 44,
     "PRI": 17,
     "PROPFIND": 15,
@@ -579,22 +579,22 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 1021
+      "count": 1024
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 902
+      "count": 903
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 525
+      "count": 528
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 263
+      "count": 266
     },
     {
       "path": "/.env",
@@ -604,7 +604,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 106
+      "count": 108
     },
     {
       "path": "/.git/config",
@@ -634,7 +634,7 @@
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 83
+      "count": 84
     },
     {
       "path": "/logo.svg",
@@ -851,7 +851,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 97
+      "event_count": 98
     },
     {
       "asn": "AS8075",
@@ -879,7 +879,7 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 31,
-      "event_count": 81
+      "event_count": 82
     },
     {
       "asn": "AS197170",
@@ -889,11 +889,18 @@
       "event_count": 77
     },
     {
+      "asn": "AS209334",
+      "name": "Modat B.V.",
+      "country": "CA",
+      "ip_count": 9,
+      "event_count": 67
+    },
+    {
       "asn": "AS197769",
       "name": "VPS Dedicated LLC",
       "country": "SI",
       "ip_count": 9,
-      "event_count": 65
+      "event_count": 67
     },
     {
       "asn": "AS31898",
@@ -910,13 +917,6 @@
       "event_count": 53
     },
     {
-      "asn": "AS209334",
-      "name": "Modat B.V.",
-      "country": "CA",
-      "ip_count": 7,
-      "event_count": 51
-    },
-    {
       "asn": "AS153622",
       "name": "Madina IT",
       "country": "FI",
@@ -926,19 +926,19 @@
   ],
   "events_by_country": {
     "AU": 2588,
-    "US": 1108,
-    "DE": 834,
+    "US": 1111,
+    "DE": 814,
     "NL": 472,
     "FR": 159,
     "KZ": 138,
-    "BG": 112,
-    "PL": 101,
+    "BG": 115,
+    "PL": 102,
+    "CA": 100,
     "CN": 93,
-    "SI": 65,
+    "SI": 67,
     "IN": 64,
     "JP": 58,
     "KR": 58,
-    "CA": 54,
     "RO": 52,
     "ID": 51,
     "FI": 50,
