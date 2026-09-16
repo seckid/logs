@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T21:01:35.646879Z",
+  "generated_at": "2026-09-16T22:05:11.289634Z",
   "period_days": 90,
-  "total_events": 26214,
-  "unique_ips": 831,
+  "total_events": 26764,
+  "unique_ips": 841,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,9 +18,9 @@
     "ivantipot:honeypot-01": 53,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 1274,
-    "bigippot:honeypot-01": 8673,
-    "sshppot:honeypot-01": 1189,
+    "fortipot:honeypot-01": 1807,
+    "bigippot:honeypot-01": 8677,
+    "sshppot:honeypot-01": 1202,
     "front:honeypot-01": 14759
   },
   "events_per_day": {
@@ -134,20 +134,20 @@
     },
     "2026-09-16": {
       "centrestackpot:honeypot-01": 49,
-      "sshppot:honeypot-01": 203,
-      "fortipot:honeypot-01": 1077,
+      "sshppot:honeypot-01": 216,
+      "fortipot:honeypot-01": 1610,
       "front:honeypot-01": 1039,
-      "bigippot:honeypot-01": 468,
+      "bigippot:honeypot-01": 472,
       "panospot:honeypot-01": 28,
       "sharepointpot:honeypot-01": 7,
-      "total": 2871
+      "total": 3421
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 129
+      "count": 130
     },
     {
       "username": "ops",
@@ -402,7 +402,7 @@
     },
     {
       "username": "support",
-      "count": 134
+      "count": 135
     },
     {
       "username": "admin",
@@ -476,7 +476,7 @@
     },
     {
       "password": "support",
-      "count": 129
+      "count": 130
     },
     {
       "password": "admin",
@@ -565,21 +565,21 @@
       "count": 2272
     },
     {
-      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 1637
+      "user_agent": "Mozilla/5.0",
+      "count": 1651
     },
     {
-      "user_agent": "libredtail-http",
-      "count": 1552
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "count": 1637
     }
   ],
   "method_counts": {
-    "GET": 21009,
-    "POST": 3385,
-    "SSH": 1188,
+    "GET": 21011,
+    "POST": 3918,
+    "SSH": 1201,
     "HEAD": 47,
     "PRI": 19,
-    "PROPFIND": 15,
+    "PROPFIND": 17,
     "OPTIONS": 9,
     "HEARTBEAT": 8,
     "DELETE": 6,
@@ -594,14 +594,14 @@
   },
   "top_paths": [
     {
-      "path": "/",
-      "source": "sshppot:honeypot-01",
-      "count": 1141
-    },
-    {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 1022
+      "count": 1555
+    },
+    {
+      "path": "/",
+      "source": "sshppot:honeypot-01",
+      "count": 1154
     },
     {
       "path": "/",
@@ -611,7 +611,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 559
+      "count": 563
     },
     {
       "path": "/tmui/login.jsp",
@@ -809,25 +809,25 @@
       "event_count": 3145
     },
     {
-      "asn": "AS399979",
-      "name": "49.3 Networking LLC",
-      "country": "DE",
-      "ip_count": 2,
-      "event_count": 490
-    },
-    {
       "asn": "AS211486",
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "NL",
       "ip_count": 6,
-      "event_count": 458
+      "event_count": 702
     },
     {
       "asn": "AS210328",
       "name": "AO ALMAZ",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 380
+      "event_count": 585
+    },
+    {
+      "asn": "AS399979",
+      "name": "49.3 Networking LLC",
+      "country": "DE",
+      "ip_count": 2,
+      "event_count": 490
     },
     {
       "asn": "AS14061",
@@ -851,6 +851,13 @@
       "event_count": 249
     },
     {
+      "asn": "AS44589",
+      "name": "DIGITAL NETWORK S.R.L.",
+      "country": "NL",
+      "ip_count": 2,
+      "event_count": 239
+    },
+    {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
       "country": "SG",
@@ -865,13 +872,6 @@
       "event_count": 182
     },
     {
-      "asn": "AS44589",
-      "name": "DIGITAL NETWORK S.R.L.",
-      "country": "NL",
-      "ip_count": 2,
-      "event_count": 155
-    },
-    {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
@@ -879,18 +879,18 @@
       "event_count": 154
     },
     {
+      "asn": "AS213790",
+      "name": "Limited Network LTD",
+      "country": "LT",
+      "ip_count": 3,
+      "event_count": 141
+    },
+    {
       "asn": "AS12876",
       "name": "Scaleway SAS",
       "country": "PL",
       "ip_count": 12,
       "event_count": 139
-    },
-    {
-      "asn": "AS213790",
-      "name": "Limited Network LTD",
-      "country": "LT",
-      "ip_count": 2,
-      "event_count": 138
     },
     {
       "asn": "AS197556",
@@ -914,17 +914,17 @@
       "event_count": 121
     },
     {
-      "asn": "AS31898",
-      "name": "Oracle Corporation",
-      "country": "BR",
-      "ip_count": 4,
-      "event_count": 108
-    },
-    {
       "asn": "AS154383",
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
+      "event_count": 109
+    },
+    {
+      "asn": "AS31898",
+      "name": "Oracle Corporation",
+      "country": "BR",
+      "ip_count": 4,
       "event_count": 108
     },
     {
@@ -943,32 +943,32 @@
     }
   ],
   "events_by_country": {
-    "NL": 4263,
-    "DE": 1546,
-    "US": 774,
+    "NL": 4796,
+    "DE": 1550,
+    "US": 775,
     "BG": 277,
-    "PL": 251,
+    "PL": 252,
     "SG": 190,
-    "BR": 156,
-    "LT": 139,
-    "KZ": 138,
+    "BR": 157,
+    "LT": 142,
+    "KZ": 139,
     "CN": 126,
     "CA": 100,
+    "KR": 72,
     "SI": 72,
-    "KR": 70,
     "IN": 65,
     "ID": 55,
     "RO": 53,
     "FI": 50,
     "GB": 50,
     "UZ": 49,
-    "VN": 44,
+    "VN": 45,
     "FR": 41,
     "JP": 40,
     "PK": 38,
     "RU": 34,
-    "HK": 20,
-    "MA": 19,
+    "HK": 21,
+    "MA": 21,
     "SE": 13,
     "NO": 10,
     "VE": 7,
