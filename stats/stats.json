@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T01:03:58.952396Z",
+  "generated_at": "2026-09-16T02:02:58.962191Z",
   "period_days": 90,
-  "total_events": 23361,
-  "unique_ips": 633,
+  "total_events": 23371,
+  "unique_ips": 634,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,8 +18,8 @@
     "sharepointpot:honeypot-01": 16,
     "fortipot:honeypot-01": 197,
     "bigippot:honeypot-01": 8205,
-    "sshppot:honeypot-01": 1000,
-    "front:honeypot-01": 13724
+    "sshppot:honeypot-01": 1001,
+    "front:honeypot-01": 13733
   },
   "events_per_day": {
     "2026-08-28": {
@@ -131,9 +131,9 @@
       "total": 2040
     },
     "2026-09-16": {
-      "sshppot:honeypot-01": 14,
-      "front:honeypot-01": 4,
-      "total": 18
+      "sshppot:honeypot-01": 15,
+      "front:honeypot-01": 13,
+      "total": 28
     }
   },
   "top_credentials": [
@@ -178,6 +178,11 @@
       "count": 16
     },
     {
+      "username": "root",
+      "password": "abcd1234",
+      "count": 15
+    },
+    {
       "username": "test",
       "password": "test",
       "count": 15
@@ -190,11 +195,6 @@
     {
       "username": "admin",
       "password": "admin123",
-      "count": 14
-    },
-    {
-      "username": "root",
-      "password": "abcd1234",
       "count": 14
     },
     {
@@ -391,7 +391,7 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 174
+      "count": 175
     },
     {
       "username": "support",
@@ -492,12 +492,12 @@
       "count": 17
     },
     {
-      "password": "test",
+      "password": "abcd1234",
       "count": 15
     },
     {
-      "password": "abcd1234",
-      "count": 14
+      "password": "test",
+      "count": 15
     },
     {
       "password": "guest",
@@ -539,7 +539,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 2639
+      "count": 2645
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -559,9 +559,9 @@
     }
   ],
   "method_counts": {
-    "GET": 19482,
+    "GET": 19491,
     "POST": 2337,
-    "SSH": 999,
+    "SSH": 1000,
     "HEAD": 43,
     "PRI": 16,
     "PROPFIND": 15,
@@ -581,12 +581,12 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 955
+      "count": 956
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 882
+      "count": 884
     },
     {
       "path": "/",
@@ -614,14 +614,14 @@
       "count": 101
     },
     {
+      "path": "/robots.txt",
+      "source": "front:honeypot-01",
+      "count": 99
+    },
+    {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
       "count": 98
-    },
-    {
-      "path": "/robots.txt",
-      "source": "front:honeypot-01",
-      "count": 97
     },
     {
       "path": "/.git/config",
@@ -674,8 +674,8 @@
       "count": 45
     },
     {
-      "path": "/.env.local",
-      "source": "front:honeypot-01",
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
       "count": 44
     }
   ],
@@ -873,7 +873,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "ip_count": 35,
-      "event_count": 77
+      "event_count": 83
     },
     {
       "asn": "AS197170",
@@ -926,7 +926,7 @@
     }
   ],
   "events_by_country": {
-    "US": 3280,
+    "US": 3286,
     "DE": 834,
     "NL": 468,
     "FR": 148,
@@ -941,7 +941,7 @@
     "ID": 51,
     "FI": 50,
     "UZ": 49,
-    "RO": 43,
+    "RO": 47,
     "GB": 41,
     "SI": 39,
     "BR": 38,
