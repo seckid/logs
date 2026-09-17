@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T22:02:17.342402Z",
+  "generated_at": "2026-09-17T23:00:57.369638Z",
   "period_days": 90,
-  "total_events": 39116,
-  "unique_ips": 1021,
+  "total_events": 39585,
+  "unique_ips": 1023,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,9 +18,9 @@
     "ivantipot:honeypot-01": 114,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 13359,
-    "bigippot:honeypot-01": 9018,
-    "sshppot:honeypot-01": 1345,
+    "fortipot:honeypot-01": 13808,
+    "bigippot:honeypot-01": 9025,
+    "sshppot:honeypot-01": 1358,
     "front:honeypot-01": 14934
   },
   "events_per_day": {
@@ -144,24 +144,24 @@
     },
     "2026-09-17": {
       "front:honeypot-01": 169,
-      "bigippot:honeypot-01": 340,
-      "fortipot:honeypot-01": 10588,
-      "sshppot:honeypot-01": 141,
+      "bigippot:honeypot-01": 347,
+      "fortipot:honeypot-01": 11037,
+      "sshppot:honeypot-01": 154,
       "panospot:honeypot-01": 70,
       "ivantipot:honeypot-01": 61,
-      "total": 11369
+      "total": 11838
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 154
+      "count": 155
     },
     {
       "username": "root",
       "password": "(empty)",
-      "count": 52
+      "count": 53
     },
     {
       "username": "ops",
@@ -271,7 +271,7 @@
     {
       "username": "root",
       "password": "------fuck------",
-      "count": 13
+      "count": 14
     },
     {
       "username": "TESTCREDS",
@@ -286,16 +286,26 @@
     {
       "username": "root",
       "password": "Test@2022",
-      "count": 10
+      "count": 11
     },
     {
       "username": "root",
       "password": "Li123456.",
-      "count": 10
+      "count": 11
     },
     {
       "username": "AdminGPON",
       "password": "(empty)",
+      "count": 9
+    },
+    {
+      "username": "root",
+      "password": "team2",
+      "count": 9
+    },
+    {
+      "username": "root",
+      "password": "aDm8H%MdA",
       "count": 9
     },
     {
@@ -304,18 +314,18 @@
       "count": 8
     },
     {
-      "username": "root",
-      "password": "team2",
-      "count": 8
-    },
-    {
-      "username": "root",
-      "password": "aDm8H%MdA",
-      "count": 8
-    },
-    {
       "username": "debian",
       "password": "temppwd",
+      "count": 7
+    },
+    {
+      "username": "root",
+      "password": "Admin123",
+      "count": 7
+    },
+    {
+      "username": "root",
+      "password": "1qazcde3!@#",
       "count": 7
     },
     {
@@ -340,7 +350,7 @@
     },
     {
       "username": "root",
-      "password": "1qazcde3!@#",
+      "password": "Tencent@123",
       "count": 6
     },
     {
@@ -360,12 +370,7 @@
     },
     {
       "username": "root",
-      "password": "Admin123",
-      "count": 5
-    },
-    {
-      "username": "root",
-      "password": "Tencent@123",
+      "password": "rootroot",
       "count": 5
     },
     {
@@ -381,11 +386,6 @@
     {
       "username": "admin",
       "password": "12345678",
-      "count": 4
-    },
-    {
-      "username": "root",
-      "password": "rootroot",
       "count": 4
     },
     {
@@ -407,11 +407,11 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 259
+      "count": 270
     },
     {
       "username": "support",
-      "count": 159
+      "count": 160
     },
     {
       "username": "admin",
@@ -473,11 +473,11 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 154
+      "count": 155
     },
     {
       "password": "(empty)",
-      "count": 145
+      "count": 146
     },
     {
       "password": "admin",
@@ -549,13 +549,13 @@
     },
     {
       "password": "------fuck------",
-      "count": 13
+      "count": 14
     }
   ],
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 13173
+      "count": 13621
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -575,9 +575,9 @@
     }
   ],
   "method_counts": {
-    "GET": 21584,
-    "POST": 15463,
-    "SSH": 1344,
+    "GET": 21590,
+    "POST": 15912,
+    "SSH": 1357,
     "HEAD": 51,
     "PRI": 24,
     "PROPFIND": 19,
@@ -597,12 +597,12 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 13074
+      "count": 13523
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 1296
+      "count": 1308
     },
     {
       "path": "/",
@@ -612,7 +612,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 614
+      "count": 618
     },
     {
       "path": "/tmui/login.jsp",
@@ -622,7 +622,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 125
+      "count": 126
     },
     {
       "path": "/.env",
@@ -672,7 +672,7 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 67
+      "count": 68
     },
     {
       "path": "/blog/wp-json/batch/v1",
@@ -809,28 +809,28 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "NL",
       "ip_count": 6,
-      "event_count": 5907
+      "event_count": 6108
     },
     {
       "asn": "AS210328",
       "name": "AO ALMAZ",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 5065
+      "event_count": 5241
     },
     {
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "BE",
-      "ip_count": 44,
-      "event_count": 3155
+      "ip_count": 45,
+      "event_count": 3156
     },
     {
       "asn": "AS44589",
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "ip_count": 2,
-      "event_count": 2073
+      "event_count": 2145
     },
     {
       "asn": "AS399979",
@@ -843,8 +843,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 43,
-      "event_count": 465
+      "ip_count": 44,
+      "event_count": 468
     },
     {
       "asn": "AS202412",
@@ -921,7 +921,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 129
+      "event_count": 130
     },
     {
       "asn": "AS209334",
@@ -946,15 +946,15 @@
     }
   ],
   "events_by_country": {
-    "NL": 13178,
-    "BE": 3155,
-    "DE": 1329,
-    "US": 1293,
-    "PL": 296,
+    "NL": 13627,
+    "BE": 3156,
+    "DE": 1330,
+    "US": 1300,
+    "PL": 297,
     "BG": 295,
     "CA": 282,
+    "CN": 168,
     "BR": 164,
-    "CN": 156,
     "LT": 149,
     "TH": 146,
     "KZ": 139,
