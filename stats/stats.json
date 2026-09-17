@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T14:01:47.020960Z",
+  "generated_at": "2026-09-17T15:00:11.813214Z",
   "period_days": 90,
-  "total_events": 35228,
-  "unique_ips": 974,
+  "total_events": 35699,
+  "unique_ips": 979,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,8 +18,8 @@
     "ivantipot:honeypot-01": 112,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 9635,
-    "bigippot:honeypot-01": 8969,
+    "fortipot:honeypot-01": 10094,
+    "bigippot:honeypot-01": 8980,
     "sshppot:honeypot-01": 1289,
     "front:honeypot-01": 14895
   },
@@ -144,12 +144,12 @@
     },
     "2026-09-17": {
       "front:honeypot-01": 130,
-      "bigippot:honeypot-01": 291,
-      "fortipot:honeypot-01": 6864,
+      "bigippot:honeypot-01": 302,
+      "fortipot:honeypot-01": 7323,
       "sshppot:honeypot-01": 85,
       "panospot:honeypot-01": 52,
       "ivantipot:honeypot-01": 59,
-      "total": 7481
+      "total": 7951
     }
   },
   "top_credentials": [
@@ -559,7 +559,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 9462
+      "count": 9922
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -579,11 +579,11 @@
     }
   ],
   "method_counts": {
-    "GET": 21492,
-    "POST": 11750,
+    "GET": 21499,
+    "POST": 12211,
     "SSH": 1288,
     "HEAD": 50,
-    "PRI": 21,
+    "PRI": 22,
     "PROPFIND": 19,
     "OPTIONS": 11,
     "HEARTBEAT": 8,
@@ -601,7 +601,7 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 9364
+      "count": 9824
     },
     {
       "path": "/",
@@ -616,17 +616,17 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 596
+      "count": 601
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 299
+      "count": 300
     },
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 122
+      "count": 123
     },
     {
       "path": "/.env",
@@ -679,22 +679,22 @@
       "count": 62
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 56
-    },
-    {
       "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
-      "path": "/.env.production",
+      "path": "/wordpress/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 56
+    },
+    {
+      "path": "/?rest_route=/batch/v1",
       "source": "front:honeypot-01",
       "count": 49
     },
     {
-      "path": "/?rest_route=/batch/v1",
+      "path": "/.env.production",
       "source": "front:honeypot-01",
       "count": 49
     }
@@ -813,28 +813,28 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "NL",
       "ip_count": 6,
-      "event_count": 4240
+      "event_count": 4448
     },
     {
       "asn": "AS210328",
       "name": "AO ALMAZ",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 3616
+      "event_count": 3795
     },
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
-      "ip_count": 40,
-      "event_count": 3150
+      "country": "DE",
+      "ip_count": 42,
+      "event_count": 3152
     },
     {
       "asn": "AS44589",
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "ip_count": 2,
-      "event_count": 1479
+      "event_count": 1552
     },
     {
       "asn": "AS399979",
@@ -886,17 +886,17 @@
       "event_count": 169
     },
     {
+      "asn": "AS12876",
+      "name": "Scaleway SAS",
+      "country": "PL",
+      "ip_count": 15,
+      "event_count": 163
+    },
+    {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
       "ip_count": 53,
-      "event_count": 162
-    },
-    {
-      "asn": "AS12876",
-      "name": "Scaleway SAS",
-      "country": "FR",
-      "ip_count": 14,
       "event_count": 162
     },
     {
@@ -950,17 +950,16 @@
     }
   ],
   "events_by_country": {
-    "NL": 9455,
-    "US": 4475,
-    "DE": 1417,
+    "NL": 9915,
+    "DE": 4569,
+    "US": 1331,
     "BG": 294,
-    "FR": 204,
+    "PL": 290,
     "BR": 164,
     "CN": 156,
     "TH": 146,
     "LT": 145,
     "KZ": 139,
-    "PL": 127,
     "CA": 100,
     "GB": 97,
     "PK": 97,
@@ -972,6 +971,7 @@
     "FI": 52,
     "UZ": 49,
     "VN": 48,
+    "FR": 42,
     "RU": 38,
     "MA": 23,
     "HK": 22,
