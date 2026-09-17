@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T18:01:12.026323Z",
+  "generated_at": "2026-09-17T19:01:12.249975Z",
   "period_days": 90,
-  "total_events": 37223,
-  "unique_ips": 1010,
+  "total_events": 37693,
+  "unique_ips": 1012,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,9 +18,9 @@
     "ivantipot:honeypot-01": 112,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 11505,
-    "bigippot:honeypot-01": 8998,
-    "sshppot:honeypot-01": 1337,
+    "fortipot:honeypot-01": 11965,
+    "bigippot:honeypot-01": 9003,
+    "sshppot:honeypot-01": 1342,
     "front:honeypot-01": 14927
   },
   "events_per_day": {
@@ -144,29 +144,29 @@
     },
     "2026-09-17": {
       "front:honeypot-01": 162,
-      "bigippot:honeypot-01": 320,
-      "fortipot:honeypot-01": 8734,
-      "sshppot:honeypot-01": 133,
+      "bigippot:honeypot-01": 325,
+      "fortipot:honeypot-01": 9194,
+      "sshppot:honeypot-01": 138,
       "panospot:honeypot-01": 68,
       "ivantipot:honeypot-01": 59,
-      "total": 9476
+      "total": 9946
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 150
+      "count": 151
+    },
+    {
+      "username": "root",
+      "password": "(empty)",
+      "count": 52
     },
     {
       "username": "ops",
       "password": "(empty)",
       "count": 51
-    },
-    {
-      "username": "root",
-      "password": "(empty)",
-      "count": 49
     },
     {
       "username": "admin",
@@ -201,7 +201,7 @@
     {
       "username": "root",
       "password": "abcd1234",
-      "count": 22
+      "count": 23
     },
     {
       "username": "admin",
@@ -244,6 +244,11 @@
       "count": 17
     },
     {
+      "username": "admin",
+      "password": "Admin@123",
+      "count": 16
+    },
+    {
       "username": "telecomadmin",
       "password": "admintelecom",
       "count": 16
@@ -256,11 +261,6 @@
     {
       "username": "Admin",
       "password": "Admin",
-      "count": 15
-    },
-    {
-      "username": "admin",
-      "password": "Admin@123",
       "count": 15
     },
     {
@@ -407,15 +407,15 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 255
+      "count": 259
     },
     {
       "username": "support",
-      "count": 155
+      "count": 156
     },
     {
       "username": "admin",
-      "count": 154
+      "count": 155
     },
     {
       "username": "user",
@@ -473,11 +473,11 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 150
+      "count": 151
     },
     {
       "password": "(empty)",
-      "count": 142
+      "count": 145
     },
     {
       "password": "admin",
@@ -509,7 +509,7 @@
     },
     {
       "password": "abcd1234",
-      "count": 22
+      "count": 23
     },
     {
       "password": "ubnt",
@@ -528,6 +528,10 @@
       "count": 17
     },
     {
+      "password": "Admin@123",
+      "count": 16
+    },
+    {
       "password": "admintelecom",
       "count": 16
     },
@@ -537,10 +541,6 @@
     },
     {
       "password": "Admin",
-      "count": 15
-    },
-    {
-      "password": "Admin@123",
       "count": 15
     },
     {
@@ -555,7 +555,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 11324
+      "count": 11783
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -575,9 +575,9 @@
     }
   ],
   "method_counts": {
-    "GET": 21554,
-    "POST": 13614,
-    "SSH": 1336,
+    "GET": 21560,
+    "POST": 14073,
+    "SSH": 1341,
     "HEAD": 51,
     "PRI": 24,
     "PROPFIND": 19,
@@ -597,12 +597,12 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 11225
+      "count": 11684
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 1288
+      "count": 1293
     },
     {
       "path": "/",
@@ -612,12 +612,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 606
+      "count": 609
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 301
+      "count": 302
     },
     {
       "path": "/favicon.ico",
@@ -672,7 +672,7 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 64
+      "count": 65
     },
     {
       "path": "/wordpress/wp-json/batch/v1",
@@ -809,14 +809,14 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "NL",
       "ip_count": 6,
-      "event_count": 5078
+      "event_count": 5284
     },
     {
       "asn": "AS210328",
       "name": "AO ALMAZ",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 4342
+      "event_count": 4521
     },
     {
       "asn": "AS396982",
@@ -830,7 +830,7 @@
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "ip_count": 2,
-      "event_count": 1776
+      "event_count": 1850
     },
     {
       "asn": "AS399979",
@@ -900,7 +900,7 @@
       "name": "Limited Network LTD",
       "country": "LT",
       "ip_count": 3,
-      "event_count": 144
+      "event_count": 148
     },
     {
       "asn": "AS135377",
@@ -921,7 +921,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 125
+      "event_count": 126
     },
     {
       "asn": "AS209334",
@@ -946,16 +946,16 @@
     }
   ],
   "events_by_country": {
-    "NL": 11317,
-    "DE": 4573,
-    "US": 896,
+    "NL": 11776,
+    "DE": 4575,
+    "US": 888,
     "IN": 555,
     "BG": 295,
-    "PL": 292,
+    "PL": 293,
     "BR": 164,
     "CN": 156,
+    "LT": 149,
     "TH": 146,
-    "LT": 145,
     "KZ": 139,
     "CA": 111,
     "PK": 103,
@@ -965,9 +965,9 @@
     "ID": 56,
     "RO": 56,
     "VN": 55,
+    "FR": 54,
     "FI": 52,
     "UZ": 49,
-    "FR": 42,
     "RU": 38,
     "MA": 23,
     "HK": 22,
