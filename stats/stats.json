@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T13:01:47.342597Z",
+  "generated_at": "2026-09-17T14:01:47.020960Z",
   "period_days": 90,
-  "total_events": 34686,
-  "unique_ips": 971,
+  "total_events": 35228,
+  "unique_ips": 974,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,10 +18,10 @@
     "ivantipot:honeypot-01": 112,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 9158,
-    "bigippot:honeypot-01": 8968,
-    "sshppot:honeypot-01": 1288,
-    "front:honeypot-01": 14832
+    "fortipot:honeypot-01": 9635,
+    "bigippot:honeypot-01": 8969,
+    "sshppot:honeypot-01": 1289,
+    "front:honeypot-01": 14895
   },
   "events_per_day": {
     "2026-08-28": {
@@ -143,20 +143,20 @@
       "total": 4404
     },
     "2026-09-17": {
-      "front:honeypot-01": 67,
-      "bigippot:honeypot-01": 290,
-      "fortipot:honeypot-01": 6387,
-      "sshppot:honeypot-01": 84,
+      "front:honeypot-01": 130,
+      "bigippot:honeypot-01": 291,
+      "fortipot:honeypot-01": 6864,
+      "sshppot:honeypot-01": 85,
       "panospot:honeypot-01": 52,
       "ivantipot:honeypot-01": 59,
-      "total": 6939
+      "total": 7481
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 146
+      "count": 147
     },
     {
       "username": "ops",
@@ -411,7 +411,7 @@
     },
     {
       "username": "support",
-      "count": 151
+      "count": 152
     },
     {
       "username": "admin",
@@ -477,7 +477,7 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 146
+      "count": 147
     },
     {
       "password": "(empty)",
@@ -559,7 +559,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 8985
+      "count": 9462
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -579,13 +579,13 @@
     }
   ],
   "method_counts": {
-    "GET": 21441,
-    "POST": 11263,
-    "SSH": 1287,
+    "GET": 21492,
+    "POST": 11750,
+    "SSH": 1288,
     "HEAD": 50,
     "PRI": 21,
     "PROPFIND": 19,
-    "OPTIONS": 9,
+    "OPTIONS": 11,
     "HEARTBEAT": 8,
     "SSTP_DUPLEX_POST": 6,
     "DELETE": 6,
@@ -601,17 +601,17 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 8887
+      "count": 9364
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 1240
+      "count": 1241
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 955
+      "count": 961
     },
     {
       "path": "/",
@@ -631,7 +631,12 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 116
+      "count": 118
+    },
+    {
+      "path": "/.git/config",
+      "source": "front:honeypot-01",
+      "count": 113
     },
     {
       "path": "/favicon.ico",
@@ -641,12 +646,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 111
-    },
-    {
-      "path": "/.git/config",
-      "source": "front:honeypot-01",
-      "count": 111
+      "count": 112
     },
     {
       "path": "/remote/login",
@@ -679,12 +679,12 @@
       "count": 62
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -767,6 +767,25 @@
       "sample_paths": []
     },
     {
+      "cve": "CVE-2026-41940",
+      "count": 4,
+      "sources": [
+        "front:honeypot-01"
+      ],
+      "description": "Critical authentication bypass in cPanel & WHM (and WP Squared) allowing unauthenticated remote attackers to obtain root-level administrative access via session poisoning in the login flow (CWE-306). Internet scanners probe /___proxy_subdomain_whm/login/?login_only=1 and related WHM management ports. Patch to fixed cPanel builds immediately.",
+      "severity": "Critical",
+      "cvss_score": 9.8,
+      "sample_ips": [
+        "167.71.175.236",
+        "206.81.24.74",
+        "209.38.208.202",
+        "68.183.180.73"
+      ],
+      "sample_paths": [
+        "/___proxy_subdomain_whm/login"
+      ]
+    },
+    {
       "cve": "CVE-2022-1388",
       "count": 4,
       "sources": [
@@ -783,27 +802,10 @@
       "sample_paths": [
         "/mgmt/tm/util/bash"
       ]
-    },
-    {
-      "cve": "CVE-2026-41940",
-      "count": 2,
-      "sources": [
-        "front:honeypot-01"
-      ],
-      "description": "Critical authentication bypass in cPanel & WHM (and WP Squared) allowing unauthenticated remote attackers to obtain root-level administrative access via session poisoning in the login flow (CWE-306). Internet scanners probe /___proxy_subdomain_whm/login/?login_only=1 and related WHM management ports. Patch to fixed cPanel builds immediately.",
-      "severity": "Critical",
-      "cvss_score": 9.8,
-      "sample_ips": [
-        "206.81.24.74",
-        "209.38.208.202"
-      ],
-      "sample_paths": [
-        "/___proxy_subdomain_whm/login"
-      ]
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1443
+    "Critical": 1445
   },
   "top_asns": [
     {
@@ -811,14 +813,14 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "NL",
       "ip_count": 6,
-      "event_count": 4025
+      "event_count": 4240
     },
     {
       "asn": "AS210328",
       "name": "AO ALMAZ",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 3430
+      "event_count": 3616
     },
     {
       "asn": "AS396982",
@@ -832,7 +834,7 @@
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "ip_count": 2,
-      "event_count": 1403
+      "event_count": 1479
     },
     {
       "asn": "AS399979",
@@ -852,8 +854,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 39,
-      "event_count": 400
+      "ip_count": 41,
+      "event_count": 463
     },
     {
       "asn": "AS29244",
@@ -884,18 +886,18 @@
       "event_count": 169
     },
     {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "ip_count": 53,
+      "event_count": 162
+    },
+    {
       "asn": "AS12876",
       "name": "Scaleway SAS",
       "country": "FR",
       "ip_count": 14,
       "event_count": 162
-    },
-    {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 52,
-      "event_count": 161
     },
     {
       "asn": "AS213790",
@@ -923,7 +925,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 122
+      "event_count": 123
     },
     {
       "asn": "AS31898",
@@ -948,8 +950,8 @@
     }
   ],
   "events_by_country": {
-    "NL": 8978,
-    "US": 4411,
+    "NL": 9455,
+    "US": 4475,
     "DE": 1417,
     "BG": 294,
     "FR": 204,
@@ -958,7 +960,7 @@
     "TH": 146,
     "LT": 145,
     "KZ": 139,
-    "PL": 126,
+    "PL": 127,
     "CA": 100,
     "GB": 97,
     "PK": 97,
