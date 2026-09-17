@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T02:04:47.154453Z",
+  "generated_at": "2026-09-17T03:04:11.544321Z",
   "period_days": 90,
-  "total_events": 28803,
-  "unique_ips": 852,
+  "total_events": 29303,
+  "unique_ips": 854,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,10 +18,10 @@
     "ivantipot:honeypot-01": 53,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 3809,
-    "bigippot:honeypot-01": 8681,
+    "fortipot:honeypot-01": 4304,
+    "bigippot:honeypot-01": 8685,
     "sshppot:honeypot-01": 1207,
-    "front:honeypot-01": 14770
+    "front:honeypot-01": 14771
   },
   "events_per_day": {
     "2026-08-28": {
@@ -143,12 +143,12 @@
       "total": 4404
     },
     "2026-09-17": {
-      "front:honeypot-01": 5,
-      "bigippot:honeypot-01": 3,
-      "fortipot:honeypot-01": 1038,
+      "front:honeypot-01": 6,
+      "bigippot:honeypot-01": 7,
+      "fortipot:honeypot-01": 1533,
       "sshppot:honeypot-01": 3,
       "panospot:honeypot-01": 7,
-      "total": 1056
+      "total": 1556
     }
   },
   "top_credentials": [
@@ -193,14 +193,14 @@
       "count": 20
     },
     {
-      "username": "root",
-      "password": "abcd1234",
+      "username": "admin",
+      "password": "admin123",
       "count": 20
     },
     {
-      "username": "admin",
-      "password": "admin123",
-      "count": 19
+      "username": "root",
+      "password": "abcd1234",
+      "count": 20
     },
     {
       "username": "admin",
@@ -414,7 +414,7 @@
     },
     {
       "username": "admin",
-      "count": 125
+      "count": 126
     },
     {
       "username": "ops",
@@ -503,11 +503,11 @@
       "count": 23
     },
     {
-      "password": "user",
-      "count": 22
+      "password": "admin123",
+      "count": 23
     },
     {
-      "password": "admin123",
+      "password": "user",
       "count": 22
     },
     {
@@ -562,11 +562,11 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 3648
+      "count": 4142
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 3211
+      "count": 3213
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -582,8 +582,8 @@
     }
   ],
   "method_counts": {
-    "GET": 21037,
-    "POST": 5916,
+    "GET": 21040,
+    "POST": 6410,
     "SSH": 1206,
     "HEAD": 47,
     "PRI": 19,
@@ -604,7 +604,7 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 3552
+      "count": 4046
     },
     {
       "path": "/",
@@ -614,17 +614,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 937
+      "count": 938
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 564
+      "count": 565
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 280
+      "count": 281
     },
     {
       "path": "/.env",
@@ -821,21 +821,21 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "NL",
       "ip_count": 6,
-      "event_count": 1610
+      "event_count": 1833
     },
     {
       "asn": "AS210328",
       "name": "AO ALMAZ",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 1358
+      "event_count": 1550
     },
     {
       "asn": "AS44589",
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "ip_count": 2,
-      "event_count": 555
+      "event_count": 634
     },
     {
       "asn": "AS399979",
@@ -946,14 +946,14 @@
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 33,
-      "event_count": 91
+      "ip_count": 34,
+      "event_count": 93
     }
   ],
   "events_by_country": {
-    "NL": 6785,
+    "NL": 7281,
     "DE": 1188,
-    "US": 1164,
+    "US": 1167,
     "BG": 277,
     "PL": 256,
     "SG": 192,
@@ -962,8 +962,8 @@
     "KZ": 139,
     "CN": 126,
     "CA": 100,
+    "SI": 73,
     "KR": 72,
-    "SI": 72,
     "IN": 65,
     "ID": 55,
     "RO": 55,
