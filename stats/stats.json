@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T09:01:36.740745Z",
+  "generated_at": "2026-09-17T10:02:42.394257Z",
   "period_days": 90,
-  "total_events": 32502,
-  "unique_ips": 911,
+  "total_events": 33036,
+  "unique_ips": 931,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,13 +14,13 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "panospot:honeypot-01": 56,
-    "ivantipot:honeypot-01": 94,
+    "panospot:honeypot-01": 66,
+    "ivantipot:honeypot-01": 112,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 7227,
-    "bigippot:honeypot-01": 8824,
-    "sshppot:honeypot-01": 1238,
+    "fortipot:honeypot-01": 7720,
+    "bigippot:honeypot-01": 8825,
+    "sshppot:honeypot-01": 1250,
     "front:honeypot-01": 14825
   },
   "events_per_day": {
@@ -144,19 +144,19 @@
     },
     "2026-09-17": {
       "front:honeypot-01": 60,
-      "bigippot:honeypot-01": 146,
-      "fortipot:honeypot-01": 4456,
-      "sshppot:honeypot-01": 34,
-      "panospot:honeypot-01": 18,
-      "ivantipot:honeypot-01": 41,
-      "total": 4755
+      "bigippot:honeypot-01": 147,
+      "fortipot:honeypot-01": 4949,
+      "sshppot:honeypot-01": 46,
+      "panospot:honeypot-01": 28,
+      "ivantipot:honeypot-01": 59,
+      "total": 5289
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 142
+      "count": 143
     },
     {
       "username": "ops",
@@ -249,14 +249,14 @@
       "count": 14
     },
     {
-      "username": "telecomadmin",
-      "password": "admintelecom",
+      "username": "guest",
+      "password": "guest",
       "count": 14
     },
     {
-      "username": "guest",
-      "password": "guest",
-      "count": 13
+      "username": "telecomadmin",
+      "password": "admintelecom",
+      "count": 14
     },
     {
       "username": "Admin",
@@ -369,6 +369,11 @@
       "count": 4
     },
     {
+      "username": "admin",
+      "password": "Xpon@Olt9417#",
+      "count": 4
+    },
+    {
       "username": "top",
       "password": "top",
       "count": 4
@@ -376,6 +381,11 @@
     {
       "username": "telecomadmin",
       "password": "(empty)",
+      "count": 4
+    },
+    {
+      "username": "user",
+      "password": "1",
       "count": 4
     },
     {
@@ -392,46 +402,36 @@
       "username": "sshadmin",
       "password": "sshadmin",
       "count": 3
-    },
-    {
-      "username": "root",
-      "password": "Tencent@123",
-      "count": 3
-    },
-    {
-      "username": "test",
-      "password": "Aa123456",
-      "count": 3
     }
   ],
   "top_usernames": [
     {
       "username": "root",
-      "count": 225
+      "count": 222
     },
     {
       "username": "support",
-      "count": 147
+      "count": 148
     },
     {
       "username": "admin",
-      "count": 136
+      "count": 140
+    },
+    {
+      "username": "user",
+      "count": 55
     },
     {
       "username": "ops",
       "count": 51
     },
     {
-      "username": "user",
-      "count": 51
+      "username": "AdminGPON",
+      "count": 20
     },
     {
       "username": "test",
-      "count": 21
-    },
-    {
-      "username": "AdminGPON",
-      "count": 20
+      "count": 18
     },
     {
       "username": "telecomadmin",
@@ -447,7 +447,7 @@
     },
     {
       "username": "guest",
-      "count": 13
+      "count": 14
     },
     {
       "username": "Admin",
@@ -481,7 +481,7 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 142
+      "count": 143
     },
     {
       "password": "(empty)",
@@ -540,12 +540,12 @@
       "count": 14
     },
     {
-      "password": "admintelecom",
+      "password": "guest",
       "count": 14
     },
     {
-      "password": "guest",
-      "count": 13
+      "password": "admintelecom",
+      "count": 14
     },
     {
       "password": "Admin",
@@ -563,7 +563,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 7066
+      "count": 7561
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -583,9 +583,9 @@
     }
   ],
   "method_counts": {
-    "GET": 21245,
-    "POST": 9342,
-    "SSH": 1237,
+    "GET": 21271,
+    "POST": 9838,
+    "SSH": 1249,
     "HEAD": 50,
     "PRI": 21,
     "PROPFIND": 19,
@@ -605,12 +605,12 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 6968
+      "count": 7463
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 1190
+      "count": 1202
     },
     {
       "path": "/",
@@ -683,12 +683,12 @@
       "count": 61
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -815,7 +815,7 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "NL",
       "ip_count": 6,
-      "event_count": 3157
+      "event_count": 3381
     },
     {
       "asn": "AS396982",
@@ -829,14 +829,14 @@
       "name": "AO ALMAZ",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 2683
+      "event_count": 2876
     },
     {
       "asn": "AS44589",
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "ip_count": 2,
-      "event_count": 1099
+      "event_count": 1177
     },
     {
       "asn": "AS399979",
@@ -888,6 +888,13 @@
       "event_count": 162
     },
     {
+      "asn": "AS6939",
+      "name": "Hurricane Electric LLC",
+      "country": "US",
+      "ip_count": 33,
+      "event_count": 157
+    },
+    {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
@@ -909,13 +916,6 @@
       "event_count": 143
     },
     {
-      "asn": "AS6939",
-      "name": "Hurricane Electric LLC",
-      "country": "US",
-      "ip_count": 33,
-      "event_count": 139
-    },
-    {
       "asn": "AS197556",
       "name": "Kar-Tel LLC",
       "country": "KZ",
@@ -927,7 +927,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 119
+      "event_count": 120
     },
     {
       "asn": "AS31898",
@@ -952,21 +952,21 @@
     }
   ],
   "events_by_country": {
-    "NL": 7059,
-    "US": 4003,
-    "DE": 1292,
+    "NL": 7554,
+    "US": 4023,
+    "DE": 1301,
     "SG": 398,
     "BG": 291,
     "FR": 203,
-    "BR": 161,
-    "TH": 145,
+    "BR": 162,
+    "TH": 146,
     "LT": 144,
     "KZ": 139,
     "CN": 138,
-    "PL": 123,
+    "PL": 124,
     "CA": 100,
-    "PK": 93,
-    "KR": 80,
+    "PK": 96,
+    "KR": 84,
     "SI": 73,
     "IN": 65,
     "ID": 56,
@@ -978,8 +978,8 @@
     "RU": 36,
     "MA": 22,
     "HK": 21,
+    "SE": 15,
     "TR": 15,
-    "SE": 13,
     "NO": 10,
     "CH": 8,
     "VE": 7,
