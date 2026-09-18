@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-18T04:03:06.639582Z",
+  "generated_at": "2026-09-18T05:03:11.986929Z",
   "period_days": 90,
-  "total_events": 42216,
-  "unique_ips": 1054,
+  "total_events": 42685,
+  "unique_ips": 1058,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,9 +18,9 @@
     "ivantipot:honeypot-01": 116,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 16115,
-    "bigippot:honeypot-01": 9045,
-    "sshppot:honeypot-01": 1363,
+    "fortipot:honeypot-01": 16569,
+    "bigippot:honeypot-01": 9059,
+    "sshppot:honeypot-01": 1364,
     "front:honeypot-01": 15222
   },
   "events_per_day": {
@@ -152,20 +152,20 @@
       "total": 12293
     },
     "2026-09-18": {
-      "bigippot:honeypot-01": 17,
+      "bigippot:honeypot-01": 31,
       "panospot:honeypot-01": 9,
-      "fortipot:honeypot-01": 1857,
+      "fortipot:honeypot-01": 2311,
       "front:honeypot-01": 286,
       "ivantipot:honeypot-01": 2,
-      "sshppot:honeypot-01": 5,
-      "total": 2176
+      "sshppot:honeypot-01": 6,
+      "total": 2645
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 159
+      "count": 160
     },
     {
       "username": "root",
@@ -420,7 +420,7 @@
     },
     {
       "username": "support",
-      "count": 164
+      "count": 165
     },
     {
       "username": "admin",
@@ -482,7 +482,7 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 159
+      "count": 160
     },
     {
       "password": "(empty)",
@@ -564,7 +564,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 15903
+      "count": 16353
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -584,9 +584,9 @@
     }
   ],
   "method_counts": {
-    "GET": 21909,
-    "POST": 18199,
-    "SSH": 1362,
+    "GET": 21924,
+    "POST": 18649,
+    "SSH": 1363,
     "HEAD": 51,
     "PRI": 24,
     "PROPFIND": 19,
@@ -606,12 +606,12 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 15804
+      "count": 16254
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 1313
+      "count": 1314
     },
     {
       "path": "/",
@@ -621,17 +621,17 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 622
+      "count": 625
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 306
+      "count": 308
     },
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 126
+      "count": 127
     },
     {
       "path": "/.env",
@@ -676,7 +676,7 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 73
+      "count": 75
     },
     {
       "path": "/wp-json/batch/v1",
@@ -823,14 +823,14 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "NL",
       "ip_count": 6,
-      "event_count": 7127
+      "event_count": 7329
     },
     {
       "asn": "AS210328",
       "name": "AO ALMAZ",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 6136
+      "event_count": 6311
     },
     {
       "asn": "AS396982",
@@ -844,7 +844,7 @@
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "ip_count": 2,
-      "event_count": 2512
+      "event_count": 2585
     },
     {
       "asn": "AS399979",
@@ -856,9 +856,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 48,
-      "event_count": 477
+      "country": "DE",
+      "ip_count": 49,
+      "event_count": 479
     },
     {
       "asn": "AS202412",
@@ -882,18 +882,18 @@
       "event_count": 195
     },
     {
+      "asn": "AS6939",
+      "name": "Hurricane Electric LLC",
+      "country": "US",
+      "ip_count": 40,
+      "event_count": 186
+    },
+    {
       "asn": "AS208137",
       "name": "Feo Prest SRL",
       "country": "DE",
       "ip_count": 3,
       "event_count": 182
-    },
-    {
-      "asn": "AS6939",
-      "name": "Hurricane Electric LLC",
-      "country": "US",
-      "ip_count": 39,
-      "event_count": 176
     },
     {
       "asn": "AS8075",
@@ -935,7 +935,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 134
+      "event_count": 135
     },
     {
       "asn": "AS209334",
@@ -954,23 +954,24 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "US",
+      "country": "SG",
       "ip_count": 37,
-      "event_count": 103
+      "event_count": 107
     }
   ],
   "events_by_country": {
-    "NL": 15911,
+    "NL": 16361,
     "JP": 3436,
-    "US": 1506,
-    "DE": 1340,
-    "PL": 301,
+    "DE": 1819,
+    "US": 939,
+    "PL": 302,
     "BG": 295,
     "CN": 168,
     "BR": 164,
     "LT": 149,
     "TH": 146,
     "KZ": 139,
+    "SG": 117,
     "CA": 111,
     "PK": 103,
     "GB": 93,
@@ -989,7 +990,6 @@
     "TR": 17,
     "SE": 16,
     "NO": 12,
-    "SG": 10,
     "VE": 9,
     "CH": 8,
     "AU": 6,
