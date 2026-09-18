@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-18T05:03:11.986929Z",
+  "generated_at": "2026-09-18T06:03:08.514119Z",
   "period_days": 90,
-  "total_events": 42685,
-  "unique_ips": 1058,
+  "total_events": 43180,
+  "unique_ips": 1059,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
   ],
   "totals_by_source": {
     "panospot:honeypot-01": 117,
-    "ivantipot:honeypot-01": 116,
+    "ivantipot:honeypot-01": 122,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 16569,
-    "bigippot:honeypot-01": 9059,
-    "sshppot:honeypot-01": 1364,
-    "front:honeypot-01": 15222
+    "fortipot:honeypot-01": 17020,
+    "bigippot:honeypot-01": 9062,
+    "sshppot:honeypot-01": 1378,
+    "front:honeypot-01": 15243
   },
   "events_per_day": {
     "2026-08-28": {
@@ -152,25 +152,25 @@
       "total": 12293
     },
     "2026-09-18": {
-      "bigippot:honeypot-01": 31,
+      "bigippot:honeypot-01": 34,
       "panospot:honeypot-01": 9,
-      "fortipot:honeypot-01": 2311,
-      "front:honeypot-01": 286,
-      "ivantipot:honeypot-01": 2,
-      "sshppot:honeypot-01": 6,
-      "total": 2645
+      "fortipot:honeypot-01": 2762,
+      "front:honeypot-01": 307,
+      "ivantipot:honeypot-01": 8,
+      "sshppot:honeypot-01": 20,
+      "total": 3140
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 160
+      "count": 161
     },
     {
       "username": "root",
       "password": "(empty)",
-      "count": 53
+      "count": 61
     },
     {
       "username": "ops",
@@ -200,7 +200,7 @@
     {
       "username": "root",
       "password": "abcd1234",
-      "count": 24
+      "count": 25
     },
     {
       "username": "root",
@@ -416,11 +416,11 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 271
+      "count": 280
     },
     {
       "username": "support",
-      "count": 165
+      "count": 166
     },
     {
       "username": "admin",
@@ -482,11 +482,11 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 160
+      "count": 161
     },
     {
       "password": "(empty)",
-      "count": 148
+      "count": 156
     },
     {
       "password": "admin",
@@ -510,7 +510,7 @@
     },
     {
       "password": "abcd1234",
-      "count": 24
+      "count": 25
     },
     {
       "password": "12345678",
@@ -564,11 +564,11 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 16353
+      "count": 16803
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 3501
+      "count": 3503
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -584,9 +584,9 @@
     }
   ],
   "method_counts": {
-    "GET": 21924,
-    "POST": 18649,
-    "SSH": 1363,
+    "GET": 21952,
+    "POST": 19100,
+    "SSH": 1377,
     "HEAD": 51,
     "PRI": 24,
     "PROPFIND": 19,
@@ -606,27 +606,27 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 16254
+      "count": 16704
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 1314
+      "count": 1324
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 977
+      "count": 980
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 625
+      "count": 626
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 308
+      "count": 309
     },
     {
       "path": "/favicon.ico",
@@ -641,17 +641,17 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 117
+      "count": 118
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "front:honeypot-01",
+      "count": 118
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
       "count": 116
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "front:honeypot-01",
-      "count": 113
     },
     {
       "path": "/remote/login",
@@ -666,12 +666,12 @@
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 93
+      "count": 94
     },
     {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
-      "count": 84
+      "count": 85
     },
     {
       "path": "/",
@@ -684,12 +684,12 @@
       "count": 72
     },
     {
-      "path": "/wordpress/wp-json/batch/v1",
+      "path": "/blog/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
     {
-      "path": "/blog/wp-json/batch/v1",
+      "path": "/wordpress/wp-json/batch/v1",
       "source": "front:honeypot-01",
       "count": 56
     },
@@ -699,7 +699,7 @@
       "count": 51
     },
     {
-      "path": "/.env.local",
+      "path": "/api/.env",
       "source": "front:honeypot-01",
       "count": 49
     }
@@ -823,14 +823,14 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "NL",
       "ip_count": 6,
-      "event_count": 7329
+      "event_count": 7530
     },
     {
       "asn": "AS210328",
       "name": "AO ALMAZ",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 6311
+      "event_count": 6488
     },
     {
       "asn": "AS396982",
@@ -844,7 +844,7 @@
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "ip_count": 2,
-      "event_count": 2585
+      "event_count": 2657
     },
     {
       "asn": "AS399979",
@@ -872,7 +872,7 @@
       "name": "CETIN Bulgaria EAD",
       "country": "BG",
       "ip_count": 4,
-      "event_count": 266
+      "event_count": 286
     },
     {
       "asn": "AS45102",
@@ -899,8 +899,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 58,
-      "event_count": 172
+      "ip_count": 59,
+      "event_count": 173
     },
     {
       "asn": "AS12876",
@@ -914,7 +914,7 @@
       "name": "Limited Network LTD",
       "country": "LT",
       "ip_count": 3,
-      "event_count": 148
+      "event_count": 149
     },
     {
       "asn": "AS135377",
@@ -935,7 +935,7 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "ip_count": 1,
-      "event_count": 135
+      "event_count": 136
     },
     {
       "asn": "AS209334",
@@ -960,15 +960,15 @@
     }
   ],
   "events_by_country": {
-    "NL": 16361,
+    "NL": 16813,
     "JP": 3436,
     "DE": 1819,
-    "US": 939,
-    "PL": 302,
-    "BG": 295,
+    "US": 940,
+    "BG": 315,
+    "PL": 303,
     "CN": 168,
     "BR": 164,
-    "LT": 149,
+    "LT": 150,
     "TH": 146,
     "KZ": 139,
     "SG": 117,
@@ -989,7 +989,7 @@
     "HK": 22,
     "TR": 17,
     "SE": 16,
-    "NO": 12,
+    "NO": 13,
     "VE": 9,
     "CH": 8,
     "AU": 6,
