@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T08:04:49.307023Z",
+  "generated_at": "2026-09-19T09:02:44.950088Z",
   "period_days": 90,
   "asns": [
     {
@@ -53,9 +53,9 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "NL",
       "score": 60.0,
-      "event_count": 12575,
+      "event_count": 12759,
       "ip_count": 6,
-      "credential_events": 12571,
+      "credential_events": 12755,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -63,7 +63,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=12571",
+        "credential_events=12755",
         "multi_honeypot=2"
       ]
     },
@@ -111,33 +111,33 @@
       "name": "AO ALMAZ",
       "country": "NL",
       "score": 50.0,
-      "event_count": 10925,
+      "event_count": 11090,
       "ip_count": 5,
-      "credential_events": 10925,
+      "credential_events": 11090,
       "cve_events": 0,
       "honeypots": [
         "fortipot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=10925"
+        "credential_events=11090"
       ]
     },
     {
       "asn": "AS44589",
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
-      "score": 48.96,
-      "event_count": 4481,
+      "score": 49.1,
+      "event_count": 4548,
       "ip_count": 2,
-      "credential_events": 4481,
+      "credential_events": 4548,
       "cve_events": 0,
       "honeypots": [
         "fortipot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=4481"
+        "credential_events=4548"
       ]
     },
     {
@@ -303,6 +303,23 @@
       ]
     },
     {
+      "asn": "AS154115",
+      "name": "KANHALABS-ORG",
+      "country": "IN",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
       "asn": "AS150462",
       "name": "PT Air Lintas Komunikasi",
       "country": "ID",
@@ -337,29 +354,12 @@
       ]
     },
     {
-      "asn": "AS154115",
-      "name": "KANHALABS-ORG",
-      "country": "IN",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
-      "score": 29.65,
-      "event_count": 4827,
-      "ip_count": 58,
+      "country": "US",
+      "score": 29.66,
+      "event_count": 4828,
+      "ip_count": 59,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
@@ -476,9 +476,9 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "score": 20.87,
-      "event_count": 187,
-      "ip_count": 70,
+      "score": 20.88,
+      "event_count": 188,
+      "ip_count": 71,
       "credential_events": 1,
       "cve_events": 0,
       "honeypots": [
@@ -814,8 +814,8 @@
       "asn": "AS51396",
       "name": "Pfcloud UG",
       "country": "NL",
-      "score": 15.05,
-      "event_count": 26,
+      "score": 15.06,
+      "event_count": 28,
       "ip_count": 5,
       "credential_events": 0,
       "cve_events": 0,
@@ -827,6 +827,46 @@
       "ai_threat_level": null,
       "reasons": [
         "multi_honeypot=3"
+      ]
+    },
+    {
+      "asn": "AS398705",
+      "name": "Censys, Inc.",
+      "country": "DE",
+      "score": 15.05,
+      "event_count": 26,
+      "ip_count": 3,
+      "credential_events": 0,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "multi_honeypot=3",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
+      "asn": "AS398722",
+      "name": "Censys, Inc.",
+      "country": "HK",
+      "score": 15.05,
+      "event_count": 24,
+      "ip_count": 4,
+      "credential_events": 0,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "multi_honeypot=3",
+        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -922,45 +962,6 @@
       "reasons": [
         "credential_events=10",
         "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS393406",
-      "name": "DigitalOcean, LLC",
-      "country": "NL",
-      "score": 15.02,
-      "event_count": 10,
-      "ip_count": 4,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=3",
-        "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS211632",
-      "name": "Internet Solutions & Innovations LTD.",
-      "country": "LT",
-      "score": 15.02,
-      "event_count": 9,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=3"
       ]
     }
   ]
