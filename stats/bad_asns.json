@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T20:04:37.915841Z",
+  "generated_at": "2026-09-19T21:01:14.871963Z",
   "period_days": 90,
   "asns": [
     {
@@ -54,9 +54,9 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "NL",
       "score": 60.0,
-      "event_count": 14805,
+      "event_count": 14927,
       "ip_count": 6,
-      "credential_events": 14801,
+      "credential_events": 14923,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -64,7 +64,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=14801",
+        "credential_events=14923",
         "multi_honeypot=2"
       ]
     },
@@ -133,16 +133,16 @@
       "name": "AO ALMAZ",
       "country": "NL",
       "score": 50.0,
-      "event_count": 12906,
+      "event_count": 13012,
       "ip_count": 5,
-      "credential_events": 12906,
+      "credential_events": 13012,
       "cve_events": 0,
       "honeypots": [
         "fortipot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=12906"
+        "credential_events=13012"
       ]
     },
     {
@@ -150,16 +150,16 @@
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "score": 50.0,
-      "event_count": 5291,
+      "event_count": 5337,
       "ip_count": 2,
-      "credential_events": 5291,
+      "credential_events": 5337,
       "cve_events": 0,
       "honeypots": [
         "fortipot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=5291"
+        "credential_events=5337"
       ]
     },
     {
@@ -607,8 +607,8 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "score": 20.12,
-      "event_count": 59,
-      "ip_count": 41,
+      "event_count": 62,
+      "ip_count": 44,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
@@ -815,6 +815,26 @@
       ]
     },
     {
+      "asn": "AS63949",
+      "name": "Akamai Connected Cloud",
+      "country": "US",
+      "score": 15.18,
+      "event_count": 88,
+      "ip_count": 27,
+      "credential_events": 0,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "multi_honeypot=3",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS51396",
       "name": "Pfcloud UG",
       "country": "NL",
@@ -947,25 +967,6 @@
       "ai_threat_level": null,
       "reasons": [
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS45090",
-      "name": "Shenzhen Tencent Computer Systems Company Limited",
-      "country": "CN",
-      "score": 15.02,
-      "event_count": 12,
-      "ip_count": 2,
-      "credential_events": 10,
-      "cve_events": 0,
-      "honeypots": [
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=10",
-        "multi_honeypot=2"
       ]
     }
   ]
