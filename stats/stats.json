@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-20T18:00:19.788968Z",
+  "generated_at": "2026-09-20T19:01:44.826843Z",
   "period_days": 90,
-  "total_events": 72991,
-  "unique_ips": 1291,
+  "total_events": 73501,
+  "unique_ips": 1293,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,10 +18,10 @@
     "ivantipot:honeypot-01": 658,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 42246,
-    "bigippot:honeypot-01": 10248,
+    "fortipot:honeypot-01": 42751,
+    "bigippot:honeypot-01": 10250,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 18080
+    "front:honeypot-01": 18083
   },
   "events_per_day": {
     "2026-08-28": {
@@ -170,11 +170,11 @@
     },
     "2026-09-20": {
       "panospot:honeypot-01": 1,
-      "bigippot:honeypot-01": 344,
+      "bigippot:honeypot-01": 346,
       "ivantipot:honeypot-01": 24,
-      "fortipot:honeypot-01": 7598,
-      "front:honeypot-01": 1133,
-      "total": 9100
+      "fortipot:honeypot-01": 8103,
+      "front:honeypot-01": 1136,
+      "total": 9610
     }
   },
   "top_credentials": [
@@ -414,6 +414,11 @@
       "count": 4
     },
     {
+      "username": "root",
+      "password": "12345",
+      "count": 4
+    },
+    {
       "username": "user",
       "password": "1",
       "count": 4
@@ -422,17 +427,12 @@
       "username": "YhtcAdmin",
       "password": "(empty)",
       "count": 4
-    },
-    {
-      "username": "AdminGPON",
-      "password": "(empty)",
-      "count": 4
     }
   ],
   "top_usernames": [
     {
       "username": "root",
-      "count": 269
+      "count": 273
     },
     {
       "username": "support",
@@ -451,10 +451,6 @@
       "count": 28
     },
     {
-      "username": "AdminGPON",
-      "count": 20
-    },
-    {
       "username": "telecomadmin",
       "count": 20
     },
@@ -465,6 +461,10 @@
     {
       "username": "operator",
       "count": 17
+    },
+    {
+      "username": "AdminGPON",
+      "count": 16
     },
     {
       "username": "Admin",
@@ -498,7 +498,7 @@
     },
     {
       "password": "(empty)",
-      "count": 82
+      "count": 78
     },
     {
       "password": "password",
@@ -575,194 +575,194 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 43016,
+      "attempt_count": 43520,
       "unique_ips": 408,
-      "unique_pairs": 41874,
+      "unique_pairs": 42377,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 43016
+      "unknown_outcome_count": 43520
     },
     "top_source_ips": [
       {
         "ip": "185.136.15.80",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 3382,
-        "unique_usernames": 2842,
-        "unique_passwords": 1578,
+        "attempt_count": 3422,
+        "unique_usernames": 2872,
+        "unique_passwords": 1596,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:38.898Z",
-        "last_seen": "2026-09-20T17:59:49.563Z",
+        "last_seen": "2026-09-20T19:00:16.905Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.91",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 3377,
-        "unique_usernames": 2442,
-        "unique_passwords": 2118,
+        "attempt_count": 3417,
+        "unique_usernames": 2463,
+        "unique_passwords": 2138,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:00:45.360Z",
-        "last_seen": "2026-09-20T17:59:59.267Z",
+        "last_seen": "2026-09-20T19:01:17.947Z",
         "success_count": 0
       },
       {
         "ip": "138.226.239.91",
         "asn": "AS44589",
         "asn_name": "DIGITAL NETWORK S.R.L.",
-        "attempt_count": 3365,
-        "unique_usernames": 2659,
-        "unique_passwords": 1765,
+        "attempt_count": 3405,
+        "unique_usernames": 2691,
+        "unique_passwords": 1789,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:15.268Z",
-        "last_seen": "2026-09-20T18:00:11.501Z",
+        "last_seen": "2026-09-20T19:01:18.315Z",
         "success_count": 0
       },
       {
         "ip": "185.136.15.81",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 3352,
-        "unique_usernames": 2385,
-        "unique_passwords": 2161,
+        "attempt_count": 3392,
+        "unique_usernames": 2406,
+        "unique_passwords": 2176,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:26.312Z",
-        "last_seen": "2026-09-20T17:59:40.451Z",
+        "last_seen": "2026-09-20T19:00:54.092Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.90",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 3310,
-        "unique_usernames": 1795,
-        "unique_passwords": 2045,
+        "attempt_count": 3350,
+        "unique_usernames": 1816,
+        "unique_passwords": 2074,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:00:39.426Z",
-        "last_seen": "2026-09-20T17:59:49.546Z",
+        "last_seen": "2026-09-20T19:01:05.351Z",
         "success_count": 0
       },
       {
         "ip": "138.226.239.90",
         "asn": "AS44589",
         "asn_name": "DIGITAL NETWORK S.R.L.",
-        "attempt_count": 3307,
-        "unique_usernames": 2981,
-        "unique_passwords": 2056,
+        "attempt_count": 3347,
+        "unique_usernames": 3016,
+        "unique_passwords": 2066,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:00:52.054Z",
-        "last_seen": "2026-09-20T17:59:00.402Z",
+        "last_seen": "2026-09-20T19:00:13.553Z",
         "success_count": 0
       },
       {
         "ip": "185.136.15.111",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 3286,
-        "unique_usernames": 2683,
-        "unique_passwords": 1995,
+        "attempt_count": 3325,
+        "unique_usernames": 2715,
+        "unique_passwords": 2020,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:11.150Z",
-        "last_seen": "2026-09-20T17:59:03.064Z",
+        "last_seen": "2026-09-20T19:00:40.603Z",
         "success_count": 0
       },
       {
         "ip": "185.136.15.82",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 3267,
-        "unique_usernames": 2416,
-        "unique_passwords": 2289,
+        "attempt_count": 3306,
+        "unique_usernames": 2445,
+        "unique_passwords": 2314,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:12.953Z",
-        "last_seen": "2026-09-20T17:59:58.286Z",
+        "last_seen": "2026-09-20T19:01:33.227Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.92",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 3070,
-        "unique_usernames": 2382,
-        "unique_passwords": 1975,
+        "attempt_count": 3109,
+        "unique_usernames": 2410,
+        "unique_passwords": 2007,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:41.104Z",
-        "last_seen": "2026-09-20T17:59:08.596Z",
+        "last_seen": "2026-09-20T19:00:54.505Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.24",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 3002,
-        "unique_usernames": 2619,
-        "unique_passwords": 1361,
+        "attempt_count": 3039,
+        "unique_usernames": 2643,
+        "unique_passwords": 1386,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:03.545Z",
-        "last_seen": "2026-09-20T17:59:34.354Z",
+        "last_seen": "2026-09-20T19:00:20.010Z",
         "success_count": 0
       },
       {
         "ip": "185.136.15.110",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 2958,
-        "unique_usernames": 2598,
-        "unique_passwords": 1850,
+        "attempt_count": 2995,
+        "unique_usernames": 2629,
+        "unique_passwords": 1868,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:40.175Z",
-        "last_seen": "2026-09-20T17:59:35.757Z",
+        "last_seen": "2026-09-20T19:00:20.719Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.23",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 2885,
-        "unique_usernames": 2680,
-        "unique_passwords": 1969,
+        "attempt_count": 2922,
+        "unique_usernames": 2709,
+        "unique_passwords": 1995,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:29.615Z",
-        "last_seen": "2026-09-20T17:59:41.625Z",
+        "last_seen": "2026-09-20T19:01:23.282Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.25",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 2871,
-        "unique_usernames": 2655,
-        "unique_passwords": 1914,
+        "attempt_count": 2907,
+        "unique_usernames": 2687,
+        "unique_passwords": 1931,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:03.906Z",
-        "last_seen": "2026-09-20T17:59:53.472Z",
+        "last_seen": "2026-09-20T19:01:12.743Z",
         "success_count": 0
       },
       {
@@ -1289,182 +1289,182 @@
         "ip": "185.136.15.80",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 3382,
-        "unique_usernames": 2842,
-        "unique_passwords": 1578,
+        "attempt_count": 3422,
+        "unique_usernames": 2872,
+        "unique_passwords": 1596,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:38.898Z",
-        "last_seen": "2026-09-20T17:59:49.563Z",
+        "last_seen": "2026-09-20T19:00:16.905Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.91",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 3377,
-        "unique_usernames": 2442,
-        "unique_passwords": 2118,
+        "attempt_count": 3417,
+        "unique_usernames": 2463,
+        "unique_passwords": 2138,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:00:45.360Z",
-        "last_seen": "2026-09-20T17:59:59.267Z",
+        "last_seen": "2026-09-20T19:01:17.947Z",
         "success_count": 0
       },
       {
         "ip": "138.226.239.91",
         "asn": "AS44589",
         "asn_name": "DIGITAL NETWORK S.R.L.",
-        "attempt_count": 3365,
-        "unique_usernames": 2659,
-        "unique_passwords": 1765,
+        "attempt_count": 3405,
+        "unique_usernames": 2691,
+        "unique_passwords": 1789,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:15.268Z",
-        "last_seen": "2026-09-20T18:00:11.501Z",
+        "last_seen": "2026-09-20T19:01:18.315Z",
         "success_count": 0
       },
       {
         "ip": "185.136.15.81",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 3352,
-        "unique_usernames": 2385,
-        "unique_passwords": 2161,
+        "attempt_count": 3392,
+        "unique_usernames": 2406,
+        "unique_passwords": 2176,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:26.312Z",
-        "last_seen": "2026-09-20T17:59:40.451Z",
+        "last_seen": "2026-09-20T19:00:54.092Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.90",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 3310,
-        "unique_usernames": 1795,
-        "unique_passwords": 2045,
+        "attempt_count": 3350,
+        "unique_usernames": 1816,
+        "unique_passwords": 2074,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:00:39.426Z",
-        "last_seen": "2026-09-20T17:59:49.546Z",
+        "last_seen": "2026-09-20T19:01:05.351Z",
         "success_count": 0
       },
       {
         "ip": "138.226.239.90",
         "asn": "AS44589",
         "asn_name": "DIGITAL NETWORK S.R.L.",
-        "attempt_count": 3307,
-        "unique_usernames": 2981,
-        "unique_passwords": 2056,
+        "attempt_count": 3347,
+        "unique_usernames": 3016,
+        "unique_passwords": 2066,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:00:52.054Z",
-        "last_seen": "2026-09-20T17:59:00.402Z",
+        "last_seen": "2026-09-20T19:00:13.553Z",
         "success_count": 0
       },
       {
         "ip": "185.136.15.111",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 3286,
-        "unique_usernames": 2683,
-        "unique_passwords": 1995,
+        "attempt_count": 3325,
+        "unique_usernames": 2715,
+        "unique_passwords": 2020,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:11.150Z",
-        "last_seen": "2026-09-20T17:59:03.064Z",
+        "last_seen": "2026-09-20T19:00:40.603Z",
         "success_count": 0
       },
       {
         "ip": "185.136.15.82",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 3267,
-        "unique_usernames": 2416,
-        "unique_passwords": 2289,
+        "attempt_count": 3306,
+        "unique_usernames": 2445,
+        "unique_passwords": 2314,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:12.953Z",
-        "last_seen": "2026-09-20T17:59:58.286Z",
+        "last_seen": "2026-09-20T19:01:33.227Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.92",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 3070,
-        "unique_usernames": 2382,
-        "unique_passwords": 1975,
+        "attempt_count": 3109,
+        "unique_usernames": 2410,
+        "unique_passwords": 2007,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:41.104Z",
-        "last_seen": "2026-09-20T17:59:08.596Z",
+        "last_seen": "2026-09-20T19:00:54.505Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.24",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 3002,
-        "unique_usernames": 2619,
-        "unique_passwords": 1361,
+        "attempt_count": 3039,
+        "unique_usernames": 2643,
+        "unique_passwords": 1386,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:03.545Z",
-        "last_seen": "2026-09-20T17:59:34.354Z",
+        "last_seen": "2026-09-20T19:00:20.010Z",
         "success_count": 0
       },
       {
         "ip": "185.136.15.110",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 2958,
-        "unique_usernames": 2598,
-        "unique_passwords": 1850,
+        "attempt_count": 2995,
+        "unique_usernames": 2629,
+        "unique_passwords": 1868,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:40.175Z",
-        "last_seen": "2026-09-20T17:59:35.757Z",
+        "last_seen": "2026-09-20T19:00:20.719Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.23",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 2885,
-        "unique_usernames": 2680,
-        "unique_passwords": 1969,
+        "attempt_count": 2922,
+        "unique_usernames": 2709,
+        "unique_passwords": 1995,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:29.615Z",
-        "last_seen": "2026-09-20T17:59:41.625Z",
+        "last_seen": "2026-09-20T19:01:23.282Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.25",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 2871,
-        "unique_usernames": 2655,
-        "unique_passwords": 1914,
+        "attempt_count": 2907,
+        "unique_usernames": 2687,
+        "unique_passwords": 1931,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:03.906Z",
-        "last_seen": "2026-09-20T17:59:53.472Z",
+        "last_seen": "2026-09-20T19:01:12.743Z",
         "success_count": 0
       },
       {
@@ -2247,6 +2247,15 @@
         ]
       },
       {
+        "username": "root",
+        "password": "12345",
+        "count": 4,
+        "sources": [
+          "fortipot:honeypot-01",
+          "sshppot:honeypot-01"
+        ]
+      },
+      {
         "username": "user",
         "password": "1",
         "count": 4,
@@ -2262,21 +2271,13 @@
         "sources": [
           "sshppot:honeypot-01"
         ]
-      },
-      {
-        "username": "AdminGPON",
-        "password": "(empty)",
-        "count": 4,
-        "sources": [
-          "sshppot:honeypot-01"
-        ]
       }
     ]
   },
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 41878
+      "count": 42382
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2296,11 +2297,11 @@
     }
   ],
   "method_counts": {
-    "POST": 44265,
-    "GET": 26276,
+    "POST": 44769,
+    "GET": 26281,
     "SSH": 1382,
     "HEAD": 77,
-    "PRI": 34,
+    "PRI": 35,
     "PROPFIND": 31,
     "OPTIONS": 12,
     "HEARTBEAT": 8,
@@ -2319,7 +2320,7 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 41468
+      "count": 41972
     },
     {
       "path": "/",
@@ -2329,12 +2330,12 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1079
+      "count": 1080
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 760
+      "count": 761
     },
     {
       "path": "/tmui/login.jsp",
@@ -2379,7 +2380,7 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 112
+      "count": 113
     },
     {
       "path": "/style.css",
@@ -2552,21 +2553,21 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "PL",
       "ip_count": 7,
-      "event_count": 18520
+      "event_count": 18749
     },
     {
       "asn": "AS210328",
       "name": "AO ALMAZ",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 16245
+      "event_count": 16440
     },
     {
       "asn": "AS44589",
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "ip_count": 2,
-      "event_count": 6672
+      "event_count": 6752
     },
     {
       "asn": "AS396982",
@@ -2642,8 +2643,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 80,
-      "event_count": 208
+      "ip_count": 81,
+      "event_count": 209
     },
     {
       "asn": "AS12876",
@@ -2712,8 +2713,8 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "PL",
       "score": 60.0,
-      "event_count": 18520,
-      "credential_events": 18515,
+      "event_count": 18749,
+      "credential_events": 18744,
       "cve_events": 0
     },
     {
@@ -2757,8 +2758,8 @@
       "name": "AO ALMAZ",
       "country": "NL",
       "score": 50.0,
-      "event_count": 16245,
-      "credential_events": 16245,
+      "event_count": 16440,
+      "credential_events": 16440,
       "cve_events": 0
     },
     {
@@ -2766,8 +2767,8 @@
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "score": 50.0,
-      "event_count": 6672,
-      "credential_events": 6672,
+      "event_count": 6752,
+      "credential_events": 6752,
       "cve_events": 0
     },
     {
@@ -2871,10 +2872,10 @@
     }
   ],
   "events_by_country": {
-    "NL": 24120,
-    "PL": 18663,
+    "NL": 24395,
+    "PL": 18892,
     "DE": 6847,
-    "US": 1725,
+    "US": 1731,
     "BG": 944,
     "FR": 286,
     "CA": 239,
