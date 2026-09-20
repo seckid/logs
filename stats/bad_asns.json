@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T02:01:14.649441Z",
+  "generated_at": "2026-09-20T03:01:50.238254Z",
   "period_days": 90,
   "asns": [
     {
@@ -52,11 +52,11 @@
     {
       "asn": "AS211486",
       "name": "Alferov Aleksey Aleksandrovich",
-      "country": "NL",
+      "country": "PL",
       "score": 60.0,
-      "event_count": 15532,
-      "ip_count": 6,
-      "credential_events": 15528,
+      "event_count": 15646,
+      "ip_count": 7,
+      "credential_events": 15641,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -64,7 +64,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=15528",
+        "credential_events=15641",
         "multi_honeypot=2"
       ]
     },
@@ -113,7 +113,7 @@
       "name": "VPS Dedicated LLC",
       "country": "SI",
       "score": 50.16,
-      "event_count": 80,
+      "event_count": 81,
       "ip_count": 11,
       "credential_events": 70,
       "cve_events": 0,
@@ -133,16 +133,16 @@
       "name": "AO ALMAZ",
       "country": "NL",
       "score": 50.0,
-      "event_count": 13595,
+      "event_count": 13716,
       "ip_count": 5,
-      "credential_events": 13595,
+      "credential_events": 13716,
       "cve_events": 0,
       "honeypots": [
         "fortipot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=13595"
+        "credential_events=13716"
       ]
     },
     {
@@ -150,16 +150,36 @@
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "score": 50.0,
-      "event_count": 5583,
+      "event_count": 5633,
       "ip_count": 2,
-      "credential_events": 5583,
+      "credential_events": 5633,
       "cve_events": 0,
       "honeypots": [
         "fortipot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=5583"
+        "credential_events=5633"
+      ]
+    },
+    {
+      "asn": "AS49870",
+      "name": "Alsycon B.V.",
+      "country": "NL",
+      "score": 47.64,
+      "event_count": 72,
+      "ip_count": 1,
+      "credential_events": 65,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=65",
+        "multi_honeypot=3"
       ]
     },
     {
@@ -215,26 +235,6 @@
       "reasons": [
         "cve_events=42",
         "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS49870",
-      "name": "Alsycon B.V.",
-      "country": "NL",
-      "score": 38.61,
-      "event_count": 54,
-      "ip_count": 1,
-      "credential_events": 47,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=47",
-        "multi_honeypot=3"
       ]
     },
     {
@@ -380,10 +380,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BR",
-      "score": 29.67,
-      "event_count": 4837,
-      "ip_count": 65,
+      "country": "US",
+      "score": 29.68,
+      "event_count": 4839,
+      "ip_count": 67,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
@@ -524,9 +524,9 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "score": 20.46,
-      "event_count": 230,
-      "ip_count": 46,
+      "score": 20.49,
+      "event_count": 243,
+      "ip_count": 51,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
@@ -585,8 +585,8 @@
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 20.26,
-      "event_count": 131,
+      "score": 20.27,
+      "event_count": 137,
       "ip_count": 41,
       "credential_events": 0,
       "cve_events": 0,
@@ -606,20 +606,21 @@
       "asn": "AS398324",
       "name": "Censys, Inc.",
       "country": "US",
-      "score": 20.17,
-      "event_count": 86,
-      "ip_count": 15,
+      "score": 20.2,
+      "event_count": 98,
+      "ip_count": 16,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
         "fortipot:honeypot-01",
         "front:honeypot-01",
+        "ivantipot:honeypot-01",
         "panospot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "multi_honeypot=4",
+        "multi_honeypot=5",
         "research_or_cloud_with_hostile_density"
       ]
     },
