@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T21:02:14.119708Z",
+  "generated_at": "2026-09-21T22:04:19.061545Z",
   "period_days": 90,
   "asns": [
     {
@@ -54,9 +54,9 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "PL",
       "score": 60.0,
-      "event_count": 24207,
+      "event_count": 24413,
       "ip_count": 8,
-      "credential_events": 24200,
+      "credential_events": 24406,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -64,7 +64,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=24200",
+        "credential_events=24406",
         "multi_honeypot=2"
       ]
     },
@@ -153,16 +153,16 @@
       "name": "AO ALMAZ",
       "country": "NL",
       "score": 50.0,
-      "event_count": 21191,
+      "event_count": 21373,
       "ip_count": 5,
-      "credential_events": 21191,
+      "credential_events": 21373,
       "cve_events": 0,
       "honeypots": [
         "fortipot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=21191"
+        "credential_events=21373"
       ]
     },
     {
@@ -170,16 +170,16 @@
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "score": 50.0,
-      "event_count": 8718,
+      "event_count": 8794,
       "ip_count": 2,
-      "credential_events": 8718,
+      "credential_events": 8794,
       "cve_events": 0,
       "honeypots": [
         "fortipot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=8718"
+        "credential_events=8794"
       ]
     },
     {
@@ -316,6 +316,23 @@
       ]
     },
     {
+      "asn": "AS154115",
+      "name": "KANHALABS-ORG",
+      "country": "IN",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
       "asn": "AS63023",
       "name": "GTHost",
       "country": "US",
@@ -401,29 +418,12 @@
       ]
     },
     {
-      "asn": "AS154115",
-      "name": "KANHALABS-ORG",
-      "country": "IN",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "AU",
       "score": 30.0,
-      "event_count": 5957,
-      "ip_count": 92,
+      "event_count": 6269,
+      "ip_count": 94,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
@@ -666,6 +666,28 @@
       ]
     },
     {
+      "asn": "AS398324",
+      "name": "Censys, Inc.",
+      "country": "US",
+      "score": 20.3,
+      "event_count": 151,
+      "ip_count": 22,
+      "credential_events": 0,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "multi_honeypot=5",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
@@ -693,28 +715,6 @@
       "score": 20.28,
       "event_count": 139,
       "ip_count": 60,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=5",
-        "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS398324",
-      "name": "Censys, Inc.",
-      "country": "US",
-      "score": 20.28,
-      "event_count": 139,
-      "ip_count": 21,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
