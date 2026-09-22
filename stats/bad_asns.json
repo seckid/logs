@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T08:01:19.418718Z",
+  "generated_at": "2026-09-22T09:02:52.456389Z",
   "period_days": 90,
   "asns": [
     {
@@ -54,9 +54,9 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "PL",
       "score": 60.0,
-      "event_count": 26380,
+      "event_count": 26580,
       "ip_count": 8,
-      "credential_events": 26373,
+      "credential_events": 26573,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -64,7 +64,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=26373",
+        "credential_events=26573",
         "multi_honeypot=2"
       ]
     },
@@ -153,16 +153,16 @@
       "name": "AO ALMAZ",
       "country": "NL",
       "score": 50.0,
-      "event_count": 23115,
+      "event_count": 23293,
       "ip_count": 5,
-      "credential_events": 23115,
+      "credential_events": 23293,
       "cve_events": 0,
       "honeypots": [
         "fortipot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=23115"
+        "credential_events=23293"
       ]
     },
     {
@@ -170,16 +170,16 @@
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "score": 50.0,
-      "event_count": 9516,
+      "event_count": 9591,
       "ip_count": 2,
-      "credential_events": 9516,
+      "credential_events": 9591,
       "cve_events": 0,
       "honeypots": [
         "fortipot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=9516"
+        "credential_events=9591"
       ]
     },
     {
@@ -316,6 +316,23 @@
       ]
     },
     {
+      "asn": "AS206134",
+      "name": "NEKOBYTE INTERNATIONAL LIMITED",
+      "country": "DE",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
       "asn": "AS154115",
       "name": "KANHALABS-ORG",
       "country": "IN",
@@ -353,23 +370,6 @@
       "asn": "AS63023",
       "name": "GTHost",
       "country": "US",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
-      "asn": "AS206134",
-      "name": "NEKOBYTE INTERNATIONAL LIMITED",
-      "country": "DE",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -480,8 +480,8 @@
       "asn": "AS202412",
       "name": "Omegatech LTD",
       "country": "US",
-      "score": 23.62,
-      "event_count": 562,
+      "score": 23.82,
+      "event_count": 661,
       "ip_count": 8,
       "credential_events": 5,
       "cve_events": 0,
@@ -585,10 +585,10 @@
     {
       "asn": "AS213412",
       "name": "ONYPHE SAS",
-      "country": "FR",
-      "score": 20.86,
-      "event_count": 31,
-      "ip_count": 31,
+      "country": "US",
+      "score": 20.87,
+      "event_count": 33,
+      "ip_count": 33,
       "credential_events": 0,
       "cve_events": 1,
       "honeypots": [
@@ -669,9 +669,9 @@
       "asn": "AS209334",
       "name": "Modat B.V.",
       "country": "CA",
-      "score": 20.38,
-      "event_count": 191,
-      "ip_count": 23,
+      "score": 20.44,
+      "event_count": 219,
+      "ip_count": 24,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
@@ -689,8 +689,8 @@
       "asn": "AS10439",
       "name": "CariNet, Inc.",
       "country": "US",
-      "score": 20.33,
-      "event_count": 167,
+      "score": 20.34,
+      "event_count": 168,
       "ip_count": 9,
       "credential_events": 0,
       "cve_events": 0,
@@ -704,6 +704,27 @@
       "ai_threat_level": null,
       "reasons": [
         "multi_honeypot=5"
+      ]
+    },
+    {
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "score": 20.31,
+      "event_count": 157,
+      "ip_count": 42,
+      "credential_events": 0,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "multi_honeypot=4",
+        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -725,27 +746,6 @@
       "ai_threat_level": null,
       "reasons": [
         "multi_honeypot=5",
-        "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS16509",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 20.31,
-      "event_count": 155,
-      "ip_count": 42,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=4",
         "research_or_cloud_with_hostile_density"
       ]
     },
