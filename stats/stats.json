@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T15:04:19.335420Z",
+  "generated_at": "2026-09-23T16:01:13.796372Z",
   "period_days": 90,
-  "total_events": 108421,
-  "unique_ips": 1596,
+  "total_events": 108600,
+  "unique_ips": 1599,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
   ],
   "totals_by_source": {
     "panospot:honeypot-01": 149,
-    "ivantipot:honeypot-01": 869,
+    "ivantipot:honeypot-01": 871,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 70790,
-    "bigippot:honeypot-01": 11985,
+    "fortipot:honeypot-01": 70791,
+    "bigippot:honeypot-01": 11987,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 23007
+    "front:honeypot-01": 23181
   },
   "events_per_day": {
     "2026-08-28": {
@@ -192,12 +192,12 @@
       "total": 12614
     },
     "2026-09-23": {
-      "front:honeypot-01": 1184,
-      "fortipot:honeypot-01": 3701,
-      "bigippot:honeypot-01": 381,
-      "ivantipot:honeypot-01": 56,
+      "front:honeypot-01": 1358,
+      "fortipot:honeypot-01": 3702,
+      "bigippot:honeypot-01": 383,
+      "ivantipot:honeypot-01": 58,
       "panospot:honeypot-01": 1,
-      "total": 5323
+      "total": 5502
     }
   },
   "top_credentials": [
@@ -2303,7 +2303,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 70124
+      "count": 70125
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2319,12 +2319,12 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 2762
+      "count": 2936
     }
   ],
   "method_counts": {
     "POST": 72574,
-    "GET": 33125,
+    "GET": 33302,
     "SSH": 1382,
     "HEAD": 80,
     "PRI": 47,
@@ -2357,7 +2357,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1216
+      "count": 1217
     },
     {
       "path": "/",
@@ -2392,7 +2392,7 @@
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 155
+      "count": 156
     },
     {
       "path": "/favicon.ico",
@@ -2598,8 +2598,8 @@
       "asn": "AS211486",
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "PL",
-      "ip_count": 8,
-      "event_count": 31529
+      "ip_count": 9,
+      "event_count": 31530
     },
     {
       "asn": "AS210328",
@@ -2672,6 +2672,13 @@
       "event_count": 490
     },
     {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "KR",
+      "ip_count": 103,
+      "event_count": 420
+    },
+    {
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
@@ -2714,13 +2721,6 @@
       "event_count": 250
     },
     {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 102,
-      "event_count": 247
-    },
-    {
       "asn": "AS209334",
       "name": "Modat B.V.",
       "country": "CA",
@@ -2759,7 +2759,7 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "PL",
       "score": 60.0,
-      "event_count": 31529,
+      "event_count": 31530,
       "credential_events": 31522,
       "cve_events": 0
     },
@@ -2919,15 +2919,16 @@
   ],
   "events_by_country": {
     "NL": 39787,
-    "PL": 32446,
+    "PL": 32447,
     "BE": 7153,
-    "US": 2654,
+    "US": 2454,
     "DE": 1651,
     "BG": 951,
+    "KR": 512,
     "SE": 510,
     "CA": 358,
-    "CN": 254,
     "MY": 250,
+    "CN": 212,
     "HK": 192,
     "NG": 179,
     "LT": 158,
@@ -2935,7 +2936,6 @@
     "PK": 104,
     "FR": 98,
     "IN": 92,
-    "KR": 92,
     "GB": 88,
     "SI": 84,
     "BR": 67,
