@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T14:01:57.832231Z",
+  "generated_at": "2026-09-23T15:04:19.335420Z",
   "period_days": 90,
-  "total_events": 108357,
-  "unique_ips": 1590,
+  "total_events": 108421,
+  "unique_ips": 1596,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,11 +15,11 @@
   ],
   "totals_by_source": {
     "panospot:honeypot-01": 149,
-    "ivantipot:honeypot-01": 850,
+    "ivantipot:honeypot-01": 869,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 70768,
-    "bigippot:honeypot-01": 11962,
+    "fortipot:honeypot-01": 70790,
+    "bigippot:honeypot-01": 11985,
     "sshppot:honeypot-01": 1383,
     "front:honeypot-01": 23007
   },
@@ -193,11 +193,11 @@
     },
     "2026-09-23": {
       "front:honeypot-01": 1184,
-      "fortipot:honeypot-01": 3679,
-      "bigippot:honeypot-01": 358,
-      "ivantipot:honeypot-01": 37,
+      "fortipot:honeypot-01": 3701,
+      "bigippot:honeypot-01": 381,
+      "ivantipot:honeypot-01": 56,
       "panospot:honeypot-01": 1,
-      "total": 5259
+      "total": 5323
     }
   },
   "top_credentials": [
@@ -212,14 +212,14 @@
       "count": 49
     },
     {
-      "username": "root",
-      "password": "root",
+      "username": "admin",
+      "password": "admin",
       "count": 28
     },
     {
-      "username": "admin",
-      "password": "admin",
-      "count": 27
+      "username": "root",
+      "password": "root",
+      "count": 28
     },
     {
       "username": "user",
@@ -247,6 +247,11 @@
       "count": 22
     },
     {
+      "username": "test",
+      "password": "test",
+      "count": 21
+    },
+    {
       "username": "root",
       "password": "12345678",
       "count": 21
@@ -260,11 +265,6 @@
       "username": "admin",
       "password": "1234",
       "count": 20
-    },
-    {
-      "username": "test",
-      "password": "test",
-      "count": 19
     },
     {
       "username": "ubnt",
@@ -463,7 +463,7 @@
     },
     {
       "username": "admin",
-      "count": 160
+      "count": 161
     },
     {
       "username": "user",
@@ -471,7 +471,7 @@
     },
     {
       "username": "test",
-      "count": 28
+      "count": 30
     },
     {
       "username": "telecomadmin",
@@ -525,7 +525,7 @@
     },
     {
       "password": "admin",
-      "count": 49
+      "count": 50
     },
     {
       "password": "1234",
@@ -552,12 +552,12 @@
       "count": 24
     },
     {
-      "password": "123456",
-      "count": 20
+      "password": "test",
+      "count": 21
     },
     {
-      "password": "test",
-      "count": 19
+      "password": "123456",
+      "count": 20
     },
     {
       "password": "ubnt",
@@ -594,12 +594,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 71181,
-      "unique_ips": 409,
-      "unique_pairs": 69952,
+      "attempt_count": 71212,
+      "unique_ips": 411,
+      "unique_pairs": 69978,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 71181
+      "unknown_outcome_count": 71212
     },
     "top_source_ips": [
       {
@@ -760,28 +760,28 @@
         "ip": "77.91.71.23",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 5059,
-        "unique_usernames": 4521,
-        "unique_passwords": 3270,
+        "attempt_count": 5061,
+        "unique_usernames": 4522,
+        "unique_passwords": 3272,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:29.615Z",
-        "last_seen": "2026-09-23T14:01:28.932Z",
+        "last_seen": "2026-09-23T14:04:42.387Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.25",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 5035,
-        "unique_usernames": 4464,
-        "unique_passwords": 3274,
+        "attempt_count": 5054,
+        "unique_usernames": 4480,
+        "unique_passwords": 3285,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:03.906Z",
-        "last_seen": "2026-09-23T14:01:04.491Z",
+        "last_seen": "2026-09-23T14:32:24.926Z",
         "success_count": 0
       },
       {
@@ -1462,28 +1462,28 @@
         "ip": "77.91.71.23",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 5059,
-        "unique_usernames": 4521,
-        "unique_passwords": 3270,
+        "attempt_count": 5061,
+        "unique_usernames": 4522,
+        "unique_passwords": 3272,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:29.615Z",
-        "last_seen": "2026-09-23T14:01:28.932Z",
+        "last_seen": "2026-09-23T14:04:42.387Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.25",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 5035,
-        "unique_usernames": 4464,
-        "unique_passwords": 3274,
+        "attempt_count": 5054,
+        "unique_usernames": 4480,
+        "unique_passwords": 3285,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:03.906Z",
-        "last_seen": "2026-09-23T14:01:04.491Z",
+        "last_seen": "2026-09-23T14:32:24.926Z",
         "success_count": 0
       },
       {
@@ -1884,18 +1884,19 @@
         ]
       },
       {
-        "username": "root",
-        "password": "root",
+        "username": "admin",
+        "password": "admin",
         "count": 28,
         "sources": [
           "fortipot:honeypot-01",
+          "ivantipot:honeypot-01",
           "sshppot:honeypot-01"
         ]
       },
       {
-        "username": "admin",
-        "password": "admin",
-        "count": 27,
+        "username": "root",
+        "password": "root",
+        "count": 28,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -1945,6 +1946,17 @@
         ]
       },
       {
+        "username": "test",
+        "password": "test",
+        "count": 21,
+        "sources": [
+          "bigippot:honeypot-01",
+          "fortipot:honeypot-01",
+          "ivantipot:honeypot-01",
+          "sshppot:honeypot-01"
+        ]
+      },
+      {
         "username": "root",
         "password": "12345678",
         "count": 21,
@@ -1966,15 +1978,6 @@
         "username": "admin",
         "password": "1234",
         "count": 20,
-        "sources": [
-          "fortipot:honeypot-01",
-          "sshppot:honeypot-01"
-        ]
-      },
-      {
-        "username": "test",
-        "password": "test",
-        "count": 19,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2300,7 +2303,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 70103
+      "count": 70124
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2320,8 +2323,8 @@
     }
   ],
   "method_counts": {
-    "POST": 72535,
-    "GET": 33101,
+    "POST": 72574,
+    "GET": 33125,
     "SSH": 1382,
     "HEAD": 80,
     "PRI": 47,
@@ -2344,7 +2347,7 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 69577
+      "count": 69598
     },
     {
       "path": "/",
@@ -2359,12 +2362,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 883
+      "count": 887
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 466
+      "count": 469
     },
     {
       "path": "/logincheck",
@@ -2387,14 +2390,14 @@
       "count": 161
     },
     {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
+      "path": "/",
+      "source": "ivantipot:honeypot-01",
       "count": 155
     },
     {
-      "path": "/",
-      "source": "ivantipot:honeypot-01",
-      "count": 150
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
+      "count": 155
     },
     {
       "path": "/",
@@ -2596,7 +2599,7 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "PL",
       "ip_count": 8,
-      "event_count": 31508
+      "event_count": 31529
     },
     {
       "asn": "AS210328",
@@ -2643,9 +2646,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "GB",
-      "ip_count": 75,
-      "event_count": 604
+      "country": "US",
+      "ip_count": 76,
+      "event_count": 605
     },
     {
       "asn": "AS218785",
@@ -2686,8 +2689,8 @@
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "ip_count": 11,
-      "event_count": 334
+      "ip_count": 12,
+      "event_count": 335
     },
     {
       "asn": "AS29244",
@@ -2714,8 +2717,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 101,
-      "event_count": 246
+      "ip_count": 102,
+      "event_count": 247
     },
     {
       "asn": "AS209334",
@@ -2745,9 +2748,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "GB",
+      "country": "US",
       "score": 66.01,
-      "event_count": 604,
+      "event_count": 605,
       "credential_events": 247,
       "cve_events": 6
     },
@@ -2756,8 +2759,8 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "PL",
       "score": 60.0,
-      "event_count": 31508,
-      "credential_events": 31501,
+      "event_count": 31529,
+      "credential_events": 31522,
       "cve_events": 0
     },
     {
@@ -2896,15 +2899,6 @@
       "cve_events": 0
     },
     {
-      "asn": "AS150462",
-      "name": "PT Air Lintas Komunikasi",
-      "country": "ID",
-      "score": 30.1,
-      "event_count": 49,
-      "credential_events": 0,
-      "cve_events": 42
-    },
-    {
       "asn": "AS154115",
       "name": "KANHALABS-ORG",
       "country": "IN",
@@ -2912,16 +2906,24 @@
       "event_count": 49,
       "credential_events": 0,
       "cve_events": 42
+    },
+    {
+      "asn": "AS202660",
+      "name": "Uzbektelekom Joint Stock Company",
+      "country": "UZ",
+      "score": 30.1,
+      "event_count": 49,
+      "credential_events": 0,
+      "cve_events": 42
     }
   ],
   "events_by_country": {
-    "NL": 39786,
-    "PL": 32425,
+    "NL": 39787,
+    "PL": 32446,
     "BE": 7153,
-    "US": 2027,
-    "DE": 1630,
+    "US": 2654,
+    "DE": 1651,
     "BG": 951,
-    "GB": 692,
     "SE": 510,
     "CA": 358,
     "CN": 254,
@@ -2934,9 +2936,10 @@
     "FR": 98,
     "IN": 92,
     "KR": 92,
+    "GB": 88,
     "SI": 84,
     "BR": 67,
-    "RO": 65,
+    "RO": 63,
     "ID": 57,
     "VN": 55,
     "FI": 54,
