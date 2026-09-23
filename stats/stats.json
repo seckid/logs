@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T20:04:18.975547Z",
+  "generated_at": "2026-09-23T21:03:18.962105Z",
   "period_days": 90,
-  "total_events": 108657,
-  "unique_ips": 1605,
+  "total_events": 108678,
+  "unique_ips": 1614,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,14 +14,14 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "panospot:honeypot-01": 155,
+    "panospot:honeypot-01": 163,
     "ivantipot:honeypot-01": 871,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 70819,
-    "bigippot:honeypot-01": 12009,
+    "fortipot:honeypot-01": 70820,
+    "bigippot:honeypot-01": 12019,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 23182
+    "front:honeypot-01": 23184
   },
   "events_per_day": {
     "2026-08-28": {
@@ -192,12 +192,12 @@
       "total": 12614
     },
     "2026-09-23": {
-      "front:honeypot-01": 1359,
-      "fortipot:honeypot-01": 3730,
-      "bigippot:honeypot-01": 405,
+      "front:honeypot-01": 1361,
+      "fortipot:honeypot-01": 3731,
+      "bigippot:honeypot-01": 415,
       "ivantipot:honeypot-01": 58,
-      "panospot:honeypot-01": 7,
-      "total": 5559
+      "panospot:honeypot-01": 15,
+      "total": 5580
     }
   },
   "top_credentials": [
@@ -2324,7 +2324,7 @@
   ],
   "method_counts": {
     "POST": 72582,
-    "GET": 33326,
+    "GET": 33339,
     "SSH": 1382,
     "HEAD": 80,
     "PRI": 47,
@@ -2362,12 +2362,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 893
+      "count": 897
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 471
+      "count": 472
     },
     {
       "path": "/logincheck",
@@ -2382,7 +2382,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 169
+      "count": 170
     },
     {
       "path": "/.git/config",
@@ -2390,14 +2390,14 @@
       "count": 162
     },
     {
-      "path": "/",
-      "source": "ivantipot:honeypot-01",
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
       "count": 156
     },
     {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
-      "count": 155
+      "path": "/",
+      "source": "ivantipot:honeypot-01",
+      "count": 156
     },
     {
       "path": "/",
@@ -2647,8 +2647,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 76,
-      "event_count": 605
+      "ip_count": 78,
+      "event_count": 607
     },
     {
       "asn": "AS218785",
@@ -2750,7 +2750,7 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "score": 66.01,
-      "event_count": 605,
+      "event_count": 607,
       "credential_events": 247,
       "cve_events": 6
     },
@@ -2918,14 +2918,14 @@
     }
   ],
   "events_by_country": {
-    "NL": 39788,
+    "NL": 39789,
     "PL": 32449,
-    "US": 9987,
+    "US": 10144,
     "DE": 1686,
     "BG": 951,
     "SE": 510,
-    "CA": 376,
     "MY": 250,
+    "CA": 237,
     "CN": 212,
     "HK": 192,
     "NG": 179,
@@ -2946,7 +2946,7 @@
     "SG": 40,
     "RU": 38,
     "CH": 36,
-    "NO": 26,
+    "NO": 27,
     "MA": 23,
     "VE": 9,
     "HU": 8,
