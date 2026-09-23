@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T11:01:06.188688Z",
+  "generated_at": "2026-09-23T12:04:53.987903Z",
   "period_days": 90,
   "asns": [
     {
@@ -55,9 +55,9 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "PL",
       "score": 60.0,
-      "event_count": 31245,
+      "event_count": 31363,
       "ip_count": 8,
-      "credential_events": 31238,
+      "credential_events": 31356,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -65,7 +65,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=31238",
+        "credential_events=31356",
         "multi_honeypot=2"
       ]
     },
@@ -154,16 +154,16 @@
       "name": "AO ALMAZ",
       "country": "NL",
       "score": 50.0,
-      "event_count": 27003,
+      "event_count": 27042,
       "ip_count": 5,
-      "credential_events": 27003,
+      "credential_events": 27042,
       "cve_events": 0,
       "honeypots": [
         "fortipot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=27003"
+        "credential_events=27042"
       ]
     },
     {
@@ -220,6 +220,26 @@
       "reasons": [
         "cve_events=42",
         "multi_honeypot=3"
+      ]
+    },
+    {
+      "asn": "AS36352",
+      "name": "HostPapa",
+      "country": "US",
+      "score": 41.61,
+      "event_count": 56,
+      "ip_count": 3,
+      "credential_events": 3,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=3",
+        "cve_events=42",
+        "multi_honeypot=2"
       ]
     },
     {
@@ -285,8 +305,8 @@
       "name": "Google LLC",
       "country": "BE",
       "score": 31.0,
-      "event_count": 6875,
-      "ip_count": 112,
+      "event_count": 7152,
+      "ip_count": 113,
       "credential_events": 2,
       "cve_events": 0,
       "honeypots": [
@@ -794,6 +814,27 @@
       ]
     },
     {
+      "asn": "AS398705",
+      "name": "Censys, Inc.",
+      "country": "DE",
+      "score": 20.09,
+      "event_count": 45,
+      "ip_count": 5,
+      "credential_events": 0,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "multi_honeypot=4",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS213790",
       "name": "Limited Network LTD",
       "country": "LT",
@@ -925,26 +966,6 @@
       ]
     },
     {
-      "asn": "AS398705",
-      "name": "Censys, Inc.",
-      "country": "DE",
-      "score": 15.08,
-      "event_count": 38,
-      "ip_count": 4,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=3",
-        "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
       "asn": "AS398722",
       "name": "Censys, Inc.",
       "country": "HK",
@@ -962,25 +983,6 @@
       "reasons": [
         "multi_honeypot=3",
         "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS14987",
-      "name": "Rethem Hosting LLC",
-      "country": "US",
-      "score": 15.06,
-      "event_count": 30,
-      "ip_count": 21,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=3"
       ]
     }
   ]
