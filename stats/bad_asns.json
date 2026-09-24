@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T10:00:56.748976Z",
+  "generated_at": "2026-09-24T11:02:54.293183Z",
   "period_days": 90,
   "asns": [
     {
@@ -188,7 +188,7 @@
       "name": "TechTies Inc.",
       "country": "NL",
       "score": 45.66,
-      "event_count": 80,
+      "event_count": 81,
       "ip_count": 7,
       "credential_events": 71,
       "cve_events": 0,
@@ -303,10 +303,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "FI",
       "score": 31.0,
-      "event_count": 7316,
-      "ip_count": 121,
+      "event_count": 7368,
+      "ip_count": 122,
       "credential_events": 2,
       "cve_events": 0,
       "honeypots": [
@@ -321,6 +321,26 @@
         "credential_events=2",
         "multi_honeypot=5",
         "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
+      "asn": "AS213790",
+      "name": "Limited Network LTD",
+      "country": "NL",
+      "score": 30.33,
+      "event_count": 165,
+      "ip_count": 16,
+      "credential_events": 30,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=30",
+        "multi_honeypot=3"
       ]
     },
     {
@@ -585,7 +605,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 21.51,
-      "event_count": 503,
+      "event_count": 504,
       "ip_count": 108,
       "credential_events": 1,
       "cve_events": 0,
@@ -876,25 +896,6 @@
       ]
     },
     {
-      "asn": "AS213790",
-      "name": "Limited Network LTD",
-      "country": "NL",
-      "score": 19.31,
-      "event_count": 153,
-      "ip_count": 4,
-      "credential_events": 18,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=18",
-        "multi_honeypot=2"
-      ]
-    },
-    {
       "asn": "AS36903",
       "name": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
       "country": "MA",
@@ -911,6 +912,26 @@
       "reasons": [
         "credential_events=18",
         "multi_honeypot=2"
+      ]
+    },
+    {
+      "asn": "AS208137",
+      "name": "Feo Prest SRL",
+      "country": "DE",
+      "score": 17.28,
+      "event_count": 891,
+      "ip_count": 5,
+      "credential_events": 1,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=1",
+        "multi_honeypot=3"
       ]
     },
     {
@@ -965,26 +986,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=32"
-      ]
-    },
-    {
-      "asn": "AS63949",
-      "name": "Akamai Connected Cloud",
-      "country": "GB",
-      "score": 15.3,
-      "event_count": 150,
-      "ip_count": 34,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=3",
-        "research_or_cloud_with_hostile_density"
       ]
     }
   ]
