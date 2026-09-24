@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-24T05:04:14.763548Z",
+  "generated_at": "2026-09-24T06:03:51.984648Z",
   "period_days": 90,
-  "total_events": 109377,
-  "unique_ips": 1651,
+  "total_events": 109408,
+  "unique_ips": 1658,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
   ],
   "totals_by_source": {
     "panospot:honeypot-01": 163,
-    "ivantipot:honeypot-01": 896,
+    "ivantipot:honeypot-01": 898,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 70852,
-    "bigippot:honeypot-01": 12230,
+    "bigippot:honeypot-01": 12258,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 23615
+    "front:honeypot-01": 23616
   },
   "events_per_day": {
     "2026-08-28": {
@@ -201,10 +201,10 @@
     },
     "2026-09-24": {
       "fortipot:honeypot-01": 32,
-      "bigippot:honeypot-01": 167,
-      "front:honeypot-01": 351,
-      "ivantipot:honeypot-01": 24,
-      "total": 574
+      "bigippot:honeypot-01": 195,
+      "front:honeypot-01": 352,
+      "ivantipot:honeypot-01": 26,
+      "total": 605
     }
   },
   "top_credentials": [
@@ -2322,16 +2322,16 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 3024
+      "count": 3027
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "count": 2993
+      "count": 2995
     }
   ],
   "method_counts": {
     "POST": 72603,
-    "GET": 33972,
+    "GET": 33985,
     "SSH": 1382,
     "HEAD": 81,
     "PRI": 52,
@@ -2369,12 +2369,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 923
+      "count": 927
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 488
+      "count": 490
     },
     {
       "path": "/logincheck",
@@ -2384,7 +2384,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 176
+      "count": 177
     },
     {
       "path": "/.env",
@@ -2404,7 +2404,7 @@
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 161
+      "count": 162
     },
     {
       "path": "/favicon.ico",
@@ -2668,8 +2668,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 106,
-      "event_count": 501
+      "ip_count": 108,
+      "event_count": 503
     },
     {
       "asn": "AS203861",
@@ -2906,15 +2906,6 @@
       "cve_events": 0
     },
     {
-      "asn": "AS206134",
-      "name": "NEKOBYTE INTERNATIONAL LIMITED",
-      "country": "DE",
-      "score": 30.1,
-      "event_count": 49,
-      "credential_events": 0,
-      "cve_events": 42
-    },
-    {
       "asn": "AS154115",
       "name": "KANHALABS-ORG",
       "country": "IN",
@@ -2922,24 +2913,33 @@
       "event_count": 49,
       "credential_events": 0,
       "cve_events": 42
+    },
+    {
+      "asn": "AS202660",
+      "name": "Uzbektelekom Joint Stock Company",
+      "country": "UZ",
+      "score": 30.1,
+      "event_count": 49,
+      "credential_events": 0,
+      "cve_events": 42
     }
   ],
   "events_by_country": {
-    "NL": 39948,
+    "NL": 39949,
     "PL": 32542,
     "BE": 7158,
-    "US": 3431,
+    "US": 3243,
     "DE": 1598,
     "BG": 951,
     "SE": 513,
+    "GB": 370,
     "CA": 251,
-    "GB": 220,
-    "CN": 213,
+    "CN": 215,
     "HK": 204,
     "NG": 179,
+    "FR": 144,
     "KZ": 139,
     "PK": 104,
-    "FR": 99,
     "IN": 93,
     "KR": 92,
     "SI": 84,
