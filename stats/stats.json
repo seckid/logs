@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-24T02:04:14.197969Z",
+  "generated_at": "2026-09-24T03:04:19.024294Z",
   "period_days": 90,
-  "total_events": 108880,
-  "unique_ips": 1637,
+  "total_events": 109221,
+  "unique_ips": 1640,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
   ],
   "totals_by_source": {
     "panospot:honeypot-01": 163,
-    "ivantipot:honeypot-01": 883,
+    "ivantipot:honeypot-01": 895,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 70834,
-    "bigippot:honeypot-01": 12091,
+    "fortipot:honeypot-01": 70835,
+    "bigippot:honeypot-01": 12096,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 23288
+    "front:honeypot-01": 23611
   },
   "events_per_day": {
     "2026-08-28": {
@@ -200,11 +200,11 @@
       "total": 5705
     },
     "2026-09-24": {
-      "fortipot:honeypot-01": 14,
-      "bigippot:honeypot-01": 28,
-      "front:honeypot-01": 24,
-      "ivantipot:honeypot-01": 11,
-      "total": 77
+      "fortipot:honeypot-01": 15,
+      "bigippot:honeypot-01": 33,
+      "front:honeypot-01": 347,
+      "ivantipot:honeypot-01": 23,
+      "total": 418
     }
   },
   "top_credentials": [
@@ -601,12 +601,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 71217,
-      "unique_ips": 412,
+      "attempt_count": 71219,
+      "unique_ips": 413,
       "unique_pairs": 69979,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 71217
+      "unknown_outcome_count": 71219
     },
     "top_source_ips": [
       {
@@ -2314,7 +2314,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 5440
+      "count": 5444
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2326,19 +2326,19 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "count": 2992
+      "count": 2993
     }
   ],
   "method_counts": {
-    "POST": 72584,
-    "GET": 33529,
+    "POST": 72603,
+    "GET": 33845,
     "SSH": 1382,
-    "HEAD": 80,
-    "PRI": 49,
+    "HEAD": 81,
+    "PRI": 50,
     "PROPFIND": 37,
     "OPTIONS": 15,
+    "DELETE": 9,
     "HEARTBEAT": 8,
-    "DELETE": 8,
     "SSTP_DUPLEX_POST": 8,
     "T3": 4,
     "CONNECT": 3,
@@ -2364,17 +2364,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1222
+      "count": 1224
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 910
+      "count": 913
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 481
+      "count": 483
     },
     {
       "path": "/logincheck",
@@ -2382,19 +2382,24 @@
       "count": 335
     },
     {
+      "path": "/.env",
+      "source": "front:honeypot-01",
+      "count": 175
+    },
+    {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
       "count": 175
     },
     {
-      "path": "/.env",
-      "source": "front:honeypot-01",
-      "count": 172
-    },
-    {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 162
+      "count": 163
+    },
+    {
+      "path": "/",
+      "source": "ivantipot:honeypot-01",
+      "count": 160
     },
     {
       "path": "/favicon.ico",
@@ -2403,13 +2408,8 @@
     },
     {
       "path": "/",
-      "source": "ivantipot:honeypot-01",
-      "count": 158
-    },
-    {
-      "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 156
+      "count": 157
     },
     {
       "path": "/favicon.ico",
@@ -2439,17 +2439,17 @@
     {
       "path": "/wp-json/batch/v1",
       "source": "front:honeypot-01",
-      "count": 91
+      "count": 92
     },
     {
       "path": "/.env.production",
       "source": "front:honeypot-01",
-      "count": 83
+      "count": 84
     },
     {
       "path": "/.env.local",
       "source": "front:honeypot-01",
-      "count": 80
+      "count": 81
     }
   ],
   "cve_attempts": [
@@ -2662,7 +2662,7 @@
       "name": "TC DATACENTER LIMITED",
       "country": "PL",
       "ip_count": 8,
-      "event_count": 571
+      "event_count": 573
     },
     {
       "asn": "AS8075",
@@ -2704,7 +2704,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 12,
-      "event_count": 335
+      "event_count": 337
     },
     {
       "asn": "AS29244",
@@ -2925,17 +2925,17 @@
     }
   ],
   "events_by_country": {
-    "NL": 40553,
-    "PL": 32451,
+    "NL": 40555,
+    "PL": 32453,
     "BE": 7156,
-    "US": 2794,
+    "US": 2795,
     "DE": 1598,
     "BG": 951,
     "SE": 510,
     "CA": 237,
     "GB": 220,
-    "CN": 212,
-    "HK": 192,
+    "CN": 213,
+    "HK": 204,
     "NG": 179,
     "KZ": 139,
     "PK": 104,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T02:04:14.197969Z",
+  "generated_at": "2026-09-24T03:04:19.024294Z",
   "period_days": 90,
   "asns": [
     {
@@ -672,7 +672,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 20.67,
-      "event_count": 335,
+      "event_count": 337,
       "ip_count": 12,
       "credential_events": 0,
       "cve_events": 0,
@@ -754,8 +754,8 @@
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 20.36,
-      "event_count": 182,
+      "score": 20.37,
+      "event_count": 183,
       "ip_count": 43,
       "credential_events": 0,
       "cve_events": 0,
@@ -814,6 +814,27 @@
       ]
     },
     {
+      "asn": "AS398722",
+      "name": "Censys, Inc.",
+      "country": "HK",
+      "score": 20.1,
+      "event_count": 48,
+      "ip_count": 7,
+      "credential_events": 0,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "multi_honeypot=4",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS398705",
       "name": "Censys, Inc.",
       "country": "DE",
@@ -832,6 +853,26 @@
       "reasons": [
         "multi_honeypot=4",
         "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
+      "asn": "AS45090",
+      "name": "Shenzhen Tencent Computer Systems Company Limited",
+      "country": "CN",
+      "score": 20.03,
+      "event_count": 13,
+      "ip_count": 3,
+      "credential_events": 10,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=10",
+        "multi_honeypot=3"
       ]
     },
     {
@@ -944,44 +985,6 @@
       "reasons": [
         "multi_honeypot=3",
         "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS51396",
-      "name": "Pfcloud UG",
-      "country": "NL",
-      "score": 15.25,
-      "event_count": 123,
-      "ip_count": 8,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS43357",
-      "name": "Owl Limited",
-      "country": "GB",
-      "score": 15.07,
-      "event_count": 37,
-      "ip_count": 2,
-      "credential_events": 10,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=10",
-        "multi_honeypot=2"
       ]
     }
   ]
