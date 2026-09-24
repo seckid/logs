@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T13:01:04.239960Z",
+  "generated_at": "2026-09-24T14:03:52.910829Z",
   "period_days": 90,
   "asns": [
     {
@@ -93,10 +93,10 @@
       "asn": "AS213790",
       "name": "Limited Network LTD",
       "country": "NL",
-      "score": 55.55,
-      "event_count": 273,
+      "score": 55.68,
+      "event_count": 341,
       "ip_count": 20,
-      "credential_events": 138,
+      "credential_events": 206,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -105,7 +105,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=138",
+        "credential_events=206",
         "multi_honeypot=3"
       ]
     },
@@ -380,23 +380,6 @@
       ]
     },
     {
-      "asn": "AS154115",
-      "name": "KANHALABS-ORG",
-      "country": "IN",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
       "asn": "AS202660",
       "name": "Uzbektelekom Joint Stock Company",
       "country": "UZ",
@@ -414,9 +397,9 @@
       ]
     },
     {
-      "asn": "AS63023",
-      "name": "GTHost",
-      "country": "US",
+      "asn": "AS154115",
+      "name": "KANHALABS-ORG",
+      "country": "IN",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -434,6 +417,23 @@
       "asn": "AS59257",
       "name": "CMPak Limited",
       "country": "PK",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
+      "asn": "AS63023",
+      "name": "GTHost",
+      "country": "US",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -555,6 +555,26 @@
       "reasons": [
         "credential_events=5",
         "multi_honeypot=5"
+      ]
+    },
+    {
+      "asn": "AS208137",
+      "name": "Feo Prest SRL",
+      "country": "DE",
+      "score": 22.3,
+      "event_count": 901,
+      "ip_count": 5,
+      "credential_events": 11,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=11",
+        "multi_honeypot=3"
       ]
     },
     {
@@ -767,6 +787,27 @@
       ]
     },
     {
+      "asn": "AS16509",
+      "name": "Amazon.com, Inc.",
+      "country": "GB",
+      "score": 20.38,
+      "event_count": 189,
+      "ip_count": 44,
+      "credential_events": 0,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "multi_honeypot=4",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS10439",
       "name": "CariNet, Inc.",
       "country": "US",
@@ -785,27 +826,6 @@
       "ai_threat_level": null,
       "reasons": [
         "multi_honeypot=5"
-      ]
-    },
-    {
-      "asn": "AS16509",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 20.37,
-      "event_count": 187,
-      "ip_count": 43,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=4",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -828,26 +848,6 @@
       "reasons": [
         "multi_honeypot=5",
         "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS208137",
-      "name": "Feo Prest SRL",
-      "country": "DE",
-      "score": 20.29,
-      "event_count": 897,
-      "ip_count": 5,
-      "credential_events": 7,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=7",
-        "multi_honeypot=3"
       ]
     },
     {
