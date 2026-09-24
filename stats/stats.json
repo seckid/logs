@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-24T11:02:54.293183Z",
+  "generated_at": "2026-09-24T12:01:19.591967Z",
   "period_days": 90,
-  "total_events": 109764,
-  "unique_ips": 1688,
+  "total_events": 109912,
+  "unique_ips": 1699,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
   ],
   "totals_by_source": {
     "panospot:honeypot-01": 163,
-    "ivantipot:honeypot-01": 901,
+    "ivantipot:honeypot-01": 913,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 70879,
-    "bigippot:honeypot-01": 12516,
+    "fortipot:honeypot-01": 70943,
+    "bigippot:honeypot-01": 12586,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 23684
+    "front:honeypot-01": 23686
   },
   "events_per_day": {
     "2026-08-28": {
@@ -200,11 +200,11 @@
       "total": 5705
     },
     "2026-09-24": {
-      "fortipot:honeypot-01": 59,
-      "bigippot:honeypot-01": 453,
-      "front:honeypot-01": 420,
-      "ivantipot:honeypot-01": 29,
-      "total": 961
+      "fortipot:honeypot-01": 123,
+      "bigippot:honeypot-01": 523,
+      "front:honeypot-01": 422,
+      "ivantipot:honeypot-01": 41,
+      "total": 1109
     }
   },
   "top_credentials": [
@@ -221,7 +221,7 @@
     {
       "username": "admin",
       "password": "admin",
-      "count": 29
+      "count": 30
     },
     {
       "username": "root",
@@ -244,6 +244,11 @@
       "count": 24
     },
     {
+      "username": "test",
+      "password": "test",
+      "count": 24
+    },
+    {
       "username": "admin",
       "password": "password",
       "count": 23
@@ -251,11 +256,6 @@
     {
       "username": "root",
       "password": "admin",
-      "count": 22
-    },
-    {
-      "username": "test",
-      "password": "test",
       "count": 22
     },
     {
@@ -429,6 +429,16 @@
       "count": 5
     },
     {
+      "username": "dfgdfg",
+      "password": "sdfsdf",
+      "count": 5
+    },
+    {
+      "username": "gdfgd",
+      "password": "fgdfg",
+      "count": 5
+    },
+    {
       "username": "test",
       "password": "12345678",
       "count": 4
@@ -447,38 +457,28 @@
       "username": "root",
       "password": "1234",
       "count": 4
-    },
-    {
-      "username": "root",
-      "password": "12345",
-      "count": 4
-    },
-    {
-      "username": "user",
-      "password": "1",
-      "count": 4
     }
   ],
   "top_usernames": [
     {
       "username": "root",
-      "count": 279
+      "count": 275
+    },
+    {
+      "username": "admin",
+      "count": 163
     },
     {
       "username": "support",
       "count": 162
     },
     {
-      "username": "admin",
-      "count": 162
-    },
-    {
       "username": "user",
-      "count": 56
+      "count": 52
     },
     {
       "username": "test",
-      "count": 31
+      "count": 33
     },
     {
       "username": "telecomadmin",
@@ -515,6 +515,14 @@
     {
       "username": "debian",
       "count": 7
+    },
+    {
+      "username": "dfgdfg",
+      "count": 5
+    },
+    {
+      "username": "gdfgd",
+      "count": 5
     }
   ],
   "top_passwords": [
@@ -532,7 +540,7 @@
     },
     {
       "password": "admin",
-      "count": 51
+      "count": 52
     },
     {
       "password": "1234",
@@ -560,7 +568,7 @@
     },
     {
       "password": "test",
-      "count": 22
+      "count": 24
     },
     {
       "password": "123456",
@@ -601,12 +609,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 71232,
-      "unique_ips": 426,
-      "unique_pairs": 69984,
+      "attempt_count": 71298,
+      "unique_ips": 434,
+      "unique_pairs": 70039,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 71232
+      "unknown_outcome_count": 71298
     },
     "top_source_ips": [
       {
@@ -1893,7 +1901,7 @@
       {
         "username": "admin",
         "password": "admin",
-        "count": 29,
+        "count": 30,
         "sources": [
           "fortipot:honeypot-01",
           "ivantipot:honeypot-01",
@@ -1936,6 +1944,17 @@
         ]
       },
       {
+        "username": "test",
+        "password": "test",
+        "count": 24,
+        "sources": [
+          "bigippot:honeypot-01",
+          "fortipot:honeypot-01",
+          "ivantipot:honeypot-01",
+          "sshppot:honeypot-01"
+        ]
+      },
+      {
         "username": "admin",
         "password": "password",
         "count": 23,
@@ -1949,17 +1968,6 @@
         "password": "admin",
         "count": 22,
         "sources": [
-          "sshppot:honeypot-01"
-        ]
-      },
-      {
-        "username": "test",
-        "password": "test",
-        "count": 22,
-        "sources": [
-          "bigippot:honeypot-01",
-          "fortipot:honeypot-01",
-          "ivantipot:honeypot-01",
           "sshppot:honeypot-01"
         ]
       },
@@ -2253,6 +2261,26 @@
         ]
       },
       {
+        "username": "dfgdfg",
+        "password": "sdfsdf",
+        "count": 5,
+        "sources": [
+          "bigippot:honeypot-01",
+          "fortipot:honeypot-01",
+          "ivantipot:honeypot-01"
+        ]
+      },
+      {
+        "username": "gdfgd",
+        "password": "fgdfg",
+        "count": 5,
+        "sources": [
+          "bigippot:honeypot-01",
+          "fortipot:honeypot-01",
+          "ivantipot:honeypot-01"
+        ]
+      },
+      {
         "username": "test",
         "password": "12345678",
         "count": 4,
@@ -2286,31 +2314,13 @@
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
         ]
-      },
-      {
-        "username": "root",
-        "password": "12345",
-        "count": 4,
-        "sources": [
-          "fortipot:honeypot-01",
-          "sshppot:honeypot-01"
-        ]
-      },
-      {
-        "username": "user",
-        "password": "1",
-        "count": 4,
-        "sources": [
-          "fortipot:honeypot-01",
-          "sshppot:honeypot-01"
-        ]
       }
     ]
   },
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 70166
+      "count": 70223
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2330,11 +2340,11 @@
     }
   ],
   "method_counts": {
-    "POST": 72619,
-    "GET": 34305,
+    "POST": 72698,
+    "GET": 34372,
     "SSH": 1382,
     "HEAD": 83,
-    "PRI": 53,
+    "PRI": 54,
     "PROPFIND": 38,
     "OPTIONS": 15,
     "DELETE": 9,
@@ -2354,7 +2364,7 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 69612
+      "count": 69669
     },
     {
       "path": "/",
@@ -2369,12 +2379,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 946
+      "count": 950
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 500
+      "count": 503
     },
     {
       "path": "/logincheck",
@@ -2392,23 +2402,23 @@
       "count": 177
     },
     {
-      "path": "/.git/config",
-      "source": "front:honeypot-01",
-      "count": 164
+      "path": "/",
+      "source": "ivantipot:honeypot-01",
+      "count": 167
     },
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 164
+      "count": 166
+    },
+    {
+      "path": "/.git/config",
+      "source": "front:honeypot-01",
+      "count": 166
     },
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 163
-    },
-    {
-      "path": "/",
-      "source": "ivantipot:honeypot-01",
       "count": 163
     },
     {
@@ -2455,7 +2465,7 @@
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 1240,
+      "count": 1277,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -2482,7 +2492,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 291,
+      "count": 301,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -2598,7 +2608,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1553
+    "Critical": 1600
   },
   "top_asns": [
     {
@@ -2634,7 +2644,7 @@
       "name": "Feo Prest SRL",
       "country": "DE",
       "ip_count": 5,
-      "event_count": 891
+      "event_count": 894
     },
     {
       "asn": "AS218785",
@@ -2661,15 +2671,15 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 81,
-      "event_count": 614
+      "ip_count": 82,
+      "event_count": 615
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 108,
-      "event_count": 504
+      "ip_count": 109,
+      "event_count": 505
     },
     {
       "asn": "AS203861",
@@ -2757,7 +2767,7 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "score": 66.03,
-      "event_count": 614,
+      "event_count": 615,
       "credential_events": 247,
       "cve_events": 6
     },
@@ -2777,6 +2787,15 @@
       "score": 55.69,
       "event_count": 344,
       "credential_events": 336,
+      "cve_events": 0
+    },
+    {
+      "asn": "AS213790",
+      "name": "Limited Network LTD",
+      "country": "NL",
+      "score": 55.43,
+      "event_count": 216,
+      "credential_events": 81,
       "cve_events": 0
     },
     {
@@ -2888,15 +2907,6 @@
       "cve_events": 0
     },
     {
-      "asn": "AS213790",
-      "name": "Limited Network LTD",
-      "country": "NL",
-      "score": 30.33,
-      "event_count": 165,
-      "credential_events": 30,
-      "cve_events": 0
-    },
-    {
       "asn": "AS197556",
       "name": "Kar-Tel LLC",
       "country": "KZ",
@@ -2925,21 +2935,21 @@
     }
   ],
   "events_by_country": {
-    "NL": 40027,
+    "NL": 40078,
     "PL": 32339,
     "FI": 7422,
-    "US": 3270,
-    "DE": 1560,
+    "US": 3305,
+    "DE": 1563,
     "BG": 951,
     "SE": 513,
     "GB": 372,
     "FR": 354,
     "CA": 253,
     "CN": 215,
-    "HK": 204,
+    "HK": 211,
     "NG": 179,
+    "PK": 153,
     "KZ": 139,
-    "PK": 104,
     "IN": 93,
     "KR": 92,
     "SI": 84,
