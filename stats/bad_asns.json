@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T14:05:16.014152Z",
+  "generated_at": "2026-09-25T15:00:51.842987Z",
   "period_days": 90,
   "asns": [
     {
@@ -285,10 +285,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "BE",
       "score": 40.8,
-      "event_count": 7763,
-      "ip_count": 147,
+      "event_count": 7877,
+      "ip_count": 148,
       "credential_events": 12,
       "cve_events": 6,
       "honeypots": [
@@ -579,6 +579,26 @@
       ]
     },
     {
+      "asn": "AS212238",
+      "name": "Datacamp Limited",
+      "country": "DE",
+      "score": 22.62,
+      "event_count": 59,
+      "ip_count": 4,
+      "credential_events": 15,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=15",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS41280",
       "name": "SKYNET BULGARIA Ltd.",
       "country": "BG",
@@ -643,8 +663,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 21.54,
-      "event_count": 520,
-      "ip_count": 120,
+      "event_count": 521,
+      "ip_count": 121,
       "credential_events": 1,
       "cve_events": 0,
       "honeypots": [
@@ -746,6 +766,28 @@
       ]
     },
     {
+      "asn": "AS398324",
+      "name": "Censys, Inc.",
+      "country": "US",
+      "score": 20.53,
+      "event_count": 267,
+      "ip_count": 35,
+      "credential_events": 0,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "multi_honeypot=5",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS209334",
       "name": "Modat B.V.",
       "country": "CA",
@@ -763,28 +805,6 @@
       "ai_threat_level": null,
       "reasons": [
         "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS398324",
-      "name": "Censys, Inc.",
-      "country": "US",
-      "score": 20.51,
-      "event_count": 255,
-      "ip_count": 34,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=5",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -813,8 +833,8 @@
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 20.41,
-      "event_count": 207,
+      "score": 20.42,
+      "event_count": 209,
       "ip_count": 46,
       "credential_events": 0,
       "cve_events": 0,
@@ -911,26 +931,6 @@
       "reasons": [
         "multi_honeypot=4",
         "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS212238",
-      "name": "Datacamp Limited",
-      "country": "NL",
-      "score": 20.08,
-      "event_count": 41,
-      "ip_count": 3,
-      "credential_events": 10,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=10",
-        "multi_honeypot=3"
       ]
     },
     {
