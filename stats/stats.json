@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T15:00:51.842987Z",
+  "generated_at": "2026-09-25T16:04:19.151570Z",
   "period_days": 90,
-  "total_events": 113659,
-  "unique_ips": 1842,
+  "total_events": 113677,
+  "unique_ips": 1847,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,14 +14,14 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "panospot:honeypot-01": 183,
+    "panospot:honeypot-01": 187,
     "ivantipot:honeypot-01": 1084,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 72420,
-    "bigippot:honeypot-01": 13702,
+    "fortipot:honeypot-01": 72421,
+    "bigippot:honeypot-01": 13714,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 24649
+    "front:honeypot-01": 24650
   },
   "events_per_day": {
     "2026-08-28": {
@@ -207,12 +207,12 @@
       "total": 2574
     },
     "2026-09-25": {
-      "panospot:honeypot-01": 20,
+      "panospot:honeypot-01": 24,
       "ivantipot:honeypot-01": 115,
-      "fortipot:honeypot-01": 945,
-      "front:honeypot-01": 571,
-      "bigippot:honeypot-01": 631,
-      "total": 2282
+      "fortipot:honeypot-01": 946,
+      "front:honeypot-01": 572,
+      "bigippot:honeypot-01": 643,
+      "total": 2300
     }
   },
   "top_credentials": [
@@ -2349,7 +2349,7 @@
   ],
   "method_counts": {
     "POST": 74116,
-    "GET": 36463,
+    "GET": 36471,
     "SSH": 1382,
     "HEAD": 83,
     "PRI": 59,
@@ -2388,12 +2388,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1026
+      "count": 1027
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 557
+      "count": 558
     },
     {
       "path": "/logincheck",
@@ -2647,9 +2647,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
-      "ip_count": 148,
-      "event_count": 7877
+      "country": "US",
+      "ip_count": 150,
+      "event_count": 7880
     },
     {
       "asn": "AS213790",
@@ -2683,8 +2683,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 88,
-      "event_count": 630
+      "ip_count": 89,
+      "event_count": 631
     },
     {
       "asn": "AS41280",
@@ -2757,11 +2757,11 @@
       "event_count": 267
     },
     {
-      "asn": "AS45102",
-      "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "US",
-      "ip_count": 48,
-      "event_count": 264
+      "asn": "AS209334",
+      "name": "Modat B.V.",
+      "country": "CA",
+      "ip_count": 29,
+      "event_count": 265
     }
   ],
   "bad_asns": [
@@ -2779,7 +2779,7 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "score": 66.06,
-      "event_count": 630,
+      "event_count": 631,
       "credential_events": 247,
       "cve_events": 6
     },
@@ -2894,9 +2894,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "US",
       "score": 40.8,
-      "event_count": 7877,
+      "event_count": 7880,
       "credential_events": 12,
       "cve_events": 6
     },
@@ -2949,16 +2949,15 @@
   "events_by_country": {
     "NL": 41344,
     "PL": 32344,
-    "BE": 7877,
-    "US": 3371,
+    "US": 11252,
     "DE": 1781,
     "BG": 951,
     "SE": 513,
     "HK": 420,
-    "GB": 395,
+    "CA": 374,
     "FR": 360,
     "JP": 307,
-    "CA": 265,
+    "GB": 300,
     "CN": 221,
     "PK": 153,
     "KZ": 139,
