@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T10:04:56.352275Z",
+  "generated_at": "2026-09-25T11:03:18.191683Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,7 +7,7 @@
       "name": "Alibaba (US) Technology Co., Ltd.",
       "country": "US",
       "score": 90.03,
-      "event_count": 263,
+      "event_count": 264,
       "ip_count": 48,
       "credential_events": 79,
       "cve_events": 67,
@@ -73,10 +73,10 @@
       "asn": "AS213790",
       "name": "Limited Network LTD",
       "country": "NL",
-      "score": 57.29,
-      "event_count": 1146,
+      "score": 57.44,
+      "event_count": 1221,
       "ip_count": 20,
-      "credential_events": 1011,
+      "credential_events": 1086,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -85,7 +85,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=1011",
+        "credential_events=1086",
         "multi_honeypot=3"
       ]
     },
@@ -204,6 +204,26 @@
       ]
     },
     {
+      "asn": "AS208137",
+      "name": "Feo Prest SRL",
+      "country": "DE",
+      "score": 47.4,
+      "event_count": 951,
+      "ip_count": 5,
+      "credential_events": 61,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=61",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS197170",
       "name": "TechTies Inc.",
       "country": "NL",
@@ -243,26 +263,6 @@
       ]
     },
     {
-      "asn": "AS208137",
-      "name": "Feo Prest SRL",
-      "country": "DE",
-      "score": 45.39,
-      "event_count": 947,
-      "ip_count": 5,
-      "credential_events": 57,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=57",
-        "multi_honeypot=3"
-      ]
-    },
-    {
       "asn": "AS36352",
       "name": "HostPapa",
       "country": "US",
@@ -280,6 +280,30 @@
         "credential_events=3",
         "cve_events=42",
         "multi_honeypot=2"
+      ]
+    },
+    {
+      "asn": "AS396982",
+      "name": "Google LLC",
+      "country": "US",
+      "score": 40.8,
+      "event_count": 7763,
+      "ip_count": 147,
+      "credential_events": 12,
+      "cve_events": 6,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=12",
+        "cve_events=6",
+        "multi_honeypot=5",
+        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -338,30 +362,6 @@
       "reasons": [
         "credential_events=32",
         "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS396982",
-      "name": "Google LLC",
-      "country": "US",
-      "score": 33.6,
-      "event_count": 7641,
-      "ip_count": 129,
-      "credential_events": 4,
-      "cve_events": 2,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=4",
-        "cve_events=2",
-        "multi_honeypot=5",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -792,8 +792,8 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "score": 20.45,
-      "event_count": 225,
-      "ip_count": 77,
+      "event_count": 227,
+      "ip_count": 78,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
