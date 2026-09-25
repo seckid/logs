@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T22:02:04.640344Z",
+  "generated_at": "2026-09-25T23:01:46.050870Z",
   "period_days": 90,
-  "total_events": 113962,
+  "total_events": 113965,
   "unique_ips": 1872,
   "honeypots": [
     "bigippot:honeypot-01",
@@ -19,9 +19,9 @@
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 72438,
-    "bigippot:honeypot-01": 13892,
+    "bigippot:honeypot-01": 13894,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 24740
+    "front:honeypot-01": 24741
   },
   "events_per_day": {
     "2026-08-28": {
@@ -210,9 +210,9 @@
       "panospot:honeypot-01": 24,
       "ivantipot:honeypot-01": 115,
       "fortipot:honeypot-01": 963,
-      "front:honeypot-01": 662,
-      "bigippot:honeypot-01": 821,
-      "total": 2585
+      "front:honeypot-01": 663,
+      "bigippot:honeypot-01": 823,
+      "total": 2588
     }
   },
   "top_credentials": [
@@ -2332,7 +2332,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 5734
+      "count": 5736
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -2349,7 +2349,7 @@
   ],
   "method_counts": {
     "POST": 74119,
-    "GET": 36737,
+    "GET": 36740,
     "SSH": 1382,
     "HEAD": 84,
     "PRI": 59,
@@ -2388,12 +2388,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1041
+      "count": 1042
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 563
+      "count": 564
     },
     {
       "path": "/logincheck",
@@ -2401,14 +2401,14 @@
       "count": 335
     },
     {
-      "path": "/",
-      "source": "fortipot:honeypot-01",
+      "path": "/robots.txt",
+      "source": "front:honeypot-01",
       "count": 190
     },
     {
-      "path": "/robots.txt",
-      "source": "front:honeypot-01",
-      "count": 189
+      "path": "/",
+      "source": "fortipot:honeypot-01",
+      "count": 190
     },
     {
       "path": "/.env",
@@ -2446,13 +2446,13 @@
       "count": 104
     },
     {
-      "path": "/logo.svg",
-      "source": "front:honeypot-01",
+      "path": "/remote/logincheck",
+      "source": "bigippot:honeypot-01",
       "count": 98
     },
     {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
+      "path": "/logo.svg",
+      "source": "front:honeypot-01",
       "count": 98
     },
     {
@@ -2677,7 +2677,7 @@
       "name": "TC DATACENTER LIMITED",
       "country": "PL",
       "ip_count": 8,
-      "event_count": 674
+      "event_count": 676
     },
     {
       "asn": "AS14061",
@@ -2948,9 +2948,9 @@
   ],
   "events_by_country": {
     "NL": 41494,
-    "PL": 32348,
+    "PL": 32350,
     "US": 10881,
-    "DE": 2533,
+    "DE": 2534,
     "BG": 951,
     "SE": 513,
     "HK": 420,
