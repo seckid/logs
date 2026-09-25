@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T02:02:19.028861Z",
+  "generated_at": "2026-09-25T03:00:33.631581Z",
   "period_days": 90,
-  "total_events": 111422,
-  "unique_ips": 1770,
+  "total_events": 111449,
+  "unique_ips": 1773,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,8 +18,8 @@
     "ivantipot:honeypot-01": 990,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 71475,
-    "bigippot:honeypot-01": 13086,
+    "fortipot:honeypot-01": 71479,
+    "bigippot:honeypot-01": 13109,
     "sshppot:honeypot-01": 1383,
     "front:honeypot-01": 24087
   },
@@ -169,48 +169,49 @@
       "total": 10456
     },
     "2026-09-20": {
-      "panospot:honeypot-01": 1,
       "ivantipot:honeypot-01": 25,
+      "panospot:honeypot-01": 1,
       "fortipot:honeypot-01": 10602,
       "bigippot:honeypot-01": 469,
       "front:honeypot-01": 1148,
       "total": 12245
     },
     "2026-09-21": {
-      "fortipot:honeypot-01": 11338,
-      "ivantipot:honeypot-01": 82,
-      "bigippot:honeypot-01": 585,
-      "front:honeypot-01": 2333,
       "panospot:honeypot-01": 10,
+      "fortipot:honeypot-01": 11338,
+      "front:honeypot-01": 2333,
+      "bigippot:honeypot-01": 585,
+      "ivantipot:honeypot-01": 82,
       "total": 14348
     },
     "2026-09-22": {
-      "fortipot:honeypot-01": 10501,
-      "bigippot:honeypot-01": 646,
       "front:honeypot-01": 1395,
+      "bigippot:honeypot-01": 646,
+      "fortipot:honeypot-01": 10501,
       "ivantipot:honeypot-01": 72,
       "total": 12614
     },
     "2026-09-23": {
-      "front:honeypot-01": 1441,
       "bigippot:honeypot-01": 459,
-      "fortipot:honeypot-01": 3731,
+      "front:honeypot-01": 1441,
       "ivantipot:honeypot-01": 59,
       "panospot:honeypot-01": 15,
+      "fortipot:honeypot-01": 3731,
       "total": 5705
     },
     "2026-09-24": {
-      "ivantipot:honeypot-01": 97,
-      "front:honeypot-01": 814,
-      "bigippot:honeypot-01": 1008,
       "fortipot:honeypot-01": 655,
+      "bigippot:honeypot-01": 1008,
+      "front:honeypot-01": 814,
+      "ivantipot:honeypot-01": 97,
       "total": 2574
     },
     "2026-09-25": {
+      "fortipot:honeypot-01": 4,
       "ivantipot:honeypot-01": 21,
       "front:honeypot-01": 9,
-      "bigippot:honeypot-01": 15,
-      "total": 45
+      "bigippot:honeypot-01": 38,
+      "total": 72
     }
   },
   "top_credentials": [
@@ -2347,7 +2348,7 @@
   ],
   "method_counts": {
     "POST": 73187,
-    "GET": 35283,
+    "GET": 35297,
     "SSH": 1382,
     "HEAD": 83,
     "PRI": 54,
@@ -2385,12 +2386,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 967
+      "count": 969
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 515
+      "count": 516
     },
     {
       "path": "/logincheck",
@@ -2410,7 +2411,7 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 174
+      "count": 176
     },
     {
       "path": "/",
@@ -2443,13 +2444,13 @@
       "count": 104
     },
     {
-      "path": "/logo.svg",
-      "source": "front:honeypot-01",
+      "path": "/remote/logincheck",
+      "source": "bigippot:honeypot-01",
       "count": 98
     },
     {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
+      "path": "/logo.svg",
+      "source": "front:honeypot-01",
       "count": 98
     },
     {
@@ -2684,16 +2685,16 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 84,
-      "event_count": 618
+      "country": "AU",
+      "ip_count": 85,
+      "event_count": 619
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 115,
-      "event_count": 513
+      "ip_count": 116,
+      "event_count": 514
     },
     {
       "asn": "AS203861",
@@ -2756,7 +2757,7 @@
       "name": "Modat B.V.",
       "country": "CA",
       "ip_count": 28,
-      "event_count": 249
+      "event_count": 261
     }
   ],
   "bad_asns": [
@@ -2772,9 +2773,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
+      "country": "AU",
       "score": 66.04,
-      "event_count": 618,
+      "event_count": 619,
       "credential_events": 247,
       "cve_events": 6
     },
@@ -2808,9 +2809,9 @@
     {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "US",
-      "score": 50.38,
-      "event_count": 192,
+      "country": "TW",
+      "score": 50.41,
+      "event_count": 203,
       "credential_events": 0,
       "cve_events": 84
     },
@@ -2945,16 +2946,18 @@
     "NL": 40419,
     "PL": 32339,
     "SG": 7421,
-    "US": 3417,
+    "US": 2610,
     "DE": 1610,
     "BG": 951,
+    "AU": 625,
     "SE": 513,
     "GB": 395,
     "FR": 356,
     "JP": 306,
-    "CA": 253,
+    "CA": 265,
     "CN": 219,
     "HK": 211,
+    "TW": 208,
     "PK": 153,
     "KZ": 139,
     "IN": 93,
@@ -2975,9 +2978,7 @@
     "VE": 9,
     "HU": 8,
     "ZA": 8,
-    "AU": 6,
     "UA": 6,
-    "TW": 5,
     "BD": 4,
     "LV": 4,
     "TH": 4,
