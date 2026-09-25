@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T18:04:19.399782Z",
+  "generated_at": "2026-09-25T19:00:19.154686Z",
   "period_days": 90,
-  "total_events": 113853,
-  "unique_ips": 1861,
+  "total_events": 113948,
+  "unique_ips": 1864,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,10 +18,10 @@
     "ivantipot:honeypot-01": 1084,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 72425,
-    "bigippot:honeypot-01": 13882,
+    "fortipot:honeypot-01": 72436,
+    "bigippot:honeypot-01": 13886,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 24654
+    "front:honeypot-01": 24734
   },
   "events_per_day": {
     "2026-08-28": {
@@ -209,10 +209,10 @@
     "2026-09-25": {
       "panospot:honeypot-01": 24,
       "ivantipot:honeypot-01": 115,
-      "fortipot:honeypot-01": 950,
-      "front:honeypot-01": 576,
-      "bigippot:honeypot-01": 811,
-      "total": 2476
+      "fortipot:honeypot-01": 961,
+      "front:honeypot-01": 656,
+      "bigippot:honeypot-01": 815,
+      "total": 2571
     }
   },
   "top_credentials": [
@@ -2332,7 +2332,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 5732
+      "count": 5734
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -2340,7 +2340,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 3404
+      "count": 3482
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2349,7 +2349,7 @@
   ],
   "method_counts": {
     "POST": 74119,
-    "GET": 36640,
+    "GET": 36724,
     "SSH": 1382,
     "HEAD": 84,
     "PRI": 59,
@@ -2383,17 +2383,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1257
+      "count": 1258
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1038
+      "count": 1040
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 562
+      "count": 563
     },
     {
       "path": "/logincheck",
@@ -2401,14 +2401,14 @@
       "count": 335
     },
     {
-      "path": "/",
-      "source": "fortipot:honeypot-01",
-      "count": 187
-    },
-    {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 187
+      "count": 188
+    },
+    {
+      "path": "/",
+      "source": "fortipot:honeypot-01",
+      "count": 188
     },
     {
       "path": "/.env",
@@ -2649,7 +2649,7 @@
       "name": "Google LLC",
       "country": "BE",
       "ip_count": 151,
-      "event_count": 7881
+      "event_count": 7882
     },
     {
       "asn": "AS213790",
@@ -2677,14 +2677,14 @@
       "name": "TC DATACENTER LIMITED",
       "country": "PL",
       "ip_count": 8,
-      "event_count": 672
+      "event_count": 674
     },
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "DE",
-      "ip_count": 92,
-      "event_count": 642
+      "ip_count": 93,
+      "event_count": 643
     },
     {
       "asn": "AS41280",
@@ -2694,18 +2694,18 @@
       "event_count": 621
     },
     {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "ip_count": 121,
+      "event_count": 599
+    },
+    {
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
       "ip_count": 102,
       "event_count": 522
-    },
-    {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 121,
-      "event_count": 521
     },
     {
       "asn": "AS203861",
@@ -2778,8 +2778,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "DE",
-      "score": 66.08,
-      "event_count": 642,
+      "score": 66.09,
+      "event_count": 643,
       "credential_events": 247,
       "cve_events": 6
     },
@@ -2896,7 +2896,7 @@
       "name": "Google LLC",
       "country": "BE",
       "score": 40.8,
-      "event_count": 7881,
+      "event_count": 7882,
       "credential_events": 12,
       "cve_events": 6
     },
@@ -2948,17 +2948,17 @@
   ],
   "events_by_country": {
     "NL": 41494,
-    "PL": 32346,
-    "BE": 7881,
-    "US": 2747,
-    "DE": 2424,
+    "PL": 32348,
+    "BE": 7882,
+    "US": 2826,
+    "DE": 2532,
     "BG": 951,
     "SE": 513,
     "HK": 420,
-    "CA": 374,
     "FR": 361,
+    "GB": 310,
     "JP": 307,
-    "GB": 300,
+    "CA": 269,
     "CN": 221,
     "PK": 153,
     "KZ": 139,

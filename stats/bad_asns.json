@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T18:04:19.399782Z",
+  "generated_at": "2026-09-25T19:00:19.154686Z",
   "period_days": 90,
   "asns": [
     {
@@ -29,9 +29,9 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "DE",
-      "score": 66.08,
-      "event_count": 642,
-      "ip_count": 92,
+      "score": 66.09,
+      "event_count": 643,
+      "ip_count": 93,
       "credential_events": 247,
       "cve_events": 6,
       "honeypots": [
@@ -287,7 +287,7 @@
       "name": "Google LLC",
       "country": "BE",
       "score": 40.8,
-      "event_count": 7881,
+      "event_count": 7882,
       "ip_count": 151,
       "credential_events": 12,
       "cve_events": 6,
@@ -621,6 +621,30 @@
       ]
     },
     {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "score": 21.7,
+      "event_count": 599,
+      "ip_count": 121,
+      "credential_events": 1,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=1",
+        "multi_honeypot=6",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS213412",
       "name": "ONYPHE SAS",
       "country": "FR",
@@ -656,30 +680,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=43"
-      ]
-    },
-    {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "score": 21.54,
-      "event_count": 521,
-      "ip_count": 121,
-      "credential_events": 1,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=1",
-        "multi_honeypot=6",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -726,10 +726,10 @@
     {
       "asn": "AS16276",
       "name": "OVH SAS",
-      "country": "CA",
+      "country": "DE",
       "score": 20.71,
-      "event_count": 105,
-      "ip_count": 29,
+      "event_count": 107,
+      "ip_count": 31,
       "credential_events": 1,
       "cve_events": 0,
       "honeypots": [
@@ -834,7 +834,7 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "score": 20.42,
-      "event_count": 209,
+      "event_count": 210,
       "ip_count": 46,
       "credential_events": 0,
       "cve_events": 0,
