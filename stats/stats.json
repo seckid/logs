@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-26T17:03:46.223080Z",
+  "generated_at": "2026-09-26T18:00:19.017345Z",
   "period_days": 90,
-  "total_events": 116603,
-  "unique_ips": 1986,
+  "total_events": 116669,
+  "unique_ips": 1990,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,10 +18,10 @@
     "ivantipot:honeypot-01": 1159,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 73509,
-    "bigippot:honeypot-01": 14840,
+    "fortipot:honeypot-01": 73526,
+    "bigippot:honeypot-01": 14888,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 25263
+    "front:honeypot-01": 25264
   },
   "events_per_day": {
     "2026-08-28": {
@@ -215,12 +215,12 @@
       "total": 2666
     },
     "2026-09-26": {
-      "fortipot:honeypot-01": 1063,
-      "bigippot:honeypot-01": 943,
-      "front:honeypot-01": 455,
+      "fortipot:honeypot-01": 1080,
+      "bigippot:honeypot-01": 991,
+      "front:honeypot-01": 456,
       "panospot:honeypot-01": 24,
       "ivantipot:honeypot-01": 75,
-      "total": 2560
+      "total": 2626
     }
   },
   "top_credentials": [
@@ -625,12 +625,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 73662,
+      "attempt_count": 73678,
       "unique_ips": 445,
-      "unique_pairs": 72266,
+      "unique_pairs": 72282,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 73662
+      "unknown_outcome_count": 73678
     },
     "top_source_ips": [
       {
@@ -945,70 +945,98 @@
         "ip": "213.209.159.110",
         "asn": "AS208137",
         "asn_name": "Feo Prest SRL",
-        "attempt_count": 124,
+        "attempt_count": 125,
         "unique_usernames": 10,
-        "unique_passwords": 65,
+        "unique_passwords": 66,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-24T10:19:56.654Z",
-        "last_seen": "2026-09-26T16:54:50.948Z",
+        "last_seen": "2026-09-26T17:11:37.506Z",
         "success_count": 0
       },
       {
         "ip": "172.94.9.242",
         "asn": "AS213790",
         "asn_name": "Limited Network LTD",
-        "attempt_count": 124,
+        "attempt_count": 125,
         "unique_usernames": 10,
-        "unique_passwords": 65,
+        "unique_passwords": 66,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-24T10:19:58.672Z",
-        "last_seen": "2026-09-26T16:52:12.255Z",
+        "last_seen": "2026-09-26T17:08:46.796Z",
         "success_count": 0
       },
       {
         "ip": "192.253.248.105",
         "asn": "AS213790",
         "asn_name": "Limited Network LTD",
-        "attempt_count": 124,
+        "attempt_count": 125,
         "unique_usernames": 9,
-        "unique_passwords": 64,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-09-24T10:20:09.622Z",
-        "last_seen": "2026-09-26T17:03:12.559Z",
-        "success_count": 0
-      },
-      {
-        "ip": "192.253.248.106",
-        "asn": "AS213790",
-        "asn_name": "Limited Network LTD",
-        "attempt_count": 123,
-        "unique_usernames": 10,
         "unique_passwords": 65,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
-        "first_seen": "2026-09-24T10:20:08.419Z",
-        "last_seen": "2026-09-26T17:03:31.576Z",
+        "first_seen": "2026-09-24T10:20:09.622Z",
+        "last_seen": "2026-09-26T17:19:49.955Z",
         "success_count": 0
       },
       {
         "ip": "172.94.9.46",
         "asn": "AS213790",
         "asn_name": "Limited Network LTD",
-        "attempt_count": 122,
+        "attempt_count": 124,
         "unique_usernames": 9,
-        "unique_passwords": 63,
+        "unique_passwords": 65,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-24T10:20:04.473Z",
-        "last_seen": "2026-09-26T16:49:11.113Z",
+        "last_seen": "2026-09-26T17:22:18.041Z",
+        "success_count": 0
+      },
+      {
+        "ip": "192.253.248.106",
+        "asn": "AS213790",
+        "asn_name": "Limited Network LTD",
+        "attempt_count": 124,
+        "unique_usernames": 10,
+        "unique_passwords": 66,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-09-24T10:20:08.419Z",
+        "last_seen": "2026-09-26T17:20:05.732Z",
+        "success_count": 0
+      },
+      {
+        "ip": "192.253.248.108",
+        "asn": "AS213790",
+        "asn_name": "Limited Network LTD",
+        "attempt_count": 122,
+        "unique_usernames": 9,
+        "unique_passwords": 65,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-09-24T10:20:15.688Z",
+        "last_seen": "2026-09-26T17:25:02.856Z",
+        "success_count": 0
+      },
+      {
+        "ip": "172.94.9.187",
+        "asn": "AS213790",
+        "asn_name": "Limited Network LTD",
+        "attempt_count": 122,
+        "unique_usernames": 10,
+        "unique_passwords": 65,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-09-24T10:20:43.581Z",
+        "last_seen": "2026-09-26T17:56:37.539Z",
         "success_count": 0
       },
       {
@@ -1043,84 +1071,56 @@
         "ip": "192.253.248.100",
         "asn": "AS213790",
         "asn_name": "Limited Network LTD",
-        "attempt_count": 121,
+        "attempt_count": 122,
         "unique_usernames": 8,
-        "unique_passwords": 64,
+        "unique_passwords": 65,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-24T11:26:00.139Z",
-        "last_seen": "2026-09-26T16:50:22.044Z",
+        "last_seen": "2026-09-26T17:07:12.957Z",
         "success_count": 0
       },
       {
         "ip": "192.253.248.112",
         "asn": "AS213790",
         "asn_name": "Limited Network LTD",
-        "attempt_count": 121,
+        "attempt_count": 122,
         "unique_usernames": 8,
-        "unique_passwords": 61,
+        "unique_passwords": 62,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-24T11:26:02.128Z",
-        "last_seen": "2026-09-26T16:49:52.129Z",
+        "last_seen": "2026-09-26T17:06:40.486Z",
         "success_count": 0
       },
       {
         "ip": "192.253.248.111",
         "asn": "AS213790",
         "asn_name": "Limited Network LTD",
-        "attempt_count": 121,
+        "attempt_count": 122,
         "unique_usernames": 8,
-        "unique_passwords": 64,
+        "unique_passwords": 65,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-24T11:26:04.876Z",
-        "last_seen": "2026-09-26T16:53:56.893Z",
+        "last_seen": "2026-09-26T17:10:58.226Z",
         "success_count": 0
       },
       {
         "ip": "192.253.248.110",
         "asn": "AS213790",
         "asn_name": "Limited Network LTD",
-        "attempt_count": 121,
+        "attempt_count": 122,
         "unique_usernames": 8,
-        "unique_passwords": 64,
+        "unique_passwords": 65,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-24T11:26:05.797Z",
-        "last_seen": "2026-09-26T16:53:39.272Z",
-        "success_count": 0
-      },
-      {
-        "ip": "192.253.248.108",
-        "asn": "AS213790",
-        "asn_name": "Limited Network LTD",
-        "attempt_count": 120,
-        "unique_usernames": 9,
-        "unique_passwords": 63,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-09-24T10:20:15.688Z",
-        "last_seen": "2026-09-26T16:51:19.119Z",
-        "success_count": 0
-      },
-      {
-        "ip": "172.94.9.187",
-        "asn": "AS213790",
-        "asn_name": "Limited Network LTD",
-        "attempt_count": 118,
-        "unique_usernames": 10,
-        "unique_passwords": 61,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-09-24T10:20:43.581Z",
-        "last_seen": "2026-09-26T16:46:55.974Z",
+        "last_seen": "2026-09-26T17:10:42.501Z",
         "success_count": 0
       },
       {
@@ -1647,70 +1647,98 @@
         "ip": "213.209.159.110",
         "asn": "AS208137",
         "asn_name": "Feo Prest SRL",
-        "attempt_count": 124,
+        "attempt_count": 125,
         "unique_usernames": 10,
-        "unique_passwords": 65,
+        "unique_passwords": 66,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-24T10:19:56.654Z",
-        "last_seen": "2026-09-26T16:54:50.948Z",
+        "last_seen": "2026-09-26T17:11:37.506Z",
         "success_count": 0
       },
       {
         "ip": "172.94.9.242",
         "asn": "AS213790",
         "asn_name": "Limited Network LTD",
-        "attempt_count": 124,
+        "attempt_count": 125,
         "unique_usernames": 10,
-        "unique_passwords": 65,
+        "unique_passwords": 66,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-24T10:19:58.672Z",
-        "last_seen": "2026-09-26T16:52:12.255Z",
+        "last_seen": "2026-09-26T17:08:46.796Z",
         "success_count": 0
       },
       {
         "ip": "192.253.248.105",
         "asn": "AS213790",
         "asn_name": "Limited Network LTD",
-        "attempt_count": 124,
+        "attempt_count": 125,
         "unique_usernames": 9,
-        "unique_passwords": 64,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-09-24T10:20:09.622Z",
-        "last_seen": "2026-09-26T17:03:12.559Z",
-        "success_count": 0
-      },
-      {
-        "ip": "192.253.248.106",
-        "asn": "AS213790",
-        "asn_name": "Limited Network LTD",
-        "attempt_count": 123,
-        "unique_usernames": 10,
         "unique_passwords": 65,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
-        "first_seen": "2026-09-24T10:20:08.419Z",
-        "last_seen": "2026-09-26T17:03:31.576Z",
+        "first_seen": "2026-09-24T10:20:09.622Z",
+        "last_seen": "2026-09-26T17:19:49.955Z",
         "success_count": 0
       },
       {
         "ip": "172.94.9.46",
         "asn": "AS213790",
         "asn_name": "Limited Network LTD",
-        "attempt_count": 122,
+        "attempt_count": 124,
         "unique_usernames": 9,
-        "unique_passwords": 63,
+        "unique_passwords": 65,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-24T10:20:04.473Z",
-        "last_seen": "2026-09-26T16:49:11.113Z",
+        "last_seen": "2026-09-26T17:22:18.041Z",
+        "success_count": 0
+      },
+      {
+        "ip": "192.253.248.106",
+        "asn": "AS213790",
+        "asn_name": "Limited Network LTD",
+        "attempt_count": 124,
+        "unique_usernames": 10,
+        "unique_passwords": 66,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-09-24T10:20:08.419Z",
+        "last_seen": "2026-09-26T17:20:05.732Z",
+        "success_count": 0
+      },
+      {
+        "ip": "192.253.248.108",
+        "asn": "AS213790",
+        "asn_name": "Limited Network LTD",
+        "attempt_count": 122,
+        "unique_usernames": 9,
+        "unique_passwords": 65,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-09-24T10:20:15.688Z",
+        "last_seen": "2026-09-26T17:25:02.856Z",
+        "success_count": 0
+      },
+      {
+        "ip": "172.94.9.187",
+        "asn": "AS213790",
+        "asn_name": "Limited Network LTD",
+        "attempt_count": 122,
+        "unique_usernames": 10,
+        "unique_passwords": 65,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-09-24T10:20:43.581Z",
+        "last_seen": "2026-09-26T17:56:37.539Z",
         "success_count": 0
       },
       {
@@ -1745,84 +1773,56 @@
         "ip": "192.253.248.100",
         "asn": "AS213790",
         "asn_name": "Limited Network LTD",
-        "attempt_count": 121,
+        "attempt_count": 122,
         "unique_usernames": 8,
-        "unique_passwords": 64,
+        "unique_passwords": 65,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-24T11:26:00.139Z",
-        "last_seen": "2026-09-26T16:50:22.044Z",
+        "last_seen": "2026-09-26T17:07:12.957Z",
         "success_count": 0
       },
       {
         "ip": "192.253.248.112",
         "asn": "AS213790",
         "asn_name": "Limited Network LTD",
-        "attempt_count": 121,
+        "attempt_count": 122,
         "unique_usernames": 8,
-        "unique_passwords": 61,
+        "unique_passwords": 62,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-24T11:26:02.128Z",
-        "last_seen": "2026-09-26T16:49:52.129Z",
+        "last_seen": "2026-09-26T17:06:40.486Z",
         "success_count": 0
       },
       {
         "ip": "192.253.248.111",
         "asn": "AS213790",
         "asn_name": "Limited Network LTD",
-        "attempt_count": 121,
+        "attempt_count": 122,
         "unique_usernames": 8,
-        "unique_passwords": 64,
+        "unique_passwords": 65,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-24T11:26:04.876Z",
-        "last_seen": "2026-09-26T16:53:56.893Z",
+        "last_seen": "2026-09-26T17:10:58.226Z",
         "success_count": 0
       },
       {
         "ip": "192.253.248.110",
         "asn": "AS213790",
         "asn_name": "Limited Network LTD",
-        "attempt_count": 121,
+        "attempt_count": 122,
         "unique_usernames": 8,
-        "unique_passwords": 64,
+        "unique_passwords": 65,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-09-24T11:26:05.797Z",
-        "last_seen": "2026-09-26T16:53:39.272Z",
-        "success_count": 0
-      },
-      {
-        "ip": "192.253.248.108",
-        "asn": "AS213790",
-        "asn_name": "Limited Network LTD",
-        "attempt_count": 120,
-        "unique_usernames": 9,
-        "unique_passwords": 63,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-09-24T10:20:15.688Z",
-        "last_seen": "2026-09-26T16:51:19.119Z",
-        "success_count": 0
-      },
-      {
-        "ip": "172.94.9.187",
-        "asn": "AS213790",
-        "asn_name": "Limited Network LTD",
-        "attempt_count": 118,
-        "unique_usernames": 10,
-        "unique_passwords": 61,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-09-24T10:20:43.581Z",
-        "last_seen": "2026-09-26T16:46:55.974Z",
+        "last_seen": "2026-09-26T17:10:42.501Z",
         "success_count": 0
       },
       {
@@ -2337,7 +2337,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 72566
+      "count": 72582
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2357,8 +2357,8 @@
     }
   ],
   "method_counts": {
-    "POST": 75128,
-    "GET": 38212,
+    "POST": 75144,
+    "GET": 38262,
     "SSH": 1382,
     "HEAD": 85,
     "PRI": 63,
@@ -2382,7 +2382,7 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 71997
+      "count": 72013
     },
     {
       "path": "/",
@@ -2397,12 +2397,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1111
+      "count": 1112
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 619
+      "count": 620
     },
     {
       "path": "/logincheck",
@@ -2412,7 +2412,7 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 199
+      "count": 200
     },
     {
       "path": "/robots.txt",
@@ -2425,13 +2425,13 @@
       "count": 190
     },
     {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
+      "path": "/.env",
+      "source": "front:honeypot-01",
       "count": 186
     },
     {
-      "path": "/.env",
-      "source": "front:honeypot-01",
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
       "count": 186
     },
     {
@@ -2452,7 +2452,7 @@
     {
       "path": "/remote/login",
       "source": "bigippot:honeypot-01",
-      "count": 105
+      "count": 106
     },
     {
       "path": "/logo.svg",
@@ -2662,22 +2662,22 @@
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "US",
-      "ip_count": 174,
-      "event_count": 8187
+      "ip_count": 175,
+      "event_count": 8188
     },
     {
       "asn": "AS213790",
       "name": "Limited Network LTD",
       "country": "NL",
       "ip_count": 21,
-      "event_count": 2448
+      "event_count": 2463
     },
     {
       "asn": "AS208137",
       "name": "Feo Prest SRL",
       "country": "DE",
       "ip_count": 5,
-      "event_count": 1014
+      "event_count": 1015
     },
     {
       "asn": "AS202412",
@@ -2774,8 +2774,8 @@
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
       "country": "US",
-      "ip_count": 49,
-      "event_count": 279
+      "ip_count": 52,
+      "event_count": 282
     }
   ],
   "bad_asns": [
@@ -2784,7 +2784,7 @@
       "name": "Alibaba (US) Technology Co., Ltd.",
       "country": "US",
       "score": 90.06,
-      "event_count": 279,
+      "event_count": 282,
       "credential_events": 79,
       "cve_events": 67
     },
@@ -2810,9 +2810,9 @@
       "asn": "AS213790",
       "name": "Limited Network LTD",
       "country": "NL",
-      "score": 59.9,
-      "event_count": 2448,
-      "credential_events": 2168,
+      "score": 59.93,
+      "event_count": 2463,
+      "credential_events": 2183,
       "cve_events": 0
     },
     {
@@ -2820,8 +2820,8 @@
       "name": "Feo Prest SRL",
       "country": "DE",
       "score": 57.03,
-      "event_count": 1014,
-      "credential_events": 124,
+      "event_count": 1015,
+      "credential_events": 125,
       "cve_events": 0
     },
     {
@@ -2883,7 +2883,7 @@
       "name": "Google LLC",
       "country": "US",
       "score": 48.0,
-      "event_count": 8187,
+      "event_count": 8188,
       "credential_events": 20,
       "cve_events": 10
     },
@@ -2961,10 +2961,10 @@
     }
   ],
   "events_by_country": {
-    "NL": 41812,
+    "NL": 41827,
     "PL": 32367,
-    "US": 12114,
-    "DE": 3057,
+    "US": 12163,
+    "DE": 3059,
     "BG": 965,
     "FR": 577,
     "SE": 513,
