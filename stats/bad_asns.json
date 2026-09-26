@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T11:04:21.697919Z",
+  "generated_at": "2026-09-26T12:02:19.657277Z",
   "period_days": 90,
   "asns": [
     {
@@ -73,10 +73,10 @@
       "asn": "AS213790",
       "name": "Limited Network LTD",
       "country": "NL",
-      "score": 59.19,
-      "event_count": 2093,
+      "score": 59.3,
+      "event_count": 2152,
       "ip_count": 21,
-      "credential_events": 1813,
+      "credential_events": 1872,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -85,7 +85,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=1813",
+        "credential_events=1872",
         "multi_honeypot=3"
       ]
     },
@@ -93,10 +93,10 @@
       "asn": "AS208137",
       "name": "Feo Prest SRL",
       "country": "DE",
-      "score": 56.98,
-      "event_count": 992,
+      "score": 56.99,
+      "event_count": 996,
       "ip_count": 5,
-      "credential_events": 102,
+      "credential_events": 106,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -105,7 +105,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=102",
+        "credential_events=106",
         "multi_honeypot=3"
       ]
     },
@@ -418,23 +418,6 @@
       ]
     },
     {
-      "asn": "AS154115",
-      "name": "KANHALABS-ORG",
-      "country": "IN",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
       "asn": "AS202660",
       "name": "Uzbektelekom Joint Stock Company",
       "country": "UZ",
@@ -455,6 +438,23 @@
       "asn": "AS59257",
       "name": "CMPak Limited",
       "country": "PK",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
+      "asn": "AS154115",
+      "name": "KANHALABS-ORG",
+      "country": "IN",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -684,6 +684,26 @@
       ]
     },
     {
+      "asn": "AS6939",
+      "name": "Hurricane Electric LLC",
+      "country": "US",
+      "score": 21.13,
+      "event_count": 565,
+      "ip_count": 104,
+      "credential_events": 0,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "multi_honeypot=4"
+      ]
+    },
+    {
       "asn": "AS29244",
       "name": "CETIN Bulgaria EAD",
       "country": "BG",
@@ -701,26 +721,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=1",
-        "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS6939",
-      "name": "Hurricane Electric LLC",
-      "country": "US",
-      "score": 21.07,
-      "event_count": 536,
-      "ip_count": 102,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
         "multi_honeypot=4"
       ]
     },
@@ -833,9 +833,9 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 20.43,
-      "event_count": 217,
+      "country": "DE",
+      "score": 20.44,
+      "event_count": 219,
       "ip_count": 48,
       "credential_events": 0,
       "cve_events": 0,
