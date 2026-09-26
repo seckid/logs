@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-26T20:01:19.424628Z",
+  "generated_at": "2026-09-26T21:04:19.276268Z",
   "period_days": 90,
-  "total_events": 116682,
-  "unique_ips": 1995,
+  "total_events": 116919,
+  "unique_ips": 2000,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -19,9 +19,9 @@
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 73527,
-    "bigippot:honeypot-01": 14895,
+    "bigippot:honeypot-01": 14960,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 25269
+    "front:honeypot-01": 25441
   },
   "events_per_day": {
     "2026-08-28": {
@@ -216,11 +216,11 @@
     },
     "2026-09-26": {
       "fortipot:honeypot-01": 1081,
-      "bigippot:honeypot-01": 998,
-      "front:honeypot-01": 461,
+      "bigippot:honeypot-01": 1063,
+      "front:honeypot-01": 633,
       "panospot:honeypot-01": 24,
       "ivantipot:honeypot-01": 75,
-      "total": 2639
+      "total": 2876
     }
   },
   "top_credentials": [
@@ -2344,12 +2344,12 @@
       "count": 5744
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "count": 3822
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "count": 3884
     },
     {
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 3712
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "count": 3822
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2358,7 +2358,7 @@
   ],
   "method_counts": {
     "POST": 75146,
-    "GET": 38272,
+    "GET": 38509,
     "SSH": 1382,
     "HEAD": 85,
     "PRI": 63,
@@ -2392,17 +2392,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1282
+      "count": 1283
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1116
+      "count": 1121
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 620
+      "count": 621
     },
     {
       "path": "/logincheck",
@@ -2425,13 +2425,13 @@
       "count": 190
     },
     {
-      "path": "/.env",
-      "source": "front:honeypot-01",
-      "count": 186
-    },
-    {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
+      "count": 187
+    },
+    {
+      "path": "/.env",
+      "source": "front:honeypot-01",
       "count": 186
     },
     {
@@ -2455,24 +2455,24 @@
       "count": 106
     },
     {
-      "path": "/logo.svg",
-      "source": "front:honeypot-01",
-      "count": 98
-    },
-    {
       "path": "/remote/logincheck",
       "source": "bigippot:honeypot-01",
       "count": 98
     },
     {
-      "path": "/wp-json/batch/v1",
+      "path": "/logo.svg",
       "source": "front:honeypot-01",
-      "count": 92
+      "count": 98
     },
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 91
+      "count": 92
+    },
+    {
+      "path": "/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 92
     },
     {
       "path": "/.env.production",
@@ -2680,18 +2680,18 @@
       "event_count": 1015
     },
     {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "ip_count": 131,
+      "event_count": 951
+    },
+    {
       "asn": "AS202412",
       "name": "Omegatech LTD",
       "country": "DE",
       "ip_count": 10,
       "event_count": 901
-    },
-    {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 130,
-      "event_count": 778
     },
     {
       "asn": "AS218785",
@@ -2703,9 +2703,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 105,
-      "event_count": 687
+      "country": "NL",
+      "ip_count": 106,
+      "event_count": 689
     },
     {
       "asn": "AS41280",
@@ -2722,6 +2722,13 @@
       "event_count": 577
     },
     {
+      "asn": "AS48090",
+      "name": "TECHOFF SRV LIMITED",
+      "country": "NL",
+      "ip_count": 16,
+      "event_count": 522
+    },
+    {
       "asn": "AS203861",
       "name": "Miteflux Technologies Ltd",
       "country": "SE",
@@ -2734,13 +2741,6 @@
       "country": "DE",
       "ip_count": 2,
       "event_count": 490
-    },
-    {
-      "asn": "AS48090",
-      "name": "TECHOFF SRV LIMITED",
-      "country": "NL",
-      "ip_count": 15,
-      "event_count": 465
     },
     {
       "asn": "AS31898",
@@ -2791,9 +2791,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "score": 66.17,
-      "event_count": 687,
+      "country": "NL",
+      "score": 66.18,
+      "event_count": 689,
       "credential_events": 247,
       "cve_events": 6
     },
@@ -2961,9 +2961,9 @@
     }
   ],
   "events_by_country": {
-    "NL": 41828,
+    "NL": 42574,
     "PL": 32367,
-    "US": 11889,
+    "US": 11378,
     "DE": 3060,
     "BG": 965,
     "SG": 695,
@@ -2985,7 +2985,7 @@
     "UZ": 49,
     "RU": 40,
     "CH": 39,
-    "NO": 33,
+    "NO": 34,
     "MA": 23,
     "LT": 16,
     "VE": 9,
