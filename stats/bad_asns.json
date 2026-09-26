@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T06:01:05.106854Z",
+  "generated_at": "2026-09-26T07:03:20.889517Z",
   "period_days": 90,
   "asns": [
     {
@@ -73,10 +73,10 @@
       "asn": "AS213790",
       "name": "Limited Network LTD",
       "country": "NL",
-      "score": 58.56,
-      "event_count": 1779,
+      "score": 58.69,
+      "event_count": 1846,
       "ip_count": 21,
-      "credential_events": 1499,
+      "credential_events": 1566,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -85,7 +85,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=1499",
+        "credential_events=1566",
         "multi_honeypot=3"
       ]
     },
@@ -93,10 +93,10 @@
       "asn": "AS208137",
       "name": "Feo Prest SRL",
       "country": "DE",
-      "score": 56.95,
-      "event_count": 974,
+      "score": 56.96,
+      "event_count": 978,
       "ip_count": 5,
-      "credential_events": 84,
+      "credential_events": 88,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -105,7 +105,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=84",
+        "credential_events=88",
         "multi_honeypot=3"
       ]
     },
@@ -224,6 +224,30 @@
       ]
     },
     {
+      "asn": "AS396982",
+      "name": "Google LLC",
+      "country": "US",
+      "score": 48.0,
+      "event_count": 8185,
+      "ip_count": 172,
+      "credential_events": 20,
+      "cve_events": 10,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=20",
+        "cve_events=10",
+        "multi_honeypot=5",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS31898",
       "name": "Oracle Corporation",
       "country": "SG",
@@ -280,30 +304,6 @@
         "credential_events=3",
         "cve_events=42",
         "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS396982",
-      "name": "Google LLC",
-      "country": "US",
-      "score": 40.8,
-      "event_count": 7885,
-      "ip_count": 154,
-      "credential_events": 12,
-      "cve_events": 6,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=12",
-        "cve_events=6",
-        "multi_honeypot=5",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -540,8 +540,8 @@
       "asn": "AS51167",
       "name": "Contabo GmbH",
       "country": "FR",
-      "score": 26.64,
-      "event_count": 71,
+      "score": 26.65,
+      "event_count": 73,
       "ip_count": 7,
       "credential_events": 23,
       "cve_events": 0,
@@ -625,8 +625,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 21.72,
-      "event_count": 608,
-      "ip_count": 125,
+      "event_count": 609,
+      "ip_count": 126,
       "credential_events": 1,
       "cve_events": 0,
       "honeypots": [
@@ -648,21 +648,22 @@
       "asn": "AS213412",
       "name": "ONYPHE SAS",
       "country": "FR",
-      "score": 21.7,
-      "event_count": 51,
-      "ip_count": 50,
+      "score": 21.71,
+      "event_count": 54,
+      "ip_count": 53,
       "credential_events": 0,
       "cve_events": 2,
       "honeypots": [
         "bigippot:honeypot-01",
         "fortipot:honeypot-01",
         "front:honeypot-01",
-        "ivantipot:honeypot-01"
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
         "cve_events=2",
-        "multi_honeypot=4"
+        "multi_honeypot=5"
       ]
     },
     {
@@ -724,6 +725,26 @@
       ]
     },
     {
+      "asn": "AS48090",
+      "name": "TECHOFF SRV LIMITED",
+      "country": "NL",
+      "score": 20.93,
+      "event_count": 464,
+      "ip_count": 15,
+      "credential_events": 0,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "multi_honeypot=4"
+      ]
+    },
+    {
       "asn": "AS16276",
       "name": "OVH SAS",
       "country": "DE",
@@ -743,26 +764,6 @@
         "credential_events=1",
         "multi_honeypot=4",
         "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS48090",
-      "name": "TECHOFF SRV LIMITED",
-      "country": "NL",
-      "score": 20.69,
-      "event_count": 346,
-      "ip_count": 15,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=4"
       ]
     },
     {
@@ -811,9 +812,9 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 20.47,
-      "event_count": 235,
-      "ip_count": 86,
+      "score": 20.51,
+      "event_count": 255,
+      "ip_count": 88,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
