@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T15:04:33.598618Z",
+  "generated_at": "2026-09-26T16:02:54.306328Z",
   "period_days": 90,
   "asns": [
     {
@@ -73,10 +73,10 @@
       "asn": "AS213790",
       "name": "Limited Network LTD",
       "country": "NL",
-      "score": 59.68,
-      "event_count": 2339,
+      "score": 59.81,
+      "event_count": 2404,
       "ip_count": 21,
-      "credential_events": 2059,
+      "credential_events": 2124,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -85,7 +85,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=2059",
+        "credential_events=2124",
         "multi_honeypot=3"
       ]
     },
@@ -93,10 +93,10 @@
       "asn": "AS208137",
       "name": "Feo Prest SRL",
       "country": "DE",
-      "score": 57.01,
-      "event_count": 1007,
+      "score": 57.02,
+      "event_count": 1010,
       "ip_count": 5,
-      "credential_events": 117,
+      "credential_events": 120,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -105,7 +105,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=117",
+        "credential_events=120",
         "multi_honeypot=3"
       ]
     },
@@ -401,6 +401,23 @@
       ]
     },
     {
+      "asn": "AS206134",
+      "name": "NEKOBYTE INTERNATIONAL LIMITED",
+      "country": "DE",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
       "asn": "AS202660",
       "name": "Uzbektelekom Joint Stock Company",
       "country": "UZ",
@@ -455,23 +472,6 @@
       "asn": "AS154115",
       "name": "KANHALABS-ORG",
       "country": "IN",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
-      "asn": "AS206134",
-      "name": "NEKOBYTE INTERNATIONAL LIMITED",
-      "country": "DE",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -599,11 +599,33 @@
       ]
     },
     {
+      "asn": "AS213412",
+      "name": "ONYPHE SAS",
+      "country": "US",
+      "score": 22.52,
+      "event_count": 60,
+      "ip_count": 58,
+      "credential_events": 0,
+      "cve_events": 3,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=3",
+        "multi_honeypot=5"
+      ]
+    },
+    {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 21.91,
-      "event_count": 703,
+      "event_count": 704,
       "ip_count": 129,
       "credential_events": 1,
       "cve_events": 0,
@@ -641,28 +663,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=1",
-        "multi_honeypot=5"
-      ]
-    },
-    {
-      "asn": "AS213412",
-      "name": "ONYPHE SAS",
-      "country": "FR",
-      "score": 21.72,
-      "event_count": 59,
-      "ip_count": 57,
-      "credential_events": 0,
-      "cve_events": 2,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=2",
         "multi_honeypot=5"
       ]
     },
