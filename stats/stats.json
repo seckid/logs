@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-26T01:03:19.222059Z",
+  "generated_at": "2026-09-26T02:01:19.335295Z",
   "period_days": 90,
-  "total_events": 114341,
-  "unique_ips": 1889,
+  "total_events": 114411,
+  "unique_ips": 1891,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -19,7 +19,7 @@
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 72447,
-    "bigippot:honeypot-01": 14191,
+    "bigippot:honeypot-01": 14261,
     "sshppot:honeypot-01": 1383,
     "front:honeypot-01": 24811
   },
@@ -217,8 +217,8 @@
     "2026-09-26": {
       "front:honeypot-01": 3,
       "fortipot:honeypot-01": 1,
-      "bigippot:honeypot-01": 294,
-      "total": 298
+      "bigippot:honeypot-01": 364,
+      "total": 368
     }
   },
   "top_credentials": [
@@ -2334,7 +2334,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 71577
+      "count": 71582
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2354,12 +2354,12 @@
     }
   ],
   "method_counts": {
-    "POST": 74120,
-    "GET": 37103,
+    "POST": 74122,
+    "GET": 37168,
     "SSH": 1382,
     "HEAD": 84,
     "PRI": 59,
-    "PROPFIND": 41,
+    "PROPFIND": 42,
     "OPTIONS": 17,
     "DELETE": 9,
     "HEARTBEAT": 8,
@@ -2394,12 +2394,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1049
+      "count": 1052
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 568
+      "count": 569
     },
     {
       "path": "/logincheck",
@@ -2474,7 +2474,7 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 85
+      "count": 86
     }
   ],
   "cve_attempts": [
@@ -2728,6 +2728,13 @@
       "event_count": 490
     },
     {
+      "asn": "AS31898",
+      "name": "Oracle Corporation",
+      "country": "SG",
+      "ip_count": 7,
+      "event_count": 365
+    },
+    {
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
@@ -2740,13 +2747,6 @@
       "country": "NL",
       "ip_count": 1,
       "event_count": 344
-    },
-    {
-      "asn": "AS31898",
-      "name": "Oracle Corporation",
-      "country": "JP",
-      "ip_count": 6,
-      "event_count": 303
     },
     {
       "asn": "AS29244",
@@ -2871,6 +2871,15 @@
       "cve_events": 0
     },
     {
+      "asn": "AS31898",
+      "name": "Oracle Corporation",
+      "country": "SG",
+      "score": 45.73,
+      "event_count": 365,
+      "credential_events": 0,
+      "cve_events": 42
+    },
+    {
       "asn": "AS197170",
       "name": "TechTies Inc.",
       "country": "NL",
@@ -2880,20 +2889,11 @@
       "cve_events": 0
     },
     {
-      "asn": "AS31898",
-      "name": "Oracle Corporation",
-      "country": "JP",
-      "score": 45.61,
-      "event_count": 303,
-      "credential_events": 0,
-      "cve_events": 42
-    },
-    {
       "asn": "AS36352",
       "name": "HostPapa",
       "country": "US",
-      "score": 41.61,
-      "event_count": 56,
+      "score": 41.62,
+      "event_count": 60,
       "credential_events": 3,
       "cve_events": 42
     },
@@ -2953,15 +2953,15 @@
     }
   ],
   "events_by_country": {
-    "NL": 41362,
+    "NL": 41364,
     "PL": 32351,
-    "US": 10900,
+    "US": 10906,
     "DE": 2652,
     "BG": 951,
     "FR": 625,
     "SE": 513,
     "HK": 420,
-    "JP": 307,
+    "SG": 410,
     "CA": 269,
     "CN": 223,
     "GB": 172,
@@ -2976,7 +2976,6 @@
     "VN": 55,
     "FI": 54,
     "UZ": 49,
-    "SG": 45,
     "CH": 38,
     "RU": 38,
     "NO": 32,
@@ -2989,6 +2988,7 @@
     "UA": 6,
     "BD": 5,
     "TW": 5,
+    "JP": 4,
     "LV": 4,
     "TH": 4,
     "AE": 2,

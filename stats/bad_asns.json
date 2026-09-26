@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T01:03:19.222059Z",
+  "generated_at": "2026-09-26T02:01:19.335295Z",
   "period_days": 90,
   "asns": [
     {
@@ -224,6 +224,26 @@
       ]
     },
     {
+      "asn": "AS31898",
+      "name": "Oracle Corporation",
+      "country": "SG",
+      "score": 45.73,
+      "event_count": 365,
+      "ip_count": 7,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS197170",
       "name": "TechTies Inc.",
       "country": "NL",
@@ -243,32 +263,12 @@
       ]
     },
     {
-      "asn": "AS31898",
-      "name": "Oracle Corporation",
-      "country": "JP",
-      "score": 45.61,
-      "event_count": 303,
-      "ip_count": 6,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42",
-        "multi_honeypot=3"
-      ]
-    },
-    {
       "asn": "AS36352",
       "name": "HostPapa",
       "country": "US",
-      "score": 41.61,
-      "event_count": 56,
-      "ip_count": 3,
+      "score": 41.62,
+      "event_count": 60,
+      "ip_count": 4,
       "credential_events": 3,
       "cve_events": 42,
       "honeypots": [
@@ -834,7 +834,7 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "score": 20.42,
-      "event_count": 210,
+      "event_count": 212,
       "ip_count": 46,
       "credential_events": 0,
       "cve_events": 0,
