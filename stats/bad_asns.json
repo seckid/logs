@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T01:04:24.098957Z",
+  "generated_at": "2026-09-27T02:05:19.584064Z",
   "period_days": 90,
   "asns": [
     {
@@ -28,10 +28,10 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "DE",
-      "score": 66.18,
-      "event_count": 691,
-      "ip_count": 107,
+      "country": "US",
+      "score": 66.19,
+      "event_count": 693,
+      "ip_count": 108,
       "credential_events": 247,
       "cve_events": 6,
       "honeypots": [
@@ -226,10 +226,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "FI",
+      "country": "US",
       "score": 48.0,
-      "event_count": 8190,
-      "ip_count": 176,
+      "event_count": 8191,
+      "ip_count": 177,
       "credential_events": 20,
       "cve_events": 10,
       "honeypots": [
@@ -424,6 +424,23 @@
     {
       "asn": "AS206134",
       "name": "NEKOBYTE INTERNATIONAL LIMITED",
+      "country": "DE",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
+      "asn": "AS215540",
+      "name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
       "country": "DE",
       "score": 30.1,
       "event_count": 49,
@@ -771,9 +788,9 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 20.6,
-      "event_count": 300,
-      "ip_count": 93,
+      "score": 20.64,
+      "event_count": 318,
+      "ip_count": 94,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
@@ -834,10 +851,10 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "DE",
+      "country": "GB",
       "score": 20.44,
-      "event_count": 221,
-      "ip_count": 48,
+      "event_count": 222,
+      "ip_count": 49,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
@@ -972,25 +989,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=18",
-        "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS11878",
-      "name": "tzulo, inc.",
-      "country": "US",
-      "score": 17.1,
-      "event_count": 50,
-      "ip_count": 3,
-      "credential_events": 14,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=14",
         "multi_honeypot=2"
       ]
     }
