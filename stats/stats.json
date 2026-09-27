@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T19:04:19.427470Z",
+  "generated_at": "2026-09-27T20:02:42.500362Z",
   "period_days": 90,
-  "total_events": 118843,
-  "unique_ips": 2102,
+  "total_events": 119320,
+  "unique_ips": 2107,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -14,14 +14,14 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "panospot:honeypot-01": 237,
+    "panospot:honeypot-01": 248,
     "ivantipot:honeypot-01": 1296,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 73668,
-    "bigippot:honeypot-01": 15704,
+    "fortipot:honeypot-01": 73669,
+    "bigippot:honeypot-01": 15711,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 26317
+    "front:honeypot-01": 26775
   },
   "events_per_day": {
     "2026-08-28": {
@@ -223,12 +223,12 @@
       "total": 3122
     },
     "2026-09-27": {
-      "panospot:honeypot-01": 26,
-      "bigippot:honeypot-01": 559,
+      "panospot:honeypot-01": 37,
+      "bigippot:honeypot-01": 566,
       "ivantipot:honeypot-01": 115,
-      "front:honeypot-01": 858,
-      "fortipot:honeypot-01": 120,
-      "total": 1678
+      "front:honeypot-01": 1316,
+      "fortipot:honeypot-01": 121,
+      "total": 2155
     }
   },
   "top_credentials": [
@@ -453,6 +453,11 @@
       "count": 6
     },
     {
+      "username": "(empty)",
+      "password": "bypass",
+      "count": 6
+    },
+    {
       "username": "test",
       "password": "Aa123456",
       "count": 5
@@ -476,11 +481,6 @@
       "username": "admin",
       "password": "admin1234",
       "count": 4
-    },
-    {
-      "username": "admin",
-      "password": "P@ssw0rd",
-      "count": 4
     }
   ],
   "top_usernames": [
@@ -490,7 +490,7 @@
     },
     {
       "username": "admin",
-      "count": 192
+      "count": 188
     },
     {
       "username": "support",
@@ -547,6 +547,10 @@
     {
       "username": "debian",
       "count": 7
+    },
+    {
+      "username": "(empty)",
+      "count": 6
     }
   ],
   "top_passwords": [
@@ -633,12 +637,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 73695,
+      "attempt_count": 73697,
       "unique_ips": 449,
       "unique_pairs": 72287,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 73695
+      "unknown_outcome_count": 73697
     },
     "top_source_ips": [
       {
@@ -2288,6 +2292,14 @@
         ]
       },
       {
+        "username": "(empty)",
+        "password": "bypass",
+        "count": 6,
+        "sources": [
+          "front:honeypot-01"
+        ]
+      },
+      {
         "username": "test",
         "password": "Aa123456",
         "count": 5,
@@ -2330,15 +2342,6 @@
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
         ]
-      },
-      {
-        "username": "admin",
-        "password": "P@ssw0rd",
-        "count": 4,
-        "sources": [
-          "fortipot:honeypot-01",
-          "sshppot:honeypot-01"
-        ]
       }
     ]
   },
@@ -2357,7 +2360,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "count": 3936
+      "count": 3937
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2365,15 +2368,15 @@
     }
   ],
   "method_counts": {
-    "POST": 75222,
-    "GET": 40124,
+    "POST": 75253,
+    "GET": 40555,
     "SSH": 1382,
     "HEAD": 87,
     "PRI": 67,
     "PROPFIND": 44,
     "OPTIONS": 19,
+    "DELETE": 12,
     "SSTP_DUPLEX_POST": 10,
-    "DELETE": 9,
     "HEARTBEAT": 8,
     "CONNECT": 5,
     "{\"PARAMS\":": 4,
@@ -2400,17 +2403,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1315
+      "count": 1318
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1188
+      "count": 1190
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 648
+      "count": 649
     },
     {
       "path": "/logincheck",
@@ -2420,7 +2423,7 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 216
+      "count": 217
     },
     {
       "path": "/robots.txt",
@@ -2433,19 +2436,19 @@
       "count": 204
     },
     {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
-      "count": 192
-    },
-    {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 191
+      "count": 194
+    },
+    {
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
+      "count": 193
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 178
+      "count": 180
     },
     {
       "path": "/favicon.ico",
@@ -2480,7 +2483,7 @@
     {
       "path": "/.env.production",
       "source": "front:honeypot-01",
-      "count": 94
+      "count": 95
     },
     {
       "path": "/wp-json/batch/v1",
@@ -2518,9 +2521,10 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 321,
+      "count": 329,
       "sources": [
-        "bigippot:honeypot-01"
+        "bigippot:honeypot-01",
+        "front:honeypot-01"
       ],
       "description": "Critical argument injection in PHP running as CGI on Windows. Attackers smuggle -d directives (allow_url_include, auto_prepend_file=php://input) via soft-hyphen (%AD) encoding that bypasses CVE-2012-1823 mitigations. Unauthenticated RCE when php-cgi.exe is exposed. Actively exploited by RedTail cryptominer (libredtail-http).",
       "severity": "Critical",
@@ -2539,8 +2543,8 @@
         "/?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
         "/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
         "/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh",
-        "/hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
-        "/index.php?%25ADd+allow_url_include%3D1+%25ADd+auto_prepend_file%3Dphp://input"
+        "/cgi-bin/php-cgi.exe?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
+        "/hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input"
       ]
     },
     {
@@ -2646,7 +2650,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1685
+    "Critical": 1693
   },
   "top_asns": [
     {
@@ -2673,9 +2677,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
-      "ip_count": 185,
-      "event_count": 8663
+      "country": "BR",
+      "ip_count": 186,
+      "event_count": 8664
     },
     {
       "asn": "AS213790",
@@ -2724,7 +2728,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 18,
-      "event_count": 670
+      "event_count": 671
     },
     {
       "asn": "AS6939",
@@ -2893,9 +2897,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "BR",
       "score": 48.0,
-      "event_count": 8663,
+      "event_count": 8664,
       "credential_events": 20,
       "cve_events": 10
     },
@@ -2973,14 +2977,15 @@
     }
   ],
   "events_by_country": {
-    "NL": 42099,
+    "NL": 42101,
     "PL": 32382,
-    "US": 12243,
-    "DE": 4067,
+    "BR": 8737,
+    "DE": 3831,
+    "US": 3829,
     "BG": 970,
     "FR": 587,
     "SE": 513,
-    "HK": 424,
+    "HK": 429,
     "SG": 413,
     "CA": 309,
     "JP": 290,
@@ -2990,7 +2995,6 @@
     "KZ": 139,
     "IN": 109,
     "KR": 109,
-    "BR": 73,
     "RO": 63,
     "ID": 57,
     "VN": 55,
