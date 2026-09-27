@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T16:02:20.180491Z",
+  "generated_at": "2026-09-27T17:01:29.809408Z",
   "period_days": 90,
-  "total_events": 118735,
-  "unique_ips": 2090,
+  "total_events": 118766,
+  "unique_ips": 2094,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,11 +15,11 @@
   ],
   "totals_by_source": {
     "panospot:honeypot-01": 235,
-    "ivantipot:honeypot-01": 1281,
+    "ivantipot:honeypot-01": 1296,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 73645,
-    "bigippot:honeypot-01": 15671,
+    "fortipot:honeypot-01": 73656,
+    "bigippot:honeypot-01": 15676,
     "sshppot:honeypot-01": 1383,
     "front:honeypot-01": 26282
   },
@@ -224,11 +224,11 @@
     },
     "2026-09-27": {
       "panospot:honeypot-01": 24,
-      "bigippot:honeypot-01": 526,
-      "ivantipot:honeypot-01": 100,
+      "bigippot:honeypot-01": 531,
+      "ivantipot:honeypot-01": 115,
       "front:honeypot-01": 823,
-      "fortipot:honeypot-01": 97,
-      "total": 1570
+      "fortipot:honeypot-01": 108,
+      "total": 1601
     }
   },
   "top_credentials": [
@@ -2366,10 +2366,10 @@
   ],
   "method_counts": {
     "POST": 75222,
-    "GET": 40052,
+    "GET": 40076,
     "SSH": 1382,
     "HEAD": 87,
-    "PRI": 66,
+    "PRI": 67,
     "PROPFIND": 44,
     "OPTIONS": 19,
     "SSTP_DUPLEX_POST": 10,
@@ -2405,12 +2405,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1181
+      "count": 1184
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 646
+      "count": 647
     },
     {
       "path": "/logincheck",
@@ -2420,7 +2420,7 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 213
+      "count": 214
     },
     {
       "path": "/robots.txt",
@@ -2430,7 +2430,7 @@
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 203
+      "count": 204
     },
     {
       "path": "/favicon.ico",
@@ -2708,9 +2708,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 112,
-      "event_count": 701
+      "country": "DE",
+      "ip_count": 113,
+      "event_count": 711
     },
     {
       "asn": "AS218785",
@@ -2783,29 +2783,29 @@
       "event_count": 317
     },
     {
-      "asn": "AS209334",
-      "name": "Modat B.V.",
-      "country": "CA",
-      "ip_count": 29,
-      "event_count": 304
+      "asn": "AS398324",
+      "name": "Censys, Inc.",
+      "country": "US",
+      "ip_count": 40,
+      "event_count": 316
     }
   ],
   "bad_asns": [
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "SG",
+      "country": "JP",
       "score": 90.07,
-      "event_count": 283,
+      "event_count": 286,
       "credential_events": 79,
       "cve_events": 67
     },
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "score": 66.2,
-      "event_count": 701,
+      "country": "DE",
+      "score": 66.22,
+      "event_count": 711,
       "credential_events": 247,
       "cve_events": 6
     },
@@ -2945,6 +2945,15 @@
       "cve_events": 0
     },
     {
+      "asn": "AS215540",
+      "name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+      "country": "NL",
+      "score": 40.1,
+      "event_count": 50,
+      "credential_events": 0,
+      "cve_events": 42
+    },
+    {
       "asn": "AS4134",
       "name": "CHINANET BACKBONE",
       "country": "CN",
@@ -2961,29 +2970,21 @@
       "event_count": 84,
       "credential_events": 23,
       "cve_events": 6
-    },
-    {
-      "asn": "AS197556",
-      "name": "Kar-Tel LLC",
-      "country": "KZ",
-      "score": 30.28,
-      "event_count": 138,
-      "credential_events": 0,
-      "cve_events": 123
     }
   ],
   "events_by_country": {
-    "NL": 42018,
+    "NL": 42069,
     "PL": 32382,
     "BE": 8661,
-    "US": 4244,
-    "DE": 3402,
+    "DE": 4065,
+    "US": 3557,
     "BG": 970,
-    "SG": 696,
     "FR": 587,
     "SE": 513,
     "HK": 424,
+    "SG": 413,
     "CA": 309,
+    "JP": 290,
     "CN": 234,
     "GB": 201,
     "PK": 153,
@@ -2998,7 +2999,7 @@
     "UZ": 49,
     "RU": 41,
     "CH": 39,
-    "NO": 34,
+    "NO": 35,
     "MY": 28,
     "MA": 23,
     "LT": 17,
@@ -3009,7 +3010,6 @@
     "UA": 6,
     "BD": 5,
     "TW": 5,
-    "JP": 4,
     "LV": 4,
     "TH": 4,
     "ES": 3,
