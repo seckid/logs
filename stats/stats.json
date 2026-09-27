@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T22:01:21.177180Z",
+  "generated_at": "2026-09-27T23:01:19.970113Z",
   "period_days": 90,
-  "total_events": 119378,
-  "unique_ips": 2115,
+  "total_events": 119420,
+  "unique_ips": 2121,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,10 +18,10 @@
     "ivantipot:honeypot-01": 1296,
     "centrestackpot:honeypot-01": 217,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 73670,
-    "bigippot:honeypot-01": 15746,
+    "fortipot:honeypot-01": 73672,
+    "bigippot:honeypot-01": 15784,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 26795
+    "front:honeypot-01": 26797
   },
   "events_per_day": {
     "2026-08-28": {
@@ -223,13 +223,13 @@
       "total": 3122
     },
     "2026-09-27": {
-      "front:honeypot-01": 1336,
-      "fortipot:honeypot-01": 122,
+      "front:honeypot-01": 1338,
+      "fortipot:honeypot-01": 124,
       "panospot:honeypot-01": 37,
-      "bigippot:honeypot-01": 601,
+      "bigippot:honeypot-01": 639,
       "ivantipot:honeypot-01": 115,
       "centrestackpot:honeypot-01": 2,
-      "total": 2213
+      "total": 2255
     }
   },
   "top_credentials": [
@@ -2361,7 +2361,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "count": 3937
+      "count": 3939
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2369,8 +2369,8 @@
     }
   ],
   "method_counts": {
-    "POST": 75254,
-    "GET": 40593,
+    "POST": 75255,
+    "GET": 40605,
     "SSH": 1382,
     "HEAD": 87,
     "PRI": 67,
@@ -2382,7 +2382,7 @@
     "CONNECT": 5,
     "{\"PARAMS\":": 4,
     "T3": 4,
-    "PUT": 3,
+    "PUT": 4,
     "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"BLUE1\",\"PASS\":\"X\",\"AGENT\":\"WINDOWS": 2,
     "{\"ID\":": 2,
     "ZSDLKFJ2": 2,
@@ -2409,12 +2409,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1191
+      "count": 1195
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 650
+      "count": 653
     },
     {
       "path": "/logincheck",
@@ -2424,7 +2424,7 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 218
+      "count": 219
     },
     {
       "path": "/robots.txt",
@@ -2444,12 +2444,12 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 193
+      "count": 194
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 180
+      "count": 181
     },
     {
       "path": "/favicon.ico",
@@ -2467,13 +2467,13 @@
       "count": 106
     },
     {
-      "path": "/logo.svg",
-      "source": "front:honeypot-01",
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
       "count": 99
     },
     {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
+      "path": "/logo.svg",
+      "source": "front:honeypot-01",
       "count": 99
     },
     {
@@ -2635,7 +2635,7 @@
     },
     {
       "cve": "CVE-2022-40684",
-      "count": 1,
+      "count": 2,
       "sources": [
         "fortipot:honeypot-01"
       ],
@@ -2643,6 +2643,7 @@
       "severity": "Critical",
       "cvss_score": null,
       "sample_ips": [
+        "195.184.76.249",
         "91.196.152.135"
       ],
       "sample_paths": [
@@ -2651,7 +2652,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1693
+    "Critical": 1694
   },
   "top_asns": [
     {
@@ -2680,7 +2681,7 @@
       "name": "Google LLC",
       "country": "BR",
       "ip_count": 186,
-      "event_count": 8664
+      "event_count": 8665
     },
     {
       "asn": "AS213790",
@@ -2706,9 +2707,9 @@
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "US",
-      "ip_count": 140,
-      "event_count": 1042
+      "country": "SE",
+      "ip_count": 141,
+      "event_count": 1044
     },
     {
       "asn": "AS14061",
@@ -2729,7 +2730,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 18,
-      "event_count": 672
+      "event_count": 673
     },
     {
       "asn": "AS6939",
@@ -2781,18 +2782,18 @@
       "event_count": 344
     },
     {
+      "asn": "AS209334",
+      "name": "Modat B.V.",
+      "country": "CA",
+      "ip_count": 29,
+      "event_count": 318
+    },
+    {
       "asn": "AS29244",
       "name": "CETIN Bulgaria EAD",
       "country": "BG",
       "ip_count": 6,
       "event_count": 317
-    },
-    {
-      "asn": "AS398324",
-      "name": "Censys, Inc.",
-      "country": "US",
-      "ip_count": 40,
-      "event_count": 316
     }
   ],
   "bad_asns": [
@@ -2900,7 +2901,7 @@
       "name": "Google LLC",
       "country": "BR",
       "score": 48.0,
-      "event_count": 8664,
+      "event_count": 8665,
       "credential_events": 20,
       "cve_events": 10
     },
@@ -2978,17 +2979,17 @@
     }
   ],
   "events_by_country": {
-    "NL": 42103,
+    "NL": 42104,
     "PL": 32395,
-    "BR": 8737,
-    "US": 3833,
+    "BR": 8738,
     "DE": 3744,
+    "US": 2794,
+    "SE": 1557,
     "BG": 970,
     "FR": 698,
-    "SE": 513,
     "HK": 429,
     "SG": 413,
-    "CA": 309,
+    "CA": 323,
     "JP": 290,
     "CN": 234,
     "GB": 201,
@@ -3021,6 +3022,7 @@
     "CL": 2,
     "GA": 2,
     "IR": 2,
+    "PH": 2,
     "TZ": 2,
     "BH": 1,
     "CI": 1,
@@ -3033,7 +3035,6 @@
     "JO": 1,
     "MD": 1,
     "NG": 1,
-    "PH": 1,
     "PT": 1,
     "SK": 1,
     "TR": 1,
