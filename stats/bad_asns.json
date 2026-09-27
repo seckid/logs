@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T21:05:04.580828Z",
+  "generated_at": "2026-09-27T22:01:21.177180Z",
   "period_days": 90,
   "asns": [
     {
@@ -623,7 +623,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 22.58,
-      "event_count": 1040,
+      "event_count": 1042,
       "ip_count": 140,
       "credential_events": 1,
       "cve_events": 0,
@@ -640,6 +640,27 @@
         "credential_events=1",
         "multi_honeypot=6",
         "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
+      "asn": "AS9009",
+      "name": "M247 Europe SRL",
+      "country": "DE",
+      "score": 22.55,
+      "event_count": 23,
+      "ip_count": 6,
+      "credential_events": 5,
+      "cve_events": 0,
+      "honeypots": [
+        "centrestackpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=5",
+        "multi_honeypot=4"
       ]
     },
     {
@@ -769,8 +790,8 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "score": 20.73,
-      "event_count": 363,
-      "ip_count": 99,
+      "event_count": 366,
+      "ip_count": 100,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
@@ -789,10 +810,10 @@
     {
       "asn": "AS16276",
       "name": "OVH SAS",
-      "country": "DE",
+      "country": "FR",
       "score": 20.72,
-      "event_count": 110,
-      "ip_count": 34,
+      "event_count": 111,
+      "ip_count": 35,
       "credential_events": 1,
       "cve_events": 0,
       "honeypots": [
@@ -973,25 +994,6 @@
       "reasons": [
         "credential_events=10",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS11878",
-      "name": "tzulo, inc.",
-      "country": "US",
-      "score": 19.64,
-      "event_count": 71,
-      "ip_count": 4,
-      "credential_events": 19,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=19",
-        "multi_honeypot=2"
       ]
     }
   ]
