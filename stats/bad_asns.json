@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T13:00:52.931478Z",
+  "generated_at": "2026-09-27T14:00:54.181210Z",
   "period_days": 90,
   "asns": [
     {
@@ -228,8 +228,8 @@
       "name": "Google LLC",
       "country": "BE",
       "score": 48.0,
-      "event_count": 8660,
-      "ip_count": 184,
+      "event_count": 8661,
+      "ip_count": 185,
       "credential_events": 20,
       "cve_events": 10,
       "honeypots": [
@@ -422,9 +422,9 @@
       ]
     },
     {
-      "asn": "AS206134",
-      "name": "NEKOBYTE INTERNATIONAL LIMITED",
-      "country": "DE",
+      "asn": "AS63023",
+      "name": "GTHost",
+      "country": "US",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -456,9 +456,9 @@
       ]
     },
     {
-      "asn": "AS63023",
-      "name": "GTHost",
-      "country": "US",
+      "asn": "AS202660",
+      "name": "Uzbektelekom Joint Stock Company",
+      "country": "UZ",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -473,9 +473,9 @@
       ]
     },
     {
-      "asn": "AS202660",
-      "name": "Uzbektelekom Joint Stock Company",
-      "country": "UZ",
+      "asn": "AS206134",
+      "name": "NEKOBYTE INTERNATIONAL LIMITED",
+      "country": "DE",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -575,6 +575,26 @@
       ]
     },
     {
+      "asn": "AS212238",
+      "name": "Datacamp Limited",
+      "country": "US",
+      "score": 25.15,
+      "event_count": 77,
+      "ip_count": 5,
+      "credential_events": 20,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=20",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS202412",
       "name": "Omegatech LTD",
       "country": "DE",
@@ -597,23 +617,27 @@
       ]
     },
     {
-      "asn": "AS212238",
-      "name": "Datacamp Limited",
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
       "country": "US",
-      "score": 24.64,
-      "event_count": 69,
-      "ip_count": 5,
-      "credential_events": 19,
+      "score": 22.58,
+      "event_count": 1038,
+      "ip_count": 139,
+      "credential_events": 1,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
         "fortipot:honeypot-01",
-        "ivantipot:honeypot-01"
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=19",
-        "multi_honeypot=3"
+        "credential_events=1",
+        "multi_honeypot=6",
+        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -636,30 +660,6 @@
       "reasons": [
         "cve_events=3",
         "multi_honeypot=5"
-      ]
-    },
-    {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "score": 22.42,
-      "event_count": 962,
-      "ip_count": 138,
-      "credential_events": 1,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=1",
-        "multi_honeypot=6",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -851,9 +851,9 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 20.45,
-      "event_count": 226,
+      "country": "CA",
+      "score": 20.46,
+      "event_count": 228,
       "ip_count": 50,
       "credential_events": 0,
       "cve_events": 0,
