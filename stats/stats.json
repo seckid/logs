@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T03:01:57.513337Z",
+  "generated_at": "2026-09-27T04:03:12.012038Z",
   "period_days": 90,
-  "total_events": 117670,
-  "unique_ips": 2025,
+  "total_events": 117686,
+  "unique_ips": 2029,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -19,9 +19,9 @@
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 73591,
-    "bigippot:honeypot-01": 15470,
+    "bigippot:honeypot-01": 15471,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 25530
+    "front:honeypot-01": 25545
   },
   "events_per_day": {
     "2026-08-28": {
@@ -224,11 +224,11 @@
     },
     "2026-09-27": {
       "panospot:honeypot-01": 20,
-      "bigippot:honeypot-01": 325,
+      "bigippot:honeypot-01": 326,
       "ivantipot:honeypot-01": 46,
-      "front:honeypot-01": 71,
+      "front:honeypot-01": 86,
       "fortipot:honeypot-01": 43,
-      "total": 505
+      "total": 521
     }
   },
   "top_credentials": [
@@ -2366,7 +2366,7 @@
   ],
   "method_counts": {
     "POST": 75176,
-    "GET": 39081,
+    "GET": 39097,
     "SSH": 1382,
     "HEAD": 87,
     "PRI": 64,
@@ -2400,7 +2400,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1285
+      "count": 1289
     },
     {
       "path": "/",
@@ -2418,14 +2418,14 @@
       "count": 335
     },
     {
+      "path": "/robots.txt",
+      "source": "front:honeypot-01",
+      "count": 205
+    },
+    {
       "path": "/",
       "source": "fortipot:honeypot-01",
       "count": 204
-    },
-    {
-      "path": "/robots.txt",
-      "source": "front:honeypot-01",
-      "count": 203
     },
     {
       "path": "/",
@@ -2450,12 +2450,12 @@
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 149
+      "count": 151
     },
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 112
+      "count": 113
     },
     {
       "path": "/remote/login",
@@ -2463,13 +2463,13 @@
       "count": 106
     },
     {
-      "path": "/remote/logincheck",
-      "source": "bigippot:honeypot-01",
-      "count": 98
-    },
-    {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
+      "count": 99
+    },
+    {
+      "path": "/remote/logincheck",
+      "source": "bigippot:honeypot-01",
       "count": 98
     },
     {
@@ -2772,8 +2772,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 96,
-      "event_count": 340
+      "ip_count": 97,
+      "event_count": 341
     },
     {
       "asn": "AS29244",
@@ -2859,7 +2859,7 @@
       "name": "VPS Dedicated LLC",
       "country": "DE",
       "score": 50.18,
-      "event_count": 90,
+      "event_count": 91,
       "credential_events": 70,
       "cve_events": 0
     },
@@ -2973,11 +2973,11 @@
     }
   ],
   "events_by_country": {
-    "NL": 41906,
+    "NL": 41907,
     "PL": 32370,
     "TW": 8394,
-    "US": 3974,
-    "DE": 3124,
+    "US": 3977,
+    "DE": 3125,
     "BG": 970,
     "SG": 696,
     "FR": 586,
