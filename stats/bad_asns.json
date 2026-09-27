@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T02:05:19.584064Z",
+  "generated_at": "2026-09-27T03:01:57.513337Z",
   "period_days": 90,
   "asns": [
     {
@@ -226,10 +226,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "TW",
       "score": 48.0,
-      "event_count": 8191,
-      "ip_count": 177,
+      "event_count": 8389,
+      "ip_count": 178,
       "credential_events": 20,
       "cve_events": 10,
       "honeypots": [
@@ -643,8 +643,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 22.41,
-      "event_count": 956,
-      "ip_count": 133,
+      "event_count": 957,
+      "ip_count": 134,
       "credential_events": 1,
       "cve_events": 0,
       "honeypots": [
@@ -788,9 +788,31 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 20.64,
-      "event_count": 318,
-      "ip_count": 94,
+      "score": 20.68,
+      "event_count": 340,
+      "ip_count": 96,
+      "credential_events": 0,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "multi_honeypot=5",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
+      "asn": "AS398324",
+      "name": "Censys, Inc.",
+      "country": "US",
+      "score": 20.59,
+      "event_count": 294,
+      "ip_count": 38,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
@@ -824,28 +846,6 @@
       "ai_threat_level": null,
       "reasons": [
         "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS398324",
-      "name": "Censys, Inc.",
-      "country": "US",
-      "score": 20.58,
-      "event_count": 289,
-      "ip_count": 37,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=5",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
