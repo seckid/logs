@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T10:03:44.643995Z",
+  "generated_at": "2026-09-27T11:03:19.595093Z",
   "period_days": 90,
-  "total_events": 118525,
-  "unique_ips": 2050,
+  "total_events": 118549,
+  "unique_ips": 2054,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,10 +18,10 @@
     "ivantipot:honeypot-01": 1278,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 73595,
-    "bigippot:honeypot-01": 15614,
+    "fortipot:honeypot-01": 73607,
+    "bigippot:honeypot-01": 15619,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 26186
+    "front:honeypot-01": 26193
   },
   "events_per_day": {
     "2026-08-28": {
@@ -224,11 +224,11 @@
     },
     "2026-09-27": {
       "panospot:honeypot-01": 20,
-      "bigippot:honeypot-01": 469,
+      "bigippot:honeypot-01": 474,
       "ivantipot:honeypot-01": 97,
-      "front:honeypot-01": 727,
-      "fortipot:honeypot-01": 47,
-      "total": 1360
+      "front:honeypot-01": 734,
+      "fortipot:honeypot-01": 59,
+      "total": 1384
     }
   },
   "top_credentials": [
@@ -2365,8 +2365,8 @@
     }
   ],
   "method_counts": {
-    "POST": 75207,
-    "GET": 39896,
+    "POST": 75209,
+    "GET": 39915,
     "SSH": 1382,
     "HEAD": 87,
     "PRI": 65,
@@ -2390,7 +2390,7 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 72014
+      "count": 72015
     },
     {
       "path": "/",
@@ -2400,17 +2400,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1305
+      "count": 1307
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1169
+      "count": 1171
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 637
+      "count": 639
     },
     {
       "path": "/logincheck",
@@ -2418,13 +2418,13 @@
       "count": 335
     },
     {
-      "path": "/robots.txt",
-      "source": "front:honeypot-01",
-      "count": 206
-    },
-    {
       "path": "/",
       "source": "fortipot:honeypot-01",
+      "count": 207
+    },
+    {
+      "path": "/robots.txt",
+      "source": "front:honeypot-01",
       "count": 206
     },
     {
@@ -2450,7 +2450,7 @@
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 151
+      "count": 152
     },
     {
       "path": "/style.css",
@@ -2475,17 +2475,17 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 96
+      "count": 97
+    },
+    {
+      "path": "/wp-json/batch/v1",
+      "source": "front:honeypot-01",
+      "count": 93
     },
     {
       "path": "/.env.production",
       "source": "front:honeypot-01",
       "count": 93
-    },
-    {
-      "path": "/wp-json/batch/v1",
-      "source": "front:honeypot-01",
-      "count": 92
     }
   ],
   "cve_attempts": [
@@ -2674,8 +2674,8 @@
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "BE",
-      "ip_count": 182,
-      "event_count": 8657
+      "ip_count": 184,
+      "event_count": 8660
     },
     {
       "asn": "AS213790",
@@ -2709,8 +2709,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 110,
-      "event_count": 696
+      "ip_count": 111,
+      "event_count": 698
     },
     {
       "asn": "AS218785",
@@ -2724,7 +2724,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 17,
-      "event_count": 635
+      "event_count": 638
     },
     {
       "asn": "AS41280",
@@ -2737,8 +2737,8 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "ip_count": 109,
-      "event_count": 608
+      "ip_count": 110,
+      "event_count": 619
     },
     {
       "asn": "AS203861",
@@ -2804,8 +2804,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "score": 66.19,
-      "event_count": 696,
+      "score": 66.2,
+      "event_count": 698,
       "credential_events": 247,
       "cve_events": 6
     },
@@ -2895,7 +2895,7 @@
       "name": "Google LLC",
       "country": "BE",
       "score": 48.0,
-      "event_count": 8657,
+      "event_count": 8660,
       "credential_events": 20,
       "cve_events": 10
     },
@@ -2973,14 +2973,14 @@
     }
   ],
   "events_by_country": {
-    "NL": 42007,
+    "NL": 42012,
     "PL": 32375,
-    "BE": 8657,
-    "US": 4272,
+    "BE": 8660,
+    "US": 4285,
     "DE": 3228,
     "BG": 970,
     "SG": 696,
-    "FR": 588,
+    "FR": 591,
     "SE": 513,
     "HK": 424,
     "CA": 294,
