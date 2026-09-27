@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T20:02:42.500362Z",
+  "generated_at": "2026-09-27T21:05:04.580828Z",
   "period_days": 90,
-  "total_events": 119320,
-  "unique_ips": 2107,
+  "total_events": 119359,
+  "unique_ips": 2110,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,10 +18,10 @@
     "ivantipot:honeypot-01": 1296,
     "centrestackpot:honeypot-01": 215,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 73669,
-    "bigippot:honeypot-01": 15711,
+    "fortipot:honeypot-01": 73670,
+    "bigippot:honeypot-01": 15734,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 26775
+    "front:honeypot-01": 26790
   },
   "events_per_day": {
     "2026-08-28": {
@@ -224,11 +224,11 @@
     },
     "2026-09-27": {
       "panospot:honeypot-01": 37,
-      "bigippot:honeypot-01": 566,
+      "bigippot:honeypot-01": 589,
       "ivantipot:honeypot-01": 115,
-      "front:honeypot-01": 1316,
-      "fortipot:honeypot-01": 121,
-      "total": 2155
+      "front:honeypot-01": 1331,
+      "fortipot:honeypot-01": 122,
+      "total": 2194
     }
   },
   "top_credentials": [
@@ -2352,7 +2352,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 6018
+      "count": 6019
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2369,7 +2369,7 @@
   ],
   "method_counts": {
     "POST": 75253,
-    "GET": 40555,
+    "GET": 40577,
     "SSH": 1382,
     "HEAD": 87,
     "PRI": 67,
@@ -2403,17 +2403,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1318
+      "count": 1320
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1190
+      "count": 1191
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 649
+      "count": 650
     },
     {
       "path": "/logincheck",
@@ -2423,7 +2423,7 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 217
+      "count": 218
     },
     {
       "path": "/robots.txt",
@@ -2438,7 +2438,7 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 194
+      "count": 195
     },
     {
       "path": "/favicon.ico",
@@ -2478,7 +2478,7 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 97
+      "count": 98
     },
     {
       "path": "/.env.production",
@@ -2720,15 +2720,15 @@
       "asn": "AS218785",
       "name": "TC DATACENTER LIMITED",
       "country": "PL",
-      "ip_count": 8,
-      "event_count": 698
+      "ip_count": 9,
+      "event_count": 710
     },
     {
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 18,
-      "event_count": 671
+      "event_count": 672
     },
     {
       "asn": "AS6939",
@@ -2766,18 +2766,18 @@
       "event_count": 365
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "ip_count": 99,
+      "event_count": 363
+    },
+    {
       "asn": "AS49870",
       "name": "Alsycon B.V.",
       "country": "NL",
       "ip_count": 1,
       "event_count": 344
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "ip_count": 98,
-      "event_count": 343
     },
     {
       "asn": "AS29244",
@@ -2977,11 +2977,11 @@
     }
   ],
   "events_by_country": {
-    "NL": 42101,
-    "PL": 32382,
+    "NL": 42103,
+    "PL": 32395,
     "BR": 8737,
+    "US": 3850,
     "DE": 3831,
-    "US": 3829,
     "BG": 970,
     "FR": 587,
     "SE": 513,
@@ -3002,7 +3002,7 @@
     "UZ": 49,
     "RU": 41,
     "CH": 39,
-    "NO": 35,
+    "NO": 36,
     "MY": 28,
     "MA": 23,
     "LT": 17,

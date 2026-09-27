@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T20:02:42.500362Z",
+  "generated_at": "2026-09-27T21:05:04.580828Z",
   "period_days": 90,
   "asns": [
     {
@@ -708,7 +708,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 21.34,
-      "event_count": 671,
+      "event_count": 672,
       "ip_count": 18,
       "credential_events": 0,
       "cve_events": 0,
@@ -765,6 +765,28 @@
       ]
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "score": 20.73,
+      "event_count": 363,
+      "ip_count": 99,
+      "credential_events": 0,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "multi_honeypot=5",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS16276",
       "name": "OVH SAS",
       "country": "DE",
@@ -783,28 +805,6 @@
       "reasons": [
         "credential_events=1",
         "multi_honeypot=4",
-        "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 20.69,
-      "event_count": 343,
-      "ip_count": 98,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=5",
         "research_or_cloud_with_hostile_density"
       ]
     },
