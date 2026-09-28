@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T01:02:19.914476Z",
+  "generated_at": "2026-09-28T02:01:54.303467Z",
   "period_days": 90,
   "asns": [
     {
@@ -30,7 +30,7 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "score": 66.23,
-      "event_count": 713,
+      "event_count": 715,
       "ip_count": 114,
       "credential_events": 247,
       "cve_events": 6,
@@ -130,6 +130,30 @@
       ]
     },
     {
+      "asn": "AS396982",
+      "name": "Google LLC",
+      "country": "US",
+      "score": 54.2,
+      "event_count": 8915,
+      "ip_count": 193,
+      "credential_events": 26,
+      "cve_events": 14,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=26",
+        "cve_events=14",
+        "multi_honeypot=5",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
       "country": "HK",
@@ -221,30 +245,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=10981"
-      ]
-    },
-    {
-      "asn": "AS396982",
-      "name": "Google LLC",
-      "country": "BR",
-      "score": 48.0,
-      "event_count": 8666,
-      "ip_count": 187,
-      "credential_events": 20,
-      "cve_events": 10,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=20",
-        "cve_events=10",
-        "multi_honeypot=5",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -789,9 +789,9 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 20.78,
-      "event_count": 388,
-      "ip_count": 102,
+      "score": 20.82,
+      "event_count": 411,
+      "ip_count": 104,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
