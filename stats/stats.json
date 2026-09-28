@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T08:00:54.444599Z",
+  "generated_at": "2026-09-28T09:05:19.737179Z",
   "period_days": 90,
-  "total_events": 120841,
-  "unique_ips": 2187,
+  "total_events": 120871,
+  "unique_ips": 2189,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
   ],
   "totals_by_source": {
     "panospot:honeypot-01": 281,
-    "ivantipot:honeypot-01": 1387,
+    "ivantipot:honeypot-01": 1408,
     "centrestackpot:honeypot-01": 217,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 73713,
-    "bigippot:honeypot-01": 16197,
+    "fortipot:honeypot-01": 73719,
+    "bigippot:honeypot-01": 16198,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 27640
+    "front:honeypot-01": 27642
   },
   "events_per_day": {
     "2026-08-28": {
@@ -232,12 +232,12 @@
       "total": 2326
     },
     "2026-09-28": {
-      "front:honeypot-01": 785,
-      "ivantipot:honeypot-01": 91,
-      "fortipot:honeypot-01": 41,
-      "bigippot:honeypot-01": 400,
+      "front:honeypot-01": 787,
+      "ivantipot:honeypot-01": 112,
+      "fortipot:honeypot-01": 47,
+      "bigippot:honeypot-01": 401,
       "panospot:honeypot-01": 33,
-      "total": 1350
+      "total": 1380
     }
   },
   "top_credentials": [
@@ -2380,7 +2380,7 @@
   ],
   "method_counts": {
     "POST": 75517,
-    "GET": 41594,
+    "GET": 41606,
     "SSH": 1382,
     "HEAD": 89,
     "PRI": 67,
@@ -2410,7 +2410,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1335
+      "count": 1336
     },
     {
       "path": "/",
@@ -2420,7 +2420,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1245
+      "count": 1246
     },
     {
       "path": "/tmui/login.jsp",
@@ -2445,17 +2445,17 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 226
+      "count": 228
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 216
+      "count": 217
     },
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 212
+      "count": 213
     },
     {
       "path": "/favicon.ico",
@@ -2722,7 +2722,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "ip_count": 144,
-      "event_count": 1049
+      "event_count": 1050
     },
     {
       "asn": "AS14061",
@@ -2777,8 +2777,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 105,
-      "event_count": 412
+      "ip_count": 106,
+      "event_count": 433
     },
     {
       "asn": "AS31898",
@@ -2813,9 +2813,9 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "JP",
-      "score": 90.07,
-      "event_count": 286,
+      "country": "SG",
+      "score": 90.08,
+      "event_count": 288,
       "credential_events": 79,
       "cve_events": 67
     },
@@ -2992,18 +2992,17 @@
     }
   ],
   "events_by_country": {
-    "NL": 42834,
+    "NL": 42840,
     "PL": 32403,
     "BE": 9035,
-    "US": 3926,
+    "US": 3949,
     "DE": 3130,
     "BG": 970,
     "FR": 714,
+    "SG": 703,
     "SE": 513,
     "HK": 429,
-    "SG": 415,
     "CA": 335,
-    "JP": 290,
     "CN": 239,
     "GB": 222,
     "PK": 154,
@@ -3029,6 +3028,7 @@
     "UA": 6,
     "BD": 5,
     "TW": 5,
+    "JP": 4,
     "LV": 4,
     "TH": 4,
     "ES": 3,
