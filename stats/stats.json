@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T21:04:44.399920Z",
+  "generated_at": "2026-09-28T22:01:24.681872Z",
   "period_days": 90,
-  "total_events": 121758,
-  "unique_ips": 2267,
+  "total_events": 121862,
+  "unique_ips": 2272,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,10 +18,10 @@
     "ivantipot:honeypot-01": 1516,
     "centrestackpot:honeypot-01": 217,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 73776,
-    "bigippot:honeypot-01": 16322,
-    "sshppot:honeypot-01": 1813,
-    "front:honeypot-01": 27808
+    "fortipot:honeypot-01": 73778,
+    "bigippot:honeypot-01": 16326,
+    "sshppot:honeypot-01": 1815,
+    "front:honeypot-01": 27904
   },
   "events_per_day": {
     "2026-08-28": {
@@ -232,20 +232,20 @@
       "total": 2326
     },
     "2026-09-28": {
-      "front:honeypot-01": 953,
+      "front:honeypot-01": 1049,
       "ivantipot:honeypot-01": 220,
-      "fortipot:honeypot-01": 104,
-      "bigippot:honeypot-01": 525,
+      "fortipot:honeypot-01": 106,
+      "bigippot:honeypot-01": 529,
       "panospot:honeypot-01": 35,
-      "sshppot:honeypot-01": 430,
-      "total": 2267
+      "sshppot:honeypot-01": 432,
+      "total": 2371
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 171
+      "count": 172
     },
     {
       "username": "root",
@@ -255,7 +255,7 @@
     {
       "username": "admin",
       "password": "admin",
-      "count": 45
+      "count": 46
     },
     {
       "username": "root",
@@ -500,11 +500,11 @@
     },
     {
       "username": "admin",
-      "count": 214
+      "count": 215
     },
     {
       "username": "support",
-      "count": 171
+      "count": 172
     },
     {
       "username": "user",
@@ -574,7 +574,7 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 171
+      "count": 172
     },
     {
       "password": "(empty)",
@@ -582,7 +582,7 @@
     },
     {
       "password": "admin",
-      "count": 71
+      "count": 72
     },
     {
       "password": "password",
@@ -655,12 +655,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 74376,
-      "unique_ips": 475,
+      "attempt_count": 74378,
+      "unique_ips": 476,
       "unique_pairs": 72697,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 74376
+      "unknown_outcome_count": 74378
     },
     "top_source_ips": [
       {
@@ -905,14 +905,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 145,
+        "attempt_count": 146,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-09-28T19:44:19Z",
+        "last_seen": "2026-09-28T21:23:05Z",
         "success_count": 0
       },
       {
@@ -1607,14 +1607,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 145,
+        "attempt_count": 146,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-09-28T19:44:19Z",
+        "last_seen": "2026-09-28T21:23:05Z",
         "success_count": 0
       },
       {
@@ -1930,7 +1930,7 @@
       {
         "username": "support",
         "password": "support",
-        "count": 171,
+        "count": 172,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -1947,7 +1947,7 @@
       {
         "username": "admin",
         "password": "admin",
-        "count": 45,
+        "count": 46,
         "sources": [
           "fortipot:honeypot-01",
           "ivantipot:honeypot-01",
@@ -2386,9 +2386,9 @@
     }
   ],
   "method_counts": {
-    "POST": 75531,
-    "GET": 41942,
-    "SSH": 1812,
+    "POST": 75532,
+    "GET": 42042,
+    "SSH": 1814,
     "HEAD": 89,
     "PRI": 70,
     "PROPFIND": 45,
@@ -2417,17 +2417,17 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 1750
+      "count": 1752
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1346
+      "count": 1347
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1280
+      "count": 1281
     },
     {
       "path": "/tmui/login.jsp",
@@ -2452,7 +2452,12 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 238
+      "count": 239
+    },
+    {
+      "path": "/robots.txt",
+      "source": "front:honeypot-01",
+      "count": 221
     },
     {
       "path": "/",
@@ -2460,24 +2465,19 @@
       "count": 221
     },
     {
-      "path": "/robots.txt",
-      "source": "front:honeypot-01",
-      "count": 219
-    },
-    {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 205
+      "count": 206
     },
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 197
+      "count": 198
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 184
+      "count": 185
     },
     {
       "path": "/favicon.ico",
@@ -2495,13 +2495,13 @@
       "count": 106
     },
     {
-      "path": "/logo.svg",
-      "source": "front:honeypot-01",
+      "path": "/.env",
+      "source": "bigippot:honeypot-01",
       "count": 102
     },
     {
-      "path": "/.env",
-      "source": "bigippot:honeypot-01",
+      "path": "/logo.svg",
+      "source": "front:honeypot-01",
       "count": 102
     },
     {
@@ -2615,6 +2615,27 @@
       ]
     },
     {
+      "cve": "CVE-2018-13379",
+      "count": 7,
+      "sources": [
+        "fortipot:honeypot-01"
+      ],
+      "description": "FortiOS SSL VPN path traversal via /remote/fgt_lang (lang=…/dev/cmdb/sslvpn_websession)",
+      "severity": "Critical",
+      "cvss_score": null,
+      "sample_ips": [
+        "103.214.147.181",
+        "195.184.76.45",
+        "91.196.152.131",
+        "91.196.152.250",
+        "91.196.152.251",
+        "91.196.152.252"
+      ],
+      "sample_paths": [
+        "/remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession"
+      ]
+    },
+    {
       "cve": "CVE-2026-41940",
       "count": 6,
       "sources": [
@@ -2636,26 +2657,6 @@
       ]
     },
     {
-      "cve": "CVE-2018-13379",
-      "count": 6,
-      "sources": [
-        "fortipot:honeypot-01"
-      ],
-      "description": "FortiOS SSL VPN path traversal via /remote/fgt_lang (lang=…/dev/cmdb/sslvpn_websession)",
-      "severity": "Critical",
-      "cvss_score": null,
-      "sample_ips": [
-        "103.214.147.181",
-        "195.184.76.45",
-        "91.196.152.131",
-        "91.196.152.250",
-        "91.196.152.251"
-      ],
-      "sample_paths": [
-        "/remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession"
-      ]
-    },
-    {
       "cve": "CVE-2022-40684",
       "count": 2,
       "sources": [
@@ -2674,7 +2675,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1708
+    "Critical": 1709
   },
   "top_asns": [
     {
@@ -2717,7 +2718,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "ip_count": 147,
-      "event_count": 1564
+      "event_count": 1565
     },
     {
       "asn": "AS202412",
@@ -2729,9 +2730,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "GB",
-      "ip_count": 125,
-      "event_count": 1134
+      "country": "US",
+      "ip_count": 126,
+      "event_count": 1137
     },
     {
       "asn": "AS208137",
@@ -2739,6 +2740,13 @@
       "country": "DE",
       "ip_count": 5,
       "event_count": 1093
+    },
+    {
+      "asn": "AS48090",
+      "name": "TECHOFF SRV LIMITED",
+      "country": "NL",
+      "ip_count": 18,
+      "event_count": 768
     },
     {
       "asn": "AS218785",
@@ -2753,13 +2761,6 @@
       "country": "US",
       "ip_count": 119,
       "event_count": 691
-    },
-    {
-      "asn": "AS48090",
-      "name": "TECHOFF SRV LIMITED",
-      "country": "NL",
-      "ip_count": 18,
-      "event_count": 675
     },
     {
       "asn": "AS41280",
@@ -2831,9 +2832,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "GB",
+      "country": "US",
       "score": 67.07,
-      "event_count": 1134,
+      "event_count": 1137,
       "credential_events": 653,
       "cve_events": 6
     },
@@ -2968,8 +2969,8 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.29,
-      "event_count": 145,
-      "credential_events": 145,
+      "event_count": 146,
+      "credential_events": 146,
       "cve_events": 0
     },
     {
@@ -3001,18 +3002,18 @@
     }
   ],
   "events_by_country": {
-    "NL": 41972,
-    "PL": 32426,
-    "DE": 12430,
-    "US": 4757,
-    "GB": 1356,
+    "NL": 42232,
+    "PL": 32427,
+    "DE": 12264,
+    "US": 5896,
     "BG": 976,
-    "FR": 792,
+    "FR": 793,
     "SE": 513,
     "SG": 415,
     "CA": 369,
-    "CN": 243,
+    "CN": 245,
     "TW": 224,
+    "GB": 222,
     "HK": 220,
     "PK": 160,
     "KZ": 139,
@@ -3039,8 +3040,8 @@
     "TH": 5,
     "JP": 4,
     "LV": 4,
+    "AE": 3,
     "ES": 3,
-    "AE": 2,
     "CL": 2,
     "EG": 2,
     "GA": 2,

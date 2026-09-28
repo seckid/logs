@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T21:04:44.399920Z",
+  "generated_at": "2026-09-28T22:01:24.681872Z",
   "period_days": 90,
   "asns": [
     {
@@ -28,10 +28,10 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "GB",
+      "country": "US",
       "score": 67.07,
-      "event_count": 1134,
-      "ip_count": 125,
+      "event_count": 1137,
+      "ip_count": 126,
       "credential_events": 653,
       "cve_events": 6,
       "honeypots": [
@@ -331,16 +331,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.29,
-      "event_count": 145,
+      "event_count": 146,
       "ip_count": 1,
-      "credential_events": 145,
+      "credential_events": 146,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=145"
+        "credential_events=146"
       ]
     },
     {
@@ -406,6 +406,25 @@
       ]
     },
     {
+      "asn": "AS37963",
+      "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
+      "country": "CN",
+      "score": 30.62,
+      "event_count": 60,
+      "ip_count": 6,
+      "credential_events": 41,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=41",
+        "multi_honeypot=2"
+      ]
+    },
+    {
       "asn": "AS197556",
       "name": "Kar-Tel LLC",
       "country": "KZ",
@@ -461,28 +480,26 @@
       ]
     },
     {
-      "asn": "AS37963",
-      "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "country": "CN",
-      "score": 30.12,
-      "event_count": 59,
-      "ip_count": 5,
-      "credential_events": 40,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=40",
-        "multi_honeypot=2"
-      ]
-    },
-    {
       "asn": "AS45773",
       "name": "PERN AS Content Servie Provider, Islamabad, Pakistan",
       "country": "PK",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
+      "asn": "AS150462",
+      "name": "PT Air Lintas Komunikasi",
+      "country": "ID",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -582,20 +599,25 @@
       ]
     },
     {
-      "asn": "AS150462",
-      "name": "PT Air Lintas Komunikasi",
-      "country": "ID",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
+      "asn": "AS213412",
+      "name": "ONYPHE SAS",
+      "country": "FR",
+      "score": 25.75,
+      "event_count": 76,
+      "ip_count": 70,
       "credential_events": 0,
-      "cve_events": 42,
+      "cve_events": 7,
       "honeypots": [
-        "bigippot:honeypot-01"
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "cve_events=42"
+        "cve_events=7",
+        "multi_honeypot=5"
       ]
     },
     {
@@ -621,33 +643,11 @@
       ]
     },
     {
-      "asn": "AS213412",
-      "name": "ONYPHE SAS",
-      "country": "FR",
-      "score": 24.95,
-      "event_count": 75,
-      "ip_count": 70,
-      "credential_events": 0,
-      "cve_events": 6,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=6",
-        "multi_honeypot=5"
-      ]
-    },
-    {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 23.63,
-      "event_count": 1564,
+      "event_count": 1565,
       "ip_count": 147,
       "credential_events": 1,
       "cve_events": 0,
@@ -727,6 +727,26 @@
       ]
     },
     {
+      "asn": "AS48090",
+      "name": "TECHOFF SRV LIMITED",
+      "country": "NL",
+      "score": 21.54,
+      "event_count": 768,
+      "ip_count": 18,
+      "credential_events": 0,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "multi_honeypot=4"
+      ]
+    },
+    {
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
@@ -740,26 +760,6 @@
         "fortipot:honeypot-01",
         "ivantipot:honeypot-01",
         "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS48090",
-      "name": "TECHOFF SRV LIMITED",
-      "country": "NL",
-      "score": 21.35,
-      "event_count": 675,
-      "ip_count": 18,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
