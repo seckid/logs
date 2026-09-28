@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T23:01:19.970113Z",
+  "generated_at": "2026-09-28T00:00:29.029754Z",
   "period_days": 90,
-  "total_events": 119420,
-  "unique_ips": 2121,
+  "total_events": 119491,
+  "unique_ips": 2133,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -19,9 +19,9 @@
     "centrestackpot:honeypot-01": 217,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 73672,
-    "bigippot:honeypot-01": 15784,
+    "bigippot:honeypot-01": 15797,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 26797
+    "front:honeypot-01": 26855
   },
   "events_per_day": {
     "2026-08-28": {
@@ -223,13 +223,13 @@
       "total": 3122
     },
     "2026-09-27": {
-      "front:honeypot-01": 1338,
+      "front:honeypot-01": 1396,
       "fortipot:honeypot-01": 124,
       "panospot:honeypot-01": 37,
-      "bigippot:honeypot-01": 639,
+      "bigippot:honeypot-01": 652,
       "ivantipot:honeypot-01": 115,
       "centrestackpot:honeypot-01": 2,
-      "total": 2255
+      "total": 2326
     }
   },
   "top_credentials": [
@@ -2349,15 +2349,15 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 72588
+      "count": 72597
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 6019
+      "count": 6021
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 4027
+      "count": 4084
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -2369,8 +2369,8 @@
     }
   ],
   "method_counts": {
-    "POST": 75255,
-    "GET": 40605,
+    "POST": 75256,
+    "GET": 40675,
     "SSH": 1382,
     "HEAD": 87,
     "PRI": 67,
@@ -2404,17 +2404,17 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1321
+      "count": 1323
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1195
+      "count": 1197
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 653
+      "count": 656
     },
     {
       "path": "/logincheck",
@@ -2437,14 +2437,14 @@
       "count": 204
     },
     {
+      "path": "/favicon.ico",
+      "source": "bigippot:honeypot-01",
+      "count": 196
+    },
+    {
       "path": "/.env",
       "source": "front:honeypot-01",
       "count": 195
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "bigippot:honeypot-01",
-      "count": 194
     },
     {
       "path": "/.git/config",
@@ -2693,9 +2693,9 @@
     {
       "asn": "AS202412",
       "name": "Omegatech LTD",
-      "country": "DE",
-      "ip_count": 11,
-      "event_count": 1135
+      "country": "NL",
+      "ip_count": 12,
+      "event_count": 1136
     },
     {
       "asn": "AS208137",
@@ -2712,18 +2712,18 @@
       "event_count": 1044
     },
     {
+      "asn": "AS218785",
+      "name": "TC DATACENTER LIMITED",
+      "country": "PL",
+      "ip_count": 9,
+      "event_count": 712
+    },
+    {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "DE",
       "ip_count": 113,
       "event_count": 711
-    },
-    {
-      "asn": "AS218785",
-      "name": "TC DATACENTER LIMITED",
-      "country": "PL",
-      "ip_count": 9,
-      "event_count": 710
     },
     {
       "asn": "AS48090",
@@ -2764,8 +2764,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 100,
-      "event_count": 366
+      "ip_count": 101,
+      "event_count": 367
     },
     {
       "asn": "AS31898",
@@ -2979,11 +2979,11 @@
     }
   ],
   "events_by_country": {
-    "NL": 42104,
-    "PL": 32395,
+    "NL": 43240,
+    "PL": 32397,
     "BR": 8738,
-    "DE": 3744,
-    "US": 2794,
+    "US": 2795,
+    "DE": 2609,
     "SE": 1557,
     "BG": 970,
     "FR": 698,
@@ -2992,7 +2992,7 @@
     "CA": 323,
     "JP": 290,
     "CN": 234,
-    "GB": 201,
+    "GB": 211,
     "PK": 154,
     "KZ": 139,
     "IN": 109,
