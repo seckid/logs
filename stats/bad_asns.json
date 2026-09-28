@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T22:01:24.681872Z",
+  "generated_at": "2026-09-28T23:01:54.375103Z",
   "period_days": 90,
   "asns": [
     {
@@ -175,6 +175,25 @@
       ]
     },
     {
+      "asn": "AS4766",
+      "name": "Korea Telecom",
+      "country": "KR",
+      "score": 50.18,
+      "event_count": 91,
+      "ip_count": 88,
+      "credential_events": 90,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=90",
+        "multi_honeypot=2"
+      ]
+    },
+    {
       "asn": "AS197769",
       "name": "VPS Dedicated LLC",
       "country": "DE",
@@ -192,25 +211,6 @@
       "reasons": [
         "credential_events=70",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS4766",
-      "name": "Korea Telecom",
-      "country": "KR",
-      "score": 50.17,
-      "event_count": 87,
-      "ip_count": 84,
-      "credential_events": 86,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=86",
-        "multi_honeypot=2"
       ]
     },
     {
@@ -331,16 +331,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.29,
-      "event_count": 146,
+      "event_count": 147,
       "ip_count": 1,
-      "credential_events": 146,
+      "credential_events": 147,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=146"
+        "credential_events=147"
       ]
     },
     {
@@ -381,6 +381,28 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=32",
+        "multi_honeypot=5"
+      ]
+    },
+    {
+      "asn": "AS48090",
+      "name": "TECHOFF SRV LIMITED",
+      "country": "NL",
+      "score": 34.59,
+      "event_count": 794,
+      "ip_count": 19,
+      "credential_events": 26,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=26",
         "multi_honeypot=5"
       ]
     },
@@ -647,8 +669,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 23.63,
-      "event_count": 1565,
-      "ip_count": 147,
+      "event_count": 1566,
+      "ip_count": 148,
       "credential_events": 1,
       "cve_events": 0,
       "honeypots": [
@@ -724,26 +746,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=43"
-      ]
-    },
-    {
-      "asn": "AS48090",
-      "name": "TECHOFF SRV LIMITED",
-      "country": "NL",
-      "score": 21.54,
-      "event_count": 768,
-      "ip_count": 18,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=4"
       ]
     },
     {
@@ -835,9 +837,9 @@
       "asn": "AS398324",
       "name": "Censys, Inc.",
       "country": "US",
-      "score": 20.68,
-      "event_count": 341,
-      "ip_count": 43,
+      "score": 20.7,
+      "event_count": 348,
+      "ip_count": 44,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
