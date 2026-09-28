@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T02:01:54.303467Z",
+  "generated_at": "2026-09-28T03:01:20.847179Z",
   "period_days": 90,
   "asns": [
     {
@@ -132,10 +132,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "BE",
       "score": 54.2,
-      "event_count": 8915,
-      "ip_count": 193,
+      "event_count": 8916,
+      "ip_count": 194,
       "credential_events": 26,
       "cve_events": 14,
       "honeypots": [
@@ -422,6 +422,27 @@
       ]
     },
     {
+      "asn": "AS212238",
+      "name": "Datacamp Limited",
+      "country": "US",
+      "score": 30.16,
+      "event_count": 80,
+      "ip_count": 6,
+      "credential_events": 20,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=20",
+        "multi_honeypot=4"
+      ]
+    },
+    {
       "asn": "AS37963",
       "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "country": "CN",
@@ -574,26 +595,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=54"
-      ]
-    },
-    {
-      "asn": "AS212238",
-      "name": "Datacamp Limited",
-      "country": "US",
-      "score": 25.15,
-      "event_count": 77,
-      "ip_count": 5,
-      "credential_events": 20,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=20",
-        "multi_honeypot=3"
       ]
     },
     {
