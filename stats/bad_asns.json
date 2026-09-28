@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T18:02:54.303071Z",
+  "generated_at": "2026-09-28T19:05:19.337940Z",
   "period_days": 90,
   "asns": [
     {
@@ -29,10 +29,10 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "GB",
-      "score": 66.92,
-      "event_count": 1060,
-      "ip_count": 124,
-      "credential_events": 579,
+      "score": 67.03,
+      "event_count": 1116,
+      "ip_count": 125,
+      "credential_events": 635,
       "cve_events": 6,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -44,7 +44,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=579",
+        "credential_events=635",
         "cve_events=6",
         "multi_honeypot=6",
         "research_or_cloud_with_hostile_density"
@@ -621,6 +621,30 @@
       ]
     },
     {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "IN",
+      "score": 23.62,
+      "event_count": 1562,
+      "ip_count": 146,
+      "credential_events": 1,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=1",
+        "multi_honeypot=6",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS213412",
       "name": "ONYPHE SAS",
       "country": "FR",
@@ -640,30 +664,6 @@
       "reasons": [
         "cve_events=4",
         "multi_honeypot=5"
-      ]
-    },
-    {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "score": 22.76,
-      "event_count": 1130,
-      "ip_count": 145,
-      "credential_events": 1,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=1",
-        "multi_honeypot=6",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -751,7 +751,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 21.35,
-      "event_count": 673,
+      "event_count": 675,
       "ip_count": 18,
       "credential_events": 0,
       "cve_events": 0,
