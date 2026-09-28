@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T11:02:54.945376Z",
+  "generated_at": "2026-09-28T12:03:02.514467Z",
   "period_days": 90,
-  "total_events": 120896,
-  "unique_ips": 2196,
+  "total_events": 120987,
+  "unique_ips": 2200,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
   ],
   "totals_by_source": {
     "panospot:honeypot-01": 283,
-    "ivantipot:honeypot-01": 1410,
+    "ivantipot:honeypot-01": 1411,
     "centrestackpot:honeypot-01": 217,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 73728,
-    "bigippot:honeypot-01": 16209,
+    "bigippot:honeypot-01": 16217,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 27643
+    "front:honeypot-01": 27725
   },
   "events_per_day": {
     "2026-08-28": {
@@ -232,12 +232,12 @@
       "total": 2326
     },
     "2026-09-28": {
-      "front:honeypot-01": 788,
-      "ivantipot:honeypot-01": 114,
+      "front:honeypot-01": 870,
+      "ivantipot:honeypot-01": 115,
       "fortipot:honeypot-01": 56,
-      "bigippot:honeypot-01": 412,
+      "bigippot:honeypot-01": 420,
       "panospot:honeypot-01": 35,
-      "total": 1405
+      "total": 1496
     }
   },
   "top_credentials": [
@@ -2371,7 +2371,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 4084
+      "count": 4162
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2379,8 +2379,8 @@
     }
   ],
   "method_counts": {
-    "POST": 75517,
-    "GET": 41624,
+    "POST": 75523,
+    "GET": 41709,
     "SSH": 1382,
     "HEAD": 89,
     "PRI": 68,
@@ -2410,7 +2410,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1337
+      "count": 1339
     },
     {
       "path": "/",
@@ -2475,7 +2475,7 @@
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 154
+      "count": 155
     },
     {
       "path": "/style.css",
@@ -2533,7 +2533,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 329,
+      "count": 337,
       "sources": [
         "bigippot:honeypot-01",
         "front:honeypot-01"
@@ -2665,7 +2665,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1698
+    "Critical": 1706
   },
   "top_asns": [
     {
@@ -2692,9 +2692,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "CH",
-      "ip_count": 197,
-      "event_count": 9036
+      "country": "NL",
+      "ip_count": 198,
+      "event_count": 9037
     },
     {
       "asn": "AS213790",
@@ -2711,6 +2711,13 @@
       "event_count": 1232
     },
     {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "ip_count": 144,
+      "event_count": 1129
+    },
+    {
       "asn": "AS208137",
       "name": "Feo Prest SRL",
       "country": "DE",
@@ -2718,24 +2725,17 @@
       "event_count": 1093
     },
     {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 144,
-      "event_count": 1050
+      "ip_count": 116,
+      "event_count": 718
     },
     {
       "asn": "AS218785",
       "name": "TC DATACENTER LIMITED",
       "country": "PL",
       "ip_count": 9,
-      "event_count": 718
-    },
-    {
-      "asn": "AS14061",
-      "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 116,
       "event_count": 718
     },
     {
@@ -2867,9 +2867,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "CH",
+      "country": "NL",
       "score": 54.2,
-      "event_count": 9036,
+      "event_count": 9037,
       "credential_events": 26,
       "cve_events": 14
     },
@@ -2992,10 +2992,9 @@
     }
   ],
   "events_by_country": {
-    "NL": 42123,
+    "NL": 51160,
     "PL": 32405,
-    "CH": 9075,
-    "US": 4677,
+    "US": 4763,
     "DE": 3130,
     "BG": 970,
     "FR": 714,
@@ -3016,6 +3015,7 @@
     "FI": 54,
     "UZ": 49,
     "RU": 42,
+    "CH": 39,
     "NO": 37,
     "MY": 28,
     "LT": 23,
