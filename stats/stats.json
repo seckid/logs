@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T04:02:53.760364Z",
+  "generated_at": "2026-09-28T05:02:19.768322Z",
   "period_days": 90,
-  "total_events": 120530,
-  "unique_ips": 2169,
+  "total_events": 120570,
+  "unique_ips": 2177,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
   ],
   "totals_by_source": {
     "panospot:honeypot-01": 281,
-    "ivantipot:honeypot-01": 1362,
+    "ivantipot:honeypot-01": 1365,
     "centrestackpot:honeypot-01": 217,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 73698,
-    "bigippot:honeypot-01": 16067,
+    "fortipot:honeypot-01": 73711,
+    "bigippot:honeypot-01": 16084,
     "sshppot:honeypot-01": 1383,
-    "front:honeypot-01": 27499
+    "front:honeypot-01": 27506
   },
   "events_per_day": {
     "2026-08-28": {
@@ -232,12 +232,12 @@
       "total": 2326
     },
     "2026-09-28": {
-      "front:honeypot-01": 644,
-      "ivantipot:honeypot-01": 66,
-      "fortipot:honeypot-01": 26,
-      "bigippot:honeypot-01": 270,
+      "front:honeypot-01": 651,
+      "ivantipot:honeypot-01": 69,
+      "fortipot:honeypot-01": 39,
+      "bigippot:honeypot-01": 287,
       "panospot:honeypot-01": 33,
-      "total": 1039
+      "total": 1079
     }
   },
   "top_credentials": [
@@ -2363,7 +2363,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 6023
+      "count": 6030
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2379,8 +2379,8 @@
     }
   ],
   "method_counts": {
-    "POST": 75509,
-    "GET": 41325,
+    "POST": 75516,
+    "GET": 41345,
     "SSH": 1382,
     "HEAD": 88,
     "PRI": 67,
@@ -2405,7 +2405,7 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 72015
+      "count": 72016
     },
     {
       "path": "/",
@@ -2420,12 +2420,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1234
+      "count": 1236
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 684
+      "count": 685
     },
     {
       "path": "/logincheck",
@@ -2445,7 +2445,7 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 223
+      "count": 225
     },
     {
       "path": "/robots.txt",
@@ -2455,7 +2455,7 @@
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 209
+      "count": 210
     },
     {
       "path": "/favicon.ico",
@@ -2727,9 +2727,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 114,
-      "event_count": 715
+      "country": "NL",
+      "ip_count": 115,
+      "event_count": 717
     },
     {
       "asn": "AS218785",
@@ -2749,8 +2749,8 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "ip_count": 115,
-      "event_count": 643
+      "ip_count": 119,
+      "event_count": 656
     },
     {
       "asn": "AS41280",
@@ -2798,8 +2798,8 @@
       "asn": "AS209334",
       "name": "Modat B.V.",
       "country": "CA",
-      "ip_count": 29,
-      "event_count": 318
+      "ip_count": 30,
+      "event_count": 330
     },
     {
       "asn": "AS29244",
@@ -2822,9 +2822,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
+      "country": "NL",
       "score": 66.23,
-      "event_count": 715,
+      "event_count": 717,
       "credential_events": 247,
       "cve_events": 6
     },
@@ -2992,17 +2992,17 @@
     }
   ],
   "events_by_country": {
-    "NL": 43241,
+    "NL": 43959,
     "PL": 32400,
     "BE": 8916,
-    "US": 4628,
+    "US": 3930,
     "DE": 1898,
     "BG": 970,
     "FR": 703,
     "SE": 513,
     "HK": 429,
     "SG": 414,
-    "CA": 323,
+    "CA": 335,
     "JP": 290,
     "CN": 234,
     "GB": 222,
