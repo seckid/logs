@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T01:02:46.804975Z",
+  "generated_at": "2026-09-29T02:05:14.415920Z",
   "period_days": 90,
   "asns": [
     {
@@ -54,10 +54,10 @@
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "score": 62.0,
-      "event_count": 1002,
+      "score": 62.12,
+      "event_count": 1062,
       "ip_count": 19,
-      "credential_events": 232,
+      "credential_events": 292,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -68,8 +68,32 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=232",
+        "credential_events=292",
         "multi_honeypot=5"
+      ]
+    },
+    {
+      "asn": "AS396982",
+      "name": "Google LLC",
+      "country": "US",
+      "score": 61.4,
+      "event_count": 9369,
+      "ip_count": 227,
+      "credential_events": 34,
+      "cve_events": 18,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=34",
+        "cve_events=18",
+        "multi_honeypot=5",
+        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -152,27 +176,22 @@
       ]
     },
     {
-      "asn": "AS396982",
-      "name": "Google LLC",
-      "country": "US",
-      "score": 54.2,
-      "event_count": 9044,
-      "ip_count": 202,
-      "credential_events": 26,
-      "cve_events": 14,
+      "asn": "AS37963",
+      "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
+      "country": "CN",
+      "score": 51.08,
+      "event_count": 542,
+      "ip_count": 7,
+      "credential_events": 523,
+      "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
+        "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=26",
-        "cve_events=14",
-        "multi_honeypot=5",
-        "research_or_cloud_with_hostile_density"
+        "credential_events=523",
+        "multi_honeypot=2"
       ]
     },
     {
@@ -446,25 +465,6 @@
       ]
     },
     {
-      "asn": "AS37963",
-      "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "country": "CN",
-      "score": 30.62,
-      "event_count": 60,
-      "ip_count": 6,
-      "credential_events": 41,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=41",
-        "multi_honeypot=2"
-      ]
-    },
-    {
       "asn": "AS197556",
       "name": "Kar-Tel LLC",
       "country": "KZ",
@@ -523,23 +523,6 @@
       "asn": "AS150462",
       "name": "PT Air Lintas Komunikasi",
       "country": "ID",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
-      "asn": "AS206134",
-      "name": "NEKOBYTE INTERNATIONAL LIMITED",
-      "country": "DE",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -622,12 +605,29 @@
       ]
     },
     {
+      "asn": "AS206134",
+      "name": "NEKOBYTE INTERNATIONAL LIMITED",
+      "country": "DE",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
       "asn": "AS213412",
       "name": "ONYPHE SAS",
-      "country": "FR",
-      "score": 25.75,
-      "event_count": 76,
-      "ip_count": 70,
+      "country": "US",
+      "score": 25.76,
+      "event_count": 82,
+      "ip_count": 73,
       "credential_events": 0,
       "cve_events": 7,
       "honeypots": [
@@ -646,9 +646,9 @@
     {
       "asn": "AS202412",
       "name": "Omegatech LTD",
-      "country": "DE",
-      "score": 24.96,
-      "event_count": 1232,
+      "country": "NL",
+      "score": 24.97,
+      "event_count": 1233,
       "ip_count": 12,
       "credential_events": 5,
       "cve_events": 0,
@@ -670,8 +670,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 23.64,
-      "event_count": 1569,
-      "ip_count": 148,
+      "event_count": 1570,
+      "ip_count": 149,
       "credential_events": 1,
       "cve_events": 0,
       "honeypots": [
@@ -794,9 +794,9 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 20.99,
-      "event_count": 497,
-      "ip_count": 113,
+      "score": 21.04,
+      "event_count": 518,
+      "ip_count": 115,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
@@ -817,8 +817,8 @@
       "name": "OVH SAS",
       "country": "FR",
       "score": 20.72,
-      "event_count": 111,
-      "ip_count": 35,
+      "event_count": 112,
+      "ip_count": 36,
       "credential_events": 1,
       "cve_events": 0,
       "honeypots": [
