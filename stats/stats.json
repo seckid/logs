@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T02:05:14.415920Z",
+  "generated_at": "2026-09-29T05:00:55.142764Z",
   "period_days": 90,
-  "total_events": 123292,
-  "unique_ips": 2376,
+  "total_events": 126788,
+  "unique_ips": 2384,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
   ],
   "totals_by_source": {
     "panospot:honeypot-01": 303,
-    "ivantipot:honeypot-01": 1536,
+    "ivantipot:honeypot-01": 1560,
     "centrestackpot:honeypot-01": 217,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 73823,
-    "bigippot:honeypot-01": 16696,
-    "sshppot:honeypot-01": 2629,
-    "front:honeypot-01": 28064
+    "fortipot:honeypot-01": 73825,
+    "bigippot:honeypot-01": 16730,
+    "sshppot:honeypot-01": 5792,
+    "front:honeypot-01": 28338
   },
   "events_per_day": {
     "2026-08-28": {
@@ -241,25 +241,25 @@
       "total": 2660
     },
     "2026-09-29": {
-      "ivantipot:honeypot-01": 20,
+      "ivantipot:honeypot-01": 44,
       "panospot:honeypot-01": 20,
-      "sshppot:honeypot-01": 632,
-      "front:honeypot-01": 63,
-      "bigippot:honeypot-01": 361,
-      "fortipot:honeypot-01": 44,
-      "total": 1140
+      "sshppot:honeypot-01": 3795,
+      "front:honeypot-01": 337,
+      "bigippot:honeypot-01": 395,
+      "fortipot:honeypot-01": 46,
+      "total": 4637
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 177
+      "count": 180
     },
     {
       "username": "root",
       "password": "(empty)",
-      "count": 55
+      "count": 61
     },
     {
       "username": "admin",
@@ -313,13 +313,13 @@
     },
     {
       "username": "root",
-      "password": "12345678",
+      "password": "123456",
       "count": 24
     },
     {
       "username": "root",
-      "password": "123456",
-      "count": 23
+      "password": "12345678",
+      "count": 24
     },
     {
       "username": "ubnt",
@@ -505,7 +505,7 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 304
+      "count": 311
     },
     {
       "username": "admin",
@@ -513,7 +513,7 @@
     },
     {
       "username": "support",
-      "count": 177
+      "count": 180
     },
     {
       "username": "user",
@@ -587,11 +587,11 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 177
+      "count": 180
     },
     {
       "password": "(empty)",
-      "count": 99
+      "count": 105
     },
     {
       "password": "admin",
@@ -618,11 +618,11 @@
       "count": 31
     },
     {
-      "password": "user",
-      "count": 29
+      "password": "123456",
+      "count": 30
     },
     {
-      "password": "123456",
+      "password": "user",
       "count": 29
     },
     {
@@ -668,12 +668,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 75201,
+      "attempt_count": 78363,
       "unique_ips": 515,
-      "unique_pairs": 73367,
+      "unique_pairs": 76500,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 75201
+      "unknown_outcome_count": 78363
     },
     "top_source_ips": [
       {
@@ -862,14 +862,14 @@
         "ip": "47.100.0.134",
         "asn": "AS37963",
         "asn_name": "Hangzhou Alibaba Advertising Co.,Ltd.",
-        "attempt_count": 480,
+        "attempt_count": 3605,
         "unique_usernames": 1,
-        "unique_passwords": 477,
+        "unique_passwords": 3590,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-29T01:42:11Z",
-        "last_seen": "2026-09-29T02:05:05Z",
+        "last_seen": "2026-09-29T05:00:42Z",
         "success_count": 0
       },
       {
@@ -890,14 +890,14 @@
         "ip": "195.178.110.218",
         "asn": "AS48090",
         "asn_name": "TECHOFF SRV LIMITED",
-        "attempt_count": 292,
-        "unique_usernames": 170,
-        "unique_passwords": 259,
+        "attempt_count": 326,
+        "unique_usernames": 191,
+        "unique_passwords": 288,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-28T22:52:53Z",
-        "last_seen": "2026-09-29T02:04:17Z",
+        "last_seen": "2026-09-29T02:52:43Z",
         "success_count": 0
       },
       {
@@ -946,14 +946,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 149,
+        "attempt_count": 152,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-09-29T00:42:01Z",
+        "last_seen": "2026-09-29T04:11:32Z",
         "success_count": 0
       },
       {
@@ -1564,14 +1564,14 @@
         "ip": "47.100.0.134",
         "asn": "AS37963",
         "asn_name": "Hangzhou Alibaba Advertising Co.,Ltd.",
-        "attempt_count": 480,
+        "attempt_count": 3605,
         "unique_usernames": 1,
-        "unique_passwords": 477,
+        "unique_passwords": 3590,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-29T01:42:11Z",
-        "last_seen": "2026-09-29T02:05:05Z",
+        "last_seen": "2026-09-29T05:00:42Z",
         "success_count": 0
       },
       {
@@ -1592,14 +1592,14 @@
         "ip": "195.178.110.218",
         "asn": "AS48090",
         "asn_name": "TECHOFF SRV LIMITED",
-        "attempt_count": 292,
-        "unique_usernames": 170,
-        "unique_passwords": 259,
+        "attempt_count": 326,
+        "unique_usernames": 191,
+        "unique_passwords": 288,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-28T22:52:53Z",
-        "last_seen": "2026-09-29T02:04:17Z",
+        "last_seen": "2026-09-29T02:52:43Z",
         "success_count": 0
       },
       {
@@ -1648,14 +1648,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 149,
+        "attempt_count": 152,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-09-29T00:42:01Z",
+        "last_seen": "2026-09-29T04:11:32Z",
         "success_count": 0
       },
       {
@@ -1943,7 +1943,7 @@
       {
         "username": "support",
         "password": "support",
-        "count": 177,
+        "count": 180,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -1952,7 +1952,7 @@
       {
         "username": "root",
         "password": "(empty)",
-        "count": 55,
+        "count": 61,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2050,7 +2050,7 @@
       },
       {
         "username": "root",
-        "password": "12345678",
+        "password": "123456",
         "count": 24,
         "sources": [
           "fortipot:honeypot-01",
@@ -2059,8 +2059,8 @@
       },
       {
         "username": "root",
-        "password": "123456",
-        "count": 23,
+        "password": "12345678",
+        "count": 24,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2382,11 +2382,11 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 6042
+      "count": 6044
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 4272
+      "count": 4544
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -2398,9 +2398,9 @@
     }
   ],
   "method_counts": {
-    "POST": 75545,
-    "GET": 42535,
-    "SSH": 2631,
+    "POST": 75546,
+    "GET": 42831,
+    "SSH": 5793,
     "HEAD": 89,
     "PRI": 71,
     "PROPFIND": 45,
@@ -2429,22 +2429,22 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 2563
+      "count": 5718
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1354
+      "count": 1356
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1314
+      "count": 1320
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 739
+      "count": 744
     },
     {
       "path": "/logincheck",
@@ -2464,17 +2464,17 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 241
+      "count": 242
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 222
+      "count": 223
     },
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 221
+      "count": 223
     },
     {
       "path": "/favicon.ico",
@@ -2509,7 +2509,7 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 102
+      "count": 103
     },
     {
       "path": "/logo.svg",
@@ -2716,8 +2716,15 @@
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "US",
-      "ip_count": 227,
-      "event_count": 9369
+      "ip_count": 230,
+      "event_count": 9373
+    },
+    {
+      "asn": "AS37963",
+      "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
+      "country": "CN",
+      "ip_count": 7,
+      "event_count": 3667
     },
     {
       "asn": "AS213790",
@@ -2731,21 +2738,28 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "ip_count": 149,
-      "event_count": 1570
+      "event_count": 1571
     },
     {
       "asn": "AS202412",
       "name": "Omegatech LTD",
       "country": "NL",
-      "ip_count": 12,
-      "event_count": 1233
+      "ip_count": 13,
+      "event_count": 1234
     },
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
       "ip_count": 126,
-      "event_count": 1137
+      "event_count": 1138
+    },
+    {
+      "asn": "AS48090",
+      "name": "TECHOFF SRV LIMITED",
+      "country": "NL",
+      "ip_count": 19,
+      "event_count": 1096
     },
     {
       "asn": "AS208137",
@@ -2755,18 +2769,11 @@
       "event_count": 1093
     },
     {
-      "asn": "AS48090",
-      "name": "TECHOFF SRV LIMITED",
-      "country": "NL",
-      "ip_count": 19,
-      "event_count": 1062
-    },
-    {
       "asn": "AS218785",
       "name": "TC DATACENTER LIMITED",
       "country": "PL",
       "ip_count": 10,
-      "event_count": 823
+      "event_count": 825
     },
     {
       "asn": "AS6939",
@@ -2783,18 +2790,11 @@
       "event_count": 627
     },
     {
-      "asn": "AS37963",
-      "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "country": "CN",
-      "ip_count": 7,
-      "event_count": 542
-    },
-    {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 115,
-      "event_count": 518
+      "ip_count": 116,
+      "event_count": 538
     },
     {
       "asn": "AS203861",
@@ -2846,8 +2846,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "score": 67.07,
-      "event_count": 1137,
+      "score": 67.08,
+      "event_count": 1138,
       "credential_events": 653,
       "cve_events": 6
     },
@@ -2855,9 +2855,9 @@
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "score": 62.12,
-      "event_count": 1062,
-      "credential_events": 292,
+      "score": 62.19,
+      "event_count": 1096,
+      "credential_events": 326,
       "cve_events": 0
     },
     {
@@ -2865,7 +2865,7 @@
       "name": "Google LLC",
       "country": "US",
       "score": 61.4,
-      "event_count": 9369,
+      "event_count": 9373,
       "credential_events": 34,
       "cve_events": 18
     },
@@ -2888,6 +2888,15 @@
       "cve_events": 0
     },
     {
+      "asn": "AS37963",
+      "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
+      "country": "CN",
+      "score": 57.33,
+      "event_count": 3667,
+      "credential_events": 3648,
+      "cve_events": 0
+    },
+    {
       "asn": "AS208137",
       "name": "Feo Prest SRL",
       "country": "DE",
@@ -2903,15 +2912,6 @@
       "score": 55.69,
       "event_count": 344,
       "credential_events": 336,
-      "cve_events": 0
-    },
-    {
-      "asn": "AS37963",
-      "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "country": "CN",
-      "score": 51.08,
-      "event_count": 542,
-      "credential_events": 523,
       "cve_events": 0
     },
     {
@@ -3000,8 +3000,8 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.3,
-      "event_count": 149,
-      "credential_events": 149,
+      "event_count": 152,
+      "credential_events": 152,
       "cve_events": 0
     },
     {
@@ -3015,15 +3015,15 @@
     }
   ],
   "events_by_country": {
-    "NL": 43759,
-    "PL": 32522,
-    "US": 15390,
+    "NL": 43794,
+    "PL": 32527,
+    "US": 15424,
+    "CN": 3853,
     "DE": 1989,
     "BG": 976,
-    "CN": 728,
-    "FR": 721,
+    "FR": 723,
     "SE": 513,
-    "SG": 415,
+    "SG": 416,
     "CA": 370,
     "GB": 232,
     "TW": 224,
