@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-30T01:05:17.603637Z",
+  "generated_at": "2026-09-30T04:00:35.621030Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "MY",
+      "country": "DE",
       "score": 90.61,
-      "event_count": 305,
-      "ip_count": 60,
+      "event_count": 306,
+      "ip_count": 61,
       "credential_events": 85,
       "cve_events": 67,
       "honeypots": [
@@ -22,6 +22,29 @@
       "reasons": [
         "credential_events=85",
         "cve_events=67",
+        "multi_honeypot=5"
+      ]
+    },
+    {
+      "asn": "AS135377",
+      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+      "country": "VN",
+      "score": 70.55,
+      "event_count": 273,
+      "ip_count": 23,
+      "credential_events": 40,
+      "cve_events": 84,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=40",
+        "cve_events=84",
         "multi_honeypot=5"
       ]
     },
@@ -75,10 +98,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
+      "country": "BE",
       "score": 61.4,
-      "event_count": 9651,
-      "ip_count": 243,
+      "event_count": 9652,
+      "ip_count": 244,
       "credential_events": 34,
       "cve_events": 18,
       "honeypots": [
@@ -215,34 +238,13 @@
       ]
     },
     {
-      "asn": "AS135377",
-      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "HK",
-      "score": 50.45,
-      "event_count": 224,
-      "ip_count": 21,
-      "credential_events": 0,
-      "cve_events": 84,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=84",
-        "multi_honeypot=4"
-      ]
-    },
-    {
       "asn": "AS4766",
       "name": "Korea Telecom",
       "country": "KR",
-      "score": 50.24,
-      "event_count": 122,
-      "ip_count": 110,
-      "credential_events": 121,
+      "score": 50.25,
+      "event_count": 126,
+      "ip_count": 114,
+      "credential_events": 125,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -250,7 +252,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=121",
+        "credential_events=125",
         "multi_honeypot=2"
       ]
     },
@@ -373,16 +375,33 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.34,
-      "event_count": 168,
+      "event_count": 171,
       "ip_count": 1,
-      "credential_events": 168,
+      "credential_events": 171,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=168"
+        "credential_events=171"
+      ]
+    },
+    {
+      "asn": "AS17557",
+      "name": "Pakistan Telecommunication Company Limited",
+      "country": "PK",
+      "score": 40.16,
+      "event_count": 80,
+      "ip_count": 75,
+      "credential_events": 80,
+      "cve_events": 0,
+      "honeypots": [
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=80"
       ]
     },
     {
@@ -402,23 +421,6 @@
       "reasons": [
         "cve_events=42",
         "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS17557",
-      "name": "Pakistan Telecommunication Company Limited",
-      "country": "PK",
-      "score": 37.15,
-      "event_count": 74,
-      "ip_count": 69,
-      "credential_events": 74,
-      "cve_events": 0,
-      "honeypots": [
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=74"
       ]
     },
     {
@@ -571,23 +573,6 @@
       ]
     },
     {
-      "asn": "AS59257",
-      "name": "CMPak Limited",
-      "country": "PK",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
       "asn": "AS63023",
       "name": "GTHost",
       "country": "US",
@@ -608,6 +593,23 @@
       "asn": "AS150462",
       "name": "PT Air Lintas Komunikasi",
       "country": "ID",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
+      "asn": "AS59257",
+      "name": "CMPak Limited",
+      "country": "PK",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -668,10 +670,10 @@
       "asn": "AS202412",
       "name": "Omegatech LTD",
       "country": "NL",
-      "score": 24.97,
-      "event_count": 1234,
+      "score": 25.47,
+      "event_count": 1236,
       "ip_count": 13,
-      "credential_events": 5,
+      "credential_events": 6,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -682,7 +684,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=5",
+        "credential_events=6",
         "multi_honeypot=5"
       ]
     },
@@ -691,8 +693,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 23.86,
-      "event_count": 1680,
-      "ip_count": 154,
+      "event_count": 1682,
+      "ip_count": 155,
       "credential_events": 1,
       "cve_events": 0,
       "honeypots": [
@@ -812,9 +814,9 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "score": 21.5,
-      "event_count": 749,
-      "ip_count": 129,
+      "score": 21.55,
+      "event_count": 774,
+      "ip_count": 135,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
@@ -919,9 +921,9 @@
       "asn": "AS209334",
       "name": "Modat B.V.",
       "country": "CA",
-      "score": 20.72,
-      "event_count": 360,
-      "ip_count": 31,
+      "score": 20.74,
+      "event_count": 372,
+      "ip_count": 32,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
@@ -938,10 +940,10 @@
     {
       "asn": "AS16509",
       "name": "Amazon.com, Inc.",
-      "country": "AU",
-      "score": 20.52,
-      "event_count": 262,
-      "ip_count": 54,
+      "country": "US",
+      "score": 20.53,
+      "event_count": 266,
+      "ip_count": 55,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
