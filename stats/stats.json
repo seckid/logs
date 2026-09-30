@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-30T19:00:51.321486Z",
+  "generated_at": "2026-09-30T20:05:11.411809Z",
   "period_days": 90,
-  "total_events": 134896,
-  "unique_ips": 2674,
+  "total_events": 135050,
+  "unique_ips": 2678,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
   ],
   "totals_by_source": {
     "panospot:honeypot-01": 330,
-    "ivantipot:honeypot-01": 1815,
+    "ivantipot:honeypot-01": 1840,
     "centrestackpot:honeypot-01": 217,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 73998,
-    "bigippot:honeypot-01": 17559,
-    "sshppot:honeypot-01": 11519,
-    "front:honeypot-01": 29435
+    "bigippot:honeypot-01": 17571,
+    "sshppot:honeypot-01": 11623,
+    "front:honeypot-01": 29448
   },
   "events_per_day": {
     "2026-08-28": {
@@ -250,13 +250,13 @@
       "total": 11081
     },
     "2026-09-30": {
-      "sshppot:honeypot-01": 525,
-      "ivantipot:honeypot-01": 130,
+      "sshppot:honeypot-01": 629,
+      "ivantipot:honeypot-01": 155,
       "fortipot:honeypot-01": 110,
       "panospot:honeypot-01": 22,
-      "front:honeypot-01": 310,
-      "bigippot:honeypot-01": 567,
-      "total": 1664
+      "front:honeypot-01": 323,
+      "bigippot:honeypot-01": 579,
+      "total": 1818
     }
   },
   "top_credentials": [
@@ -268,7 +268,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 81
+      "count": 85
     },
     {
       "username": "admin",
@@ -514,7 +514,7 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 358
+      "count": 362
     },
     {
       "username": "admin",
@@ -600,7 +600,7 @@
     },
     {
       "password": "(empty)",
-      "count": 138
+      "count": 142
     },
     {
       "password": "admin",
@@ -677,12 +677,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 84177,
+      "attempt_count": 84385,
       "unique_ips": 634,
-      "unique_pairs": 81942,
+      "unique_pairs": 82035,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 84177
+      "unknown_outcome_count": 84385
     },
     "top_source_ips": [
       {
@@ -885,14 +885,14 @@
         "ip": "103.56.207.208",
         "asn": "AS58477",
         "asn_name": "Argon Data Communication",
-        "attempt_count": 467,
-        "unique_usernames": 23,
-        "unique_passwords": 387,
+        "attempt_count": 675,
+        "unique_usernames": 26,
+        "unique_passwords": 478,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-30T10:00:22Z",
-        "last_seen": "2026-09-30T19:00:10Z",
+        "last_seen": "2026-09-30T20:04:54Z",
         "success_count": 0
       },
       {
@@ -1587,14 +1587,14 @@
         "ip": "103.56.207.208",
         "asn": "AS58477",
         "asn_name": "Argon Data Communication",
-        "attempt_count": 467,
-        "unique_usernames": 23,
-        "unique_passwords": 387,
+        "attempt_count": 675,
+        "unique_usernames": 26,
+        "unique_passwords": 478,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-30T10:00:22Z",
-        "last_seen": "2026-09-30T19:00:10Z",
+        "last_seen": "2026-09-30T20:04:54Z",
         "success_count": 0
       },
       {
@@ -1961,7 +1961,7 @@
       {
         "username": "root",
         "password": "(empty)",
-        "count": 81,
+        "count": 85,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2409,10 +2409,10 @@
   ],
   "method_counts": {
     "POST": 75668,
-    "GET": 44847,
-    "SSH": 11518,
+    "GET": 44891,
+    "SSH": 11622,
     "HEAD": 90,
-    "PRI": 77,
+    "PRI": 79,
     "PROPFIND": 49,
     "OPTIONS": 28,
     "DELETE": 12,
@@ -2439,22 +2439,22 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 11424
+      "count": 11526
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1429
+      "count": 1430
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1395
+      "count": 1397
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 812
+      "count": 813
     },
     {
       "path": "/logincheck",
@@ -2474,7 +2474,7 @@
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 254
+      "count": 257
     },
     {
       "path": "/wp-admin/index.php",
@@ -2484,12 +2484,12 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 232
+      "count": 233
     },
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 229
+      "count": 230
     },
     {
       "path": "/.env",
@@ -2504,12 +2504,12 @@
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 163
+      "count": 165
     },
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 119
+      "count": 121
     },
     {
       "path": "/.env",
@@ -2524,7 +2524,7 @@
     {
       "path": "/logo.svg",
       "source": "front:honeypot-01",
-      "count": 104
+      "count": 105
     },
     {
       "path": "/info.php",
@@ -2562,7 +2562,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 367,
+      "count": 365,
       "sources": [
         "bigippot:honeypot-01",
         "front:honeypot-01"
@@ -2586,6 +2586,32 @@
         "/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh",
         "/cgi-bin/php-cgi.exe?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
         "/hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input"
+      ]
+    },
+    {
+      "cve": "CVE-2025-68686",
+      "count": 26,
+      "sources": [
+        "fortipot:honeypot-01"
+      ],
+      "description": "FortiGate SSL-VPN issue added to CISA KEV in July 2026. Detection is an extra slash in the /lang/ path on fortipot. The older /remote/fgt_lang probe stays CVE-2018-13379.",
+      "severity": "Critical",
+      "cvss_score": null,
+      "sample_ips": [
+        "216.218.206.68",
+        "64.62.156.11",
+        "64.62.156.145",
+        "64.62.156.17",
+        "64.62.156.28",
+        "64.62.156.31",
+        "65.49.1.113",
+        "65.49.1.117"
+      ],
+      "sample_paths": [
+        "/lang//custom/data/config/sys_global.conf.gz",
+        "/lang//custom/sbin/init",
+        "/static/lang//custom/data/config/sys_global.conf.gz",
+        "/static/lang//custom/sbin/init"
       ]
     },
     {
@@ -2613,7 +2639,7 @@
     },
     {
       "cve": "CVE-2020-5902",
-      "count": 19,
+      "count": 18,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -2702,7 +2728,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1861
+    "Critical": 1884
   },
   "top_asns": [
     {
@@ -2751,8 +2777,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 157,
-      "event_count": 1687
+      "ip_count": 158,
+      "event_count": 1688
     },
     {
       "asn": "AS218785",
@@ -2797,11 +2823,18 @@
       "event_count": 809
     },
     {
+      "asn": "AS58477",
+      "name": "Argon Data Communication",
+      "country": "ID",
+      "ip_count": 1,
+      "event_count": 675
+    },
+    {
       "asn": "AS41280",
       "name": "SKYNET BULGARIA Ltd.",
       "country": "BG",
       "ip_count": 1,
-      "event_count": 651
+      "event_count": 654
     },
     {
       "asn": "AS14618",
@@ -2825,18 +2858,11 @@
       "event_count": 490
     },
     {
-      "asn": "AS58477",
-      "name": "Argon Data Communication",
-      "country": "ID",
-      "ip_count": 1,
-      "event_count": 467
-    },
-    {
       "asn": "AS398324",
       "name": "Censys, Inc.",
       "country": "US",
-      "ip_count": 47,
-      "event_count": 374
+      "ip_count": 48,
+      "event_count": 386
     },
     {
       "asn": "AS209334",
@@ -2850,9 +2876,9 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "HK",
-      "score": 90.61,
-      "event_count": 307,
+      "country": "US",
+      "score": 90.62,
+      "event_count": 308,
       "credential_events": 86,
       "cve_events": 67
     },
@@ -3004,9 +3030,9 @@
       "asn": "AS58477",
       "name": "Argon Data Communication",
       "country": "ID",
-      "score": 40.93,
-      "event_count": 467,
-      "credential_events": 467,
+      "score": 41.35,
+      "event_count": 675,
+      "credential_events": 675,
       "cve_events": 0
     },
     {
@@ -3019,30 +3045,30 @@
       "cve_events": 36
     },
     {
-      "asn": "AS59257",
-      "name": "CMPak Limited",
-      "country": "PK",
-      "score": 40.6,
-      "event_count": 50,
-      "credential_events": 1,
-      "cve_events": 42
+      "asn": "AS6939",
+      "name": "Hurricane Electric LLC",
+      "country": "US",
+      "score": 40.82,
+      "event_count": 809,
+      "credential_events": 0,
+      "cve_events": 24
     }
   ],
   "events_by_country": {
     "NL": 41602,
     "PL": 33190,
-    "US": 15673,
-    "CN": 9064,
+    "US": 16272,
+    "CN": 9069,
     "LT": 2501,
-    "DE": 2293,
-    "BG": 1007,
-    "SG": 691,
-    "ID": 576,
-    "HK": 537,
+    "DE": 2306,
+    "BG": 1010,
+    "ID": 784,
     "SE": 516,
     "GB": 483,
     "CA": 423,
+    "SG": 421,
     "FR": 403,
+    "HK": 230,
     "PK": 184,
     "KR": 157,
     "KZ": 139,
