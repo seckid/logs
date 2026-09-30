@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:05:11.411809Z",
+  "generated_at": "2026-09-30T21:02:41.894989Z",
   "period_days": 90,
   "asns": [
     {
@@ -51,10 +51,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "DE",
       "score": 68.6,
-      "event_count": 10189,
-      "ip_count": 255,
+      "event_count": 10192,
+      "ip_count": 256,
       "credential_events": 42,
       "cve_events": 22,
       "honeypots": [
@@ -331,6 +331,23 @@
       ]
     },
     {
+      "asn": "AS58477",
+      "name": "Argon Data Communication",
+      "country": "ID",
+      "score": 41.71,
+      "event_count": 853,
+      "ip_count": 1,
+      "credential_events": 853,
+      "cve_events": 0,
+      "honeypots": [
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=853"
+      ]
+    },
+    {
       "asn": "AS36352",
       "name": "HostPapa",
       "country": "US",
@@ -348,23 +365,6 @@
         "credential_events=3",
         "cve_events=42",
         "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS58477",
-      "name": "Argon Data Communication",
-      "country": "ID",
-      "score": 41.35,
-      "event_count": 675,
-      "ip_count": 1,
-      "credential_events": 675,
-      "cve_events": 0,
-      "honeypots": [
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=675"
       ]
     },
     {
@@ -432,17 +432,17 @@
       "asn": "AS154383",
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
-      "score": 40.36,
-      "event_count": 181,
+      "score": 40.37,
+      "event_count": 183,
       "ip_count": 1,
-      "credential_events": 181,
+      "credential_events": 183,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=181"
+        "credential_events=183"
       ]
     },
     {
@@ -855,10 +855,10 @@
     {
       "asn": "AS16276",
       "name": "OVH SAS",
-      "country": "DE",
+      "country": "FR",
       "score": 21.23,
-      "event_count": 116,
-      "ip_count": 40,
+      "event_count": 117,
+      "ip_count": 41,
       "credential_events": 2,
       "cve_events": 0,
       "honeypots": [
@@ -871,6 +871,28 @@
       "reasons": [
         "credential_events=2",
         "multi_honeypot=4",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "score": 21.15,
+      "event_count": 575,
+      "ip_count": 124,
+      "credential_events": 0,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "multi_honeypot=5",
         "research_or_cloud_with_hostile_density"
       ]
     },
@@ -893,28 +915,6 @@
       "reasons": [
         "credential_events=1",
         "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 21.14,
-      "event_count": 572,
-      "ip_count": 121,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=5",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -964,7 +964,7 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "score": 20.56,
-      "event_count": 278,
+      "event_count": 280,
       "ip_count": 56,
       "credential_events": 0,
       "cve_events": 0,
@@ -984,8 +984,8 @@
       "asn": "AS10439",
       "name": "CariNet, Inc.",
       "country": "US",
-      "score": 20.41,
-      "event_count": 204,
+      "score": 20.43,
+      "event_count": 214,
       "ip_count": 16,
       "credential_events": 0,
       "cve_events": 0,
