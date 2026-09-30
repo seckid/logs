@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-30T17:30:48.630569Z",
+  "generated_at": "2026-09-30T17:31:31.866432Z",
   "period_days": 90,
-  "total_events": 244,
+  "total_events": 247,
   "unique_ips": 23,
   "honeypots": [
     "bigippot:honeypot-01",
@@ -10,18 +10,18 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "ivantipot:honeypot-01": 2,
+    "ivantipot:honeypot-01": 3,
     "bigippot:honeypot-01": 23,
-    "sshppot:honeypot-01": 104,
-    "front:honeypot-01": 115
+    "sshppot:honeypot-01": 105,
+    "front:honeypot-01": 116
   },
   "events_per_day": {
     "2026-09-30": {
-      "ivantipot:honeypot-01": 2,
-      "sshppot:honeypot-01": 104,
+      "ivantipot:honeypot-01": 3,
+      "sshppot:honeypot-01": 105,
       "bigippot:honeypot-01": 23,
-      "front:honeypot-01": 115,
-      "total": 244
+      "front:honeypot-01": 116,
+      "total": 247
     }
   },
   "top_credentials": [
@@ -366,26 +366,26 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 104,
+      "attempt_count": 105,
       "unique_ips": 2,
-      "unique_pairs": 97,
+      "unique_pairs": 98,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 104
+      "unknown_outcome_count": 105
     },
     "top_source_ips": [
       {
         "ip": "103.56.207.208",
         "asn": "AS58477",
         "asn_name": "Argon Data Communication",
-        "attempt_count": 103,
+        "attempt_count": 104,
         "unique_usernames": 1,
-        "unique_passwords": 96,
+        "unique_passwords": 97,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-30T16:31:32Z",
-        "last_seen": "2026-09-30T17:30:18Z",
+        "last_seen": "2026-09-30T17:31:16Z",
         "success_count": 0
       },
       {
@@ -408,14 +408,14 @@
         "ip": "103.56.207.208",
         "asn": "AS58477",
         "asn_name": "Argon Data Communication",
-        "attempt_count": 103,
+        "attempt_count": 104,
         "unique_usernames": 1,
-        "unique_passwords": 96,
+        "unique_passwords": 97,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-30T16:31:32Z",
-        "last_seen": "2026-09-30T17:30:18Z",
+        "last_seen": "2026-09-30T17:31:16Z",
         "success_count": 0
       }
     ],
@@ -845,8 +845,8 @@
     }
   ],
   "method_counts": {
-    "GET": 110,
-    "SSH": 104,
+    "GET": 112,
+    "SSH": 105,
     "POST": 10,
     "OPTIONS": 2
   },
@@ -854,12 +854,12 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 100
+      "count": 101
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 25
+      "count": 26
     },
     {
       "path": "/.env",
@@ -912,11 +912,6 @@
       "count": 2
     },
     {
-      "path": "/actuator/env",
-      "source": "front:honeypot-01",
-      "count": 2
-    },
-    {
       "path": "/api/data",
       "source": "front:honeypot-01",
       "count": 2
@@ -937,7 +932,7 @@
       "count": 2
     },
     {
-      "path": "/config.js",
+      "path": "/actuator/env",
       "source": "front:honeypot-01",
       "count": 2
     },
@@ -948,6 +943,11 @@
     },
     {
       "path": "/.well-known/security.txt",
+      "source": "front:honeypot-01",
+      "count": 2
+    },
+    {
+      "path": "/graphql",
       "source": "front:honeypot-01",
       "count": 2
     }
@@ -980,7 +980,7 @@
       "name": "Argon Data Communication",
       "country": "ID",
       "ip_count": 1,
-      "event_count": 103
+      "event_count": 104
     },
     {
       "asn": "AS14061",
@@ -1018,6 +1018,13 @@
       "event_count": 4
     },
     {
+      "asn": "AS47007",
+      "name": "Colocation America Corporation",
+      "country": "US",
+      "ip_count": 1,
+      "event_count": 4
+    },
+    {
       "asn": "AS58215",
       "name": "Omniline Investment s.r.o.",
       "country": "CH",
@@ -1039,13 +1046,6 @@
       "event_count": 3
     },
     {
-      "asn": "AS47007",
-      "name": "Colocation America Corporation",
-      "country": "US",
-      "ip_count": 1,
-      "event_count": 3
-    },
-    {
       "asn": "AS197769",
       "name": "VPS Dedicated LLC",
       "country": "DE",
@@ -1056,6 +1056,13 @@
       "asn": "AS41564",
       "name": "Orion Network Limited",
       "country": "LV",
+      "ip_count": 1,
+      "event_count": 2
+    },
+    {
+      "asn": "AS137409",
+      "name": "GSL Networks Pty LTD",
+      "country": "JP",
       "ip_count": 1,
       "event_count": 2
     },
@@ -1093,13 +1100,6 @@
       "country": "US",
       "ip_count": 1,
       "event_count": 1
-    },
-    {
-      "asn": "AS137409",
-      "name": "GSL Networks Pty LTD",
-      "country": "JP",
-      "ip_count": 1,
-      "event_count": 1
     }
   ],
   "bad_asns": [
@@ -1108,8 +1108,8 @@
       "name": "Argon Data Communication",
       "country": "ID",
       "score": 40.21,
-      "event_count": 103,
-      "credential_events": 103,
+      "event_count": 104,
+      "credential_events": 104,
       "cve_events": 0
     },
     {
@@ -1123,16 +1123,16 @@
     }
   ],
   "events_by_country": {
-    "ID": 103,
+    "ID": 104,
     "DE": 68,
-    "US": 27,
+    "US": 28,
     "NL": 21,
     "SC": 12,
     "CH": 4,
     "CA": 3,
+    "JP": 2,
     "LV": 2,
     "BY": 1,
-    "JP": 1,
     "PL": 1,
     "SG": 1
   }
