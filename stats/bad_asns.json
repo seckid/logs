@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:03:04.720326Z",
+  "generated_at": "2026-09-30T00:00:36.589929Z",
   "period_days": 90,
   "asns": [
     {
@@ -77,7 +77,7 @@
       "name": "Google LLC",
       "country": "TW",
       "score": 61.4,
-      "event_count": 9650,
+      "event_count": 9651,
       "ip_count": 243,
       "credential_events": 34,
       "cve_events": 18,
@@ -240,9 +240,9 @@
       "name": "Korea Telecom",
       "country": "KR",
       "score": 50.24,
-      "event_count": 118,
-      "ip_count": 106,
-      "credential_events": 117,
+      "event_count": 121,
+      "ip_count": 109,
+      "credential_events": 120,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -250,7 +250,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=117",
+        "credential_events=120",
         "multi_honeypot=2"
       ]
     },
@@ -373,16 +373,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.33,
-      "event_count": 164,
+      "event_count": 167,
       "ip_count": 1,
-      "credential_events": 164,
+      "credential_events": 167,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=164"
+        "credential_events=167"
       ]
     },
     {
@@ -405,6 +405,23 @@
       ]
     },
     {
+      "asn": "AS17557",
+      "name": "Pakistan Telecommunication Company Limited",
+      "country": "PK",
+      "score": 37.15,
+      "event_count": 74,
+      "ip_count": 69,
+      "credential_events": 74,
+      "cve_events": 0,
+      "honeypots": [
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=74"
+      ]
+    },
+    {
       "asn": "AS4134",
       "name": "CHINANET BACKBONE",
       "country": "CN",
@@ -424,23 +441,6 @@
       "reasons": [
         "credential_events=32",
         "multi_honeypot=5"
-      ]
-    },
-    {
-      "asn": "AS17557",
-      "name": "Pakistan Telecommunication Company Limited",
-      "country": "PK",
-      "score": 36.14,
-      "event_count": 72,
-      "ip_count": 67,
-      "credential_events": 72,
-      "cve_events": 0,
-      "honeypots": [
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=72"
       ]
     },
     {
@@ -537,6 +537,23 @@
       ]
     },
     {
+      "asn": "AS206134",
+      "name": "NEKOBYTE INTERNATIONAL LIMITED",
+      "country": "DE",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
       "asn": "AS154115",
       "name": "KANHALABS-ORG",
       "country": "IN",
@@ -605,20 +622,25 @@
       ]
     },
     {
-      "asn": "AS206134",
-      "name": "NEKOBYTE INTERNATIONAL LIMITED",
-      "country": "DE",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
+      "asn": "AS213412",
+      "name": "ONYPHE SAS",
+      "country": "FR",
+      "score": 28.18,
+      "event_count": 91,
+      "ip_count": 80,
       "credential_events": 0,
-      "cve_events": 42,
+      "cve_events": 10,
       "honeypots": [
-        "bigippot:honeypot-01"
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "cve_events=42"
+        "cve_events=10",
+        "multi_honeypot=5"
       ]
     },
     {
@@ -640,28 +662,6 @@
       "reasons": [
         "credential_events=15",
         "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS213412",
-      "name": "ONYPHE SAS",
-      "country": "US",
-      "score": 25.78,
-      "event_count": 88,
-      "ip_count": 77,
-      "credential_events": 0,
-      "cve_events": 7,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=7",
-        "multi_honeypot=5"
       ]
     },
     {
@@ -690,9 +690,9 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "score": 23.85,
-      "event_count": 1676,
-      "ip_count": 152,
+      "score": 23.86,
+      "event_count": 1679,
+      "ip_count": 154,
       "credential_events": 1,
       "cve_events": 0,
       "honeypots": [
@@ -854,9 +854,9 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 21.13,
-      "event_count": 564,
-      "ip_count": 118,
+      "score": 21.14,
+      "event_count": 568,
+      "ip_count": 119,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
@@ -897,9 +897,9 @@
       "asn": "AS398324",
       "name": "Censys, Inc.",
       "country": "US",
-      "score": 20.73,
-      "event_count": 367,
-      "ip_count": 46,
+      "score": 20.75,
+      "event_count": 374,
+      "ip_count": 47,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
@@ -940,7 +940,7 @@
       "name": "Amazon.com, Inc.",
       "country": "AU",
       "score": 20.52,
-      "event_count": 260,
+      "event_count": 262,
       "ip_count": 54,
       "credential_events": 0,
       "cve_events": 0,
@@ -961,8 +961,8 @@
       "name": "CariNet, Inc.",
       "country": "US",
       "score": 20.39,
-      "event_count": 194,
-      "ip_count": 14,
+      "event_count": 197,
+      "ip_count": 15,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
