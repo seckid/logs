@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T02:02:42.354703Z",
+  "generated_at": "2026-10-01T03:03:21.165738Z",
   "period_days": 90,
-  "total_events": 135822,
-  "unique_ips": 2741,
+  "total_events": 135864,
+  "unique_ips": 2744,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -19,9 +19,9 @@
     "centrestackpot:honeypot-01": 217,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 74007,
-    "bigippot:honeypot-01": 17605,
+    "bigippot:honeypot-01": 17611,
     "sshppot:honeypot-01": 12173,
-    "front:honeypot-01": 29604
+    "front:honeypot-01": 29640
   },
   "events_per_day": {
     "2026-08-28": {
@@ -259,11 +259,11 @@
       "total": 2455
     },
     "2026-10-01": {
-      "bigippot:honeypot-01": 11,
+      "bigippot:honeypot-01": 17,
       "sshppot:honeypot-01": 101,
-      "front:honeypot-01": 19,
+      "front:honeypot-01": 55,
       "fortipot:honeypot-01": 4,
-      "total": 135
+      "total": 177
     }
   },
   "top_credentials": [
@@ -2416,10 +2416,10 @@
     }
   ],
   "method_counts": {
-    "POST": 75671,
-    "GET": 45093,
+    "POST": 75672,
+    "GET": 45127,
     "SSH": 12172,
-    "HEAD": 92,
+    "HEAD": 93,
     "PRI": 80,
     "PROPFIND": 49,
     "OPTIONS": 28,
@@ -2428,10 +2428,10 @@
     "PUT": 9,
     "HEARTBEAT": 8,
     "CONNECT": 7,
-    "{\"PARAMS\":": 4,
+    "{\"PARAMS\":": 6,
     "T3": 4,
     "ZSDLKFJ2": 4,
-    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"BLUE1\",\"PASS\":\"X\",\"AGENT\":\"WINDOWS": 2,
+    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"BLUE1\",\"PASS\":\"X\",\"AGENT\":\"WINDOWS": 3,
     "{\"ID\":": 2,
     "FOX": 1,
     "ICOE": 1,
@@ -2457,7 +2457,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1415
+      "count": 1419
     },
     {
       "path": "/tmui/login.jsp",
@@ -2492,7 +2492,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 240
+      "count": 241
     },
     {
       "path": "/favicon.ico",
@@ -2502,7 +2502,7 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 208
+      "count": 209
     },
     {
       "path": "/.git/config",
@@ -2512,7 +2512,7 @@
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 166
+      "count": 167
     },
     {
       "path": "/style.css",
@@ -2537,7 +2537,7 @@
     {
       "path": "/.env.production",
       "source": "front:honeypot-01",
-      "count": 101
+      "count": 102
     }
   ],
   "cve_attempts": [
@@ -2893,9 +2893,9 @@
     {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "GB",
-      "score": 70.57,
-      "event_count": 284,
+      "country": "HK",
+      "score": 70.58,
+      "event_count": 290,
       "credential_events": 40,
       "cve_events": 84
     },
@@ -3063,20 +3063,20 @@
     }
   ],
   "events_by_country": {
-    "NL": 42895,
+    "NL": 42926,
     "PL": 32142,
     "DE": 12385,
     "CN": 9069,
-    "US": 6132,
+    "US": 6137,
     "LT": 2502,
     "ID": 1722,
     "BG": 1010,
-    "GB": 563,
+    "HK": 520,
     "SE": 516,
     "CA": 423,
     "SG": 422,
     "FR": 406,
-    "HK": 230,
+    "GB": 279,
     "PK": 190,
     "KR": 161,
     "KZ": 139,
