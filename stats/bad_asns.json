@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T19:00:31.697630Z",
+  "generated_at": "2026-10-01T20:02:41.628857Z",
   "period_days": 90,
   "asns": [
     {
@@ -30,8 +30,8 @@
       "name": "Google LLC",
       "country": "BE",
       "score": 75.5,
-      "event_count": 10498,
-      "ip_count": 278,
+      "event_count": 10499,
+      "ip_count": 279,
       "credential_events": 51,
       "cve_events": 25,
       "honeypots": [
@@ -411,9 +411,9 @@
       ]
     },
     {
-      "asn": "AS150436",
-      "name": "Byteplus Pte. Ltd.",
-      "country": "SG",
+      "asn": "AS59257",
+      "name": "CMPak Limited",
+      "country": "PK",
       "score": 40.6,
       "event_count": 50,
       "ip_count": 2,
@@ -431,9 +431,9 @@
       ]
     },
     {
-      "asn": "AS59257",
-      "name": "CMPak Limited",
-      "country": "PK",
+      "asn": "AS150436",
+      "name": "Byteplus Pte. Ltd.",
+      "country": "SG",
       "score": 40.6,
       "event_count": 50,
       "ip_count": 2,
@@ -455,16 +455,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.5,
-      "event_count": 251,
+      "event_count": 252,
       "ip_count": 3,
-      "credential_events": 251,
+      "credential_events": 252,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=251"
+        "credential_events=252"
       ]
     },
     {
@@ -507,10 +507,10 @@
       "asn": "AS4134",
       "name": "CHINANET BACKBONE",
       "country": "CN",
-      "score": 36.19,
-      "event_count": 94,
-      "ip_count": 8,
-      "credential_events": 32,
+      "score": 36.69,
+      "event_count": 95,
+      "ip_count": 9,
+      "credential_events": 33,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -521,7 +521,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=32",
+        "credential_events=33",
         "multi_honeypot=5"
       ]
     },
@@ -752,11 +752,11 @@
     {
       "asn": "AS202412",
       "name": "Omegatech LTD",
-      "country": "NL",
-      "score": 25.47,
-      "event_count": 1236,
+      "country": "DE",
+      "score": 25.97,
+      "event_count": 1237,
       "ip_count": 13,
-      "credential_events": 6,
+      "credential_events": 7,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -767,22 +767,23 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=6",
+        "credential_events=7",
         "multi_honeypot=5"
       ]
     },
     {
       "asn": "AS9009",
       "name": "M247 Europe SRL",
-      "country": "DE",
-      "score": 25.1,
-      "event_count": 52,
-      "ip_count": 8,
+      "country": "CA",
+      "score": 25.13,
+      "event_count": 63,
+      "ip_count": 9,
       "credential_events": 10,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
         "centrestackpot:honeypot-01",
+        "citrixpot:honeypot-01",
         "fortipot:honeypot-01",
         "front:honeypot-01",
         "ivantipot:honeypot-01"
@@ -790,7 +791,7 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=10",
-        "multi_honeypot=5"
+        "multi_honeypot=6"
       ]
     },
     {
@@ -837,6 +838,48 @@
       ]
     },
     {
+      "asn": "AS2514",
+      "name": "NTT PC Communications, Inc.",
+      "country": "JP",
+      "score": 23.05,
+      "event_count": 27,
+      "ip_count": 2,
+      "credential_events": 26,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=26",
+        "multi_honeypot=2"
+      ]
+    },
+    {
+      "asn": "AS10439",
+      "name": "CariNet, Inc.",
+      "country": "US",
+      "score": 23.04,
+      "event_count": 321,
+      "ip_count": 17,
+      "credential_events": 0,
+      "cve_events": 3,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=3",
+        "multi_honeypot=6"
+      ]
+    },
+    {
       "asn": "AS41280",
       "name": "SKYNET BULGARIA Ltd.",
       "country": "BG",
@@ -856,29 +899,6 @@
       "reasons": [
         "credential_events=2",
         "multi_honeypot=5"
-      ]
-    },
-    {
-      "asn": "AS10439",
-      "name": "CariNet, Inc.",
-      "country": "US",
-      "score": 22.19,
-      "event_count": 296,
-      "ip_count": 16,
-      "credential_events": 0,
-      "cve_events": 2,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=2",
-        "multi_honeypot=6"
       ]
     },
     {
@@ -984,27 +1004,6 @@
       "reasons": [
         "multi_honeypot=6",
         "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS209334",
-      "name": "Modat B.V.",
-      "country": "CA",
-      "score": 20.79,
-      "event_count": 396,
-      "ip_count": 32,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=5"
       ]
     }
   ]
