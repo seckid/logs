@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:03:40.664973Z",
+  "generated_at": "2026-10-01T17:02:09.118796Z",
   "period_days": 90,
   "asns": [
     {
@@ -76,9 +76,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "IN",
+      "country": "US",
       "score": 67.11,
-      "event_count": 1155,
+      "event_count": 1156,
       "ip_count": 135,
       "credential_events": 653,
       "cve_events": 6,
@@ -104,7 +104,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 62.57,
-      "event_count": 1285,
+      "event_count": 1286,
       "ip_count": 19,
       "credential_events": 326,
       "cve_events": 0,
@@ -243,10 +243,10 @@
       "asn": "AS4766",
       "name": "Korea Telecom",
       "country": "KR",
-      "score": 50.29,
-      "event_count": 146,
-      "ip_count": 134,
-      "credential_events": 145,
+      "score": 50.3,
+      "event_count": 151,
+      "ip_count": 139,
+      "credential_events": 150,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -254,7 +254,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=145",
+        "credential_events=150",
         "multi_honeypot=2"
       ]
     },
@@ -435,16 +435,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.5,
-      "event_count": 248,
+      "event_count": 249,
       "ip_count": 3,
-      "credential_events": 248,
+      "credential_events": 249,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=248"
+        "credential_events=249"
       ]
     },
     {
@@ -839,6 +839,29 @@
       ]
     },
     {
+      "asn": "AS10439",
+      "name": "CariNet, Inc.",
+      "country": "US",
+      "score": 22.17,
+      "event_count": 283,
+      "ip_count": 16,
+      "credential_events": 0,
+      "cve_events": 2,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=2",
+        "multi_honeypot=6"
+      ]
+    },
+    {
       "asn": "AS204428",
       "name": "SS-Net",
       "country": "RO",
@@ -853,29 +876,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=43"
-      ]
-    },
-    {
-      "asn": "AS10439",
-      "name": "CariNet, Inc.",
-      "country": "US",
-      "score": 21.26,
-      "event_count": 231,
-      "ip_count": 16,
-      "credential_events": 0,
-      "cve_events": 1,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=1",
-        "multi_honeypot=6"
       ]
     },
     {
@@ -947,13 +947,14 @@
       "asn": "AS398324",
       "name": "Censys, Inc.",
       "country": "US",
-      "score": 20.78,
-      "event_count": 392,
-      "ip_count": 49,
+      "score": 20.79,
+      "event_count": 397,
+      "ip_count": 50,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
         "fortipot:honeypot-01",
         "front:honeypot-01",
         "ivantipot:honeypot-01",
@@ -961,7 +962,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "multi_honeypot=5",
+        "multi_honeypot=6",
         "research_or_cloud_with_hostile_density"
       ]
     },
@@ -990,7 +991,7 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "score": 20.64,
-      "event_count": 319,
+      "event_count": 321,
       "ip_count": 58,
       "credential_events": 0,
       "cve_events": 0,
