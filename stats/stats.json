@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T14:05:10.714351Z",
+  "generated_at": "2026-10-01T15:00:40.568672Z",
   "period_days": 90,
-  "total_events": 136753,
-  "unique_ips": 2881,
+  "total_events": 136812,
+  "unique_ips": 2886,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 2,
+    "citrixpot:honeypot-01": 14,
     "panospot:honeypot-01": 333,
-    "ivantipot:honeypot-01": 1990,
+    "ivantipot:honeypot-01": 2012,
     "centrestackpot:honeypot-01": 217,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 74097,
-    "bigippot:honeypot-01": 18143,
+    "bigippot:honeypot-01": 18159,
     "sshppot:honeypot-01": 12224,
-    "front:honeypot-01": 29724
+    "front:honeypot-01": 29733
   },
   "events_per_day": {
     "2026-08-28": {
@@ -261,14 +261,14 @@
       "total": 2455
     },
     "2026-10-01": {
-      "citrixpot:honeypot-01": 2,
+      "citrixpot:honeypot-01": 14,
       "panospot:honeypot-01": 3,
-      "ivantipot:honeypot-01": 127,
+      "ivantipot:honeypot-01": 149,
       "fortipot:honeypot-01": 94,
-      "front:honeypot-01": 139,
+      "front:honeypot-01": 148,
       "sshppot:honeypot-01": 152,
-      "bigippot:honeypot-01": 549,
-      "total": 1066
+      "bigippot:honeypot-01": 565,
+      "total": 1125
     }
   },
   "top_credentials": [
@@ -2421,8 +2421,8 @@
     }
   ],
   "method_counts": {
-    "POST": 75722,
-    "GET": 45792,
+    "POST": 75723,
+    "GET": 45821,
     "SSH": 12223,
     "HEAD": 97,
     "PRI": 80,
@@ -2458,17 +2458,17 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1500
+      "count": 1501
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1437
+      "count": 1438
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 861
+      "count": 862
     },
     {
       "path": "/logincheck",
@@ -2488,7 +2488,12 @@
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 278
+      "count": 279
+    },
+    {
+      "path": "/robots.txt",
+      "source": "front:honeypot-01",
+      "count": 252
     },
     {
       "path": "/wp-admin/index.php",
@@ -2496,14 +2501,9 @@
       "count": 252
     },
     {
-      "path": "/robots.txt",
-      "source": "front:honeypot-01",
-      "count": 249
-    },
-    {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 241
+      "count": 242
     },
     {
       "path": "/.env",
@@ -2739,10 +2739,27 @@
       "sample_paths": [
         "/api/v2/cmdb/system/admin/admin"
       ]
+    },
+    {
+      "cve": "CVE-2025-5777",
+      "count": 1,
+      "sources": [
+        "citrixpot:honeypot-01"
+      ],
+      "description": "Malformed doAuthentication.do (CitrixBleed-2 style)",
+      "severity": "High",
+      "cvss_score": null,
+      "sample_ips": [
+        "71.6.146.186"
+      ],
+      "sample_paths": [
+        "/p/u/doAuthentication.do"
+      ]
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1887
+    "Critical": 1887,
+    "High": 1
   },
   "top_asns": [
     {
@@ -2791,8 +2808,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 165,
-      "event_count": 1703
+      "ip_count": 166,
+      "event_count": 1707
     },
     {
       "asn": "AS58477",
@@ -2854,8 +2871,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 126,
-      "event_count": 600
+      "ip_count": 127,
+      "event_count": 621
     },
     {
       "asn": "AS203861",
@@ -2883,7 +2900,7 @@
       "name": "Modat B.V.",
       "country": "CA",
       "ip_count": 32,
-      "event_count": 372
+      "event_count": 385
     }
   ],
   "bad_asns": [
@@ -3073,16 +3090,16 @@
     "PL": 31803,
     "BE": 10495,
     "CN": 8978,
-    "US": 5410,
+    "US": 5140,
     "LT": 2502,
     "DE": 2120,
     "ID": 1725,
     "IN": 1278,
     "BG": 1010,
+    "CA": 751,
     "FR": 534,
     "SE": 518,
-    "CA": 423,
-    "SG": 422,
+    "SG": 424,
     "JP": 326,
     "GB": 274,
     "HK": 231,
