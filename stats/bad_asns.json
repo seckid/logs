@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:02:41.628857Z",
+  "generated_at": "2026-10-01T21:03:50.627178Z",
   "period_days": 90,
   "asns": [
     {
@@ -28,14 +28,15 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "US",
       "score": 75.5,
-      "event_count": 10499,
-      "ip_count": 279,
+      "event_count": 10502,
+      "ip_count": 280,
       "credential_events": 51,
       "cve_events": 25,
       "honeypots": [
         "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
         "fortipot:honeypot-01",
         "front:honeypot-01",
         "ivantipot:honeypot-01",
@@ -46,7 +47,7 @@
       "reasons": [
         "credential_events=51",
         "cve_events=25",
-        "multi_honeypot=6",
+        "multi_honeypot=7",
         "research_or_cloud_with_hostile_density"
       ]
     },
@@ -103,8 +104,8 @@
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "score": 62.57,
-      "event_count": 1286,
+      "score": 62.58,
+      "event_count": 1288,
       "ip_count": 19,
       "credential_events": 326,
       "cve_events": 0,
@@ -750,6 +751,26 @@
       ]
     },
     {
+      "asn": "AS211632",
+      "name": "Internet Solutions & Innovations LTD.",
+      "country": "LT",
+      "score": 26.31,
+      "event_count": 56,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 14,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=14",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS202412",
       "name": "Omegatech LTD",
       "country": "DE",
@@ -922,13 +943,14 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 21.24,
-      "event_count": 621,
-      "ip_count": 127,
+      "score": 21.25,
+      "event_count": 627,
+      "ip_count": 133,
       "credential_events": 0,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
         "fortipot:honeypot-01",
         "front:honeypot-01",
         "ivantipot:honeypot-01",
@@ -936,7 +958,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "multi_honeypot=5",
+        "multi_honeypot=6",
         "research_or_cloud_with_hostile_density"
       ]
     },
@@ -981,29 +1003,6 @@
       "reasons": [
         "credential_events=1",
         "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS398324",
-      "name": "Censys, Inc.",
-      "country": "US",
-      "score": 20.81,
-      "event_count": 403,
-      "ip_count": 51,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=6",
-        "research_or_cloud_with_hostile_density"
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T20:02:41.628857Z",
+  "generated_at": "2026-10-01T21:03:50.627178Z",
   "period_days": 90,
-  "total_events": 137216,
-  "unique_ips": 2950,
+  "total_events": 137285,
+  "unique_ips": 2960,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 61,
+    "citrixpot:honeypot-01": 65,
     "panospot:honeypot-01": 333,
-    "ivantipot:honeypot-01": 2074,
+    "ivantipot:honeypot-01": 2086,
     "centrestackpot:honeypot-01": 217,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 74153,
-    "bigippot:honeypot-01": 18273,
+    "fortipot:honeypot-01": 74190,
+    "bigippot:honeypot-01": 18285,
     "sshppot:honeypot-01": 12325,
-    "front:honeypot-01": 29757
+    "front:honeypot-01": 29761
   },
   "events_per_day": {
     "2026-08-28": {
@@ -261,14 +261,14 @@
       "total": 2455
     },
     "2026-10-01": {
-      "citrixpot:honeypot-01": 61,
+      "citrixpot:honeypot-01": 65,
       "panospot:honeypot-01": 3,
-      "ivantipot:honeypot-01": 211,
-      "fortipot:honeypot-01": 150,
-      "front:honeypot-01": 172,
+      "ivantipot:honeypot-01": 223,
+      "fortipot:honeypot-01": 187,
+      "front:honeypot-01": 176,
       "sshppot:honeypot-01": 253,
-      "bigippot:honeypot-01": 679,
-      "total": 1529
+      "bigippot:honeypot-01": 691,
+      "total": 1598
     }
   },
   "top_credentials": [
@@ -2407,7 +2407,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 4723
+      "count": 4726
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -2419,11 +2419,11 @@
     }
   ],
   "method_counts": {
-    "POST": 75747,
-    "GET": 46042,
+    "POST": 75749,
+    "GET": 46106,
     "SSH": 12324,
     "HEAD": 99,
-    "PRI": 82,
+    "PRI": 83,
     "PROPFIND": 51,
     "OPTIONS": 32,
     "DELETE": 12,
@@ -2456,7 +2456,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1509
+      "count": 1513
     },
     {
       "path": "/",
@@ -2466,7 +2466,7 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 867
+      "count": 868
     },
     {
       "path": "/logincheck",
@@ -2476,12 +2476,12 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 294
+      "count": 295
     },
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 289
+      "count": 290
     },
     {
       "path": "/wp-login.php",
@@ -2491,7 +2491,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 257
+      "count": 258
     },
     {
       "path": "/wp-admin/index.php",
@@ -2501,7 +2501,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 242
+      "count": 243
     },
     {
       "path": "/.env",
@@ -2539,9 +2539,9 @@
       "count": 106
     },
     {
-      "path": "/.env.production",
-      "source": "front:honeypot-01",
-      "count": 103
+      "path": "/favicon.ico",
+      "source": "ivantipot:honeypot-01",
+      "count": 105
     }
   ],
   "cve_attempts": [
@@ -2602,7 +2602,7 @@
     },
     {
       "cve": "CVE-2025-68686",
-      "count": 26,
+      "count": 40,
       "sources": [
         "fortipot:honeypot-01"
       ],
@@ -2757,7 +2757,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 1934,
+    "Critical": 1948,
     "High": 3
   },
   "top_asns": [
@@ -2785,9 +2785,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
-      "ip_count": 279,
-      "event_count": 10499
+      "country": "US",
+      "ip_count": 280,
+      "event_count": 10502
     },
     {
       "asn": "AS37963",
@@ -2829,7 +2829,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 19,
-      "event_count": 1286
+      "event_count": 1288
     },
     {
       "asn": "AS202412",
@@ -2870,8 +2870,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 127,
-      "event_count": 621
+      "ip_count": 133,
+      "event_count": 627
     },
     {
       "asn": "AS203861",
@@ -2892,7 +2892,7 @@
       "name": "Censys, Inc.",
       "country": "US",
       "ip_count": 51,
-      "event_count": 403
+      "event_count": 415
     },
     {
       "asn": "AS209334",
@@ -2915,9 +2915,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "US",
       "score": 75.5,
-      "event_count": 10499,
+      "event_count": 10502,
       "credential_events": 51,
       "cve_events": 25
     },
@@ -2943,8 +2943,8 @@
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "score": 62.57,
-      "event_count": 1286,
+      "score": 62.58,
+      "event_count": 1288,
       "credential_events": 326,
       "cve_events": 0
     },
@@ -3085,20 +3085,19 @@
     }
   ],
   "events_by_country": {
-    "NL": 42083,
+    "NL": 42085,
     "PL": 31808,
-    "BE": 10499,
+    "US": 17480,
     "CN": 9015,
-    "US": 6956,
     "DE": 3330,
-    "LT": 2507,
-    "ID": 1724,
+    "LT": 2542,
+    "ID": 1725,
     "BG": 1018,
     "FR": 652,
     "SE": 519,
     "CA": 510,
     "SG": 474,
-    "GB": 274,
+    "GB": 276,
     "HK": 231,
     "PK": 198,
     "KR": 180,
@@ -3111,7 +3110,7 @@
     "FI": 59,
     "RU": 51,
     "UZ": 49,
-    "NO": 44,
+    "NO": 45,
     "CH": 42,
     "JP": 40,
     "MA": 34,
