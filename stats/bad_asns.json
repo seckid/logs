@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T20:02:39.866173Z",
+  "generated_at": "2026-10-02T21:02:40.965867Z",
   "period_days": 90,
   "asns": [
     {
@@ -28,9 +28,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "DE",
       "score": 76.5,
-      "event_count": 10920,
+      "event_count": 10922,
       "ip_count": 297,
       "credential_events": 53,
       "cve_events": 25,
@@ -376,9 +376,9 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "score": 42.64,
-      "event_count": 921,
-      "ip_count": 165,
+      "score": 42.65,
+      "event_count": 923,
+      "ip_count": 166,
       "credential_events": 0,
       "cve_events": 26,
       "honeypots": [
@@ -435,9 +435,9 @@
       ]
     },
     {
-      "asn": "AS59257",
-      "name": "CMPak Limited",
-      "country": "PK",
+      "asn": "AS150436",
+      "name": "Byteplus Pte. Ltd.",
+      "country": "SG",
       "score": 40.6,
       "event_count": 50,
       "ip_count": 2,
@@ -455,9 +455,9 @@
       ]
     },
     {
-      "asn": "AS150436",
-      "name": "Byteplus Pte. Ltd.",
-      "country": "SG",
+      "asn": "AS59257",
+      "name": "CMPak Limited",
+      "country": "PK",
       "score": 40.6,
       "event_count": 50,
       "ip_count": 2,
@@ -509,6 +509,27 @@
       ]
     },
     {
+      "asn": "AS212238",
+      "name": "Datacamp Limited",
+      "country": "SE",
+      "score": 37.87,
+      "event_count": 187,
+      "ip_count": 9,
+      "credential_events": 35,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=35",
+        "multi_honeypot=4"
+      ]
+    },
+    {
       "asn": "AS4134",
       "name": "CHINANET BACKBONE",
       "country": "CN",
@@ -528,27 +549,6 @@
       "reasons": [
         "credential_events=34",
         "multi_honeypot=5"
-      ]
-    },
-    {
-      "asn": "AS212238",
-      "name": "Datacamp Limited",
-      "country": "NL",
-      "score": 35.26,
-      "event_count": 129,
-      "ip_count": 8,
-      "credential_events": 30,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=30",
-        "multi_honeypot=4"
       ]
     },
     {
@@ -860,9 +860,9 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "score": 23.95,
-      "event_count": 1726,
-      "ip_count": 177,
+      "score": 23.96,
+      "event_count": 1728,
+      "ip_count": 178,
       "credential_events": 1,
       "cve_events": 0,
       "honeypots": [
@@ -985,14 +985,15 @@
     {
       "asn": "AS16276",
       "name": "OVH SAS",
-      "country": "DE",
-      "score": 21.31,
-      "event_count": 157,
-      "ip_count": 50,
+      "country": "FR",
+      "score": 21.32,
+      "event_count": 158,
+      "ip_count": 51,
       "credential_events": 2,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
         "fortipot:honeypot-01",
         "front:honeypot-01",
         "sshppot:honeypot-01"
@@ -1000,7 +1001,7 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=2",
-        "multi_honeypot=4",
+        "multi_honeypot=5",
         "research_or_cloud_with_hostile_density"
       ]
     }

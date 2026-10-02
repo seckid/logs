@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T20:02:39.866173Z",
+  "generated_at": "2026-10-02T21:02:40.965867Z",
   "period_days": 90,
-  "total_events": 140156,
-  "unique_ips": 3184,
+  "total_events": 140267,
+  "unique_ips": 3200,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 258,
+    "citrixpot:honeypot-01": 280,
     "panospot:honeypot-01": 355,
-    "ivantipot:honeypot-01": 2442,
+    "ivantipot:honeypot-01": 2455,
     "centrestackpot:honeypot-01": 217,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 74278,
-    "bigippot:honeypot-01": 18658,
+    "fortipot:honeypot-01": 74280,
+    "bigippot:honeypot-01": 18725,
     "sshppot:honeypot-01": 13034,
-    "front:honeypot-01": 30891
+    "front:honeypot-01": 30898
   },
   "events_per_day": {
     "2026-08-28": {
@@ -271,14 +271,14 @@
       "total": 1671
     },
     "2026-10-02": {
-      "front:honeypot-01": 1094,
-      "fortipot:honeypot-01": 84,
-      "citrixpot:honeypot-01": 186,
+      "front:honeypot-01": 1101,
+      "fortipot:honeypot-01": 86,
+      "citrixpot:honeypot-01": 208,
       "sshppot:honeypot-01": 704,
-      "bigippot:honeypot-01": 357,
-      "ivantipot:honeypot-01": 351,
+      "bigippot:honeypot-01": 424,
+      "ivantipot:honeypot-01": 364,
       "panospot:honeypot-01": 22,
-      "total": 2798
+      "total": 2909
     }
   },
   "top_credentials": [
@@ -695,12 +695,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 86312,
-      "unique_ips": 792,
-      "unique_pairs": 82545,
+      "attempt_count": 86317,
+      "unique_ips": 793,
+      "unique_pairs": 82546,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 86312
+      "unknown_outcome_count": 86317
     },
     "top_source_ips": [
       {
@@ -2428,11 +2428,11 @@
     }
   ],
   "method_counts": {
-    "POST": 75847,
-    "GET": 48048,
+    "POST": 75875,
+    "GET": 48126,
     "SSH": 13033,
     "HEAD": 99,
-    "PRI": 85,
+    "PRI": 86,
     "PROPFIND": 54,
     "OPTIONS": 34,
     "DELETE": 13,
@@ -2455,7 +2455,7 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 72035
+      "count": 72036
     },
     {
       "path": "/",
@@ -2465,7 +2465,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1574
+      "count": 1579
     },
     {
       "path": "/",
@@ -2475,7 +2475,7 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 912
+      "count": 915
     },
     {
       "path": "/logincheck",
@@ -2485,7 +2485,7 @@
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
       "source": "ivantipot:honeypot-01",
-      "count": 329
+      "count": 330
     },
     {
       "path": "/",
@@ -2495,17 +2495,17 @@
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 306
+      "count": 307
+    },
+    {
+      "path": "/robots.txt",
+      "source": "front:honeypot-01",
+      "count": 283
     },
     {
       "path": "/wp-login.php",
       "source": "front:honeypot-01",
       "count": 282
-    },
-    {
-      "path": "/robots.txt",
-      "source": "front:honeypot-01",
-      "count": 279
     },
     {
       "path": "/wp-admin/index.php",
@@ -2515,7 +2515,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 251
+      "count": 252
     },
     {
       "path": "/.env",
@@ -2540,7 +2540,7 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 117
+      "count": 118
     },
     {
       "path": "/logo.svg",
@@ -2548,9 +2548,9 @@
       "count": 112
     },
     {
-      "path": "/api/.env",
-      "source": "front:honeypot-01",
-      "count": 109
+      "path": "/favicon.ico",
+      "source": "ivantipot:honeypot-01",
+      "count": 111
     }
   ],
   "cve_attempts": [
@@ -2686,6 +2686,24 @@
       ]
     },
     {
+      "cve": "CVE-2025-5777",
+      "count": 17,
+      "sources": [
+        "citrixpot:honeypot-01"
+      ],
+      "description": "Malformed doAuthentication.do (CitrixBleed-2 style)",
+      "severity": "High",
+      "cvss_score": null,
+      "sample_ips": [
+        "144.31.236.17",
+        "66.240.219.146",
+        "71.6.146.186"
+      ],
+      "sample_paths": [
+        "/p/u/doAuthentication.do"
+      ]
+    },
+    {
       "cve": "CVE-2018-13379",
       "count": 7,
       "sources": [
@@ -2746,28 +2764,11 @@
       "sample_paths": [
         "/api/v2/cmdb/system/admin/admin"
       ]
-    },
-    {
-      "cve": "CVE-2025-5777",
-      "count": 3,
-      "sources": [
-        "citrixpot:honeypot-01"
-      ],
-      "description": "Malformed doAuthentication.do (CitrixBleed-2 style)",
-      "severity": "High",
-      "cvss_score": null,
-      "sample_ips": [
-        "66.240.219.146",
-        "71.6.146.186"
-      ],
-      "sample_paths": [
-        "/p/u/doAuthentication.do"
-      ]
     }
   ],
   "cve_severity_counts": {
     "Critical": 2019,
-    "High": 3
+    "High": 17
   },
   "top_asns": [
     {
@@ -2794,9 +2795,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "DE",
       "ip_count": 297,
-      "event_count": 10920
+      "event_count": 10922
     },
     {
       "asn": "AS37963",
@@ -2823,8 +2824,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 177,
-      "event_count": 1726
+      "ip_count": 178,
+      "event_count": 1728
     },
     {
       "asn": "AS58477",
@@ -2865,8 +2866,8 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "ip_count": 165,
-      "event_count": 921
+      "ip_count": 166,
+      "event_count": 923
     },
     {
       "asn": "AS41280",
@@ -2879,8 +2880,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 138,
-      "event_count": 639
+      "ip_count": 143,
+      "event_count": 645
     },
     {
       "asn": "AS203861",
@@ -2900,8 +2901,8 @@
       "asn": "AS398324",
       "name": "Censys, Inc.",
       "country": "US",
-      "ip_count": 53,
-      "event_count": 433
+      "ip_count": 54,
+      "event_count": 446
     },
     {
       "asn": "AS209334",
@@ -2924,9 +2925,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "DE",
       "score": 76.5,
-      "event_count": 10920,
+      "event_count": 10922,
       "credential_events": 53,
       "cve_events": 25
     },
@@ -3078,8 +3079,8 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "score": 42.64,
-      "event_count": 921,
+      "score": 42.65,
+      "event_count": 923,
       "credential_events": 0,
       "cve_events": 26
     },
@@ -3094,20 +3095,19 @@
     }
   ],
   "events_by_country": {
-    "NL": 43994,
+    "NL": 43760,
     "PL": 33317,
-    "BE": 10920,
+    "DE": 13066,
     "CN": 9042,
-    "US": 5409,
+    "US": 5544,
     "LT": 2548,
-    "DE": 2307,
     "ID": 1725,
     "BG": 1031,
     "HK": 801,
-    "SE": 588,
+    "SE": 775,
+    "FR": 707,
     "CA": 546,
-    "FR": 541,
-    "SG": 456,
+    "SG": 457,
     "JP": 440,
     "PK": 208,
     "GB": 193,
@@ -3115,14 +3115,14 @@
     "KZ": 139,
     "IN": 129,
     "FI": 112,
-    "BR": 99,
+    "BR": 100,
     "VN": 78,
     "BD": 71,
     "RO": 65,
     "RU": 62,
     "CM": 49,
+    "NO": 49,
     "UZ": 49,
-    "NO": 48,
     "CH": 47,
     "MA": 36,
     "MY": 28,
