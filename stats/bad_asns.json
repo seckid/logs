@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T03:01:06.938431Z",
+  "generated_at": "2026-10-02T04:04:10.789926Z",
   "period_days": 90,
   "asns": [
     {
@@ -28,11 +28,11 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
-      "score": 75.5,
-      "event_count": 10655,
-      "ip_count": 287,
-      "credential_events": 51,
+      "country": "BE",
+      "score": 76.5,
+      "event_count": 10668,
+      "ip_count": 289,
+      "credential_events": 53,
       "cve_events": 25,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -45,7 +45,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=51",
+        "credential_events=53",
         "cve_events=25",
         "multi_honeypot=7",
         "research_or_cloud_with_hostile_density"
@@ -225,9 +225,29 @@
       "asn": "AS197769",
       "name": "VPS Dedicated LLC",
       "country": "DE",
-      "score": 54.72,
-      "event_count": 112,
+      "score": 55.23,
+      "event_count": 115,
       "ip_count": 17,
+      "credential_events": 82,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=82",
+        "multi_honeypot=3"
+      ]
+    },
+    {
+      "asn": "AS197170",
+      "name": "TechTies Inc.",
+      "country": "DE",
+      "score": 54.69,
+      "event_count": 97,
+      "ip_count": 10,
       "credential_events": 79,
       "cve_events": 0,
       "honeypots": [
@@ -238,26 +258,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=79",
-        "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS197170",
-      "name": "TechTies Inc.",
-      "country": "DE",
-      "score": 53.69,
-      "event_count": 95,
-      "ip_count": 10,
-      "credential_events": 77,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=77",
         "multi_honeypot=3"
       ]
     },
@@ -458,16 +458,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.52,
-      "event_count": 258,
+      "event_count": 259,
       "ip_count": 3,
-      "credential_events": 258,
+      "credential_events": 259,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=258"
+        "credential_events=259"
       ]
     },
     {
