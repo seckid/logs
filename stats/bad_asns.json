@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:02:37.749561Z",
+  "generated_at": "2026-10-02T19:04:18.746622Z",
   "period_days": 90,
   "asns": [
     {
@@ -124,6 +124,27 @@
       ]
     },
     {
+      "asn": "AS197170",
+      "name": "TechTies Inc.",
+      "country": "NL",
+      "score": 60.22,
+      "event_count": 110,
+      "ip_count": 12,
+      "credential_events": 88,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=88",
+        "multi_honeypot=4"
+      ]
+    },
+    {
       "asn": "AS211486",
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "PL",
@@ -242,26 +263,6 @@
       ]
     },
     {
-      "asn": "AS197170",
-      "name": "TechTies Inc.",
-      "country": "NL",
-      "score": 55.22,
-      "event_count": 109,
-      "ip_count": 12,
-      "credential_events": 88,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=88",
-        "multi_honeypot=3"
-      ]
-    },
-    {
       "asn": "AS4766",
       "name": "Korea Telecom",
       "country": "KR",
@@ -317,9 +318,9 @@
     {
       "asn": "AS31898",
       "name": "Oracle Corporation",
-      "country": "SG",
+      "country": "JP",
       "score": 45.73,
-      "event_count": 365,
+      "event_count": 366,
       "ip_count": 7,
       "credential_events": 0,
       "cve_events": 42,
@@ -478,16 +479,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.54,
-      "event_count": 270,
+      "event_count": 271,
       "ip_count": 3,
-      "credential_events": 270,
+      "credential_events": 271,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=270"
+        "credential_events=271"
       ]
     },
     {
@@ -732,12 +733,13 @@
       "name": "ONYPHE SAS",
       "country": "FR",
       "score": 28.24,
-      "event_count": 118,
-      "ip_count": 97,
+      "event_count": 120,
+      "ip_count": 99,
       "credential_events": 0,
       "cve_events": 10,
       "honeypots": [
         "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
         "fortipot:honeypot-01",
         "front:honeypot-01",
         "ivantipot:honeypot-01",
@@ -746,7 +748,7 @@
       "ai_threat_level": null,
       "reasons": [
         "cve_events=10",
-        "multi_honeypot=5"
+        "multi_honeypot=6"
       ]
     },
     {
@@ -859,8 +861,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 23.95,
-      "event_count": 1724,
-      "ip_count": 176,
+      "event_count": 1726,
+      "ip_count": 177,
       "credential_events": 1,
       "cve_events": 0,
       "honeypots": [
@@ -877,6 +879,26 @@
         "credential_events=1",
         "multi_honeypot=7",
         "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
+      "asn": "AS132203",
+      "name": "Tencent Building, Kejizhongyi Avenue",
+      "country": "KR",
+      "score": 23.54,
+      "event_count": 20,
+      "ip_count": 1,
+      "credential_events": 3,
+      "cve_events": 15,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=3",
+        "cve_events=15",
+        "multi_honeypot=2"
       ]
     },
     {
@@ -979,29 +1001,6 @@
       "reasons": [
         "credential_events=2",
         "multi_honeypot=4",
-        "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 21.28,
-      "event_count": 639,
-      "ip_count": 138,
-      "credential_events": 0,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "multi_honeypot=6",
         "research_or_cloud_with_hostile_density"
       ]
     }
