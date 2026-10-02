@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T07:04:50.746795Z",
+  "generated_at": "2026-10-02T08:04:41.751681Z",
   "period_days": 90,
   "asns": [
     {
@@ -79,9 +79,9 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "score": 67.14,
-      "event_count": 1171,
-      "ip_count": 140,
+      "score": 67.15,
+      "event_count": 1173,
+      "ip_count": 141,
       "credential_events": 660,
       "cve_events": 6,
       "honeypots": [
@@ -105,10 +105,10 @@
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "score": 63.05,
-      "event_count": 1526,
+      "score": 63.4,
+      "event_count": 1698,
       "ip_count": 19,
-      "credential_events": 561,
+      "credential_events": 733,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -119,7 +119,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=561",
+        "credential_events=733",
         "multi_honeypot=5"
       ]
     },
@@ -226,9 +226,9 @@
       "name": "VPS Dedicated LLC",
       "country": "DE",
       "score": 55.26,
-      "event_count": 131,
+      "event_count": 132,
       "ip_count": 17,
-      "credential_events": 98,
+      "credential_events": 99,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -237,7 +237,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=98",
+        "credential_events=99",
         "multi_honeypot=3"
       ]
     },
@@ -321,6 +321,26 @@
       "score": 45.73,
       "event_count": 365,
       "ip_count": 7,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42",
+        "multi_honeypot=3"
+      ]
+    },
+    {
+      "asn": "AS215540",
+      "name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+      "country": "US",
+      "score": 45.1,
+      "event_count": 51,
+      "ip_count": 3,
       "credential_events": 0,
       "cve_events": 42,
       "honeypots": [
@@ -475,35 +495,16 @@
       "name": "Pakistan Telecommunication Company Limited",
       "country": "PK",
       "score": 40.2,
-      "event_count": 101,
-      "ip_count": 96,
-      "credential_events": 101,
+      "event_count": 102,
+      "ip_count": 97,
+      "credential_events": 102,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=101"
-      ]
-    },
-    {
-      "asn": "AS215540",
-      "name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
-      "country": "NL",
-      "score": 40.1,
-      "event_count": 50,
-      "ip_count": 2,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42",
-        "multi_honeypot=2"
+        "credential_events=102"
       ]
     },
     {
