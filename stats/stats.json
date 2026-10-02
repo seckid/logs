@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T15:02:34.491879Z",
+  "generated_at": "2026-10-02T16:00:41.940635Z",
   "period_days": 90,
-  "total_events": 139836,
-  "unique_ips": 3157,
+  "total_events": 139919,
+  "unique_ips": 3159,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,13 +17,13 @@
   "totals_by_source": {
     "citrixpot:honeypot-01": 247,
     "panospot:honeypot-01": 336,
-    "ivantipot:honeypot-01": 2403,
+    "ivantipot:honeypot-01": 2415,
     "centrestackpot:honeypot-01": 217,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 74259,
-    "bigippot:honeypot-01": 18485,
+    "bigippot:honeypot-01": 18550,
     "sshppot:honeypot-01": 13027,
-    "front:honeypot-01": 30839
+    "front:honeypot-01": 30845
   },
   "events_per_day": {
     "2026-08-28": {
@@ -271,14 +271,14 @@
       "total": 1671
     },
     "2026-10-02": {
-      "front:honeypot-01": 1042,
+      "front:honeypot-01": 1048,
       "fortipot:honeypot-01": 65,
       "citrixpot:honeypot-01": 175,
       "sshppot:honeypot-01": 697,
-      "bigippot:honeypot-01": 184,
-      "ivantipot:honeypot-01": 312,
+      "bigippot:honeypot-01": 249,
+      "ivantipot:honeypot-01": 324,
       "panospot:honeypot-01": 3,
-      "total": 2478
+      "total": 2561
     }
   },
   "top_credentials": [
@@ -2429,7 +2429,7 @@
   ],
   "method_counts": {
     "POST": 75815,
-    "GET": 47794,
+    "GET": 47876,
     "SSH": 13026,
     "HEAD": 99,
     "PRI": 85,
@@ -2465,17 +2465,17 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1555
+      "count": 1558
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1482
+      "count": 1483
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 897
+      "count": 900
     },
     {
       "path": "/logincheck",
@@ -2485,7 +2485,7 @@
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
       "source": "ivantipot:honeypot-01",
-      "count": 323
+      "count": 325
     },
     {
       "path": "/",
@@ -2495,7 +2495,7 @@
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 298
+      "count": 300
     },
     {
       "path": "/wp-login.php",
@@ -2505,7 +2505,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 276
+      "count": 277
     },
     {
       "path": "/wp-admin/index.php",
@@ -2535,12 +2535,12 @@
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 129
+      "count": 130
     },
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 114
+      "count": 116
     },
     {
       "path": "/logo.svg",
@@ -2548,8 +2548,8 @@
       "count": 112
     },
     {
-      "path": "/favicon.ico",
-      "source": "ivantipot:honeypot-01",
+      "path": "/api/.env",
+      "source": "front:honeypot-01",
       "count": 108
     }
   ],
@@ -2873,7 +2873,7 @@
       "name": "SKYNET BULGARIA Ltd.",
       "country": "BG",
       "ip_count": 1,
-      "event_count": 658
+      "event_count": 671
     },
     {
       "asn": "AS14618",
@@ -3006,8 +3006,8 @@
       "asn": "AS197769",
       "name": "VPS Dedicated LLC",
       "country": "DE",
-      "score": 55.28,
-      "event_count": 142,
+      "score": 55.29,
+      "event_count": 143,
       "credential_events": 109,
       "cve_events": 0
     },
@@ -3098,12 +3098,12 @@
     "PL": 33309,
     "BE": 10917,
     "CN": 9042,
-    "US": 5357,
+    "US": 5362,
     "LT": 2548,
-    "DE": 2407,
+    "DE": 2412,
     "ID": 1725,
     "IN": 1634,
-    "BG": 1018,
+    "BG": 1031,
     "HK": 801,
     "SE": 588,
     "FR": 536,
@@ -3113,10 +3113,11 @@
     "GB": 193,
     "KR": 188,
     "KZ": 139,
-    "FI": 113,
+    "FI": 111,
     "BR": 99,
     "VN": 78,
     "JP": 74,
+    "BD": 71,
     "RO": 65,
     "RU": 60,
     "UZ": 49,
@@ -3128,7 +3129,6 @@
     "TH": 11,
     "AU": 10,
     "SC": 10,
-    "BD": 9,
     "ZA": 9,
     "HU": 8,
     "TW": 7,
