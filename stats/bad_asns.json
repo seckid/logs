@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:00:41.940635Z",
+  "generated_at": "2026-10-02T17:03:26.752628Z",
   "period_days": 90,
   "asns": [
     {
@@ -28,10 +28,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "TW",
       "score": 76.5,
-      "event_count": 10917,
-      "ip_count": 295,
+      "event_count": 10919,
+      "ip_count": 296,
       "credential_events": 53,
       "cve_events": 25,
       "honeypots": [
@@ -434,9 +434,9 @@
       ]
     },
     {
-      "asn": "AS59257",
-      "name": "CMPak Limited",
-      "country": "PK",
+      "asn": "AS150436",
+      "name": "Byteplus Pte. Ltd.",
+      "country": "SG",
       "score": 40.6,
       "event_count": 50,
       "ip_count": 2,
@@ -454,9 +454,9 @@
       ]
     },
     {
-      "asn": "AS150436",
-      "name": "Byteplus Pte. Ltd.",
-      "country": "SG",
+      "asn": "AS59257",
+      "name": "CMPak Limited",
+      "country": "PK",
       "score": 40.6,
       "event_count": 50,
       "ip_count": 2,
@@ -478,16 +478,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.54,
-      "event_count": 268,
+      "event_count": 269,
       "ip_count": 3,
-      "credential_events": 268,
+      "credential_events": 269,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=268"
+        "credential_events=269"
       ]
     },
     {
@@ -530,6 +530,26 @@
       ]
     },
     {
+      "asn": "AS11878",
+      "name": "tzulo, inc.",
+      "country": "US",
+      "score": 34.83,
+      "event_count": 167,
+      "ip_count": 10,
+      "credential_events": 39,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=39",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS212238",
       "name": "Datacamp Limited",
       "country": "DE",
@@ -548,26 +568,6 @@
       "reasons": [
         "credential_events=25",
         "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS11878",
-      "name": "tzulo, inc.",
-      "country": "US",
-      "score": 32.29,
-      "event_count": 143,
-      "ip_count": 9,
-      "credential_events": 34,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=34",
-        "multi_honeypot=3"
       ]
     },
     {
@@ -646,6 +646,23 @@
       "asn": "AS154115",
       "name": "KANHALABS-ORG",
       "country": "IN",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
+      "asn": "AS36912",
+      "name": "Orange Cameroun SA",
+      "country": "CM",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -986,27 +1003,6 @@
       "reasons": [
         "multi_honeypot=6",
         "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS29244",
-      "name": "CETIN Bulgaria EAD",
-      "country": "BG",
-      "score": 21.16,
-      "event_count": 328,
-      "ip_count": 8,
-      "credential_events": 1,
-      "cve_events": 0,
-      "honeypots": [
-        "centrestackpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=1",
-        "multi_honeypot=4"
       ]
     }
   ]
