@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T00:03:41.589255Z",
+  "generated_at": "2026-10-02T01:02:19.213023Z",
   "period_days": 90,
   "asns": [
     {
@@ -28,10 +28,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
+      "country": "US",
       "score": 75.5,
-      "event_count": 10503,
-      "ip_count": 281,
+      "event_count": 10504,
+      "ip_count": 282,
       "credential_events": 51,
       "cve_events": 25,
       "honeypots": [
@@ -54,14 +54,15 @@
     {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "US",
-      "score": 70.59,
-      "event_count": 295,
-      "ip_count": 25,
+      "country": "GB",
+      "score": 70.6,
+      "event_count": 301,
+      "ip_count": 26,
       "credential_events": 40,
       "cve_events": 84,
       "honeypots": [
         "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
         "fortipot:honeypot-01",
         "ivantipot:honeypot-01",
         "panospot:honeypot-01",
@@ -71,16 +72,16 @@
       "reasons": [
         "credential_events=40",
         "cve_events=84",
-        "multi_honeypot=5"
+        "multi_honeypot=6"
       ]
     },
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "score": 67.11,
-      "event_count": 1156,
-      "ip_count": 135,
+      "country": "CA",
+      "score": 67.12,
+      "event_count": 1160,
+      "ip_count": 137,
       "credential_events": 653,
       "cve_events": 6,
       "honeypots": [
@@ -244,10 +245,10 @@
       "asn": "AS4766",
       "name": "Korea Telecom",
       "country": "KR",
-      "score": 50.31,
-      "event_count": 154,
-      "ip_count": 141,
-      "credential_events": 153,
+      "score": 50.32,
+      "event_count": 159,
+      "ip_count": 145,
+      "credential_events": 158,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -255,7 +256,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=153",
+        "credential_events=158",
         "multi_honeypot=2"
       ]
     },
@@ -374,13 +375,14 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "score": 40.91,
-      "event_count": 855,
-      "ip_count": 149,
+      "score": 40.94,
+      "event_count": 870,
+      "ip_count": 152,
       "credential_events": 0,
       "cve_events": 24,
       "honeypots": [
         "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
         "fortipot:honeypot-01",
         "ivantipot:honeypot-01",
         "panospot:honeypot-01"
@@ -388,7 +390,7 @@
       "ai_threat_level": null,
       "reasons": [
         "cve_events=24",
-        "multi_honeypot=4"
+        "multi_honeypot=5"
       ]
     },
     {
@@ -408,26 +410,6 @@
       "reasons": [
         "credential_events=4",
         "cve_events=36",
-        "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS150436",
-      "name": "Byteplus Pte. Ltd.",
-      "country": "SG",
-      "score": 40.6,
-      "event_count": 50,
-      "ip_count": 2,
-      "credential_events": 1,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=1",
-        "cve_events=42",
         "multi_honeypot=2"
       ]
     },
@@ -452,37 +434,57 @@
       ]
     },
     {
+      "asn": "AS150436",
+      "name": "Byteplus Pte. Ltd.",
+      "country": "SG",
+      "score": 40.6,
+      "event_count": 50,
+      "ip_count": 2,
+      "credential_events": 1,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=1",
+        "cve_events=42",
+        "multi_honeypot=2"
+      ]
+    },
+    {
       "asn": "AS154383",
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.51,
-      "event_count": 256,
+      "event_count": 257,
       "ip_count": 3,
-      "credential_events": 256,
+      "credential_events": 257,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=256"
+        "credential_events=257"
       ]
     },
     {
       "asn": "AS17557",
       "name": "Pakistan Telecommunication Company Limited",
       "country": "PK",
-      "score": 40.19,
-      "event_count": 97,
-      "ip_count": 92,
-      "credential_events": 97,
+      "score": 40.2,
+      "event_count": 101,
+      "ip_count": 96,
+      "credential_events": 101,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=97"
+        "credential_events=101"
       ]
     },
     {
@@ -819,10 +821,10 @@
       "asn": "AS36903",
       "name": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
       "country": "MA",
-      "score": 24.06,
-      "event_count": 30,
-      "ip_count": 24,
-      "credential_events": 28,
+      "score": 24.56,
+      "event_count": 31,
+      "ip_count": 25,
+      "credential_events": 29,
       "cve_events": 0,
       "honeypots": [
         "front:honeypot-01",
@@ -830,7 +832,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=28",
+        "credential_events=29",
         "multi_honeypot=2"
       ]
     },
@@ -839,8 +841,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 23.93,
-      "event_count": 1713,
-      "ip_count": 169,
+      "event_count": 1715,
+      "ip_count": 171,
       "credential_events": 1,
       "cve_events": 0,
       "honeypots": [
@@ -966,8 +968,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 21.25,
-      "event_count": 627,
+      "score": 21.26,
+      "event_count": 628,
       "ip_count": 133,
       "credential_events": 0,
       "cve_events": 0,
