@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-03T20:01:25.560305Z",
+  "generated_at": "2026-10-03T21:00:36.716613Z",
   "period_days": 90,
-  "total_events": 141685,
-  "unique_ips": 3427,
+  "total_events": 141770,
+  "unique_ips": 3436,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 368,
+    "citrixpot:honeypot-01": 383,
     "panospot:honeypot-01": 358,
-    "ivantipot:honeypot-01": 2523,
+    "ivantipot:honeypot-01": 2538,
     "centrestackpot:honeypot-01": 217,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 74390,
-    "bigippot:honeypot-01": 19013,
-    "sshppot:honeypot-01": 13394,
-    "front:honeypot-01": 31399
+    "bigippot:honeypot-01": 19019,
+    "sshppot:honeypot-01": 13421,
+    "front:honeypot-01": 31421
   },
   "events_per_day": {
     "2026-08-28": {
@@ -281,14 +281,14 @@
       "total": 3073
     },
     "2026-10-03": {
-      "ivantipot:honeypot-01": 68,
+      "ivantipot:honeypot-01": 83,
       "panospot:honeypot-01": 3,
-      "citrixpot:honeypot-01": 60,
-      "front:honeypot-01": 445,
-      "sshppot:honeypot-01": 322,
-      "bigippot:honeypot-01": 277,
+      "citrixpot:honeypot-01": 75,
+      "front:honeypot-01": 467,
+      "sshppot:honeypot-01": 349,
+      "bigippot:honeypot-01": 283,
       "fortipot:honeypot-01": 79,
-      "total": 1254
+      "total": 1339
     }
   },
   "top_credentials": [
@@ -300,7 +300,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 97
+      "count": 98
     },
     {
       "username": "admin",
@@ -546,7 +546,7 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 499
+      "count": 500
     },
     {
       "username": "admin",
@@ -628,7 +628,7 @@
     },
     {
       "password": "(empty)",
-      "count": 179
+      "count": 180
     },
     {
       "password": "admin",
@@ -705,12 +705,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 86697,
+      "attempt_count": 86724,
       "unique_ips": 887,
-      "unique_pairs": 82634,
+      "unique_pairs": 82647,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 86697
+      "unknown_outcome_count": 86724
     },
     "top_source_ips": [
       {
@@ -994,6 +994,20 @@
         "success_count": 0
       },
       {
+        "ip": "45.148.10.240",
+        "asn": "AS48090",
+        "asn_name": "TECHOFF SRV LIMITED",
+        "attempt_count": 179,
+        "unique_usernames": 88,
+        "unique_passwords": 131,
+        "honeypots": [
+          "sshppot:honeypot-01"
+        ],
+        "first_seen": "2026-10-03T14:45:49Z",
+        "last_seen": "2026-10-03T21:00:14Z",
+        "success_count": 0
+      },
+      {
         "ip": "104.248.172.3",
         "asn": "AS14061",
         "asn_name": "DigitalOcean, LLC",
@@ -1005,20 +1019,6 @@
         ],
         "first_seen": "2026-09-28T17:07:51Z",
         "last_seen": "2026-09-28T17:46:34Z",
-        "success_count": 0
-      },
-      {
-        "ip": "45.148.10.240",
-        "asn": "AS48090",
-        "asn_name": "TECHOFF SRV LIMITED",
-        "attempt_count": 152,
-        "unique_usernames": 77,
-        "unique_passwords": 114,
-        "honeypots": [
-          "sshppot:honeypot-01"
-        ],
-        "first_seen": "2026-10-03T14:45:49Z",
-        "last_seen": "2026-10-03T19:59:33Z",
         "success_count": 0
       },
       {
@@ -1696,6 +1696,20 @@
         "success_count": 0
       },
       {
+        "ip": "45.148.10.240",
+        "asn": "AS48090",
+        "asn_name": "TECHOFF SRV LIMITED",
+        "attempt_count": 179,
+        "unique_usernames": 88,
+        "unique_passwords": 131,
+        "honeypots": [
+          "sshppot:honeypot-01"
+        ],
+        "first_seen": "2026-10-03T14:45:49Z",
+        "last_seen": "2026-10-03T21:00:14Z",
+        "success_count": 0
+      },
+      {
         "ip": "104.248.172.3",
         "asn": "AS14061",
         "asn_name": "DigitalOcean, LLC",
@@ -1707,20 +1721,6 @@
         ],
         "first_seen": "2026-09-28T17:07:51Z",
         "last_seen": "2026-09-28T17:46:34Z",
-        "success_count": 0
-      },
-      {
-        "ip": "45.148.10.240",
-        "asn": "AS48090",
-        "asn_name": "TECHOFF SRV LIMITED",
-        "attempt_count": 152,
-        "unique_usernames": 77,
-        "unique_passwords": 114,
-        "honeypots": [
-          "sshppot:honeypot-01"
-        ],
-        "first_seen": "2026-10-03T14:45:49Z",
-        "last_seen": "2026-10-03T19:59:33Z",
         "success_count": 0
       },
       {
@@ -1989,7 +1989,7 @@
       {
         "username": "root",
         "password": "(empty)",
-        "count": 97,
+        "count": 98,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2423,7 +2423,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 6646
+      "count": 6648
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2440,9 +2440,9 @@
   ],
   "method_counts": {
     "POST": 75951,
-    "GET": 49026,
-    "SSH": 13393,
-    "HEAD": 100,
+    "GET": 49080,
+    "SSH": 13420,
+    "HEAD": 102,
     "PRI": 90,
     "PROPFIND": 61,
     "OPTIONS": 34,
@@ -2471,32 +2471,27 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 13270
+      "count": 13296
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1627
+      "count": 1629
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1502
+      "count": 1506
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 940
+      "count": 941
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
       "source": "ivantipot:honeypot-01",
-      "count": 341
-    },
-    {
-      "path": "/",
-      "source": "fortipot:honeypot-01",
-      "count": 335
+      "count": 346
     },
     {
       "path": "/logincheck",
@@ -2505,8 +2500,13 @@
     },
     {
       "path": "/",
+      "source": "fortipot:honeypot-01",
+      "count": 335
+    },
+    {
+      "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 320
+      "count": 326
     },
     {
       "path": "/robots.txt",
@@ -2521,7 +2521,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 257
+      "count": 258
     },
     {
       "path": "/wp-admin/index.php",
@@ -2541,12 +2541,12 @@
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 179
+      "count": 181
     },
     {
       "path": "/style.css",
       "source": "front:honeypot-01",
-      "count": 131
+      "count": 133
     },
     {
       "path": "/.env",
@@ -2554,14 +2554,14 @@
       "count": 122
     },
     {
+      "path": "/",
+      "source": "citrixpot:honeypot-01",
+      "count": 115
+    },
+    {
       "path": "/favicon.ico",
       "source": "ivantipot:honeypot-01",
       "count": 114
-    },
-    {
-      "path": "/",
-      "source": "citrixpot:honeypot-01",
-      "count": 113
     }
   ],
   "cve_attempts": [
@@ -2808,9 +2808,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
-      "ip_count": 313,
-      "event_count": 10942
+      "country": "US",
+      "ip_count": 314,
+      "event_count": 10943
     },
     {
       "asn": "AS37963",
@@ -2831,7 +2831,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 20,
-      "event_count": 2142
+      "event_count": 2169
     },
     {
       "asn": "AS8075",
@@ -2852,7 +2852,7 @@
       "name": "TC DATACENTER LIMITED",
       "country": "PL",
       "ip_count": 12,
-      "event_count": 1517
+      "event_count": 1519
     },
     {
       "asn": "AS202412",
@@ -2893,8 +2893,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 144,
-      "event_count": 650
+      "ip_count": 148,
+      "event_count": 656
     },
     {
       "asn": "AS203861",
@@ -2930,17 +2930,17 @@
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
       "country": "US",
-      "score": 90.75,
-      "event_count": 375,
+      "score": 90.77,
+      "event_count": 384,
       "credential_events": 100,
       "cve_events": 67
     },
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "US",
       "score": 76.5,
-      "event_count": 10942,
+      "event_count": 10943,
       "credential_events": 53,
       "cve_events": 25
     },
@@ -2966,9 +2966,9 @@
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "score": 64.28,
-      "event_count": 2142,
-      "credential_events": 1019,
+      "score": 64.34,
+      "event_count": 2169,
+      "credential_events": 1046,
       "cve_events": 0
     },
     {
@@ -3108,19 +3108,18 @@
     }
   ],
   "events_by_country": {
-    "NL": 41547,
-    "PL": 33398,
-    "BE": 10942,
-    "CN": 9056,
-    "US": 5961,
+    "NL": 41314,
+    "PL": 33400,
+    "US": 16919,
+    "CN": 9062,
     "DE": 4746,
     "LT": 2550,
     "ID": 1727,
     "BG": 1031,
     "CA": 911,
+    "FR": 845,
     "HK": 803,
-    "SG": 705,
-    "FR": 563,
+    "SG": 715,
     "SE": 523,
     "PK": 225,
     "KR": 218,
@@ -3134,7 +3133,7 @@
     "JP": 77,
     "RO": 69,
     "RU": 68,
-    "NO": 50,
+    "NO": 51,
     "CM": 49,
     "UZ": 49,
     "CH": 48,
