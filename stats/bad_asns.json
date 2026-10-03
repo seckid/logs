@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T23:01:03.222702Z",
+  "generated_at": "2026-10-03T00:03:50.969108Z",
   "period_days": 90,
   "asns": [
     {
@@ -318,10 +318,10 @@
     {
       "asn": "AS31898",
       "name": "Oracle Corporation",
-      "country": "JP",
+      "country": "SG",
       "score": 45.73,
-      "event_count": 366,
-      "ip_count": 7,
+      "event_count": 367,
+      "ip_count": 8,
       "credential_events": 0,
       "cve_events": 42,
       "honeypots": [
@@ -479,16 +479,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.55,
-      "event_count": 275,
+      "event_count": 276,
       "ip_count": 3,
-      "credential_events": 275,
+      "credential_events": 276,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=275"
+        "credential_events=276"
       ]
     },
     {
@@ -627,9 +627,30 @@
       ]
     },
     {
-      "asn": "AS206134",
-      "name": "NEKOBYTE INTERNATIONAL LIMITED",
-      "country": "DE",
+      "asn": "AS39351",
+      "name": "31173 Services AB",
+      "country": "NL",
+      "score": 30.17,
+      "event_count": 86,
+      "ip_count": 7,
+      "credential_events": 20,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=20",
+        "multi_honeypot=4"
+      ]
+    },
+    {
+      "asn": "AS154115",
+      "name": "KANHALABS-ORG",
+      "country": "IN",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -644,9 +665,9 @@
       ]
     },
     {
-      "asn": "AS154115",
-      "name": "KANHALABS-ORG",
-      "country": "IN",
+      "asn": "AS206134",
+      "name": "NEKOBYTE INTERNATIONAL LIMITED",
+      "country": "DE",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -731,10 +752,10 @@
     {
       "asn": "AS213412",
       "name": "ONYPHE SAS",
-      "country": "FR",
+      "country": "US",
       "score": 28.25,
-      "event_count": 123,
-      "ip_count": 99,
+      "event_count": 126,
+      "ip_count": 102,
       "credential_events": 0,
       "cve_events": 10,
       "honeypots": [
@@ -749,27 +770,6 @@
       "reasons": [
         "cve_events=10",
         "multi_honeypot=6"
-      ]
-    },
-    {
-      "asn": "AS39351",
-      "name": "31173 Services AB",
-      "country": "SE",
-      "score": 27.63,
-      "event_count": 66,
-      "ip_count": 6,
-      "credential_events": 15,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=15",
-        "multi_honeypot=4"
       ]
     },
     {
