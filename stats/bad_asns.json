@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-10-03T14:02:30.892710Z",
+  "generated_at": "2026-10-03T15:02:40.930538Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "HK",
-      "score": 90.72,
-      "event_count": 360,
-      "ip_count": 72,
+      "country": "US",
+      "score": 90.75,
+      "event_count": 375,
+      "ip_count": 75,
       "credential_events": 100,
       "cve_events": 67,
       "honeypots": [
         "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
         "fortipot:honeypot-01",
         "front:honeypot-01",
         "ivantipot:honeypot-01",
@@ -22,7 +23,7 @@
       "reasons": [
         "credential_events=100",
         "cve_events=67",
-        "multi_honeypot=5"
+        "multi_honeypot=6"
       ]
     },
     {
@@ -80,7 +81,7 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "score": 67.17,
-      "event_count": 1185,
+      "event_count": 1186,
       "ip_count": 147,
       "credential_events": 662,
       "cve_events": 6,
@@ -105,10 +106,10 @@
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "score": 63.98,
-      "event_count": 1989,
-      "ip_count": 19,
-      "credential_events": 867,
+      "score": 64.0,
+      "event_count": 1999,
+      "ip_count": 20,
+      "credential_events": 876,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -119,7 +120,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=867",
+        "credential_events=876",
         "multi_honeypot=5"
       ]
     },
@@ -266,10 +267,10 @@
       "asn": "AS4766",
       "name": "Korea Telecom",
       "country": "KR",
-      "score": 50.36,
-      "event_count": 181,
-      "ip_count": 167,
-      "credential_events": 180,
+      "score": 50.38,
+      "event_count": 188,
+      "ip_count": 174,
+      "credential_events": 187,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -277,7 +278,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=180",
+        "credential_events=187",
         "multi_honeypot=2"
       ]
     },
@@ -435,9 +436,9 @@
       ]
     },
     {
-      "asn": "AS150436",
-      "name": "Byteplus Pte. Ltd.",
-      "country": "SG",
+      "asn": "AS59257",
+      "name": "CMPak Limited",
+      "country": "PK",
       "score": 40.6,
       "event_count": 50,
       "ip_count": 2,
@@ -455,9 +456,9 @@
       ]
     },
     {
-      "asn": "AS59257",
-      "name": "CMPak Limited",
-      "country": "PK",
+      "asn": "AS150436",
+      "name": "Byteplus Pte. Ltd.",
+      "country": "SG",
       "score": 40.6,
       "event_count": 50,
       "ip_count": 2,
@@ -517,24 +518,24 @@
       "name": "Pakistan Telecommunication Company Limited",
       "country": "PK",
       "score": 40.24,
-      "event_count": 119,
-      "ip_count": 114,
-      "credential_events": 119,
+      "event_count": 122,
+      "ip_count": 117,
+      "credential_events": 122,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=119"
+        "credential_events=122"
       ]
     },
     {
       "asn": "AS4134",
       "name": "CHINANET BACKBONE",
       "country": "CN",
-      "score": 37.2,
-      "event_count": 100,
+      "score": 37.21,
+      "event_count": 104,
       "ip_count": 11,
       "credential_events": 34,
       "cve_events": 0,
@@ -595,10 +596,10 @@
     {
       "asn": "AS213412",
       "name": "ONYPHE SAS",
-      "country": "US",
-      "score": 30.66,
-      "event_count": 129,
-      "ip_count": 103,
+      "country": "FR",
+      "score": 30.67,
+      "event_count": 134,
+      "ip_count": 107,
       "credential_events": 0,
       "cve_events": 13,
       "honeypots": [
@@ -671,9 +672,9 @@
       ]
     },
     {
-      "asn": "AS202660",
-      "name": "Uzbektelekom Joint Stock Company",
-      "country": "UZ",
+      "asn": "AS206134",
+      "name": "NEKOBYTE INTERNATIONAL LIMITED",
+      "country": "DE",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -691,23 +692,6 @@
       "asn": "AS154115",
       "name": "KANHALABS-ORG",
       "country": "IN",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
-      "asn": "AS206134",
-      "name": "NEKOBYTE INTERNATIONAL LIMITED",
-      "country": "DE",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -742,6 +726,23 @@
       "asn": "AS45773",
       "name": "PERN AS Content Servie Provider, Islamabad, Pakistan",
       "country": "PK",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
+      "asn": "AS202660",
+      "name": "Uzbektelekom Joint Stock Company",
+      "country": "UZ",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -816,6 +817,25 @@
       ]
     },
     {
+      "asn": "AS36903",
+      "name": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
+      "country": "MA",
+      "score": 26.07,
+      "event_count": 34,
+      "ip_count": 28,
+      "credential_events": 32,
+      "cve_events": 0,
+      "honeypots": [
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=32",
+        "multi_honeypot=2"
+      ]
+    },
+    {
       "asn": "AS202412",
       "name": "Omegatech LTD",
       "country": "DE",
@@ -835,25 +855,6 @@
       "reasons": [
         "credential_events=7",
         "multi_honeypot=5"
-      ]
-    },
-    {
-      "asn": "AS36903",
-      "name": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
-      "country": "MA",
-      "score": 25.06,
-      "event_count": 32,
-      "ip_count": 26,
-      "credential_events": 30,
-      "cve_events": 0,
-      "honeypots": [
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=30",
-        "multi_honeypot=2"
       ]
     },
     {
