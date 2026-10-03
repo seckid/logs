@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-03T10:03:30.835824Z",
+  "generated_at": "2026-10-03T11:04:36.372385Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "US",
+      "country": "HK",
       "score": 90.7,
-      "event_count": 349,
-      "ip_count": 69,
+      "event_count": 350,
+      "ip_count": 70,
       "credential_events": 93,
       "cve_events": 67,
       "honeypots": [
@@ -28,10 +28,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
+      "country": "BR",
       "score": 76.5,
-      "event_count": 10929,
-      "ip_count": 301,
+      "event_count": 10932,
+      "ip_count": 303,
       "credential_events": 53,
       "cve_events": 25,
       "honeypots": [
@@ -168,9 +168,9 @@
       "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "country": "CN",
       "score": 60.0,
-      "event_count": 8801,
-      "ip_count": 10,
-      "credential_events": 8780,
+      "event_count": 8810,
+      "ip_count": 11,
+      "credential_events": 8789,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -178,7 +178,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=8780",
+        "credential_events=8789",
         "multi_honeypot=2"
       ]
     },
@@ -356,6 +356,28 @@
       ]
     },
     {
+      "asn": "AS6939",
+      "name": "Hurricane Electric LLC",
+      "country": "US",
+      "score": 43.54,
+      "event_count": 968,
+      "ip_count": 168,
+      "credential_events": 0,
+      "cve_events": 27,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=27",
+        "multi_honeypot=5"
+      ]
+    },
+    {
       "asn": "AS58477",
       "name": "Argon Data Communication",
       "country": "ID",
@@ -370,28 +392,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=1613"
-      ]
-    },
-    {
-      "asn": "AS6939",
-      "name": "Hurricane Electric LLC",
-      "country": "US",
-      "score": 42.71,
-      "event_count": 957,
-      "ip_count": 168,
-      "credential_events": 0,
-      "cve_events": 26,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=26",
-        "multi_honeypot=5"
       ]
     },
     {
@@ -479,16 +479,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.57,
-      "event_count": 284,
+      "event_count": 286,
       "ip_count": 3,
-      "credential_events": 284,
+      "credential_events": 286,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=284"
+        "credential_events=286"
       ]
     },
     {
@@ -648,6 +648,23 @@
       ]
     },
     {
+      "asn": "AS202660",
+      "name": "Uzbektelekom Joint Stock Company",
+      "country": "UZ",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
       "asn": "AS154115",
       "name": "KANHALABS-ORG",
       "country": "IN",
@@ -702,23 +719,6 @@
       "asn": "AS45773",
       "name": "PERN AS Content Servie Provider, Islamabad, Pakistan",
       "country": "PK",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
-      "asn": "AS202660",
-      "name": "Uzbektelekom Joint Stock Company",
-      "country": "UZ",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
