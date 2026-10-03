@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-03T07:03:30.826356Z",
+  "generated_at": "2026-10-03T08:02:30.911910Z",
   "period_days": 90,
-  "total_events": 140643,
-  "unique_ips": 3305,
+  "total_events": 140834,
+  "unique_ips": 3307,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -22,8 +22,8 @@
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 74322,
     "bigippot:honeypot-01": 18833,
-    "sshppot:honeypot-01": 13095,
-    "front:honeypot-01": 30982
+    "sshppot:honeypot-01": 13096,
+    "front:honeypot-01": 31172
   },
   "events_per_day": {
     "2026-08-28": {
@@ -284,18 +284,18 @@
       "ivantipot:honeypot-01": 36,
       "panospot:honeypot-01": 3,
       "citrixpot:honeypot-01": 14,
-      "front:honeypot-01": 28,
-      "sshppot:honeypot-01": 23,
+      "front:honeypot-01": 218,
+      "sshppot:honeypot-01": 24,
       "bigippot:honeypot-01": 97,
       "fortipot:honeypot-01": 11,
-      "total": 212
+      "total": 403
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 281
+      "count": 282
     },
     {
       "username": "root",
@@ -554,7 +554,7 @@
     },
     {
       "username": "support",
-      "count": 281
+      "count": 282
     },
     {
       "username": "user",
@@ -624,7 +624,7 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 281
+      "count": 282
     },
     {
       "password": "(empty)",
@@ -705,12 +705,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 86383,
+      "attempt_count": 86384,
       "unique_ips": 844,
       "unique_pairs": 82547,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 86383
+      "unknown_outcome_count": 86384
     },
     "top_source_ips": [
       {
@@ -983,14 +983,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 232,
+        "attempt_count": 233,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-03T06:21:54Z",
+        "last_seen": "2026-10-03T07:32:18Z",
         "success_count": 0
       },
       {
@@ -1685,14 +1685,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 232,
+        "attempt_count": 233,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-03T06:21:54Z",
+        "last_seen": "2026-10-03T07:32:18Z",
         "success_count": 0
       },
       {
@@ -1980,7 +1980,7 @@
       {
         "username": "support",
         "password": "support",
-        "count": 281,
+        "count": 282,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2430,7 +2430,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 4785
+      "count": 4872
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2438,9 +2438,9 @@
     }
   ],
   "method_counts": {
-    "POST": 75908,
-    "GET": 48390,
-    "SSH": 13094,
+    "POST": 75909,
+    "GET": 48579,
+    "SSH": 13095,
     "HEAD": 100,
     "PRI": 89,
     "PROPFIND": 58,
@@ -2470,7 +2470,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 12977
+      "count": 12978
     },
     {
       "path": "/",
@@ -2480,7 +2480,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1490
+      "count": 1492
     },
     {
       "path": "/tmui/login.jsp",
@@ -2530,12 +2530,12 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 222
+      "count": 223
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 204
+      "count": 205
     },
     {
       "path": "/favicon.ico",
@@ -2849,7 +2849,7 @@
       "name": "TC DATACENTER LIMITED",
       "country": "PL",
       "ip_count": 11,
-      "event_count": 1490
+      "event_count": 1504
     },
     {
       "asn": "AS202412",
@@ -3106,7 +3106,7 @@
   ],
   "events_by_country": {
     "NL": 41466,
-    "PL": 33331,
+    "PL": 33346,
     "US": 17027,
     "CN": 9043,
     "DE": 3553,
@@ -3119,7 +3119,7 @@
     "SG": 551,
     "CA": 484,
     "FR": 426,
-    "PK": 217,
+    "PK": 218,
     "KR": 205,
     "GB": 193,
     "FI": 165,
