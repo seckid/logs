@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T06:04:41.987272Z",
+  "generated_at": "2026-10-04T07:03:19.113826Z",
   "period_days": 90,
   "asns": [
     {
@@ -29,10 +29,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "BR",
       "score": 76.5,
-      "event_count": 10962,
-      "ip_count": 320,
+      "event_count": 10964,
+      "ip_count": 321,
       "credential_events": 53,
       "cve_events": 25,
       "honeypots": [
@@ -81,7 +81,7 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "score": 67.2,
-      "event_count": 1198,
+      "event_count": 1199,
       "ip_count": 152,
       "credential_events": 663,
       "cve_events": 6,
@@ -106,10 +106,10 @@
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "score": 65.52,
-      "event_count": 2760,
+      "score": 65.54,
+      "event_count": 2771,
       "ip_count": 21,
-      "credential_events": 1635,
+      "credential_events": 1646,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -120,7 +120,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=1635",
+        "credential_events=1646",
         "multi_honeypot=5"
       ]
     },
@@ -248,9 +248,9 @@
       "name": "Korea Telecom",
       "country": "KR",
       "score": 55.4,
-      "event_count": 200,
-      "ip_count": 185,
-      "credential_events": 198,
+      "event_count": 202,
+      "ip_count": 186,
+      "credential_events": 200,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -259,7 +259,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=198",
+        "credential_events=200",
         "multi_honeypot=3"
       ]
     },
@@ -361,9 +361,9 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "score": 43.63,
-      "event_count": 1017,
-      "ip_count": 179,
+      "score": 43.67,
+      "event_count": 1033,
+      "ip_count": 180,
       "credential_events": 0,
       "cve_events": 27,
       "honeypots": [
@@ -437,6 +437,26 @@
       ]
     },
     {
+      "asn": "AS132203",
+      "name": "Tencent Building, Kejizhongyi Avenue",
+      "country": "SG",
+      "score": 41.61,
+      "event_count": 56,
+      "ip_count": 2,
+      "credential_events": 3,
+      "cve_events": 49,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=3",
+        "cve_events=49",
+        "multi_honeypot=2"
+      ]
+    },
+    {
       "asn": "AS212238",
       "name": "Datacamp Limited",
       "country": "SG",
@@ -464,16 +484,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.6,
-      "event_count": 301,
+      "event_count": 302,
       "ip_count": 3,
-      "credential_events": 301,
+      "credential_events": 302,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=301"
+        "credential_events=302"
       ]
     },
     {
@@ -520,17 +540,36 @@
       "asn": "AS17557",
       "name": "Pakistan Telecommunication Company Limited",
       "country": "PK",
-      "score": 40.25,
-      "event_count": 127,
-      "ip_count": 122,
-      "credential_events": 127,
+      "score": 40.26,
+      "event_count": 129,
+      "ip_count": 124,
+      "credential_events": 129,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=127"
+        "credential_events=129"
+      ]
+    },
+    {
+      "asn": "AS24757",
+      "name": "Ethio Telecom",
+      "country": "ET",
+      "score": 40.1,
+      "event_count": 50,
+      "ip_count": 2,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "front:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42",
+        "multi_honeypot=2"
       ]
     },
     {
@@ -920,26 +959,6 @@
       ]
     },
     {
-      "asn": "AS132203",
-      "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "KR",
-      "score": 23.54,
-      "event_count": 20,
-      "ip_count": 1,
-      "credential_events": 3,
-      "cve_events": 15,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=3",
-        "cve_events=15",
-        "multi_honeypot=2"
-      ]
-    },
-    {
       "asn": "AS10439",
       "name": "CariNet, Inc.",
       "country": "US",
@@ -979,28 +998,6 @@
       "reasons": [
         "credential_events=26",
         "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS41280",
-      "name": "SKYNET BULGARIA Ltd.",
-      "country": "BG",
-      "score": 22.34,
-      "event_count": 671,
-      "ip_count": 1,
-      "credential_events": 2,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=2",
-        "multi_honeypot=5"
       ]
     }
   ]
