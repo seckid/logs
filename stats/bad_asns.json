@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-10-04T17:03:41.252322Z",
+  "generated_at": "2026-10-04T18:04:41.134589Z",
   "period_days": 90,
   "asns": [
+    {
+      "asn": "AS14061",
+      "name": "DigitalOcean, LLC",
+      "country": "IN",
+      "score": 92.5,
+      "event_count": 1251,
+      "ip_count": 155,
+      "credential_events": 663,
+      "cve_events": 48,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=663",
+        "cve_events=48",
+        "multi_honeypot=7",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
@@ -29,10 +55,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "BE",
       "score": 76.5,
-      "event_count": 10970,
-      "ip_count": 324,
+      "event_count": 10988,
+      "ip_count": 325,
       "credential_events": 53,
       "cve_events": 25,
       "honeypots": [
@@ -77,39 +103,13 @@
       ]
     },
     {
-      "asn": "AS14061",
-      "name": "DigitalOcean, LLC",
-      "country": "US",
-      "score": 67.2,
-      "event_count": 1202,
-      "ip_count": 154,
-      "credential_events": 663,
-      "cve_events": 6,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=663",
-        "cve_events=6",
-        "multi_honeypot=7",
-        "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "score": 66.63,
-      "event_count": 3314,
+      "score": 66.64,
+      "event_count": 3321,
       "ip_count": 21,
-      "credential_events": 2187,
+      "credential_events": 2194,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -120,7 +120,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=2187",
+        "credential_events=2194",
         "multi_honeypot=5"
       ]
     },
@@ -247,10 +247,10 @@
       "asn": "AS4766",
       "name": "Korea Telecom",
       "country": "KR",
-      "score": 55.41,
-      "event_count": 207,
-      "ip_count": 191,
-      "credential_events": 205,
+      "score": 55.42,
+      "event_count": 208,
+      "ip_count": 192,
+      "credential_events": 206,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -259,7 +259,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=205",
+        "credential_events=206",
         "multi_honeypot=3"
       ]
     },
@@ -380,6 +380,28 @@
       ]
     },
     {
+      "asn": "AS4134",
+      "name": "CHINANET BACKBONE",
+      "country": "CN",
+      "score": 44.25,
+      "event_count": 124,
+      "ip_count": 12,
+      "credential_events": 48,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=48",
+        "multi_honeypot=5"
+      ]
+    },
+    {
       "asn": "AS58477",
       "name": "Argon Data Communication",
       "country": "ID",
@@ -484,22 +506,22 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.62,
-      "event_count": 309,
+      "event_count": 310,
       "ip_count": 3,
-      "credential_events": 309,
+      "credential_events": 310,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=309"
+        "credential_events=310"
       ]
     },
     {
-      "asn": "AS150436",
-      "name": "Byteplus Pte. Ltd.",
-      "country": "SG",
+      "asn": "AS59257",
+      "name": "CMPak Limited",
+      "country": "PK",
       "score": 40.6,
       "event_count": 50,
       "ip_count": 2,
@@ -517,9 +539,9 @@
       ]
     },
     {
-      "asn": "AS59257",
-      "name": "CMPak Limited",
-      "country": "PK",
+      "asn": "AS150436",
+      "name": "Byteplus Pte. Ltd.",
+      "country": "SG",
       "score": 40.6,
       "event_count": 50,
       "ip_count": 2,
@@ -592,35 +614,13 @@
       ]
     },
     {
-      "asn": "AS4134",
-      "name": "CHINANET BACKBONE",
-      "country": "CN",
-      "score": 37.22,
-      "event_count": 110,
-      "ip_count": 11,
-      "credential_events": 34,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=34",
-        "multi_honeypot=5"
-      ]
-    },
-    {
       "asn": "AS11878",
       "name": "tzulo, inc.",
       "country": "US",
-      "score": 34.83,
-      "event_count": 167,
-      "ip_count": 10,
-      "credential_events": 39,
+      "score": 37.38,
+      "event_count": 192,
+      "ip_count": 11,
+      "credential_events": 44,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -629,7 +629,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=39",
+        "credential_events=44",
         "multi_honeypot=3"
       ]
     },
@@ -637,10 +637,10 @@
       "asn": "AS9009",
       "name": "M247 Europe SRL",
       "country": "US",
-      "score": 32.8,
-      "event_count": 148,
-      "ip_count": 13,
-      "credential_events": 25,
+      "score": 35.34,
+      "event_count": 172,
+      "ip_count": 14,
+      "credential_events": 30,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -652,7 +652,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=25",
+        "credential_events=30",
         "multi_honeypot=6"
       ]
     },
@@ -660,8 +660,8 @@
       "asn": "AS51167",
       "name": "Contabo GmbH",
       "country": "FR",
-      "score": 31.51,
-      "event_count": 106,
+      "score": 31.52,
+      "event_count": 108,
       "ip_count": 15,
       "credential_events": 23,
       "cve_events": 6,
