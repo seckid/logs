@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-05T01:03:31.086261Z",
+  "generated_at": "2026-10-05T02:01:10.134139Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "NL",
-      "score": 92.57,
-      "event_count": 1287,
+      "score": 92.58,
+      "event_count": 1288,
       "ip_count": 159,
       "credential_events": 664,
       "cve_events": 49,
@@ -55,10 +55,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "BR",
       "score": 76.5,
-      "event_count": 10994,
-      "ip_count": 330,
+      "event_count": 11114,
+      "ip_count": 331,
       "credential_events": 53,
       "cve_events": 25,
       "honeypots": [
@@ -106,10 +106,10 @@
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "score": 66.71,
-      "event_count": 3353,
+      "score": 67.1,
+      "event_count": 3550,
       "ip_count": 21,
-      "credential_events": 2226,
+      "credential_events": 2423,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -120,7 +120,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=2226",
+        "credential_events=2423",
         "multi_honeypot=5"
       ]
     },
@@ -318,6 +318,28 @@
       ]
     },
     {
+      "asn": "AS6939",
+      "name": "Hurricane Electric LLC",
+      "country": "US",
+      "score": 46.92,
+      "event_count": 1058,
+      "ip_count": 185,
+      "credential_events": 0,
+      "cve_events": 31,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=31",
+        "multi_honeypot=5"
+      ]
+    },
+    {
       "asn": "AS31898",
       "name": "Oracle Corporation",
       "country": "SG",
@@ -335,28 +357,6 @@
       "reasons": [
         "cve_events=42",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS6939",
-      "name": "Hurricane Electric LLC",
-      "country": "US",
-      "score": 45.29,
-      "event_count": 1046,
-      "ip_count": 180,
-      "credential_events": 0,
-      "cve_events": 29,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=29",
-        "multi_honeypot=5"
       ]
     },
     {
@@ -982,7 +982,7 @@
       "name": "CariNet, Inc.",
       "country": "US",
       "score": 23.06,
-      "event_count": 328,
+      "event_count": 329,
       "ip_count": 19,
       "credential_events": 0,
       "cve_events": 3,
