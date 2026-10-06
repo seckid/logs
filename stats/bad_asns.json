@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-06T08:00:41.575672Z",
+  "generated_at": "2026-10-06T09:03:11.476485Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "score": 92.79,
-      "event_count": 1397,
-      "ip_count": 166,
+      "score": 92.8,
+      "event_count": 1402,
+      "ip_count": 168,
       "credential_events": 664,
       "cve_events": 57,
       "honeypots": [
@@ -55,10 +55,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "BE",
       "score": 76.5,
-      "event_count": 11155,
-      "ip_count": 350,
+      "event_count": 11165,
+      "ip_count": 352,
       "credential_events": 53,
       "cve_events": 25,
       "honeypots": [
@@ -193,9 +193,9 @@
       "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "country": "CN",
       "score": 60.0,
-      "event_count": 8888,
-      "ip_count": 16,
-      "credential_events": 8867,
+      "event_count": 8897,
+      "ip_count": 17,
+      "credential_events": 8876,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -203,7 +203,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=8867",
+        "credential_events=8876",
         "multi_honeypot=2"
       ]
     },
@@ -430,6 +430,30 @@
       ]
     },
     {
+      "asn": "AS9009",
+      "name": "M247 Europe SRL",
+      "country": "DE",
+      "score": 45.24,
+      "event_count": 222,
+      "ip_count": 16,
+      "credential_events": 40,
+      "cve_events": 6,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "centrestackpot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=40",
+        "cve_events=6",
+        "multi_honeypot=6"
+      ]
+    },
+    {
       "asn": "AS215540",
       "name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
       "country": "FI",
@@ -464,30 +488,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=1613"
-      ]
-    },
-    {
-      "asn": "AS9009",
-      "name": "M247 Europe SRL",
-      "country": "DE",
-      "score": 42.69,
-      "event_count": 197,
-      "ip_count": 15,
-      "credential_events": 35,
-      "cve_events": 6,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "centrestackpot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=35",
-        "cve_events=6",
-        "multi_honeypot=6"
       ]
     },
     {
@@ -592,16 +592,16 @@
       "name": "Pakistan Telecommunication Company Limited",
       "country": "PK",
       "score": 40.33,
-      "event_count": 164,
-      "ip_count": 159,
-      "credential_events": 164,
+      "event_count": 165,
+      "ip_count": 160,
+      "credential_events": 165,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=164"
+        "credential_events=165"
       ]
     },
     {
@@ -900,6 +900,27 @@
       ]
     },
     {
+      "asn": "AS203020",
+      "name": "HostRoyale Technologies Pvt Ltd",
+      "country": "US",
+      "score": 27.67,
+      "event_count": 85,
+      "ip_count": 5,
+      "credential_events": 15,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=15",
+        "multi_honeypot=4"
+      ]
+    },
+    {
       "asn": "AS53231",
       "name": "GRUPOHOST COMUNICACAO MULTIMIDIA LTDA",
       "country": "BR",
@@ -921,8 +942,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 26.98,
-      "event_count": 2990,
-      "ip_count": 216,
+      "event_count": 2992,
+      "ip_count": 217,
       "credential_events": 2,
       "cve_events": 0,
       "honeypots": [
@@ -981,32 +1002,6 @@
       "reasons": [
         "cve_events=14",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 25.62,
-      "event_count": 860,
-      "ip_count": 175,
-      "credential_events": 3,
-      "cve_events": 3,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=3",
-        "cve_events=3",
-        "multi_honeypot=7",
-        "research_or_cloud_with_hostile_density"
       ]
     }
   ]
