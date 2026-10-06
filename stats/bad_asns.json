@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T21:03:33.789998Z",
+  "generated_at": "2026-10-06T22:01:54.956692Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,8 +7,8 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "score": 92.82,
-      "event_count": 1408,
-      "ip_count": 171,
+      "event_count": 1409,
+      "ip_count": 172,
       "credential_events": 664,
       "cve_events": 57,
       "honeypots": [
@@ -56,10 +56,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "NL",
       "score": 87.5,
-      "event_count": 11427,
-      "ip_count": 362,
+      "event_count": 11428,
+      "ip_count": 363,
       "credential_events": 55,
       "cve_events": 40,
       "honeypots": [
@@ -511,6 +511,26 @@
       ]
     },
     {
+      "asn": "AS11878",
+      "name": "tzulo, inc.",
+      "country": "US",
+      "score": 42.54,
+      "event_count": 272,
+      "ip_count": 16,
+      "credential_events": 54,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=54",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS132203",
       "name": "Tencent Building, Kejizhongyi Avenue",
       "country": "SG",
@@ -704,26 +724,6 @@
       "reasons": [
         "cve_events=24",
         "multi_honeypot=6"
-      ]
-    },
-    {
-      "asn": "AS11878",
-      "name": "tzulo, inc.",
-      "country": "US",
-      "score": 37.44,
-      "event_count": 222,
-      "ip_count": 14,
-      "credential_events": 44,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=44",
-        "multi_honeypot=3"
       ]
     },
     {
