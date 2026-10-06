@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T00:04:51.509178Z",
+  "generated_at": "2026-10-06T01:04:42.452091Z",
   "period_days": 90,
   "asns": [
     {
@@ -55,10 +55,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "TW",
       "score": 76.5,
-      "event_count": 11153,
-      "ip_count": 348,
+      "event_count": 11154,
+      "ip_count": 349,
       "credential_events": 53,
       "cve_events": 25,
       "honeypots": [
@@ -490,6 +490,26 @@
       ]
     },
     {
+      "asn": "AS132203",
+      "name": "Tencent Building, Kejizhongyi Avenue",
+      "country": "SG",
+      "score": 42.11,
+      "event_count": 57,
+      "ip_count": 3,
+      "credential_events": 4,
+      "cve_events": 49,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=4",
+        "cve_events=49",
+        "multi_honeypot=2"
+      ]
+    },
+    {
       "asn": "AS36352",
       "name": "HostPapa",
       "country": "US",
@@ -506,26 +526,6 @@
       "reasons": [
         "credential_events=3",
         "cve_events=42",
-        "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS132203",
-      "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "SG",
-      "score": 41.61,
-      "event_count": 56,
-      "ip_count": 2,
-      "credential_events": 3,
-      "cve_events": 49,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=3",
-        "cve_events=49",
         "multi_honeypot=2"
       ]
     },
@@ -942,8 +942,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 26.87,
-      "event_count": 2933,
-      "ip_count": 212,
+      "event_count": 2935,
+      "ip_count": 214,
       "credential_events": 2,
       "cve_events": 0,
       "honeypots": [
