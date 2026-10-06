@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T15:04:42.434143Z",
+  "generated_at": "2026-10-06T16:01:42.566103Z",
   "period_days": 90,
   "asns": [
     {
@@ -107,10 +107,10 @@
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "score": 69.72,
-      "event_count": 4859,
+      "score": 70.0,
+      "event_count": 5094,
       "ip_count": 23,
-      "credential_events": 3724,
+      "credential_events": 3959,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -122,7 +122,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=3724",
+        "credential_events=3959",
         "multi_honeypot=6"
       ]
     },
@@ -328,6 +328,25 @@
         "credential_events=1",
         "cve_events=42",
         "multi_honeypot=4"
+      ]
+    },
+    {
+      "asn": "AS198953",
+      "name": "Proton66 OOO",
+      "country": "RU",
+      "score": 50.18,
+      "event_count": 89,
+      "ip_count": 3,
+      "credential_events": 87,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=87",
+        "multi_honeypot=2"
       ]
     },
     {
@@ -593,16 +612,16 @@
       "name": "Pakistan Telecommunication Company Limited",
       "country": "PK",
       "score": 40.35,
-      "event_count": 173,
-      "ip_count": 168,
-      "credential_events": 173,
+      "event_count": 177,
+      "ip_count": 172,
+      "credential_events": 177,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=173"
+        "credential_events=177"
       ]
     },
     {
@@ -666,10 +685,10 @@
     {
       "asn": "AS213412",
       "name": "ONYPHE SAS",
-      "country": "US",
+      "country": "FR",
       "score": 37.15,
-      "event_count": 173,
-      "ip_count": 117,
+      "event_count": 176,
+      "ip_count": 119,
       "credential_events": 0,
       "cve_events": 21,
       "honeypots": [
@@ -799,9 +818,9 @@
       ]
     },
     {
-      "asn": "AS154115",
-      "name": "KANHALABS-ORG",
-      "country": "IN",
+      "asn": "AS206134",
+      "name": "NEKOBYTE INTERNATIONAL LIMITED",
+      "country": "DE",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -816,9 +835,9 @@
       ]
     },
     {
-      "asn": "AS206134",
-      "name": "NEKOBYTE INTERNATIONAL LIMITED",
-      "country": "DE",
+      "asn": "AS154115",
+      "name": "KANHALABS-ORG",
+      "country": "IN",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -983,26 +1002,6 @@
       "reasons": [
         "credential_events=9",
         "multi_honeypot=5"
-      ]
-    },
-    {
-      "asn": "AS211632",
-      "name": "Internet Solutions & Innovations LTD.",
-      "country": "LT",
-      "score": 26.31,
-      "event_count": 56,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 14,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=14",
-        "multi_honeypot=3"
       ]
     }
   ]
