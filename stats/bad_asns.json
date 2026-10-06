@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:02:32.324147Z",
+  "generated_at": "2026-10-06T19:03:31.515125Z",
   "period_days": 90,
   "asns": [
     {
@@ -31,11 +31,11 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "DE",
-      "score": 90.88,
-      "event_count": 440,
-      "ip_count": 87,
-      "credential_events": 111,
+      "country": "US",
+      "score": 90.89,
+      "event_count": 446,
+      "ip_count": 88,
+      "credential_events": 117,
       "cve_events": 67,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -48,7 +48,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=111",
+        "credential_events=117",
         "cve_events=67",
         "multi_honeypot=7"
       ]
@@ -108,9 +108,9 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 5346,
+      "event_count": 5393,
       "ip_count": 23,
-      "credential_events": 4211,
+      "credential_events": 4258,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -122,7 +122,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=4211",
+        "credential_events=4258",
         "multi_honeypot=6"
       ]
     },
@@ -568,9 +568,30 @@
       ]
     },
     {
-      "asn": "AS150436",
-      "name": "Byteplus Pte. Ltd.",
-      "country": "SG",
+      "asn": "AS45090",
+      "name": "Shenzhen Tencent Computer Systems Company Limited",
+      "country": "CN",
+      "score": 40.64,
+      "event_count": 72,
+      "ip_count": 7,
+      "credential_events": 11,
+      "cve_events": 25,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=11",
+        "cve_events=25",
+        "multi_honeypot=3"
+      ]
+    },
+    {
+      "asn": "AS59257",
+      "name": "CMPak Limited",
+      "country": "PK",
       "score": 40.6,
       "event_count": 50,
       "ip_count": 2,
@@ -588,9 +609,9 @@
       ]
     },
     {
-      "asn": "AS59257",
-      "name": "CMPak Limited",
-      "country": "PK",
+      "asn": "AS150436",
+      "name": "Byteplus Pte. Ltd.",
+      "country": "SG",
       "score": 40.6,
       "event_count": 50,
       "ip_count": 2,
@@ -663,24 +684,26 @@
       ]
     },
     {
-      "asn": "AS45090",
-      "name": "Shenzhen Tencent Computer Systems Company Limited",
-      "country": "CN",
-      "score": 38.24,
-      "event_count": 69,
-      "ip_count": 7,
-      "credential_events": 11,
-      "cve_events": 22,
+      "asn": "AS213412",
+      "name": "ONYPHE SAS",
+      "country": "FR",
+      "score": 39.56,
+      "event_count": 179,
+      "ip_count": 119,
+      "credential_events": 0,
+      "cve_events": 24,
       "honeypots": [
         "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
         "front:honeypot-01",
-        "sshppot:honeypot-01"
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=11",
-        "cve_events=22",
-        "multi_honeypot=3"
+        "cve_events=24",
+        "multi_honeypot=6"
       ]
     },
     {
@@ -701,29 +724,6 @@
       "reasons": [
         "credential_events=44",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS213412",
-      "name": "ONYPHE SAS",
-      "country": "FR",
-      "score": 37.15,
-      "event_count": 176,
-      "ip_count": 119,
-      "credential_events": 0,
-      "cve_events": 21,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=21",
-        "multi_honeypot=6"
       ]
     },
     {
