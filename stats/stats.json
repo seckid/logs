@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-07T17:03:51.719541Z",
+  "generated_at": "2026-10-07T18:01:25.405782Z",
   "period_days": 90,
-  "total_events": 153541,
-  "unique_ips": 4324,
+  "total_events": 153562,
+  "unique_ips": 4328,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,14 +15,14 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 946,
+    "citrixpot:honeypot-01": 954,
     "panospot:honeypot-01": 477,
     "ivantipot:honeypot-01": 3064,
     "centrestackpot:honeypot-01": 217,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 74835,
-    "bigippot:honeypot-01": 21060,
-    "sshppot:honeypot-01": 18015,
+    "bigippot:honeypot-01": 21066,
+    "sshppot:honeypot-01": 18021,
     "front:honeypot-01": 34904
   },
   "events_per_day": {
@@ -321,14 +321,14 @@
       "total": 3411
     },
     "2026-10-07": {
-      "bigippot:honeypot-01": 249,
+      "bigippot:honeypot-01": 255,
       "panospot:honeypot-01": 7,
       "front:honeypot-01": 413,
       "ivantipot:honeypot-01": 99,
-      "sshppot:honeypot-01": 670,
-      "citrixpot:honeypot-01": 61,
+      "sshppot:honeypot-01": 676,
+      "citrixpot:honeypot-01": 69,
       "fortipot:honeypot-01": 111,
-      "total": 1610
+      "total": 1630
     }
   },
   "top_credentials": [
@@ -345,7 +345,7 @@
     {
       "username": "admin",
       "password": "admin",
-      "count": 131
+      "count": 132
     },
     {
       "username": "admin",
@@ -355,17 +355,22 @@
     {
       "username": "root",
       "password": "root",
-      "count": 99
+      "count": 100
     },
     {
       "username": "user",
       "password": "user",
-      "count": 92
+      "count": 93
     },
     {
       "username": "admin",
       "password": "password",
       "count": 85
+    },
+    {
+      "username": "root",
+      "password": "admin",
+      "count": 80
     },
     {
       "username": "admin",
@@ -376,11 +381,6 @@
       "username": "test",
       "password": "test",
       "count": 80
-    },
-    {
-      "username": "root",
-      "password": "admin",
-      "count": 79
     },
     {
       "username": "root",
@@ -505,7 +505,7 @@
     {
       "username": "user",
       "password": "1234",
-      "count": 21
+      "count": 22
     },
     {
       "username": "postgres",
@@ -586,11 +586,11 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 727
+      "count": 729
     },
     {
       "username": "admin",
-      "count": 596
+      "count": 597
     },
     {
       "username": "support",
@@ -598,7 +598,7 @@
     },
     {
       "username": "user",
-      "count": 208
+      "count": 210
     },
     {
       "username": "ubuntu",
@@ -676,7 +676,7 @@
     },
     {
       "password": "admin",
-      "count": 210
+      "count": 212
     },
     {
       "password": "password",
@@ -688,15 +688,15 @@
     },
     {
       "password": "root",
-      "count": 99
+      "count": 100
     },
     {
       "password": "1234",
-      "count": 93
+      "count": 94
     },
     {
       "password": "user",
-      "count": 92
+      "count": 93
     },
     {
       "password": "admin123",
@@ -749,12 +749,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 91397,
-      "unique_ips": 1250,
+      "attempt_count": 91404,
+      "unique_ips": 1251,
       "unique_pairs": 82859,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 91397
+      "unknown_outcome_count": 91404
     },
     "top_source_ips": [
       {
@@ -2041,7 +2041,7 @@
       {
         "username": "admin",
         "password": "admin",
-        "count": 131,
+        "count": 132,
         "sources": [
           "bigippot:honeypot-01",
           "fortipot:honeypot-01",
@@ -2063,7 +2063,7 @@
       {
         "username": "root",
         "password": "root",
-        "count": 99,
+        "count": 100,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2072,7 +2072,7 @@
       {
         "username": "user",
         "password": "user",
-        "count": 92,
+        "count": 93,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2084,6 +2084,14 @@
         "count": 85,
         "sources": [
           "fortipot:honeypot-01",
+          "sshppot:honeypot-01"
+        ]
+      },
+      {
+        "username": "root",
+        "password": "admin",
+        "count": 80,
+        "sources": [
           "sshppot:honeypot-01"
         ]
       },
@@ -2104,14 +2112,6 @@
           "bigippot:honeypot-01",
           "fortipot:honeypot-01",
           "ivantipot:honeypot-01",
-          "sshppot:honeypot-01"
-        ]
-      },
-      {
-        "username": "root",
-        "password": "admin",
-        "count": 79,
-        "sources": [
           "sshppot:honeypot-01"
         ]
       },
@@ -2324,7 +2324,7 @@
       {
         "username": "user",
         "password": "1234",
-        "count": 21,
+        "count": 22,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2488,8 +2488,8 @@
   ],
   "method_counts": {
     "POST": 76316,
-    "GET": 55208,
-    "SSH": 18014,
+    "GET": 55222,
+    "SSH": 18021,
     "PRI": 112,
     "HEAD": 107,
     "PROPFIND": 71,
@@ -2523,12 +2523,12 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 17797
+      "count": 17804
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1858
+      "count": 1860
     },
     {
       "path": "/",
@@ -2538,7 +2538,7 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1076
+      "count": 1078
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
@@ -2573,7 +2573,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 281
+      "count": 282
     },
     {
       "path": "/wp-admin/index.php",
@@ -2583,7 +2583,7 @@
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 240
+      "count": 243
     },
     {
       "path": "/.env",
@@ -2603,7 +2603,7 @@
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 144
+      "count": 147
     },
     {
       "path": "/favicon.ico",
@@ -2700,7 +2700,7 @@
     },
     {
       "cve": "CVE-2026-88771",
-      "count": 39,
+      "count": 41,
       "sources": [
         "citrixpot:honeypot-01"
       ],
@@ -2911,7 +2911,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 2460,
+    "Critical": 2462,
     "High": 50
   },
   "top_asns": [
@@ -3241,18 +3241,18 @@
   "events_by_country": {
     "NL": 46093,
     "PL": 33842,
-    "US": 21045,
+    "US": 20863,
     "CN": 9326,
     "DE": 2837,
     "LT": 2567,
-    "SG": 2113,
+    "SG": 2314,
     "ID": 1731,
     "BG": 1100,
     "FR": 727,
     "CA": 610,
     "SE": 534,
     "IN": 523,
-    "GB": 472,
+    "GB": 474,
     "TW": 348,
     "PK": 298,
     "KR": 286,
