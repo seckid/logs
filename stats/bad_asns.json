@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T00:01:08.015794Z",
+  "generated_at": "2026-10-07T01:02:21.728981Z",
   "period_days": 90,
   "asns": [
     {
@@ -108,7 +108,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 5393,
+      "event_count": 5422,
       "ip_count": 23,
       "credential_events": 4258,
       "cve_events": 0,
@@ -575,16 +575,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.71,
-      "event_count": 355,
+      "event_count": 356,
       "ip_count": 3,
-      "credential_events": 355,
+      "credential_events": 356,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=355"
+        "credential_events=356"
       ]
     },
     {
@@ -958,6 +958,32 @@
       ]
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "score": 28.14,
+      "event_count": 921,
+      "ip_count": 182,
+      "credential_events": 3,
+      "cve_events": 6,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=3",
+        "cve_events=6",
+        "multi_honeypot=7",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS203020",
       "name": "HostRoyale Technologies Pvt Ltd",
       "country": "US",
@@ -976,23 +1002,6 @@
       "reasons": [
         "credential_events=15",
         "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS53231",
-      "name": "GRUPOHOST COMUNICACAO MULTIMIDIA LTDA",
-      "country": "BR",
-      "score": 27.61,
-      "event_count": 55,
-      "ip_count": 1,
-      "credential_events": 55,
-      "cve_events": 0,
-      "honeypots": [
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=55"
       ]
     }
   ]
