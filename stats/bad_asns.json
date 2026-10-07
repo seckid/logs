@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-07T06:01:42.589856Z",
+  "generated_at": "2026-10-07T07:04:35.482500Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "DE",
+      "country": "US",
       "score": 92.83,
-      "event_count": 1413,
-      "ip_count": 173,
+      "event_count": 1417,
+      "ip_count": 175,
       "credential_events": 664,
       "cve_events": 57,
       "honeypots": [
@@ -32,8 +32,8 @@
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
       "country": "US",
-      "score": 90.89,
-      "event_count": 446,
+      "score": 90.9,
+      "event_count": 448,
       "ip_count": 88,
       "credential_events": 117,
       "cve_events": 67,
@@ -56,10 +56,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "US",
       "score": 87.5,
-      "event_count": 11431,
-      "ip_count": 364,
+      "event_count": 11433,
+      "ip_count": 365,
       "credential_events": 55,
       "cve_events": 40,
       "honeypots": [
@@ -272,10 +272,10 @@
       "asn": "AS4766",
       "name": "Korea Telecom",
       "country": "KR",
-      "score": 55.53,
-      "event_count": 265,
-      "ip_count": 245,
-      "credential_events": 263,
+      "score": 55.54,
+      "event_count": 268,
+      "ip_count": 248,
+      "credential_events": 266,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -284,7 +284,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=263",
+        "credential_events=266",
         "multi_honeypot=3"
       ]
     },
@@ -667,9 +667,9 @@
       ]
     },
     {
-      "asn": "AS402253",
-      "name": "SKN Subnet & Telecom Ltd",
-      "country": "CH",
+      "asn": "AS24757",
+      "name": "Ethio Telecom",
+      "country": "ET",
       "score": 40.1,
       "event_count": 50,
       "ip_count": 2,
@@ -686,9 +686,9 @@
       ]
     },
     {
-      "asn": "AS24757",
-      "name": "Ethio Telecom",
-      "country": "ET",
+      "asn": "AS402253",
+      "name": "SKN Subnet & Telecom Ltd",
+      "country": "CH",
       "score": 40.1,
       "event_count": 50,
       "ip_count": 2,
@@ -731,10 +731,10 @@
       "asn": "AS36903",
       "name": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
       "country": "MA",
-      "score": 34.1,
-      "event_count": 50,
-      "ip_count": 44,
-      "credential_events": 48,
+      "score": 34.6,
+      "event_count": 51,
+      "ip_count": 45,
+      "credential_events": 49,
       "cve_events": 0,
       "honeypots": [
         "front:honeypot-01",
@@ -742,7 +742,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=48",
+        "credential_events=49",
         "multi_honeypot=2"
       ]
     },
@@ -874,6 +874,23 @@
       ]
     },
     {
+      "asn": "AS206134",
+      "name": "NEKOBYTE INTERNATIONAL LIMITED",
+      "country": "DE",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
       "asn": "AS36912",
       "name": "Orange Cameroun SA",
       "country": "CM",
@@ -911,23 +928,6 @@
       "asn": "AS63023",
       "name": "GTHost",
       "country": "US",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
-      "asn": "AS206134",
-      "name": "NEKOBYTE INTERNATIONAL LIMITED",
-      "country": "DE",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -985,24 +985,22 @@
       ]
     },
     {
-      "asn": "AS203020",
-      "name": "HostRoyale Technologies Pvt Ltd",
-      "country": "US",
-      "score": 27.67,
-      "event_count": 85,
-      "ip_count": 5,
-      "credential_events": 15,
+      "asn": "AS137718",
+      "name": "Beijing Volcano Engine Technology Co., Ltd.",
+      "country": "CN",
+      "score": 28.08,
+      "event_count": 38,
+      "ip_count": 6,
+      "credential_events": 36,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01"
+        "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=15",
-        "multi_honeypot=4"
+        "credential_events=36",
+        "multi_honeypot=2"
       ]
     }
   ]
