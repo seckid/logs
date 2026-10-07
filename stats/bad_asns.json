@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-07T04:03:31.624398Z",
+  "generated_at": "2026-10-07T05:01:42.638715Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "score": 92.82,
-      "event_count": 1409,
-      "ip_count": 172,
+      "country": "DE",
+      "score": 92.83,
+      "event_count": 1413,
+      "ip_count": 173,
       "credential_events": 664,
       "cve_events": 57,
       "honeypots": [
@@ -331,6 +331,28 @@
       ]
     },
     {
+      "asn": "AS6939",
+      "name": "Hurricane Electric LLC",
+      "country": "US",
+      "score": 50.37,
+      "event_count": 1183,
+      "ip_count": 206,
+      "credential_events": 0,
+      "cve_events": 35,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=35",
+        "multi_honeypot=5"
+      ]
+    },
+    {
       "asn": "AS198953",
       "name": "Proton66 OOO",
       "country": "RU",
@@ -350,25 +372,24 @@
       ]
     },
     {
-      "asn": "AS6939",
-      "name": "Hurricane Electric LLC",
+      "asn": "AS11878",
+      "name": "tzulo, inc.",
       "country": "US",
-      "score": 50.32,
-      "event_count": 1162,
-      "ip_count": 199,
-      "credential_events": 0,
-      "cve_events": 35,
+      "score": 50.09,
+      "event_count": 293,
+      "ip_count": 17,
+      "credential_events": 59,
+      "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
         "fortipot:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "cve_events=35",
-        "multi_honeypot=5"
+        "credential_events=59",
+        "multi_honeypot=4"
       ]
     },
     {
@@ -508,26 +529,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=1613"
-      ]
-    },
-    {
-      "asn": "AS11878",
-      "name": "tzulo, inc.",
-      "country": "US",
-      "score": 42.54,
-      "event_count": 272,
-      "ip_count": 16,
-      "credential_events": 54,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=54",
-        "multi_honeypot=3"
       ]
     },
     {
@@ -873,23 +874,6 @@
       ]
     },
     {
-      "asn": "AS206134",
-      "name": "NEKOBYTE INTERNATIONAL LIMITED",
-      "country": "DE",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
       "asn": "AS36912",
       "name": "Orange Cameroun SA",
       "country": "CM",
@@ -941,6 +925,23 @@
       ]
     },
     {
+      "asn": "AS206134",
+      "name": "NEKOBYTE INTERNATIONAL LIMITED",
+      "country": "DE",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
       "asn": "AS142299",
       "name": "CLOUDFOREST CO., LTD.",
       "country": "TH",
@@ -961,9 +962,9 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 28.18,
-      "event_count": 939,
-      "ip_count": 183,
+      "score": 28.22,
+      "event_count": 958,
+      "ip_count": 184,
       "credential_events": 3,
       "cve_events": 6,
       "honeypots": [
