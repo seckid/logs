@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T19:05:01.720942Z",
+  "generated_at": "2026-10-07T20:01:42.559738Z",
   "period_days": 90,
   "asns": [
     {
@@ -599,16 +599,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.74,
-      "event_count": 371,
+      "event_count": 372,
       "ip_count": 3,
-      "credential_events": 371,
+      "credential_events": 372,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=371"
+        "credential_events=372"
       ]
     },
     {
@@ -747,6 +747,26 @@
       ]
     },
     {
+      "asn": "AS204428",
+      "name": "SS-Net",
+      "country": "RO",
+      "score": 36.59,
+      "event_count": 45,
+      "ip_count": 5,
+      "credential_events": 43,
+      "cve_events": 0,
+      "honeypots": [
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=43",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS36903",
       "name": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
       "country": "MA",
@@ -762,25 +782,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=51",
-        "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS204428",
-      "name": "SS-Net",
-      "country": "RO",
-      "score": 31.59,
-      "event_count": 44,
-      "ip_count": 4,
-      "credential_events": 43,
-      "cve_events": 0,
-      "honeypots": [
-        "fortipot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=43",
         "multi_honeypot=2"
       ]
     },
