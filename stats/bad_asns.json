@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T11:04:38.489987Z",
+  "generated_at": "2026-10-07T12:01:51.784085Z",
   "period_days": 90,
   "asns": [
     {
@@ -108,9 +108,9 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 5423,
+      "event_count": 5485,
       "ip_count": 23,
-      "credential_events": 4258,
+      "credential_events": 4320,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -122,7 +122,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=4258",
+        "credential_events=4320",
         "multi_honeypot=6"
       ]
     },
@@ -194,9 +194,9 @@
       "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "country": "CN",
       "score": 60.0,
-      "event_count": 8897,
-      "ip_count": 17,
-      "credential_events": 8876,
+      "event_count": 8927,
+      "ip_count": 18,
+      "credential_events": 8906,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -204,7 +204,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=8876",
+        "credential_events=8906",
         "multi_honeypot=2"
       ]
     },
@@ -273,9 +273,9 @@
       "name": "Korea Telecom",
       "country": "KR",
       "score": 55.54,
-      "event_count": 269,
-      "ip_count": 249,
-      "credential_events": 267,
+      "event_count": 270,
+      "ip_count": 250,
+      "credential_events": 268,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -284,7 +284,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=267",
+        "credential_events=268",
         "multi_honeypot=3"
       ]
     },
@@ -576,16 +576,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.73,
-      "event_count": 365,
+      "event_count": 366,
       "ip_count": 3,
-      "credential_events": 365,
+      "credential_events": 366,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=365"
+        "credential_events=366"
       ]
     },
     {
@@ -653,17 +653,17 @@
       "asn": "AS17557",
       "name": "Pakistan Telecommunication Company Limited",
       "country": "PK",
-      "score": 40.37,
-      "event_count": 187,
-      "ip_count": 182,
-      "credential_events": 187,
+      "score": 40.38,
+      "event_count": 189,
+      "ip_count": 184,
+      "credential_events": 189,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=187"
+        "credential_events=189"
       ]
     },
     {
@@ -876,6 +876,23 @@
       ]
     },
     {
+      "asn": "AS11664",
+      "name": "Techtel LMDS Comunicaciones Interactivas S.A.",
+      "country": "PY",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
       "asn": "AS154115",
       "name": "KANHALABS-ORG",
       "country": "IN",
@@ -975,32 +992,6 @@
       "ai_threat_level": null,
       "reasons": [
         "cve_events=42"
-      ]
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 28.22,
-      "event_count": 958,
-      "ip_count": 184,
-      "credential_events": 3,
-      "cve_events": 6,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=3",
-        "cve_events=6",
-        "multi_honeypot=7",
-        "research_or_cloud_with_hostile_density"
       ]
     }
   ]
