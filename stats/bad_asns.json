@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T23:03:42.785579Z",
+  "generated_at": "2026-10-08T00:03:11.110506Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,7 +7,7 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "score": 92.9,
-      "event_count": 1451,
+      "event_count": 1452,
       "ip_count": 184,
       "credential_events": 678,
       "cve_events": 57,
@@ -108,7 +108,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 5929,
+      "event_count": 5932,
       "ip_count": 23,
       "credential_events": 4763,
       "cve_events": 0,
@@ -375,9 +375,9 @@
       "asn": "AS11878",
       "name": "tzulo, inc.",
       "country": "US",
-      "score": 50.09,
-      "event_count": 293,
-      "ip_count": 17,
+      "score": 50.27,
+      "event_count": 385,
+      "ip_count": 18,
       "credential_events": 59,
       "cve_events": 0,
       "honeypots": [
@@ -621,16 +621,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.75,
-      "event_count": 374,
+      "event_count": 375,
       "ip_count": 3,
-      "credential_events": 374,
+      "credential_events": 375,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=374"
+        "credential_events=375"
       ]
     },
     {
@@ -809,6 +809,32 @@
       ]
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "score": 30.66,
+      "event_count": 980,
+      "ip_count": 191,
+      "credential_events": 3,
+      "cve_events": 9,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=3",
+        "cve_events=9",
+        "multi_honeypot=7",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS197556",
       "name": "Kar-Tel LLC",
       "country": "KZ",
@@ -969,23 +995,6 @@
       "asn": "AS202660",
       "name": "Uzbektelekom Joint Stock Company",
       "country": "UZ",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
-      "asn": "AS63023",
-      "name": "GTHost",
-      "country": "US",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
