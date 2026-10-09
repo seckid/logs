@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T11:01:14.995908Z",
+  "generated_at": "2026-10-09T12:02:52.040376Z",
   "period_days": 90,
   "asns": [
     {
@@ -153,10 +153,10 @@
       "asn": "AS197170",
       "name": "TechTies Inc.",
       "country": "DE",
-      "score": 60.31,
-      "event_count": 155,
-      "ip_count": 18,
-      "credential_events": 122,
+      "score": 60.32,
+      "event_count": 161,
+      "ip_count": 19,
+      "credential_events": 127,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -166,7 +166,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=122",
+        "credential_events=127",
         "multi_honeypot=4"
       ]
     },
@@ -292,10 +292,10 @@
       "asn": "AS197769",
       "name": "VPS Dedicated LLC",
       "country": "SI",
-      "score": 55.34,
-      "event_count": 172,
+      "score": 55.36,
+      "event_count": 181,
       "ip_count": 22,
-      "credential_events": 132,
+      "credential_events": 141,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -304,7 +304,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=132",
+        "credential_events=141",
         "multi_honeypot=3"
       ]
     },
@@ -356,7 +356,7 @@
       "name": "Oracle Corporation",
       "country": "US",
       "score": 51.25,
-      "event_count": 375,
+      "event_count": 376,
       "ip_count": 11,
       "credential_events": 1,
       "cve_events": 42,
@@ -495,6 +495,27 @@
       ]
     },
     {
+      "asn": "AS36352",
+      "name": "HostPapa",
+      "country": "US",
+      "score": 46.63,
+      "event_count": 63,
+      "ip_count": 6,
+      "credential_events": 3,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=3",
+        "cve_events=42",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS402253",
       "name": "SKN Subnet & Telecom Ltd",
       "country": "CH",
@@ -573,26 +594,6 @@
       ]
     },
     {
-      "asn": "AS36352",
-      "name": "HostPapa",
-      "country": "US",
-      "score": 41.62,
-      "event_count": 61,
-      "ip_count": 5,
-      "credential_events": 3,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=3",
-        "cve_events=42",
-        "multi_honeypot=2"
-      ]
-    },
-    {
       "asn": "AS204428",
       "name": "SS-Net",
       "country": "RO",
@@ -663,16 +664,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.81,
-      "event_count": 406,
+      "event_count": 407,
       "ip_count": 3,
-      "credential_events": 406,
+      "credential_events": 407,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=406"
+        "credential_events=407"
       ]
     },
     {
@@ -790,6 +791,32 @@
       ]
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "score": 33.11,
+      "event_count": 1007,
+      "ip_count": 199,
+      "credential_events": 3,
+      "cve_events": 12,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=3",
+        "cve_events=12",
+        "multi_honeypot=7",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS51167",
       "name": "Contabo GmbH",
       "country": "FR",
@@ -808,32 +835,6 @@
         "credential_events=23",
         "cve_events=6",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 30.69,
-      "event_count": 993,
-      "ip_count": 198,
-      "credential_events": 3,
-      "cve_events": 9,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=3",
-        "cve_events=9",
-        "multi_honeypot=7",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -889,6 +890,31 @@
       "reasons": [
         "credential_events=20",
         "multi_honeypot=4"
+      ]
+    },
+    {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "score": 30.14,
+      "event_count": 4572,
+      "ip_count": 248,
+      "credential_events": 2,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=2",
+        "multi_honeypot=7",
+        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -980,23 +1006,6 @@
       "asn": "AS36912",
       "name": "Orange Cameroun SA",
       "country": "CM",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
-      "asn": "AS202660",
-      "name": "Uzbektelekom Joint Stock Company",
-      "country": "UZ",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
