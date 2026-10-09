@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T09:04:42.903259Z",
+  "generated_at": "2026-10-09T10:04:33.799293Z",
   "period_days": 90,
-  "total_events": 158523,
-  "unique_ips": 4643,
+  "total_events": 158595,
+  "unique_ips": 4659,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,12 +17,12 @@
   "totals_by_source": {
     "citrixpot:honeypot-01": 1175,
     "panospot:honeypot-01": 500,
-    "ivantipot:honeypot-01": 3192,
+    "ivantipot:honeypot-01": 3221,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 74925,
-    "bigippot:honeypot-01": 21688,
-    "sshppot:honeypot-01": 19484,
+    "bigippot:honeypot-01": 21698,
+    "sshppot:honeypot-01": 19517,
     "front:honeypot-01": 37297
   },
   "events_per_day": {
@@ -342,13 +342,13 @@
       "total": 3612
     },
     "2026-10-09": {
-      "bigippot:honeypot-01": 80,
+      "bigippot:honeypot-01": 90,
       "front:honeypot-01": 375,
-      "sshppot:honeypot-01": 89,
+      "sshppot:honeypot-01": 122,
       "fortipot:honeypot-01": 26,
       "citrixpot:honeypot-01": 37,
-      "ivantipot:honeypot-01": 35,
-      "total": 642
+      "ivantipot:honeypot-01": 64,
+      "total": 714
     }
   },
   "top_credentials": [
@@ -360,7 +360,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 144
+      "count": 147
     },
     {
       "username": "admin",
@@ -370,7 +370,7 @@
     {
       "username": "admin",
       "password": "(empty)",
-      "count": 120
+      "count": 121
     },
     {
       "username": "root",
@@ -385,7 +385,12 @@
     {
       "username": "admin",
       "password": "password",
-      "count": 93
+      "count": 94
+    },
+    {
+      "username": "admin",
+      "password": "admin123",
+      "count": 86
     },
     {
       "username": "root",
@@ -398,14 +403,9 @@
       "count": 85
     },
     {
-      "username": "admin",
-      "password": "admin123",
-      "count": 85
-    },
-    {
       "username": "user",
       "password": "password",
-      "count": 83
+      "count": 84
     },
     {
       "username": "test",
@@ -415,12 +415,12 @@
     {
       "username": "admin",
       "password": "1234",
-      "count": 77
+      "count": 78
     },
     {
       "username": "admin",
       "password": "Admin@123",
-      "count": 76
+      "count": 77
     },
     {
       "username": "ubnt",
@@ -438,13 +438,13 @@
       "count": 65
     },
     {
-      "username": "Admin",
-      "password": "Admin",
-      "count": 63
-    },
-    {
       "username": "telecomadmin",
       "password": "admintelecom",
+      "count": 64
+    },
+    {
+      "username": "Admin",
+      "password": "Admin",
       "count": 63
     },
     {
@@ -606,11 +606,11 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 733
+      "count": 736
     },
     {
       "username": "admin",
-      "count": 642
+      "count": 647
     },
     {
       "username": "support",
@@ -618,7 +618,7 @@
     },
     {
       "username": "user",
-      "count": 229
+      "count": 230
     },
     {
       "username": "ubuntu",
@@ -637,11 +637,11 @@
       "count": 67
     },
     {
-      "username": "Admin",
-      "count": 63
+      "username": "telecomadmin",
+      "count": 64
     },
     {
-      "username": "telecomadmin",
+      "username": "Admin",
       "count": 63
     },
     {
@@ -692,7 +692,7 @@
     },
     {
       "password": "(empty)",
-      "count": 311
+      "count": 315
     },
     {
       "password": "admin",
@@ -700,7 +700,7 @@
     },
     {
       "password": "password",
-      "count": 205
+      "count": 207
     },
     {
       "password": "123456",
@@ -716,11 +716,11 @@
     },
     {
       "password": "1234",
-      "count": 99
+      "count": 100
     },
     {
       "password": "admin123",
-      "count": 85
+      "count": 86
     },
     {
       "password": "test",
@@ -728,7 +728,7 @@
     },
     {
       "password": "Admin@123",
-      "count": 76
+      "count": 77
     },
     {
       "password": "ubnt",
@@ -743,11 +743,11 @@
       "count": 65
     },
     {
-      "password": "Admin",
-      "count": 63
+      "password": "admintelecom",
+      "count": 64
     },
     {
-      "password": "admintelecom",
+      "password": "Admin",
       "count": 63
     },
     {
@@ -769,12 +769,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 92875,
-      "unique_ips": 1340,
-      "unique_pairs": 82884,
+      "attempt_count": 92908,
+      "unique_ips": 1351,
+      "unique_pairs": 82905,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 92875
+      "unknown_outcome_count": 92908
     },
     "top_source_ips": [
       {
@@ -2053,7 +2053,7 @@
       {
         "username": "root",
         "password": "(empty)",
-        "count": 144,
+        "count": 147,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2073,7 +2073,7 @@
       {
         "username": "admin",
         "password": "(empty)",
-        "count": 120,
+        "count": 121,
         "sources": [
           "bigippot:honeypot-01",
           "fortipot:honeypot-01",
@@ -2101,7 +2101,16 @@
       {
         "username": "admin",
         "password": "password",
-        "count": 93,
+        "count": 94,
+        "sources": [
+          "fortipot:honeypot-01",
+          "sshppot:honeypot-01"
+        ]
+      },
+      {
+        "username": "admin",
+        "password": "admin123",
+        "count": 86,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2125,18 +2134,9 @@
         ]
       },
       {
-        "username": "admin",
-        "password": "admin123",
-        "count": 85,
-        "sources": [
-          "fortipot:honeypot-01",
-          "sshppot:honeypot-01"
-        ]
-      },
-      {
         "username": "user",
         "password": "password",
-        "count": 83,
+        "count": 84,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2156,7 +2156,7 @@
       {
         "username": "admin",
         "password": "1234",
-        "count": 77,
+        "count": 78,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2165,7 +2165,7 @@
       {
         "username": "admin",
         "password": "Admin@123",
-        "count": 76,
+        "count": 77,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2199,16 +2199,16 @@
         ]
       },
       {
-        "username": "Admin",
-        "password": "Admin",
-        "count": 63,
+        "username": "telecomadmin",
+        "password": "admintelecom",
+        "count": 64,
         "sources": [
           "sshppot:honeypot-01"
         ]
       },
       {
-        "username": "telecomadmin",
-        "password": "admintelecom",
+        "username": "Admin",
+        "password": "Admin",
         "count": 63,
         "sources": [
           "sshppot:honeypot-01"
@@ -2486,7 +2486,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 72869
+      "count": 72870
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2506,12 +2506,12 @@
     }
   ],
   "method_counts": {
-    "POST": 76371,
-    "GET": 58519,
-    "SSH": 19483,
+    "POST": 76373,
+    "GET": 58547,
+    "SSH": 19516,
     "PRI": 119,
     "HEAD": 111,
-    "PROPFIND": 72,
+    "PROPFIND": 73,
     "OPTIONS": 54,
     "PUT": 17,
     "DELETE": 16,
@@ -2546,12 +2546,12 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 19253
+      "count": 19286
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1926
+      "count": 1928
     },
     {
       "path": "/",
@@ -2566,17 +2566,17 @@
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
       "source": "ivantipot:honeypot-01",
-      "count": 432
+      "count": 436
+    },
+    {
+      "path": "/",
+      "source": "ivantipot:honeypot-01",
+      "count": 431
     },
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
       "count": 430
-    },
-    {
-      "path": "/",
-      "source": "ivantipot:honeypot-01",
-      "count": 426
     },
     {
       "path": "/robots.txt",
@@ -2631,7 +2631,7 @@
     {
       "path": "/favicon.ico",
       "source": "ivantipot:honeypot-01",
-      "count": 149
+      "count": 151
     },
     {
       "path": "/.env",
@@ -2974,9 +2974,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
-      "ip_count": 398,
-      "event_count": 11608
+      "country": "BE",
+      "ip_count": 400,
+      "event_count": 11610
     },
     {
       "asn": "AS44589",
@@ -3003,8 +3003,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 246,
-      "event_count": 4492
+      "ip_count": 247,
+      "event_count": 4493
     },
     {
       "asn": "AS218785",
@@ -3035,18 +3035,18 @@
       "event_count": 1474
     },
     {
+      "asn": "AS6939",
+      "name": "Hurricane Electric LLC",
+      "country": "US",
+      "ip_count": 223,
+      "event_count": 1297
+    },
+    {
       "asn": "AS202412",
       "name": "Omegatech LTD",
       "country": "NL",
       "ip_count": 14,
       "event_count": 1284
-    },
-    {
-      "asn": "AS6939",
-      "name": "Hurricane Electric LLC",
-      "country": "US",
-      "ip_count": 221,
-      "event_count": 1276
     },
     {
       "asn": "AS208137",
@@ -3120,9 +3120,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
+      "country": "BE",
       "score": 87.5,
-      "event_count": 11608,
+      "event_count": 11610,
       "credential_events": 55,
       "cve_events": 40
     },
@@ -3157,9 +3157,9 @@
       "asn": "AS197170",
       "name": "TechTies Inc.",
       "country": "DE",
-      "score": 60.27,
-      "event_count": 133,
-      "credential_events": 100,
+      "score": 60.29,
+      "event_count": 147,
+      "credential_events": 114,
       "cve_events": 0
     },
     {
@@ -3212,25 +3212,25 @@
       "name": "Korea Telecom",
       "country": "KR",
       "score": 55.59,
-      "event_count": 294,
-      "credential_events": 291,
+      "event_count": 297,
+      "credential_events": 294,
       "cve_events": 0
     },
     {
       "asn": "AS197769",
       "name": "VPS Dedicated LLC",
       "country": "SI",
-      "score": 55.32,
-      "event_count": 160,
-      "credential_events": 120,
+      "score": 55.34,
+      "event_count": 169,
+      "credential_events": 129,
       "cve_events": 0
     },
     {
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "score": 52.55,
-      "event_count": 1276,
+      "score": 52.59,
+      "event_count": 1297,
       "credential_events": 0,
       "cve_events": 41
     },
@@ -3281,28 +3281,28 @@
     }
   ],
   "events_by_country": {
-    "NL": 47721,
+    "NL": 47734,
     "PL": 34685,
-    "US": 13231,
-    "TW": 11618,
+    "US": 13254,
+    "BE": 11610,
     "CN": 9336,
     "LT": 2567,
-    "DE": 2381,
+    "DE": 2396,
     "ID": 1732,
     "BG": 1124,
     "GB": 993,
     "FR": 963,
     "CA": 805,
     "SE": 540,
-    "CH": 387,
-    "PK": 323,
-    "KR": 306,
+    "CH": 389,
+    "PK": 325,
+    "KR": 309,
     "HK": 263,
     "RU": 247,
     "SG": 233,
     "BR": 211,
+    "SI": 169,
     "FI": 167,
-    "SI": 160,
     "IN": 152,
     "KZ": 141,
     "BD": 121,
@@ -3318,10 +3318,11 @@
     "PY": 49,
     "UZ": 49,
     "EG": 47,
-    "VE": 36,
+    "VE": 37,
     "MY": 29,
-    "AU": 23,
+    "AU": 24,
     "ZA": 11,
+    "TW": 10,
     "UA": 10,
     "ES": 8,
     "HU": 8,
