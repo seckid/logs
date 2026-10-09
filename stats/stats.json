@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T16:01:42.990426Z",
+  "generated_at": "2026-10-09T17:05:30.234921Z",
   "period_days": 90,
-  "total_events": 159272,
-  "unique_ips": 4722,
+  "total_events": 159311,
+  "unique_ips": 4727,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 1238,
+    "citrixpot:honeypot-01": 1246,
     "panospot:honeypot-01": 510,
-    "ivantipot:honeypot-01": 3241,
+    "ivantipot:honeypot-01": 3250,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 74962,
-    "bigippot:honeypot-01": 21767,
-    "sshppot:honeypot-01": 19618,
-    "front:honeypot-01": 37674
+    "bigippot:honeypot-01": 21776,
+    "sshppot:honeypot-01": 19629,
+    "front:honeypot-01": 37676
   },
   "events_per_day": {
     "2026-08-28": {
@@ -342,21 +342,21 @@
       "total": 3612
     },
     "2026-10-09": {
-      "bigippot:honeypot-01": 159,
-      "sshppot:honeypot-01": 223,
-      "front:honeypot-01": 752,
+      "bigippot:honeypot-01": 168,
+      "sshppot:honeypot-01": 234,
+      "front:honeypot-01": 754,
       "fortipot:honeypot-01": 63,
-      "citrixpot:honeypot-01": 100,
-      "ivantipot:honeypot-01": 84,
+      "citrixpot:honeypot-01": 108,
+      "ivantipot:honeypot-01": 93,
       "panospot:honeypot-01": 10,
-      "total": 1391
+      "total": 1430
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 440
+      "count": 441
     },
     {
       "username": "root",
@@ -615,7 +615,7 @@
     },
     {
       "username": "support",
-      "count": 440
+      "count": 441
     },
     {
       "username": "user",
@@ -689,7 +689,7 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 440
+      "count": 441
     },
     {
       "password": "(empty)",
@@ -770,12 +770,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 93013,
-      "unique_ips": 1370,
-      "unique_pairs": 82974,
+      "attempt_count": 93026,
+      "unique_ips": 1371,
+      "unique_pairs": 82983,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 93013
+      "unknown_outcome_count": 93026
     },
     "top_source_ips": [
       {
@@ -1006,14 +1006,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 358,
+        "attempt_count": 359,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-09T13:30:48Z",
+        "last_seen": "2026-10-09T16:29:32Z",
         "success_count": 0
       },
       {
@@ -1708,14 +1708,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 358,
+        "attempt_count": 359,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-09T13:30:48Z",
+        "last_seen": "2026-10-09T16:29:32Z",
         "success_count": 0
       },
       {
@@ -2045,7 +2045,7 @@
       {
         "username": "support",
         "password": "support",
-        "count": 440,
+        "count": 441,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2507,9 +2507,9 @@
     }
   ],
   "method_counts": {
-    "POST": 76391,
-    "GET": 59047,
-    "SSH": 19617,
+    "POST": 76395,
+    "GET": 59066,
+    "SSH": 19628,
     "PRI": 121,
     "HEAD": 111,
     "PROPFIND": 73,
@@ -2519,24 +2519,25 @@
     "SSTP_DUPLEX_POST": 12,
     "CONNECT": 8,
     "HEARTBEAT": 8,
-    "{\"PARAMS\":": 6,
     "ZSDLKFJ2": 6,
+    "{\"PARAMS\":": 6,
+    "{\"ID\":": 4,
     "T3": 4,
     "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"BLUE1\",\"PASS\":\"X\",\"AGENT\":\"WINDOWS": 3,
-    "{\"ID\":": 2,
-    "UDP": 1,
-    "GYVV": 1,
-    "GRBY": 1,
     "FUFS": 1,
+    "GRBY": 1,
     "EOEN": 1,
+    "GYVV": 1,
     "TLII": 1,
+    "UDP": 1,
     "\u0000\u0000\u0000SMBR\u0000\u0000\u0000\u0000\b\u0001@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0006\u0000\u0000\u0001\u0000\u0000\u0000\u0002PC": 1,
     "KNGO": 1,
     "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"46T2PRK3WVHADJ3DWLFTKLCQRYPBKYKZXYENBHUWJPERTYNKY32KAFBAEPJX4GMWPNEDYNZB8P2SB47MNFXRUYE9UJFSHIP\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
     "ICOE": 1,
-    "URGW": 1,
+    "OXFS": 1,
     "FOX": 1,
-    "OXFS": 1
+    "URGW": 1,
+    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"43ZH4RRH6WOFAFX5YT8FYBXD3TCKFMW4HJX1TYJDUB7GACJZPLNWU4VR5H15HTRLBANSPSUUFDU6XE7JFJU3P2BUGKE3HIA\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1
   },
   "top_paths": [
     {
@@ -2547,22 +2548,22 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 19387
+      "count": 19398
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1939
+      "count": 1944
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1675
+      "count": 1676
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1117
+      "count": 1118
     },
     {
       "path": "/",
@@ -2572,22 +2573,22 @@
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
       "source": "ivantipot:honeypot-01",
-      "count": 439
+      "count": 440
     },
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 436
+      "count": 439
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 354
+      "count": 355
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 341
+      "count": 344
     },
     {
       "path": "/logincheck",
@@ -2597,7 +2598,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 292
+      "count": 294
     },
     {
       "path": "/wp-login.php",
@@ -2622,7 +2623,7 @@
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 210
+      "count": 213
     },
     {
       "path": "/favicon.ico",
@@ -2698,7 +2699,7 @@
     },
     {
       "cve": "CVE-2026-88771",
-      "count": 56,
+      "count": 62,
       "sources": [
         "citrixpot:honeypot-01"
       ],
@@ -2871,6 +2872,32 @@
       ]
     },
     {
+      "cve": "CVE-2026-3055",
+      "count": 12,
+      "sources": [
+        "citrixpot:honeypot-01"
+      ],
+      "description": "High-severity NetScaler SAML IDP issue from bulletin CTX696300, March 2026. Detection is a /saml request on citrixpot.",
+      "severity": "High",
+      "cvss_score": 9.3,
+      "sample_ips": [
+        "143.244.168.161",
+        "195.184.76.255",
+        "195.184.76.41",
+        "207.154.197.113",
+        "23.80.82.89",
+        "34.53.103.74",
+        "38.60.157.86"
+      ],
+      "sample_paths": [
+        "/cgi/samlauth",
+        "/metadata/samlidp/",
+        "/metadata/samlsp/",
+        "/saml/idp/metadata",
+        "/saml/login"
+      ]
+    },
+    {
       "cve": "CVE-2026-41940",
       "count": 11,
       "sources": [
@@ -2896,30 +2923,6 @@
       ]
     },
     {
-      "cve": "CVE-2026-3055",
-      "count": 10,
-      "sources": [
-        "citrixpot:honeypot-01"
-      ],
-      "description": "High-severity NetScaler SAML IDP issue from bulletin CTX696300, March 2026. Detection is a /saml request on citrixpot.",
-      "severity": "High",
-      "cvss_score": 9.3,
-      "sample_ips": [
-        "143.244.168.161",
-        "207.154.197.113",
-        "23.80.82.89",
-        "34.53.103.74",
-        "38.60.157.86"
-      ],
-      "sample_paths": [
-        "/cgi/samlauth",
-        "/metadata/samlidp/",
-        "/metadata/samlsp/",
-        "/saml/idp/metadata",
-        "/saml/login"
-      ]
-    },
-    {
       "cve": "CVE-2019-19781",
       "count": 4,
       "sources": [
@@ -2940,6 +2943,23 @@
       ]
     },
     {
+      "cve": "CVE-2026-88779",
+      "count": 2,
+      "sources": [
+        "citrixpot:honeypot-01"
+      ],
+      "description": "Memory overflow in NetScaler ADC and Gateway when SAML authentication is configured, leading to a denial of service. citrixpot records POST requests to SAML paths and does not interpret the SAML message.",
+      "severity": "High",
+      "cvss_score": 8.7,
+      "sample_ips": [
+        "195.184.76.255",
+        "195.184.76.41"
+      ],
+      "sample_paths": [
+        "/saml/login"
+      ]
+    },
+    {
       "cve": "CVE-2026-88772",
       "count": 1,
       "sources": [
@@ -2957,8 +2977,8 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 2534,
-    "High": 54
+    "Critical": 2540,
+    "High": 58
   },
   "top_asns": [
     {
@@ -2980,7 +3000,7 @@
       "name": "Google LLC",
       "country": "TW",
       "ip_count": 403,
-      "event_count": 11617
+      "event_count": 11618
     },
     {
       "asn": "AS44589",
@@ -3008,7 +3028,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "ip_count": 249,
-      "event_count": 4575
+      "event_count": 4576
     },
     {
       "asn": "AS218785",
@@ -3115,9 +3135,9 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "US",
+      "country": "SG",
       "score": 90.93,
-      "event_count": 463,
+      "event_count": 466,
       "credential_events": 117,
       "cve_events": 67
     },
@@ -3126,7 +3146,7 @@
       "name": "Google LLC",
       "country": "TW",
       "score": 87.5,
-      "event_count": 11617,
+      "event_count": 11618,
       "credential_events": 55,
       "cve_events": 40
     },
@@ -3161,9 +3181,9 @@
       "asn": "AS197170",
       "name": "TechTies Inc.",
       "country": "DE",
-      "score": 60.39,
-      "event_count": 193,
-      "credential_events": 158,
+      "score": 60.4,
+      "event_count": 202,
+      "credential_events": 167,
       "cve_events": 0
     },
     {
@@ -3285,17 +3305,18 @@
     }
   ],
   "events_by_country": {
-    "NL": 47662,
-    "PL": 34689,
-    "US": 12745,
-    "TW": 11627,
+    "NL": 47663,
+    "PL": 34690,
+    "US": 12289,
+    "TW": 11628,
     "CN": 9336,
-    "DE": 2638,
+    "DE": 2648,
     "LT": 2567,
     "ID": 1732,
     "BG": 1124,
-    "GB": 1021,
-    "FR": 966,
+    "GB": 1032,
+    "FR": 968,
+    "SG": 699,
     "SE": 642,
     "IT": 635,
     "CA": 629,
@@ -3305,7 +3326,6 @@
     "KR": 314,
     "HK": 269,
     "RU": 247,
-    "SG": 233,
     "BR": 213,
     "SI": 187,
     "FI": 167,
@@ -3315,8 +3335,8 @@
     "JP": 96,
     "VN": 94,
     "RO": 82,
+    "NO": 63,
     "MA": 62,
-    "NO": 62,
     "IR": 60,
     "ET": 50,
     "CM": 49,
