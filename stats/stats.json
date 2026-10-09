@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T07:00:42.822316Z",
+  "generated_at": "2026-10-09T08:05:11.908766Z",
   "period_days": 90,
-  "total_events": 158289,
-  "unique_ips": 4613,
+  "total_events": 158427,
+  "unique_ips": 4618,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 1172,
+    "citrixpot:honeypot-01": 1175,
     "panospot:honeypot-01": 500,
     "ivantipot:honeypot-01": 3168,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 74925,
-    "bigippot:honeypot-01": 21645,
-    "sshppot:honeypot-01": 19446,
-    "front:honeypot-01": 37171
+    "bigippot:honeypot-01": 21654,
+    "sshppot:honeypot-01": 19447,
+    "front:honeypot-01": 37296
   },
   "events_per_day": {
     "2026-08-28": {
@@ -342,20 +342,20 @@
       "total": 3612
     },
     "2026-10-09": {
-      "bigippot:honeypot-01": 37,
-      "front:honeypot-01": 249,
-      "sshppot:honeypot-01": 51,
+      "bigippot:honeypot-01": 46,
+      "front:honeypot-01": 374,
+      "sshppot:honeypot-01": 52,
       "fortipot:honeypot-01": 26,
-      "citrixpot:honeypot-01": 34,
+      "citrixpot:honeypot-01": 37,
       "ivantipot:honeypot-01": 11,
-      "total": 408
+      "total": 546
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 432
+      "count": 433
     },
     {
       "username": "root",
@@ -614,7 +614,7 @@
     },
     {
       "username": "support",
-      "count": 432
+      "count": 433
     },
     {
       "username": "user",
@@ -688,7 +688,7 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 432
+      "count": 433
     },
     {
       "password": "(empty)",
@@ -769,12 +769,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 92830,
+      "attempt_count": 92831,
       "unique_ips": 1320,
       "unique_pairs": 82862,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 92830
+      "unknown_outcome_count": 92831
     },
     "top_source_ips": [
       {
@@ -1005,14 +1005,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 352,
+        "attempt_count": 353,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-09T06:30:02Z",
+        "last_seen": "2026-10-09T07:21:35Z",
         "success_count": 0
       },
       {
@@ -1707,14 +1707,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 352,
+        "attempt_count": 353,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-09T06:30:02Z",
+        "last_seen": "2026-10-09T07:21:35Z",
         "success_count": 0
       },
       {
@@ -2044,7 +2044,7 @@
       {
         "username": "support",
         "password": "support",
-        "count": 432,
+        "count": 433,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2498,7 +2498,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "count": 5467
+      "count": 5585
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2506,9 +2506,9 @@
     }
   ],
   "method_counts": {
-    "POST": 76353,
-    "GET": 58343,
-    "SSH": 19445,
+    "POST": 76354,
+    "GET": 58478,
+    "SSH": 19446,
     "PRI": 119,
     "HEAD": 111,
     "PROPFIND": 72,
@@ -2546,22 +2546,22 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 19215
+      "count": 19216
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1918
+      "count": 1921
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1658
+      "count": 1660
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1108
+      "count": 1109
     },
     {
       "path": "/",
@@ -2581,7 +2581,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 346
+      "count": 348
     },
     {
       "path": "/logincheck",
@@ -2591,12 +2591,12 @@
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 320
+      "count": 321
     },
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 290
+      "count": 291
     },
     {
       "path": "/wp-login.php",
@@ -2611,17 +2611,17 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 242
+      "count": 243
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 229
+      "count": 230
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 199
+      "count": 200
     },
     {
       "path": "/favicon.ico",
@@ -2636,7 +2636,7 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 145
+      "count": 146
     }
   ],
   "cve_attempts": [
@@ -2997,21 +2997,21 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 25,
-      "event_count": 7251
+      "event_count": 7252
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "AU",
-      "ip_count": 241,
-      "event_count": 4483
+      "country": "US",
+      "ip_count": 245,
+      "event_count": 4491
     },
     {
       "asn": "AS218785",
       "name": "TC DATACENTER LIMITED",
       "country": "PL",
       "ip_count": 14,
-      "event_count": 2554
+      "event_count": 2672
     },
     {
       "asn": "AS213790",
@@ -3046,7 +3046,7 @@
       "name": "Hurricane Electric LLC",
       "country": "US",
       "ip_count": 219,
-      "event_count": 1260
+      "event_count": 1266
     },
     {
       "asn": "AS208137",
@@ -3140,7 +3140,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 7251,
+      "event_count": 7252,
       "credential_events": 6065,
       "cve_events": 0
     },
@@ -3229,8 +3229,8 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "score": 52.52,
-      "event_count": 1260,
+      "score": 52.53,
+      "event_count": 1266,
       "credential_events": 0,
       "cve_events": 41
     },
@@ -3281,12 +3281,11 @@
     }
   ],
   "events_by_country": {
-    "NL": 47519,
-    "PL": 34565,
+    "NL": 47520,
+    "PL": 34684,
+    "US": 13198,
     "TW": 11618,
     "CN": 9336,
-    "US": 8701,
-    "AU": 4506,
     "DE": 2681,
     "LT": 2567,
     "ID": 1732,
@@ -3295,7 +3294,7 @@
     "FR": 963,
     "CA": 805,
     "SE": 539,
-    "CH": 384,
+    "CH": 387,
     "PK": 319,
     "KR": 303,
     "HK": 263,
@@ -3320,6 +3319,7 @@
     "EG": 47,
     "VE": 35,
     "MY": 29,
+    "AU": 23,
     "ZA": 11,
     "SC": 10,
     "UA": 10,
