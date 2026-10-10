@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-10T14:03:14.137559Z",
+  "generated_at": "2026-10-10T15:01:04.183223Z",
   "period_days": 90,
-  "total_events": 177785,
-  "unique_ips": 4863,
+  "total_events": 180199,
+  "unique_ips": 4867,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 1344,
+    "citrixpot:honeypot-01": 1348,
     "panospot:honeypot-01": 533,
     "ivantipot:honeypot-01": 3293,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 75043,
-    "bigippot:honeypot-01": 22171,
-    "sshppot:honeypot-01": 37243,
-    "front:honeypot-01": 37895
+    "fortipot:honeypot-01": 75044,
+    "bigippot:honeypot-01": 22174,
+    "sshppot:honeypot-01": 39648,
+    "front:honeypot-01": 37896
   },
   "events_per_day": {
     "2026-08-28": {
@@ -352,14 +352,14 @@
       "total": 1936
     },
     "2026-10-10": {
-      "sshppot:honeypot-01": 17571,
+      "sshppot:honeypot-01": 19976,
       "ivantipot:honeypot-01": 40,
       "panospot:honeypot-01": 11,
-      "fortipot:honeypot-01": 60,
-      "front:honeypot-01": 30,
-      "bigippot:honeypot-01": 206,
-      "citrixpot:honeypot-01": 48,
-      "total": 17966
+      "fortipot:honeypot-01": 61,
+      "front:honeypot-01": 31,
+      "bigippot:honeypot-01": 209,
+      "citrixpot:honeypot-01": 52,
+      "total": 20380
     }
   },
   "top_credentials": [
@@ -780,26 +780,26 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 110641,
+      "attempt_count": 113046,
       "unique_ips": 1396,
-      "unique_pairs": 97610,
+      "unique_pairs": 97612,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 110641
+      "unknown_outcome_count": 113046
     },
     "top_source_ips": [
       {
         "ip": "62.201.210.86",
         "asn": "AS41032",
         "asn_name": "IQNETWORKS Baghdad",
-        "attempt_count": 17509,
+        "attempt_count": 19909,
         "unique_usernames": 1,
-        "unique_passwords": 17478,
+        "unique_passwords": 19878,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-10-10T06:58:46Z",
-        "last_seen": "2026-10-10T14:03:01Z",
+        "last_seen": "2026-10-10T15:00:51Z",
         "success_count": 0
       },
       {
@@ -1494,14 +1494,14 @@
         "ip": "62.201.210.86",
         "asn": "AS41032",
         "asn_name": "IQNETWORKS Baghdad",
-        "attempt_count": 17509,
+        "attempt_count": 19909,
         "unique_usernames": 1,
-        "unique_passwords": 17478,
+        "unique_passwords": 19878,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-10-10T06:58:46Z",
-        "last_seen": "2026-10-10T14:03:01Z",
+        "last_seen": "2026-10-10T15:00:51Z",
         "success_count": 0
       },
       {
@@ -2517,9 +2517,9 @@
     }
   ],
   "method_counts": {
-    "POST": 76424,
-    "GET": 59792,
-    "SSH": 37248,
+    "POST": 76425,
+    "GET": 59800,
+    "SSH": 39653,
     "PRI": 126,
     "HEAD": 112,
     "PROPFIND": 75,
@@ -2558,12 +2558,12 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 37000
+      "count": 39405
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1973
+      "count": 1974
     },
     {
       "path": "/",
@@ -2573,7 +2573,7 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1135
+      "count": 1136
     },
     {
       "path": "/",
@@ -2593,7 +2593,7 @@
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 382
+      "count": 384
     },
     {
       "path": "/robots.txt",
@@ -2633,7 +2633,7 @@
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 233
+      "count": 234
     },
     {
       "path": "/favicon.ico",
@@ -2709,7 +2709,7 @@
     },
     {
       "cve": "CVE-2026-88771",
-      "count": 65,
+      "count": 66,
       "sources": [
         "citrixpot:honeypot-01"
       ],
@@ -2989,7 +2989,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 2642,
+    "Critical": 2643,
     "High": 60
   },
   "top_asns": [
@@ -3012,7 +3012,7 @@
       "name": "IQNETWORKS Baghdad",
       "country": "IQ",
       "ip_count": 1,
-      "event_count": 17515
+      "event_count": 19915
     },
     {
       "asn": "AS396982",
@@ -3046,8 +3046,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 258,
-      "event_count": 4665
+      "ip_count": 259,
+      "event_count": 4669
     },
     {
       "asn": "AS218785",
@@ -3075,7 +3075,7 @@
       "name": "DigitalOcean, LLC",
       "country": "IN",
       "ip_count": 204,
-      "event_count": 1549
+      "event_count": 1550
     },
     {
       "asn": "AS6939",
@@ -3140,8 +3140,8 @@
       "name": "DigitalOcean, LLC",
       "country": "IN",
       "score": 93.1,
-      "event_count": 1549,
-      "credential_events": 684,
+      "event_count": 1550,
+      "credential_events": 685,
       "cve_events": 100
     },
     {
@@ -3311,24 +3311,24 @@
       "name": "IQNETWORKS Baghdad",
       "country": "IQ",
       "score": 50.0,
-      "event_count": 17515,
-      "credential_events": 17515,
+      "event_count": 19915,
+      "credential_events": 19915,
       "cve_events": 0
     }
   ],
   "events_by_country": {
     "NL": 46299,
     "PL": 34709,
-    "IQ": 17517,
-    "GB": 12212,
-    "US": 10789,
+    "IQ": 19917,
+    "GB": 12213,
+    "US": 10793,
     "CN": 9346,
     "DE": 4152,
     "LT": 2574,
     "ID": 1736,
-    "IN": 1704,
+    "IN": 1705,
     "BG": 1124,
-    "FR": 998,
+    "FR": 999,
     "SE": 726,
     "SG": 721,
     "CA": 646,
@@ -3339,9 +3339,9 @@
     "CH": 394,
     "PK": 328,
     "KR": 315,
-    "RU": 250,
+    "RU": 251,
     "BR": 213,
-    "FI": 197,
+    "FI": 199,
     "SI": 187,
     "KZ": 141,
     "BD": 122,
@@ -3365,7 +3365,7 @@
     "HU": 8,
     "TR": 7,
     "PH": 6,
-    "AE": 4,
+    "AE": 5,
     "LV": 4,
     "MN": 4,
     "SK": 4,
