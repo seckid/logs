@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-10T11:03:44.079522Z",
+  "generated_at": "2026-10-10T12:01:45.008924Z",
   "period_days": 90,
-  "total_events": 170258,
-  "unique_ips": 4847,
+  "total_events": 172695,
+  "unique_ips": 4853,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 1342,
+    "citrixpot:honeypot-01": 1343,
     "panospot:honeypot-01": 532,
     "ivantipot:honeypot-01": 3293,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 75019,
-    "bigippot:honeypot-01": 22161,
-    "sshppot:honeypot-01": 29757,
-    "front:honeypot-01": 37892
+    "fortipot:honeypot-01": 75037,
+    "bigippot:honeypot-01": 22165,
+    "sshppot:honeypot-01": 32168,
+    "front:honeypot-01": 37894
   },
   "events_per_day": {
     "2026-08-28": {
@@ -352,14 +352,14 @@
       "total": 1936
     },
     "2026-10-10": {
-      "sshppot:honeypot-01": 10085,
+      "sshppot:honeypot-01": 12497,
       "ivantipot:honeypot-01": 40,
       "panospot:honeypot-01": 10,
-      "fortipot:honeypot-01": 36,
-      "front:honeypot-01": 27,
-      "bigippot:honeypot-01": 196,
-      "citrixpot:honeypot-01": 46,
-      "total": 10440
+      "fortipot:honeypot-01": 54,
+      "front:honeypot-01": 29,
+      "bigippot:honeypot-01": 200,
+      "citrixpot:honeypot-01": 47,
+      "total": 12877
     }
   },
   "top_credentials": [
@@ -371,7 +371,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 164
+      "count": 166
     },
     {
       "username": "admin",
@@ -451,7 +451,7 @@
     {
       "username": "telecomadmin",
       "password": "admintelecom",
-      "count": 65
+      "count": 66
     },
     {
       "username": "Admin",
@@ -617,7 +617,7 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 769
+      "count": 771
     },
     {
       "username": "admin",
@@ -649,7 +649,7 @@
     },
     {
       "username": "telecomadmin",
-      "count": 65
+      "count": 66
     },
     {
       "username": "Admin",
@@ -703,7 +703,7 @@
     },
     {
       "password": "(empty)",
-      "count": 333
+      "count": 335
     },
     {
       "password": "admin",
@@ -755,7 +755,7 @@
     },
     {
       "password": "admintelecom",
-      "count": 65
+      "count": 66
     },
     {
       "password": "Admin",
@@ -780,26 +780,26 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 103154,
-      "unique_ips": 1391,
-      "unique_pairs": 92994,
+      "attempt_count": 105566,
+      "unique_ips": 1393,
+      "unique_pairs": 95392,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 103154
+      "unknown_outcome_count": 105566
     },
     "top_source_ips": [
       {
         "ip": "62.201.210.86",
         "asn": "AS41032",
         "asn_name": "IQNETWORKS Baghdad",
-        "attempt_count": 10040,
+        "attempt_count": 12447,
         "unique_usernames": 1,
-        "unique_passwords": 10021,
+        "unique_passwords": 12424,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-10-10T06:58:46Z",
-        "last_seen": "2026-10-10T11:03:31Z",
+        "last_seen": "2026-10-10T12:01:32Z",
         "success_count": 0
       },
       {
@@ -1494,14 +1494,14 @@
         "ip": "62.201.210.86",
         "asn": "AS41032",
         "asn_name": "IQNETWORKS Baghdad",
-        "attempt_count": 10040,
+        "attempt_count": 12447,
         "unique_usernames": 1,
-        "unique_passwords": 10021,
+        "unique_passwords": 12424,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-10-10T06:58:46Z",
-        "last_seen": "2026-10-10T11:03:31Z",
+        "last_seen": "2026-10-10T12:01:32Z",
         "success_count": 0
       },
       {
@@ -2064,7 +2064,7 @@
       {
         "username": "root",
         "password": "(empty)",
-        "count": 164,
+        "count": 166,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2212,7 +2212,7 @@
       {
         "username": "telecomadmin",
         "password": "admintelecom",
-        "count": 65,
+        "count": 66,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2517,9 +2517,9 @@
     }
   ],
   "method_counts": {
-    "POST": 76420,
-    "GET": 59775,
-    "SSH": 29762,
+    "POST": 76423,
+    "GET": 59780,
+    "SSH": 32173,
     "PRI": 126,
     "HEAD": 112,
     "PROPFIND": 75,
@@ -2558,12 +2558,12 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 29520
+      "count": 31930
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1971
+      "count": 1972
     },
     {
       "path": "/",
@@ -2578,7 +2578,7 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 452
+      "count": 453
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
@@ -2593,12 +2593,12 @@
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 380
+      "count": 381
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 360
+      "count": 361
     },
     {
       "path": "/logincheck",
@@ -3008,6 +3008,13 @@
       "event_count": 27058
     },
     {
+      "asn": "AS41032",
+      "name": "IQNETWORKS Baghdad",
+      "country": "IQ",
+      "ip_count": 1,
+      "event_count": 12453
+    },
+    {
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "FI",
@@ -3020,13 +3027,6 @@
       "country": "NL",
       "ip_count": 2,
       "event_count": 10981
-    },
-    {
-      "asn": "AS41032",
-      "name": "IQNETWORKS Baghdad",
-      "country": "IQ",
-      "ip_count": 1,
-      "event_count": 10046
     },
     {
       "asn": "AS37963",
@@ -3047,7 +3047,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "ip_count": 257,
-      "event_count": 4662
+      "event_count": 4664
     },
     {
       "asn": "AS218785",
@@ -3102,8 +3102,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 213,
-      "event_count": 1061
+      "ip_count": 214,
+      "event_count": 1079
     },
     {
       "asn": "AS41280",
@@ -3124,7 +3124,7 @@
       "name": "Google LLC",
       "country": "IT",
       "ip_count": 13,
-      "event_count": 630
+      "event_count": 632
     },
     {
       "asn": "AS209334",
@@ -3147,10 +3147,10 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "JP",
-      "score": 90.96,
-      "event_count": 482,
-      "credential_events": 121,
+      "country": "SG",
+      "score": 90.97,
+      "event_count": 486,
+      "credential_events": 122,
       "cve_events": 67
     },
     {
@@ -3307,39 +3307,39 @@
       "cve_events": 0
     },
     {
-      "asn": "AS44589",
-      "name": "DIGITAL NETWORK S.R.L.",
-      "country": "NL",
+      "asn": "AS41032",
+      "name": "IQNETWORKS Baghdad",
+      "country": "IQ",
       "score": 50.0,
-      "event_count": 10981,
-      "credential_events": 10981,
+      "event_count": 12453,
+      "credential_events": 12453,
       "cve_events": 0
     }
   ],
   "events_by_country": {
     "NL": 46298,
     "PL": 34706,
+    "IQ": 12455,
     "FI": 11805,
-    "US": 11482,
-    "IQ": 10048,
-    "CN": 9344,
+    "US": 11030,
+    "CN": 9345,
     "DE": 4181,
     "LT": 2574,
     "GB": 2116,
     "ID": 1735,
     "BG": 1124,
-    "FR": 746,
+    "FR": 747,
     "SE": 726,
+    "SG": 720,
     "CA": 646,
-    "IT": 635,
+    "IT": 637,
     "HK": 634,
-    "JP": 578,
+    "JP": 569,
     "RO": 395,
     "CH": 394,
     "PK": 328,
     "KR": 315,
     "RU": 249,
-    "SG": 233,
     "BR": 213,
     "SI": 187,
     "IN": 155,

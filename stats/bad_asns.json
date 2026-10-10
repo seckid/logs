@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T11:03:44.079522Z",
+  "generated_at": "2026-10-10T12:01:45.008924Z",
   "period_days": 90,
   "asns": [
     {
@@ -31,11 +31,11 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "JP",
-      "score": 90.96,
-      "event_count": 482,
-      "ip_count": 96,
-      "credential_events": 121,
+      "country": "SG",
+      "score": 90.97,
+      "event_count": 486,
+      "ip_count": 99,
+      "credential_events": 122,
       "cve_events": 67,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -48,7 +48,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=121",
+        "credential_events=122",
         "cve_events=67",
         "multi_honeypot=7"
       ]
@@ -410,6 +410,23 @@
       ]
     },
     {
+      "asn": "AS41032",
+      "name": "IQNETWORKS Baghdad",
+      "country": "IQ",
+      "score": 50.0,
+      "event_count": 12453,
+      "ip_count": 1,
+      "credential_events": 12453,
+      "cve_events": 0,
+      "honeypots": [
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=12453"
+      ]
+    },
+    {
       "asn": "AS44589",
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
@@ -424,23 +441,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=10981"
-      ]
-    },
-    {
-      "asn": "AS41032",
-      "name": "IQNETWORKS Baghdad",
-      "country": "IQ",
-      "score": 50.0,
-      "event_count": 10046,
-      "ip_count": 1,
-      "credential_events": 10046,
-      "cve_events": 0,
-      "honeypots": [
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=10046"
       ]
     },
     {
@@ -660,8 +660,8 @@
       "name": "Shenzhen Tencent Computer Systems Company Limited",
       "country": "CN",
       "score": 41.15,
-      "event_count": 74,
-      "ip_count": 7,
+      "event_count": 75,
+      "ip_count": 8,
       "credential_events": 12,
       "cve_events": 25,
       "honeypots": [
@@ -811,9 +811,9 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 33.22,
-      "event_count": 1061,
-      "ip_count": 213,
+      "score": 33.26,
+      "event_count": 1079,
+      "ip_count": 214,
       "credential_events": 3,
       "cve_events": 12,
       "honeypots": [
@@ -829,6 +829,31 @@
       "reasons": [
         "credential_events=3",
         "cve_events=12",
+        "multi_honeypot=7",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "score": 32.33,
+      "event_count": 4664,
+      "ip_count": 257,
+      "credential_events": 6,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=6",
         "multi_honeypot=7",
         "research_or_cloud_with_hostile_density"
       ]
@@ -852,31 +877,6 @@
         "credential_events=23",
         "cve_events=6",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "score": 31.32,
-      "event_count": 4662,
-      "ip_count": 257,
-      "credential_events": 4,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=4",
-        "multi_honeypot=7",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
