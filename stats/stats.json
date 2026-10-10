@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-10T01:04:43.010442Z",
+  "generated_at": "2026-10-10T02:04:43.014008Z",
   "period_days": 90,
-  "total_events": 159857,
-  "unique_ips": 4758,
+  "total_events": 159870,
+  "unique_ips": 4761,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 1312,
+    "citrixpot:honeypot-01": 1316,
     "panospot:honeypot-01": 523,
     "ivantipot:honeypot-01": 3255,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 74986,
-    "bigippot:honeypot-01": 21977,
-    "sshppot:honeypot-01": 19675,
-    "front:honeypot-01": 37867
+    "bigippot:honeypot-01": 21979,
+    "sshppot:honeypot-01": 19676,
+    "front:honeypot-01": 37873
   },
   "events_per_day": {
     "2026-08-28": {
@@ -352,14 +352,14 @@
       "total": 1936
     },
     "2026-10-10": {
-      "sshppot:honeypot-01": 4,
+      "sshppot:honeypot-01": 5,
       "ivantipot:honeypot-01": 2,
       "panospot:honeypot-01": 1,
       "fortipot:honeypot-01": 3,
-      "front:honeypot-01": 2,
-      "bigippot:honeypot-01": 12,
-      "citrixpot:honeypot-01": 16,
-      "total": 40
+      "front:honeypot-01": 8,
+      "bigippot:honeypot-01": 14,
+      "citrixpot:honeypot-01": 20,
+      "total": 53
     }
   },
   "top_credentials": [
@@ -780,12 +780,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 93072,
+      "attempt_count": 93073,
       "unique_ips": 1371,
-      "unique_pairs": 83007,
+      "unique_pairs": 83008,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 93072
+      "unknown_outcome_count": 93073
     },
     "top_source_ips": [
       {
@@ -2518,8 +2518,8 @@
   ],
   "method_counts": {
     "POST": 76401,
-    "GET": 59524,
-    "SSH": 19674,
+    "GET": 59535,
+    "SSH": 19675,
     "PRI": 123,
     "HEAD": 112,
     "PROPFIND": 74,
@@ -2558,7 +2558,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 19443
+      "count": 19444
     },
     {
       "path": "/",
@@ -2568,7 +2568,7 @@
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1678
+      "count": 1681
     },
     {
       "path": "/tmui/login.jsp",
@@ -2593,12 +2593,12 @@
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 368
+      "count": 370
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 356
+      "count": 357
     },
     {
       "path": "/logincheck",
@@ -2638,7 +2638,7 @@
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 190
+      "count": 191
     },
     {
       "path": "/favicon.ico",
@@ -2648,7 +2648,7 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 146
+      "count": 147
     }
   ],
   "cve_attempts": [
@@ -3066,9 +3066,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "DE",
-      "ip_count": 198,
-      "event_count": 1478
+      "country": "US",
+      "ip_count": 199,
+      "event_count": 1481
     },
     {
       "asn": "AS6939",
@@ -3095,8 +3095,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 208,
-      "event_count": 1037
+      "ip_count": 209,
+      "event_count": 1038
     },
     {
       "asn": "AS41280",
@@ -3138,9 +3138,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "DE",
+      "country": "US",
       "score": 92.96,
-      "event_count": 1478,
+      "event_count": 1481,
       "credential_events": 679,
       "cve_events": 58
     },
@@ -3194,8 +3194,8 @@
       "name": "TechTies Inc.",
       "country": "DE",
       "score": 60.45,
-      "event_count": 225,
-      "credential_events": 190,
+      "event_count": 226,
+      "credential_events": 191,
       "cve_events": 0
     },
     {
@@ -3319,10 +3319,10 @@
   "events_by_country": {
     "NL": 46296,
     "PL": 34698,
+    "US": 12828,
     "GB": 12172,
-    "US": 11342,
     "CN": 9338,
-    "DE": 5644,
+    "DE": 4167,
     "LT": 2574,
     "ID": 1733,
     "BG": 1124,
@@ -3332,7 +3332,7 @@
     "IT": 635,
     "HK": 627,
     "JP": 578,
-    "RO": 393,
+    "RO": 394,
     "CH": 392,
     "PK": 328,
     "KR": 314,
