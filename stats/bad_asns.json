@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:04:52.236215Z",
+  "generated_at": "2026-10-10T08:01:39.784751Z",
   "period_days": 90,
   "asns": [
     {
@@ -56,10 +56,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "TW",
       "score": 87.5,
-      "event_count": 11629,
-      "ip_count": 410,
+      "event_count": 11635,
+      "ip_count": 412,
       "credential_events": 55,
       "cve_events": 40,
       "honeypots": [
@@ -580,6 +580,23 @@
       ]
     },
     {
+      "asn": "AS41032",
+      "name": "IQNETWORKS Baghdad",
+      "country": "IQ",
+      "score": 45.07,
+      "event_count": 2533,
+      "ip_count": 1,
+      "credential_events": 2533,
+      "cve_events": 0,
+      "honeypots": [
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=2533"
+      ]
+    },
+    {
       "asn": "AS58477",
       "name": "Argon Data Communication",
       "country": "ID",
@@ -664,36 +681,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.84,
-      "event_count": 420,
+      "event_count": 422,
       "ip_count": 3,
-      "credential_events": 420,
+      "credential_events": 422,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=420"
-      ]
-    },
-    {
-      "asn": "AS150436",
-      "name": "Byteplus Pte. Ltd.",
-      "country": "SG",
-      "score": 40.6,
-      "event_count": 50,
-      "ip_count": 2,
-      "credential_events": 1,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=1",
-        "cve_events=42",
-        "multi_honeypot=2"
+        "credential_events=422"
       ]
     },
     {
@@ -717,20 +714,23 @@
       ]
     },
     {
-      "asn": "AS41032",
-      "name": "IQNETWORKS Baghdad",
-      "country": "IQ",
-      "score": 40.49,
-      "event_count": 246,
-      "ip_count": 1,
-      "credential_events": 246,
-      "cve_events": 0,
+      "asn": "AS150436",
+      "name": "Byteplus Pte. Ltd.",
+      "country": "SG",
+      "score": 40.6,
+      "event_count": 50,
+      "ip_count": 2,
+      "credential_events": 1,
+      "cve_events": 42,
       "honeypots": [
+        "bigippot:honeypot-01",
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=246"
+        "credential_events=1",
+        "cve_events=42",
+        "multi_honeypot=2"
       ]
     },
     {
@@ -812,8 +812,8 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "score": 33.22,
-      "event_count": 1058,
-      "ip_count": 210,
+      "event_count": 1059,
+      "ip_count": 211,
       "credential_events": 3,
       "cve_events": 12,
       "honeypots": [
@@ -858,10 +858,10 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "DE",
-      "score": 30.31,
-      "event_count": 4656,
-      "ip_count": 253,
-      "credential_events": 2,
+      "score": 31.32,
+      "event_count": 4658,
+      "ip_count": 254,
+      "credential_events": 4,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -874,7 +874,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=2",
+        "credential_events=4",
         "multi_honeypot=7",
         "research_or_cloud_with_hostile_density"
       ]
@@ -894,6 +894,23 @@
       "ai_threat_level": null,
       "reasons": [
         "cve_events=123"
+      ]
+    },
+    {
+      "asn": "AS202660",
+      "name": "Uzbektelekom Joint Stock Company",
+      "country": "UZ",
+      "score": 30.2,
+      "event_count": 98,
+      "ip_count": 2,
+      "credential_events": 0,
+      "cve_events": 84,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=84"
       ]
     },
     {
@@ -952,6 +969,23 @@
       ]
     },
     {
+      "asn": "AS45773",
+      "name": "PERN AS Content Servie Provider, Islamabad, Pakistan",
+      "country": "PK",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
       "asn": "AS142299",
       "name": "CLOUDFOREST CO., LTD.",
       "country": "TH",
@@ -972,40 +1006,6 @@
       "asn": "AS63023",
       "name": "GTHost",
       "country": "US",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
-      "asn": "AS202660",
-      "name": "Uzbektelekom Joint Stock Company",
-      "country": "UZ",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
-      "asn": "AS45773",
-      "name": "PERN AS Content Servie Provider, Islamabad, Pakistan",
-      "country": "PK",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
