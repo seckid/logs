@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T23:04:42.934386Z",
+  "generated_at": "2026-10-10T00:04:43.095348Z",
   "period_days": 90,
-  "total_events": 159666,
-  "unique_ips": 4750,
+  "total_events": 159817,
+  "unique_ips": 4755,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 1294,
+    "citrixpot:honeypot-01": 1296,
     "panospot:honeypot-01": 522,
-    "ivantipot:honeypot-01": 3251,
+    "ivantipot:honeypot-01": 3253,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 74980,
-    "bigippot:honeypot-01": 21897,
-    "sshppot:honeypot-01": 19667,
-    "front:honeypot-01": 37793
+    "fortipot:honeypot-01": 74983,
+    "bigippot:honeypot-01": 21965,
+    "sshppot:honeypot-01": 19671,
+    "front:honeypot-01": 37865
   },
   "events_per_day": {
     "2026-08-28": {
@@ -342,21 +342,21 @@
       "total": 3612
     },
     "2026-10-09": {
-      "bigippot:honeypot-01": 289,
-      "sshppot:honeypot-01": 272,
-      "front:honeypot-01": 871,
-      "fortipot:honeypot-01": 81,
-      "citrixpot:honeypot-01": 156,
-      "ivantipot:honeypot-01": 94,
+      "bigippot:honeypot-01": 357,
+      "sshppot:honeypot-01": 276,
+      "front:honeypot-01": 943,
+      "fortipot:honeypot-01": 84,
+      "citrixpot:honeypot-01": 158,
+      "ivantipot:honeypot-01": 96,
       "panospot:honeypot-01": 22,
-      "total": 1785
+      "total": 1936
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 447
+      "count": 448
     },
     {
       "username": "root",
@@ -615,7 +615,7 @@
     },
     {
       "username": "support",
-      "count": 447
+      "count": 448
     },
     {
       "username": "user",
@@ -689,7 +689,7 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 447
+      "count": 448
     },
     {
       "password": "(empty)",
@@ -770,12 +770,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 93064,
+      "attempt_count": 93068,
       "unique_ips": 1371,
-      "unique_pairs": 83005,
+      "unique_pairs": 83006,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 93064
+      "unknown_outcome_count": 93068
     },
     "top_source_ips": [
       {
@@ -1006,14 +1006,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 365,
+        "attempt_count": 366,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-09T22:45:59Z",
+        "last_seen": "2026-10-09T23:53:08Z",
         "success_count": 0
       },
       {
@@ -1708,14 +1708,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 365,
+        "attempt_count": 366,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-09T22:45:59Z",
+        "last_seen": "2026-10-09T23:53:08Z",
         "success_count": 0
       },
       {
@@ -2045,7 +2045,7 @@
       {
         "username": "support",
         "password": "support",
-        "count": 447,
+        "count": 448,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2491,7 +2491,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 8434
+      "count": 8505
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2507,11 +2507,11 @@
     }
   ],
   "method_counts": {
-    "POST": 76399,
-    "GET": 59358,
-    "SSH": 19666,
+    "POST": 76401,
+    "GET": 59500,
+    "SSH": 19670,
     "PRI": 123,
-    "HEAD": 111,
+    "HEAD": 112,
     "PROPFIND": 74,
     "OPTIONS": 54,
     "PUT": 17,
@@ -2543,27 +2543,27 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 72059
+      "count": 72060
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 19435
+      "count": 19439
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 1949
+      "count": 1955
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1677
+      "count": 1678
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1122
+      "count": 1128
     },
     {
       "path": "/",
@@ -2583,7 +2583,7 @@
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 364
+      "count": 365
     },
     {
       "path": "/robots.txt",
@@ -2598,7 +2598,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 297
+      "count": 299
     },
     {
       "path": "/wp-login.php",
@@ -2608,7 +2608,7 @@
     {
       "path": "/wp-admin/index.php",
       "source": "front:honeypot-01",
-      "count": 258
+      "count": 259
     },
     {
       "path": "/.env",
@@ -2618,12 +2618,12 @@
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 233
+      "count": 234
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 220
+      "count": 221
     },
     {
       "path": "/favicon.ico",
@@ -2797,6 +2797,33 @@
       ]
     },
     {
+      "cve": "CVE-2020-5902",
+      "count": 19,
+      "sources": [
+        "bigippot:honeypot-01"
+      ],
+      "description": "Remote code execution in the F5 BIG-IP Traffic Management User Interface (TMUI) via authenticated path traversal (..;/). Unauthenticated attackers can create administrative accounts or execute arbitrary system commands. Widely scanned on internet-facing BIG-IP appliances.",
+      "severity": "Critical",
+      "cvss_score": 9.8,
+      "sample_ips": [
+        "185.226.197.58",
+        "188.142.226.99",
+        "34.19.116.50",
+        "34.19.116.59",
+        "34.19.127.189",
+        "34.19.127.196",
+        "34.19.127.216",
+        "45.151.122.34"
+      ],
+      "sample_paths": [
+        "/tmui/locallb/workspace/tmshCmd.jsp",
+        "/tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/config/bigip.license",
+        "/tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/etc/f5-release",
+        "/tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/etc/passwd",
+        "/tmui/login.jsp/..;/tmui/util/getTabSet.jsp?tabId=ThisisaTest"
+      ]
+    },
+    {
       "cve": "CVE-2018-13379",
       "count": 18,
       "sources": [
@@ -2819,33 +2846,6 @@
         "/remote/fgt_lang?lang=/../../../../../dev/cmdb/sslvpn_websession",
         "/remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession",
         "/remote/fgt_lang?lang=/../../../..//dev/cmdb/sslvpn_websession"
-      ]
-    },
-    {
-      "cve": "CVE-2020-5902",
-      "count": 18,
-      "sources": [
-        "bigippot:honeypot-01"
-      ],
-      "description": "Remote code execution in the F5 BIG-IP Traffic Management User Interface (TMUI) via authenticated path traversal (..;/). Unauthenticated attackers can create administrative accounts or execute arbitrary system commands. Widely scanned on internet-facing BIG-IP appliances.",
-      "severity": "Critical",
-      "cvss_score": 9.8,
-      "sample_ips": [
-        "188.142.226.99",
-        "34.19.116.50",
-        "34.19.116.59",
-        "34.19.127.189",
-        "34.19.127.196",
-        "34.19.127.216",
-        "45.151.122.34",
-        "45.156.129.110"
-      ],
-      "sample_paths": [
-        "/tmui/locallb/workspace/tmshCmd.jsp",
-        "/tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/config/bigip.license",
-        "/tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/etc/f5-release",
-        "/tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/etc/passwd",
-        "/tmui/login.jsp/..;/tmui/util/getTabSet.jsp?tabId=ThisisaTest"
       ]
     },
     {
@@ -2979,7 +2979,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 2542,
+    "Critical": 2543,
     "High": 60
   },
   "top_asns": [
@@ -3030,7 +3030,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "ip_count": 251,
-      "event_count": 4580
+      "event_count": 4651
     },
     {
       "asn": "AS218785",
@@ -3070,9 +3070,9 @@
     {
       "asn": "AS202412",
       "name": "Omegatech LTD",
-      "country": "NL",
+      "country": "DE",
       "ip_count": 14,
-      "event_count": 1284
+      "event_count": 1285
     },
     {
       "asn": "AS208137",
@@ -3184,8 +3184,8 @@
       "name": "TechTies Inc.",
       "country": "DE",
       "score": 60.44,
-      "event_count": 221,
-      "credential_events": 186,
+      "event_count": 222,
+      "credential_events": 187,
       "cve_events": 0
     },
     {
@@ -3307,16 +3307,16 @@
     }
   ],
   "events_by_country": {
-    "NL": 47665,
-    "PL": 34696,
-    "US": 23008,
+    "NL": 46296,
+    "PL": 34697,
+    "US": 22945,
     "CN": 9338,
-    "DE": 4150,
-    "LT": 2569,
+    "DE": 5641,
+    "LT": 2574,
     "ID": 1733,
     "BG": 1124,
     "FR": 743,
-    "SE": 642,
+    "SE": 726,
     "IT": 635,
     "CA": 630,
     "JP": 578,
@@ -3347,9 +3347,9 @@
     "VE": 37,
     "MY": 29,
     "AU": 25,
+    "UA": 12,
     "ZA": 11,
     "TW": 10,
-    "UA": 10,
     "ES": 8,
     "HU": 8,
     "TR": 7,
