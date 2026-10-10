@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-10T06:03:17.283264Z",
+  "generated_at": "2026-10-10T07:04:52.236215Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "score": 92.96,
-      "event_count": 1481,
-      "ip_count": 199,
-      "credential_events": 679,
-      "cve_events": 58,
+      "score": 93.06,
+      "event_count": 1531,
+      "ip_count": 200,
+      "credential_events": 680,
+      "cve_events": 100,
       "honeypots": [
         "bigippot:honeypot-01",
         "citrixpot:honeypot-01",
@@ -22,8 +22,8 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=679",
-        "cve_events=58",
+        "credential_events=680",
+        "cve_events=100",
         "multi_honeypot=7",
         "research_or_cloud_with_hostile_density"
       ]
@@ -83,9 +83,9 @@
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
       "country": "HK",
-      "score": 71.72,
-      "event_count": 362,
-      "ip_count": 37,
+      "score": 71.73,
+      "event_count": 365,
+      "ip_count": 38,
       "credential_events": 42,
       "cve_events": 84,
       "honeypots": [
@@ -450,6 +450,29 @@
       ]
     },
     {
+      "asn": "AS213412",
+      "name": "ONYPHE SAS",
+      "country": "US",
+      "score": 48.49,
+      "event_count": 246,
+      "ip_count": 137,
+      "credential_events": 0,
+      "cve_events": 35,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=35",
+        "multi_honeypot=6"
+      ]
+    },
+    {
       "asn": "AS4760",
       "name": "HKT Limited",
       "country": "HK",
@@ -534,29 +557,6 @@
         "credential_events=3",
         "cve_events=42",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS213412",
-      "name": "ONYPHE SAS",
-      "country": "US",
-      "score": 46.09,
-      "event_count": 243,
-      "ip_count": 137,
-      "credential_events": 0,
-      "cve_events": 32,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=32",
-        "multi_honeypot=6"
       ]
     },
     {
@@ -717,6 +717,23 @@
       ]
     },
     {
+      "asn": "AS41032",
+      "name": "IQNETWORKS Baghdad",
+      "country": "IQ",
+      "score": 40.49,
+      "event_count": 246,
+      "ip_count": 1,
+      "credential_events": 246,
+      "cve_events": 0,
+      "honeypots": [
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=246"
+      ]
+    },
+    {
       "asn": "AS17557",
       "name": "Pakistan Telecommunication Company Limited",
       "country": "PK",
@@ -821,7 +838,7 @@
       "name": "Contabo GmbH",
       "country": "FR",
       "score": 31.55,
-      "event_count": 124,
+      "event_count": 126,
       "ip_count": 16,
       "credential_events": 23,
       "cve_events": 6,
@@ -840,10 +857,10 @@
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "US",
+      "country": "DE",
       "score": 30.31,
-      "event_count": 4653,
-      "ip_count": 251,
+      "event_count": 4656,
+      "ip_count": 253,
       "credential_events": 2,
       "cve_events": 0,
       "honeypots": [
@@ -918,9 +935,9 @@
       ]
     },
     {
-      "asn": "AS204213",
-      "name": "Netmihan Communication Company Ltd",
-      "country": "IR",
+      "asn": "AS154115",
+      "name": "KANHALABS-ORG",
+      "country": "IN",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -935,60 +952,9 @@
       ]
     },
     {
-      "asn": "AS55430",
-      "name": "Starhub Ltd",
-      "country": "SG",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
-      "asn": "AS11664",
-      "name": "Techtel LMDS Comunicaciones Interactivas S.A.",
-      "country": "PY",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
-      "asn": "AS36912",
-      "name": "Orange Cameroun SA",
-      "country": "CM",
-      "score": 30.1,
-      "event_count": 49,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=42"
-      ]
-    },
-    {
-      "asn": "AS206134",
-      "name": "NEKOBYTE INTERNATIONAL LIMITED",
-      "country": "DE",
+      "asn": "AS142299",
+      "name": "CLOUDFOREST CO., LTD.",
+      "country": "TH",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
@@ -1006,6 +972,40 @@
       "asn": "AS63023",
       "name": "GTHost",
       "country": "US",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
+      "asn": "AS202660",
+      "name": "Uzbektelekom Joint Stock Company",
+      "country": "UZ",
+      "score": 30.1,
+      "event_count": 49,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=42"
+      ]
+    },
+    {
+      "asn": "AS45773",
+      "name": "PERN AS Content Servie Provider, Islamabad, Pakistan",
+      "country": "PK",
       "score": 30.1,
       "event_count": 49,
       "ip_count": 1,
