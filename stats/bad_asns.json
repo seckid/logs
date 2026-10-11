@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T11:02:15.294658Z",
+  "generated_at": "2026-10-11T12:01:15.296636Z",
   "period_days": 90,
   "asns": [
     {
@@ -108,9 +108,9 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 8566,
+      "event_count": 8612,
       "ip_count": 26,
-      "credential_events": 7362,
+      "credential_events": 7408,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -122,7 +122,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=7362",
+        "credential_events=7408",
         "multi_honeypot=6"
       ]
     },
@@ -726,16 +726,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.89,
-      "event_count": 444,
+      "event_count": 445,
       "ip_count": 3,
-      "credential_events": 444,
+      "credential_events": 445,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=444"
+        "credential_events=445"
       ]
     },
     {
@@ -834,6 +834,32 @@
       ]
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "score": 33.4,
+      "event_count": 1148,
+      "ip_count": 224,
+      "credential_events": 3,
+      "cve_events": 12,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=3",
+        "cve_events=12",
+        "multi_honeypot=7",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
@@ -854,32 +880,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=8",
-        "multi_honeypot=7",
-        "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 33.32,
-      "event_count": 1111,
-      "ip_count": 222,
-      "credential_events": 3,
-      "cve_events": 12,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=3",
-        "cve_events=12",
         "multi_honeypot=7",
         "research_or_cloud_with_hostile_density"
       ]
