@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-11T14:02:46.240454Z",
+  "generated_at": "2026-10-11T15:04:55.392139Z",
   "period_days": 90,
-  "total_events": 195785,
-  "unique_ips": 5034,
+  "total_events": 195819,
+  "unique_ips": 5039,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 1817,
+    "citrixpot:honeypot-01": 1823,
     "panospot:honeypot-01": 551,
     "ivantipot:honeypot-01": 3420,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 75122,
-    "bigippot:honeypot-01": 23342,
+    "fortipot:honeypot-01": 75148,
+    "bigippot:honeypot-01": 23343,
     "sshppot:honeypot-01": 53051,
-    "front:honeypot-01": 38220
+    "front:honeypot-01": 38221
   },
   "events_per_day": {
     "2026-08-28": {
@@ -362,14 +362,14 @@
       "total": 33335
     },
     "2026-10-11": {
-      "bigippot:honeypot-01": 983,
+      "bigippot:honeypot-01": 984,
       "ivantipot:honeypot-01": 90,
       "panospot:honeypot-01": 17,
       "sshppot:honeypot-01": 981,
-      "citrixpot:honeypot-01": 440,
-      "front:honeypot-01": 66,
-      "fortipot:honeypot-01": 56,
-      "total": 2633
+      "citrixpot:honeypot-01": 446,
+      "front:honeypot-01": 67,
+      "fortipot:honeypot-01": 82,
+      "total": 2667
     }
   },
   "top_credentials": [
@@ -2528,9 +2528,9 @@
   ],
   "method_counts": {
     "POST": 76470,
-    "GET": 61776,
+    "GET": 61790,
     "SSH": 53050,
-    "PRI": 134,
+    "PRI": 135,
     "HEAD": 115,
     "PROPFIND": 75,
     "OPTIONS": 56,
@@ -2589,7 +2589,7 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 467
+      "count": 470
     },
     {
       "path": "/",
@@ -2604,7 +2604,7 @@
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 440
+      "count": 443
     },
     {
       "path": "/robots.txt",
@@ -2629,7 +2629,7 @@
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 262
+      "count": 263
     },
     {
       "path": "/wp-admin/index.php",
@@ -2644,7 +2644,7 @@
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 237
+      "count": 238
     },
     {
       "path": "/favicon.ico",
@@ -3029,9 +3029,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BR",
-      "ip_count": 430,
-      "event_count": 12020
+      "country": "US",
+      "ip_count": 432,
+      "event_count": 12022
     },
     {
       "asn": "AS44589",
@@ -3114,8 +3114,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 224,
-      "event_count": 1148
+      "ip_count": 225,
+      "event_count": 1166
     },
     {
       "asn": "AS208137",
@@ -3142,8 +3142,8 @@
       "asn": "AS398324",
       "name": "Censys, Inc.",
       "country": "US",
-      "ip_count": 83,
-      "event_count": 738
+      "ip_count": 84,
+      "event_count": 745
     }
   ],
   "bad_asns": [
@@ -3159,18 +3159,18 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "SG",
-      "score": 91.0,
-      "event_count": 502,
+      "country": "JP",
+      "score": 91.01,
+      "event_count": 505,
       "credential_events": 132,
       "cve_events": 67
     },
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BR",
+      "country": "US",
       "score": 87.5,
-      "event_count": 12020,
+      "event_count": 12022,
       "credential_events": 55,
       "cve_events": 40
     },
@@ -3331,29 +3331,29 @@
   "events_by_country": {
     "PL": 34846,
     "RU": 27356,
+    "US": 24484,
     "IQ": 23352,
     "NL": 20606,
-    "US": 12434,
-    "BR": 12237,
     "CN": 9474,
     "TR": 8381,
     "DE": 4180,
     "LT": 2574,
     "ID": 1742,
-    "SG": 1558,
     "BG": 1375,
+    "JP": 1077,
+    "SG": 1056,
     "IN": 798,
     "FR": 753,
     "SE": 726,
     "CA": 676,
     "GB": 599,
-    "JP": 572,
     "IE": 526,
     "CH": 407,
     "RO": 399,
     "PK": 331,
     "KR": 324,
     "HK": 278,
+    "BR": 217,
     "FI": 206,
     "SI": 188,
     "KZ": 141,
