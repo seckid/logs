@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-11T21:01:35.789747Z",
+  "generated_at": "2026-10-11T22:01:46.236582Z",
   "period_days": 90,
-  "total_events": 196112,
-  "unique_ips": 5081,
+  "total_events": 196182,
+  "unique_ips": 5087,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,14 +15,14 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 1851,
-    "panospot:honeypot-01": 551,
+    "citrixpot:honeypot-01": 1854,
+    "panospot:honeypot-01": 554,
     "ivantipot:honeypot-01": 3444,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 75181,
-    "bigippot:honeypot-01": 23386,
-    "sshppot:honeypot-01": 53079,
+    "fortipot:honeypot-01": 75185,
+    "bigippot:honeypot-01": 23445,
+    "sshppot:honeypot-01": 53080,
     "front:honeypot-01": 38358
   },
   "events_per_day": {
@@ -362,14 +362,14 @@
       "total": 33335
     },
     "2026-10-11": {
-      "bigippot:honeypot-01": 1027,
+      "bigippot:honeypot-01": 1086,
       "ivantipot:honeypot-01": 114,
-      "panospot:honeypot-01": 17,
-      "sshppot:honeypot-01": 1009,
-      "citrixpot:honeypot-01": 474,
+      "panospot:honeypot-01": 20,
+      "sshppot:honeypot-01": 1010,
+      "citrixpot:honeypot-01": 477,
       "front:honeypot-01": 204,
-      "fortipot:honeypot-01": 115,
-      "total": 2960
+      "fortipot:honeypot-01": 119,
+      "total": 3030
     }
   },
   "top_credentials": [
@@ -790,12 +790,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 126488,
+      "attempt_count": 126489,
       "unique_ips": 1465,
       "unique_pairs": 97664,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 126488
+      "unknown_outcome_count": 126489
     },
     "top_source_ips": [
       {
@@ -1082,14 +1082,14 @@
         "ip": "45.148.10.61",
         "asn": "AS48090",
         "asn_name": "TECHOFF SRV LIMITED",
-        "attempt_count": 298,
+        "attempt_count": 299,
         "unique_usernames": 177,
         "unique_passwords": 221,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-10-03T21:41:47Z",
-        "last_seen": "2026-10-11T01:59:11Z",
+        "last_seen": "2026-10-11T21:40:27Z",
         "success_count": 0
       },
       {
@@ -1784,14 +1784,14 @@
         "ip": "45.148.10.61",
         "asn": "AS48090",
         "asn_name": "TECHOFF SRV LIMITED",
-        "attempt_count": 298,
+        "attempt_count": 299,
         "unique_usernames": 177,
         "unique_passwords": 221,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-10-03T21:41:47Z",
-        "last_seen": "2026-10-11T01:59:11Z",
+        "last_seen": "2026-10-11T21:40:27Z",
         "success_count": 0
       },
       {
@@ -2527,9 +2527,9 @@
     }
   ],
   "method_counts": {
-    "POST": 76483,
-    "GET": 62018,
-    "SSH": 53078,
+    "POST": 76490,
+    "GET": 62070,
+    "SSH": 53079,
     "PRI": 136,
     "HEAD": 115,
     "PROPFIND": 75,
@@ -2569,7 +2569,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 52800
+      "count": 52801
     },
     {
       "path": "/",
@@ -2589,7 +2589,7 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 476
+      "count": 479
     },
     {
       "path": "/",
@@ -2604,7 +2604,7 @@
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 453
+      "count": 456
     },
     {
       "path": "/robots.txt",
@@ -2665,7 +2665,7 @@
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 1950,
+      "count": 1987,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -2692,7 +2692,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 557,
+      "count": 567,
       "sources": [
         "bigippot:honeypot-01",
         "front:honeypot-01"
@@ -3004,7 +3004,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 2736,
+    "Critical": 2783,
     "High": 66
   },
   "top_asns": [
@@ -3032,9 +3032,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BR",
-      "ip_count": 434,
-      "event_count": 12507
+      "country": "US",
+      "ip_count": 437,
+      "event_count": 12512
     },
     {
       "asn": "AS44589",
@@ -3055,7 +3055,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 26,
-      "event_count": 8615
+      "event_count": 8616
     },
     {
       "asn": "AS9121",
@@ -3095,9 +3095,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "DE",
-      "ip_count": 213,
-      "event_count": 1583
+      "country": "IN",
+      "ip_count": 214,
+      "event_count": 1586
     },
     {
       "asn": "AS6939",
@@ -3153,9 +3153,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "DE",
+      "country": "IN",
       "score": 93.17,
-      "event_count": 1583,
+      "event_count": 1586,
       "credential_events": 691,
       "cve_events": 100
     },
@@ -3171,9 +3171,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BR",
+      "country": "US",
       "score": 87.5,
-      "event_count": 12507,
+      "event_count": 12512,
       "credential_events": 55,
       "cve_events": 40
     },
@@ -3191,8 +3191,8 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 8615,
-      "credential_events": 7408,
+      "event_count": 8616,
+      "credential_events": 7409,
       "cve_events": 0
     },
     {
@@ -3334,18 +3334,17 @@
   "events_by_country": {
     "PL": 34851,
     "RU": 27358,
+    "US": 23869,
     "IQ": 23352,
-    "NL": 20612,
-    "BR": 12725,
-    "US": 11357,
+    "NL": 20613,
     "CN": 9476,
     "TR": 8381,
-    "DE": 5777,
+    "DE": 4194,
     "LT": 2580,
+    "IN": 2384,
     "ID": 1742,
     "BG": 1375,
     "SG": 1056,
-    "IN": 798,
     "FR": 753,
     "SE": 726,
     "HK": 690,
@@ -3356,11 +3355,12 @@
     "CH": 407,
     "PK": 332,
     "KR": 329,
+    "BR": 218,
     "FI": 206,
     "SI": 188,
+    "VN": 151,
     "KZ": 141,
     "BD": 122,
-    "VN": 102,
     "UZ": 98,
     "RO": 88,
     "TH": 70,
