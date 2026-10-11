@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-11T19:05:45.582293Z",
+  "generated_at": "2026-10-11T20:01:25.479061Z",
   "period_days": 90,
-  "total_events": 196067,
-  "unique_ips": 5070,
+  "total_events": 196083,
+  "unique_ips": 5074,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 1847,
+    "citrixpot:honeypot-01": 1848,
     "panospot:honeypot-01": 551,
     "ivantipot:honeypot-01": 3444,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 75170,
-    "bigippot:honeypot-01": 23372,
-    "sshppot:honeypot-01": 53071,
-    "front:honeypot-01": 38350
+    "fortipot:honeypot-01": 75171,
+    "bigippot:honeypot-01": 23382,
+    "sshppot:honeypot-01": 53072,
+    "front:honeypot-01": 38353
   },
   "events_per_day": {
     "2026-08-28": {
@@ -362,21 +362,21 @@
       "total": 33335
     },
     "2026-10-11": {
-      "bigippot:honeypot-01": 1013,
+      "bigippot:honeypot-01": 1023,
       "ivantipot:honeypot-01": 114,
       "panospot:honeypot-01": 17,
-      "sshppot:honeypot-01": 1001,
-      "citrixpot:honeypot-01": 470,
-      "front:honeypot-01": 196,
-      "fortipot:honeypot-01": 104,
-      "total": 2915
+      "sshppot:honeypot-01": 1002,
+      "citrixpot:honeypot-01": 471,
+      "front:honeypot-01": 199,
+      "fortipot:honeypot-01": 105,
+      "total": 2931
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 489
+      "count": 490
     },
     {
       "username": "root",
@@ -635,7 +635,7 @@
     },
     {
       "username": "support",
-      "count": 489
+      "count": 490
     },
     {
       "username": "user",
@@ -709,7 +709,7 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 489
+      "count": 490
     },
     {
       "password": "(empty)",
@@ -790,12 +790,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 126480,
+      "attempt_count": 126481,
       "unique_ips": 1465,
       "unique_pairs": 97660,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 126480
+      "unknown_outcome_count": 126481
     },
     "top_source_ips": [
       {
@@ -1054,14 +1054,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 401,
+        "attempt_count": 402,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-11T18:20:35Z",
+        "last_seen": "2026-10-11T19:27:47Z",
         "success_count": 0
       },
       {
@@ -1756,14 +1756,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 401,
+        "attempt_count": 402,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-11T18:20:35Z",
+        "last_seen": "2026-10-11T19:27:47Z",
         "success_count": 0
       },
       {
@@ -2065,7 +2065,7 @@
       {
         "username": "support",
         "password": "support",
-        "count": 489,
+        "count": 490,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2519,7 +2519,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "count": 6161
+      "count": 6162
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2528,8 +2528,8 @@
   ],
   "method_counts": {
     "POST": 76483,
-    "GET": 61993,
-    "SSH": 53070,
+    "GET": 62006,
+    "SSH": 53071,
     "PRI": 136,
     "HEAD": 115,
     "PROPFIND": 75,
@@ -2569,27 +2569,27 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 52792
+      "count": 52793
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2031
+      "count": 2032
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1711
+      "count": 1712
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1165
+      "count": 1168
     },
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 475
+      "count": 476
     },
     {
       "path": "/",
@@ -2604,7 +2604,7 @@
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 451
+      "count": 452
     },
     {
       "path": "/robots.txt",
@@ -2624,7 +2624,7 @@
     {
       "path": "/wp-login.php",
       "source": "front:honeypot-01",
-      "count": 290
+      "count": 291
     },
     {
       "path": "/logon/LogonPoint/index.html",
@@ -3055,7 +3055,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 26,
-      "event_count": 8612
+      "event_count": 8615
     },
     {
       "asn": "AS9121",
@@ -3097,7 +3097,7 @@
       "name": "DigitalOcean, LLC",
       "country": "DE",
       "ip_count": 213,
-      "event_count": 1582
+      "event_count": 1583
     },
     {
       "asn": "AS6939",
@@ -3154,8 +3154,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "DE",
-      "score": 93.16,
-      "event_count": 1582,
+      "score": 93.17,
+      "event_count": 1583,
       "credential_events": 691,
       "cve_events": 100
     },
@@ -3180,9 +3180,9 @@
     {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "US",
+      "country": "HK",
       "score": 71.81,
-      "event_count": 404,
+      "event_count": 407,
       "credential_events": 42,
       "cve_events": 84
     },
@@ -3191,7 +3191,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 8612,
+      "event_count": 8615,
       "credential_events": 7408,
       "cve_events": 0
     },
@@ -3332,15 +3332,15 @@
     }
   ],
   "events_by_country": {
-    "PL": 34849,
+    "PL": 34850,
     "RU": 27358,
     "IQ": 23352,
-    "NL": 20608,
+    "NL": 20612,
     "BE": 12506,
-    "US": 11744,
+    "US": 11341,
     "CN": 9476,
     "TR": 8381,
-    "DE": 5776,
+    "DE": 5777,
     "LT": 2574,
     "ID": 1742,
     "BG": 1375,
@@ -3348,14 +3348,14 @@
     "IN": 798,
     "FR": 753,
     "SE": 726,
+    "HK": 689,
     "CA": 676,
     "JP": 604,
     "GB": 600,
-    "IE": 526,
+    "IE": 529,
     "CH": 407,
     "PK": 332,
     "KR": 329,
-    "HK": 279,
     "BR": 218,
     "FI": 206,
     "SI": 188,
