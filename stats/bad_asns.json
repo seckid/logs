@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T08:02:55.090381Z",
+  "generated_at": "2026-10-11T09:04:43.105566Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,8 +7,8 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "score": 93.13,
-      "event_count": 1565,
-      "ip_count": 208,
+      "event_count": 1566,
+      "ip_count": 209,
       "credential_events": 691,
       "cve_events": 100,
       "honeypots": [
@@ -108,9 +108,9 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 8157,
+      "event_count": 8360,
       "ip_count": 26,
-      "credential_events": 6953,
+      "credential_events": 7156,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -122,8 +122,29 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=6953",
+        "credential_events=7156",
         "multi_honeypot=6"
+      ]
+    },
+    {
+      "asn": "AS210328",
+      "name": "AO ALMAZ",
+      "country": "RU",
+      "score": 66.6,
+      "event_count": 27083,
+      "ip_count": 6,
+      "credential_events": 27058,
+      "cve_events": 2,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=27058",
+        "cve_events=2",
+        "multi_honeypot=3"
       ]
     },
     {
@@ -431,23 +452,6 @@
       "reasons": [
         "credential_events=163",
         "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS210328",
-      "name": "AO ALMAZ",
-      "country": "NL",
-      "score": 50.0,
-      "event_count": 27058,
-      "ip_count": 5,
-      "credential_events": 27058,
-      "cve_events": 0,
-      "honeypots": [
-        "fortipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=27058"
       ]
     },
     {
@@ -884,8 +888,8 @@
       "asn": "AS51167",
       "name": "Contabo GmbH",
       "country": "FR",
-      "score": 31.55,
-      "event_count": 126,
+      "score": 31.56,
+      "event_count": 128,
       "ip_count": 16,
       "credential_events": 23,
       "cve_events": 6,
