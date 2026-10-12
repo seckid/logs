@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T07:01:46.267017Z",
+  "generated_at": "2026-10-12T08:01:46.218424Z",
   "period_days": 90,
   "asns": [
     {
@@ -32,9 +32,9 @@
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
       "country": "US",
-      "score": 91.02,
-      "event_count": 508,
-      "ip_count": 106,
+      "score": 91.03,
+      "event_count": 515,
+      "ip_count": 108,
       "credential_events": 132,
       "cve_events": 67,
       "honeypots": [
@@ -58,7 +58,7 @@
       "name": "Google LLC",
       "country": "BE",
       "score": 87.5,
-      "event_count": 12741,
+      "event_count": 12743,
       "ip_count": 441,
       "credential_events": 55,
       "cve_events": 40,
@@ -215,9 +215,9 @@
       "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "country": "CN",
       "score": 60.0,
-      "event_count": 8979,
-      "ip_count": 22,
-      "credential_events": 8954,
+      "event_count": 9026,
+      "ip_count": 24,
+      "credential_events": 9001,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -225,7 +225,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=8954",
+        "credential_events=9001",
         "multi_honeypot=2"
       ]
     },
@@ -440,10 +440,10 @@
       "name": "ONYPHE SAS",
       "country": "US",
       "score": 50.53,
-      "event_count": 263,
+      "event_count": 265,
       "ip_count": 143,
       "credential_events": 0,
-      "cve_events": 40,
+      "cve_events": 42,
       "honeypots": [
         "bigippot:honeypot-01",
         "citrixpot:honeypot-01",
@@ -454,7 +454,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "cve_events=40",
+        "cve_events=42",
         "multi_honeypot=6"
       ]
     },
@@ -815,6 +815,32 @@
       ]
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "score": 38.41,
+      "event_count": 1257,
+      "ip_count": 234,
+      "credential_events": 3,
+      "cve_events": 18,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=3",
+        "cve_events=18",
+        "multi_honeypot=7",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS36903",
       "name": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
       "country": "MA",
@@ -831,32 +857,6 @@
       "reasons": [
         "credential_events=56",
         "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 35.99,
-      "event_count": 1243,
-      "ip_count": 233,
-      "credential_events": 3,
-      "cve_events": 15,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=3",
-        "cve_events=15",
-        "multi_honeypot=7",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
