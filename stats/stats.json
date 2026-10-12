@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-11T23:00:46.224873Z",
+  "generated_at": "2026-10-12T00:04:55.280050Z",
   "period_days": 90,
-  "total_events": 196311,
-  "unique_ips": 5090,
+  "total_events": 196428,
+  "unique_ips": 5093,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 1854,
+    "citrixpot:honeypot-01": 1855,
     "panospot:honeypot-01": 554,
     "ivantipot:honeypot-01": 3444,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 75185,
-    "bigippot:honeypot-01": 23451,
+    "bigippot:honeypot-01": 23565,
     "sshppot:honeypot-01": 53082,
-    "front:honeypot-01": 38479
+    "front:honeypot-01": 38481
   },
   "events_per_day": {
     "2026-08-28": {
@@ -362,14 +362,14 @@
       "total": 33335
     },
     "2026-10-11": {
-      "bigippot:honeypot-01": 1092,
+      "bigippot:honeypot-01": 1206,
       "ivantipot:honeypot-01": 114,
       "panospot:honeypot-01": 20,
       "sshppot:honeypot-01": 1012,
-      "citrixpot:honeypot-01": 477,
-      "front:honeypot-01": 325,
+      "citrixpot:honeypot-01": 478,
+      "front:honeypot-01": 327,
       "fortipot:honeypot-01": 119,
-      "total": 3159
+      "total": 3276
     }
   },
   "top_credentials": [
@@ -2519,7 +2519,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "count": 6280
+      "count": 6385
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2527,12 +2527,12 @@
     }
   ],
   "method_counts": {
-    "POST": 76490,
-    "GET": 62196,
+    "POST": 76491,
+    "GET": 62311,
     "SSH": 53081,
     "PRI": 136,
     "HEAD": 115,
-    "PROPFIND": 75,
+    "PROPFIND": 76,
     "OPTIONS": 56,
     "PUT": 20,
     "DELETE": 16,
@@ -2574,17 +2574,17 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2035
+      "count": 2038
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1718
+      "count": 1719
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1169
+      "count": 1171
     },
     {
       "path": "/",
@@ -2604,7 +2604,7 @@
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 456
+      "count": 457
     },
     {
       "path": "/robots.txt",
@@ -2659,7 +2659,7 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 160
+      "count": 163
     }
   ],
   "cve_attempts": [
@@ -3034,7 +3034,7 @@
       "name": "Google LLC",
       "country": "BE",
       "ip_count": 438,
-      "event_count": 12630
+      "event_count": 12738
     },
     {
       "asn": "AS44589",
@@ -3055,7 +3055,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 26,
-      "event_count": 8616
+      "event_count": 8617
     },
     {
       "asn": "AS9121",
@@ -3095,9 +3095,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "IN",
+      "country": "NL",
       "ip_count": 214,
-      "event_count": 1586
+      "event_count": 1587
     },
     {
       "asn": "AS6939",
@@ -3153,9 +3153,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "IN",
+      "country": "NL",
       "score": 93.17,
-      "event_count": 1586,
+      "event_count": 1587,
       "credential_events": 691,
       "cve_events": 100
     },
@@ -3173,7 +3173,7 @@
       "name": "Google LLC",
       "country": "BE",
       "score": 87.5,
-      "event_count": 12630,
+      "event_count": 12738,
       "credential_events": 55,
       "cve_events": 40
     },
@@ -3191,7 +3191,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 8616,
+      "event_count": 8617,
       "credential_events": 7409,
       "cve_events": 0
     },
@@ -3332,31 +3332,31 @@
     }
   ],
   "events_by_country": {
-    "PL": 34853,
+    "PL": 34854,
     "RU": 27358,
     "IQ": 23352,
-    "NL": 20613,
-    "BE": 12630,
-    "US": 11362,
+    "NL": 22201,
+    "BE": 12738,
+    "US": 11363,
     "CN": 9476,
     "TR": 8381,
-    "DE": 4194,
+    "DE": 4195,
     "LT": 2580,
-    "IN": 2384,
     "ID": 1742,
     "BG": 1377,
     "SG": 1056,
+    "IN": 798,
     "FR": 753,
     "SE": 726,
     "HK": 690,
     "CA": 676,
-    "JP": 605,
+    "JP": 608,
     "GB": 600,
     "IE": 529,
     "CH": 407,
     "PK": 332,
     "KR": 329,
-    "BR": 218,
+    "BR": 219,
     "FI": 206,
     "SI": 188,
     "VN": 151,
