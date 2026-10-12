@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T15:05:20.519431Z",
+  "generated_at": "2026-10-12T16:02:00.577852Z",
   "period_days": 90,
-  "total_events": 197117,
-  "unique_ips": 5196,
+  "total_events": 197486,
+  "unique_ips": 5205,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -20,10 +20,10 @@
     "ivantipot:honeypot-01": 3509,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 75268,
-    "bigippot:honeypot-01": 23835,
+    "fortipot:honeypot-01": 75280,
+    "bigippot:honeypot-01": 23844,
     "sshppot:honeypot-01": 53184,
-    "front:honeypot-01": 38545
+    "front:honeypot-01": 38893
   },
   "events_per_day": {
     "2026-08-28": {
@@ -372,14 +372,14 @@
       "total": 3276
     },
     "2026-10-12": {
-      "front:honeypot-01": 64,
-      "fortipot:honeypot-01": 83,
-      "bigippot:honeypot-01": 270,
+      "front:honeypot-01": 412,
+      "fortipot:honeypot-01": 95,
+      "bigippot:honeypot-01": 279,
       "citrixpot:honeypot-01": 95,
       "panospot:honeypot-01": 10,
       "ivantipot:honeypot-01": 65,
       "sshppot:honeypot-01": 102,
-      "total": 689
+      "total": 1058
     }
   },
   "top_credentials": [
@@ -2536,8 +2536,8 @@
     }
   ],
   "method_counts": {
-    "POST": 76527,
-    "GET": 62759,
+    "POST": 76528,
+    "GET": 63117,
     "SSH": 53183,
     "PRI": 140,
     "HEAD": 117,
@@ -2584,22 +2584,22 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2065
+      "count": 2071
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1737
+      "count": 1738
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1189
+      "count": 1192
     },
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 492
+      "count": 493
     },
     {
       "path": "/",
@@ -2649,12 +2649,12 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 251
+      "count": 252
     },
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 242
+      "count": 243
     },
     {
       "path": "/favicon.ico",
@@ -3043,9 +3043,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BR",
+      "country": "BE",
       "ip_count": 446,
-      "event_count": 12763
+      "event_count": 12764
     },
     {
       "asn": "AS44589",
@@ -3065,8 +3065,8 @@
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
-      "ip_count": 26,
-      "event_count": 8618
+      "ip_count": 27,
+      "event_count": 8965
     },
     {
       "asn": "AS9121",
@@ -3173,18 +3173,18 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "US",
-      "score": 91.03,
-      "event_count": 515,
+      "country": "JP",
+      "score": 91.04,
+      "event_count": 518,
       "credential_events": 132,
       "cve_events": 67
     },
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BR",
+      "country": "BE",
       "score": 87.5,
-      "event_count": 12763,
+      "event_count": 12764,
       "credential_events": 55,
       "cve_events": 42
     },
@@ -3202,7 +3202,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 8618,
+      "event_count": 8965,
       "credential_events": 7410,
       "cve_events": 0
     },
@@ -3292,7 +3292,7 @@
       "name": "Korea Telecom",
       "country": "KR",
       "score": 55.63,
-      "event_count": 316,
+      "event_count": 317,
       "credential_events": 312,
       "cve_events": 0
     },
@@ -3343,34 +3343,35 @@
     }
   ],
   "events_by_country": {
-    "NL": 52151,
+    "NL": 52498,
     "RU": 27362,
     "IQ": 23352,
-    "US": 13546,
-    "BR": 12982,
+    "US": 13031,
+    "BE": 12764,
     "CN": 9546,
     "TR": 8381,
-    "DE": 4082,
+    "DE": 4086,
     "PL": 3425,
     "LT": 2580,
     "ID": 1743,
     "BG": 1379,
-    "GB": 1265,
+    "GB": 1276,
     "SG": 1059,
     "FR": 1030,
     "CA": 910,
     "IN": 802,
     "HK": 692,
+    "JP": 622,
     "SE": 553,
     "CH": 407,
     "PK": 334,
-    "KR": 331,
+    "KR": 332,
+    "BR": 219,
     "SI": 189,
     "FI": 169,
     "VN": 151,
     "KZ": 141,
     "BD": 123,
-    "JP": 104,
     "UZ": 98,
     "RO": 90,
     "TH": 70,
@@ -3380,7 +3381,7 @@
     "IR": 61,
     "CM": 49,
     "PY": 49,
-    "EG": 47,
+    "EG": 48,
     "VE": 37,
     "MY": 32,
     "AU": 26,
