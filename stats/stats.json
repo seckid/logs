@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T14:00:46.889823Z",
+  "generated_at": "2026-10-12T15:05:20.519431Z",
   "period_days": 90,
-  "total_events": 197102,
-  "unique_ips": 5195,
+  "total_events": 197117,
+  "unique_ips": 5196,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -21,8 +21,8 @@
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 75268,
-    "bigippot:honeypot-01": 23826,
-    "sshppot:honeypot-01": 53178,
+    "bigippot:honeypot-01": 23835,
+    "sshppot:honeypot-01": 53184,
     "front:honeypot-01": 38545
   },
   "events_per_day": {
@@ -374,12 +374,12 @@
     "2026-10-12": {
       "front:honeypot-01": 64,
       "fortipot:honeypot-01": 83,
-      "bigippot:honeypot-01": 261,
+      "bigippot:honeypot-01": 270,
       "citrixpot:honeypot-01": 95,
       "panospot:honeypot-01": 10,
       "ivantipot:honeypot-01": 65,
-      "sshppot:honeypot-01": 96,
-      "total": 674
+      "sshppot:honeypot-01": 102,
+      "total": 689
     }
   },
   "top_credentials": [
@@ -391,7 +391,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 190
+      "count": 191
     },
     {
       "username": "admin",
@@ -406,7 +406,7 @@
     {
       "username": "root",
       "password": "root",
-      "count": 121
+      "count": 122
     },
     {
       "username": "user",
@@ -416,7 +416,7 @@
     {
       "username": "root",
       "password": "123456",
-      "count": 106
+      "count": 107
     },
     {
       "username": "admin",
@@ -456,7 +456,7 @@
     {
       "username": "root",
       "password": "12345678",
-      "count": 78
+      "count": 80
     },
     {
       "username": "ubnt",
@@ -604,6 +604,11 @@
       "count": 29
     },
     {
+      "username": "root",
+      "password": "---fuck_you----",
+      "count": 28
+    },
+    {
       "username": "docker",
       "password": "docker",
       "count": 28
@@ -620,11 +625,6 @@
     },
     {
       "username": "root",
-      "password": "---fuck_you----",
-      "count": 27
-    },
-    {
-      "username": "root",
       "password": "123456789",
       "count": 27
     },
@@ -637,7 +637,7 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 934
+      "count": 940
     },
     {
       "username": "admin",
@@ -723,7 +723,7 @@
     },
     {
       "password": "(empty)",
-      "count": 376
+      "count": 377
     },
     {
       "password": "admin",
@@ -735,11 +735,11 @@
     },
     {
       "password": "123456",
-      "count": 167
+      "count": 168
     },
     {
       "password": "root",
-      "count": 121
+      "count": 122
     },
     {
       "password": "user",
@@ -763,7 +763,7 @@
     },
     {
       "password": "12345678",
-      "count": 78
+      "count": 80
     },
     {
       "password": "ubnt",
@@ -800,12 +800,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 126597,
+      "attempt_count": 126603,
       "unique_ips": 1493,
       "unique_pairs": 97670,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 126597
+      "unknown_outcome_count": 126603
     },
     "top_source_ips": [
       {
@@ -2084,7 +2084,7 @@
       {
         "username": "root",
         "password": "(empty)",
-        "count": 190,
+        "count": 191,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2114,7 +2114,7 @@
       {
         "username": "root",
         "password": "root",
-        "count": 121,
+        "count": 122,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2132,7 +2132,7 @@
       {
         "username": "root",
         "password": "123456",
-        "count": 106,
+        "count": 107,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2205,7 +2205,7 @@
       {
         "username": "root",
         "password": "12345678",
-        "count": 78,
+        "count": 80,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2461,6 +2461,14 @@
         ]
       },
       {
+        "username": "root",
+        "password": "---fuck_you----",
+        "count": 28,
+        "sources": [
+          "sshppot:honeypot-01"
+        ]
+      },
+      {
         "username": "docker",
         "password": "docker",
         "count": 28,
@@ -2480,14 +2488,6 @@
       {
         "username": "root",
         "password": "aDm8H%MdA",
-        "count": 27,
-        "sources": [
-          "sshppot:honeypot-01"
-        ]
-      },
-      {
-        "username": "root",
-        "password": "---fuck_you----",
         "count": 27,
         "sources": [
           "sshppot:honeypot-01"
@@ -2537,8 +2537,8 @@
   ],
   "method_counts": {
     "POST": 76527,
-    "GET": 62752,
-    "SSH": 53177,
+    "GET": 62759,
+    "SSH": 53183,
     "PRI": 140,
     "HEAD": 117,
     "PROPFIND": 76,
@@ -2579,12 +2579,12 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 52896
+      "count": 52901
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2062
+      "count": 2065
     },
     {
       "path": "/",
@@ -2594,7 +2594,7 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1186
+      "count": 1189
     },
     {
       "path": "/",
@@ -3059,7 +3059,7 @@
       "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "country": "CN",
       "ip_count": 25,
-      "event_count": 9040
+      "event_count": 9046
     },
     {
       "asn": "AS48090",
@@ -3247,8 +3247,8 @@
       "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "country": "CN",
       "score": 60.0,
-      "event_count": 9040,
-      "credential_events": 9015,
+      "event_count": 9046,
+      "credential_events": 9021,
       "cve_events": 0
     },
     {
@@ -3348,14 +3348,14 @@
     "IQ": 23352,
     "US": 13546,
     "BR": 12982,
-    "CN": 9540,
+    "CN": 9546,
     "TR": 8381,
-    "DE": 4075,
+    "DE": 4082,
     "PL": 3425,
     "LT": 2580,
     "ID": 1743,
     "BG": 1379,
-    "GB": 1263,
+    "GB": 1265,
     "SG": 1059,
     "FR": 1030,
     "CA": 910,
