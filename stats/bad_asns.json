@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T21:05:14.435003Z",
+  "generated_at": "2026-10-13T22:02:36.409298Z",
   "period_days": 90,
   "asns": [
     {
@@ -196,11 +196,11 @@
       "asn": "AS44589",
       "name": "admin@ntservers.pro",
       "country": "NL",
-      "score": 61.6,
-      "event_count": 11015,
+      "score": 63.2,
+      "event_count": 11037,
       "ip_count": 3,
       "credential_events": 10981,
-      "cve_events": 2,
+      "cve_events": 4,
       "honeypots": [
         "citrixpot:honeypot-01",
         "fortipot:honeypot-01"
@@ -208,8 +208,30 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=10981",
-        "cve_events=2",
+        "cve_events=4",
         "multi_honeypot=2"
+      ]
+    },
+    {
+      "asn": "AS204428",
+      "name": "SS-Net",
+      "country": "RO",
+      "score": 61.32,
+      "event_count": 662,
+      "ip_count": 24,
+      "credential_events": 658,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "ivantipot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=658",
+        "multi_honeypot=5"
       ]
     },
     {
@@ -231,28 +253,6 @@
       "reasons": [
         "credential_events=191",
         "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS204428",
-      "name": "SS-Net",
-      "country": "RO",
-      "score": 61.25,
-      "event_count": 625,
-      "ip_count": 24,
-      "credential_events": 621,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=621",
-        "multi_honeypot=5"
       ]
     },
     {
@@ -778,16 +778,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 40.99,
-      "event_count": 493,
+      "event_count": 494,
       "ip_count": 3,
-      "credential_events": 493,
+      "credential_events": 494,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=493"
+        "credential_events=494"
       ]
     },
     {
@@ -912,8 +912,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 34.0,
-      "event_count": 5048,
-      "ip_count": 285,
+      "event_count": 5291,
+      "ip_count": 288,
       "credential_events": 8,
       "cve_events": 0,
       "honeypots": [
