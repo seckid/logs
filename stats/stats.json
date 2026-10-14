@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-14T04:01:47.110304Z",
+  "generated_at": "2026-10-14T05:02:45.604399Z",
   "period_days": 90,
-  "total_events": 202811,
-  "unique_ips": 5491,
+  "total_events": 202933,
+  "unique_ips": 5496,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 2187,
-    "panospot:honeypot-01": 576,
+    "citrixpot:honeypot-01": 2206,
+    "panospot:honeypot-01": 577,
     "ivantipot:honeypot-01": 3763,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 76230,
-    "bigippot:honeypot-01": 25074,
+    "fortipot:honeypot-01": 76275,
+    "bigippot:honeypot-01": 25079,
     "sshppot:honeypot-01": 53509,
-    "front:honeypot-01": 41210
+    "front:honeypot-01": 41262
   },
   "events_per_day": {
     "2026-08-28": {
@@ -392,13 +392,13 @@
     },
     "2026-10-14": {
       "ivantipot:honeypot-01": 50,
-      "fortipot:honeypot-01": 183,
-      "panospot:honeypot-01": 10,
-      "front:honeypot-01": 433,
-      "bigippot:honeypot-01": 105,
-      "citrixpot:honeypot-01": 32,
+      "fortipot:honeypot-01": 228,
+      "panospot:honeypot-01": 11,
+      "front:honeypot-01": 485,
+      "bigippot:honeypot-01": 110,
+      "citrixpot:honeypot-01": 51,
       "sshppot:honeypot-01": 50,
-      "total": 863
+      "total": 985
     }
   },
   "top_credentials": [
@@ -819,12 +819,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 127778,
+      "attempt_count": 127820,
       "unique_ips": 1574,
-      "unique_pairs": 98495,
+      "unique_pairs": 98537,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 127778
+      "unknown_outcome_count": 127820
     },
     "top_source_ips": [
       {
@@ -2535,11 +2535,11 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 73776
+      "count": 73818
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 9119
+      "count": 9168
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2555,8 +2555,8 @@
     }
   ],
   "method_counts": {
-    "POST": 77475,
-    "GET": 66895,
+    "POST": 77518,
+    "GET": 66973,
     "SSH": 53508,
     "PRI": 147,
     "HEAD": 122,
@@ -2594,7 +2594,7 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 72913
+      "count": 72955
     },
     {
       "path": "/",
@@ -2604,22 +2604,22 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2152
+      "count": 2155
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1794
+      "count": 1796
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1247
+      "count": 1248
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 573
+      "count": 576
     },
     {
       "path": "/",
@@ -2639,12 +2639,12 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 392
+      "count": 393
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 350
+      "count": 352
     },
     {
       "path": "/logincheck",
@@ -3064,9 +3064,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "TW",
       "ip_count": 467,
-      "event_count": 13571
+      "event_count": 13572
     },
     {
       "asn": "AS44589",
@@ -3120,9 +3120,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "SG",
-      "ip_count": 229,
-      "event_count": 1698
+      "country": "IN",
+      "ip_count": 232,
+      "event_count": 1716
     },
     {
       "asn": "AS58477",
@@ -3143,7 +3143,7 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 248,
-      "event_count": 1375
+      "event_count": 1376
     },
     {
       "asn": "AS202412",
@@ -3160,18 +3160,18 @@
       "event_count": 1093
     },
     {
+      "asn": "AS204428",
+      "name": "SS-Net",
+      "country": "RO",
+      "ip_count": 24,
+      "event_count": 938
+    },
+    {
       "asn": "AS31898",
       "name": "Oracle Corporation",
       "country": "US",
       "ip_count": 15,
       "event_count": 926
-    },
-    {
-      "asn": "AS204428",
-      "name": "SS-Net",
-      "country": "RO",
-      "ip_count": 24,
-      "event_count": 896
     },
     {
       "asn": "AS398324",
@@ -3185,9 +3185,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "SG",
-      "score": 93.4,
-      "event_count": 1698,
+      "country": "IN",
+      "score": 93.43,
+      "event_count": 1716,
       "credential_events": 691,
       "cve_events": 100
     },
@@ -3203,9 +3203,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "TW",
       "score": 87.5,
-      "event_count": 13571,
+      "event_count": 13572,
       "credential_events": 55,
       "cve_events": 42
     },
@@ -3267,9 +3267,9 @@
       "asn": "AS204428",
       "name": "SS-Net",
       "country": "RO",
-      "score": 61.79,
-      "event_count": 896,
-      "credential_events": 892,
+      "score": 61.88,
+      "event_count": 938,
+      "credential_events": 934,
       "cve_events": 0
     },
     {
@@ -3365,27 +3365,28 @@
   ],
   "events_by_country": {
     "NL": 56085,
-    "US": 27709,
     "RU": 27371,
     "IQ": 23352,
+    "US": 14446,
+    "TW": 13586,
     "CN": 9664,
     "TR": 8381,
-    "DE": 4172,
-    "LT": 2580,
-    "SG": 1943,
+    "DE": 4175,
+    "LT": 2581,
+    "IN": 2523,
     "ID": 1743,
     "BG": 1380,
+    "RO": 981,
     "CA": 974,
-    "RO": 939,
-    "FR": 928,
     "KR": 906,
-    "IN": 807,
     "GB": 776,
     "HK": 716,
+    "FR": 625,
     "PL": 580,
     "SE": 553,
     "CH": 409,
     "PK": 340,
+    "SG": 245,
     "BR": 223,
     "KZ": 190,
     "SI": 189,
@@ -3408,7 +3409,6 @@
     "MY": 32,
     "MO": 18,
     "UA": 15,
-    "TW": 14,
     "ZA": 12,
     "IT": 9,
     "AE": 8,
