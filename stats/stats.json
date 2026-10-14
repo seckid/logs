@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-14T14:03:35.537683Z",
+  "generated_at": "2026-10-14T15:03:45.201712Z",
   "period_days": 90,
-  "total_events": 204908,
-  "unique_ips": 5588,
+  "total_events": 205012,
+  "unique_ips": 5593,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 2259,
+    "citrixpot:honeypot-01": 2261,
     "panospot:honeypot-01": 590,
-    "ivantipot:honeypot-01": 3828,
+    "ivantipot:honeypot-01": 3841,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 76543,
-    "bigippot:honeypot-01": 25308,
-    "sshppot:honeypot-01": 54041,
-    "front:honeypot-01": 42077
+    "fortipot:honeypot-01": 76580,
+    "bigippot:honeypot-01": 25316,
+    "sshppot:honeypot-01": 54084,
+    "front:honeypot-01": 42078
   },
   "events_per_day": {
     "2026-08-28": {
@@ -391,14 +391,14 @@
       "total": 3623
     },
     "2026-10-14": {
-      "ivantipot:honeypot-01": 115,
-      "fortipot:honeypot-01": 496,
+      "ivantipot:honeypot-01": 128,
+      "fortipot:honeypot-01": 533,
       "panospot:honeypot-01": 24,
-      "front:honeypot-01": 1300,
-      "bigippot:honeypot-01": 339,
-      "citrixpot:honeypot-01": 104,
-      "sshppot:honeypot-01": 582,
-      "total": 2960
+      "front:honeypot-01": 1301,
+      "bigippot:honeypot-01": 347,
+      "citrixpot:honeypot-01": 106,
+      "sshppot:honeypot-01": 625,
+      "total": 3064
     }
   },
   "top_credentials": [
@@ -410,7 +410,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 203
+      "count": 204
     },
     {
       "username": "admin",
@@ -425,7 +425,7 @@
     {
       "username": "root",
       "password": "root",
-      "count": 132
+      "count": 133
     },
     {
       "username": "user",
@@ -435,7 +435,7 @@
     {
       "username": "root",
       "password": "123456",
-      "count": 117
+      "count": 118
     },
     {
       "username": "admin",
@@ -445,7 +445,7 @@
     {
       "username": "root",
       "password": "admin",
-      "count": 108
+      "count": 109
     },
     {
       "username": "user",
@@ -475,7 +475,7 @@
     {
       "username": "root",
       "password": "12345678",
-      "count": 87
+      "count": 88
     },
     {
       "username": "operator",
@@ -524,6 +524,11 @@
     },
     {
       "username": "root",
+      "password": "password",
+      "count": 43
+    },
+    {
+      "username": "root",
       "password": "------fuck------",
       "count": 43
     },
@@ -533,14 +538,19 @@
       "count": 43
     },
     {
-      "username": "root",
-      "password": "password",
-      "count": 42
-    },
-    {
       "username": "guest",
       "password": "guest",
       "count": 41
+    },
+    {
+      "username": "root",
+      "password": "P@ssw0rd",
+      "count": 41
+    },
+    {
+      "username": "root",
+      "password": "abcd1234",
+      "count": 40
     },
     {
       "username": "ubuntu",
@@ -549,13 +559,8 @@
     },
     {
       "username": "root",
-      "password": "P@ssw0rd",
+      "password": "root@123",
       "count": 40
-    },
-    {
-      "username": "root",
-      "password": "abcd1234",
-      "count": 39
     },
     {
       "username": "root",
@@ -564,13 +569,8 @@
     },
     {
       "username": "root",
-      "password": "root@123",
-      "count": 39
-    },
-    {
-      "username": "root",
       "password": "123456789",
-      "count": 36
+      "count": 37
     },
     {
       "username": "ubuntu",
@@ -584,12 +584,12 @@
     },
     {
       "username": "root",
-      "password": "team2",
-      "count": 33
+      "password": "---fuck_you----",
+      "count": 34
     },
     {
       "username": "root",
-      "password": "---fuck_you----",
+      "password": "team2",
       "count": 33
     },
     {
@@ -613,6 +613,11 @@
       "count": 33
     },
     {
+      "username": "root",
+      "password": "123",
+      "count": 32
+    },
+    {
       "username": "grid",
       "password": "grid",
       "count": 32
@@ -620,11 +625,6 @@
     {
       "username": "codex",
       "password": "codex",
-      "count": 31
-    },
-    {
-      "username": "root",
-      "password": "123",
       "count": 31
     },
     {
@@ -639,6 +639,11 @@
     },
     {
       "username": "root",
+      "password": "111111",
+      "count": 31
+    },
+    {
+      "username": "root",
       "password": "aDm8H%MdA",
       "count": 30
     },
@@ -646,17 +651,12 @@
       "username": "msc",
       "password": "msc",
       "count": 30
-    },
-    {
-      "username": "docker",
-      "password": "docker",
-      "count": 30
     }
   ],
   "top_usernames": [
     {
       "username": "root",
-      "count": 1086
+      "count": 1129
     },
     {
       "username": "admin",
@@ -742,23 +742,23 @@
     },
     {
       "password": "(empty)",
-      "count": 395
+      "count": 396
     },
     {
       "password": "admin",
-      "count": 268
+      "count": 269
     },
     {
       "password": "password",
-      "count": 251
+      "count": 252
     },
     {
       "password": "123456",
-      "count": 181
+      "count": 182
     },
     {
       "password": "root",
-      "count": 132
+      "count": 133
     },
     {
       "password": "user",
@@ -782,7 +782,7 @@
     },
     {
       "password": "12345678",
-      "count": 87
+      "count": 88
     },
     {
       "password": "operator",
@@ -819,12 +819,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 128590,
-      "unique_ips": 1596,
-      "unique_pairs": 98766,
+      "attempt_count": 128670,
+      "unique_ips": 1597,
+      "unique_pairs": 98802,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 128590
+      "unknown_outcome_count": 128670
     },
     "top_source_ips": [
       {
@@ -1503,28 +1503,28 @@
         "ip": "80.94.95.53",
         "asn": "AS204428",
         "asn_name": "SS-Net",
-        "attempt_count": 60,
-        "unique_usernames": 55,
-        "unique_passwords": 50,
+        "attempt_count": 62,
+        "unique_usernames": 57,
+        "unique_passwords": 51,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-10-12T18:13:27.683Z",
-        "last_seen": "2026-10-14T13:35:26.915Z",
+        "last_seen": "2026-10-14T14:36:31.335Z",
         "success_count": 0
       },
       {
         "ip": "80.94.95.92",
         "asn": "AS204428",
         "asn_name": "SS-Net",
-        "attempt_count": 57,
-        "unique_usernames": 54,
-        "unique_passwords": 53,
+        "attempt_count": 59,
+        "unique_usernames": 56,
+        "unique_passwords": 55,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-10-13T06:26:33.282Z",
-        "last_seen": "2026-10-14T14:01:57.520Z",
+        "last_seen": "2026-10-14T15:03:08.590Z",
         "success_count": 0
       }
     ],
@@ -2103,7 +2103,7 @@
       {
         "username": "root",
         "password": "(empty)",
-        "count": 203,
+        "count": 204,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2133,7 +2133,7 @@
       {
         "username": "root",
         "password": "root",
-        "count": 132,
+        "count": 133,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2151,7 +2151,7 @@
       {
         "username": "root",
         "password": "123456",
-        "count": 117,
+        "count": 118,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2169,7 +2169,7 @@
       {
         "username": "root",
         "password": "admin",
-        "count": 108,
+        "count": 109,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2224,7 +2224,7 @@
       {
         "username": "root",
         "password": "12345678",
-        "count": 87,
+        "count": 88,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2308,6 +2308,15 @@
       },
       {
         "username": "root",
+        "password": "password",
+        "count": 43,
+        "sources": [
+          "fortipot:honeypot-01",
+          "sshppot:honeypot-01"
+        ]
+      },
+      {
+        "username": "root",
         "password": "------fuck------",
         "count": 43,
         "sources": [
@@ -2325,20 +2334,28 @@
         ]
       },
       {
-        "username": "root",
-        "password": "password",
-        "count": 42,
+        "username": "guest",
+        "password": "guest",
+        "count": 41,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
         ]
       },
       {
-        "username": "guest",
-        "password": "guest",
+        "username": "root",
+        "password": "P@ssw0rd",
         "count": 41,
         "sources": [
           "fortipot:honeypot-01",
+          "sshppot:honeypot-01"
+        ]
+      },
+      {
+        "username": "root",
+        "password": "abcd1234",
+        "count": 40,
+        "sources": [
           "sshppot:honeypot-01"
         ]
       },
@@ -2353,18 +2370,10 @@
       },
       {
         "username": "root",
-        "password": "P@ssw0rd",
+        "password": "root@123",
         "count": 40,
         "sources": [
           "fortipot:honeypot-01",
-          "sshppot:honeypot-01"
-        ]
-      },
-      {
-        "username": "root",
-        "password": "abcd1234",
-        "count": 39,
-        "sources": [
           "sshppot:honeypot-01"
         ]
       },
@@ -2378,17 +2387,8 @@
       },
       {
         "username": "root",
-        "password": "root@123",
-        "count": 39,
-        "sources": [
-          "fortipot:honeypot-01",
-          "sshppot:honeypot-01"
-        ]
-      },
-      {
-        "username": "root",
         "password": "123456789",
-        "count": 36,
+        "count": 37,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2412,15 +2412,15 @@
       },
       {
         "username": "root",
-        "password": "team2",
-        "count": 33,
+        "password": "---fuck_you----",
+        "count": 34,
         "sources": [
           "sshppot:honeypot-01"
         ]
       },
       {
         "username": "root",
-        "password": "---fuck_you----",
+        "password": "team2",
         "count": 33,
         "sources": [
           "sshppot:honeypot-01"
@@ -2463,6 +2463,15 @@
         ]
       },
       {
+        "username": "root",
+        "password": "123",
+        "count": 32,
+        "sources": [
+          "fortipot:honeypot-01",
+          "sshppot:honeypot-01"
+        ]
+      },
+      {
         "username": "grid",
         "password": "grid",
         "count": 32,
@@ -2473,15 +2482,6 @@
       {
         "username": "codex",
         "password": "codex",
-        "count": 31,
-        "sources": [
-          "fortipot:honeypot-01",
-          "sshppot:honeypot-01"
-        ]
-      },
-      {
-        "username": "root",
-        "password": "123",
         "count": 31,
         "sources": [
           "fortipot:honeypot-01",
@@ -2506,6 +2506,14 @@
       },
       {
         "username": "root",
+        "password": "111111",
+        "count": 31,
+        "sources": [
+          "sshppot:honeypot-01"
+        ]
+      },
+      {
+        "username": "root",
         "password": "aDm8H%MdA",
         "count": 30,
         "sources": [
@@ -2520,22 +2528,13 @@
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
         ]
-      },
-      {
-        "username": "docker",
-        "password": "docker",
-        "count": 30,
-        "sources": [
-          "fortipot:honeypot-01",
-          "sshppot:honeypot-01"
-        ]
       }
     ]
   },
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 74063
+      "count": 74101
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2555,9 +2554,9 @@
     }
   ],
   "method_counts": {
-    "POST": 77810,
-    "GET": 68050,
-    "SSH": 54040,
+    "POST": 77848,
+    "GET": 68071,
+    "SSH": 54083,
     "PRI": 150,
     "HEAD": 125,
     "PROPFIND": 80,
@@ -2596,42 +2595,42 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 73192
+      "count": 73230
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 53743
+      "count": 53785
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2196
+      "count": 2197
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1812
+      "count": 1813
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1263
+      "count": 1264
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 602
+      "count": 603
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
       "source": "ivantipot:honeypot-01",
-      "count": 525
+      "count": 535
     },
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 522
+      "count": 525
     },
     {
       "path": "/",
@@ -2646,7 +2645,7 @@
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 359
+      "count": 360
     },
     {
       "path": "/logincheck",
@@ -2952,6 +2951,28 @@
       ]
     },
     {
+      "cve": "CVE-2026-104935",
+      "count": 13,
+      "sources": [
+        "ivantipot:honeypot-01"
+      ],
+      "description": "High-severity authentication bypass in Ivanti Connect Secure, disclosed October 2026 and listed in CISA KEV. A public login request carries an X-DSCGI-PATH header naming another CGI or a runtime temp file. ivantipot stores that header and any uploaded file. It does not run the file. Rapid7 published the advisory on 13 October 2026.",
+      "severity": "High",
+      "cvss_score": 8.6,
+      "sample_ips": [
+        "104.194.150.21",
+        "165.22.168.95",
+        "178.128.120.150",
+        "192.42.116.63",
+        "217.138.216.168",
+        "23.234.104.61",
+        "45.76.103.161"
+      ],
+      "sample_paths": [
+        "/dana-na/auth/url_default/welcome.cgi"
+      ]
+    },
+    {
       "cve": "CVE-2026-41940",
       "count": 11,
       "sources": [
@@ -3001,27 +3022,6 @@
       ]
     },
     {
-      "cve": "CVE-2026-104935",
-      "count": 8,
-      "sources": [
-        "ivantipot:honeypot-01"
-      ],
-      "description": "High-severity authentication bypass in Ivanti Connect Secure, disclosed October 2026 and listed in CISA KEV. A public login request carries an X-DSCGI-PATH header naming another CGI or a runtime temp file. ivantipot stores that header and any uploaded file. It does not run the file. Rapid7 published the advisory on 13 October 2026.",
-      "severity": "High",
-      "cvss_score": 8.6,
-      "sample_ips": [
-        "104.194.150.21",
-        "165.22.168.95",
-        "178.128.120.150",
-        "192.42.116.63",
-        "217.138.216.168",
-        "23.234.104.61"
-      ],
-      "sample_paths": [
-        "/dana-na/auth/url_default/welcome.cgi"
-      ]
-    },
-    {
       "cve": "CVE-2026-88779",
       "count": 6,
       "sources": [
@@ -3062,7 +3062,7 @@
   ],
   "cve_severity_counts": {
     "Critical": 3016,
-    "High": 81
+    "High": 86
   },
   "top_asns": [
     {
@@ -3133,7 +3133,7 @@
       "name": "TC DATACENTER LIMITED",
       "country": "NL",
       "ip_count": 15,
-      "event_count": 2877
+      "event_count": 2878
     },
     {
       "asn": "AS213790",
@@ -3146,8 +3146,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 237,
-      "event_count": 1729
+      "ip_count": 238,
+      "event_count": 1736
     },
     {
       "asn": "AS58477",
@@ -3182,7 +3182,7 @@
       "name": "SS-Net",
       "country": "RO",
       "ip_count": 24,
-      "event_count": 1175
+      "event_count": 1213
     },
     {
       "asn": "AS208137",
@@ -3211,10 +3211,10 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "score": 93.46,
-      "event_count": 1729,
+      "score": 93.47,
+      "event_count": 1736,
       "credential_events": 691,
-      "cve_events": 102
+      "cve_events": 104
     },
     {
       "asn": "AS45102",
@@ -3292,9 +3292,9 @@
       "asn": "AS204428",
       "name": "SS-Net",
       "country": "RO",
-      "score": 62.35,
-      "event_count": 1175,
-      "credential_events": 1171,
+      "score": 62.43,
+      "event_count": 1213,
+      "credential_events": 1209,
       "cve_events": 0
     },
     {
@@ -3302,7 +3302,7 @@
       "name": "TechTies Inc.",
       "country": "NL",
       "score": 61.27,
-      "event_count": 634,
+      "event_count": 635,
       "credential_events": 191,
       "cve_events": 0
     },
@@ -3389,22 +3389,23 @@
     }
   ],
   "events_by_country": {
-    "NL": 56628,
+    "NL": 56675,
     "RU": 27373,
     "IQ": 23352,
-    "DE": 18364,
-    "US": 16550,
+    "DE": 18366,
+    "US": 15971,
     "CN": 9740,
     "TR": 8381,
-    "LT": 2581,
+    "LT": 2582,
     "ID": 1743,
     "BG": 1380,
-    "RO": 1219,
+    "RO": 1257,
     "FR": 934,
     "IN": 813,
     "GB": 798,
     "CA": 744,
     "HK": 718,
+    "JP": 695,
     "PL": 588,
     "SE": 555,
     "CH": 409,
@@ -3418,9 +3419,8 @@
     "VN": 156,
     "BD": 124,
     "IE": 117,
-    "JP": 100,
     "UZ": 98,
-    "NO": 72,
+    "NO": 73,
     "TH": 70,
     "MA": 69,
     "ET": 68,
