@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-15T20:00:52.837823Z",
+  "generated_at": "2026-10-15T21:05:03.976962Z",
   "period_days": 90,
-  "total_events": 209671,
-  "unique_ips": 5813,
+  "total_events": 209701,
+  "unique_ips": 5822,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 3122,
+    "citrixpot:honeypot-01": 3131,
     "panospot:honeypot-01": 630,
     "ivantipot:honeypot-01": 4021,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 77440,
-    "bigippot:honeypot-01": 25697,
+    "fortipot:honeypot-01": 77452,
+    "bigippot:honeypot-01": 25703,
     "sshppot:honeypot-01": 55327,
-    "front:honeypot-01": 43172
+    "front:honeypot-01": 43175
   },
   "events_per_day": {
     "2026-08-28": {
@@ -401,14 +401,14 @@
       "total": 5616
     },
     "2026-10-15": {
-      "front:honeypot-01": 319,
-      "bigippot:honeypot-01": 278,
-      "fortipot:honeypot-01": 526,
+      "front:honeypot-01": 322,
+      "bigippot:honeypot-01": 284,
+      "fortipot:honeypot-01": 538,
       "sshppot:honeypot-01": 583,
       "panospot:honeypot-01": 32,
       "ivantipot:honeypot-01": 122,
-      "citrixpot:honeypot-01": 247,
-      "total": 2107
+      "citrixpot:honeypot-01": 256,
+      "total": 2137
     }
   },
   "top_credentials": [
@@ -2566,10 +2566,10 @@
     }
   ],
   "method_counts": {
-    "POST": 78756,
-    "GET": 70442,
+    "POST": 78758,
+    "GET": 70459,
     "SSH": 55326,
-    "PRI": 156,
+    "PRI": 157,
     "HEAD": 127,
     "PROPFIND": 80,
     "OPTIONS": 71,
@@ -2619,7 +2619,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2270
+      "count": 2272
     },
     {
       "path": "/",
@@ -2634,7 +2634,7 @@
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 711
+      "count": 714
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
@@ -2649,17 +2649,17 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 538
+      "count": 539
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 435
+      "count": 437
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 405
+      "count": 407
     },
     {
       "path": "/logincheck",
@@ -2669,7 +2669,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 334
+      "count": 335
     },
     {
       "path": "/wp-login.php",
@@ -2704,7 +2704,7 @@
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 177
+      "count": 178
     }
   ],
   "cve_attempts": [
@@ -2891,7 +2891,7 @@
     },
     {
       "cve": "CVE-2018-13379",
-      "count": 24,
+      "count": 25,
       "sources": [
         "fortipot:honeypot-01"
       ],
@@ -3083,7 +3083,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 3245,
+    "Critical": 3246,
     "High": 130
   },
   "top_asns": [
@@ -3196,8 +3196,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 255,
-      "event_count": 1407
+      "ip_count": 261,
+      "event_count": 1414
     },
     {
       "asn": "AS202412",
@@ -3377,8 +3377,8 @@
       "asn": "AS51167",
       "name": "Contabo GmbH",
       "country": "FR",
-      "score": 56.87,
-      "event_count": 187,
+      "score": 56.88,
+      "event_count": 189,
       "credential_events": 23,
       "cve_events": 48
     },
@@ -3414,28 +3414,28 @@
     "NL": 57635,
     "RU": 27397,
     "IQ": 23352,
-    "US": 15775,
+    "US": 15794,
     "BR": 14537,
     "CN": 9792,
     "TR": 8384,
-    "DE": 4522,
+    "DE": 4526,
     "LT": 2582,
     "RO": 2060,
     "IN": 1993,
     "ID": 1744,
     "BG": 1381,
-    "CA": 1031,
+    "FR": 1124,
     "PL": 915,
     "GB": 889,
-    "FR": 877,
+    "CA": 787,
     "MY": 636,
-    "SG": 618,
+    "SG": 619,
     "SE": 555,
     "TH": 497,
     "CH": 425,
     "PK": 391,
     "KR": 349,
-    "HK": 301,
+    "HK": 302,
     "FI": 252,
     "SI": 191,
     "KZ": 190,
@@ -3445,7 +3445,7 @@
     "IE": 117,
     "CM": 98,
     "UZ": 98,
-    "NO": 76,
+    "NO": 77,
     "MA": 70,
     "ET": 68,
     "IR": 61,
@@ -3505,6 +3505,7 @@
     "LK": 1,
     "LY": 1,
     "MD": 1,
+    "MM": 1,
     "MU": 1,
     "MV": 1,
     "NZ": 1,
