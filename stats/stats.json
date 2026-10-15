@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-15T18:01:26.107729Z",
+  "generated_at": "2026-10-15T19:00:47.048003Z",
   "period_days": 90,
-  "total_events": 209626,
-  "unique_ips": 5801,
+  "total_events": 209651,
+  "unique_ips": 5808,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 3113,
-    "panospot:honeypot-01": 620,
+    "citrixpot:honeypot-01": 3118,
+    "panospot:honeypot-01": 630,
     "ivantipot:honeypot-01": 4009,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 77433,
-    "bigippot:honeypot-01": 25693,
-    "sshppot:honeypot-01": 55325,
-    "front:honeypot-01": 43171
+    "fortipot:honeypot-01": 77438,
+    "bigippot:honeypot-01": 25696,
+    "sshppot:honeypot-01": 55326,
+    "front:honeypot-01": 43172
   },
   "events_per_day": {
     "2026-08-28": {
@@ -401,21 +401,21 @@
       "total": 5616
     },
     "2026-10-15": {
-      "front:honeypot-01": 318,
-      "bigippot:honeypot-01": 274,
-      "fortipot:honeypot-01": 519,
-      "sshppot:honeypot-01": 581,
-      "panospot:honeypot-01": 22,
+      "front:honeypot-01": 319,
+      "bigippot:honeypot-01": 277,
+      "fortipot:honeypot-01": 524,
+      "sshppot:honeypot-01": 582,
+      "panospot:honeypot-01": 32,
       "ivantipot:honeypot-01": 110,
-      "citrixpot:honeypot-01": 238,
-      "total": 2062
+      "citrixpot:honeypot-01": 243,
+      "total": 2087
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 577
+      "count": 578
     },
     {
       "username": "root",
@@ -674,7 +674,7 @@
     },
     {
       "username": "support",
-      "count": 577
+      "count": 578
     },
     {
       "username": "user",
@@ -748,7 +748,7 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 577
+      "count": 578
     },
     {
       "password": "(empty)",
@@ -829,12 +829,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 130716,
+      "attempt_count": 130717,
       "unique_ips": 1642,
       "unique_pairs": 99602,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 130716
+      "unknown_outcome_count": 130717
     },
     "top_source_ips": [
       {
@@ -1093,14 +1093,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 480,
+        "attempt_count": 481,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-15T17:44:33Z",
+        "last_seen": "2026-10-15T18:14:57Z",
         "success_count": 0
       },
       {
@@ -1795,14 +1795,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 480,
+        "attempt_count": 481,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-15T17:44:33Z",
+        "last_seen": "2026-10-15T18:14:57Z",
         "success_count": 0
       },
       {
@@ -2104,7 +2104,7 @@
       {
         "username": "support",
         "password": "support",
-        "count": 577,
+        "count": 578,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2558,7 +2558,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "count": 6746
+      "count": 6747
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2567,9 +2567,9 @@
   ],
   "method_counts": {
     "POST": 78756,
-    "GET": 70404,
-    "SSH": 55324,
-    "PRI": 154,
+    "GET": 70425,
+    "SSH": 55325,
+    "PRI": 155,
     "HEAD": 127,
     "PROPFIND": 80,
     "OPTIONS": 71,
@@ -2614,12 +2614,12 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 55010
+      "count": 55011
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2268
+      "count": 2270
     },
     {
       "path": "/",
@@ -2629,12 +2629,12 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1324
+      "count": 1325
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 707
+      "count": 708
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
@@ -2649,17 +2649,17 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 535
+      "count": 536
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 433
+      "count": 434
     },
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 404
+      "count": 405
     },
     {
       "path": "/logincheck",
@@ -3147,8 +3147,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 308,
-      "event_count": 6125
+      "ip_count": 309,
+      "event_count": 6126
     },
     {
       "asn": "AS218785",
@@ -3225,7 +3225,7 @@
       "name": "Censys, Inc.",
       "country": "US",
       "ip_count": 92,
-      "event_count": 857
+      "event_count": 862
     }
   ],
   "bad_asns": [
@@ -3412,21 +3412,21 @@
   ],
   "events_by_country": {
     "NL": 57417,
-    "US": 30067,
+    "US": 30073,
     "RU": 27397,
     "IQ": 23352,
-    "CN": 9791,
+    "CN": 9792,
     "TR": 8384,
-    "DE": 5337,
+    "DE": 5339,
     "LT": 2582,
     "RO": 2060,
     "IN": 1993,
     "ID": 1744,
     "BG": 1381,
     "CA": 1031,
-    "PL": 913,
+    "PL": 914,
     "GB": 889,
-    "FR": 872,
+    "FR": 877,
     "SG": 618,
     "SE": 555,
     "TH": 497,
