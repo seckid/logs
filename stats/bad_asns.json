@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T11:04:37.774742Z",
+  "generated_at": "2026-10-16T12:02:56.017851Z",
   "period_days": 90,
   "asns": [
     {
@@ -56,10 +56,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "GB",
+      "country": "BR",
       "score": 88.5,
-      "event_count": 14339,
-      "ip_count": 496,
+      "event_count": 14340,
+      "ip_count": 497,
       "credential_events": 57,
       "cve_events": 49,
       "honeypots": [
@@ -193,6 +193,27 @@
       ]
     },
     {
+      "asn": "AS211486",
+      "name": "Alferov Aleksey Aleksandrovich",
+      "country": "NL",
+      "score": 65.8,
+      "event_count": 31541,
+      "ip_count": 10,
+      "credential_events": 31522,
+      "cve_events": 1,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=31522",
+        "cve_events=1",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS204428",
       "name": "SS-Net",
       "country": "RO",
@@ -253,25 +274,6 @@
       "reasons": [
         "credential_events=191",
         "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS211486",
-      "name": "Alferov Aleksey Aleksandrovich",
-      "country": "NL",
-      "score": 60.0,
-      "event_count": 31532,
-      "ip_count": 10,
-      "credential_events": 31522,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=31522",
-        "multi_honeypot=2"
       ]
     },
     {
@@ -526,9 +528,9 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "score": 53.31,
-      "event_count": 1655,
-      "ip_count": 274,
+      "score": 53.33,
+      "event_count": 1667,
+      "ip_count": 276,
       "credential_events": 0,
       "cve_events": 53,
       "honeypots": [
@@ -841,16 +843,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 41.09,
-      "event_count": 545,
+      "event_count": 546,
       "ip_count": 3,
-      "credential_events": 545,
+      "credential_events": 546,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=545"
+        "credential_events=546"
       ]
     },
     {
@@ -890,6 +892,25 @@
       "reasons": [
         "credential_events=1",
         "cve_events=42",
+        "multi_honeypot=2"
+      ]
+    },
+    {
+      "asn": "AS12586",
+      "name": "GHOSTnet GmbH",
+      "country": "DE",
+      "score": 40.48,
+      "event_count": 242,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 110,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=110",
         "multi_honeypot=2"
       ]
     },
@@ -1035,23 +1056,6 @@
       "ai_threat_level": null,
       "reasons": [
         "cve_events=165"
-      ]
-    },
-    {
-      "asn": "AS12586",
-      "name": "GHOSTnet GmbH",
-      "country": "DE",
-      "score": 30.22,
-      "event_count": 110,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 110,
-      "honeypots": [
-        "citrixpot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=110"
       ]
     }
   ]

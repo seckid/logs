@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T11:04:37.774742Z",
+  "generated_at": "2026-10-16T12:02:56.017851Z",
   "period_days": 90,
-  "total_events": 210407,
-  "unique_ips": 5922,
+  "total_events": 210562,
+  "unique_ips": 5925,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 3242,
+    "citrixpot:honeypot-01": 3251,
     "panospot:honeypot-01": 652,
     "ivantipot:honeypot-01": 4098,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 77519,
-    "bigippot:honeypot-01": 25880,
-    "sshppot:honeypot-01": 55461,
-    "front:honeypot-01": 43293
+    "bigippot:honeypot-01": 26024,
+    "sshppot:honeypot-01": 55462,
+    "front:honeypot-01": 43294
   },
   "events_per_day": {
     "2026-08-28": {
@@ -412,20 +412,20 @@
     },
     "2026-10-16": {
       "fortipot:honeypot-01": 66,
-      "sshppot:honeypot-01": 131,
-      "bigippot:honeypot-01": 103,
+      "sshppot:honeypot-01": 132,
+      "bigippot:honeypot-01": 246,
       "ivantipot:honeypot-01": 75,
-      "citrixpot:honeypot-01": 110,
-      "front:honeypot-01": 47,
+      "citrixpot:honeypot-01": 119,
+      "front:honeypot-01": 48,
       "panospot:honeypot-01": 18,
-      "total": 550
+      "total": 704
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 594
+      "count": 595
     },
     {
       "username": "root",
@@ -684,7 +684,7 @@
     },
     {
       "username": "support",
-      "count": 594
+      "count": 595
     },
     {
       "username": "user",
@@ -758,7 +758,7 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 594
+      "count": 595
     },
     {
       "password": "(empty)",
@@ -839,12 +839,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 130853,
+      "attempt_count": 130854,
       "unique_ips": 1665,
       "unique_pairs": 99622,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 130853
+      "unknown_outcome_count": 130854
     },
     "top_source_ips": [
       {
@@ -1103,14 +1103,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 495,
+        "attempt_count": 496,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-16T10:36:25Z",
+        "last_seen": "2026-10-16T11:39:38Z",
         "success_count": 0
       },
       {
@@ -1805,14 +1805,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 495,
+        "attempt_count": 496,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-16T10:36:25Z",
+        "last_seen": "2026-10-16T11:39:38Z",
         "success_count": 0
       },
       {
@@ -2114,7 +2114,7 @@
       {
         "username": "support",
         "password": "support",
-        "count": 594,
+        "count": 595,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2575,9 +2575,9 @@
     }
   ],
   "method_counts": {
-    "POST": 78839,
-    "GET": 70882,
-    "SSH": 55460,
+    "POST": 78935,
+    "GET": 70940,
+    "SSH": 55461,
     "PRI": 162,
     "HEAD": 128,
     "PROPFIND": 81,
@@ -2624,22 +2624,22 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 55142
+      "count": 55143
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2305
+      "count": 2308
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1857
+      "count": 1858
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1348
+      "count": 1349
     },
     {
       "path": "/",
@@ -2664,7 +2664,7 @@
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 443
+      "count": 444
     },
     {
       "path": "/robots.txt",
@@ -2674,7 +2674,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 337
+      "count": 338
     },
     {
       "path": "/logincheck",
@@ -2775,7 +2775,7 @@
     },
     {
       "cve": "CVE-2026-88771",
-      "count": 208,
+      "count": 209,
       "sources": [
         "citrixpot:honeypot-01"
       ],
@@ -3095,7 +3095,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 3250,
+    "Critical": 3251,
     "High": 163
   },
   "top_asns": [
@@ -3104,7 +3104,7 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "NL",
       "ip_count": 10,
-      "event_count": 31532
+      "event_count": 31541
     },
     {
       "asn": "AS210328",
@@ -3123,9 +3123,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "GB",
-      "ip_count": 496,
-      "event_count": 14339
+      "country": "BR",
+      "ip_count": 497,
+      "event_count": 14340
     },
     {
       "asn": "AS48090",
@@ -3194,8 +3194,8 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "ip_count": 274,
-      "event_count": 1655
+      "ip_count": 276,
+      "event_count": 1667
     },
     {
       "asn": "AS58477",
@@ -3262,9 +3262,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "GB",
+      "country": "BR",
       "score": 88.5,
-      "event_count": 14339,
+      "event_count": 14340,
       "credential_events": 57,
       "cve_events": 49
     },
@@ -3314,6 +3314,15 @@
       "cve_events": 21
     },
     {
+      "asn": "AS211486",
+      "name": "Alferov Aleksey Aleksandrovich",
+      "country": "NL",
+      "score": 65.8,
+      "event_count": 31541,
+      "credential_events": 31522,
+      "cve_events": 1
+    },
+    {
       "asn": "AS204428",
       "name": "SS-Net",
       "country": "RO",
@@ -3338,15 +3347,6 @@
       "score": 61.27,
       "event_count": 636,
       "credential_events": 191,
-      "cve_events": 0
-    },
-    {
-      "asn": "AS211486",
-      "name": "Alferov Aleksey Aleksandrovich",
-      "country": "NL",
-      "score": 60.0,
-      "event_count": 31532,
-      "credential_events": 31522,
       "cve_events": 0
     },
     {
@@ -3423,21 +3423,22 @@
     }
   ],
   "events_by_country": {
-    "NL": 57775,
+    "NL": 57784,
     "RU": 27398,
     "IQ": 23352,
-    "US": 17016,
-    "GB": 15331,
+    "US": 17028,
+    "BR": 14565,
     "CN": 9828,
     "TR": 8384,
-    "DE": 6786,
+    "DE": 6918,
     "LT": 2586,
     "RO": 2060,
     "ID": 1744,
     "BG": 1382,
+    "GB": 992,
     "CA": 801,
     "FR": 768,
-    "PL": 626,
+    "PL": 627,
     "SG": 593,
     "SE": 555,
     "TH": 497,
@@ -3446,7 +3447,6 @@
     "KR": 355,
     "HK": 318,
     "FI": 252,
-    "BR": 225,
     "SI": 191,
     "KZ": 190,
     "IN": 175,
