@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T01:04:18.725788Z",
+  "generated_at": "2026-10-16T02:05:09.578130Z",
   "period_days": 90,
-  "total_events": 209885,
-  "unique_ips": 5831,
+  "total_events": 209964,
+  "unique_ips": 5834,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 3134,
+    "citrixpot:honeypot-01": 3204,
     "panospot:honeypot-01": 634,
     "ivantipot:honeypot-01": 4024,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 77465,
-    "bigippot:honeypot-01": 25783,
-    "sshppot:honeypot-01": 55335,
-    "front:honeypot-01": 43248
+    "fortipot:honeypot-01": 77466,
+    "bigippot:honeypot-01": 25788,
+    "sshppot:honeypot-01": 55336,
+    "front:honeypot-01": 43250
   },
   "events_per_day": {
     "2026-08-28": {
@@ -411,20 +411,20 @@
       "total": 2293
     },
     "2026-10-16": {
-      "fortipot:honeypot-01": 12,
-      "sshppot:honeypot-01": 5,
-      "bigippot:honeypot-01": 6,
+      "fortipot:honeypot-01": 13,
+      "sshppot:honeypot-01": 6,
+      "bigippot:honeypot-01": 11,
       "ivantipot:honeypot-01": 1,
-      "citrixpot:honeypot-01": 2,
-      "front:honeypot-01": 2,
-      "total": 28
+      "citrixpot:honeypot-01": 72,
+      "front:honeypot-01": 4,
+      "total": 107
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 583
+      "count": 584
     },
     {
       "username": "root",
@@ -683,7 +683,7 @@
     },
     {
       "username": "support",
-      "count": 583
+      "count": 584
     },
     {
       "username": "user",
@@ -757,7 +757,7 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 583
+      "count": 584
     },
     {
       "password": "(empty)",
@@ -838,12 +838,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 130726,
+      "attempt_count": 130727,
       "unique_ips": 1643,
       "unique_pairs": 99602,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 130726
+      "unknown_outcome_count": 130727
     },
     "top_source_ips": [
       {
@@ -1102,14 +1102,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 486,
+        "attempt_count": 487,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-16T00:03:53Z",
+        "last_seen": "2026-10-16T01:25:47Z",
         "success_count": 0
       },
       {
@@ -1804,14 +1804,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 486,
+        "attempt_count": 487,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-16T00:03:53Z",
+        "last_seen": "2026-10-16T01:25:47Z",
         "success_count": 0
       },
       {
@@ -2113,7 +2113,7 @@
       {
         "username": "support",
         "password": "support",
-        "count": 583,
+        "count": 584,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2575,9 +2575,9 @@
     }
   ],
   "method_counts": {
-    "POST": 78759,
-    "GET": 70606,
-    "SSH": 55334,
+    "POST": 78829,
+    "GET": 70612,
+    "SSH": 55335,
     "PRI": 157,
     "HEAD": 127,
     "PROPFIND": 80,
@@ -2623,12 +2623,12 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 55019
+      "count": 55020
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2275
+      "count": 2276
     },
     {
       "path": "/",
@@ -2638,7 +2638,7 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1326
+      "count": 1327
     },
     {
       "path": "/",
@@ -2668,7 +2668,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 407
+      "count": 408
     },
     {
       "path": "/logincheck",
@@ -2800,6 +2800,31 @@
       ]
     },
     {
+      "cve": "CVE-2025-5777",
+      "count": 78,
+      "sources": [
+        "citrixpot:honeypot-01"
+      ],
+      "description": "Malformed doAuthentication.do (CitrixBleed-2 style)",
+      "severity": "High",
+      "cvss_score": null,
+      "sample_ips": [
+        "138.226.239.5",
+        "143.110.243.1",
+        "143.244.168.161",
+        "144.31.236.17",
+        "168.144.154.100",
+        "185.136.15.2",
+        "207.154.197.113",
+        "23.80.82.89"
+      ],
+      "sample_paths": [
+        "/nf/auth/doAuthentication.do",
+        "/p/u/doAuthentication.do",
+        "/vpn/tm/doAuthentication.do"
+      ]
+    },
+    {
       "cve": "CVE-2025-68686",
       "count": 61,
       "sources": [
@@ -2823,29 +2848,6 @@
         "/lang//custom/sbin/init",
         "/static/lang//custom/data/config/sys_global.conf.gz",
         "/static/lang//custom/sbin/init"
-      ]
-    },
-    {
-      "cve": "CVE-2025-5777",
-      "count": 49,
-      "sources": [
-        "citrixpot:honeypot-01"
-      ],
-      "description": "Malformed doAuthentication.do (CitrixBleed-2 style)",
-      "severity": "High",
-      "cvss_score": null,
-      "sample_ips": [
-        "138.226.239.5",
-        "143.110.243.1",
-        "143.244.168.161",
-        "144.31.236.17",
-        "168.144.154.100",
-        "185.136.15.2",
-        "207.154.197.113",
-        "23.80.82.89"
-      ],
-      "sample_paths": [
-        "/p/u/doAuthentication.do"
       ]
     },
     {
@@ -2900,7 +2902,7 @@
     },
     {
       "cve": "CVE-2018-13379",
-      "count": 25,
+      "count": 26,
       "sources": [
         "fortipot:honeypot-01"
       ],
@@ -3092,8 +3094,8 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 3246,
-    "High": 130
+    "Critical": 3247,
+    "High": 159
   },
   "top_asns": [
     {
@@ -3156,8 +3158,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 310,
-      "event_count": 6183
+      "ip_count": 313,
+      "event_count": 6186
     },
     {
       "asn": "AS218785",
@@ -3421,27 +3423,27 @@
   ],
   "events_by_country": {
     "NL": 58765,
-    "US": 32035,
+    "US": 32040,
     "RU": 27397,
     "IQ": 23352,
     "CN": 9796,
     "TR": 8384,
-    "DE": 3459,
+    "DE": 3557,
     "LT": 2582,
     "RO": 2060,
     "ID": 1744,
-    "CA": 1392,
+    "GB": 1483,
     "BG": 1381,
     "FR": 1124,
-    "PL": 919,
-    "GB": 889,
+    "PL": 920,
+    "CA": 800,
     "SG": 619,
     "SE": 555,
     "TH": 497,
     "CH": 425,
     "PK": 391,
     "KR": 349,
-    "HK": 302,
+    "HK": 303,
     "FI": 252,
     "BR": 225,
     "SI": 191,
