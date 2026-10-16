@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T06:01:48.104506Z",
+  "generated_at": "2026-10-16T07:01:55.958025Z",
   "period_days": 90,
-  "total_events": 210223,
-  "unique_ips": 5896,
+  "total_events": 210275,
+  "unique_ips": 5902,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,11 +17,11 @@
   "totals_by_source": {
     "citrixpot:honeypot-01": 3235,
     "panospot:honeypot-01": 646,
-    "ivantipot:honeypot-01": 4050,
+    "ivantipot:honeypot-01": 4066,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 77492,
-    "bigippot:honeypot-01": 25837,
+    "fortipot:honeypot-01": 77504,
+    "bigippot:honeypot-01": 25861,
     "sshppot:honeypot-01": 55419,
     "front:honeypot-01": 43282
   },
@@ -411,14 +411,14 @@
       "total": 2293
     },
     "2026-10-16": {
-      "fortipot:honeypot-01": 39,
+      "fortipot:honeypot-01": 51,
       "sshppot:honeypot-01": 89,
-      "bigippot:honeypot-01": 60,
-      "ivantipot:honeypot-01": 27,
+      "bigippot:honeypot-01": 84,
+      "ivantipot:honeypot-01": 43,
       "citrixpot:honeypot-01": 103,
       "front:honeypot-01": 36,
       "panospot:honeypot-01": 12,
-      "total": 366
+      "total": 418
     }
   },
   "top_credentials": [
@@ -2563,7 +2563,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 7586
+      "count": 7589
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -2576,9 +2576,9 @@
   ],
   "method_counts": {
     "POST": 78830,
-    "GET": 70761,
+    "GET": 70809,
     "SSH": 55418,
-    "PRI": 158,
+    "PRI": 160,
     "HEAD": 128,
     "PROPFIND": 80,
     "OPTIONS": 74,
@@ -2629,7 +2629,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2293
+      "count": 2299
     },
     {
       "path": "/",
@@ -2639,7 +2639,7 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1342
+      "count": 1346
     },
     {
       "path": "/",
@@ -2649,17 +2649,17 @@
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
       "source": "ivantipot:honeypot-01",
-      "count": 573
+      "count": 576
     },
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 552
+      "count": 555
     },
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 548
+      "count": 549
     },
     {
       "path": "/logon/LogonPoint/index.html",
@@ -2672,13 +2672,13 @@
       "count": 408
     },
     {
-      "path": "/logincheck",
-      "source": "fortipot:honeypot-01",
-      "count": 335
-    },
-    {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
+      "count": 337
+    },
+    {
+      "path": "/logincheck",
+      "source": "fortipot:honeypot-01",
       "count": 335
     },
     {
@@ -2709,12 +2709,12 @@
     {
       "path": "/favicon.ico",
       "source": "ivantipot:honeypot-01",
-      "count": 200
+      "count": 204
     },
     {
       "path": "/.env",
       "source": "bigippot:honeypot-01",
-      "count": 179
+      "count": 180
     }
   ],
   "cve_attempts": [
@@ -2853,7 +2853,7 @@
     },
     {
       "cve": "CVE-2026-104935",
-      "count": 46,
+      "count": 47,
       "sources": [
         "ivantipot:honeypot-01"
       ],
@@ -3096,7 +3096,7 @@
   ],
   "cve_severity_counts": {
     "Critical": 3250,
-    "High": 160
+    "High": 161
   },
   "top_asns": [
     {
@@ -3132,7 +3132,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 29,
-      "event_count": 11233
+      "event_count": 11234
     },
     {
       "asn": "AS44589",
@@ -3159,8 +3159,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 316,
-      "event_count": 6191
+      "ip_count": 317,
+      "event_count": 6192
     },
     {
       "asn": "AS218785",
@@ -3186,9 +3186,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 250,
-      "event_count": 1883
+      "country": "DE",
+      "ip_count": 251,
+      "event_count": 1893
     },
     {
       "asn": "AS6939",
@@ -3236,26 +3236,26 @@
       "asn": "AS398324",
       "name": "Censys, Inc.",
       "country": "US",
-      "ip_count": 93,
-      "event_count": 874
+      "ip_count": 94,
+      "event_count": 893
     }
   ],
   "bad_asns": [
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "score": 93.77,
-      "event_count": 1883,
+      "country": "DE",
+      "score": 93.79,
+      "event_count": 1893,
       "credential_events": 750,
       "cve_events": 111
     },
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "US",
-      "score": 91.21,
-      "event_count": 605,
+      "country": "HK",
+      "score": 91.23,
+      "event_count": 617,
       "credential_events": 187,
       "cve_events": 67
     },
@@ -3291,7 +3291,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 11233,
+      "event_count": 11234,
       "credential_events": 8938,
       "cve_events": 0
     },
@@ -3423,21 +3423,22 @@
     }
   ],
   "events_by_country": {
-    "NL": 57476,
+    "NL": 57477,
     "RU": 27398,
     "IQ": 23352,
-    "US": 18459,
+    "US": 15991,
     "BE": 14332,
     "CN": 9797,
     "TR": 8384,
-    "DE": 4880,
+    "DE": 6775,
     "LT": 2582,
     "RO": 2060,
     "ID": 1744,
     "BG": 1382,
     "FR": 1124,
     "GB": 986,
-    "PL": 925,
+    "HK": 934,
+    "PL": 915,
     "CA": 801,
     "SG": 593,
     "SE": 555,
@@ -3445,14 +3446,13 @@
     "CH": 425,
     "PK": 395,
     "KR": 355,
-    "HK": 304,
     "FI": 252,
     "BR": 225,
     "SI": 191,
     "KZ": 190,
-    "IN": 172,
+    "IN": 175,
     "VN": 157,
-    "JP": 131,
+    "JP": 132,
     "BD": 124,
     "IE": 117,
     "CM": 98,
