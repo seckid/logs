@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T13:05:16.145008Z",
+  "generated_at": "2026-10-16T14:02:56.108631Z",
   "period_days": 90,
   "asns": [
     {
@@ -56,10 +56,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "US",
       "score": 88.5,
-      "event_count": 14341,
-      "ip_count": 497,
+      "event_count": 14342,
+      "ip_count": 498,
       "credential_events": 57,
       "cve_events": 49,
       "honeypots": [
@@ -380,8 +380,8 @@
       "name": "Alsycon B.V.",
       "country": "NL",
       "score": 55.69,
-      "event_count": 344,
-      "ip_count": 1,
+      "event_count": 345,
+      "ip_count": 2,
       "credential_events": 336,
       "cve_events": 0,
       "honeypots": [
@@ -574,10 +574,10 @@
       "name": "ONYPHE SAS",
       "country": "US",
       "score": 50.72,
-      "event_count": 358,
+      "event_count": 360,
       "ip_count": 164,
       "credential_events": 0,
-      "cve_events": 50,
+      "cve_events": 52,
       "honeypots": [
         "bigippot:honeypot-01",
         "citrixpot:honeypot-01",
@@ -588,7 +588,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "cve_events=50",
+        "cve_events=52",
         "multi_honeypot=6"
       ]
     },
@@ -736,6 +736,26 @@
       ]
     },
     {
+      "asn": "AS12586",
+      "name": "GHOSTnet GmbH",
+      "country": "DE",
+      "score": 45.75,
+      "event_count": 374,
+      "ip_count": 1,
+      "credential_events": 0,
+      "cve_events": 110,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=110",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
@@ -842,37 +862,17 @@
       "asn": "AS154383",
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
-      "score": 41.09,
-      "event_count": 547,
+      "score": 41.1,
+      "event_count": 548,
       "ip_count": 3,
-      "credential_events": 547,
+      "credential_events": 548,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=547"
-      ]
-    },
-    {
-      "asn": "AS59257",
-      "name": "CMPak Limited",
-      "country": "PK",
-      "score": 40.6,
-      "event_count": 50,
-      "ip_count": 2,
-      "credential_events": 1,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=1",
-        "cve_events=42",
-        "multi_honeypot=2"
+        "credential_events=548"
       ]
     },
     {
@@ -896,21 +896,22 @@
       ]
     },
     {
-      "asn": "AS12586",
-      "name": "GHOSTnet GmbH",
-      "country": "DE",
-      "score": 40.48,
-      "event_count": 242,
-      "ip_count": 1,
-      "credential_events": 0,
-      "cve_events": 110,
+      "asn": "AS59257",
+      "name": "CMPak Limited",
+      "country": "PK",
+      "score": 40.6,
+      "event_count": 50,
+      "ip_count": 2,
+      "credential_events": 1,
+      "cve_events": 42,
       "honeypots": [
         "bigippot:honeypot-01",
-        "citrixpot:honeypot-01"
+        "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "cve_events=110",
+        "credential_events=1",
+        "cve_events=42",
         "multi_honeypot=2"
       ]
     },
