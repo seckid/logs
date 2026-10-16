@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-16T22:01:47.204881Z",
+  "generated_at": "2026-10-16T23:03:11.205530Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "score": 93.84,
-      "event_count": 1918,
-      "ip_count": 259,
-      "credential_events": 750,
+      "country": "GB",
+      "score": 93.96,
+      "event_count": 1982,
+      "ip_count": 260,
+      "credential_events": 814,
       "cve_events": 111,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -22,7 +22,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=750",
+        "credential_events=814",
         "cve_events=111",
         "multi_honeypot=7",
         "research_or_cloud_with_hostile_density"
@@ -335,6 +335,30 @@
       ]
     },
     {
+      "asn": "AS4134",
+      "name": "CHINANET BACKBONE",
+      "country": "CN",
+      "score": 57.84,
+      "event_count": 172,
+      "ip_count": 21,
+      "credential_events": 75,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=75",
+        "multi_honeypot=7"
+      ]
+    },
+    {
       "asn": "AS208137",
       "name": "Feo Prest SRL",
       "country": "DE",
@@ -455,30 +479,6 @@
         "credential_events=66",
         "cve_events=1",
         "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS4134",
-      "name": "CHINANET BACKBONE",
-      "country": "CN",
-      "score": 54.83,
-      "event_count": 166,
-      "ip_count": 20,
-      "credential_events": 69,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=69",
-        "multi_honeypot=7"
       ]
     },
     {
@@ -800,6 +800,25 @@
       ]
     },
     {
+      "asn": "AS137718",
+      "name": "Beijing Volcano Engine Technology Co., Ltd.",
+      "country": "CN",
+      "score": 42.63,
+      "event_count": 67,
+      "ip_count": 9,
+      "credential_events": 65,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=65",
+        "multi_honeypot=2"
+      ]
+    },
+    {
       "asn": "AS132203",
       "name": "Tencent Building, Kejizhongyi Avenue",
       "country": "SG",
@@ -841,25 +860,6 @@
       ]
     },
     {
-      "asn": "AS137718",
-      "name": "Beijing Volcano Engine Technology Co., Ltd.",
-      "country": "CN",
-      "score": 41.13,
-      "event_count": 64,
-      "ip_count": 8,
-      "credential_events": 62,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=62",
-        "multi_honeypot=2"
-      ]
-    },
-    {
       "asn": "AS154383",
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
@@ -877,14 +877,14 @@
       ]
     },
     {
-      "asn": "AS150436",
-      "name": "Byteplus Pte. Ltd.",
-      "country": "SG",
-      "score": 40.6,
-      "event_count": 50,
-      "ip_count": 2,
+      "asn": "AS59257",
+      "name": "CMPak Limited",
+      "country": "PK",
+      "score": 40.7,
+      "event_count": 99,
+      "ip_count": 3,
       "credential_events": 1,
-      "cve_events": 42,
+      "cve_events": 84,
       "honeypots": [
         "bigippot:honeypot-01",
         "sshppot:honeypot-01"
@@ -892,14 +892,14 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=1",
-        "cve_events=42",
+        "cve_events=84",
         "multi_honeypot=2"
       ]
     },
     {
-      "asn": "AS59257",
-      "name": "CMPak Limited",
-      "country": "PK",
+      "asn": "AS150436",
+      "name": "Byteplus Pte. Ltd.",
+      "country": "SG",
       "score": 40.6,
       "event_count": 50,
       "ip_count": 2,
