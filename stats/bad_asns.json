@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-17T07:02:00.550419Z",
+  "generated_at": "2026-10-17T08:00:54.185259Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "GB",
+      "country": "IN",
       "score": 94.91,
-      "event_count": 2456,
-      "ip_count": 261,
+      "event_count": 2457,
+      "ip_count": 262,
       "credential_events": 1287,
       "cve_events": 111,
       "honeypots": [
@@ -58,8 +58,8 @@
       "name": "Google LLC",
       "country": "TW",
       "score": 88.5,
-      "event_count": 14483,
-      "ip_count": 510,
+      "event_count": 14484,
+      "ip_count": 511,
       "credential_events": 57,
       "cve_events": 49,
       "honeypots": [
@@ -447,9 +447,9 @@
       "name": "Korea Telecom",
       "country": "KR",
       "score": 55.68,
-      "event_count": 339,
-      "ip_count": 315,
-      "credential_events": 333,
+      "event_count": 340,
+      "ip_count": 316,
+      "credential_events": 334,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -458,8 +458,30 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=333",
+        "credential_events=334",
         "multi_honeypot=3"
+      ]
+    },
+    {
+      "asn": "AS4760",
+      "name": "HKT Limited",
+      "country": "HK",
+      "score": 55.41,
+      "event_count": 53,
+      "ip_count": 16,
+      "credential_events": 13,
+      "cve_events": 36,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "ivantipot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=13",
+        "cve_events=36",
+        "multi_honeypot=4"
       ]
     },
     {
@@ -480,28 +502,6 @@
       "reasons": [
         "credential_events=147",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS4760",
-      "name": "HKT Limited",
-      "country": "HK",
-      "score": 54.9,
-      "event_count": 52,
-      "ip_count": 15,
-      "credential_events": 12,
-      "cve_events": 36,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "ivantipot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=12",
-        "cve_events=36",
-        "multi_honeypot=4"
       ]
     },
     {
@@ -679,16 +679,16 @@
       "name": "IQNETWORKS Baghdad",
       "country": "IQ",
       "score": 50.0,
-      "event_count": 37122,
+      "event_count": 39456,
       "ip_count": 1,
-      "credential_events": 37122,
+      "credential_events": 39456,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=37122"
+        "credential_events=39456"
       ]
     },
     {
@@ -918,6 +918,25 @@
       ]
     },
     {
+      "asn": "AS202226",
+      "name": "Emil Vitukhnovskii trading as Great Flower",
+      "country": "FI",
+      "score": 40.2,
+      "event_count": 101,
+      "ip_count": 2,
+      "credential_events": 0,
+      "cve_events": 57,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "cve_events=57",
+        "multi_honeypot=2"
+      ]
+    },
+    {
       "asn": "AS36903",
       "name": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
       "country": "MA",
@@ -933,6 +952,25 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=60",
+        "multi_honeypot=2"
+      ]
+    },
+    {
+      "asn": "AS38365",
+      "name": "Beijing Baidu Netcom Science and Technology Co., Ltd.",
+      "country": "CN",
+      "score": 37.11,
+      "event_count": 55,
+      "ip_count": 7,
+      "credential_events": 54,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=54",
         "multi_honeypot=2"
       ]
     },
@@ -982,7 +1020,7 @@
       "name": "Microsoft Corporation",
       "country": "KR",
       "score": 34.0,
-      "event_count": 6417,
+      "event_count": 6418,
       "ip_count": 327,
       "credential_events": 8,
       "cve_events": 0,
@@ -1021,44 +1059,6 @@
       "reasons": [
         "credential_events=24",
         "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS39351",
-      "name": "31173 Services AB",
-      "country": "DE",
-      "score": 32.22,
-      "event_count": 109,
-      "ip_count": 9,
-      "credential_events": 24,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=24",
-        "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS197556",
-      "name": "Kar-Tel LLC",
-      "country": "KZ",
-      "score": 30.37,
-      "event_count": 187,
-      "ip_count": 2,
-      "credential_events": 0,
-      "cve_events": 165,
-      "honeypots": [
-        "bigippot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=165"
       ]
     }
   ]
