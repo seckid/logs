@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T20:02:52.070326Z",
+  "generated_at": "2026-10-18T21:01:43.992799Z",
   "period_days": 90,
   "asns": [
     {
@@ -32,9 +32,9 @@
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
       "country": "US",
-      "score": 91.28,
-      "event_count": 641,
-      "ip_count": 131,
+      "score": 91.29,
+      "event_count": 646,
+      "ip_count": 132,
       "credential_events": 192,
       "cve_events": 67,
       "honeypots": [
@@ -56,10 +56,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "BR",
       "score": 88.5,
-      "event_count": 14784,
-      "ip_count": 518,
+      "event_count": 14785,
+      "ip_count": 519,
       "credential_events": 57,
       "cve_events": 49,
       "honeypots": [
@@ -104,10 +104,10 @@
     {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "GB",
-      "score": 71.9,
-      "event_count": 449,
-      "ip_count": 51,
+      "country": "US",
+      "score": 71.91,
+      "event_count": 457,
+      "ip_count": 53,
       "credential_events": 42,
       "cve_events": 85,
       "honeypots": [
@@ -152,10 +152,10 @@
       "asn": "AS204428",
       "name": "SS-Net",
       "country": "RO",
-      "score": 67.55,
-      "event_count": 3775,
+      "score": 68.0,
+      "event_count": 4001,
       "ip_count": 25,
-      "credential_events": 3767,
+      "credential_events": 3993,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -166,7 +166,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=3767",
+        "credential_events=3993",
         "multi_honeypot=5"
       ]
     },
@@ -277,13 +277,37 @@
       ]
     },
     {
+      "asn": "AS4134",
+      "name": "CHINANET BACKBONE",
+      "country": "CN",
+      "score": 60.38,
+      "event_count": 192,
+      "ip_count": 22,
+      "credential_events": 88,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=88",
+        "multi_honeypot=7"
+      ]
+    },
+    {
       "asn": "AS37963",
       "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "country": "CN",
       "score": 60.0,
-      "event_count": 9257,
+      "event_count": 9263,
       "ip_count": 34,
-      "credential_events": 9230,
+      "credential_events": 9236,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -291,7 +315,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=9230",
+        "credential_events=9236",
         "multi_honeypot=2"
       ]
     },
@@ -332,30 +356,6 @@
       "reasons": [
         "credential_events=2214",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS4134",
-      "name": "CHINANET BACKBONE",
-      "country": "CN",
-      "score": 57.85,
-      "event_count": 175,
-      "ip_count": 21,
-      "credential_events": 75,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=75",
-        "multi_honeypot=7"
       ]
     },
     {
@@ -571,6 +571,26 @@
       ]
     },
     {
+      "asn": "AS132203",
+      "name": "Tencent Building, Kejizhongyi Avenue",
+      "country": "ID",
+      "score": 51.65,
+      "event_count": 76,
+      "ip_count": 4,
+      "credential_events": 23,
+      "cve_events": 49,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=23",
+        "cve_events=49",
+        "multi_honeypot=2"
+      ]
+    },
+    {
       "asn": "AS12586",
       "name": "GHOSTnet GmbH",
       "country": "DE",
@@ -719,9 +739,9 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 48.58,
-      "event_count": 1539,
-      "ip_count": 276,
+      "score": 48.59,
+      "event_count": 1545,
+      "ip_count": 279,
       "credential_events": 3,
       "cve_events": 30,
       "honeypots": [
@@ -841,40 +861,20 @@
       ]
     },
     {
-      "asn": "AS132203",
-      "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "SG",
-      "score": 42.11,
-      "event_count": 57,
-      "ip_count": 3,
-      "credential_events": 4,
-      "cve_events": 49,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=4",
-        "cve_events=49",
-        "multi_honeypot=2"
-      ]
-    },
-    {
       "asn": "AS154383",
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 41.15,
-      "event_count": 574,
+      "event_count": 575,
       "ip_count": 3,
-      "credential_events": 574,
+      "credential_events": 575,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=574"
+        "credential_events=575"
       ]
     },
     {
@@ -994,6 +994,31 @@
       ]
     },
     {
+      "asn": "AS16276",
+      "name": "OVH SAS",
+      "country": "DE",
+      "score": 34.87,
+      "event_count": 283,
+      "ip_count": 76,
+      "credential_events": 27,
+      "cve_events": 1,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=27",
+        "cve_events=1",
+        "multi_honeypot=6",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS403005",
       "name": "Blatant Technologies, LLC",
       "country": "DE",
@@ -1038,27 +1063,6 @@
         "credential_events=8",
         "multi_honeypot=7",
         "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS43357",
-      "name": "Owl Limited",
-      "country": "GB",
-      "score": 32.22,
-      "event_count": 110,
-      "ip_count": 7,
-      "credential_events": 24,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=24",
-        "multi_honeypot=4"
       ]
     }
   ]
