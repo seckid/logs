@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T17:02:07.972069Z",
+  "generated_at": "2026-10-18T18:00:47.551099Z",
   "period_days": 90,
   "asns": [
     {
@@ -56,10 +56,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BR",
+      "country": "US",
       "score": 88.5,
-      "event_count": 14490,
-      "ip_count": 514,
+      "event_count": 14500,
+      "ip_count": 515,
       "credential_events": 57,
       "cve_events": 49,
       "honeypots": [
@@ -149,6 +149,28 @@
       ]
     },
     {
+      "asn": "AS204428",
+      "name": "SS-Net",
+      "country": "RO",
+      "score": 66.63,
+      "event_count": 3314,
+      "ip_count": 25,
+      "credential_events": 3306,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "ivantipot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=3306",
+        "multi_honeypot=5"
+      ]
+    },
+    {
       "asn": "AS210328",
       "name": "AO ALMAZ",
       "country": "RU",
@@ -189,28 +211,6 @@
       "reasons": [
         "credential_events=58",
         "cve_events=21",
-        "multi_honeypot=5"
-      ]
-    },
-    {
-      "asn": "AS204428",
-      "name": "SS-Net",
-      "country": "RO",
-      "score": 66.17,
-      "event_count": 3087,
-      "ip_count": 25,
-      "credential_events": 3079,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=3079",
         "multi_honeypot=5"
       ]
     },
@@ -865,16 +865,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 41.14,
-      "event_count": 571,
+      "event_count": 572,
       "ip_count": 3,
-      "credential_events": 571,
+      "credential_events": 572,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=571"
+        "credential_events=572"
       ]
     },
     {
@@ -1018,9 +1018,9 @@
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "US",
+      "country": "KR",
       "score": 34.0,
-      "event_count": 6425,
+      "event_count": 6475,
       "ip_count": 331,
       "credential_events": 8,
       "cve_events": 0,
