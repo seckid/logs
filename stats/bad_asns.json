@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-18T21:01:43.992799Z",
+  "generated_at": "2026-10-18T22:00:53.393008Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "IN",
-      "score": 94.91,
-      "event_count": 2457,
-      "ip_count": 262,
+      "country": "US",
+      "score": 94.92,
+      "event_count": 2458,
+      "ip_count": 263,
       "credential_events": 1287,
       "cve_events": 111,
       "honeypots": [
@@ -56,10 +56,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BR",
+      "country": "FI",
       "score": 88.5,
-      "event_count": 14785,
-      "ip_count": 519,
+      "event_count": 14786,
+      "ip_count": 520,
       "credential_events": 57,
       "cve_events": 49,
       "honeypots": [
@@ -130,8 +130,8 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 11235,
-      "ip_count": 29,
+      "event_count": 11236,
+      "ip_count": 30,
       "credential_events": 8938,
       "cve_events": 0,
       "honeypots": [
@@ -152,10 +152,10 @@
       "asn": "AS204428",
       "name": "SS-Net",
       "country": "RO",
-      "score": 68.0,
-      "event_count": 4001,
+      "score": 68.45,
+      "event_count": 4224,
       "ip_count": 25,
-      "credential_events": 3993,
+      "credential_events": 4216,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -166,7 +166,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=3993",
+        "credential_events=4216",
         "multi_honeypot=5"
       ]
     },
@@ -280,10 +280,10 @@
       "asn": "AS4134",
       "name": "CHINANET BACKBONE",
       "country": "CN",
-      "score": 60.38,
-      "event_count": 192,
+      "score": 60.41,
+      "event_count": 203,
       "ip_count": 22,
-      "credential_events": 88,
+      "credential_events": 99,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -296,7 +296,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=88",
+        "credential_events=99",
         "multi_honeypot=7"
       ]
     },
@@ -420,6 +420,26 @@
         "credential_events=66",
         "cve_events=3",
         "multi_honeypot=5"
+      ]
+    },
+    {
+      "asn": "AS132203",
+      "name": "Tencent Building, Kejizhongyi Avenue",
+      "country": "ID",
+      "score": 56.17,
+      "event_count": 85,
+      "ip_count": 4,
+      "credential_events": 32,
+      "cve_events": 49,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=32",
+        "cve_events=49",
+        "multi_honeypot=2"
       ]
     },
     {
@@ -571,26 +591,6 @@
       ]
     },
     {
-      "asn": "AS132203",
-      "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "ID",
-      "score": 51.65,
-      "event_count": 76,
-      "ip_count": 4,
-      "credential_events": 23,
-      "cve_events": 49,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=23",
-        "cve_events=49",
-        "multi_honeypot=2"
-      ]
-    },
-    {
       "asn": "AS12586",
       "name": "GHOSTnet GmbH",
       "country": "DE",
@@ -615,9 +615,9 @@
       "asn": "AS213412",
       "name": "ONYPHE SAS",
       "country": "US",
-      "score": 50.78,
-      "event_count": 392,
-      "ip_count": 172,
+      "score": 50.79,
+      "event_count": 395,
+      "ip_count": 175,
       "credential_events": 0,
       "cve_events": 64,
       "honeypots": [
@@ -865,16 +865,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 41.15,
-      "event_count": 575,
+      "event_count": 576,
       "ip_count": 3,
-      "credential_events": 575,
+      "credential_events": 576,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=575"
+        "credential_events=576"
       ]
     },
     {
@@ -956,6 +956,31 @@
       ]
     },
     {
+      "asn": "AS16276",
+      "name": "OVH SAS",
+      "country": "DE",
+      "score": 37.88,
+      "event_count": 289,
+      "ip_count": 76,
+      "credential_events": 33,
+      "cve_events": 1,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=33",
+        "cve_events=1",
+        "multi_honeypot=6",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS38365",
       "name": "Beijing Baidu Netcom Science and Technology Co., Ltd.",
       "country": "CN",
@@ -991,31 +1016,6 @@
       "reasons": [
         "credential_events=51",
         "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS16276",
-      "name": "OVH SAS",
-      "country": "DE",
-      "score": 34.87,
-      "event_count": 283,
-      "ip_count": 76,
-      "credential_events": 27,
-      "cve_events": 1,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=27",
-        "cve_events=1",
-        "multi_honeypot=6",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
