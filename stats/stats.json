@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-18T13:01:02.324553Z",
+  "generated_at": "2026-10-18T14:00:37.971530Z",
   "period_days": 90,
-  "total_events": 236316,
-  "unique_ips": 6119,
+  "total_events": 236595,
+  "unique_ips": 6132,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 3619,
+    "citrixpot:honeypot-01": 3640,
     "panospot:honeypot-01": 691,
-    "ivantipot:honeypot-01": 4304,
+    "ivantipot:honeypot-01": 4307,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 77865,
-    "bigippot:honeypot-01": 26474,
+    "fortipot:honeypot-01": 78104,
+    "bigippot:honeypot-01": 26490,
     "sshppot:honeypot-01": 78502,
     "front:honeypot-01": 44599
   },
@@ -431,14 +431,14 @@
       "total": 23631
     },
     "2026-10-18": {
-      "ivantipot:honeypot-01": 6,
-      "bigippot:honeypot-01": 43,
-      "citrixpot:honeypot-01": 2,
+      "ivantipot:honeypot-01": 9,
+      "bigippot:honeypot-01": 59,
+      "citrixpot:honeypot-01": 23,
       "sshppot:honeypot-01": 5,
-      "fortipot:honeypot-01": 130,
+      "fortipot:honeypot-01": 370,
       "front:honeypot-01": 5,
       "panospot:honeypot-01": 9,
-      "total": 200
+      "total": 480
     }
   },
   "top_credentials": [
@@ -859,12 +859,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 154033,
+      "attempt_count": 154268,
       "unique_ips": 1709,
-      "unique_pairs": 101578,
+      "unique_pairs": 101800,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 154033
+      "unknown_outcome_count": 154268
     },
     "top_source_ips": [
       {
@@ -1512,59 +1512,59 @@
         "success_count": 0
       },
       {
-        "ip": "209.97.182.117",
-        "asn": "AS14061",
-        "asn_name": "DigitalOcean, LLC",
-        "attempt_count": 112,
-        "unique_usernames": 56,
-        "unique_passwords": 93,
+        "ip": "80.94.95.158",
+        "asn": "AS204428",
+        "asn_name": "SS-Net",
+        "attempt_count": 119,
+        "unique_usernames": 116,
+        "unique_passwords": 112,
         "honeypots": [
-          "sshppot:honeypot-01"
+          "fortipot:honeypot-01"
         ],
-        "first_seen": "2026-09-28T15:58:07Z",
-        "last_seen": "2026-09-28T16:25:30Z",
+        "first_seen": "2026-10-13T06:25:49.715Z",
+        "last_seen": "2026-10-18T13:58:55.617Z",
         "success_count": 0
       },
       {
         "ip": "80.94.95.53",
         "asn": "AS204428",
         "asn_name": "SS-Net",
-        "attempt_count": 108,
-        "unique_usernames": 102,
-        "unique_passwords": 56,
+        "attempt_count": 118,
+        "unique_usernames": 112,
+        "unique_passwords": 57,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-10-12T18:13:27.683Z",
-        "last_seen": "2026-10-18T12:59:34.597Z",
-        "success_count": 0
-      },
-      {
-        "ip": "80.94.95.158",
-        "asn": "AS204428",
-        "asn_name": "SS-Net",
-        "attempt_count": 106,
-        "unique_usernames": 103,
-        "unique_passwords": 99,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-10-13T06:25:49.715Z",
-        "last_seen": "2026-10-18T12:58:32.182Z",
+        "last_seen": "2026-10-18T13:59:48.214Z",
         "success_count": 0
       },
       {
         "ip": "80.94.95.101",
         "asn": "AS204428",
         "asn_name": "SS-Net",
-        "attempt_count": 106,
-        "unique_usernames": 96,
-        "unique_passwords": 93,
+        "attempt_count": 118,
+        "unique_usernames": 102,
+        "unique_passwords": 102,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
         "first_seen": "2026-10-13T06:26:02.286Z",
-        "last_seen": "2026-10-18T12:58:13.140Z",
+        "last_seen": "2026-10-18T13:55:37.962Z",
+        "success_count": 0
+      },
+      {
+        "ip": "80.94.95.219",
+        "asn": "AS204428",
+        "asn_name": "SS-Net",
+        "attempt_count": 118,
+        "unique_usernames": 109,
+        "unique_passwords": 114,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-10-13T06:26:07.679Z",
+        "last_seen": "2026-10-18T13:55:59.980Z",
         "success_count": 0
       }
     ],
@@ -2574,7 +2574,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 75079
+      "count": 75316
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2594,14 +2594,14 @@
     }
   ],
   "method_counts": {
-    "POST": 79357,
+    "POST": 79594,
     "SSH": 78501,
-    "GET": 73047,
+    "GET": 73075,
     "PRI": 165,
     "HEAD": 140,
     "PROPFIND": 83,
     "OPTIONS": 76,
-    "PUT": 23,
+    "PUT": 26,
     "DELETE": 22,
     "SSTP_DUPLEX_POST": 14,
     "UDP": 9,
@@ -2644,12 +2644,12 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 74159
+      "count": 74395
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2376
+      "count": 2378
     },
     {
       "path": "/",
@@ -2659,32 +2659,32 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1387
+      "count": 1389
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 872
+      "count": 875
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
       "source": "ivantipot:honeypot-01",
-      "count": 600
+      "count": 601
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 579
+      "count": 584
     },
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 575
+      "count": 576
     },
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 565
+      "count": 566
     },
     {
       "path": "/robots.txt",
@@ -2947,6 +2947,29 @@
       ]
     },
     {
+      "cve": "CVE-2022-40684",
+      "count": 22,
+      "sources": [
+        "fortipot:honeypot-01"
+      ],
+      "description": "Admin API authentication bypass surface",
+      "severity": "Critical",
+      "cvss_score": null,
+      "sample_ips": [
+        "187.15.101.99",
+        "195.184.76.249",
+        "195.184.76.250",
+        "195.184.76.42",
+        "195.184.76.44",
+        "38.60.157.86",
+        "91.196.152.128",
+        "91.196.152.129"
+      ],
+      "sample_paths": [
+        "/api/v2/cmdb/system/admin/admin"
+      ]
+    },
+    {
       "cve": "CVE-2026-3055",
       "count": 21,
       "sources": [
@@ -2998,29 +3021,6 @@
         "/tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/etc/f5-release",
         "/tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/etc/passwd",
         "/tmui/login.jsp/..;/tmui/util/getTabSet.jsp?tabId=ThisisaTest"
-      ]
-    },
-    {
-      "cve": "CVE-2022-40684",
-      "count": 19,
-      "sources": [
-        "fortipot:honeypot-01"
-      ],
-      "description": "Admin API authentication bypass surface",
-      "severity": "Critical",
-      "cvss_score": null,
-      "sample_ips": [
-        "187.15.101.99",
-        "195.184.76.249",
-        "195.184.76.250",
-        "195.184.76.42",
-        "195.184.76.44",
-        "38.60.157.86",
-        "91.196.152.128",
-        "91.196.152.129"
-      ],
-      "sample_paths": [
-        "/api/v2/cmdb/system/admin/admin"
       ]
     },
     {
@@ -3116,7 +3116,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 3434,
+    "Critical": 3437,
     "High": 178
   },
   "top_asns": [
@@ -3144,9 +3144,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
-      "ip_count": 512,
-      "event_count": 14488
+      "country": "US",
+      "ip_count": 513,
+      "event_count": 14489
     },
     {
       "asn": "AS48090",
@@ -3209,7 +3209,7 @@
       "name": "SS-Net",
       "country": "RO",
       "ip_count": 25,
-      "event_count": 2144
+      "event_count": 2380
     },
     {
       "asn": "AS6939",
@@ -3283,9 +3283,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
+      "country": "US",
       "score": 88.5,
-      "event_count": 14488,
+      "event_count": 14489,
       "credential_events": 57,
       "cve_events": 49
     },
@@ -3347,9 +3347,9 @@
       "asn": "AS204428",
       "name": "SS-Net",
       "country": "RO",
-      "score": 64.29,
-      "event_count": 2144,
-      "credential_events": 2136,
+      "score": 64.76,
+      "event_count": 2380,
+      "credential_events": 2372,
       "cve_events": 0
     },
     {
@@ -3444,22 +3444,21 @@
     }
   ],
   "events_by_country": {
-    "NL": 57798,
+    "NL": 57504,
     "IQ": 45745,
+    "US": 32162,
     "RU": 27399,
-    "US": 17592,
-    "TW": 14505,
     "CN": 9875,
     "TR": 8385,
     "DE": 5444,
     "IN": 2632,
     "LT": 2586,
-    "RO": 2189,
+    "RO": 2425,
     "ID": 1745,
-    "GB": 1453,
+    "GB": 1472,
     "BG": 1382,
-    "FR": 865,
-    "CA": 859,
+    "FR": 1089,
+    "CA": 872,
     "PL": 652,
     "SG": 613,
     "SE": 557,
@@ -3490,6 +3489,7 @@
     "AU": 28,
     "MO": 18,
     "UA": 18,
+    "TW": 17,
     "HU": 13,
     "IT": 11,
     "AE": 9,
