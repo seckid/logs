@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T04:03:53.916342Z",
+  "generated_at": "2026-10-19T05:02:43.519102Z",
   "period_days": 90,
-  "total_events": 240942,
-  "unique_ips": 6250,
+  "total_events": 241061,
+  "unique_ips": 6257,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,15 +15,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 3665,
+    "citrixpot:honeypot-01": 3674,
     "panospot:honeypot-01": 727,
-    "ivantipot:honeypot-01": 4371,
+    "ivantipot:honeypot-01": 4384,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 80905,
-    "bigippot:honeypot-01": 26815,
-    "sshppot:honeypot-01": 79152,
-    "front:honeypot-01": 45045
+    "fortipot:honeypot-01": 80969,
+    "bigippot:honeypot-01": 26819,
+    "sshppot:honeypot-01": 79176,
+    "front:honeypot-01": 45050
   },
   "events_per_day": {
     "2026-08-28": {
@@ -442,20 +442,20 @@
     },
     "2026-10-19": {
       "panospot:honeypot-01": 3,
-      "ivantipot:honeypot-01": 23,
-      "front:honeypot-01": 12,
-      "bigippot:honeypot-01": 77,
-      "fortipot:honeypot-01": 479,
-      "citrixpot:honeypot-01": 4,
-      "sshppot:honeypot-01": 289,
-      "total": 887
+      "ivantipot:honeypot-01": 36,
+      "front:honeypot-01": 17,
+      "bigippot:honeypot-01": 81,
+      "fortipot:honeypot-01": 544,
+      "citrixpot:honeypot-01": 13,
+      "sshppot:honeypot-01": 313,
+      "total": 1007
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 633
+      "count": 634
     },
     {
       "username": "root",
@@ -465,7 +465,7 @@
     {
       "username": "admin",
       "password": "admin",
-      "count": 174
+      "count": 175
     },
     {
       "username": "root",
@@ -710,11 +710,11 @@
     },
     {
       "username": "admin",
-      "count": 804
+      "count": 805
     },
     {
       "username": "support",
-      "count": 633
+      "count": 634
     },
     {
       "username": "user",
@@ -788,7 +788,7 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 633
+      "count": 634
     },
     {
       "password": "(empty)",
@@ -796,7 +796,7 @@
     },
     {
       "password": "admin",
-      "count": 292
+      "count": 293
     },
     {
       "password": "password",
@@ -869,12 +869,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 157686,
+      "attempt_count": 157770,
       "unique_ips": 1743,
-      "unique_pairs": 104737,
+      "unique_pairs": 104814,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 157686
+      "unknown_outcome_count": 157770
     },
     "top_source_ips": [
       {
@@ -1133,14 +1133,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 530,
+        "attempt_count": 531,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-19T03:20:17Z",
+        "last_seen": "2026-10-19T04:13:08Z",
         "success_count": 0
       },
       {
@@ -1183,6 +1183,20 @@
         ],
         "first_seen": "2026-10-16T22:39:54Z",
         "last_seen": "2026-10-17T00:45:27Z",
+        "success_count": 0
+      },
+      {
+        "ip": "80.94.95.53",
+        "asn": "AS204428",
+        "asn_name": "SS-Net",
+        "attempt_count": 263,
+        "unique_usernames": 245,
+        "unique_passwords": 164,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-10-12T18:13:27.683Z",
+        "last_seen": "2026-10-19T04:51:59.643Z",
         "success_count": 0
       },
       {
@@ -1284,6 +1298,20 @@
         "success_count": 0
       },
       {
+        "ip": "80.94.95.126",
+        "asn": "AS204428",
+        "asn_name": "SS-Net",
+        "attempt_count": 258,
+        "unique_usernames": 253,
+        "unique_passwords": 247,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-10-13T06:27:39.735Z",
+        "last_seen": "2026-10-19T04:46:59.492Z",
+        "success_count": 0
+      },
+      {
         "ip": "80.94.95.137",
         "asn": "AS204428",
         "asn_name": "SS-Net",
@@ -1295,6 +1323,34 @@
         ],
         "first_seen": "2026-10-13T06:27:44.743Z",
         "last_seen": "2026-10-19T01:08:42.643Z",
+        "success_count": 0
+      },
+      {
+        "ip": "80.94.95.84",
+        "asn": "AS204428",
+        "asn_name": "SS-Net",
+        "attempt_count": 258,
+        "unique_usernames": 236,
+        "unique_passwords": 246,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-10-13T06:31:34.168Z",
+        "last_seen": "2026-10-19T04:52:16.348Z",
+        "success_count": 0
+      },
+      {
+        "ip": "80.94.95.74",
+        "asn": "AS204428",
+        "asn_name": "SS-Net",
+        "attempt_count": 258,
+        "unique_usernames": 252,
+        "unique_passwords": 240,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-10-13T06:32:08.976Z",
+        "last_seen": "2026-10-19T04:51:06.613Z",
         "success_count": 0
       },
       {
@@ -1312,6 +1368,20 @@
         "success_count": 0
       },
       {
+        "ip": "80.94.95.66",
+        "asn": "AS204428",
+        "asn_name": "SS-Net",
+        "attempt_count": 258,
+        "unique_usernames": 235,
+        "unique_passwords": 180,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-10-13T06:33:13.990Z",
+        "last_seen": "2026-10-19T04:48:13.103Z",
+        "success_count": 0
+      },
+      {
         "ip": "80.94.95.8",
         "asn": "AS204428",
         "asn_name": "SS-Net",
@@ -1323,6 +1393,20 @@
         ],
         "first_seen": "2026-10-13T06:33:18.959Z",
         "last_seen": "2026-10-19T01:13:40.999Z",
+        "success_count": 0
+      },
+      {
+        "ip": "80.94.95.58",
+        "asn": "AS204428",
+        "asn_name": "SS-Net",
+        "attempt_count": 258,
+        "unique_usernames": 224,
+        "unique_passwords": 231,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-10-13T06:33:45.081Z",
+        "last_seen": "2026-10-19T04:51:40.304Z",
         "success_count": 0
       },
       {
@@ -1340,6 +1424,20 @@
         "success_count": 0
       },
       {
+        "ip": "80.94.95.39",
+        "asn": "AS204428",
+        "asn_name": "SS-Net",
+        "attempt_count": 258,
+        "unique_usernames": 225,
+        "unique_passwords": 212,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-10-13T06:34:00.399Z",
+        "last_seen": "2026-10-19T04:51:33.685Z",
+        "success_count": 0
+      },
+      {
         "ip": "80.94.95.197",
         "asn": "AS204428",
         "asn_name": "SS-Net",
@@ -1351,104 +1449,6 @@
         ],
         "first_seen": "2026-10-13T06:25:24.078Z",
         "last_seen": "2026-10-19T01:07:05.344Z",
-        "success_count": 0
-      },
-      {
-        "ip": "80.94.95.53",
-        "asn": "AS204428",
-        "asn_name": "SS-Net",
-        "attempt_count": 254,
-        "unique_usernames": 236,
-        "unique_passwords": 156,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-10-12T18:13:27.683Z",
-        "last_seen": "2026-10-19T03:58:31.372Z",
-        "success_count": 0
-      },
-      {
-        "ip": "80.94.95.126",
-        "asn": "AS204428",
-        "asn_name": "SS-Net",
-        "attempt_count": 250,
-        "unique_usernames": 245,
-        "unique_passwords": 239,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-10-13T06:27:39.735Z",
-        "last_seen": "2026-10-19T03:59:27.112Z",
-        "success_count": 0
-      },
-      {
-        "ip": "80.94.95.74",
-        "asn": "AS204428",
-        "asn_name": "SS-Net",
-        "attempt_count": 250,
-        "unique_usernames": 244,
-        "unique_passwords": 232,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-10-13T06:32:08.976Z",
-        "last_seen": "2026-10-19T04:03:35.719Z",
-        "success_count": 0
-      },
-      {
-        "ip": "80.94.95.66",
-        "asn": "AS204428",
-        "asn_name": "SS-Net",
-        "attempt_count": 250,
-        "unique_usernames": 227,
-        "unique_passwords": 175,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-10-13T06:33:13.990Z",
-        "last_seen": "2026-10-19T04:00:48.095Z",
-        "success_count": 0
-      },
-      {
-        "ip": "80.94.95.84",
-        "asn": "AS204428",
-        "asn_name": "SS-Net",
-        "attempt_count": 249,
-        "unique_usernames": 228,
-        "unique_passwords": 240,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-10-13T06:31:34.168Z",
-        "last_seen": "2026-10-19T03:58:50.683Z",
-        "success_count": 0
-      },
-      {
-        "ip": "80.94.95.58",
-        "asn": "AS204428",
-        "asn_name": "SS-Net",
-        "attempt_count": 249,
-        "unique_usernames": 218,
-        "unique_passwords": 224,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-10-13T06:33:45.081Z",
-        "last_seen": "2026-10-19T03:58:08.595Z",
-        "success_count": 0
-      },
-      {
-        "ip": "80.94.95.39",
-        "asn": "AS204428",
-        "asn_name": "SS-Net",
-        "attempt_count": 249,
-        "unique_usernames": 219,
-        "unique_passwords": 203,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-10-13T06:34:00.399Z",
-        "last_seen": "2026-10-19T03:58:03.699Z",
         "success_count": 0
       },
       {
@@ -1835,14 +1835,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 530,
+        "attempt_count": 531,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-19T03:20:17Z",
+        "last_seen": "2026-10-19T04:13:08Z",
         "success_count": 0
       },
       {
@@ -1885,6 +1885,20 @@
         ],
         "first_seen": "2026-10-16T22:39:54Z",
         "last_seen": "2026-10-17T00:45:27Z",
+        "success_count": 0
+      },
+      {
+        "ip": "80.94.95.53",
+        "asn": "AS204428",
+        "asn_name": "SS-Net",
+        "attempt_count": 263,
+        "unique_usernames": 245,
+        "unique_passwords": 164,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-10-12T18:13:27.683Z",
+        "last_seen": "2026-10-19T04:51:59.643Z",
         "success_count": 0
       },
       {
@@ -1986,6 +2000,20 @@
         "success_count": 0
       },
       {
+        "ip": "80.94.95.126",
+        "asn": "AS204428",
+        "asn_name": "SS-Net",
+        "attempt_count": 258,
+        "unique_usernames": 253,
+        "unique_passwords": 247,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-10-13T06:27:39.735Z",
+        "last_seen": "2026-10-19T04:46:59.492Z",
+        "success_count": 0
+      },
+      {
         "ip": "80.94.95.137",
         "asn": "AS204428",
         "asn_name": "SS-Net",
@@ -1997,6 +2025,34 @@
         ],
         "first_seen": "2026-10-13T06:27:44.743Z",
         "last_seen": "2026-10-19T01:08:42.643Z",
+        "success_count": 0
+      },
+      {
+        "ip": "80.94.95.84",
+        "asn": "AS204428",
+        "asn_name": "SS-Net",
+        "attempt_count": 258,
+        "unique_usernames": 236,
+        "unique_passwords": 246,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-10-13T06:31:34.168Z",
+        "last_seen": "2026-10-19T04:52:16.348Z",
+        "success_count": 0
+      },
+      {
+        "ip": "80.94.95.74",
+        "asn": "AS204428",
+        "asn_name": "SS-Net",
+        "attempt_count": 258,
+        "unique_usernames": 252,
+        "unique_passwords": 240,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-10-13T06:32:08.976Z",
+        "last_seen": "2026-10-19T04:51:06.613Z",
         "success_count": 0
       },
       {
@@ -2014,6 +2070,20 @@
         "success_count": 0
       },
       {
+        "ip": "80.94.95.66",
+        "asn": "AS204428",
+        "asn_name": "SS-Net",
+        "attempt_count": 258,
+        "unique_usernames": 235,
+        "unique_passwords": 180,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-10-13T06:33:13.990Z",
+        "last_seen": "2026-10-19T04:48:13.103Z",
+        "success_count": 0
+      },
+      {
         "ip": "80.94.95.8",
         "asn": "AS204428",
         "asn_name": "SS-Net",
@@ -2025,6 +2095,20 @@
         ],
         "first_seen": "2026-10-13T06:33:18.959Z",
         "last_seen": "2026-10-19T01:13:40.999Z",
+        "success_count": 0
+      },
+      {
+        "ip": "80.94.95.58",
+        "asn": "AS204428",
+        "asn_name": "SS-Net",
+        "attempt_count": 258,
+        "unique_usernames": 224,
+        "unique_passwords": 231,
+        "honeypots": [
+          "fortipot:honeypot-01"
+        ],
+        "first_seen": "2026-10-13T06:33:45.081Z",
+        "last_seen": "2026-10-19T04:51:40.304Z",
         "success_count": 0
       },
       {
@@ -2042,101 +2126,17 @@
         "success_count": 0
       },
       {
-        "ip": "80.94.95.197",
+        "ip": "80.94.95.39",
         "asn": "AS204428",
         "asn_name": "SS-Net",
-        "attempt_count": 257,
-        "unique_usernames": 247,
-        "unique_passwords": 183,
+        "attempt_count": 258,
+        "unique_usernames": 225,
+        "unique_passwords": 212,
         "honeypots": [
           "fortipot:honeypot-01"
         ],
-        "first_seen": "2026-10-13T06:25:24.078Z",
-        "last_seen": "2026-10-19T01:07:05.344Z",
-        "success_count": 0
-      },
-      {
-        "ip": "80.94.95.53",
-        "asn": "AS204428",
-        "asn_name": "SS-Net",
-        "attempt_count": 254,
-        "unique_usernames": 236,
-        "unique_passwords": 156,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-10-12T18:13:27.683Z",
-        "last_seen": "2026-10-19T03:58:31.372Z",
-        "success_count": 0
-      },
-      {
-        "ip": "80.94.95.126",
-        "asn": "AS204428",
-        "asn_name": "SS-Net",
-        "attempt_count": 250,
-        "unique_usernames": 245,
-        "unique_passwords": 239,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-10-13T06:27:39.735Z",
-        "last_seen": "2026-10-19T03:59:27.112Z",
-        "success_count": 0
-      },
-      {
-        "ip": "80.94.95.74",
-        "asn": "AS204428",
-        "asn_name": "SS-Net",
-        "attempt_count": 250,
-        "unique_usernames": 244,
-        "unique_passwords": 232,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-10-13T06:32:08.976Z",
-        "last_seen": "2026-10-19T04:03:35.719Z",
-        "success_count": 0
-      },
-      {
-        "ip": "80.94.95.66",
-        "asn": "AS204428",
-        "asn_name": "SS-Net",
-        "attempt_count": 250,
-        "unique_usernames": 227,
-        "unique_passwords": 175,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-10-13T06:33:13.990Z",
-        "last_seen": "2026-10-19T04:00:48.095Z",
-        "success_count": 0
-      },
-      {
-        "ip": "80.94.95.84",
-        "asn": "AS204428",
-        "asn_name": "SS-Net",
-        "attempt_count": 249,
-        "unique_usernames": 228,
-        "unique_passwords": 240,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-10-13T06:31:34.168Z",
-        "last_seen": "2026-10-19T03:58:50.683Z",
-        "success_count": 0
-      },
-      {
-        "ip": "80.94.95.58",
-        "asn": "AS204428",
-        "asn_name": "SS-Net",
-        "attempt_count": 249,
-        "unique_usernames": 218,
-        "unique_passwords": 224,
-        "honeypots": [
-          "fortipot:honeypot-01"
-        ],
-        "first_seen": "2026-10-13T06:33:45.081Z",
-        "last_seen": "2026-10-19T03:58:08.595Z",
+        "first_seen": "2026-10-13T06:34:00.399Z",
+        "last_seen": "2026-10-19T04:51:33.685Z",
         "success_count": 0
       }
     ],
@@ -2144,7 +2144,7 @@
       {
         "username": "support",
         "password": "support",
-        "count": 633,
+        "count": 634,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2161,7 +2161,7 @@
       {
         "username": "admin",
         "password": "admin",
-        "count": 174,
+        "count": 175,
         "sources": [
           "bigippot:honeypot-01",
           "fortipot:honeypot-01",
@@ -2584,7 +2584,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 78101
+      "count": 78162
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2604,10 +2604,10 @@
     }
   ],
   "method_counts": {
-    "POST": 82395,
-    "SSH": 79151,
-    "GET": 73853,
-    "PRI": 166,
+    "POST": 82462,
+    "SSH": 79175,
+    "GET": 73878,
+    "PRI": 167,
     "HEAD": 140,
     "PROPFIND": 83,
     "OPTIONS": 76,
@@ -2649,22 +2649,22 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 78763
+      "count": 78786
     },
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 77162
+      "count": 77222
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2425
+      "count": 2426
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1912
+      "count": 1917
     },
     {
       "path": "/tmui/login.jsp",
@@ -2674,27 +2674,27 @@
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 885
+      "count": 886
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
       "source": "ivantipot:honeypot-01",
-      "count": 611
+      "count": 612
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 593
+      "count": 595
     },
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 586
+      "count": 588
     },
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 575
+      "count": 577
     },
     {
       "path": "/robots.txt",
@@ -2744,7 +2744,7 @@
     {
       "path": "/favicon.ico",
       "source": "ivantipot:honeypot-01",
-      "count": 211
+      "count": 215
     }
   ],
   "cve_attempts": [
@@ -3154,9 +3154,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
-      "ip_count": 521,
-      "event_count": 14899
+      "country": "US",
+      "ip_count": 523,
+      "event_count": 14904
     },
     {
       "asn": "AS48090",
@@ -3198,7 +3198,7 @@
       "name": "SS-Net",
       "country": "RO",
       "ip_count": 25,
-      "event_count": 5147
+      "event_count": 5207
     },
     {
       "asn": "AS218785",
@@ -3212,7 +3212,7 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "ip_count": 267,
-      "event_count": 2517
+      "event_count": 2540
     },
     {
       "asn": "AS213790",
@@ -3267,8 +3267,8 @@
       "asn": "AS398324",
       "name": "Censys, Inc.",
       "country": "US",
-      "ip_count": 98,
-      "event_count": 934
+      "ip_count": 99,
+      "event_count": 947
     }
   ],
   "bad_asns": [
@@ -3276,9 +3276,9 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "score": 95.03,
-      "event_count": 2517,
-      "credential_events": 1346,
+      "score": 95.08,
+      "event_count": 2540,
+      "credential_events": 1369,
       "cve_events": 111
     },
     {
@@ -3293,9 +3293,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "US",
       "score": 88.5,
-      "event_count": 14899,
+      "event_count": 14904,
       "credential_events": 57,
       "cve_events": 49
     },
@@ -3349,8 +3349,8 @@
       "name": "SS-Net",
       "country": "RO",
       "score": 70.0,
-      "event_count": 5147,
-      "credential_events": 5139,
+      "event_count": 5207,
+      "credential_events": 5199,
       "cve_events": 0
     },
     {
@@ -3456,18 +3456,17 @@
   "events_by_country": {
     "NL": 54798,
     "IQ": 45745,
+    "US": 33644,
     "RU": 27515,
-    "US": 18702,
-    "BE": 14900,
-    "CN": 9968,
+    "CN": 9970,
     "TR": 8385,
     "DE": 5798,
-    "RO": 5193,
-    "PL": 3633,
+    "RO": 5253,
+    "PL": 3634,
     "LT": 2586,
     "ID": 1745,
     "BG": 1382,
-    "GB": 1098,
+    "GB": 1111,
     "AE": 981,
     "CA": 913,
     "HK": 910,
@@ -3481,7 +3480,7 @@
     "FI": 356,
     "VN": 251,
     "BR": 229,
-    "IN": 197,
+    "IN": 198,
     "SI": 192,
     "KZ": 191,
     "BD": 126,
@@ -3535,6 +3534,7 @@
     "QA": 2,
     "TG": 2,
     "AF": 1,
+    "BE": 1,
     "BH": 1,
     "DZ": 1,
     "EC": 1,
