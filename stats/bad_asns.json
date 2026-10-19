@@ -1,15 +1,41 @@
 {
-  "generated_at": "2026-10-19T22:02:48.061733Z",
+  "generated_at": "2026-10-19T23:05:07.162304Z",
   "period_days": 90,
   "asns": [
     {
+      "asn": "AS396982",
+      "name": "Google LLC",
+      "country": "US",
+      "score": 100.0,
+      "event_count": 15456,
+      "ip_count": 544,
+      "credential_events": 86,
+      "cve_events": 49,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=86",
+        "cve_events=49",
+        "multi_honeypot=7",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "SG",
-      "score": 95.13,
-      "event_count": 2567,
-      "ip_count": 268,
-      "credential_events": 1393,
+      "country": "DE",
+      "score": 95.23,
+      "event_count": 2616,
+      "ip_count": 270,
+      "credential_events": 1442,
       "cve_events": 111,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -22,7 +48,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=1393",
+        "credential_events=1442",
         "cve_events=111",
         "multi_honeypot=7",
         "research_or_cloud_with_hostile_density"
@@ -54,29 +80,26 @@
       ]
     },
     {
-      "asn": "AS396982",
-      "name": "Google LLC",
-      "country": "US",
-      "score": 91.0,
-      "event_count": 15432,
-      "ip_count": 543,
-      "credential_events": 62,
-      "cve_events": 49,
+      "asn": "AS31898",
+      "name": "Oracle Corporation",
+      "country": "BR",
+      "score": 84.64,
+      "event_count": 1071,
+      "ip_count": 21,
+      "credential_events": 65,
+      "cve_events": 42,
       "honeypots": [
         "bigippot:honeypot-01",
         "citrixpot:honeypot-01",
         "fortipot:honeypot-01",
         "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=62",
-        "cve_events=49",
-        "multi_honeypot=7",
-        "research_or_cloud_with_hostile_density"
+        "credential_events=65",
+        "cve_events=42",
+        "multi_honeypot=5"
       ]
     },
     {
@@ -164,29 +187,6 @@
         "credential_events=62",
         "cve_events=48",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS31898",
-      "name": "Oracle Corporation",
-      "country": "US",
-      "score": 72.59,
-      "event_count": 1047,
-      "ip_count": 20,
-      "credential_events": 41,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=41",
-        "cve_events=42",
-        "multi_honeypot=5"
       ]
     },
     {
@@ -347,9 +347,9 @@
       "name": "TechTies Inc.",
       "country": "NL",
       "score": 61.3,
-      "event_count": 650,
+      "event_count": 652,
       "ip_count": 24,
-      "credential_events": 204,
+      "credential_events": 206,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -359,8 +359,33 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=204",
+        "credential_events=206",
         "multi_honeypot=4"
+      ]
+    },
+    {
+      "asn": "AS16276",
+      "name": "OVH SAS",
+      "country": "FR",
+      "score": 60.78,
+      "event_count": 339,
+      "ip_count": 80,
+      "credential_events": 77,
+      "cve_events": 2,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=77",
+        "cve_events=2",
+        "multi_honeypot=6",
+        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -533,9 +558,9 @@
       "name": "VPS Dedicated LLC",
       "country": "SI",
       "score": 55.45,
-      "event_count": 225,
+      "event_count": 227,
       "ip_count": 23,
-      "credential_events": 180,
+      "credential_events": 182,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -544,7 +569,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=180",
+        "credential_events=182",
         "multi_honeypot=3"
       ]
     },
@@ -617,11 +642,11 @@
       "asn": "AS12586",
       "name": "GHOSTnet GmbH",
       "country": "DE",
-      "score": 52.27,
-      "event_count": 1134,
+      "score": 52.69,
+      "event_count": 1346,
       "ip_count": 1,
       "credential_events": 0,
-      "cve_events": 230,
+      "cve_events": 338,
       "honeypots": [
         "bigippot:honeypot-01",
         "citrixpot:honeypot-01",
@@ -630,7 +655,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "cve_events=230",
+        "cve_events=338",
         "multi_honeypot=4"
       ]
     },
@@ -655,31 +680,6 @@
       "reasons": [
         "cve_events=69",
         "multi_honeypot=6"
-      ]
-    },
-    {
-      "asn": "AS16276",
-      "name": "OVH SAS",
-      "country": "FR",
-      "score": 50.74,
-      "event_count": 319,
-      "ip_count": 79,
-      "credential_events": 57,
-      "cve_events": 2,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=57",
-        "cve_events=2",
-        "multi_honeypot=6",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
