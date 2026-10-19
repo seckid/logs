@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T07:01:07.827161Z",
+  "generated_at": "2026-10-19T08:03:02.550400Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,7 +7,7 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "score": 95.08,
-      "event_count": 2540,
+      "event_count": 2541,
       "ip_count": 267,
       "credential_events": 1369,
       "cve_events": 111,
@@ -56,10 +56,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "TW",
       "score": 88.5,
-      "event_count": 15038,
-      "ip_count": 526,
+      "event_count": 15040,
+      "ip_count": 527,
       "credential_events": 57,
       "cve_events": 49,
       "honeypots": [
@@ -235,6 +235,29 @@
       ]
     },
     {
+      "asn": "AS24940",
+      "name": "Hetzner Online GmbH",
+      "country": "DE",
+      "score": 67.21,
+      "event_count": 107,
+      "ip_count": 22,
+      "credential_events": 34,
+      "cve_events": 41,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=34",
+        "cve_events=41",
+        "multi_honeypot=4",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS210328",
       "name": "AO ALMAZ",
       "country": "RU",
@@ -317,28 +340,6 @@
         "credential_events=10981",
         "cve_events=4",
         "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS24940",
-      "name": "Hetzner Online GmbH",
-      "country": "DE",
-      "score": 62.21,
-      "event_count": 106,
-      "ip_count": 21,
-      "credential_events": 34,
-      "cve_events": 41,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=34",
-        "cve_events=41",
-        "multi_honeypot=3",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
@@ -594,9 +595,9 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "score": 53.44,
-      "event_count": 1722,
-      "ip_count": 282,
+      "score": 53.49,
+      "event_count": 1743,
+      "ip_count": 284,
       "credential_events": 0,
       "cve_events": 54,
       "honeypots": [

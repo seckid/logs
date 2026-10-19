@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T07:01:07.827161Z",
+  "generated_at": "2026-10-19T08:03:02.550400Z",
   "period_days": 90,
-  "total_events": 241384,
-  "unique_ips": 6269,
+  "total_events": 241426,
+  "unique_ips": 6278,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,14 +16,14 @@
   ],
   "totals_by_source": {
     "citrixpot:honeypot-01": 3676,
-    "panospot:honeypot-01": 729,
-    "ivantipot:honeypot-01": 4388,
+    "panospot:honeypot-01": 730,
+    "ivantipot:honeypot-01": 4421,
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
-    "fortipot:honeypot-01": 80984,
-    "bigippot:honeypot-01": 26861,
+    "fortipot:honeypot-01": 80985,
+    "bigippot:honeypot-01": 26864,
     "sshppot:honeypot-01": 79202,
-    "front:honeypot-01": 45282
+    "front:honeypot-01": 45286
   },
   "events_per_day": {
     "2026-08-28": {
@@ -441,14 +441,14 @@
       "total": 3939
     },
     "2026-10-19": {
-      "panospot:honeypot-01": 5,
-      "ivantipot:honeypot-01": 40,
-      "front:honeypot-01": 249,
-      "bigippot:honeypot-01": 123,
-      "fortipot:honeypot-01": 559,
+      "panospot:honeypot-01": 6,
+      "ivantipot:honeypot-01": 73,
+      "front:honeypot-01": 253,
+      "bigippot:honeypot-01": 126,
+      "fortipot:honeypot-01": 560,
       "citrixpot:honeypot-01": 15,
       "sshppot:honeypot-01": 339,
-      "total": 1330
+      "total": 1372
     }
   },
   "top_credentials": [
@@ -2584,7 +2584,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 78163
+      "count": 78164
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2596,7 +2596,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "count": 7195
+      "count": 7196
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2604,9 +2604,9 @@
     }
   ],
   "method_counts": {
-    "POST": 82501,
+    "POST": 82503,
     "SSH": 79201,
-    "GET": 74133,
+    "GET": 74172,
     "PRI": 167,
     "HEAD": 140,
     "PROPFIND": 83,
@@ -2659,12 +2659,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2426
+      "count": 2427
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1927
+      "count": 1928
     },
     {
       "path": "/tmui/login.jsp",
@@ -2679,7 +2679,7 @@
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
       "source": "ivantipot:honeypot-01",
-      "count": 612
+      "count": 617
     },
     {
       "path": "/logon/LogonPoint/index.html",
@@ -2689,7 +2689,7 @@
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 588
+      "count": 594
     },
     {
       "path": "/",
@@ -2699,7 +2699,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 426
+      "count": 427
     },
     {
       "path": "/favicon.ico",
@@ -2739,12 +2739,12 @@
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 225
+      "count": 226
     },
     {
       "path": "/favicon.ico",
       "source": "ivantipot:honeypot-01",
-      "count": 215
+      "count": 216
     }
   ],
   "cve_attempts": [
@@ -2883,7 +2883,7 @@
     },
     {
       "cve": "CVE-2026-104935",
-      "count": 54,
+      "count": 56,
       "sources": [
         "ivantipot:honeypot-01"
       ],
@@ -2903,9 +2903,9 @@
       "sample_paths": [
         "/dana-na/auth/saml-consumer.cgi?restApiReq=1&t=s&v=%2C127.0.0.1%2C%2C",
         "/dana-na/auth/saml-sso.cgi?restApiReq=1&t=s&v=%2C127.0.0.1%2C%2C",
+        "/dana-na/auth/url_1/welcome.cgi",
         "/dana-na/auth/url_2/welcome.cgi?restApiReq=1&t=s&v=%2C127.0.0.1%2C%2C",
-        "/dana-na/auth/url_3/welcome.cgi?restApiReq=1&t=s&v=%2C127.0.0.1%2C%2C",
-        "/dana-na/auth/url_admin/welcome.cgi?restApiReq=1&t=s&v=%2C127.0.0.1%2C%2C"
+        "/dana-na/auth/url_3/welcome.cgi?restApiReq=1&t=s&v=%2C127.0.0.1%2C%2C"
       ]
     },
     {
@@ -3127,7 +3127,7 @@
   ],
   "cve_severity_counts": {
     "Critical": 3442,
-    "High": 181
+    "High": 183
   },
   "top_asns": [
     {
@@ -3154,9 +3154,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
-      "ip_count": 526,
-      "event_count": 15038
+      "country": "TW",
+      "ip_count": 527,
+      "event_count": 15040
     },
     {
       "asn": "AS48090",
@@ -3190,8 +3190,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 333,
-      "event_count": 6484
+      "ip_count": 334,
+      "event_count": 6485
     },
     {
       "asn": "AS204428",
@@ -3212,7 +3212,7 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "ip_count": 267,
-      "event_count": 2540
+      "event_count": 2541
     },
     {
       "asn": "AS213790",
@@ -3225,8 +3225,8 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "ip_count": 282,
-      "event_count": 1722
+      "ip_count": 284,
+      "event_count": 1743
     },
     {
       "asn": "AS58477",
@@ -3277,7 +3277,7 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "score": 95.08,
-      "event_count": 2540,
+      "event_count": 2541,
       "credential_events": 1369,
       "cve_events": 111
     },
@@ -3293,9 +3293,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "TW",
       "score": 88.5,
-      "event_count": 15038,
+      "event_count": 15040,
       "credential_events": 57,
       "cve_events": 49
     },
@@ -3363,6 +3363,15 @@
       "cve_events": 48
     },
     {
+      "asn": "AS24940",
+      "name": "Hetzner Online GmbH",
+      "country": "DE",
+      "score": 67.21,
+      "event_count": 107,
+      "credential_events": 34,
+      "cve_events": 41
+    },
+    {
       "asn": "AS210328",
       "name": "AO ALMAZ",
       "country": "RU",
@@ -3397,15 +3406,6 @@
       "event_count": 11037,
       "credential_events": 10981,
       "cve_events": 4
-    },
-    {
-      "asn": "AS24940",
-      "name": "Hetzner Online GmbH",
-      "country": "DE",
-      "score": 62.21,
-      "event_count": 106,
-      "credential_events": 34,
-      "cve_events": 41
     },
     {
       "asn": "AS197170",
@@ -3454,20 +3454,21 @@
     }
   ],
   "events_by_country": {
-    "NL": 57844,
+    "NL": 57845,
     "IQ": 45745,
-    "US": 33435,
     "RU": 27515,
+    "US": 18429,
+    "TW": 15057,
     "CN": 9970,
     "TR": 8385,
-    "DE": 5904,
+    "DE": 5905,
     "RO": 5253,
     "LT": 2586,
     "ID": 1745,
     "BG": 1403,
     "FR": 1253,
     "IN": 1171,
-    "GB": 1113,
+    "GB": 1116,
     "CA": 913,
     "HK": 910,
     "JP": 752,
@@ -3482,7 +3483,7 @@
     "BR": 229,
     "SI": 192,
     "KZ": 191,
-    "BD": 126,
+    "BD": 127,
     "IE": 117,
     "CM": 98,
     "UZ": 98,
@@ -3500,7 +3501,6 @@
     "AU": 28,
     "MO": 18,
     "UA": 18,
-    "TW": 17,
     "HU": 13,
     "IT": 11,
     "AE": 9,
