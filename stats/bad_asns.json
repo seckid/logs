@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-18T23:03:02.460862Z",
+  "generated_at": "2026-10-19T00:01:46.272305Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "NL",
-      "score": 94.95,
-      "event_count": 2476,
+      "score": 94.96,
+      "event_count": 2479,
       "ip_count": 264,
-      "credential_events": 1305,
+      "credential_events": 1308,
       "cve_events": 111,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -22,7 +22,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=1305",
+        "credential_events=1308",
         "cve_events=111",
         "multi_honeypot=7",
         "research_or_cloud_with_hostile_density"
@@ -56,9 +56,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "FI",
+      "country": "BE",
       "score": 88.5,
-      "event_count": 14786,
+      "event_count": 14897,
       "ip_count": 520,
       "credential_events": 57,
       "cve_events": 49,
@@ -104,10 +104,10 @@
     {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "US",
-      "score": 71.91,
-      "event_count": 457,
-      "ip_count": 53,
+      "country": "HK",
+      "score": 71.93,
+      "event_count": 467,
+      "ip_count": 54,
       "credential_events": 42,
       "cve_events": 85,
       "honeypots": [
@@ -130,9 +130,9 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 11236,
+      "event_count": 11237,
       "ip_count": 30,
-      "credential_events": 8938,
+      "credential_events": 8939,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -144,18 +144,39 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=8938",
+        "credential_events=8939",
         "multi_honeypot=6"
+      ]
+    },
+    {
+      "asn": "AS51167",
+      "name": "Contabo GmbH",
+      "country": "FR",
+      "score": 69.93,
+      "event_count": 217,
+      "ip_count": 21,
+      "credential_events": 49,
+      "cve_events": 48,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=49",
+        "cve_events=48",
+        "multi_honeypot=3"
       ]
     },
     {
       "asn": "AS204428",
       "name": "SS-Net",
       "country": "RO",
-      "score": 68.92,
-      "event_count": 4461,
+      "score": 69.37,
+      "event_count": 4684,
       "ip_count": 25,
-      "credential_events": 4453,
+      "credential_events": 4676,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -166,7 +187,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=4453",
+        "credential_events=4676",
         "multi_honeypot=5"
       ]
     },
@@ -395,27 +416,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=125",
-        "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS51167",
-      "name": "Contabo GmbH",
-      "country": "FR",
-      "score": 56.88,
-      "event_count": 191,
-      "ip_count": 20,
-      "credential_events": 23,
-      "cve_events": 48,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=23",
-        "cve_events=48",
         "multi_honeypot=3"
       ]
     },
@@ -937,6 +937,23 @@
       ]
     },
     {
+      "asn": "AS12389",
+      "name": "PJSC Rostelecom",
+      "country": "RU",
+      "score": 40.17,
+      "event_count": 84,
+      "ip_count": 26,
+      "credential_events": 84,
+      "cve_events": 0,
+      "honeypots": [
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=84"
+      ]
+    },
+    {
       "asn": "AS36903",
       "name": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
       "country": "MA",
@@ -1038,31 +1055,6 @@
       "reasons": [
         "credential_events=29",
         "multi_honeypot=5"
-      ]
-    },
-    {
-      "asn": "AS8075",
-      "name": "Microsoft Corporation",
-      "country": "US",
-      "score": 34.0,
-      "event_count": 6476,
-      "ip_count": 331,
-      "credential_events": 8,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=8",
-        "multi_honeypot=7",
-        "research_or_cloud_with_hostile_density"
       ]
     }
   ]
