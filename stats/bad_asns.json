@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T17:03:57.966638Z",
+  "generated_at": "2026-10-19T18:03:47.307739Z",
   "period_days": 90,
   "asns": [
     {
@@ -31,10 +31,10 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "DE",
+      "country": "US",
       "score": 91.3,
-      "event_count": 648,
-      "ip_count": 133,
+      "event_count": 651,
+      "ip_count": 134,
       "credential_events": 192,
       "cve_events": 67,
       "honeypots": [
@@ -122,6 +122,51 @@
       ]
     },
     {
+      "asn": "AS135377",
+      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+      "country": "HK",
+      "score": 78.48,
+      "event_count": 490,
+      "ip_count": 57,
+      "credential_events": 55,
+      "cve_events": 85,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=55",
+        "cve_events=85",
+        "multi_honeypot=6"
+      ]
+    },
+    {
+      "asn": "AS51167",
+      "name": "Contabo GmbH",
+      "country": "FR",
+      "score": 76.46,
+      "event_count": 230,
+      "ip_count": 22,
+      "credential_events": 62,
+      "cve_events": 48,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=62",
+        "cve_events=48",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS31898",
       "name": "Oracle Corporation",
       "country": "US",
@@ -145,37 +190,13 @@
       ]
     },
     {
-      "asn": "AS135377",
-      "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "HK",
-      "score": 71.95,
-      "event_count": 477,
-      "ip_count": 56,
-      "credential_events": 42,
-      "cve_events": 85,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=42",
-        "cve_events=85",
-        "multi_honeypot=6"
-      ]
-    },
-    {
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 11424,
+      "event_count": 11612,
       "ip_count": 30,
-      "credential_events": 9122,
+      "credential_events": 9310,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -187,7 +208,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=9122",
+        "credential_events=9310",
         "multi_honeypot=6"
       ]
     },
@@ -211,27 +232,6 @@
       "reasons": [
         "credential_events=5199",
         "multi_honeypot=5"
-      ]
-    },
-    {
-      "asn": "AS51167",
-      "name": "Contabo GmbH",
-      "country": "FR",
-      "score": 69.93,
-      "event_count": 217,
-      "ip_count": 21,
-      "credential_events": 49,
-      "cve_events": 48,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=49",
-        "cve_events=48",
-        "multi_honeypot=3"
       ]
     },
     {
@@ -347,9 +347,9 @@
       "name": "TechTies Inc.",
       "country": "NL",
       "score": 61.29,
-      "event_count": 645,
+      "event_count": 646,
       "ip_count": 24,
-      "credential_events": 199,
+      "credential_events": 200,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -359,7 +359,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=199",
+        "credential_events=200",
         "multi_honeypot=4"
       ]
     },
@@ -533,9 +533,9 @@
       "name": "VPS Dedicated LLC",
       "country": "SI",
       "score": 55.44,
-      "event_count": 219,
+      "event_count": 221,
       "ip_count": 23,
-      "credential_events": 174,
+      "credential_events": 176,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -544,7 +544,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=174",
+        "credential_events=176",
         "multi_honeypot=3"
       ]
     },
@@ -904,16 +904,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 41.18,
-      "event_count": 591,
+      "event_count": 592,
       "ip_count": 3,
-      "credential_events": 591,
+      "credential_events": 592,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=591"
+        "credential_events=592"
       ]
     },
     {
