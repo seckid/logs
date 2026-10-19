@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-19T01:04:02.509559Z",
+  "generated_at": "2026-10-19T02:04:42.042278Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "NL",
-      "score": 94.96,
-      "event_count": 2479,
-      "ip_count": 264,
-      "credential_events": 1308,
+      "country": "US",
+      "score": 95.03,
+      "event_count": 2514,
+      "ip_count": 266,
+      "credential_events": 1343,
       "cve_events": 111,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -22,7 +22,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=1308",
+        "credential_events=1343",
         "cve_events=111",
         "multi_honeypot=7",
         "research_or_cloud_with_hostile_density"
@@ -102,6 +102,29 @@
       ]
     },
     {
+      "asn": "AS31898",
+      "name": "Oracle Corporation",
+      "country": "AE",
+      "score": 72.44,
+      "event_count": 972,
+      "ip_count": 17,
+      "credential_events": 41,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=41",
+        "cve_events=42",
+        "multi_honeypot=5"
+      ]
+    },
+    {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
       "country": "HK",
@@ -149,6 +172,28 @@
       ]
     },
     {
+      "asn": "AS204428",
+      "name": "SS-Net",
+      "country": "RO",
+      "score": 70.0,
+      "event_count": 5010,
+      "ip_count": 25,
+      "credential_events": 5002,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "ivantipot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=5002",
+        "multi_honeypot=5"
+      ]
+    },
+    {
       "asn": "AS51167",
       "name": "Contabo GmbH",
       "country": "FR",
@@ -170,25 +215,23 @@
       ]
     },
     {
-      "asn": "AS204428",
-      "name": "SS-Net",
-      "country": "RO",
-      "score": 69.83,
-      "event_count": 4916,
-      "ip_count": 25,
-      "credential_events": 4908,
-      "cve_events": 0,
+      "asn": "AS132203",
+      "name": "Tencent Building, Kejizhongyi Avenue",
+      "country": "HK",
+      "score": 68.22,
+      "event_count": 109,
+      "ip_count": 6,
+      "credential_events": 56,
+      "cve_events": 49,
       "honeypots": [
         "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "ivantipot:honeypot-01",
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=4908",
-        "multi_honeypot=5"
+        "credential_events=56",
+        "cve_events=49",
+        "multi_honeypot=2"
       ]
     },
     {
@@ -380,26 +423,6 @@
       ]
     },
     {
-      "asn": "AS132203",
-      "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "HK",
-      "score": 58.68,
-      "event_count": 90,
-      "ip_count": 5,
-      "credential_events": 37,
-      "cve_events": 49,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=37",
-        "cve_events=49",
-        "multi_honeypot=2"
-      ]
-    },
-    {
       "asn": "AS208137",
       "name": "Feo Prest SRL",
       "country": "DE",
@@ -564,29 +587,6 @@
       "ai_threat_level": null,
       "reasons": [
         "cve_events=54",
-        "multi_honeypot=5"
-      ]
-    },
-    {
-      "asn": "AS31898",
-      "name": "Oracle Corporation",
-      "country": "US",
-      "score": 52.36,
-      "event_count": 932,
-      "ip_count": 15,
-      "credential_events": 1,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=1",
-        "cve_events=42",
         "multi_honeypot=5"
       ]
     },
@@ -823,6 +823,25 @@
       ]
     },
     {
+      "asn": "AS38365",
+      "name": "Beijing Baidu Netcom Science and Technology Co., Ltd.",
+      "country": "CN",
+      "score": 45.64,
+      "event_count": 72,
+      "ip_count": 8,
+      "credential_events": 71,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=71",
+        "multi_honeypot=2"
+      ]
+    },
+    {
       "asn": "AS58477",
       "name": "Argon Data Communication",
       "country": "ID",
@@ -941,16 +960,16 @@
       "name": "PJSC Rostelecom",
       "country": "RU",
       "score": 40.2,
-      "event_count": 100,
+      "event_count": 101,
       "ip_count": 26,
-      "credential_events": 100,
+      "credential_events": 101,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=100"
+        "credential_events=101"
       ]
     },
     {
@@ -995,25 +1014,6 @@
         "cve_events=1",
         "multi_honeypot=6",
         "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS38365",
-      "name": "Beijing Baidu Netcom Science and Technology Co., Ltd.",
-      "country": "CN",
-      "score": 37.11,
-      "event_count": 55,
-      "ip_count": 7,
-      "credential_events": 54,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=54",
-        "multi_honeypot=2"
       ]
     },
     {
