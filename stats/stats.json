@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T14:01:04.005069Z",
+  "generated_at": "2026-10-19T15:01:43.932795Z",
   "period_days": 90,
-  "total_events": 242751,
-  "unique_ips": 6326,
+  "total_events": 242810,
+  "unique_ips": 6333,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -21,9 +21,9 @@
     "centrestackpot:honeypot-01": 239,
     "sharepointpot:honeypot-01": 23,
     "fortipot:honeypot-01": 81132,
-    "bigippot:honeypot-01": 27119,
-    "sshppot:honeypot-01": 79314,
-    "front:honeypot-01": 45814
+    "bigippot:honeypot-01": 27132,
+    "sshppot:honeypot-01": 79352,
+    "front:honeypot-01": 45822
   },
   "events_per_day": {
     "2026-08-28": {
@@ -443,12 +443,12 @@
     "2026-10-19": {
       "panospot:honeypot-01": 18,
       "ivantipot:honeypot-01": 260,
-      "front:honeypot-01": 781,
-      "bigippot:honeypot-01": 381,
+      "front:honeypot-01": 789,
+      "bigippot:honeypot-01": 394,
       "fortipot:honeypot-01": 707,
       "citrixpot:honeypot-01": 99,
-      "sshppot:honeypot-01": 451,
-      "total": 2697
+      "sshppot:honeypot-01": 489,
+      "total": 2756
     }
   },
   "top_credentials": [
@@ -460,7 +460,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 277
+      "count": 278
     },
     {
       "username": "admin",
@@ -565,7 +565,7 @@
     {
       "username": "ubuntu",
       "password": "(empty)",
-      "count": 60
+      "count": 61
     },
     {
       "username": "root",
@@ -706,7 +706,7 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 1333
+      "count": 1334
     },
     {
       "username": "admin",
@@ -722,7 +722,7 @@
     },
     {
       "username": "ubuntu",
-      "count": 215
+      "count": 216
     },
     {
       "username": "test",
@@ -792,7 +792,7 @@
     },
     {
       "password": "(empty)",
-      "count": 482
+      "count": 484
     },
     {
       "password": "admin",
@@ -869,12 +869,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 157908,
-      "unique_ips": 1750,
-      "unique_pairs": 104905,
+      "attempt_count": 157946,
+      "unique_ips": 1752,
+      "unique_pairs": 104923,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 157908
+      "unknown_outcome_count": 157946
     },
     "top_source_ips": [
       {
@@ -2153,7 +2153,7 @@
       {
         "username": "root",
         "password": "(empty)",
-        "count": 277,
+        "count": 278,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2341,7 +2341,7 @@
       {
         "username": "ubuntu",
         "password": "(empty)",
-        "count": 60,
+        "count": 61,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2584,15 +2584,15 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 78171
+      "count": 78172
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 10198
+      "count": 10199
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 8021
+      "count": 8022
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -2600,17 +2600,17 @@
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 5300
+      "count": 5301
     }
   ],
   "method_counts": {
-    "POST": 82829,
-    "SSH": 79313,
-    "GET": 75036,
+    "POST": 82831,
+    "SSH": 79352,
+    "GET": 75052,
     "PRI": 168,
-    "HEAD": 141,
+    "HEAD": 142,
     "PROPFIND": 84,
-    "OPTIONS": 81,
+    "OPTIONS": 82,
     "PUT": 26,
     "DELETE": 22,
     "SSTP_DUPLEX_POST": 14,
@@ -2650,7 +2650,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 78920
+      "count": 78957
     },
     {
       "path": "/remote/logincheck",
@@ -2660,17 +2660,17 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2444
+      "count": 2448
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 1944
+      "count": 1946
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1434
+      "count": 1437
     },
     {
       "path": "/",
@@ -2715,7 +2715,7 @@
     {
       "path": "/wp-login.php",
       "source": "front:honeypot-01",
-      "count": 296
+      "count": 297
     },
     {
       "path": "/.env",
@@ -2735,7 +2735,7 @@
     {
       "path": "/home/root",
       "source": "sshppot:honeypot-01",
-      "count": 229
+      "count": 230
     },
     {
       "path": "/favicon.ico",
@@ -3155,9 +3155,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "GB",
-      "ip_count": 537,
-      "event_count": 15417
+      "country": "BR",
+      "ip_count": 538,
+      "event_count": 15418
     },
     {
       "asn": "AS48090",
@@ -3191,8 +3191,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 335,
-      "event_count": 6488
+      "ip_count": 337,
+      "event_count": 6490
     },
     {
       "asn": "AS204428",
@@ -3206,7 +3206,7 @@
       "name": "TC DATACENTER LIMITED",
       "country": "NL",
       "ip_count": 17,
-      "event_count": 3045
+      "event_count": 3053
     },
     {
       "asn": "AS14061",
@@ -3294,9 +3294,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "GB",
+      "country": "BR",
       "score": 88.5,
-      "event_count": 15417,
+      "event_count": 15418,
       "credential_events": 57,
       "cve_events": 49
     },
@@ -3308,6 +3308,15 @@
       "event_count": 116,
       "credential_events": 64,
       "cve_events": 42
+    },
+    {
+      "asn": "AS132203",
+      "name": "Tencent Building, Kejizhongyi Avenue",
+      "country": "US",
+      "score": 80.28,
+      "event_count": 141,
+      "credential_events": 88,
+      "cve_events": 49
     },
     {
       "asn": "AS31898",
@@ -3326,15 +3335,6 @@
       "event_count": 477,
       "credential_events": 42,
       "cve_events": 85
-    },
-    {
-      "asn": "AS132203",
-      "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "HK",
-      "score": 70.73,
-      "event_count": 114,
-      "credential_events": 61,
-      "cve_events": 49
     },
     {
       "asn": "AS48090",
@@ -3413,8 +3413,8 @@
       "name": "TechTies Inc.",
       "country": "NL",
       "score": 61.29,
-      "event_count": 644,
-      "credential_events": 198,
+      "event_count": 645,
+      "credential_events": 199,
       "cve_events": 0
     },
     {
@@ -3455,32 +3455,32 @@
     }
   ],
   "events_by_country": {
-    "NL": 58625,
+    "NL": 58635,
     "IQ": 45745,
     "RU": 27515,
-    "US": 19507,
-    "GB": 16548,
+    "US": 19650,
+    "BR": 15696,
     "CN": 10005,
     "TR": 8385,
-    "DE": 5257,
+    "DE": 5264,
     "RO": 5254,
     "LT": 2586,
     "ID": 1769,
     "BG": 1403,
     "FR": 1261,
     "CA": 1206,
-    "HK": 920,
-    "JP": 755,
+    "GB": 1132,
+    "HK": 806,
+    "JP": 756,
     "PL": 715,
     "SE": 557,
     "SG": 537,
     "CH": 450,
     "PK": 445,
     "KR": 358,
-    "BR": 278,
     "FI": 278,
-    "VN": 252,
-    "SI": 207,
+    "VN": 258,
+    "SI": 212,
     "IN": 198,
     "KZ": 191,
     "BD": 127,
