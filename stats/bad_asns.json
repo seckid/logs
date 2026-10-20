@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-20T09:03:03.927344Z",
+  "generated_at": "2026-10-20T10:01:35.924755Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "BR",
       "score": 100.0,
-      "event_count": 15690,
-      "ip_count": 551,
+      "event_count": 15692,
+      "ip_count": 552,
       "credential_events": 86,
       "cve_events": 49,
       "honeypots": [
@@ -31,10 +31,10 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "NL",
-      "score": 95.3,
-      "event_count": 2649,
-      "ip_count": 274,
+      "country": "US",
+      "score": 95.31,
+      "event_count": 2654,
+      "ip_count": 277,
       "credential_events": 1465,
       "cve_events": 111,
       "honeypots": [
@@ -80,6 +80,28 @@
       ]
     },
     {
+      "asn": "AS215540",
+      "name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+      "country": "TR",
+      "score": 90.29,
+      "event_count": 144,
+      "ip_count": 6,
+      "credential_events": 92,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=92",
+        "cve_events=42",
+        "multi_honeypot=4"
+      ]
+    },
+    {
       "asn": "AS51167",
       "name": "Contabo GmbH",
       "country": "FR",
@@ -121,28 +143,6 @@
         "credential_events=65",
         "cve_events=42",
         "multi_honeypot=5"
-      ]
-    },
-    {
-      "asn": "AS215540",
-      "name": "GLOBAL CONNECTIVITY SOLUTIONS LLP",
-      "country": "IE",
-      "score": 82.23,
-      "event_count": 116,
-      "ip_count": 5,
-      "credential_events": 64,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=64",
-        "cve_events=42",
-        "multi_honeypot=4"
       ]
     },
     {
@@ -371,10 +371,10 @@
       "asn": "AS197170",
       "name": "TechTies Inc.",
       "country": "DE",
-      "score": 61.36,
-      "event_count": 680,
+      "score": 61.37,
+      "event_count": 683,
       "ip_count": 27,
-      "credential_events": 234,
+      "credential_events": 237,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -384,7 +384,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=234",
+        "credential_events=237",
         "multi_honeypot=4"
       ]
     },
@@ -393,9 +393,9 @@
       "name": "CHINANET BACKBONE",
       "country": "CN",
       "score": 60.47,
-      "event_count": 235,
-      "ip_count": 25,
-      "credential_events": 128,
+      "event_count": 237,
+      "ip_count": 26,
+      "credential_events": 130,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -408,7 +408,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=128",
+        "credential_events=130",
         "multi_honeypot=7"
       ]
     },
@@ -558,9 +558,9 @@
       "name": "VPS Dedicated LLC",
       "country": "SI",
       "score": 55.54,
-      "event_count": 268,
+      "event_count": 271,
       "ip_count": 24,
-      "credential_events": 223,
+      "credential_events": 226,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -569,7 +569,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=223",
+        "credential_events=226",
         "multi_honeypot=3"
       ]
     },
@@ -931,8 +931,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 46.0,
-      "event_count": 6529,
-      "ip_count": 347,
+      "event_count": 6535,
+      "ip_count": 348,
       "credential_events": 32,
       "cve_events": 0,
       "honeypots": [
