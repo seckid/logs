@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-20T13:01:49.417308Z",
+  "generated_at": "2026-10-20T14:00:58.843253Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
+      "country": "BE",
       "score": 100.0,
-      "event_count": 15704,
+      "event_count": 15817,
       "ip_count": 556,
       "credential_events": 86,
       "cve_events": 49,
@@ -57,10 +57,10 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "JP",
-      "score": 91.31,
-      "event_count": 657,
-      "ip_count": 136,
+      "country": "MY",
+      "score": 91.32,
+      "event_count": 660,
+      "ip_count": 137,
       "credential_events": 192,
       "cve_events": 67,
       "honeypots": [
@@ -126,6 +126,29 @@
       ]
     },
     {
+      "asn": "AS31898",
+      "name": "Oracle Corporation",
+      "country": "US",
+      "score": 88.66,
+      "event_count": 1079,
+      "ip_count": 23,
+      "credential_events": 73,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=73",
+        "cve_events=42",
+        "multi_honeypot=5"
+      ]
+    },
+    {
       "asn": "AS51167",
       "name": "Contabo GmbH",
       "country": "FR",
@@ -144,29 +167,6 @@
         "credential_events=100",
         "cve_events=48",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS31898",
-      "name": "Oracle Corporation",
-      "country": "BR",
-      "score": 84.64,
-      "event_count": 1071,
-      "ip_count": 21,
-      "credential_events": 65,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=65",
-        "cve_events=42",
-        "multi_honeypot=5"
       ]
     },
     {
@@ -345,11 +345,11 @@
     {
       "asn": "AS16276",
       "name": "OVH SAS",
-      "country": "CA",
-      "score": 62.35,
-      "event_count": 374,
-      "ip_count": 81,
-      "credential_events": 105,
+      "country": "FR",
+      "score": 62.36,
+      "event_count": 379,
+      "ip_count": 84,
+      "credential_events": 108,
       "cve_events": 2,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -361,7 +361,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=105",
+        "credential_events=108",
         "cve_events=2",
         "multi_honeypot=6",
         "research_or_cloud_with_hostile_density"
@@ -372,9 +372,9 @@
       "name": "TechTies Inc.",
       "country": "DE",
       "score": 61.37,
-      "event_count": 686,
+      "event_count": 687,
       "ip_count": 27,
-      "credential_events": 240,
+      "credential_events": 241,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -384,7 +384,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=240",
+        "credential_events=241",
         "multi_honeypot=4"
       ]
     },
@@ -557,10 +557,10 @@
       "asn": "AS197769",
       "name": "VPS Dedicated LLC",
       "country": "SI",
-      "score": 55.57,
-      "event_count": 285,
+      "score": 55.58,
+      "event_count": 292,
       "ip_count": 24,
-      "credential_events": 240,
+      "credential_events": 247,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -569,7 +569,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=240",
+        "credential_events=247",
         "multi_honeypot=3"
       ]
     },
@@ -973,16 +973,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 41.22,
-      "event_count": 609,
+      "event_count": 610,
       "ip_count": 3,
-      "credential_events": 609,
+      "credential_events": 610,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=609"
+        "credential_events=610"
       ]
     },
     {
