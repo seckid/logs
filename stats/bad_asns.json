@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T08:01:25.000429Z",
+  "generated_at": "2026-10-20T09:03:03.927344Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,8 +7,8 @@
       "name": "Google LLC",
       "country": "BE",
       "score": 100.0,
-      "event_count": 15689,
-      "ip_count": 550,
+      "event_count": 15690,
+      "ip_count": 551,
       "credential_events": 86,
       "cve_events": 49,
       "honeypots": [
@@ -82,11 +82,11 @@
     {
       "asn": "AS51167",
       "name": "Contabo GmbH",
-      "country": "DE",
-      "score": 85.5,
-      "event_count": 248,
-      "ip_count": 23,
-      "credential_events": 80,
+      "country": "FR",
+      "score": 85.54,
+      "event_count": 268,
+      "ip_count": 24,
+      "credential_events": 100,
       "cve_events": 48,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -95,7 +95,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=80",
+        "credential_events=100",
         "cve_events=48",
         "multi_honeypot=3"
       ]
@@ -372,9 +372,9 @@
       "name": "TechTies Inc.",
       "country": "DE",
       "score": 61.36,
-      "event_count": 678,
+      "event_count": 680,
       "ip_count": 27,
-      "credential_events": 232,
+      "credential_events": 234,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -384,7 +384,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=232",
+        "credential_events=234",
         "multi_honeypot=4"
       ]
     },
@@ -538,9 +538,9 @@
       "name": "Korea Telecom",
       "country": "KR",
       "score": 55.69,
-      "event_count": 344,
-      "ip_count": 319,
-      "credential_events": 338,
+      "event_count": 346,
+      "ip_count": 321,
+      "credential_events": 340,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -549,7 +549,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=338",
+        "credential_events=340",
         "multi_honeypot=3"
       ]
     },
@@ -557,10 +557,10 @@
       "asn": "AS197769",
       "name": "VPS Dedicated LLC",
       "country": "SI",
-      "score": 55.53,
-      "event_count": 266,
+      "score": 55.54,
+      "event_count": 268,
       "ip_count": 24,
-      "credential_events": 221,
+      "credential_events": 223,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -569,7 +569,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=221",
+        "credential_events=223",
         "multi_honeypot=3"
       ]
     },
@@ -843,8 +843,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 48.72,
-      "event_count": 1611,
+      "score": 48.73,
+      "event_count": 1613,
       "ip_count": 285,
       "credential_events": 3,
       "cve_events": 30,
@@ -927,6 +927,31 @@
       ]
     },
     {
+      "asn": "AS8075",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "score": 46.0,
+      "event_count": 6529,
+      "ip_count": 347,
+      "credential_events": 32,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=32",
+        "multi_honeypot=7",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS58477",
       "name": "Argon Data Communication",
       "country": "ID",
@@ -948,16 +973,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 41.21,
-      "event_count": 604,
+      "event_count": 605,
       "ip_count": 3,
-      "credential_events": 604,
+      "credential_events": 605,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=604"
+        "credential_events=605"
       ]
     },
     {
@@ -1036,28 +1061,6 @@
       "reasons": [
         "credential_events=60",
         "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS403005",
-      "name": "Blatant Technologies, LLC",
-      "country": "DE",
-      "score": 37.62,
-      "event_count": 62,
-      "ip_count": 7,
-      "credential_events": 35,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=35",
-        "multi_honeypot=5"
       ]
     }
   ]
