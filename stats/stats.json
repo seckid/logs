@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T17:04:08.031447Z",
+  "generated_at": "2026-10-21T18:04:35.936268Z",
   "period_days": 90,
-  "total_events": 251240,
-  "unique_ips": 6758,
+  "total_events": 251978,
+  "unique_ips": 6763,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,14 +16,14 @@
   ],
   "totals_by_source": {
     "citrixpot:honeypot-01": 4399,
-    "panospot:honeypot-01": 803,
+    "panospot:honeypot-01": 813,
     "ivantipot:honeypot-01": 4754,
     "centrestackpot:honeypot-01": 240,
     "sharepointpot:honeypot-01": 24,
     "fortipot:honeypot-01": 81488,
-    "bigippot:honeypot-01": 28950,
-    "sshppot:honeypot-01": 83621,
-    "front:honeypot-01": 46961
+    "bigippot:honeypot-01": 28970,
+    "sshppot:honeypot-01": 83626,
+    "front:honeypot-01": 47664
   },
   "events_per_day": {
     "2026-08-28": {
@@ -461,23 +461,23 @@
       "total": 3213
     },
     "2026-10-21": {
-      "bigippot:honeypot-01": 873,
+      "bigippot:honeypot-01": 893,
       "citrixpot:honeypot-01": 289,
       "ivantipot:honeypot-01": 54,
       "sharepointpot:honeypot-01": 1,
-      "front:honeypot-01": 454,
-      "sshppot:honeypot-01": 1437,
-      "panospot:honeypot-01": 32,
+      "front:honeypot-01": 1157,
+      "sshppot:honeypot-01": 1442,
+      "panospot:honeypot-01": 42,
       "fortipot:honeypot-01": 176,
       "centrestackpot:honeypot-01": 1,
-      "total": 3317
+      "total": 4055
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 694
+      "count": 695
     },
     {
       "username": "root",
@@ -495,14 +495,14 @@
       "count": 163
     },
     {
+      "username": "admin",
+      "password": "(empty)",
+      "count": 155
+    },
+    {
       "username": "root",
       "password": "123456",
       "count": 154
-    },
-    {
-      "username": "admin",
-      "password": "(empty)",
-      "count": 153
     },
     {
       "username": "user",
@@ -732,11 +732,11 @@
     },
     {
       "username": "admin",
-      "count": 849
+      "count": 851
     },
     {
       "username": "support",
-      "count": 694
+      "count": 695
     },
     {
       "username": "user",
@@ -810,11 +810,11 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 694
+      "count": 695
     },
     {
       "password": "(empty)",
-      "count": 580
+      "count": 582
     },
     {
       "password": "admin",
@@ -891,12 +891,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 162258,
-      "unique_ips": 1925,
-      "unique_pairs": 106109,
+      "attempt_count": 162269,
+      "unique_ips": 1927,
+      "unique_pairs": 106113,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 162258
+      "unknown_outcome_count": 162269
     },
     "top_source_ips": [
       {
@@ -1155,14 +1155,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 581,
+        "attempt_count": 582,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-21T16:01:37Z",
+        "last_seen": "2026-10-21T17:08:49Z",
         "success_count": 0
       },
       {
@@ -1857,14 +1857,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 581,
+        "attempt_count": 582,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-21T16:01:37Z",
+        "last_seen": "2026-10-21T17:08:49Z",
         "success_count": 0
       },
       {
@@ -2166,7 +2166,7 @@
       {
         "username": "support",
         "password": "support",
-        "count": 694,
+        "count": 695,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2202,20 +2202,20 @@
         ]
       },
       {
-        "username": "root",
-        "password": "123456",
-        "count": 154,
+        "username": "admin",
+        "password": "(empty)",
+        "count": 155,
         "sources": [
+          "bigippot:honeypot-01",
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
         ]
       },
       {
-        "username": "admin",
-        "password": "(empty)",
-        "count": 153,
+        "username": "root",
+        "password": "123456",
+        "count": 154,
         "sources": [
-          "bigippot:honeypot-01",
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
         ]
@@ -2606,7 +2606,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 78211
+      "count": 78212
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2614,21 +2614,21 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 8541
+      "count": 8542
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "count": 7777
+      "count": 7779
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 5343
+      "count": 5619
     }
   ],
   "method_counts": {
-    "SSH": 83620,
-    "POST": 83181,
-    "GET": 78544,
+    "SSH": 83625,
+    "POST": 83224,
+    "GET": 79230,
     "PRI": 179,
     "HEAD": 154,
     "OPTIONS": 94,
@@ -2679,7 +2679,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 83107
+      "count": 83112
     },
     {
       "path": "/remote/logincheck",
@@ -2689,17 +2689,17 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2621
+      "count": 2624
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 2008
+      "count": 2018
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1558
+      "count": 1561
     },
     {
       "path": "/",
@@ -2729,7 +2729,7 @@
     {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 442
+      "count": 443
     },
     {
       "path": "/favicon.ico",
@@ -2742,14 +2742,14 @@
       "count": 335
     },
     {
+      "path": "/.env",
+      "source": "front:honeypot-01",
+      "count": 307
+    },
+    {
       "path": "/home/root",
       "source": "sshppot:honeypot-01",
       "count": 305
-    },
-    {
-      "path": "/.env",
-      "source": "front:honeypot-01",
-      "count": 303
     },
     {
       "path": "/wp-login.php",
@@ -2759,7 +2759,7 @@
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 286
+      "count": 288
     },
     {
       "path": "/wp-admin/index.php",
@@ -2965,7 +2965,7 @@
     },
     {
       "cve": "CVE-2022-1388",
-      "count": 28,
+      "count": 30,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -3037,33 +3037,8 @@
       ]
     },
     {
-      "cve": "CVE-2026-41940",
-      "count": 19,
-      "sources": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "front:honeypot-01"
-      ],
-      "description": "Critical authentication bypass in cPanel & WHM (and WP Squared) allowing unauthenticated remote attackers to obtain root-level administrative access via session poisoning in the login flow (CWE-306). Internet scanners probe /___proxy_subdomain_whm/login/?login_only=1 and related WHM management ports. Patch to fixed cPanel builds immediately.",
-      "severity": "Critical",
-      "cvss_score": 9.8,
-      "sample_ips": [
-        "128.199.182.55",
-        "143.244.168.161",
-        "147.182.200.94",
-        "167.71.175.236",
-        "206.81.24.74",
-        "207.154.197.113",
-        "209.38.208.202",
-        "209.38.248.17"
-      ],
-      "sample_paths": [
-        "/___proxy_subdomain_whm/login"
-      ]
-    },
-    {
       "cve": "CVE-2020-5902",
-      "count": 15,
+      "count": 21,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -3086,6 +3061,31 @@
         "/tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/etc/f5-release",
         "/tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/etc/passwd",
         "/tmui/login.jsp/..;/tmui/util/getTabSet.jsp?tabId=ThisisaTest"
+      ]
+    },
+    {
+      "cve": "CVE-2026-41940",
+      "count": 19,
+      "sources": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "front:honeypot-01"
+      ],
+      "description": "Critical authentication bypass in cPanel & WHM (and WP Squared) allowing unauthenticated remote attackers to obtain root-level administrative access via session poisoning in the login flow (CWE-306). Internet scanners probe /___proxy_subdomain_whm/login/?login_only=1 and related WHM management ports. Patch to fixed cPanel builds immediately.",
+      "severity": "Critical",
+      "cvss_score": 9.8,
+      "sample_ips": [
+        "128.199.182.55",
+        "143.244.168.161",
+        "147.182.200.94",
+        "167.71.175.236",
+        "206.81.24.74",
+        "207.154.197.113",
+        "209.38.208.202",
+        "209.38.248.17"
+      ],
+      "sample_paths": [
+        "/___proxy_subdomain_whm/login"
       ]
     },
     {
@@ -3190,7 +3190,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 3020,
+    "Critical": 3028,
     "High": 196
   },
   "top_asns": [
@@ -3218,9 +3218,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "FI",
-      "ip_count": 573,
-      "event_count": 16249
+      "country": "US",
+      "ip_count": 575,
+      "event_count": 16950
     },
     {
       "asn": "AS48090",
@@ -3339,10 +3339,10 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "FI",
+      "country": "US",
       "score": 100.0,
-      "event_count": 16249,
-      "credential_events": 86,
+      "event_count": 16950,
+      "credential_events": 90,
       "cve_events": 49
     },
     {
@@ -3518,33 +3518,33 @@
     }
   ],
   "events_by_country": {
-    "NL": 57079,
+    "NL": 57089,
     "IQ": 45745,
+    "US": 35090,
     "RU": 27545,
-    "US": 18138,
-    "FI": 16529,
     "CN": 10525,
     "TR": 8553,
-    "DE": 6960,
+    "DE": 6964,
     "RO": 5258,
-    "PL": 4059,
-    "IN": 3348,
+    "PL": 4060,
+    "IN": 3350,
     "LT": 2850,
     "ID": 2068,
-    "FR": 1662,
     "BG": 1412,
+    "FR": 1209,
+    "SG": 1188,
     "CA": 985,
     "HK": 941,
     "MY": 804,
-    "SG": 732,
-    "GB": 669,
+    "GB": 670,
     "SE": 586,
     "KR": 464,
     "PK": 447,
     "CH": 442,
     "VN": 412,
-    "SI": 336,
+    "SI": 340,
     "BR": 330,
+    "FI": 280,
     "KZ": 191,
     "BD": 153,
     "IR": 135,
