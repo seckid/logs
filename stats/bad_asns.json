@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-21T16:03:43.975809Z",
+  "generated_at": "2026-10-21T17:04:08.031447Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "FI",
       "score": 100.0,
-      "event_count": 16248,
-      "ip_count": 572,
+      "event_count": 16249,
+      "ip_count": 573,
       "credential_events": 86,
       "cve_events": 49,
       "honeypots": [
@@ -57,10 +57,10 @@
     {
       "asn": "AS31898",
       "name": "Oracle Corporation",
-      "country": "IN",
-      "score": 92.33,
-      "event_count": 1166,
-      "ip_count": 25,
+      "country": "US",
+      "score": 92.58,
+      "event_count": 1289,
+      "ip_count": 26,
       "credential_events": 160,
       "cve_events": 42,
       "honeypots": [
@@ -279,9 +279,9 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 70.0,
-      "event_count": 6678,
+      "event_count": 6695,
       "ip_count": 363,
-      "credential_events": 156,
+      "credential_events": 173,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -294,7 +294,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=156",
+        "credential_events=173",
         "multi_honeypot=7",
         "research_or_cloud_with_hostile_density"
       ]
@@ -504,9 +504,9 @@
       "asn": "AS213790",
       "name": "Limited Network LTD",
       "country": "LT",
-      "score": 60.26,
-      "event_count": 2632,
-      "ip_count": 22,
+      "score": 60.52,
+      "event_count": 2758,
+      "ip_count": 23,
       "credential_events": 2226,
       "cve_events": 0,
       "honeypots": [
@@ -646,9 +646,9 @@
       "name": "VPS Dedicated LLC",
       "country": "SI",
       "score": 55.67,
-      "event_count": 334,
+      "event_count": 336,
       "ip_count": 24,
-      "credential_events": 288,
+      "credential_events": 290,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -657,7 +657,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=288",
+        "credential_events=290",
         "multi_honeypot=3"
       ]
     },
@@ -709,8 +709,8 @@
       "asn": "AS12586",
       "name": "GHOSTnet GmbH",
       "country": "DE",
-      "score": 52.96,
-      "event_count": 1478,
+      "score": 53.22,
+      "event_count": 1610,
       "ip_count": 1,
       "credential_events": 0,
       "cve_events": 338,
@@ -812,10 +812,10 @@
       "asn": "AS137718",
       "name": "Beijing Volcano Engine Technology Co., Ltd.",
       "country": "CN",
-      "score": 50.28,
-      "event_count": 141,
+      "score": 50.3,
+      "event_count": 150,
       "ip_count": 16,
-      "credential_events": 137,
+      "credential_events": 146,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -823,7 +823,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=137",
+        "credential_events=146",
         "multi_honeypot=2"
       ]
     },
@@ -1031,6 +1031,28 @@
       ]
     },
     {
+      "asn": "AS12876",
+      "name": "Scaleway SAS",
+      "country": "FR",
+      "score": 41.03,
+      "event_count": 363,
+      "ip_count": 36,
+      "credential_events": 39,
+      "cve_events": 1,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=39",
+        "cve_events=1",
+        "multi_honeypot=4"
+      ]
+    },
+    {
       "asn": "AS59257",
       "name": "CMPak Limited",
       "country": "PK",
@@ -1047,25 +1069,6 @@
       "reasons": [
         "credential_events=1",
         "cve_events=84",
-        "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS202226",
-      "name": "Emil Vitukhnovskii trading as Great Flower",
-      "country": "FI",
-      "score": 40.21,
-      "event_count": 104,
-      "ip_count": 2,
-      "credential_events": 0,
-      "cve_events": 57,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "cve_events=57",
         "multi_honeypot=2"
       ]
     }
