@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T08:05:07.942407Z",
+  "generated_at": "2026-10-21T09:04:29.099614Z",
   "period_days": 90,
   "asns": [
     {
@@ -214,9 +214,9 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 12363,
+      "event_count": 12425,
       "ip_count": 30,
-      "credential_events": 9856,
+      "credential_events": 9918,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -228,7 +228,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=9856",
+        "credential_events=9918",
         "multi_honeypot=6"
       ]
     },
@@ -517,6 +517,27 @@
       ]
     },
     {
+      "asn": "AS24757",
+      "name": "Ethio Telecom",
+      "country": "ET",
+      "score": 58.65,
+      "event_count": 77,
+      "ip_count": 2,
+      "credential_events": 27,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=27",
+        "cve_events=42",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS208137",
       "name": "Feo Prest SRL",
       "country": "DE",
@@ -639,27 +660,6 @@
         "credential_events=13",
         "cve_events=36",
         "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS24757",
-      "name": "Ethio Telecom",
-      "country": "ET",
-      "score": 55.14,
-      "event_count": 70,
-      "ip_count": 2,
-      "credential_events": 20,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=20",
-        "cve_events=42",
-        "multi_honeypot=3"
       ]
     },
     {
@@ -1018,16 +1018,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 41.25,
-      "event_count": 625,
+      "event_count": 626,
       "ip_count": 3,
-      "credential_events": 625,
+      "credential_events": 626,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=625"
+        "credential_events=626"
       ]
     },
     {
