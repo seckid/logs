@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T22:04:49.161814Z",
+  "generated_at": "2026-10-21T23:02:49.495541Z",
   "period_days": 90,
-  "total_events": 252783,
-  "unique_ips": 6800,
+  "total_events": 252950,
+  "unique_ips": 6815,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -16,14 +16,14 @@
   ],
   "totals_by_source": {
     "citrixpot:honeypot-01": 4414,
-    "panospot:honeypot-01": 816,
+    "panospot:honeypot-01": 818,
     "ivantipot:honeypot-01": 4890,
     "centrestackpot:honeypot-01": 240,
     "sharepointpot:honeypot-01": 24,
-    "fortipot:honeypot-01": 81488,
-    "bigippot:honeypot-01": 29002,
-    "sshppot:honeypot-01": 83909,
-    "front:honeypot-01": 48000
+    "fortipot:honeypot-01": 81490,
+    "bigippot:honeypot-01": 29007,
+    "sshppot:honeypot-01": 84062,
+    "front:honeypot-01": 48005
   },
   "events_per_day": {
     "2026-08-28": {
@@ -461,33 +461,33 @@
       "total": 3213
     },
     "2026-10-21": {
-      "bigippot:honeypot-01": 925,
+      "bigippot:honeypot-01": 930,
       "citrixpot:honeypot-01": 304,
       "ivantipot:honeypot-01": 190,
       "sharepointpot:honeypot-01": 1,
-      "front:honeypot-01": 1493,
-      "sshppot:honeypot-01": 1725,
-      "panospot:honeypot-01": 45,
-      "fortipot:honeypot-01": 176,
+      "front:honeypot-01": 1498,
+      "sshppot:honeypot-01": 1878,
+      "panospot:honeypot-01": 47,
+      "fortipot:honeypot-01": 178,
       "centrestackpot:honeypot-01": 1,
-      "total": 4860
+      "total": 5027
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 700
+      "count": 702
     },
     {
       "username": "root",
       "password": "(empty)",
-      "count": 367
+      "count": 368
     },
     {
       "username": "admin",
       "password": "admin",
-      "count": 188
+      "count": 190
     },
     {
       "username": "root",
@@ -497,7 +497,7 @@
     {
       "username": "admin",
       "password": "(empty)",
-      "count": 156
+      "count": 157
     },
     {
       "username": "root",
@@ -512,12 +512,12 @@
     {
       "username": "root",
       "password": "admin",
-      "count": 132
+      "count": 134
     },
     {
       "username": "345gs5662d34",
       "password": "345gs5662d34",
-      "count": 129
+      "count": 133
     },
     {
       "username": "admin",
@@ -552,7 +552,7 @@
     {
       "username": "admin",
       "password": "1234",
-      "count": 100
+      "count": 102
     },
     {
       "username": "ubnt",
@@ -572,7 +572,7 @@
     {
       "username": "root",
       "password": "3245gs5662d34",
-      "count": 85
+      "count": 86
     },
     {
       "username": "Admin",
@@ -728,15 +728,15 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 1596
+      "count": 1600
     },
     {
       "username": "admin",
-      "count": 857
+      "count": 862
     },
     {
       "username": "support",
-      "count": 700
+      "count": 702
     },
     {
       "username": "user",
@@ -748,7 +748,7 @@
     },
     {
       "username": "345gs5662d34",
-      "count": 129
+      "count": 133
     },
     {
       "username": "test",
@@ -810,15 +810,15 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 700
+      "count": 702
     },
     {
       "password": "(empty)",
-      "count": 591
+      "count": 593
     },
     {
       "password": "admin",
-      "count": 320
+      "count": 324
     },
     {
       "password": "password",
@@ -838,7 +838,7 @@
     },
     {
       "password": "345gs5662d34",
-      "count": 129
+      "count": 133
     },
     {
       "password": "admin123",
@@ -858,7 +858,7 @@
     },
     {
       "password": "1234",
-      "count": 100
+      "count": 102
     },
     {
       "password": "ubnt",
@@ -874,7 +874,7 @@
     },
     {
       "password": "3245gs5662d34",
-      "count": 85
+      "count": 86
     },
     {
       "password": "Admin",
@@ -891,12 +891,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 162552,
-      "unique_ips": 1952,
-      "unique_pairs": 106196,
+      "attempt_count": 162710,
+      "unique_ips": 1966,
+      "unique_pairs": 106254,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 162552
+      "unknown_outcome_count": 162710
     },
     "top_source_ips": [
       {
@@ -2166,7 +2166,7 @@
       {
         "username": "support",
         "password": "support",
-        "count": 700,
+        "count": 702,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2175,7 +2175,7 @@
       {
         "username": "root",
         "password": "(empty)",
-        "count": 367,
+        "count": 368,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2183,7 +2183,7 @@
       {
         "username": "admin",
         "password": "admin",
-        "count": 188,
+        "count": 190,
         "sources": [
           "bigippot:honeypot-01",
           "fortipot:honeypot-01",
@@ -2204,7 +2204,7 @@
       {
         "username": "admin",
         "password": "(empty)",
-        "count": 156,
+        "count": 157,
         "sources": [
           "bigippot:honeypot-01",
           "fortipot:honeypot-01",
@@ -2232,7 +2232,7 @@
       {
         "username": "root",
         "password": "admin",
-        "count": 132,
+        "count": 134,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2240,7 +2240,7 @@
       {
         "username": "345gs5662d34",
         "password": "345gs5662d34",
-        "count": 129,
+        "count": 133,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2304,7 +2304,7 @@
       {
         "username": "admin",
         "password": "1234",
-        "count": 100,
+        "count": 102,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2339,7 +2339,7 @@
       {
         "username": "root",
         "password": "3245gs5662d34",
-        "count": 85,
+        "count": 86,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2614,7 +2614,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 8542
+      "count": 8544
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -2626,10 +2626,10 @@
     }
   ],
   "method_counts": {
-    "SSH": 83908,
+    "SSH": 84061,
     "POST": 83329,
-    "GET": 79646,
-    "PRI": 179,
+    "GET": 79659,
+    "PRI": 180,
     "HEAD": 154,
     "OPTIONS": 94,
     "PROPFIND": 85,
@@ -2679,7 +2679,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 83387
+      "count": 83536
     },
     {
       "path": "/remote/logincheck",
@@ -2689,17 +2689,17 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2636
+      "count": 2638
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 2030
+      "count": 2032
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1568
+      "count": 1569
     },
     {
       "path": "/",
@@ -2724,7 +2724,7 @@
     {
       "path": "/",
       "source": "fortipot:honeypot-01",
-      "count": 618
+      "count": 619
     },
     {
       "path": "/robots.txt",
@@ -2744,7 +2744,7 @@
     {
       "path": "/home/root",
       "source": "sshppot:honeypot-01",
-      "count": 312
+      "count": 313
     },
     {
       "path": "/.env",
@@ -2769,7 +2769,7 @@
     {
       "path": "/favicon.ico",
       "source": "front:honeypot-01",
-      "count": 235
+      "count": 236
     },
     {
       "path": "/favicon.ico",
@@ -3218,9 +3218,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
-      "ip_count": 578,
-      "event_count": 17235
+      "country": "BE",
+      "ip_count": 579,
+      "event_count": 17238
     },
     {
       "asn": "AS48090",
@@ -3234,7 +3234,7 @@
       "name": "admin@ntservers.pro",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 11078
+      "event_count": 11083
     },
     {
       "asn": "AS37963",
@@ -3317,8 +3317,8 @@
       "asn": "AS31898",
       "name": "Oracle Corporation",
       "country": "US",
-      "ip_count": 27,
-      "event_count": 1313
+      "ip_count": 28,
+      "event_count": 1333
     },
     {
       "asn": "AS202412",
@@ -3339,9 +3339,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
+      "country": "BE",
       "score": 100.0,
-      "event_count": 17235,
+      "event_count": 17238,
       "credential_events": 90,
       "cve_events": 49
     },
@@ -3358,9 +3358,9 @@
       "asn": "AS31898",
       "name": "Oracle Corporation",
       "country": "US",
-      "score": 92.63,
-      "event_count": 1313,
-      "credential_events": 184,
+      "score": 92.67,
+      "event_count": 1333,
+      "credential_events": 204,
       "cve_events": 42
     },
     {
@@ -3467,8 +3467,8 @@
       "name": "admin@ntservers.pro",
       "country": "NL",
       "score": 68.2,
-      "event_count": 11078,
-      "credential_events": 11022,
+      "event_count": 11083,
+      "credential_events": 11027,
       "cve_events": 4
     },
     {
@@ -3518,31 +3518,31 @@
     }
   ],
   "events_by_country": {
-    "NL": 57094,
+    "NL": 57106,
     "IQ": 45745,
-    "RU": 27546,
-    "US": 21652,
-    "TW": 17253,
-    "CN": 10552,
-    "TR": 8553,
-    "DE": 7111,
+    "RU": 27547,
+    "US": 21697,
+    "BE": 17239,
+    "CN": 10554,
+    "TR": 8558,
+    "DE": 7118,
     "RO": 5259,
     "PL": 4117,
     "LT": 2850,
-    "ID": 2068,
+    "ID": 2090,
     "SG": 1574,
     "BG": 1412,
     "FR": 1209,
     "HK": 989,
     "CA": 985,
-    "GB": 674,
+    "GB": 676,
     "SE": 586,
     "KR": 469,
     "PK": 448,
     "CH": 442,
     "VN": 413,
-    "IN": 365,
-    "SI": 344,
+    "IN": 412,
+    "SI": 345,
     "BR": 330,
     "FI": 280,
     "KZ": 191,
@@ -3558,10 +3558,10 @@
     "NG": 76,
     "EG": 69,
     "MX": 60,
+    "MO": 59,
     "MY": 58,
     "PY": 49,
     "UA": 49,
-    "MO": 40,
     "ES": 39,
     "ZA": 39,
     "VE": 38,
@@ -3573,9 +3573,10 @@
     "KW": 21,
     "LK": 21,
     "ZM": 20,
+    "TW": 18,
     "HU": 13,
     "IT": 13,
-    "PH": 10,
+    "PH": 11,
     "AE": 9,
     "BY": 6,
     "AT": 5,
@@ -3603,7 +3604,6 @@
     "QA": 2,
     "TG": 2,
     "AF": 1,
-    "BE": 1,
     "BH": 1,
     "DZ": 1,
     "EC": 1,
