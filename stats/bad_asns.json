@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-21T09:04:29.099614Z",
+  "generated_at": "2026-10-21T10:02:48.961270Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
+      "country": "BR",
       "score": 100.0,
-      "event_count": 15964,
-      "ip_count": 567,
+      "event_count": 15967,
+      "ip_count": 568,
       "credential_events": 86,
       "cve_events": 49,
       "honeypots": [
@@ -172,10 +172,10 @@
     {
       "asn": "AS132203",
       "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "US",
-      "score": 80.37,
-      "event_count": 185,
-      "ip_count": 9,
+      "country": "SG",
+      "score": 80.4,
+      "event_count": 199,
+      "ip_count": 10,
       "credential_events": 132,
       "cve_events": 49,
       "honeypots": [
@@ -214,9 +214,9 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 12425,
-      "ip_count": 30,
-      "credential_events": 9918,
+      "event_count": 12451,
+      "ip_count": 31,
+      "credential_events": 9942,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -228,18 +228,18 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=9918",
+        "credential_events=9942",
         "multi_honeypot=6"
       ]
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "JP",
+      "country": "SE",
       "score": 70.0,
-      "event_count": 6613,
-      "ip_count": 357,
-      "credential_events": 96,
+      "event_count": 6661,
+      "ip_count": 359,
+      "credential_events": 144,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -252,7 +252,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=96",
+        "credential_events=144",
         "multi_honeypot=7",
         "research_or_cloud_with_hostile_density"
       ]
@@ -414,6 +414,27 @@
       ]
     },
     {
+      "asn": "AS24757",
+      "name": "Ethio Telecom",
+      "country": "ET",
+      "score": 62.17,
+      "event_count": 84,
+      "ip_count": 2,
+      "credential_events": 34,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=34",
+        "cve_events=42",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS197170",
       "name": "TechTies Inc.",
       "country": "NL",
@@ -438,9 +459,9 @@
       "asn": "AS4134",
       "name": "CHINANET BACKBONE",
       "country": "CN",
-      "score": 60.57,
-      "event_count": 286,
-      "ip_count": 30,
+      "score": 60.58,
+      "event_count": 288,
+      "ip_count": 31,
       "credential_events": 178,
       "cve_events": 0,
       "honeypots": [
@@ -514,27 +535,6 @@
       "reasons": [
         "credential_events=8375",
         "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS24757",
-      "name": "Ethio Telecom",
-      "country": "ET",
-      "score": 58.65,
-      "event_count": 77,
-      "ip_count": 2,
-      "credential_events": 27,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=27",
-        "cve_events=42",
-        "multi_honeypot=3"
       ]
     },
     {
@@ -973,6 +973,30 @@
       ]
     },
     {
+      "asn": "AS9808",
+      "name": "China Mobile Communications Group Co., Ltd.",
+      "country": "CN",
+      "score": 44.14,
+      "event_count": 68,
+      "ip_count": 16,
+      "credential_events": 48,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=48",
+        "multi_honeypot=7"
+      ]
+    },
+    {
       "asn": "AS58477",
       "name": "Argon Data Communication",
       "country": "ID",
@@ -987,30 +1011,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=1613"
-      ]
-    },
-    {
-      "asn": "AS9808",
-      "name": "China Mobile Communications Group Co., Ltd.",
-      "country": "CN",
-      "score": 42.63,
-      "event_count": 65,
-      "ip_count": 15,
-      "credential_events": 45,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=45",
-        "multi_honeypot=7"
       ]
     },
     {
