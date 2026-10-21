@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-21T15:04:48.643793Z",
+  "generated_at": "2026-10-21T16:03:43.975809Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BR",
+      "country": "US",
       "score": 100.0,
-      "event_count": 16246,
-      "ip_count": 571,
+      "event_count": 16248,
+      "ip_count": 572,
       "credential_events": 86,
       "cve_events": 49,
       "honeypots": [
@@ -80,10 +80,10 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "US",
+      "country": "MY",
       "score": 91.49,
-      "event_count": 745,
-      "ip_count": 143,
+      "event_count": 747,
+      "ip_count": 144,
       "credential_events": 256,
       "cve_events": 67,
       "honeypots": [
@@ -173,10 +173,10 @@
       "asn": "AS24757",
       "name": "Ethio Telecom",
       "country": "ET",
-      "score": 81.24,
-      "event_count": 122,
+      "score": 83.25,
+      "event_count": 126,
       "ip_count": 2,
-      "credential_events": 72,
+      "credential_events": 76,
       "cve_events": 42,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -185,7 +185,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=72",
+        "credential_events=76",
         "cve_events=42",
         "multi_honeypot=3"
       ]
@@ -256,9 +256,9 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 12455,
+      "event_count": 12456,
       "ip_count": 31,
-      "credential_events": 9946,
+      "credential_events": 9947,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -270,7 +270,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=9946",
+        "credential_events=9947",
         "multi_honeypot=6"
       ]
     },
@@ -279,9 +279,9 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 70.0,
-      "event_count": 6666,
-      "ip_count": 362,
-      "credential_events": 144,
+      "event_count": 6678,
+      "ip_count": 363,
+      "credential_events": 156,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -294,7 +294,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=144",
+        "credential_events=156",
         "multi_honeypot=7",
         "research_or_cloud_with_hostile_density"
       ]
@@ -645,10 +645,10 @@
       "asn": "AS197769",
       "name": "VPS Dedicated LLC",
       "country": "SI",
-      "score": 55.66,
-      "event_count": 332,
+      "score": 55.67,
+      "event_count": 334,
       "ip_count": 24,
-      "credential_events": 286,
+      "credential_events": 288,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -657,7 +657,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=286",
+        "credential_events=288",
         "multi_honeypot=3"
       ]
     },
@@ -751,11 +751,11 @@
       "asn": "AS213412",
       "name": "ONYPHE SAS",
       "country": "FR",
-      "score": 50.89,
-      "event_count": 447,
+      "score": 50.91,
+      "event_count": 453,
       "ip_count": 185,
       "credential_events": 0,
-      "cve_events": 72,
+      "cve_events": 74,
       "honeypots": [
         "bigippot:honeypot-01",
         "citrixpot:honeypot-01",
@@ -766,7 +766,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "cve_events=72",
+        "cve_events=74",
         "multi_honeypot=6"
       ]
     },
@@ -812,10 +812,10 @@
       "asn": "AS137718",
       "name": "Beijing Volcano Engine Technology Co., Ltd.",
       "country": "CN",
-      "score": 50.22,
-      "event_count": 109,
-      "ip_count": 14,
-      "credential_events": 105,
+      "score": 50.28,
+      "event_count": 141,
+      "ip_count": 16,
+      "credential_events": 137,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -823,7 +823,26 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=105",
+        "credential_events=137",
+        "multi_honeypot=2"
+      ]
+    },
+    {
+      "asn": "AS38365",
+      "name": "Beijing Baidu Netcom Science and Technology Co., Ltd.",
+      "country": "CN",
+      "score": 50.21,
+      "event_count": 107,
+      "ip_count": 10,
+      "credential_events": 106,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=106",
         "multi_honeypot=2"
       ]
     },
@@ -843,25 +862,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=101",
-        "multi_honeypot=2"
-      ]
-    },
-    {
-      "asn": "AS38365",
-      "name": "Beijing Baidu Netcom Science and Technology Co., Ltd.",
-      "country": "CN",
-      "score": 50.17,
-      "event_count": 85,
-      "ip_count": 9,
-      "credential_events": 84,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=84",
         "multi_honeypot=2"
       ]
     },
@@ -977,8 +977,8 @@
       "name": "China Mobile Communications Group Co., Ltd.",
       "country": "CN",
       "score": 44.14,
-      "event_count": 68,
-      "ip_count": 16,
+      "event_count": 71,
+      "ip_count": 17,
       "credential_events": 48,
       "cve_events": 0,
       "honeypots": [
@@ -1018,16 +1018,16 @@
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
       "score": 41.26,
-      "event_count": 630,
+      "event_count": 631,
       "ip_count": 3,
-      "credential_events": 630,
+      "credential_events": 631,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=630"
+        "credential_events=631"
       ]
     },
     {
