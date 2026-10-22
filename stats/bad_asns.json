@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T23:02:49.495541Z",
+  "generated_at": "2026-10-22T00:04:29.726848Z",
   "period_days": 90,
   "asns": [
     {
@@ -57,10 +57,10 @@
     {
       "asn": "AS31898",
       "name": "Oracle Corporation",
-      "country": "US",
-      "score": 92.67,
-      "event_count": 1333,
-      "ip_count": 28,
+      "country": "AU",
+      "score": 92.69,
+      "event_count": 1343,
+      "ip_count": 29,
       "credential_events": 204,
       "cve_events": 42,
       "honeypots": [
@@ -105,11 +105,11 @@
     {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "HK",
-      "score": 91.17,
-      "event_count": 583,
-      "ip_count": 65,
-      "credential_events": 115,
+      "country": "JP",
+      "score": 91.25,
+      "event_count": 624,
+      "ip_count": 66,
+      "credential_events": 156,
       "cve_events": 85,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -121,7 +121,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=115",
+        "credential_events=156",
         "cve_events=85",
         "multi_honeypot=6"
       ]
@@ -279,8 +279,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 70.0,
-      "event_count": 6696,
-      "ip_count": 363,
+      "event_count": 6697,
+      "ip_count": 364,
       "credential_events": 173,
       "cve_events": 0,
       "honeypots": [
@@ -433,10 +433,10 @@
     {
       "asn": "AS16276",
       "name": "OVH SAS",
-      "country": "DE",
+      "country": "FR",
       "score": 62.51,
-      "event_count": 454,
-      "ip_count": 87,
+      "event_count": 456,
+      "ip_count": 88,
       "credential_events": 180,
       "cve_events": 2,
       "honeypots": [
@@ -525,9 +525,9 @@
       "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "country": "CN",
       "score": 60.0,
-      "event_count": 9356,
-      "ip_count": 34,
-      "credential_events": 9329,
+      "event_count": 9367,
+      "ip_count": 35,
+      "credential_events": 9340,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -535,7 +535,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=9329",
+        "credential_events=9340",
         "multi_honeypot=2"
       ]
     },
@@ -750,9 +750,9 @@
     {
       "asn": "AS213412",
       "name": "ONYPHE SAS",
-      "country": "US",
-      "score": 50.92,
-      "event_count": 461,
+      "country": "FR",
+      "score": 50.93,
+      "event_count": 467,
       "ip_count": 188,
       "credential_events": 0,
       "cve_events": 74,
@@ -933,6 +933,26 @@
       ]
     },
     {
+      "asn": "AS7713",
+      "name": "PT Telekomunikasi Indonesia",
+      "country": "ID",
+      "score": 48.14,
+      "event_count": 68,
+      "ip_count": 7,
+      "credential_events": 66,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=66",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS7552",
       "name": "Viettel Group",
       "country": "VN",
@@ -970,6 +990,26 @@
         "credential_events=5",
         "cve_events=42",
         "multi_honeypot=3"
+      ]
+    },
+    {
+      "asn": "AS398101",
+      "name": "GoDaddy.com, LLC",
+      "country": "US",
+      "score": 44.94,
+      "event_count": 71,
+      "ip_count": 4,
+      "credential_events": 68,
+      "cve_events": 1,
+      "honeypots": [
+        "ivantipot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=68",
+        "cve_events=1",
+        "multi_honeypot=2"
       ]
     },
     {
@@ -1017,59 +1057,17 @@
       "asn": "AS154383",
       "name": "ZORNTECH WEB SOLUTIONS",
       "country": "PL",
-      "score": 41.27,
-      "event_count": 636,
+      "score": 41.28,
+      "event_count": 638,
       "ip_count": 3,
-      "credential_events": 636,
+      "credential_events": 638,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=636"
-      ]
-    },
-    {
-      "asn": "AS12876",
-      "name": "Scaleway SAS",
-      "country": "FR",
-      "score": 41.03,
-      "event_count": 363,
-      "ip_count": 36,
-      "credential_events": 39,
-      "cve_events": 1,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=39",
-        "cve_events=1",
-        "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS59257",
-      "name": "CMPak Limited",
-      "country": "PK",
-      "score": 40.7,
-      "event_count": 99,
-      "ip_count": 3,
-      "credential_events": 1,
-      "cve_events": 84,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=1",
-        "cve_events=84",
-        "multi_honeypot=2"
+        "credential_events=638"
       ]
     }
   ]
