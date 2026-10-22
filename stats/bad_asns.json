@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-22T21:03:49.360251Z",
+  "generated_at": "2026-10-22T22:04:07.676701Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "US",
       "score": 100.0,
-      "event_count": 17540,
-      "ip_count": 589,
+      "event_count": 17541,
+      "ip_count": 590,
       "credential_events": 90,
       "cve_events": 49,
       "honeypots": [
@@ -31,10 +31,10 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "SG",
+      "country": "US",
       "score": 96.07,
-      "event_count": 3033,
-      "ip_count": 300,
+      "event_count": 3034,
+      "ip_count": 301,
       "credential_events": 1661,
       "cve_events": 123,
       "honeypots": [
@@ -366,6 +366,28 @@
       ]
     },
     {
+      "asn": "AS213790",
+      "name": "Limited Network LTD",
+      "country": "LT",
+      "score": 67.12,
+      "event_count": 2761,
+      "ip_count": 23,
+      "credential_events": 2227,
+      "cve_events": 2,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=2227",
+        "cve_events=2",
+        "multi_honeypot=4"
+      ]
+    },
+    {
       "asn": "AS210328",
       "name": "AO ALMAZ",
       "country": "RU",
@@ -474,27 +496,6 @@
       "reasons": [
         "credential_events=258",
         "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS213790",
-      "name": "Limited Network LTD",
-      "country": "LT",
-      "score": 61.32,
-      "event_count": 2760,
-      "ip_count": 23,
-      "credential_events": 2227,
-      "cve_events": 1,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=2227",
-        "cve_events=1",
-        "multi_honeypot=3"
       ]
     },
     {
@@ -932,9 +933,9 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 48.88,
-      "event_count": 1691,
-      "ip_count": 297,
+      "score": 48.92,
+      "event_count": 1711,
+      "ip_count": 298,
       "credential_events": 3,
       "cve_events": 30,
       "honeypots": [
