@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T02:00:48.124616Z",
+  "generated_at": "2026-10-22T03:05:36.771153Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,8 +7,8 @@
       "name": "Google LLC",
       "country": "BE",
       "score": 100.0,
-      "event_count": 17515,
-      "ip_count": 579,
+      "event_count": 17527,
+      "ip_count": 581,
       "credential_events": 90,
       "cve_events": 49,
       "honeypots": [
@@ -193,11 +193,11 @@
     {
       "asn": "AS132203",
       "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "SG",
+      "country": "US",
       "score": 80.45,
-      "event_count": 223,
-      "ip_count": 11,
-      "credential_events": 156,
+      "event_count": 225,
+      "ip_count": 12,
+      "credential_events": 158,
       "cve_events": 49,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -205,7 +205,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=156",
+        "credential_events=158",
         "cve_events=49",
         "multi_honeypot=2"
       ]
@@ -256,7 +256,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 12459,
+      "event_count": 12461,
       "ip_count": 31,
       "credential_events": 9948,
       "cve_events": 0,
@@ -279,8 +279,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 70.0,
-      "event_count": 6700,
-      "ip_count": 365,
+      "event_count": 6703,
+      "ip_count": 367,
       "credential_events": 173,
       "cve_events": 0,
       "honeypots": [
@@ -481,9 +481,9 @@
       "name": "CHINANET BACKBONE",
       "country": "CN",
       "score": 60.62,
-      "event_count": 308,
-      "ip_count": 33,
-      "credential_events": 192,
+      "event_count": 309,
+      "ip_count": 34,
+      "credential_events": 193,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -496,7 +496,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=192",
+        "credential_events=193",
         "multi_honeypot=7"
       ]
     },
@@ -703,6 +703,27 @@
       "reasons": [
         "cve_events=59",
         "multi_honeypot=5"
+      ]
+    },
+    {
+      "asn": "AS22773",
+      "name": "Cox Communications Inc.",
+      "country": "US",
+      "score": 53.64,
+      "event_count": 72,
+      "ip_count": 18,
+      "credential_events": 17,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=17",
+        "cve_events=42",
+        "multi_honeypot=3"
       ]
     },
     {
@@ -1051,23 +1072,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=1613"
-      ]
-    },
-    {
-      "asn": "AS154383",
-      "name": "ZORNTECH WEB SOLUTIONS",
-      "country": "PL",
-      "score": 41.28,
-      "event_count": 639,
-      "ip_count": 3,
-      "credential_events": 639,
-      "cve_events": 0,
-      "honeypots": [
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=639"
       ]
     }
   ]
