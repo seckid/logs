@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-22T07:03:08.084917Z",
+  "generated_at": "2026-10-22T08:04:08.159000Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "US",
+      "country": "BE",
       "score": 100.0,
-      "event_count": 17531,
-      "ip_count": 584,
+      "event_count": 17533,
+      "ip_count": 586,
       "credential_events": 90,
       "cve_events": 49,
       "honeypots": [
@@ -31,10 +31,10 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
+      "country": "DE",
       "score": 96.03,
-      "event_count": 3013,
-      "ip_count": 293,
+      "event_count": 3014,
+      "ip_count": 294,
       "credential_events": 1661,
       "cve_events": 123,
       "honeypots": [
@@ -433,10 +433,10 @@
     {
       "asn": "AS16276",
       "name": "OVH SAS",
-      "country": "FR",
-      "score": 62.51,
-      "event_count": 456,
-      "ip_count": 88,
+      "country": "CA",
+      "score": 62.53,
+      "event_count": 465,
+      "ip_count": 89,
       "credential_events": 180,
       "cve_events": 2,
       "honeypots": [
@@ -505,9 +505,9 @@
       "name": "Limited Network LTD",
       "country": "LT",
       "score": 60.52,
-      "event_count": 2758,
+      "event_count": 2759,
       "ip_count": 23,
-      "credential_events": 2226,
+      "credential_events": 2227,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -516,7 +516,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=2226",
+        "credential_events=2227",
         "multi_honeypot=3"
       ]
     },
@@ -644,6 +644,26 @@
       ]
     },
     {
+      "asn": "AS197769",
+      "name": "VPS Dedicated LLC",
+      "country": "SI",
+      "score": 55.7,
+      "event_count": 348,
+      "ip_count": 24,
+      "credential_events": 300,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=300",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS49870",
       "name": "Alsycon B.V.",
       "country": "NL",
@@ -660,26 +680,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=336",
-        "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS197769",
-      "name": "VPS Dedicated LLC",
-      "country": "SI",
-      "score": 55.69,
-      "event_count": 347,
-      "ip_count": 24,
-      "credential_events": 300,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=300",
         "multi_honeypot=3"
       ]
     },
