@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-22T20:01:42.968102Z",
+  "generated_at": "2026-10-22T21:03:49.360251Z",
   "period_days": 90,
-  "total_events": 255574,
-  "unique_ips": 6944,
+  "total_events": 255888,
+  "unique_ips": 6951,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 4808,
+    "citrixpot:honeypot-01": 5104,
     "panospot:honeypot-01": 844,
     "ivantipot:honeypot-01": 5078,
     "centrestackpot:honeypot-01": 240,
     "sharepointpot:honeypot-01": 24,
-    "fortipot:honeypot-01": 81692,
-    "bigippot:honeypot-01": 29681,
+    "fortipot:honeypot-01": 81702,
+    "bigippot:honeypot-01": 29689,
     "sshppot:honeypot-01": 84784,
     "front:honeypot-01": 48423
   },
@@ -474,13 +474,13 @@
     },
     "2026-10-22": {
       "front:honeypot-01": 391,
-      "bigippot:honeypot-01": 667,
+      "bigippot:honeypot-01": 675,
       "sshppot:honeypot-01": 535,
-      "citrixpot:honeypot-01": 392,
+      "citrixpot:honeypot-01": 688,
       "ivantipot:honeypot-01": 184,
-      "fortipot:honeypot-01": 202,
+      "fortipot:honeypot-01": 212,
       "panospot:honeypot-01": 15,
-      "total": 2386
+      "total": 2700
     }
   },
   "top_credentials": [
@@ -2617,7 +2617,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 78233
+      "count": 78234
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2638,8 +2638,8 @@
   ],
   "method_counts": {
     "SSH": 84783,
-    "POST": 83677,
-    "GET": 81093,
+    "POST": 83679,
+    "GET": 81395,
     "PRI": 188,
     "HEAD": 156,
     "OPTIONS": 96,
@@ -2702,7 +2702,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2697
+      "count": 2699
     },
     {
       "path": "/",
@@ -2712,17 +2712,17 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1621
+      "count": 1622
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 1258
+      "count": 1263
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 873
+      "count": 875
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
@@ -2747,7 +2747,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 375
+      "count": 376
     },
     {
       "path": "/logincheck",
@@ -3169,14 +3169,16 @@
     },
     {
       "cve": "CVE-2026-109618",
-      "count": 6,
+      "count": 7,
       "sources": [
+        "bigippot:honeypot-01",
         "front:honeypot-01"
       ],
       "description": "Critical PHP issue tracked with CVE-2026-109619 as php2shell. Honeypot detection is the PHP_SESSION_UPLOAD_PROGRESS field on a request. A normal session cookie is not this signal. PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35 are the reported fixed releases. Older branches are end of life.",
       "severity": "Critical",
       "cvss_score": 9.2,
       "sample_ips": [
+        "77.90.185.20",
         "82.112.235.131",
         "94.26.104.67"
       ],
@@ -3187,14 +3189,16 @@
     },
     {
       "cve": "CVE-2026-109619",
-      "count": 6,
+      "count": 7,
       "sources": [
+        "bigippot:honeypot-01",
         "front:honeypot-01"
       ],
       "description": "Critical PHP issue tracked with CVE-2026-109618 as php2shell. The same upload-progress field tags both CVEs. Fixed releases reported for supported branches are PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35.",
       "severity": "Critical",
       "cvss_score": 9.2,
       "sample_ips": [
+        "77.90.185.20",
         "82.112.235.131",
         "94.26.104.67"
       ],
@@ -3205,7 +3209,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 3238,
+    "Critical": 3240,
     "High": 196
   },
   "top_asns": [
@@ -3234,8 +3238,8 @@
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "BE",
-      "ip_count": 588,
-      "event_count": 17538
+      "ip_count": 589,
+      "event_count": 17540
     },
     {
       "asn": "AS48090",
@@ -3289,16 +3293,16 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 299,
-      "event_count": 3031
+      "country": "SG",
+      "ip_count": 300,
+      "event_count": 3033
     },
     {
       "asn": "AS213790",
       "name": "Limited Network LTD",
       "country": "LT",
       "ip_count": 23,
-      "event_count": 2759
+      "event_count": 2760
     },
     {
       "asn": "AS12586",
@@ -3318,8 +3322,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 294,
-      "event_count": 1685
+      "ip_count": 297,
+      "event_count": 1691
     },
     {
       "asn": "AS58477",
@@ -3356,16 +3360,16 @@
       "name": "Google LLC",
       "country": "BE",
       "score": 100.0,
-      "event_count": 17538,
+      "event_count": 17540,
       "credential_events": 90,
       "cve_events": 49
     },
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "score": 96.06,
-      "event_count": 3031,
+      "country": "SG",
+      "score": 96.07,
+      "event_count": 3033,
       "credential_events": 1661,
       "cve_events": 123
     },
@@ -3533,24 +3537,24 @@
     }
   ],
   "events_by_country": {
-    "NL": 57095,
+    "NL": 57265,
     "IQ": 45745,
     "RU": 27549,
-    "US": 20189,
-    "BE": 17539,
+    "BE": 17541,
+    "US": 17006,
     "CN": 10586,
     "TR": 8558,
     "DE": 6532,
     "RO": 5259,
     "PL": 4370,
-    "LT": 2851,
+    "SG": 4262,
+    "LT": 2852,
     "FR": 2802,
     "ID": 2113,
     "BG": 1412,
     "AU": 1371,
     "KR": 1355,
-    "GB": 1274,
-    "SG": 1229,
+    "GB": 1275,
     "JP": 771,
     "SE": 586,
     "CA": 527,
@@ -3561,6 +3565,7 @@
     "VN": 413,
     "SI": 348,
     "BR": 333,
+    "DK": 290,
     "FI": 280,
     "KZ": 191,
     "BD": 153,
@@ -3570,7 +3575,7 @@
     "ET": 126,
     "CM": 98,
     "UZ": 98,
-    "NO": 92,
+    "NO": 93,
     "MY": 86,
     "NG": 76,
     "EG": 69,
@@ -3600,7 +3605,6 @@
     "CO": 6,
     "AT": 5,
     "LV": 5,
-    "DK": 4,
     "KH": 4,
     "MN": 4,
     "SA": 4,
