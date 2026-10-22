@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-22T17:02:29.583093Z",
+  "generated_at": "2026-10-22T18:05:29.396151Z",
   "period_days": 90,
-  "total_events": 255419,
-  "unique_ips": 6942,
+  "total_events": 255440,
+  "unique_ips": 6943,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 4793,
+    "citrixpot:honeypot-01": 4804,
     "panospot:honeypot-01": 844,
     "ivantipot:honeypot-01": 5078,
     "centrestackpot:honeypot-01": 240,
     "sharepointpot:honeypot-01": 24,
     "fortipot:honeypot-01": 81687,
-    "bigippot:honeypot-01": 29546,
+    "bigippot:honeypot-01": 29556,
     "sshppot:honeypot-01": 84784,
     "front:honeypot-01": 48423
   },
@@ -474,13 +474,13 @@
     },
     "2026-10-22": {
       "front:honeypot-01": 391,
-      "bigippot:honeypot-01": 532,
+      "bigippot:honeypot-01": 542,
       "sshppot:honeypot-01": 535,
-      "citrixpot:honeypot-01": 377,
+      "citrixpot:honeypot-01": 388,
       "ivantipot:honeypot-01": 184,
       "fortipot:honeypot-01": 197,
       "panospot:honeypot-01": 15,
-      "total": 2231
+      "total": 2252
     }
   },
   "top_credentials": [
@@ -507,7 +507,7 @@
     {
       "username": "admin",
       "password": "(empty)",
-      "count": 159
+      "count": 160
     },
     {
       "username": "root",
@@ -742,7 +742,7 @@
     },
     {
       "username": "admin",
-      "count": 866
+      "count": 867
     },
     {
       "username": "support",
@@ -824,7 +824,7 @@
     },
     {
       "password": "(empty)",
-      "count": 607
+      "count": 608
     },
     {
       "password": "admin",
@@ -901,12 +901,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 163436,
-      "unique_ips": 2001,
+      "attempt_count": 163437,
+      "unique_ips": 2002,
       "unique_pairs": 106473,
       "success_count": 0,
       "failure_count": 0,
-      "unknown_outcome_count": 163436
+      "unknown_outcome_count": 163437
     },
     "top_source_ips": [
       {
@@ -2214,7 +2214,7 @@
       {
         "username": "admin",
         "password": "(empty)",
-        "count": 159,
+        "count": 160,
         "sources": [
           "bigippot:honeypot-01",
           "fortipot:honeypot-01",
@@ -2617,11 +2617,11 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 78230
+      "count": 78233
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 10213
+      "count": 10216
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2638,8 +2638,8 @@
   ],
   "method_counts": {
     "SSH": 84783,
-    "POST": 83665,
-    "GET": 80952,
+    "POST": 83668,
+    "GET": 80969,
     "PRI": 188,
     "HEAD": 156,
     "OPTIONS": 96,
@@ -2701,7 +2701,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2689
+      "count": 2691
     },
     {
       "path": "/",
@@ -2711,12 +2711,12 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1614
+      "count": 1616
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 1254
+      "count": 1258
     },
     {
       "path": "/logon/LogonPoint/index.html",
@@ -3254,8 +3254,8 @@
       "asn": "AS37963",
       "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "country": "CN",
-      "ip_count": 35,
-      "event_count": 9367
+      "ip_count": 36,
+      "event_count": 9368
     },
     {
       "asn": "AS9121",
@@ -3288,9 +3288,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "SG",
+      "country": "US",
       "ip_count": 299,
-      "event_count": 3029
+      "event_count": 3031
     },
     {
       "asn": "AS213790",
@@ -3362,9 +3362,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "SG",
+      "country": "US",
       "score": 96.06,
-      "event_count": 3029,
+      "event_count": 3031,
       "credential_events": 1661,
       "cve_events": 123
     },
@@ -3534,21 +3534,21 @@
   "events_by_country": {
     "NL": 57095,
     "IQ": 45745,
-    "US": 34512,
+    "US": 36886,
     "RU": 27549,
-    "CN": 10583,
+    "CN": 10584,
     "TR": 8558,
-    "DE": 6526,
+    "DE": 6528,
     "RO": 5259,
     "PL": 4370,
-    "SG": 3589,
     "LT": 2851,
     "FR": 2802,
     "ID": 2113,
-    "GB": 1984,
+    "GB": 1988,
     "BG": 1412,
     "AU": 1371,
     "KR": 1355,
+    "SG": 1229,
     "JP": 771,
     "SE": 586,
     "CA": 527,
