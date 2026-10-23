@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T02:02:29.681577Z",
+  "generated_at": "2026-10-23T03:00:50.883805Z",
   "period_days": 90,
-  "total_events": 256998,
-  "unique_ips": 6972,
+  "total_events": 257010,
+  "unique_ips": 6974,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 5917,
-    "panospot:honeypot-01": 854,
+    "citrixpot:honeypot-01": 5918,
+    "panospot:honeypot-01": 857,
     "ivantipot:honeypot-01": 5145,
     "centrestackpot:honeypot-01": 240,
     "sharepointpot:honeypot-01": 24,
     "fortipot:honeypot-01": 81715,
-    "bigippot:honeypot-01": 29896,
+    "bigippot:honeypot-01": 29904,
     "sshppot:honeypot-01": 84784,
     "front:honeypot-01": 48423
   },
@@ -483,12 +483,12 @@
       "total": 3630
     },
     "2026-10-23": {
-      "bigippot:honeypot-01": 71,
+      "bigippot:honeypot-01": 79,
       "ivantipot:honeypot-01": 67,
-      "citrixpot:honeypot-01": 20,
-      "panospot:honeypot-01": 10,
+      "citrixpot:honeypot-01": 21,
+      "panospot:honeypot-01": 13,
       "fortipot:honeypot-01": 12,
-      "total": 180
+      "total": 192
     }
   },
   "top_credentials": [
@@ -2625,7 +2625,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 78236
+      "count": 78237
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2646,8 +2646,8 @@
   ],
   "method_counts": {
     "SSH": 84783,
-    "POST": 83690,
-    "GET": 82430,
+    "POST": 83691,
+    "GET": 82438,
     "PRI": 188,
     "HEAD": 156,
     "OPTIONS": 96,
@@ -2658,7 +2658,7 @@
     "UDP": 13,
     "CONNECT": 11,
     "HEARTBEAT": 8,
-    "T3": 7,
+    "T3": 8,
     "{\"ID\":": 6,
     "{\"PARAMS\":": 6,
     "ZSDLKFJ2": 6,
@@ -2710,7 +2710,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2708
+      "count": 2711
     },
     {
       "path": "/",
@@ -2720,12 +2720,12 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1628
+      "count": 1630
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 1367
+      "count": 1368
     },
     {
       "path": "/logon/LogonPoint/index.html",
@@ -3304,15 +3304,15 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 303,
-      "event_count": 3058
+      "ip_count": 304,
+      "event_count": 3059
     },
     {
       "asn": "AS213790",
       "name": "Limited Network LTD",
       "country": "LT",
       "ip_count": 23,
-      "event_count": 2764
+      "event_count": 2765
     },
     {
       "asn": "AS12586",
@@ -3379,7 +3379,7 @@
       "name": "DigitalOcean, LLC",
       "country": "US",
       "score": 96.12,
-      "event_count": 3058,
+      "event_count": 3059,
       "credential_events": 1661,
       "cve_events": 123
     },
@@ -3404,9 +3404,9 @@
     {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "KR",
+      "country": "TH",
       "score": 91.29,
-      "event_count": 644,
+      "event_count": 647,
       "credential_events": 156,
       "cve_events": 85
     },
@@ -3514,7 +3514,7 @@
       "name": "Limited Network LTD",
       "country": "LT",
       "score": 67.13,
-      "event_count": 2764,
+      "event_count": 2765,
       "credential_events": 2227,
       "cve_events": 2
     },
@@ -3547,29 +3547,29 @@
     }
   ],
   "events_by_country": {
-    "NL": 57271,
+    "NL": 57017,
     "IQ": 45745,
     "RU": 27549,
-    "US": 19426,
+    "US": 20156,
     "BR": 18212,
     "CN": 10586,
     "TR": 8558,
-    "DE": 6760,
+    "DE": 7015,
     "RO": 5259,
     "PL": 4370,
-    "LT": 2856,
+    "LT": 2857,
     "FR": 2802,
     "ID": 2113,
+    "GB": 1948,
     "BG": 1412,
     "AU": 1371,
-    "GB": 1277,
     "HK": 1274,
-    "SG": 1231,
-    "KR": 1168,
-    "JP": 872,
     "DK": 854,
+    "TH": 789,
     "SE": 586,
+    "SG": 562,
     "CA": 527,
+    "KR": 524,
     "IN": 479,
     "VN": 462,
     "PK": 449,
@@ -3578,7 +3578,7 @@
     "FI": 280,
     "KZ": 191,
     "BD": 153,
-    "TH": 142,
+    "JP": 147,
     "MA": 139,
     "IR": 136,
     "ET": 126,
