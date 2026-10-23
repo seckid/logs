@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T07:05:49.375795Z",
+  "generated_at": "2026-10-23T08:01:49.409299Z",
   "period_days": 90,
-  "total_events": 257255,
-  "unique_ips": 7006,
+  "total_events": 257286,
+  "unique_ips": 7008,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 5988,
+    "citrixpot:honeypot-01": 6008,
     "panospot:honeypot-01": 861,
-    "ivantipot:honeypot-01": 5171,
+    "ivantipot:honeypot-01": 5180,
     "centrestackpot:honeypot-01": 240,
     "sharepointpot:honeypot-01": 24,
     "fortipot:honeypot-01": 81749,
-    "bigippot:honeypot-01": 30015,
+    "bigippot:honeypot-01": 30017,
     "sshppot:honeypot-01": 84784,
     "front:honeypot-01": 48423
   },
@@ -483,12 +483,12 @@
       "total": 3630
     },
     "2026-10-23": {
-      "bigippot:honeypot-01": 190,
-      "ivantipot:honeypot-01": 93,
-      "citrixpot:honeypot-01": 91,
+      "bigippot:honeypot-01": 192,
+      "ivantipot:honeypot-01": 102,
+      "citrixpot:honeypot-01": 111,
       "panospot:honeypot-01": 17,
       "fortipot:honeypot-01": 46,
-      "total": 437
+      "total": 468
     }
   },
   "top_credentials": [
@@ -2625,7 +2625,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 78257
+      "count": 78258
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2646,8 +2646,8 @@
   ],
   "method_counts": {
     "SSH": 84783,
-    "POST": 83702,
-    "GET": 82594,
+    "POST": 83712,
+    "GET": 82615,
     "PRI": 188,
     "HEAD": 157,
     "OPTIONS": 98,
@@ -2726,12 +2726,12 @@
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 1392
+      "count": 1393
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 997
+      "count": 998
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
@@ -2829,7 +2829,7 @@
     },
     {
       "cve": "CVE-2026-88771",
-      "count": 679,
+      "count": 689,
       "sources": [
         "citrixpot:honeypot-01"
       ],
@@ -2856,10 +2856,11 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 636,
+      "count": 652,
       "sources": [
         "bigippot:honeypot-01",
-        "front:honeypot-01"
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
       ],
       "description": "Critical argument injection in PHP running as CGI on Windows. Attackers smuggle -d directives (allow_url_include, auto_prepend_file=php://input) via soft-hyphen (%AD) encoding that bypasses CVE-2012-1823 mitigations. Unauthenticated RCE when php-cgi.exe is exposed. Actively exploited by RedTail cryptominer (libredtail-http).",
       "severity": "Critical",
@@ -3159,7 +3160,7 @@
     },
     {
       "cve": "CVE-2026-88772",
-      "count": 13,
+      "count": 14,
       "sources": [
         "citrixpot:honeypot-01"
       ],
@@ -3170,10 +3171,12 @@
         "138.226.239.5",
         "151.242.36.84",
         "23.234.100.38",
+        "43.111.224.124",
         "5.230.56.196"
       ],
       "sample_paths": [
-        "/dtls"
+        "/dtls",
+        "/vpn/scripts/linux/clientversions.xml"
       ]
     },
     {
@@ -3220,7 +3223,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 3457,
+    "Critical": 3484,
     "High": 196
   },
   "top_asns": [
@@ -3304,9 +3307,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
-      "ip_count": 305,
-      "event_count": 3060
+      "country": "CA",
+      "ip_count": 306,
+      "event_count": 3061
     },
     {
       "asn": "AS213790",
@@ -3378,9 +3381,9 @@
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "US",
+      "country": "CA",
       "score": 96.12,
-      "event_count": 3060,
+      "event_count": 3061,
       "credential_events": 1661,
       "cve_events": 123
     },
@@ -3396,11 +3399,11 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "HK",
-      "score": 91.68,
-      "event_count": 840,
+      "country": "US",
+      "score": 91.72,
+      "event_count": 860,
       "credential_events": 339,
-      "cve_events": 67
+      "cve_events": 78
     },
     {
       "asn": "AS135377",
@@ -3455,6 +3458,15 @@
       "event_count": 117,
       "credential_events": 68,
       "cve_events": 42
+    },
+    {
+      "asn": "AS212238",
+      "name": "Datacamp Limited",
+      "country": "NL",
+      "score": 72.88,
+      "event_count": 342,
+      "credential_events": 58,
+      "cve_events": 29
     },
     {
       "asn": "AS36352",
@@ -3529,15 +3541,6 @@
       "cve_events": 2
     },
     {
-      "asn": "AS212238",
-      "name": "Datacamp Limited",
-      "country": "NL",
-      "score": 66.47,
-      "event_count": 333,
-      "credential_events": 58,
-      "cve_events": 21
-    },
-    {
       "asn": "AS211486",
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "NL",
@@ -3548,32 +3551,32 @@
     }
   ],
   "events_by_country": {
-    "NL": 57991,
+    "NL": 58000,
     "IQ": 45745,
     "RU": 27549,
-    "US": 20333,
+    "US": 18133,
     "BE": 17894,
     "CN": 10586,
     "TR": 8558,
     "DE": 7691,
     "RO": 5259,
     "PL": 4371,
+    "CA": 3588,
     "LT": 2857,
     "FR": 2684,
     "ID": 2113,
     "BG": 1412,
     "AU": 1371,
-    "HK": 1274,
     "DK": 854,
-    "GB": 764,
+    "GB": 765,
     "TW": 714,
     "SE": 586,
-    "CA": 527,
     "KR": 524,
     "IN": 479,
     "VN": 462,
     "PK": 449,
     "CH": 447,
+    "HK": 434,
     "SI": 348,
     "BR": 335,
     "FI": 280,
