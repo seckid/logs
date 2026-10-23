@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T04:05:08.810591Z",
+  "generated_at": "2026-10-23T05:04:49.910939Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,8 +7,8 @@
       "name": "Google LLC",
       "country": "BE",
       "score": 100.0,
-      "event_count": 17880,
-      "ip_count": 593,
+      "event_count": 17893,
+      "ip_count": 595,
       "credential_events": 90,
       "cve_events": 49,
       "honeypots": [
@@ -707,6 +707,32 @@
       ]
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "score": 53.99,
+      "event_count": 1843,
+      "ip_count": 304,
+      "credential_events": 3,
+      "cve_events": 36,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=3",
+        "cve_events=36",
+        "multi_honeypot=7",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
@@ -768,32 +794,6 @@
         "credential_events=14",
         "cve_events=67",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 51.52,
-      "event_count": 1808,
-      "ip_count": 302,
-      "credential_events": 3,
-      "cve_events": 33,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=3",
-        "cve_events=33",
-        "multi_honeypot=7",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
