@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T06:03:30.925420Z",
+  "generated_at": "2026-10-23T07:05:49.375795Z",
   "period_days": 90,
-  "total_events": 257161,
-  "unique_ips": 7000,
+  "total_events": 257255,
+  "unique_ips": 7006,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 5974,
+    "citrixpot:honeypot-01": 5988,
     "panospot:honeypot-01": 861,
-    "ivantipot:honeypot-01": 5170,
+    "ivantipot:honeypot-01": 5171,
     "centrestackpot:honeypot-01": 240,
     "sharepointpot:honeypot-01": 24,
-    "fortipot:honeypot-01": 81748,
-    "bigippot:honeypot-01": 29937,
+    "fortipot:honeypot-01": 81749,
+    "bigippot:honeypot-01": 30015,
     "sshppot:honeypot-01": 84784,
     "front:honeypot-01": 48423
   },
@@ -483,12 +483,12 @@
       "total": 3630
     },
     "2026-10-23": {
-      "bigippot:honeypot-01": 112,
-      "ivantipot:honeypot-01": 92,
-      "citrixpot:honeypot-01": 77,
+      "bigippot:honeypot-01": 190,
+      "ivantipot:honeypot-01": 93,
+      "citrixpot:honeypot-01": 91,
       "panospot:honeypot-01": 17,
-      "fortipot:honeypot-01": 45,
-      "total": 343
+      "fortipot:honeypot-01": 46,
+      "total": 437
     }
   },
   "top_credentials": [
@@ -2625,11 +2625,11 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 78251
+      "count": 78257
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 10217
+      "count": 10218
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2637,7 +2637,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "count": 7887
+      "count": 7888
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2646,8 +2646,8 @@
   ],
   "method_counts": {
     "SSH": 84783,
-    "POST": 83694,
-    "GET": 82527,
+    "POST": 83702,
+    "GET": 82594,
     "PRI": 188,
     "HEAD": 157,
     "OPTIONS": 98,
@@ -2711,7 +2711,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2717
+      "count": 2720
     },
     {
       "path": "/",
@@ -2721,17 +2721,17 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1633
+      "count": 1635
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 1388
+      "count": 1392
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 990
+      "count": 997
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
@@ -2802,7 +2802,7 @@
   "cve_attempts": [
     {
       "cve": "CVE-2017-9841",
-      "count": 1875,
+      "count": 1912,
       "sources": [
         "bigippot:honeypot-01"
       ],
@@ -2829,7 +2829,7 @@
     },
     {
       "cve": "CVE-2026-88771",
-      "count": 676,
+      "count": 679,
       "sources": [
         "citrixpot:honeypot-01"
       ],
@@ -2856,7 +2856,7 @@
     },
     {
       "cve": "CVE-2024-4577",
-      "count": 626,
+      "count": 636,
       "sources": [
         "bigippot:honeypot-01",
         "front:honeypot-01"
@@ -3220,7 +3220,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 3407,
+    "Critical": 3457,
     "High": 196
   },
   "top_asns": [
@@ -3284,8 +3284,8 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 376,
-      "event_count": 6747
+      "ip_count": 378,
+      "event_count": 6749
     },
     {
       "asn": "AS204428",
@@ -3333,8 +3333,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 304,
-      "event_count": 1844
+      "ip_count": 306,
+      "event_count": 1877
     },
     {
       "asn": "AS58477",
@@ -3405,11 +3405,11 @@
     {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "TH",
-      "score": 91.29,
-      "event_count": 647,
+      "country": "TW",
+      "score": 91.39,
+      "event_count": 696,
       "credential_events": 156,
-      "cve_events": 85
+      "cve_events": 127
     },
     {
       "asn": "AS215540",
@@ -3479,7 +3479,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 70.0,
-      "event_count": 6747,
+      "event_count": 6749,
       "credential_events": 201,
       "cve_events": 0
     },
@@ -3531,9 +3531,9 @@
     {
       "asn": "AS212238",
       "name": "Datacamp Limited",
-      "country": "SG",
-      "score": 66.46,
-      "event_count": 332,
+      "country": "NL",
+      "score": 66.47,
+      "event_count": 333,
       "credential_events": 58,
       "cve_events": 21
     },
@@ -3548,10 +3548,10 @@
     }
   ],
   "events_by_country": {
-    "NL": 57657,
+    "NL": 57991,
     "IQ": 45745,
     "RU": 27549,
-    "US": 20298,
+    "US": 20333,
     "BE": 17894,
     "CN": 10586,
     "TR": 8558,
@@ -3565,28 +3565,29 @@
     "AU": 1371,
     "HK": 1274,
     "DK": 854,
-    "TH": 789,
     "GB": 764,
+    "TW": 714,
     "SE": 586,
-    "SG": 562,
     "CA": 527,
     "KR": 524,
     "IN": 479,
     "VN": 462,
     "PK": 449,
-    "CH": 442,
+    "CH": 447,
     "SI": 348,
     "BR": 335,
     "FI": 280,
+    "SG": 230,
     "KZ": 191,
     "BD": 153,
     "JP": 147,
+    "TH": 142,
     "MA": 139,
     "IR": 136,
     "ET": 126,
     "CM": 98,
     "UZ": 98,
-    "NO": 93,
+    "NO": 94,
     "MY": 86,
     "NG": 76,
     "EG": 69,
@@ -3608,7 +3609,6 @@
     "LK": 21,
     "BO": 20,
     "ZM": 20,
-    "TW": 18,
     "HU": 13,
     "CZ": 11,
     "AE": 9,
