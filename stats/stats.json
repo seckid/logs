@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T15:03:34.925415Z",
+  "generated_at": "2026-10-23T16:02:49.509740Z",
   "period_days": 90,
-  "total_events": 257691,
-  "unique_ips": 7046,
+  "total_events": 257825,
+  "unique_ips": 7053,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,14 +18,14 @@
   ],
   "totals_by_source": {
     "owapot:honeypot-01": 17,
-    "nodepot:honeypot-01": 5,
-    "citrixpot:honeypot-01": 6071,
+    "nodepot:honeypot-01": 17,
+    "citrixpot:honeypot-01": 6101,
     "panospot:honeypot-01": 882,
-    "ivantipot:honeypot-01": 5216,
-    "centrestackpot:honeypot-01": 292,
+    "ivantipot:honeypot-01": 5225,
+    "centrestackpot:honeypot-01": 353,
     "sharepointpot:honeypot-01": 25,
-    "fortipot:honeypot-01": 81785,
-    "bigippot:honeypot-01": 30191,
+    "fortipot:honeypot-01": 81786,
+    "bigippot:honeypot-01": 30212,
     "sshppot:honeypot-01": 84784,
     "front:honeypot-01": 48423
   },
@@ -489,14 +489,14 @@
     "2026-10-23": {
       "sharepointpot:honeypot-01": 1,
       "owapot:honeypot-01": 17,
-      "nodepot:honeypot-01": 5,
-      "fortipot:honeypot-01": 82,
+      "nodepot:honeypot-01": 17,
+      "fortipot:honeypot-01": 83,
       "panospot:honeypot-01": 38,
-      "citrixpot:honeypot-01": 174,
-      "ivantipot:honeypot-01": 138,
-      "bigippot:honeypot-01": 366,
-      "centrestackpot:honeypot-01": 52,
-      "total": 873
+      "citrixpot:honeypot-01": 204,
+      "ivantipot:honeypot-01": 147,
+      "bigippot:honeypot-01": 387,
+      "centrestackpot:honeypot-01": 113,
+      "total": 1007
     }
   },
   "top_credentials": [
@@ -2633,7 +2633,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 78267
+      "count": 78273
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2654,65 +2654,67 @@
   ],
   "method_counts": {
     "SSH": 84783,
-    "POST": 83729,
-    "GET": 82910,
+    "POST": 83734,
+    "GET": 83021,
     "PRI": 190,
-    "HEAD": 157,
-    "OPTIONS": 98,
+    "HEAD": 159,
+    "OPTIONS": 102,
     "PROPFIND": 88,
     "PUT": 29,
     "DELETE": 22,
     "SSTP_DUPLEX_POST": 15,
     "UDP": 13,
     "CONNECT": 11,
-    "HEARTBEAT": 8,
     "T3": 8,
-    "{\"PARAMS\":": 6,
+    "HEARTBEAT": 8,
     "{\"ID\":": 6,
     "ZSDLKFJ2": 6,
-    "\u0000\u0000\u0000SMBR\u0000\u0000\u0000\u0000\b\u0001@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0006\u0000\u0000\u0001\u0000\u0000\u0000\u0002PC": 3,
+    "{\"PARAMS\":": 6,
     "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"BLUE1\",\"PASS\":\"X\",\"AGENT\":\"WINDOWS": 3,
-    "GETROUTERINFO": 2,
+    "\u0000\u0000\u0000SMBR\u0000\u0000\u0000\u0000\b\u0001@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0006\u0000\u0000\u0001\u0000\u0000\u0000\u0002PC": 3,
     "\n": 2,
+    "GETROUTERINFO": 2,
+    "\u0003\u0000\u0000*%\u0000\u0000\u0000\u0000\u0000COOKIE:": 1,
+    "ILTB": 1,
     "ATVQ": 1,
+    "TLII": 1,
+    ":\u0000\u0000\u0000/\u0000\u0000\u0000\u0002\u0000\u0000@\u0002\u000f\u0000\u0001\u0000=\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000/\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@": 1,
+    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003&ÊHß\u0019åí~c": 1,
     "FOX": 1,
+    "GRBY": 1,
     "RFSB": 1,
+    "PATCH": 1,
+    "ZZFX": 1,
+    "\u0016\u0003\u0001\u0007¦\u0001\u0000\u0007¢\u0003\u0003SÂùªóÓUZ@¶µ\u001b8": 1,
+    "\u0000Z\u0000\u0000\u0001\u0000\u0000\u0000\u00016\u0001,\u0000\u0000\b\u0000\b\u0000\u0000\u0000\u0001\u0000": 1,
     "LAQZ": 1,
     "IYRM": 1,
-    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"46SNJV9ENHAEFSVUBVITRZCWWHKKXADIDIEN14GMC3LYBQH1JYXRKE6DL2D87GS2D495SRBKWGKTZFNKS45AUWX3QYVCPJP\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
-    "OFFN": 1,
     "BKKD": 1,
-    "\u0000Z\u0000\u0000\u0001\u0000\u0000\u0000\u00016\u0001,\u0000\u0000\b\u0000\b\u0000\u0000\u0000\u0001\u0000": 1,
-    "ILTB": 1,
-    "TLII": 1,
-    "\u0016\u0003\u0001\u0007¦\u0001\u0000\u0007¢\u0003\u0003SÂùªóÓUZ@¶µ\u001b8": 1,
-    "ZZFX": 1,
-    "PATCH": 1,
-    ":\u0000\u0000\u0000/\u0000\u0000\u0000\u0002\u0000\u0000@\u0002\u000f\u0000\u0001\u0000=\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000/\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@": 1,
-    "GRBY": 1,
-    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003&ÊHß\u0019åí~c": 1,
+    "OFFN": 1,
+    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"46SNJV9ENHAEFSVUBVITRZCWWHKKXADIDIEN14GMC3LYBQH1JYXRKE6DL2D87GS2D495SRBKWGKTZFNKS45AUWX3QYVCPJP\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
+    "VDXP": 1,
     "AMQP\u0000\u0000": 1,
-    "ICOE": 1,
-    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003Ý46ñO*?G\u001bm=éRÐRÇx+1Ý«¸QÈ,»en": 1,
-    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"46T2PRK3WVHADJ3DWLFTKLCQRYPBKYKZXYENBHUWJPERTYNKY32KAFBAEPJX4GMWPNEDYNZB8P2SB47MNFXRUYE9UJFSHIP\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
+    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003×ý»w?Ê\u0002": 1,
+    "GYVV": 1,
+    "CYWP": 1,
+    "FUFS": 1,
+    "EOEN": 1,
+    "WRVT": 1,
+    "KNGO": 1,
+    "ZEXZ": 1,
+    "VUGA": 1,
+    "\u0016\u0003\u0001\u0007Æ\u0001\u0000\u0007Â\u0003\u0003³\u000e¹91-¢\\\u0011j\u001b:6)\u001bì\u0000ró³Õ0ëÉ": 1,
     "\u0016\u0003\u0001\u0007\u0001\u0000\u0007\u0003\u0003tÕËÝÆ\u000fG¸ú«zõÆh": 1,
+    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"46T2PRK3WVHADJ3DWLFTKLCQRYPBKYKZXYENBHUWJPERTYNKY32KAFBAEPJX4GMWPNEDYNZB8P2SB47MNFXRUYE9UJFSHIP\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
+    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003Ý46ñO*?G\u001bm=éRÐRÇx+1Ý«¸QÈ,»en": 1,
+    "ICOE": 1,
     "\u0016\u0003\u0001\u0007¦\u0001\u0000\u0007¢\u0003\u0003ª\bÞ\u001ax": 1,
     "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003W®íjÌ\"¬ð¾uo": 1,
-    "\u0016\u0003\u0001\u0007Æ\u0001\u0000\u0007Â\u0003\u0003³\u000e¹91-¢\\\u0011j\u001b:6)\u001bì\u0000ró³Õ0ëÉ": 1,
-    "VUGA": 1,
-    "KNGO": 1,
-    "WRVT": 1,
     "OXFS": 1,
     "URGW": 1,
-    "EOEN": 1,
-    "FUFS": 1,
-    "CYWP": 1,
     "TPWK": 1,
-    "GYVV": 1,
-    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003×ý»w?Ê\u0002": 1,
     "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"43ZH4RRH6WOFAFX5YT8FYBXD3TCKFMW4HJX1TYJDUB7GACJZPLNWU4VR5H15HTRLBANSPSUUFDU6XE7JFJU3P2BUGKE3HIA\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
-    "TPPW": 1,
-    "\u0003\u0000\u0000*%\u0000\u0000\u0000\u0000\u0000COOKIE:": 1
+    "TPPW": 1
   },
   "top_paths": [
     {
@@ -2728,7 +2730,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2738
+      "count": 2740
     },
     {
       "path": "/",
@@ -2738,27 +2740,27 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1649
+      "count": 1651
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 1411
+      "count": 1420
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 1015
+      "count": 1025
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
       "source": "ivantipot:honeypot-01",
-      "count": 671
+      "count": 672
     },
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 650
+      "count": 651
     },
     {
       "path": "/",
@@ -2846,7 +2848,7 @@
     },
     {
       "cve": "CVE-2026-88771",
-      "count": 694,
+      "count": 700,
       "sources": [
         "citrixpot:honeypot-01"
       ],
@@ -2902,7 +2904,7 @@
     },
     {
       "cve": "CVE-2025-5777",
-      "count": 86,
+      "count": 87,
       "sources": [
         "citrixpot:honeypot-01"
       ],
@@ -3259,8 +3261,8 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 3541,
-    "High": 201
+    "Critical": 3547,
+    "High": 202
   },
   "top_asns": [
     {
@@ -3287,9 +3289,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
-      "ip_count": 600,
-      "event_count": 17906
+      "country": "BE",
+      "ip_count": 606,
+      "event_count": 17930
     },
     {
       "asn": "AS48090",
@@ -3338,7 +3340,7 @@
       "name": "TC DATACENTER LIMITED",
       "country": "PL",
       "ip_count": 18,
-      "event_count": 3519
+      "event_count": 3520
     },
     {
       "asn": "AS14061",
@@ -3365,8 +3367,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 309,
-      "event_count": 1935
+      "ip_count": 310,
+      "event_count": 1949
     },
     {
       "asn": "AS6939",
@@ -3408,9 +3410,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "TW",
+      "country": "BE",
       "score": 100.0,
-      "event_count": 17906,
+      "event_count": 17930,
       "credential_events": 90,
       "cve_events": 49
     },
@@ -3499,8 +3501,8 @@
       "asn": "AS212238",
       "name": "Datacamp Limited",
       "country": "NL",
-      "score": 72.88,
-      "event_count": 342,
+      "score": 72.89,
+      "event_count": 343,
       "credential_events": 58,
       "cve_events": 29
     },
@@ -3587,16 +3589,16 @@
     }
   ],
   "events_by_country": {
-    "NL": 58026,
+    "NL": 58027,
     "IQ": 45745,
     "RU": 27550,
-    "US": 20187,
-    "TW": 17924,
+    "US": 20249,
+    "BE": 17931,
     "CN": 10593,
     "DE": 9977,
     "TR": 8558,
     "RO": 5259,
-    "PL": 4371,
+    "PL": 4372,
     "LT": 2857,
     "FR": 2204,
     "ID": 2113,
@@ -3647,6 +3649,7 @@
     "LK": 21,
     "BO": 20,
     "ZM": 20,
+    "TW": 18,
     "HU": 13,
     "CZ": 11,
     "AE": 9,
@@ -3675,7 +3678,6 @@
     "QA": 2,
     "TG": 2,
     "AF": 1,
-    "BE": 1,
     "BH": 1,
     "DZ": 1,
     "EC": 1,
