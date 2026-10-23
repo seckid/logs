@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T14:04:24.492787Z",
+  "generated_at": "2026-10-23T15:03:34.925415Z",
   "period_days": 90,
-  "total_events": 257598,
-  "unique_ips": 7044,
+  "total_events": 257691,
+  "unique_ips": 7046,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -17,15 +17,15 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "owapot:honeypot-01": 13,
+    "owapot:honeypot-01": 17,
     "nodepot:honeypot-01": 5,
-    "citrixpot:honeypot-01": 6045,
+    "citrixpot:honeypot-01": 6071,
     "panospot:honeypot-01": 882,
-    "ivantipot:honeypot-01": 5208,
-    "centrestackpot:honeypot-01": 241,
+    "ivantipot:honeypot-01": 5216,
+    "centrestackpot:honeypot-01": 292,
     "sharepointpot:honeypot-01": 25,
     "fortipot:honeypot-01": 81785,
-    "bigippot:honeypot-01": 30187,
+    "bigippot:honeypot-01": 30191,
     "sshppot:honeypot-01": 84784,
     "front:honeypot-01": 48423
   },
@@ -488,15 +488,15 @@
     },
     "2026-10-23": {
       "sharepointpot:honeypot-01": 1,
-      "owapot:honeypot-01": 13,
+      "owapot:honeypot-01": 17,
       "nodepot:honeypot-01": 5,
       "fortipot:honeypot-01": 82,
       "panospot:honeypot-01": 38,
-      "citrixpot:honeypot-01": 148,
-      "ivantipot:honeypot-01": 130,
-      "bigippot:honeypot-01": 362,
-      "centrestackpot:honeypot-01": 1,
-      "total": 780
+      "citrixpot:honeypot-01": 174,
+      "ivantipot:honeypot-01": 138,
+      "bigippot:honeypot-01": 366,
+      "centrestackpot:honeypot-01": 52,
+      "total": 873
     }
   },
   "top_credentials": [
@@ -2633,7 +2633,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 78260
+      "count": 78267
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2654,8 +2654,8 @@
   ],
   "method_counts": {
     "SSH": 84783,
-    "POST": 83727,
-    "GET": 82829,
+    "POST": 83729,
+    "GET": 82910,
     "PRI": 190,
     "HEAD": 157,
     "OPTIONS": 98,
@@ -2665,46 +2665,54 @@
     "SSTP_DUPLEX_POST": 15,
     "UDP": 13,
     "CONNECT": 11,
-    "T3": 8,
     "HEARTBEAT": 8,
+    "T3": 8,
+    "{\"PARAMS\":": 6,
     "{\"ID\":": 6,
     "ZSDLKFJ2": 6,
-    "{\"PARAMS\":": 6,
     "\u0000\u0000\u0000SMBR\u0000\u0000\u0000\u0000\b\u0001@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0006\u0000\u0000\u0001\u0000\u0000\u0000\u0002PC": 3,
     "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"BLUE1\",\"PASS\":\"X\",\"AGENT\":\"WINDOWS": 3,
-    "\n": 2,
     "GETROUTERINFO": 2,
-    "TPWK": 1,
-    "AMQP\u0000\u0000": 1,
-    "GYVV": 1,
-    "ILTB": 1,
-    "CYWP": 1,
-    "GRBY": 1,
-    "FUFS": 1,
-    "EOEN": 1,
-    "TLII": 1,
-    ":\u0000\u0000\u0000/\u0000\u0000\u0000\u0002\u0000\u0000@\u0002\u000f\u0000\u0001\u0000=\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000/\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@": 1,
-    "WRVT": 1,
-    "PATCH": 1,
-    "KNGO": 1,
-    "VUGA": 1,
-    "ZZFX": 1,
-    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"46T2PRK3WVHADJ3DWLFTKLCQRYPBKYKZXYENBHUWJPERTYNKY32KAFBAEPJX4GMWPNEDYNZB8P2SB47MNFXRUYE9UJFSHIP\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
-    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"43ZH4RRH6WOFAFX5YT8FYBXD3TCKFMW4HJX1TYJDUB7GACJZPLNWU4VR5H15HTRLBANSPSUUFDU6XE7JFJU3P2BUGKE3HIA\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
-    "ICOE": 1,
-    "\u0000Z\u0000\u0000\u0001\u0000\u0000\u0000\u00016\u0001,\u0000\u0000\b\u0000\b\u0000\u0000\u0000\u0001\u0000": 1,
-    "BKKD": 1,
-    "OFFN": 1,
-    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"46SNJV9ENHAEFSVUBVITRZCWWHKKXADIDIEN14GMC3LYBQH1JYXRKE6DL2D87GS2D495SRBKWGKTZFNKS45AUWX3QYVCPJP\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
-    "IYRM": 1,
-    "LAQZ": 1,
-    "RFSB": 1,
-    "OXFS": 1,
-    "FOX": 1,
+    "\n": 2,
     "ATVQ": 1,
+    "FOX": 1,
+    "RFSB": 1,
+    "LAQZ": 1,
+    "IYRM": 1,
+    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"46SNJV9ENHAEFSVUBVITRZCWWHKKXADIDIEN14GMC3LYBQH1JYXRKE6DL2D87GS2D495SRBKWGKTZFNKS45AUWX3QYVCPJP\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
+    "OFFN": 1,
+    "BKKD": 1,
+    "\u0000Z\u0000\u0000\u0001\u0000\u0000\u0000\u00016\u0001,\u0000\u0000\b\u0000\b\u0000\u0000\u0000\u0001\u0000": 1,
+    "ILTB": 1,
+    "TLII": 1,
+    "\u0016\u0003\u0001\u0007¦\u0001\u0000\u0007¢\u0003\u0003SÂùªóÓUZ@¶µ\u001b8": 1,
+    "ZZFX": 1,
+    "PATCH": 1,
+    ":\u0000\u0000\u0000/\u0000\u0000\u0000\u0002\u0000\u0000@\u0002\u000f\u0000\u0001\u0000=\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000/\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@": 1,
+    "GRBY": 1,
+    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003&ÊHß\u0019åí~c": 1,
+    "AMQP\u0000\u0000": 1,
+    "ICOE": 1,
+    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003Ý46ñO*?G\u001bm=éRÐRÇx+1Ý«¸QÈ,»en": 1,
+    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"46T2PRK3WVHADJ3DWLFTKLCQRYPBKYKZXYENBHUWJPERTYNKY32KAFBAEPJX4GMWPNEDYNZB8P2SB47MNFXRUYE9UJFSHIP\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
+    "\u0016\u0003\u0001\u0007\u0001\u0000\u0007\u0003\u0003tÕËÝÆ\u000fG¸ú«zõÆh": 1,
+    "\u0016\u0003\u0001\u0007¦\u0001\u0000\u0007¢\u0003\u0003ª\bÞ\u001ax": 1,
+    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003W®íjÌ\"¬ð¾uo": 1,
+    "\u0016\u0003\u0001\u0007Æ\u0001\u0000\u0007Â\u0003\u0003³\u000e¹91-¢\\\u0011j\u001b:6)\u001bì\u0000ró³Õ0ëÉ": 1,
+    "VUGA": 1,
+    "KNGO": 1,
+    "WRVT": 1,
+    "OXFS": 1,
     "URGW": 1,
-    "\u0003\u0000\u0000*%\u0000\u0000\u0000\u0000\u0000COOKIE:": 1,
-    "TPPW": 1
+    "EOEN": 1,
+    "FUFS": 1,
+    "CYWP": 1,
+    "TPWK": 1,
+    "GYVV": 1,
+    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003×ý»w?Ê\u0002": 1,
+    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"43ZH4RRH6WOFAFX5YT8FYBXD3TCKFMW4HJX1TYJDUB7GACJZPLNWU4VR5H15HTRLBANSPSUUFDU6XE7JFJU3P2BUGKE3HIA\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
+    "TPPW": 1,
+    "\u0003\u0000\u0000*%\u0000\u0000\u0000\u0000\u0000COOKIE:": 1
   },
   "top_paths": [
     {
@@ -2720,7 +2728,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2737
+      "count": 2738
     },
     {
       "path": "/",
@@ -2730,27 +2738,27 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1648
+      "count": 1649
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 1403
+      "count": 1411
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 1006
+      "count": 1015
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
       "source": "ivantipot:honeypot-01",
-      "count": 670
+      "count": 671
     },
     {
       "path": "/",
       "source": "ivantipot:honeypot-01",
-      "count": 649
+      "count": 650
     },
     {
       "path": "/",
@@ -2765,7 +2773,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 380
+      "count": 381
     },
     {
       "path": "/logincheck",
@@ -2838,7 +2846,7 @@
     },
     {
       "cve": "CVE-2026-88771",
-      "count": 690,
+      "count": 694,
       "sources": [
         "citrixpot:honeypot-01"
       ],
@@ -2894,7 +2902,7 @@
     },
     {
       "cve": "CVE-2025-5777",
-      "count": 85,
+      "count": 86,
       "sources": [
         "citrixpot:honeypot-01"
       ],
@@ -3251,8 +3259,8 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 3537,
-    "High": 200
+    "Critical": 3541,
+    "High": 201
   },
   "top_asns": [
     {
@@ -3357,8 +3365,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 308,
-      "event_count": 1921
+      "ip_count": 309,
+      "event_count": 1935
     },
     {
       "asn": "AS6939",
@@ -3579,13 +3587,13 @@
     }
   ],
   "events_by_country": {
-    "NL": 58024,
+    "NL": 58026,
     "IQ": 45745,
     "RU": 27550,
-    "US": 20155,
+    "US": 20187,
     "TW": 17924,
     "CN": 10593,
-    "DE": 9974,
+    "DE": 9977,
     "TR": 8558,
     "RO": 5259,
     "PL": 4371,
@@ -3595,7 +3603,7 @@
     "BG": 1465,
     "AU": 1371,
     "DK": 854,
-    "GB": 767,
+    "GB": 768,
     "SE": 586,
     "CA": 527,
     "KR": 524,
