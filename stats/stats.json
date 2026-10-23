@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T10:05:08.320986Z",
+  "generated_at": "2026-10-23T11:04:49.460534Z",
   "period_days": 90,
-  "total_events": 257388,
-  "unique_ips": 7026,
+  "total_events": 257418,
+  "unique_ips": 7034,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -15,13 +15,13 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "citrixpot:honeypot-01": 6019,
-    "panospot:honeypot-01": 870,
-    "ivantipot:honeypot-01": 5182,
+    "citrixpot:honeypot-01": 6037,
+    "panospot:honeypot-01": 876,
+    "ivantipot:honeypot-01": 5183,
     "centrestackpot:honeypot-01": 240,
     "sharepointpot:honeypot-01": 24,
     "fortipot:honeypot-01": 81758,
-    "bigippot:honeypot-01": 30088,
+    "bigippot:honeypot-01": 30093,
     "sshppot:honeypot-01": 84784,
     "front:honeypot-01": 48423
   },
@@ -483,12 +483,12 @@
       "total": 3630
     },
     "2026-10-23": {
-      "bigippot:honeypot-01": 263,
-      "ivantipot:honeypot-01": 104,
-      "citrixpot:honeypot-01": 122,
-      "panospot:honeypot-01": 26,
+      "bigippot:honeypot-01": 268,
+      "ivantipot:honeypot-01": 105,
+      "citrixpot:honeypot-01": 140,
+      "panospot:honeypot-01": 32,
       "fortipot:honeypot-01": 55,
-      "total": 570
+      "total": 600
     }
   },
   "top_credentials": [
@@ -2629,7 +2629,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 10218
+      "count": 10219
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -2647,7 +2647,7 @@
   "method_counts": {
     "SSH": 84783,
     "POST": 83721,
-    "GET": 82697,
+    "GET": 82725,
     "PRI": 188,
     "HEAD": 157,
     "OPTIONS": 98,
@@ -2711,7 +2711,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2725
+      "count": 2727
     },
     {
       "path": "/",
@@ -2721,17 +2721,17 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1638
+      "count": 1640
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 1398
+      "count": 1402
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 1001
+      "count": 1005
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
@@ -2829,7 +2829,7 @@
     },
     {
       "cve": "CVE-2026-88771",
-      "count": 689,
+      "count": 690,
       "sources": [
         "citrixpot:honeypot-01"
       ],
@@ -3223,7 +3223,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 3531,
+    "Critical": 3532,
     "High": 196
   },
   "top_asns": [
@@ -3251,9 +3251,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
-      "ip_count": 597,
-      "event_count": 17896
+      "country": "GB",
+      "ip_count": 598,
+      "event_count": 17902
     },
     {
       "asn": "AS48090",
@@ -3329,15 +3329,15 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "ip_count": 309,
-      "event_count": 1903
+      "ip_count": 313,
+      "event_count": 1919
     },
     {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 306,
-      "event_count": 1879
+      "event_count": 1880
     },
     {
       "asn": "AS58477",
@@ -3372,9 +3372,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "GB",
       "score": 100.0,
-      "event_count": 17896,
+      "event_count": 17902,
       "credential_events": 90,
       "cve_events": 49
     },
@@ -3516,9 +3516,9 @@
     {
       "asn": "AS24940",
       "name": "Hetzner Online GmbH",
-      "country": "DE",
-      "score": 67.21,
-      "event_count": 107,
+      "country": "FI",
+      "score": 67.22,
+      "event_count": 108,
       "credential_events": 34,
       "cve_events": 41
     },
@@ -3551,13 +3551,13 @@
     }
   ],
   "events_by_country": {
-    "NL": 58013,
+    "NL": 58019,
     "IQ": 45745,
     "RU": 27550,
-    "US": 20061,
-    "BE": 17897,
+    "US": 20078,
+    "GB": 18668,
     "CN": 10590,
-    "DE": 10081,
+    "DE": 9974,
     "TR": 8558,
     "RO": 5259,
     "PL": 4371,
@@ -3567,7 +3567,6 @@
     "BG": 1412,
     "AU": 1371,
     "DK": 854,
-    "GB": 766,
     "SE": 586,
     "CA": 527,
     "KR": 524,
@@ -3576,9 +3575,9 @@
     "PK": 449,
     "CH": 447,
     "HK": 434,
+    "FI": 388,
     "SI": 348,
     "BR": 335,
-    "FI": 280,
     "SG": 230,
     "KZ": 191,
     "BD": 153,
@@ -3640,6 +3639,7 @@
     "QA": 2,
     "TG": 2,
     "AF": 1,
+    "BE": 1,
     "BH": 1,
     "DZ": 1,
     "EC": 1,
