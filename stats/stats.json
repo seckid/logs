@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-24T03:03:50.917012Z",
+  "generated_at": "2026-10-24T04:00:48.832680Z",
   "period_days": 90,
-  "total_events": 259177,
-  "unique_ips": 7221,
+  "total_events": 259312,
+  "unique_ips": 7227,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -21,15 +21,15 @@
     "owapot:honeypot-01": 49,
     "moveitpot:honeypot-01": 2,
     "nodepot:honeypot-01": 47,
-    "citrixpot:honeypot-01": 6257,
+    "citrixpot:honeypot-01": 6272,
     "panospot:honeypot-01": 882,
     "ivantipot:honeypot-01": 5361,
-    "centrestackpot:honeypot-01": 529,
+    "centrestackpot:honeypot-01": 557,
     "sharepointpot:honeypot-01": 25,
-    "fortipot:honeypot-01": 81882,
-    "bigippot:honeypot-01": 30471,
-    "sshppot:honeypot-01": 85200,
-    "front:honeypot-01": 48470
+    "fortipot:honeypot-01": 81883,
+    "bigippot:honeypot-01": 30482,
+    "sshppot:honeypot-01": 85206,
+    "front:honeypot-01": 48546
   },
   "events_per_day": {
     "2026-08-28": {
@@ -504,23 +504,23 @@
       "total": 1803
     },
     "2026-10-24": {
-      "sshppot:honeypot-01": 296,
-      "centrestackpot:honeypot-01": 41,
+      "sshppot:honeypot-01": 302,
+      "centrestackpot:honeypot-01": 69,
       "nodepot:honeypot-01": 12,
-      "citrixpot:honeypot-01": 91,
+      "citrixpot:honeypot-01": 106,
       "ivantipot:honeypot-01": 2,
-      "front:honeypot-01": 33,
-      "bigippot:honeypot-01": 54,
-      "fortipot:honeypot-01": 19,
+      "front:honeypot-01": 109,
+      "bigippot:honeypot-01": 65,
+      "fortipot:honeypot-01": 20,
       "owapot:honeypot-01": 6,
-      "total": 554
+      "total": 691
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 725
+      "count": 726
     },
     {
       "username": "root",
@@ -779,7 +779,7 @@
     },
     {
       "username": "support",
-      "count": 725
+      "count": 726
     },
     {
       "username": "user",
@@ -853,7 +853,7 @@
   "top_passwords": [
     {
       "password": "support",
-      "count": 725
+      "count": 726
     },
     {
       "password": "(empty)",
@@ -934,11 +934,11 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 163876,
-      "unique_ips": 2058,
-      "unique_pairs": 106586,
+      "attempt_count": 163882,
+      "unique_ips": 2059,
+      "unique_pairs": 106590,
       "success_count": 54,
-      "failure_count": 350,
+      "failure_count": 356,
       "unknown_outcome_count": 163472
     },
     "top_source_ips": [
@@ -1198,14 +1198,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 605,
+        "attempt_count": 606,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-24T01:44:15Z",
+        "last_seen": "2026-10-24T03:15:58Z",
         "success_count": 0
       },
       {
@@ -1900,14 +1900,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 605,
+        "attempt_count": 606,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-10-24T01:44:15Z",
+        "last_seen": "2026-10-24T03:15:58Z",
         "success_count": 0
       },
       {
@@ -2209,7 +2209,7 @@
       {
         "username": "support",
         "password": "support",
-        "count": 725,
+        "count": 726,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2654,11 +2654,11 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 10219
+      "count": 10220
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 8551
+      "count": 8570
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -2666,16 +2666,16 @@
     },
     {
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "count": 5897
+      "count": 5920
     }
   ],
   "method_counts": {
-    "SSH": 85199,
-    "POST": 83751,
-    "GET": 83665,
+    "SSH": 85205,
+    "GET": 83784,
+    "POST": 83752,
     "PRI": 195,
-    "HEAD": 161,
-    "OPTIONS": 102,
+    "HEAD": 162,
+    "OPTIONS": 104,
     "PROPFIND": 88,
     "PUT": 29,
     "DELETE": 22,
@@ -2684,76 +2684,77 @@
     "UDP": 13,
     "HEARTBEAT": 8,
     "T3": 8,
-    "{\"PARAMS\":": 6,
-    "{\"ID\":": 6,
     "ZSDLKFJ2": 6,
+    "{\"ID\":": 6,
+    "{\"PARAMS\":": 6,
     "\n": 5,
-    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"BLUE1\",\"PASS\":\"X\",\"AGENT\":\"WINDOWS": 3,
     "\u0000\u0000\u0000SMBR\u0000\u0000\u0000\u0000\b\u0001@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0006\u0000\u0000\u0001\u0000\u0000\u0000\u0002PC": 3,
-    "00000000": 2,
+    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"BLUE1\",\"PASS\":\"X\",\"AGENT\":\"WINDOWS": 3,
+    "1111ø\u0000\u0000\u0000\u0004\u0000\u0000\u0001\u001b": 2,
     "GETROUTERINFO": 2,
-    "ILTB": 1,
-    "TLII": 1,
-    ":\u0000\u0000\u0000/\u0000\u0000\u0000\u0002\u0000\u0000@\u0002\u000f\u0000\u0001\u0000=\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000/\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@": 1,
-    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"46SNJV9ENHAEFSVUBVITRZCWWHKKXADIDIEN14GMC3LYBQH1JYXRKE6DL2D87GS2D495SRBKWGKTZFNKS45AUWX3QYVCPJP\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
-    "URGW": 1,
-    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003&ÊHß\u0019åí~c": 1,
-    "GRBY": 1,
-    "PATCH": 1,
-    "TPWK": 1,
-    "ZZFX": 1,
-    "\u0016\u0003\u0001\u0007¦\u0001\u0000\u0007¢\u0003\u0003SÂùªóÓUZ@¶µ\u001b8": 1,
-    "\u0000Z\u0000\u0000\u0001\u0000\u0000\u0000\u00016\u0001,\u0000\u0000\b\u0000\b\u0000\u0000\u0000\u0001\u0000": 1,
-    "BKKD": 1,
-    "OFFN": 1,
-    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"43ZH4RRH6WOFAFX5YT8FYBXD3TCKFMW4HJX1TYJDUB7GACJZPLNWU4VR5H15HTRLBANSPSUUFDU6XE7JFJU3P2BUGKE3HIA\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
+    "00000000": 2,
     "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003ÂýÜåÖàË|¢¸": 1,
+    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"43ZH4RRH6WOFAFX5YT8FYBXD3TCKFMW4HJX1TYJDUB7GACJZPLNWU4VR5H15HTRLBANSPSUUFDU6XE7JFJU3P2BUGKE3HIA\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
     "TPPW": 1,
+    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003òíWg": 1,
     "\u0003\u0000\u0000*%\u0000\u0000\u0000\u0000\u0000COOKIE:": 1,
+    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003«äí?8yés¦ÐÂç¦t°\u0001)³¤Û±HÝ%": 1,
     "ATVQ": 1,
     "FOX": 1,
     "RFSB": 1,
+    "TPWK": 1,
     "LAQZ": 1,
-    "IYRM": 1,
-    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003Üö:": 1,
-    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003òíWg": 1,
-    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003«äí?8yés¦ÐÂç¦t°\u0001)³¤Û±HÝ%": 1,
     "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003p\\jÙï0Áã6Ìn#Þ¼êOLp¥\u00154&\u0000¡öRPg": 1,
-    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u00035iG=Y\\d": 1,
-    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003©ÈI=;¢sB\u0019eyÎ¿ï¼\"¦cÄQ[_2=D\u0002Ù": 1,
-    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003øó\u0013v³ÉWÈô\u0010R>îÔô¦-¯Æ:6B/ÿ×JN": 1,
-    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003{ÕPá\"<ÓÉv\u00056ÜY\"ÙädvV'Û3¯": 1,
-    "VDXP": 1,
-    "AMQP\u0000\u0000": 1,
-    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003×ý»w?Ê\u0002": 1,
-    "GYVV": 1,
-    "CYWP": 1,
-    "FUFS": 1,
+    "IYRM": 1,
+    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"46SNJV9ENHAEFSVUBVITRZCWWHKKXADIDIEN14GMC3LYBQH1JYXRKE6DL2D87GS2D495SRBKWGKTZFNKS45AUWX3QYVCPJP\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
+    "OFFN": 1,
+    "BKKD": 1,
+    "\u0000Z\u0000\u0000\u0001\u0000\u0000\u0000\u00016\u0001,\u0000\u0000\b\u0000\b\u0000\u0000\u0000\u0001\u0000": 1,
+    "\u0016\u0003\u0001\u0007¦\u0001\u0000\u0007¢\u0003\u0003SÂùªóÓUZ@¶µ\u001b8": 1,
+    "ZZFX": 1,
+    "PATCH": 1,
+    "GRBY": 1,
+    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003&ÊHß\u0019åí~c": 1,
+    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003Üö:": 1,
+    ":\u0000\u0000\u0000/\u0000\u0000\u0000\u0002\u0000\u0000@\u0002\u000f\u0000\u0001\u0000=\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000/\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@": 1,
+    "TLII": 1,
+    "ILTB": 1,
+    "JKWN": 1,
     "EOEN": 1,
     "WRVT": 1,
-    "OXFS": 1,
-    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003¿é\u0011ß6B6pøýÖ//åã\u0018Û¤ºævP¥«\u0001ÙÐ": 1,
-    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003W®íjÌ\"¬ð¾uo": 1,
-    "ÿ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000ñ\u0003%\u0000\u0000\u0000{": 1,
-    "\u0016\u0003\u0001\u0007¦\u0001\u0000\u0007¢\u0003\u0003ª\bÞ\u001ax": 1,
-    "1111ø\u0000\u0000\u0000\u0004\u0000\u0000\u0001\u001b": 1,
-    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003s\u0006\u0015\u0012": 1,
-    "ICOE": 1,
-    "JDWP-Handshake": 1,
-    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003Ý46ñO*?G\u001bm=éRÐRÇx+1Ý«¸QÈ,»en": 1,
-    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003-Ðñ\u0005ãè1\u0015¿p\u0002Æ¢\u000eãZ>\u001b\u001b\u0018": 1,
-    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"46T2PRK3WVHADJ3DWLFTKLCQRYPBKYKZXYENBHUWJPERTYNKY32KAFBAEPJX4GMWPNEDYNZB8P2SB47MNFXRUYE9UJFSHIP\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
-    "\u0016\u0003\u0001\u0007\u0001\u0000\u0007\u0003\u0003tÕËÝÆ\u000fG¸ú«zõÆh": 1,
-    "\u0016\u0003\u0001\u0007Æ\u0001\u0000\u0007Â\u0003\u0003³\u000e¹91-¢\\\u0011j\u001b:6)\u001bì\u0000ró³Õ0ëÉ": 1,
-    "VUGA": 1,
+    "KNGO": 1,
     "ZEXZ": 1,
-    "KNGO": 1
+    "VUGA": 1,
+    "\u0016\u0003\u0001\u0007Æ\u0001\u0000\u0007Â\u0003\u0003³\u000e¹91-¢\\\u0011j\u001b:6)\u001bì\u0000ró³Õ0ëÉ": 1,
+    "\u0016\u0003\u0001\u0007\u0001\u0000\u0007\u0003\u0003tÕËÝÆ\u000fG¸ú«zõÆh": 1,
+    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"46T2PRK3WVHADJ3DWLFTKLCQRYPBKYKZXYENBHUWJPERTYNKY32KAFBAEPJX4GMWPNEDYNZB8P2SB47MNFXRUYE9UJFSHIP\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
+    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003-Ðñ\u0005ãè1\u0015¿p\u0002Æ¢\u000eãZ>\u001b\u001b\u0018": 1,
+    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003Ý46ñO*?G\u001bm=éRÐRÇx+1Ý«¸QÈ,»en": 1,
+    "JDWP-Handshake": 1,
+    "FUFS": 1,
+    "ICOE": 1,
+    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003s\u0006\u0015\u0012": 1,
+    "CYWP": 1,
+    "GYVV": 1,
+    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003×ý»w?Ê\u0002": 1,
+    "\u0016\u0003\u0001\u0007¦\u0001\u0000\u0007¢\u0003\u0003ª\bÞ\u001ax": 1,
+    "ÿ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000ñ\u0003%\u0000\u0000\u0000{": 1,
+    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003W®íjÌ\"¬ð¾uo": 1,
+    "AMQP\u0000\u0000": 1,
+    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003¿é\u0011ß6B6pøýÖ//åã\u0018Û¤ºævP¥«\u0001ÙÐ": 1,
+    "VDXP": 1,
+    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003{ÕPá\"<ÓÉv\u00056ÜY\"ÙädvV'Û3¯": 1,
+    "OXFS": 1,
+    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003øó\u0013v³ÉWÈô\u0010R>îÔô¦-¯Æ:6B/ÿ×JN": 1,
+    "URGW": 1,
+    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003©ÈI=;¢sB\u0019eyÎ¿ï¼\"¦cÄQ[_2=D\u0002Ù": 1,
+    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u00035iG=Y\\d": 1
   },
   "top_paths": [
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 84626
+      "count": 84632
     },
     {
       "path": "/remote/logincheck",
@@ -2763,27 +2764,27 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2763
+      "count": 2766
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 2066
+      "count": 2069
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1669
+      "count": 1670
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 1451
+      "count": 1452
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 1062
+      "count": 1063
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
@@ -2823,7 +2824,7 @@
     {
       "path": "/.env",
       "source": "front:honeypot-01",
-      "count": 312
+      "count": 314
     },
     {
       "path": "/wp-login.php",
@@ -2833,7 +2834,7 @@
     {
       "path": "/.git/config",
       "source": "front:honeypot-01",
-      "count": 296
+      "count": 299
     },
     {
       "path": "/wp-admin/index.php",
@@ -2881,7 +2882,7 @@
     },
     {
       "cve": "CVE-2026-88771",
-      "count": 713,
+      "count": 714,
       "sources": [
         "citrixpot:honeypot-01"
       ],
@@ -3300,7 +3301,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 3573,
+    "Critical": 3574,
     "High": 207
   },
   "top_asns": [
@@ -3329,15 +3330,15 @@
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "BE",
-      "ip_count": 614,
-      "event_count": 18051
+      "ip_count": 618,
+      "event_count": 18068
     },
     {
       "asn": "AS48090",
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "ip_count": 34,
-      "event_count": 12478
+      "event_count": 12480
     },
     {
       "asn": "AS44589",
@@ -3365,7 +3366,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "ip_count": 384,
-      "event_count": 6782
+      "event_count": 6783
     },
     {
       "asn": "AS204428",
@@ -3377,16 +3378,16 @@
     {
       "asn": "AS218785",
       "name": "TC DATACENTER LIMITED",
-      "country": "PL",
+      "country": "NL",
       "ip_count": 18,
-      "event_count": 3521
+      "event_count": 3595
     },
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "ip_count": 310,
-      "event_count": 3077
+      "ip_count": 311,
+      "event_count": 3078
     },
     {
       "asn": "AS213790",
@@ -3451,7 +3452,7 @@
       "name": "Google LLC",
       "country": "BE",
       "score": 100.0,
-      "event_count": 18051,
+      "event_count": 18068,
       "credential_events": 90,
       "cve_events": 50
     },
@@ -3459,8 +3460,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "score": 96.15,
-      "event_count": 3077,
+      "score": 96.16,
+      "event_count": 3078,
       "credential_events": 1670,
       "cve_events": 123
     },
@@ -3477,8 +3478,8 @@
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
       "country": "US",
-      "score": 91.76,
-      "event_count": 880,
+      "score": 91.77,
+      "event_count": 887,
       "credential_events": 339,
       "cve_events": 78
     },
@@ -3540,8 +3541,8 @@
       "asn": "AS36352",
       "name": "HostPapa",
       "country": "US",
-      "score": 78.36,
-      "event_count": 179,
+      "score": 78.38,
+      "event_count": 191,
       "credential_events": 56,
       "cve_events": 44
     },
@@ -3559,7 +3560,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 12478,
+      "event_count": 12480,
       "credential_events": 9951,
       "cve_events": 0
     },
@@ -3568,7 +3569,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 70.0,
-      "event_count": 6782,
+      "event_count": 6783,
       "credential_events": 224,
       "cve_events": 0
     },
@@ -3628,24 +3629,24 @@
     }
   ],
   "events_by_country": {
-    "NL": 58256,
+    "NL": 61855,
     "IQ": 45745,
     "RU": 27559,
-    "US": 23621,
-    "BE": 18052,
-    "CN": 10639,
+    "US": 23754,
+    "BE": 18069,
+    "CN": 10641,
     "TR": 8558,
-    "DE": 6842,
+    "DE": 7193,
     "RO": 5266,
-    "PL": 4764,
     "LT": 2860,
     "FR": 2367,
     "ID": 2006,
     "BG": 1658,
     "HK": 1440,
+    "PL": 1244,
     "SG": 867,
     "DK": 854,
-    "GB": 776,
+    "GB": 672,
     "SE": 586,
     "KR": 547,
     "IN": 498,
@@ -3654,7 +3655,6 @@
     "CH": 447,
     "FI": 408,
     "BR": 349,
-    "SI": 349,
     "KZ": 191,
     "JP": 155,
     "BD": 153,
