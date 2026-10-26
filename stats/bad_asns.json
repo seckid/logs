@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T17:03:49.060124Z",
+  "generated_at": "2026-10-26T18:00:58.835182Z",
   "period_days": 90,
   "asns": [
     {
@@ -84,10 +84,10 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "US",
+      "country": "SG",
       "score": 91.79,
-      "event_count": 894,
-      "ip_count": 158,
+      "event_count": 897,
+      "ip_count": 159,
       "credential_events": 339,
       "cve_events": 78,
       "honeypots": [
@@ -111,9 +111,9 @@
     {
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
-      "country": "TH",
-      "score": 91.55,
-      "event_count": 774,
+      "country": "HK",
+      "score": 91.57,
+      "event_count": 785,
       "ip_count": 81,
       "credential_events": 195,
       "cve_events": 129,
@@ -310,9 +310,9 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 12792,
+      "event_count": 12853,
       "ip_count": 34,
-      "credential_events": 10262,
+      "credential_events": 10323,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -325,7 +325,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=10262",
+        "credential_events=10323",
         "multi_honeypot=7"
       ]
     },
@@ -469,9 +469,9 @@
     {
       "asn": "AS16276",
       "name": "OVH SAS",
-      "country": "DE",
+      "country": "FR",
       "score": 62.69,
-      "event_count": 544,
+      "event_count": 547,
       "ip_count": 96,
       "credential_events": 209,
       "cve_events": 2,
@@ -662,6 +662,33 @@
       ]
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "score": 55.91,
+      "event_count": 2207,
+      "ip_count": 327,
+      "credential_events": 3,
+      "cve_events": 60,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "centrestackpot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=3",
+        "cve_events=60",
+        "multi_honeypot=8",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS4760",
       "name": "HKT Limited",
       "country": "HK",
@@ -681,33 +708,6 @@
         "credential_events=14",
         "cve_events=36",
         "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 55.88,
-      "event_count": 2188,
-      "ip_count": 326,
-      "credential_events": 3,
-      "cve_events": 60,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "centrestackpot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=3",
-        "cve_events=60",
-        "multi_honeypot=8",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
