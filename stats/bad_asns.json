@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T09:04:00.493140Z",
+  "generated_at": "2026-10-27T10:01:50.712982Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,8 +7,8 @@
       "name": "Google LLC",
       "country": "BE",
       "score": 100.0,
-      "event_count": 18489,
-      "ip_count": 646,
+      "event_count": 18496,
+      "ip_count": 649,
       "credential_events": 95,
       "cve_events": 51,
       "honeypots": [
@@ -21,13 +21,14 @@
         "nodepot:honeypot-01",
         "owapot:honeypot-01",
         "panospot:honeypot-01",
+        "sharepointpot:honeypot-01",
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
         "credential_events=95",
         "cve_events=51",
-        "multi_honeypot=10",
+        "multi_honeypot=11",
         "research_or_cloud_with_hostile_density"
       ]
     },
@@ -164,10 +165,10 @@
       "asn": "AS51167",
       "name": "Contabo GmbH",
       "country": "FR",
-      "score": 85.71,
-      "event_count": 357,
-      "ip_count": 29,
-      "credential_events": 138,
+      "score": 85.73,
+      "event_count": 366,
+      "ip_count": 30,
+      "credential_events": 147,
       "cve_events": 90,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -176,7 +177,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=138",
+        "credential_events=147",
         "cve_events=90",
         "multi_honeypot=3"
       ]
@@ -184,10 +185,10 @@
     {
       "asn": "AS132203",
       "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "SG",
-      "score": 85.59,
-      "event_count": 295,
-      "ip_count": 22,
+      "country": "HK",
+      "score": 85.61,
+      "event_count": 303,
+      "ip_count": 26,
       "credential_events": 218,
       "cve_events": 49,
       "honeypots": [
@@ -338,8 +339,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 70.0,
-      "event_count": 6876,
-      "ip_count": 407,
+      "event_count": 6879,
+      "ip_count": 409,
       "credential_events": 281,
       "cve_events": 0,
       "honeypots": [
@@ -350,12 +351,13 @@
         "front:honeypot-01",
         "ivantipot:honeypot-01",
         "panospot:honeypot-01",
+        "sharepointpot:honeypot-01",
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
         "credential_events=281",
-        "multi_honeypot=8",
+        "multi_honeypot=9",
         "research_or_cloud_with_hostile_density"
       ]
     },
@@ -519,6 +521,27 @@
       ]
     },
     {
+      "asn": "AS4766",
+      "name": "Korea Telecom",
+      "country": "KR",
+      "score": 61.09,
+      "event_count": 545,
+      "ip_count": 343,
+      "credential_events": 536,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "sharepointpot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=536",
+        "multi_honeypot=4"
+      ]
+    },
+    {
       "asn": "AS4134",
       "name": "CHINANET BACKBONE",
       "country": "CN",
@@ -672,26 +695,6 @@
         "cve_events=60",
         "multi_honeypot=8",
         "research_or_cloud_with_hostile_density"
-      ]
-    },
-    {
-      "asn": "AS4766",
-      "name": "Korea Telecom",
-      "country": "KR",
-      "score": 56.09,
-      "event_count": 543,
-      "ip_count": 342,
-      "credential_events": 536,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=536",
-        "multi_honeypot=3"
       ]
     },
     {
@@ -1027,16 +1030,16 @@
       "name": "HOSTOX GROUP S.R.L.",
       "country": "RO",
       "score": 50.0,
-      "event_count": 11562,
+      "event_count": 12189,
       "ip_count": 1,
-      "credential_events": 11562,
+      "credential_events": 12189,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=11562"
+        "credential_events=12189"
       ]
     },
     {
