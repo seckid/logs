@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T08:03:51.111738Z",
+  "generated_at": "2026-10-27T09:04:00.493140Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,8 +7,8 @@
       "name": "Google LLC",
       "country": "BE",
       "score": 100.0,
-      "event_count": 18485,
-      "ip_count": 645,
+      "event_count": 18489,
+      "ip_count": 646,
       "credential_events": 95,
       "cve_events": 51,
       "honeypots": [
@@ -35,10 +35,10 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "US",
-      "score": 96.23,
-      "event_count": 3113,
-      "ip_count": 326,
-      "credential_events": 1688,
+      "score": 96.27,
+      "event_count": 3134,
+      "ip_count": 329,
+      "credential_events": 1696,
       "cve_events": 123,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -49,13 +49,14 @@
         "ivantipot:honeypot-01",
         "nodepot:honeypot-01",
         "panospot:honeypot-01",
+        "sharepointpot:honeypot-01",
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=1688",
+        "credential_events=1696",
         "cve_events=123",
-        "multi_honeypot=9",
+        "multi_honeypot=10",
         "research_or_cloud_with_hostile_density"
       ]
     },
@@ -85,11 +86,11 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "US",
-      "score": 92.01,
-      "event_count": 1005,
-      "ip_count": 165,
-      "credential_events": 349,
+      "country": "HK",
+      "score": 92.02,
+      "event_count": 1010,
+      "ip_count": 166,
+      "credential_events": 354,
       "cve_events": 111,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -105,7 +106,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=349",
+        "credential_events=354",
         "cve_events=111",
         "multi_honeypot=10"
       ]
@@ -181,6 +182,27 @@
       ]
     },
     {
+      "asn": "AS132203",
+      "name": "Tencent Building, Kejizhongyi Avenue",
+      "country": "SG",
+      "score": 85.59,
+      "event_count": 295,
+      "ip_count": 22,
+      "credential_events": 218,
+      "cve_events": 49,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "sharepointpot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=218",
+        "cve_events=49",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS24757",
       "name": "Ethio Telecom",
       "country": "ET",
@@ -199,26 +221,6 @@
         "credential_events=76",
         "cve_events=42",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS132203",
-      "name": "Tencent Building, Kejizhongyi Avenue",
-      "country": "US",
-      "score": 80.57,
-      "event_count": 285,
-      "ip_count": 17,
-      "credential_events": 218,
-      "cve_events": 49,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=218",
-        "cve_events=49",
-        "multi_honeypot=2"
       ]
     },
     {
@@ -606,8 +608,8 @@
       "asn": "AS208137",
       "name": "Feo Prest SRL",
       "country": "DE",
-      "score": 57.19,
-      "event_count": 1093,
+      "score": 57.28,
+      "event_count": 1140,
       "ip_count": 5,
       "credential_events": 125,
       "cve_events": 0,
@@ -646,32 +648,12 @@
       ]
     },
     {
-      "asn": "AS4766",
-      "name": "Korea Telecom",
-      "country": "KR",
-      "score": 56.09,
-      "event_count": 543,
-      "ip_count": 342,
-      "credential_events": 536,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=536",
-        "multi_honeypot=3"
-      ]
-    },
-    {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 56.08,
-      "event_count": 2292,
-      "ip_count": 339,
+      "score": 56.09,
+      "event_count": 2295,
+      "ip_count": 340,
       "credential_events": 3,
       "cve_events": 60,
       "honeypots": [
@@ -690,6 +672,26 @@
         "cve_events=60",
         "multi_honeypot=8",
         "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
+      "asn": "AS4766",
+      "name": "Korea Telecom",
+      "country": "KR",
+      "score": 56.09,
+      "event_count": 543,
+      "ip_count": 342,
+      "credential_events": 536,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=536",
+        "multi_honeypot=3"
       ]
     },
     {
@@ -759,9 +761,9 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "score": 54.04,
-      "event_count": 2018,
-      "ip_count": 328,
+      "score": 54.05,
+      "event_count": 2027,
+      "ip_count": 332,
       "credential_events": 0,
       "cve_events": 65,
       "honeypots": [
@@ -772,12 +774,13 @@
         "ivantipot:honeypot-01",
         "nodepot:honeypot-01",
         "owapot:honeypot-01",
-        "panospot:honeypot-01"
+        "panospot:honeypot-01",
+        "phppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
         "cve_events=65",
-        "multi_honeypot=8"
+        "multi_honeypot=9"
       ]
     },
     {
@@ -1024,16 +1027,16 @@
       "name": "HOSTOX GROUP S.R.L.",
       "country": "RO",
       "score": 50.0,
-      "event_count": 10910,
+      "event_count": 11562,
       "ip_count": 1,
-      "credential_events": 10910,
+      "credential_events": 11562,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=10910"
+        "credential_events=11562"
       ]
     },
     {
