@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-27T03:02:18.388442Z",
+  "generated_at": "2026-10-27T04:04:18.582338Z",
   "period_days": 90,
-  "total_events": 270485,
-  "unique_ips": 7665,
+  "total_events": 271275,
+  "unique_ips": 7683,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -18,18 +18,18 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "owapot:honeypot-01": 96,
+    "owapot:honeypot-01": 105,
     "moveitpot:honeypot-01": 2,
-    "nodepot:honeypot-01": 116,
-    "citrixpot:honeypot-01": 6524,
+    "nodepot:honeypot-01": 126,
+    "citrixpot:honeypot-01": 6566,
     "panospot:honeypot-01": 918,
-    "ivantipot:honeypot-01": 5513,
-    "centrestackpot:honeypot-01": 856,
+    "ivantipot:honeypot-01": 5524,
+    "centrestackpot:honeypot-01": 881,
     "sharepointpot:honeypot-01": 25,
     "fortipot:honeypot-01": 82043,
-    "bigippot:honeypot-01": 31041,
-    "sshppot:honeypot-01": 94044,
-    "front:honeypot-01": 49307
+    "bigippot:honeypot-01": 31042,
+    "sshppot:honeypot-01": 94732,
+    "front:honeypot-01": 49311
   },
   "events_per_day": {
     "2026-08-28": {
@@ -530,16 +530,16 @@
       "total": 7839
     },
     "2026-10-27": {
-      "citrixpot:honeypot-01": 20,
-      "front:honeypot-01": 20,
+      "citrixpot:honeypot-01": 62,
+      "front:honeypot-01": 24,
       "fortipot:honeypot-01": 3,
-      "bigippot:honeypot-01": 137,
-      "nodepot:honeypot-01": 3,
-      "sshppot:honeypot-01": 2277,
-      "centrestackpot:honeypot-01": 20,
-      "owapot:honeypot-01": 21,
-      "ivantipot:honeypot-01": 29,
-      "total": 2530
+      "bigippot:honeypot-01": 138,
+      "nodepot:honeypot-01": 13,
+      "sshppot:honeypot-01": 2965,
+      "centrestackpot:honeypot-01": 45,
+      "owapot:honeypot-01": 30,
+      "ivantipot:honeypot-01": 40,
+      "total": 3320
     }
   },
   "top_credentials": [
@@ -551,7 +551,7 @@
     {
       "username": "root",
       "password": "(empty)",
-      "count": 451
+      "count": 453
     },
     {
       "username": "admin",
@@ -691,17 +691,17 @@
     {
       "username": "root",
       "password": "------fuck------",
-      "count": 57
+      "count": 58
+    },
+    {
+      "username": "root",
+      "password": "Test@2022",
+      "count": 54
     },
     {
       "username": "root",
       "password": "---fuck_you----",
       "count": 54
-    },
-    {
-      "username": "root",
-      "password": "Test@2022",
-      "count": 53
     },
     {
       "username": "root",
@@ -729,14 +729,14 @@
       "count": 48
     },
     {
-      "username": "postgres",
-      "password": "postgres",
+      "username": "root",
+      "password": "Li123456.",
       "count": 46
     },
     {
-      "username": "root",
-      "password": "Li123456.",
-      "count": 45
+      "username": "postgres",
+      "password": "postgres",
+      "count": 46
     },
     {
       "username": "root",
@@ -752,6 +752,11 @@
       "username": "root",
       "password": "111111",
       "count": 44
+    },
+    {
+      "username": "root",
+      "password": "team2",
+      "count": 43
     },
     {
       "username": "ton",
@@ -775,11 +780,6 @@
     },
     {
       "username": "root",
-      "password": "team2",
-      "count": 42
-    },
-    {
-      "username": "root",
       "password": "Aa123456",
       "count": 42
     },
@@ -797,7 +797,7 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 1849
+      "count": 1855
     },
     {
       "username": "admin",
@@ -883,7 +883,7 @@
     },
     {
       "password": "(empty)",
-      "count": 689
+      "count": 691
     },
     {
       "password": "admin",
@@ -960,12 +960,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 172752,
-      "unique_ips": 2195,
-      "unique_pairs": 106932,
-      "success_count": 181,
-      "failure_count": 9002,
-      "unknown_outcome_count": 163569
+      "attempt_count": 173441,
+      "unique_ips": 2196,
+      "unique_pairs": 106934,
+      "success_count": 185,
+      "failure_count": 9685,
+      "unknown_outcome_count": 163571
     },
     "top_source_ips": [
       {
@@ -1028,15 +1028,15 @@
         "ip": "89.125.129.29",
         "asn": "AS218721",
         "asn_name": "HOSTOX GROUP S.R.L.",
-        "attempt_count": 7551,
+        "attempt_count": 8229,
         "unique_usernames": 1,
-        "unique_passwords": 7508,
+        "unique_passwords": 8182,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-10-26T15:58:26Z",
-        "last_seen": "2026-10-27T03:01:36Z",
-        "success_count": 44
+        "last_seen": "2026-10-27T04:03:55Z",
+        "success_count": 48
       },
       {
         "ip": "77.91.71.91",
@@ -1730,15 +1730,15 @@
         "ip": "89.125.129.29",
         "asn": "AS218721",
         "asn_name": "HOSTOX GROUP S.R.L.",
-        "attempt_count": 7551,
+        "attempt_count": 8229,
         "unique_usernames": 1,
-        "unique_passwords": 7508,
+        "unique_passwords": 8182,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-10-26T15:58:26Z",
-        "last_seen": "2026-10-27T03:01:36Z",
-        "success_count": 44
+        "last_seen": "2026-10-27T04:03:55Z",
+        "success_count": 48
       },
       {
         "ip": "77.91.71.91",
@@ -2244,7 +2244,7 @@
       {
         "username": "root",
         "password": "(empty)",
-        "count": 451,
+        "count": 453,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2499,7 +2499,15 @@
       {
         "username": "root",
         "password": "------fuck------",
-        "count": 57,
+        "count": 58,
+        "sources": [
+          "sshppot:honeypot-01"
+        ]
+      },
+      {
+        "username": "root",
+        "password": "Test@2022",
+        "count": 54,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2508,14 +2516,6 @@
         "username": "root",
         "password": "---fuck_you----",
         "count": 54,
-        "sources": [
-          "sshppot:honeypot-01"
-        ]
-      },
-      {
-        "username": "root",
-        "password": "Test@2022",
-        "count": 53,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2564,19 +2564,19 @@
         ]
       },
       {
+        "username": "root",
+        "password": "Li123456.",
+        "count": 46,
+        "sources": [
+          "sshppot:honeypot-01"
+        ]
+      },
+      {
         "username": "postgres",
         "password": "postgres",
         "count": 46,
         "sources": [
           "fortipot:honeypot-01",
-          "sshppot:honeypot-01"
-        ]
-      },
-      {
-        "username": "root",
-        "password": "Li123456.",
-        "count": 45,
-        "sources": [
           "sshppot:honeypot-01"
         ]
       },
@@ -2602,6 +2602,14 @@
         "username": "root",
         "password": "111111",
         "count": 44,
+        "sources": [
+          "sshppot:honeypot-01"
+        ]
+      },
+      {
+        "username": "root",
+        "password": "team2",
+        "count": 43,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2644,14 +2652,6 @@
       },
       {
         "username": "root",
-        "password": "team2",
-        "count": 42,
-        "sources": [
-          "sshppot:honeypot-01"
-        ]
-      },
-      {
-        "username": "root",
         "password": "Aa123456",
         "count": 42,
         "sources": [
@@ -2681,7 +2681,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 78335
+      "count": 78346
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2701,9 +2701,9 @@
     }
   ],
   "method_counts": {
-    "SSH": 94044,
-    "GET": 85589,
-    "POST": 83888,
+    "SSH": 94732,
+    "GET": 85677,
+    "POST": 83889,
     "PRI": 199,
     "HEAD": 168,
     "OPTIONS": 114,
@@ -2807,7 +2807,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 93415
+      "count": 94100
     },
     {
       "path": "/remote/logincheck",
@@ -2832,17 +2832,22 @@
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 1504
+      "count": 1506
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 1099
+      "count": 1101
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
       "source": "ivantipot:honeypot-01",
-      "count": 691
+      "count": 693
+    },
+    {
+      "path": "/",
+      "source": "ivantipot:honeypot-01",
+      "count": 682
     },
     {
       "path": "/",
@@ -2850,19 +2855,14 @@
       "count": 682
     },
     {
-      "path": "/",
-      "source": "ivantipot:honeypot-01",
-      "count": 680
-    },
-    {
       "path": "/robots.txt",
       "source": "front:honeypot-01",
-      "count": 474
+      "count": 476
     },
     {
       "path": "/home/root",
       "source": "sshppot:honeypot-01",
-      "count": 394
+      "count": 396
     },
     {
       "path": "/favicon.ico",
@@ -2935,7 +2935,7 @@
     },
     {
       "cve": "CVE-2026-88771",
-      "count": 722,
+      "count": 742,
       "sources": [
         "citrixpot:honeypot-01"
       ],
@@ -3242,6 +3242,27 @@
       ]
     },
     {
+      "cve": "CVE-2026-88772",
+      "count": 17,
+      "sources": [
+        "citrixpot:honeypot-01"
+      ],
+      "description": "DTLS memory issue on NetScaler ADC and Gateway that can lead to code execution or a crash. citrixpot records DTLS records and files posted under /vpn/scripts/linux/. It does not complete a DTLS handshake.",
+      "severity": "Critical",
+      "cvss_score": 9.5,
+      "sample_ips": [
+        "138.226.239.5",
+        "151.242.36.84",
+        "23.234.100.38",
+        "43.111.224.124",
+        "5.230.56.196"
+      ],
+      "sample_paths": [
+        "/dtls",
+        "/vpn/scripts/linux/clientversions.xml"
+      ]
+    },
+    {
       "cve": "CVE-2026-88779",
       "count": 16,
       "sources": [
@@ -3262,27 +3283,6 @@
       ],
       "sample_paths": [
         "/saml/login"
-      ]
-    },
-    {
-      "cve": "CVE-2026-88772",
-      "count": 15,
-      "sources": [
-        "citrixpot:honeypot-01"
-      ],
-      "description": "DTLS memory issue on NetScaler ADC and Gateway that can lead to code execution or a crash. citrixpot records DTLS records and files posted under /vpn/scripts/linux/. It does not complete a DTLS handshake.",
-      "severity": "Critical",
-      "cvss_score": 9.5,
-      "sample_ips": [
-        "138.226.239.5",
-        "151.242.36.84",
-        "23.234.100.38",
-        "43.111.224.124",
-        "5.230.56.196"
-      ],
-      "sample_paths": [
-        "/dtls",
-        "/vpn/scripts/linux/clientversions.xml"
       ]
     },
     {
@@ -3354,7 +3354,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 3684,
+    "Critical": 3706,
     "High": 212
   },
   "top_asns": [
@@ -3382,9 +3382,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
-      "ip_count": 641,
-      "event_count": 18352
+      "country": "US",
+      "ip_count": 643,
+      "event_count": 18355
     },
     {
       "asn": "AS48090",
@@ -3419,14 +3419,14 @@
       "name": "HOSTOX GROUP S.R.L.",
       "country": "RO",
       "ip_count": 1,
-      "event_count": 7553
+      "event_count": 8229
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 402,
-      "event_count": 6865
+      "ip_count": 403,
+      "event_count": 6867
     },
     {
       "asn": "AS204428",
@@ -3467,8 +3467,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "ip_count": 337,
-      "event_count": 2282
+      "ip_count": 338,
+      "event_count": 2283
     },
     {
       "asn": "AS6939",
@@ -3503,9 +3503,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "US",
       "score": 100.0,
-      "event_count": 18352,
+      "event_count": 18355,
       "credential_events": 95,
       "cve_events": 50
     },
@@ -3530,11 +3530,11 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "HK",
-      "score": 91.83,
-      "event_count": 913,
+      "country": "US",
+      "score": 91.91,
+      "event_count": 957,
       "credential_events": 342,
-      "cve_events": 78
+      "cve_events": 100
     },
     {
       "asn": "AS135377",
@@ -3631,7 +3631,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 70.0,
-      "event_count": 6865,
+      "event_count": 6867,
       "credential_events": 276,
       "cve_events": 0
     },
@@ -3682,34 +3682,33 @@
     }
   ],
   "events_by_country": {
-    "NL": 86238,
+    "NL": 86253,
     "IQ": 45745,
-    "US": 22354,
-    "BE": 18353,
-    "RO": 12827,
-    "CN": 10724,
+    "US": 41158,
+    "RO": 13503,
+    "CN": 10728,
     "TR": 8558,
     "DE": 6945,
     "PL": 4806,
     "LT": 2863,
+    "FR": 2426,
     "ID": 2165,
     "IN": 1944,
-    "FR": 1890,
-    "HK": 1666,
     "BG": 1658,
     "RU": 1290,
-    "GB": 1241,
-    "CA": 891,
+    "GB": 1242,
+    "CA": 894,
     "DK": 851,
+    "HK": 753,
     "SE": 590,
     "KR": 583,
     "VN": 510,
-    "PK": 452,
+    "PK": 460,
     "CH": 451,
     "BR": 379,
     "SI": 378,
     "FI": 366,
-    "SG": 234,
+    "SG": 236,
     "KZ": 191,
     "JP": 168,
     "BD": 158,
@@ -3774,6 +3773,7 @@
     "QA": 2,
     "TG": 2,
     "AF": 1,
+    "BE": 1,
     "BH": 1,
     "DZ": 1,
     "EE": 1,

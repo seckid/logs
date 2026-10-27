@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-27T03:02:18.388442Z",
+  "generated_at": "2026-10-27T04:04:18.582338Z",
   "period_days": 90,
   "asns": [
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BE",
+      "country": "US",
       "score": 100.0,
-      "event_count": 18352,
-      "ip_count": 641,
+      "event_count": 18355,
+      "ip_count": 643,
       "credential_events": 95,
       "cve_events": 50,
       "honeypots": [
@@ -84,12 +84,12 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "HK",
-      "score": 91.83,
-      "event_count": 913,
-      "ip_count": 163,
+      "country": "US",
+      "score": 91.91,
+      "event_count": 957,
+      "ip_count": 164,
       "credential_events": 342,
-      "cve_events": 78,
+      "cve_events": 100,
       "honeypots": [
         "bigippot:honeypot-01",
         "centrestackpot:honeypot-01",
@@ -98,14 +98,15 @@
         "front:honeypot-01",
         "ivantipot:honeypot-01",
         "nodepot:honeypot-01",
+        "owapot:honeypot-01",
         "panospot:honeypot-01",
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
         "credential_events=342",
-        "cve_events=78",
-        "multi_honeypot=9"
+        "cve_events=100",
+        "multi_honeypot=10"
       ]
     },
     {
@@ -334,8 +335,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 70.0,
-      "event_count": 6865,
-      "ip_count": 402,
+      "event_count": 6867,
+      "ip_count": 403,
       "credential_events": 276,
       "cve_events": 0,
       "honeypots": [
@@ -539,8 +540,8 @@
       "asn": "AS4134",
       "name": "CHINANET BACKBONE",
       "country": "CN",
-      "score": 60.67,
-      "event_count": 336,
+      "score": 60.68,
+      "event_count": 340,
       "ip_count": 36,
       "credential_events": 207,
       "cve_events": 0,
@@ -551,13 +552,14 @@
         "fortipot:honeypot-01",
         "front:honeypot-01",
         "ivantipot:honeypot-01",
+        "owapot:honeypot-01",
         "panospot:honeypot-01",
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
         "credential_events=207",
-        "multi_honeypot=8"
+        "multi_honeypot=9"
       ]
     },
     {
@@ -642,32 +644,12 @@
       ]
     },
     {
-      "asn": "AS4766",
-      "name": "Korea Telecom",
-      "country": "KR",
-      "score": 56.07,
-      "event_count": 534,
-      "ip_count": 341,
-      "credential_events": 527,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=527",
-        "multi_honeypot=3"
-      ]
-    },
-    {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 56.06,
-      "event_count": 2282,
-      "ip_count": 337,
+      "score": 56.07,
+      "event_count": 2283,
+      "ip_count": 338,
       "credential_events": 3,
       "cve_events": 60,
       "honeypots": [
@@ -686,6 +668,26 @@
         "cve_events=60",
         "multi_honeypot=8",
         "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
+      "asn": "AS4766",
+      "name": "Korea Telecom",
+      "country": "KR",
+      "score": 56.07,
+      "event_count": 534,
+      "ip_count": 341,
+      "credential_events": 527,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=527",
+        "multi_honeypot=3"
       ]
     },
     {
@@ -821,10 +823,10 @@
     {
       "asn": "AS213412",
       "name": "ONYPHE SAS",
-      "country": "US",
+      "country": "FR",
       "score": 51.07,
-      "event_count": 533,
-      "ip_count": 205,
+      "event_count": 536,
+      "ip_count": 208,
       "credential_events": 0,
       "cve_events": 85,
       "honeypots": [
@@ -1020,16 +1022,16 @@
       "name": "HOSTOX GROUP S.R.L.",
       "country": "RO",
       "score": 50.0,
-      "event_count": 7553,
+      "event_count": 8229,
       "ip_count": 1,
-      "credential_events": 7553,
+      "credential_events": 8229,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=7553"
+        "credential_events=8229"
       ]
     },
     {
