@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T14:04:39.867193Z",
+  "generated_at": "2026-10-27T15:05:14.572688Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,8 +7,8 @@
       "name": "Google LLC",
       "country": "US",
       "score": 100.0,
-      "event_count": 18529,
-      "ip_count": 658,
+      "event_count": 18530,
+      "ip_count": 659,
       "credential_events": 95,
       "cve_events": 51,
       "honeypots": [
@@ -340,8 +340,8 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 70.0,
-      "event_count": 6887,
-      "ip_count": 411,
+      "event_count": 6888,
+      "ip_count": 412,
       "credential_events": 286,
       "cve_events": 0,
       "honeypots": [
@@ -838,12 +838,36 @@
       ]
     },
     {
+      "asn": "AS9009",
+      "name": "M247 Europe SRL",
+      "country": "GB",
+      "score": 52.56,
+      "event_count": 282,
+      "ip_count": 20,
+      "credential_events": 48,
+      "cve_events": 10,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "centrestackpot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=48",
+        "cve_events=10",
+        "multi_honeypot=6"
+      ]
+    },
+    {
       "asn": "AS213412",
       "name": "ONYPHE SAS",
       "country": "US",
       "score": 51.09,
-      "event_count": 545,
-      "ip_count": 208,
+      "event_count": 547,
+      "ip_count": 210,
       "credential_events": 0,
       "cve_events": 88,
       "honeypots": [
@@ -1039,40 +1063,16 @@
       "name": "HOSTOX GROUP S.R.L.",
       "country": "RO",
       "score": 50.0,
-      "event_count": 14946,
+      "event_count": 15638,
       "ip_count": 1,
-      "credential_events": 14946,
+      "credential_events": 15638,
       "cve_events": 0,
       "honeypots": [
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=14946"
-      ]
-    },
-    {
-      "asn": "AS9009",
-      "name": "M247 Europe SRL",
-      "country": "US",
-      "score": 49.71,
-      "event_count": 256,
-      "ip_count": 19,
-      "credential_events": 44,
-      "cve_events": 9,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "centrestackpot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=44",
-        "cve_events=9",
-        "multi_honeypot=6"
+        "credential_events=15638"
       ]
     },
     {
