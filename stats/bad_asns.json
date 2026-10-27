@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T18:02:00.953942Z",
+  "generated_at": "2026-10-27T19:05:19.649956Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,8 +7,8 @@
       "name": "Google LLC",
       "country": "BR",
       "score": 100.0,
-      "event_count": 18536,
-      "ip_count": 664,
+      "event_count": 18539,
+      "ip_count": 665,
       "credential_events": 95,
       "cve_events": 51,
       "honeypots": [
@@ -21,6 +21,7 @@
         "nodepot:honeypot-01",
         "owapot:honeypot-01",
         "panospot:honeypot-01",
+        "phppot:honeypot-01",
         "sharepointpot:honeypot-01",
         "sshppot:honeypot-01"
       ],
@@ -28,16 +29,16 @@
       "reasons": [
         "credential_events=95",
         "cve_events=51",
-        "multi_honeypot=11",
+        "multi_honeypot=12",
         "research_or_cloud_with_hostile_density"
       ]
     },
     {
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
-      "country": "DE",
+      "country": "US",
       "score": 96.32,
-      "event_count": 3159,
+      "event_count": 3162,
       "ip_count": 333,
       "credential_events": 1715,
       "cve_events": 123,
@@ -87,10 +88,10 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "SG",
-      "score": 92.08,
-      "event_count": 1040,
-      "ip_count": 170,
+      "country": "US",
+      "score": 92.09,
+      "event_count": 1044,
+      "ip_count": 171,
       "credential_events": 369,
       "cve_events": 112,
       "honeypots": [
@@ -317,8 +318,8 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 12875,
-      "ip_count": 34,
+      "event_count": 12877,
+      "ip_count": 35,
       "credential_events": 10342,
       "cve_events": 0,
       "honeypots": [
@@ -328,22 +329,23 @@
         "fortipot:honeypot-01",
         "front:honeypot-01",
         "ivantipot:honeypot-01",
+        "sharepointpot:honeypot-01",
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
         "credential_events=10342",
-        "multi_honeypot=7"
+        "multi_honeypot=8"
       ]
     },
     {
       "asn": "AS8075",
       "name": "Microsoft Corporation",
-      "country": "US",
+      "country": "NL",
       "score": 70.0,
-      "event_count": 6889,
-      "ip_count": 412,
-      "credential_events": 286,
+      "event_count": 6900,
+      "ip_count": 413,
+      "credential_events": 297,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -358,7 +360,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=286",
+        "credential_events=297",
         "multi_honeypot=9",
         "research_or_cloud_with_hostile_density"
       ]
@@ -368,8 +370,8 @@
       "name": "SS-Net",
       "country": "RO",
       "score": 70.0,
-      "event_count": 5221,
-      "ip_count": 25,
+      "event_count": 5225,
+      "ip_count": 26,
       "credential_events": 5213,
       "cve_events": 0,
       "honeypots": [
@@ -377,12 +379,13 @@
         "citrixpot:honeypot-01",
         "fortipot:honeypot-01",
         "ivantipot:honeypot-01",
+        "sharepointpot:honeypot-01",
         "sshppot:honeypot-01"
       ],
       "ai_threat_level": null,
       "reasons": [
         "credential_events=5213",
-        "multi_honeypot=5"
+        "multi_honeypot=6"
       ]
     },
     {
@@ -553,10 +556,10 @@
       "asn": "AS4134",
       "name": "CHINANET BACKBONE",
       "country": "CN",
-      "score": 60.77,
-      "event_count": 384,
-      "ip_count": 39,
-      "credential_events": 237,
+      "score": 60.78,
+      "event_count": 389,
+      "ip_count": 40,
+      "credential_events": 238,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -574,7 +577,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=237",
+        "credential_events=238",
         "multi_honeypot=12"
       ]
     },
@@ -641,10 +644,10 @@
       "asn": "AS45090",
       "name": "Shenzhen Tencent Computer Systems Company Limited",
       "country": "CN",
-      "score": 58.28,
-      "event_count": 139,
+      "score": 58.78,
+      "event_count": 140,
       "ip_count": 16,
-      "credential_events": 16,
+      "credential_events": 17,
       "cve_events": 68,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -654,7 +657,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=16",
+        "credential_events=17",
         "cve_events=68",
         "multi_honeypot=4"
       ]
@@ -911,6 +914,32 @@
       ]
     },
     {
+      "asn": "AS9808",
+      "name": "China Mobile Communications Group Co., Ltd.",
+      "country": "CN",
+      "score": 50.69,
+      "event_count": 95,
+      "ip_count": 20,
+      "credential_events": 61,
+      "cve_events": 0,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "centrestackpot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "sharepointpot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=61",
+        "multi_honeypot=9"
+      ]
+    },
+    {
       "asn": "AS7713",
       "name": "PT Telekomunikasi Indonesia",
       "country": "ID",
@@ -935,9 +964,9 @@
       "name": "Pakistan Telecommunication Company Limited",
       "country": "PK",
       "score": 50.49,
-      "event_count": 244,
-      "ip_count": 235,
-      "credential_events": 243,
+      "event_count": 245,
+      "ip_count": 236,
+      "credential_events": 244,
       "cve_events": 0,
       "honeypots": [
         "front:honeypot-01",
@@ -945,7 +974,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=243",
+        "credential_events=244",
         "multi_honeypot=2"
       ]
     },
@@ -1097,26 +1126,6 @@
         "credential_events=5",
         "cve_events=42",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS7488",
-      "name": "CNServer LLC",
-      "country": "US",
-      "score": 47.13,
-      "event_count": 63,
-      "ip_count": 3,
-      "credential_events": 14,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=14",
-        "cve_events=42",
-        "multi_honeypot=2"
       ]
     }
   ]
