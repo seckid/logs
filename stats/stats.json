@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-28T05:00:38.605680Z",
+  "generated_at": "2026-10-28T06:00:49.865671Z",
   "period_days": 90,
-  "total_events": 282214,
-  "unique_ips": 8095,
+  "total_events": 282308,
+  "unique_ips": 8115,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -20,19 +20,19 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "front:honeypot-01": 49834,
-    "sshppot:honeypot-01": 103334,
-    "bigippot:honeypot-01": 31327,
-    "fortipot:honeypot-01": 82146,
-    "sharepointpot:honeypot-01": 552,
-    "centrestackpot:honeypot-01": 1075,
-    "collector:threatapp-01": 184,
+    "front:honeypot-01": 49838,
+    "sshppot:honeypot-01": 103340,
+    "bigippot:honeypot-01": 31339,
+    "fortipot:honeypot-01": 82149,
+    "sharepointpot:honeypot-01": 565,
+    "centrestackpot:honeypot-01": 1081,
+    "collector:threatapp-01": 185,
     "ivantipot:honeypot-01": 5643,
-    "panospot:honeypot-01": 989,
-    "citrixpot:honeypot-01": 6727,
+    "panospot:honeypot-01": 1031,
+    "citrixpot:honeypot-01": 6729,
     "phppot:honeypot-01": 35,
     "nodepot:honeypot-01": 190,
-    "moveitpot:honeypot-01": 56,
+    "moveitpot:honeypot-01": 61,
     "owapot:honeypot-01": 122
   },
   "events_per_day": {
@@ -559,20 +559,20 @@
     },
     "2026-10-28": {
       "ivantipot:honeypot-01": 4,
-      "sshppot:honeypot-01": 129,
-      "panospot:honeypot-01": 11,
-      "moveitpot:honeypot-01": 25,
-      "fortipot:honeypot-01": 25,
-      "sharepointpot:honeypot-01": 90,
+      "sshppot:honeypot-01": 135,
+      "panospot:honeypot-01": 53,
+      "moveitpot:honeypot-01": 30,
+      "fortipot:honeypot-01": 28,
+      "sharepointpot:honeypot-01": 103,
       "phppot:honeypot-01": 13,
-      "centrestackpot:honeypot-01": 60,
-      "front:honeypot-01": 37,
+      "centrestackpot:honeypot-01": 66,
+      "front:honeypot-01": 41,
       "owapot:honeypot-01": 3,
-      "collector:threatapp-01": 7,
-      "bigippot:honeypot-01": 45,
+      "collector:threatapp-01": 8,
+      "bigippot:honeypot-01": 59,
       "nodepot:honeypot-01": 26,
-      "citrixpot:honeypot-01": 9,
-      "total": 484
+      "citrixpot:honeypot-01": 11,
+      "total": 580
     }
   },
   "top_credentials": [
@@ -594,12 +594,12 @@
     {
       "username": "admin",
       "password": "admin",
-      "count": 210
+      "count": 211
     },
     {
       "username": "root",
       "password": "root",
-      "count": 180
+      "count": 181
     },
     {
       "username": "root",
@@ -619,12 +619,12 @@
     {
       "username": "user",
       "password": "user",
-      "count": 150
+      "count": 151
     },
     {
       "username": "root",
       "password": "admin",
-      "count": 146
+      "count": 147
     },
     {
       "username": "admin",
@@ -830,11 +830,11 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 2007
+      "count": 2009
     },
     {
       "username": "admin",
-      "count": 922
+      "count": 923
     },
     {
       "username": "support",
@@ -842,7 +842,7 @@
     },
     {
       "username": "user",
-      "count": 265
+      "count": 266
     },
     {
       "username": "ubuntu",
@@ -920,7 +920,7 @@
     },
     {
       "password": "admin",
-      "count": 356
+      "count": 358
     },
     {
       "password": "password",
@@ -936,7 +936,7 @@
     },
     {
       "password": "root",
-      "count": 180
+      "count": 181
     },
     {
       "password": "3245gs5662d34",
@@ -944,7 +944,7 @@
     },
     {
       "password": "user",
-      "count": 150
+      "count": 151
     },
     {
       "password": "admin123",
@@ -993,11 +993,11 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 182063,
-      "unique_ips": 2292,
+      "attempt_count": 182069,
+      "unique_ips": 2293,
       "unique_pairs": 107170,
       "success_count": 331,
-      "failure_count": 18073,
+      "failure_count": 18079,
       "unknown_outcome_count": 163659
     },
     "top_source_ips": [
@@ -2293,7 +2293,7 @@
       {
         "username": "admin",
         "password": "admin",
-        "count": 210,
+        "count": 211,
         "sources": [
           "bigippot:honeypot-01",
           "centrestackpot:honeypot-01",
@@ -2307,7 +2307,7 @@
       {
         "username": "root",
         "password": "root",
-        "count": 180,
+        "count": 181,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2344,7 +2344,7 @@
       {
         "username": "user",
         "password": "user",
-        "count": 150,
+        "count": 151,
         "sources": [
           "fortipot:honeypot-01",
           "sshppot:honeypot-01"
@@ -2353,7 +2353,7 @@
       {
         "username": "root",
         "password": "admin",
-        "count": 146,
+        "count": 147,
         "sources": [
           "sshppot:honeypot-01"
         ]
@@ -2712,7 +2712,7 @@
   "top_user_agents": [
     {
       "user_agent": "Mozilla/5.0",
-      "count": 78381
+      "count": 78382
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -2732,16 +2732,16 @@
     }
   ],
   "method_counts": {
-    "SSH": 103333,
-    "GET": 87471,
-    "POST": 84035,
+    "SSH": 103339,
+    "GET": 87538,
+    "POST": 84036,
     "PRI": 210,
-    "COLLECT": 184,
+    "COLLECT": 185,
     "HEAD": 183,
     "OPTIONS": 122,
     "PROPFIND": 89,
     "CONNECT": 36,
-    "PUT": 29,
+    "PUT": 32,
     "DELETE": 22,
     "SSTP_DUPLEX_POST": 15,
     "UDP": 14,
@@ -2749,41 +2749,42 @@
     "\n": 10,
     "HEARTBEAT": 8,
     "1111ø\u0000\u0000\u0000\u0004\u0000\u0000\u0001\u001b": 7,
+    "{\"PARAMS\":": 6,
     "{\"ID\":": 6,
     "ÿ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0001NULL\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 6,
-    "{\"PARAMS\":": 6,
     "ZSDLKFJ2": 6,
     "\u0016\u0003\u0000\u0000I\u0001\u0000\u0000E\u0003\u0003U": 5,
     "00000000": 4,
     "\u0010\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0000\u0000": 4,
-    "\u0016\u0003\u0000\u0000S\u0001\u0000\u0000O\u0003\u0000?G×÷º,ÎÊ²`~Ó\u0000Ý{¹ÕÈWÆÄÛ<=ÛOÏ\u0010N\u0000\u0000(\u0000\u0016\u0000\u0013\u0000": 3,
-    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"BLUE1\",\"PASS\":\"X\",\"AGENT\":\"WINDOWS": 3,
     "\u0000\u0000\u0000SMBR\u0000\u0000\u0000\u0000\b\u0001@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0006\u0000\u0000\u0001\u0000\u0000\u0000\u0002PC": 3,
+    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"BLUE1\",\"PASS\":\"X\",\"AGENT\":\"WINDOWS": 3,
     "Ÿ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0001NULL\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 3,
-    "\u0000": 2,
-    "GETROUTERINFO": 2,
+    "\u0016\u0003\u0000\u0000S\u0001\u0000\u0000O\u0003\u0000?G×÷º,ÎÊ²`~Ó\u0000Ý{¹ÕÈWÆÄÛ<=ÛOÏ\u0010N\u0000\u0000(\u0000\u0016\u0000\u0013\u0000": 3,
+    "L\u0000": 2,
     "AMQP\u0000\u0000": 2,
     ":\u0000\u0000\u0000/\u0000\u0000\u0000\u0002\u0000\u0000@\u0002\u000f\u0000\u0001\u0000=\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000/\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@": 2,
-    "L\u0000": 2,
-    "TPPW": 1,
-    "\u0005\u0001\u0000": 1,
+    "\u0000": 2,
+    "GETROUTERINFO": 2,
+    "\u0016\u0003\u0001\u0005º\u0001\u0000\u0005¶\u0003\u0003\u0007Ý\u0017Ø\u0018%¦<³ÙÉÙ)´¡Ò!ÁÖ{.R°<Ë«­'/": 1,
+    "JKWN": 1,
+    "VDXP": 1,
     "TLII": 1,
+    "JDWP-Handshake": 1,
+    "\u0016\u0001\u0001\u0001ð\u0001\u0000\u0001ì\u0001\u0001ß³ì»íø¢®¨NÉ+=\u0010LÔöÚ": 1,
     "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003{ÕPá\"<ÓÉv\u00056ÜY\"ÙädvV'Û3¯": 1,
     "ZEXZ": 1,
-    "\u0012\u0001\u00004\u0000\u0000\u0000\u0000\u0000\u0000\u0015\u0000\u0006\u0001\u0000\u001b\u0000\u0001\u0002\u0000": 1,
-    "JDWP-Handshake": 1,
-    "JKWN": 1,
-    "\u0016\u0003\u0001\u0005º\u0001\u0000\u0005¶\u0003\u0003\u0007Ý\u0017Ø\u0018%¦<³ÙÉÙ)´¡Ò!ÁÖ{.R°<Ë«­'/": 1,
     "\u0016\u0003\u0001\u0005º\u0001\u0000\u0005¶\u0003\u0003©\u0015¼\\@£ÇK¤": 1,
+    "\u0012\u0001\u00004\u0000\u0000\u0000\u0000\u0000\u0000\u0015\u0000\u0006\u0001\u0000\u001b\u0000\u0001\u0002\u0000": 1,
     "ZZFX": 1,
-    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003«äí?8yés¦ÐÂç¦t°\u0001)³¤Û±HÝ%": 1,
     "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003Üö:": 1,
+    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003òíWg": 1,
     "XZZR": 1,
     "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003øó\u0013v³ÉWÈô\u0010R>îÔô¦-¯Æ:6B/ÿ×JN": 1,
-    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003p\\jÙï0Áã6Ìn#Þ¼êOLp¥\u00154&\u0000¡öRPg": 1,
-    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003òíWg": 1,
     "CMJD": 1,
+    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003«äí?8yés¦ÐÂç¦t°\u0001)³¤Û±HÝ%": 1,
     "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003©ÈI=;¢sB\u0019eyÎ¿ï¼\"¦cÄQ[_2=D\u0002Ù": 1,
+    "TPPW": 1,
+    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003p\\jÙï0Áã6Ìn#Þ¼êOLp¥\u00154&\u0000¡öRPg": 1,
     "\u0016\u0003\u0001\u0000SS\u0001\u0000\u0000Û\u0003\u0003": 1,
     "\u0016\u0003\u0001\u0005º\u0001\u0000\u0005¶\u0003\u0003:Ç4ÇU¤ZÆÌÈªÂ-I,/Â¡·Æ": 1,
     "\u0016\u0003\u0003\u0002B\u0001\u0000\u0002^\u0003\u0003": 1,
@@ -2812,9 +2813,7 @@
     "VFZQ": 1,
     "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"46SNJV9ENHAEFSVUBVITRZCWWHKKXADIDIEN14GMC3LYBQH1JYXRKE6DL2D87GS2D495SRBKWGKTZFNKS45AUWX3QYVCPJP\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
     "\u0016\u0003\u0001\u0000Ê\u0001\u0000\u0000Æ\u0003\u0003ZÕÄÒÀÚ": 1,
-    "\u0016\u0003\u0001\u0005Ö\u0001\u0000\u0005Ò\u0003\u0003[À[Y´×FOE": 1,
-    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003W®íjÌ\"¬ð¾uo": 1,
-    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003¿é\u0011ß6B6pøýÖ//åã\u0018Û¤ºævP¥«\u0001ÙÐ": 1,
+    "\u0005\u0001\u0000": 1,
     "OXFS": 1,
     "RIXQ": 1,
     "\u0016\u0003\u0001\u0000¡\u0001\u0000\u0000\u0003\u0003;K": 1,
@@ -2834,6 +2833,7 @@
     "\u0016\u0003\u0001\u0000Ò\u0001\u0000\u0000Î\u0003\u0003{Ô*Q\u0007B9ÏÂ¡\u000e": 1,
     "GRBY": 1,
     "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003&ÊHß\u0019åí~c": 1,
+    "\u0016\u0003\u0001\u0000Ý\u0001\u0000\u0000Ù\u0003\u0003T~EX¬Ò7ÛLD": 1,
     "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003Y": 1,
     "\u0016\u0003\u0001\u0005º\u0001\u0000\u0005¶\u0003\u0003ÝÏÕ+FÅU": 1,
     "\u0016\u0003\u0001\u0005º\u0001\u0000\u0005¶\u0003\u0003J¬´ØMÆI¤DLD}ÜÂYFK)\u001a¿\\À": 1,
@@ -2841,8 +2841,9 @@
     "\u0016\u0003\u0001\u0005Õ\u0001\u0000\u0005Ñ\u0003\u0003\u0018Y@ÞQ": 1,
     "t3": 1,
     "\u0016\u0003\u0001\u0000Ò\u0001\u0000\u0000Î\u0003\u0003E2I¡¦PZWÉÔΜ\u001a\u0005ÇÆª/¼³Û3LÚ¢": 1,
-    "VDXP": 1,
-    "\u0016\u0001\u0001\u0001ð\u0001\u0000\u0001ì\u0001\u0001ß³ì»íø¢®¨NÉ+=\u0010LÔöÚ": 1,
+    "\u0016\u0003\u0001\u0000Ò\u0001\u0000\u0000Î\u0003\u0003¢Ìº]Î³\"ÛΜÆSIÍ\u00038I´LÍ\u001a¹¢Ë\u0003F": 1,
+    "\u0016\u0003\u0001\u0000Ò\u0001\u0000\u0000Î\u0003\u0003\u0002Ê`E)Ñ\u001aÁÀFVTÃ$A\u0018ÃÒ3~ÎÒU\u0018{Q\u0007Ï": 1,
+    "\u0016\u0003\u0001\u0000Ò\u0001\u0000\u0000Î\u0003\u0003É]É": 1,
     "\u0016\u0003\u0001\u0000Ó\u0001\u0000\u0000Ï\u0003\u0003": 1,
     "\u0000Z\u0000\u0000\u0001\u0000\u0000\u0000\u00016\u0001,\u0000\u0000\b\u0000Ÿ\b\u0000\u0000\u0000\u0001\u0000": 1,
     "RPOQ": 1,
@@ -2870,13 +2871,16 @@
     "\u0016\u0003\u0001\u0007¦\u0001\u0000\u0007¢\u0003\u0003ª\bÞ\u001ax": 1,
     "¤\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 1,
     "GAVL": 1,
-    "ÿ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000ñ\u0003%\u0000\u0000\u0000{": 1
+    "ÿ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000ñ\u0003%\u0000\u0000\u0000{": 1,
+    "\u0016\u0003\u0001\u0005Ö\u0001\u0000\u0005Ò\u0003\u0003[À[Y´×FOE": 1,
+    "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003W®íjÌ\"¬ð¾uo": 1,
+    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003¿é\u0011ß6B6pøýÖ//åã\u0018Û¤ºævP¥«\u0001ÙÐ": 1
   },
   "top_paths": [
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 102630
+      "count": 102636
     },
     {
       "path": "/remote/logincheck",
@@ -2886,27 +2890,27 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 2897
+      "count": 2900
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 2176
+      "count": 2178
     },
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 1743
+      "count": 1745
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 1558
+      "count": 1559
     },
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 1125
+      "count": 1126
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
@@ -2936,17 +2940,17 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 400
+      "count": 401
+    },
+    {
+      "path": "/",
+      "source": "centrestackpot:honeypot-01",
+      "count": 337
     },
     {
       "path": "/logincheck",
       "source": "fortipot:honeypot-01",
       "count": 337
-    },
-    {
-      "path": "/",
-      "source": "centrestackpot:honeypot-01",
-      "count": 334
     },
     {
       "path": "/.env",
@@ -2964,14 +2968,14 @@
       "count": 301
     },
     {
+      "path": "/favicon.ico",
+      "source": "front:honeypot-01",
+      "count": 261
+    },
+    {
       "path": "/wp-admin/index.php",
       "source": "front:honeypot-01",
       "count": 260
-    },
-    {
-      "path": "/favicon.ico",
-      "source": "front:honeypot-01",
-      "count": 259
     }
   ],
   "cve_attempts": [
@@ -3187,6 +3191,29 @@
       ]
     },
     {
+      "cve": "CVE-2022-40684",
+      "count": 28,
+      "sources": [
+        "fortipot:honeypot-01"
+      ],
+      "description": "Admin API authentication bypass surface",
+      "severity": "Critical",
+      "cvss_score": null,
+      "sample_ips": [
+        "187.15.101.99",
+        "195.184.76.249",
+        "195.184.76.250",
+        "195.184.76.42",
+        "195.184.76.44",
+        "38.60.157.86",
+        "91.196.152.128",
+        "91.196.152.129"
+      ],
+      "sample_paths": [
+        "/api/v2/cmdb/system/admin/admin"
+      ]
+    },
+    {
       "cve": "CVE-2026-3055",
       "count": 27,
       "sources": [
@@ -3238,29 +3265,6 @@
         "/tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/etc/f5-release",
         "/tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/etc/passwd",
         "/tmui/login.jsp/..;/tmui/util/getTabSet.jsp?tabId=ThisisaTest"
-      ]
-    },
-    {
-      "cve": "CVE-2022-40684",
-      "count": 25,
-      "sources": [
-        "fortipot:honeypot-01"
-      ],
-      "description": "Admin API authentication bypass surface",
-      "severity": "Critical",
-      "cvss_score": null,
-      "sample_ips": [
-        "187.15.101.99",
-        "195.184.76.249",
-        "195.184.76.250",
-        "195.184.76.42",
-        "195.184.76.44",
-        "38.60.157.86",
-        "91.196.152.128",
-        "91.196.152.129"
-      ],
-      "sample_paths": [
-        "/api/v2/cmdb/system/admin/admin"
       ]
     },
     {
@@ -3358,7 +3362,7 @@
     },
     {
       "cve": "CVE-2023-34362",
-      "count": 11,
+      "count": 13,
       "sources": [
         "moveitpot:honeypot-01"
       ],
@@ -3466,7 +3470,7 @@
     }
   ],
   "cve_severity_counts": {
-    "Critical": 3882,
+    "Critical": 3887,
     "High": 216
   },
   "top_asns": [
@@ -3494,9 +3498,9 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BR",
-      "ip_count": 683,
-      "event_count": 18701
+      "country": "BE",
+      "ip_count": 686,
+      "event_count": 18710
     },
     {
       "asn": "AS218721",
@@ -3537,15 +3541,15 @@
       "asn": "AS8075",
       "name": "Microsoft Corporation",
       "country": "US",
-      "ip_count": 422,
-      "event_count": 6927
+      "ip_count": 423,
+      "event_count": 6929
     },
     {
       "asn": "AS204428",
       "name": "SS-Net",
       "country": "RO",
       "ip_count": 26,
-      "event_count": 5225
+      "event_count": 5226
     },
     {
       "asn": "AS218785",
@@ -3587,7 +3591,7 @@
       "name": "Hurricane Electric LLC",
       "country": "US",
       "ip_count": 333,
-      "event_count": 2050
+      "event_count": 2056
     },
     {
       "asn": "AS58477",
@@ -3615,11 +3619,11 @@
     {
       "asn": "AS396982",
       "name": "Google LLC",
-      "country": "BR",
+      "country": "BE",
       "score": 100.0,
-      "event_count": 18701,
+      "event_count": 18710,
       "credential_events": 105,
-      "cve_events": 52
+      "cve_events": 53
     },
     {
       "asn": "AS14061",
@@ -3642,9 +3646,9 @@
     {
       "asn": "AS45102",
       "name": "Alibaba (US) Technology Co., Ltd.",
-      "country": "MY",
-      "score": 92.2,
-      "event_count": 1098,
+      "country": "US",
+      "score": 92.21,
+      "event_count": 1105,
       "credential_events": 398,
       "cve_events": 112
     },
@@ -3752,7 +3756,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 70.0,
-      "event_count": 6927,
+      "event_count": 6929,
       "credential_events": 311,
       "cve_events": 0
     },
@@ -3761,8 +3765,8 @@
       "name": "SS-Net",
       "country": "RO",
       "score": 70.0,
-      "event_count": 5225,
-      "credential_events": 5213,
+      "event_count": 5226,
+      "credential_events": 5214,
       "cve_events": 0
     },
     {
@@ -3794,22 +3798,21 @@
     }
   ],
   "events_by_country": {
-    "NL": 86069,
+    "NL": 86082,
     "IQ": 45745,
-    "US": 23609,
-    "RO": 21183,
-    "BR": 19105,
-    "CN": 10863,
+    "US": 24756,
+    "RO": 21184,
+    "BE": 18711,
+    "CN": 10869,
     "TR": 8564,
-    "DE": 7602,
+    "DE": 7605,
     "PL": 4843,
-    "FR": 3029,
+    "FR": 3032,
     "LT": 2869,
     "ID": 2241,
-    "GB": 1865,
-    "HK": 1838,
+    "GB": 1866,
+    "HK": 1843,
     "BG": 1658,
-    "MY": 1198,
     "DK": 851,
     "KR": 601,
     "SE": 596,
@@ -3819,6 +3822,7 @@
     "RU": 489,
     "PK": 462,
     "CH": 451,
+    "BR": 404,
     "SI": 378,
     "CA": 352,
     "SG": 245,
@@ -3832,6 +3836,7 @@
     "IT": 112,
     "UZ": 103,
     "NO": 101,
+    "MY": 100,
     "CM": 98,
     "MX": 91,
     "NG": 86,
@@ -3886,7 +3891,6 @@
     "QA": 2,
     "TG": 2,
     "AF": 1,
-    "BE": 1,
     "BH": 1,
     "DZ": 1,
     "EE": 1,
