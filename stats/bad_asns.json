@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T11:02:32.088074Z",
+  "generated_at": "2026-10-30T12:05:17.331201Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,7 +7,7 @@
       "name": "Google LLC",
       "country": "DE",
       "score": 100.0,
-      "event_count": 19126,
+      "event_count": 19127,
       "ip_count": 731,
       "credential_events": 111,
       "cve_events": 53,
@@ -39,8 +39,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "CA",
-      "score": 96.84,
-      "event_count": 3419,
+      "score": 96.88,
+      "event_count": 3439,
       "ip_count": 353,
       "credential_events": 1808,
       "cve_events": 123,
@@ -125,8 +125,8 @@
       "asn": "AS135377",
       "name": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
       "country": "HK",
-      "score": 92.11,
-      "event_count": 1054,
+      "score": 92.12,
+      "event_count": 1059,
       "ip_count": 105,
       "credential_events": 264,
       "cve_events": 172,
@@ -310,7 +310,7 @@
       "name": "Datacamp Limited",
       "country": "US",
       "score": 74.95,
-      "event_count": 376,
+      "event_count": 377,
       "ip_count": 23,
       "credential_events": 62,
       "cve_events": 29,
@@ -383,7 +383,7 @@
       "name": "Microsoft Corporation",
       "country": "HK",
       "score": 70.0,
-      "event_count": 7098,
+      "event_count": 7099,
       "ip_count": 450,
       "credential_events": 388,
       "cve_events": 0,
@@ -599,10 +599,10 @@
       "asn": "AS4766",
       "name": "Korea Telecom",
       "country": "KR",
-      "score": 61.32,
-      "event_count": 662,
+      "score": 61.34,
+      "event_count": 671,
       "ip_count": 352,
-      "credential_events": 649,
+      "credential_events": 658,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -614,7 +614,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=649",
+        "credential_events=658",
         "multi_honeypot=6"
       ]
     },
@@ -696,10 +696,10 @@
       "asn": "AS3462",
       "name": "Data Communication Business Group",
       "country": "TW",
-      "score": 60.21,
-      "event_count": 103,
+      "score": 60.22,
+      "event_count": 108,
       "ip_count": 20,
-      "credential_events": 99,
+      "credential_events": 104,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -709,7 +709,28 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=99",
+        "credential_events=104",
+        "multi_honeypot=4"
+      ]
+    },
+    {
+      "asn": "AS3269",
+      "name": "Telecom Italia S.p.A.",
+      "country": "IT",
+      "score": 60.18,
+      "event_count": 88,
+      "ip_count": 12,
+      "credential_events": 84,
+      "cve_events": 0,
+      "honeypots": [
+        "centrestackpot:honeypot-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=84",
         "multi_honeypot=4"
       ]
     },
@@ -781,27 +802,6 @@
       "reasons": [
         "credential_events=79",
         "multi_honeypot=11"
-      ]
-    },
-    {
-      "asn": "AS3269",
-      "name": "Telecom Italia S.p.A.",
-      "country": "IT",
-      "score": 59.67,
-      "event_count": 83,
-      "ip_count": 12,
-      "credential_events": 79,
-      "cve_events": 0,
-      "honeypots": [
-        "centrestackpot:honeypot-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=79",
-        "multi_honeypot=4"
       ]
     },
     {
@@ -980,6 +980,26 @@
       ]
     },
     {
+      "asn": "AS24560",
+      "name": "Bharti Airtel Ltd., Telemedia Services",
+      "country": "IN",
+      "score": 55.17,
+      "event_count": 86,
+      "ip_count": 25,
+      "credential_events": 84,
+      "cve_events": 0,
+      "honeypots": [
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=84",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS7713",
       "name": "PT Telekomunikasi Indonesia",
       "country": "ID",
@@ -1000,34 +1020,14 @@
       ]
     },
     {
-      "asn": "AS24560",
-      "name": "Bharti Airtel Ltd., Telemedia Services",
-      "country": "IN",
-      "score": 55.17,
-      "event_count": 83,
-      "ip_count": 25,
-      "credential_events": 81,
-      "cve_events": 0,
-      "honeypots": [
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=81",
-        "multi_honeypot=3"
-      ]
-    },
-    {
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "score": 54.52,
-      "event_count": 2259,
+      "score": 54.54,
+      "event_count": 2272,
       "ip_count": 341,
       "credential_events": 0,
-      "cve_events": 70,
+      "cve_events": 72,
       "honeypots": [
         "bigippot:honeypot-01",
         "centrestackpot:honeypot-01",
@@ -1043,7 +1043,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "cve_events=70",
+        "cve_events=72",
         "multi_honeypot=11"
       ]
     },
