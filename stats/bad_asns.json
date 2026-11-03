@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T18:04:19.893294Z",
+  "generated_at": "2026-11-03T19:03:09.061442Z",
   "period_days": 90,
   "asns": [
     {
@@ -360,9 +360,9 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 15590,
+      "event_count": 15614,
       "ip_count": 37,
-      "credential_events": 12454,
+      "credential_events": 12478,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -376,7 +376,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=12454",
+        "credential_events=12478",
         "multi_honeypot=8"
       ]
     },
@@ -528,6 +528,26 @@
       ]
     },
     {
+      "asn": "AS11664",
+      "name": "Techtel LMDS Comunicaciones Interactivas S.A.",
+      "country": "AR",
+      "score": 65.7,
+      "event_count": 100,
+      "ip_count": 2,
+      "credential_events": 51,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "fortipot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=51",
+        "cve_events=42",
+        "multi_honeypot=2"
+      ]
+    },
+    {
       "asn": "AS37963",
       "name": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "country": "CN",
@@ -575,33 +595,13 @@
       ]
     },
     {
-      "asn": "AS11664",
-      "name": "Techtel LMDS Comunicaciones Interactivas S.A.",
-      "country": "AR",
-      "score": 63.19,
-      "event_count": 95,
-      "ip_count": 2,
-      "credential_events": 46,
-      "cve_events": 42,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "fortipot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=46",
-        "cve_events=42",
-        "multi_honeypot=2"
-      ]
-    },
-    {
       "asn": "AS4766",
       "name": "Korea Telecom",
       "country": "KR",
-      "score": 63.18,
-      "event_count": 1591,
+      "score": 63.23,
+      "event_count": 1617,
       "ip_count": 364,
-      "credential_events": 1577,
+      "credential_events": 1603,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -613,7 +613,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=1577",
+        "credential_events=1603",
         "multi_honeypot=6"
       ]
     },
@@ -719,10 +719,10 @@
       "asn": "AS12479",
       "name": "Orange Espagne SA",
       "country": "ES",
-      "score": 60.73,
-      "event_count": 366,
+      "score": 60.75,
+      "event_count": 375,
       "ip_count": 4,
-      "credential_events": 363,
+      "credential_events": 372,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -732,7 +732,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=363",
+        "credential_events=372",
         "multi_honeypot=4"
       ]
     },
@@ -740,10 +740,10 @@
       "asn": "AS3462",
       "name": "Data Communication Business Group",
       "country": "TW",
-      "score": 60.61,
-      "event_count": 307,
+      "score": 60.63,
+      "event_count": 315,
       "ip_count": 26,
-      "credential_events": 303,
+      "credential_events": 311,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -753,7 +753,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=303",
+        "credential_events=311",
         "multi_honeypot=4"
       ]
     },
@@ -762,9 +762,9 @@
       "name": "Telecom Italia S.p.A.",
       "country": "IT",
       "score": 60.39,
-      "event_count": 195,
+      "event_count": 196,
       "ip_count": 12,
-      "credential_events": 191,
+      "credential_events": 192,
       "cve_events": 0,
       "honeypots": [
         "centrestackpot:honeypot-01",
@@ -774,7 +774,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=191",
+        "credential_events=192",
         "multi_honeypot=4"
       ]
     },
@@ -986,10 +986,10 @@
       "asn": "AS3215",
       "name": "Orange S.A.",
       "country": "FR",
-      "score": 55.47,
-      "event_count": 235,
+      "score": 55.48,
+      "event_count": 241,
       "ip_count": 19,
-      "credential_events": 227,
+      "credential_events": 233,
       "cve_events": 0,
       "honeypots": [
         "fortipot:honeypot-01",
@@ -998,7 +998,27 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=227",
+        "credential_events=233",
+        "multi_honeypot=3"
+      ]
+    },
+    {
+      "asn": "AS3352",
+      "name": "TELEFONICA DE ESPANA S.A.U.",
+      "country": "ES",
+      "score": 55.32,
+      "event_count": 161,
+      "ip_count": 8,
+      "credential_events": 160,
+      "cve_events": 0,
+      "honeypots": [
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=160",
         "multi_honeypot=3"
       ]
     },
@@ -1023,33 +1043,13 @@
       ]
     },
     {
-      "asn": "AS3352",
-      "name": "TELEFONICA DE ESPANA S.A.U.",
-      "country": "ES",
-      "score": 55.32,
-      "event_count": 159,
-      "ip_count": 8,
-      "credential_events": 158,
-      "cve_events": 0,
-      "honeypots": [
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=158",
-        "multi_honeypot=3"
-      ]
-    },
-    {
       "asn": "AS18403",
       "name": "FPT Telecom Company",
       "country": "VN",
       "score": 55.3,
-      "event_count": 150,
+      "event_count": 152,
       "ip_count": 8,
-      "credential_events": 148,
+      "credential_events": 150,
       "cve_events": 0,
       "honeypots": [
         "fortipot:honeypot-01",
@@ -1058,7 +1058,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=148",
+        "credential_events=150",
         "multi_honeypot=3"
       ]
     },
@@ -1067,9 +1067,9 @@
       "name": "TM TECHNOLOGY SERVICES SDN. BHD.",
       "country": "MY",
       "score": 55.26,
-      "event_count": 128,
+      "event_count": 130,
       "ip_count": 10,
-      "credential_events": 127,
+      "credential_events": 129,
       "cve_events": 0,
       "honeypots": [
         "collector:threatapp-01",
@@ -1078,7 +1078,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=127",
+        "credential_events=129",
         "multi_honeypot=3"
       ]
     },
