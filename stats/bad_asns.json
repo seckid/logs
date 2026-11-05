@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T18:04:55.896255Z",
+  "generated_at": "2026-11-05T19:02:07.627019Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,7 +7,7 @@
       "name": "Google LLC",
       "country": "US",
       "score": 100.0,
-      "event_count": 19541,
+      "event_count": 19544,
       "ip_count": 776,
       "credential_events": 111,
       "cve_events": 57,
@@ -71,8 +71,8 @@
       "asn": "AS14061",
       "name": "DigitalOcean, LLC",
       "country": "GB",
-      "score": 97.1,
-      "event_count": 3551,
+      "score": 97.11,
+      "event_count": 3554,
       "ip_count": 369,
       "credential_events": 1808,
       "cve_events": 125,
@@ -459,8 +459,8 @@
       "asn": "AS24940",
       "name": "Hetzner Online GmbH",
       "country": "DE",
-      "score": 67.91,
-      "event_count": 457,
+      "score": 67.92,
+      "event_count": 462,
       "ip_count": 51,
       "credential_events": 34,
       "cve_events": 42,
@@ -574,8 +574,8 @@
       "asn": "AS16276",
       "name": "OVH SAS",
       "country": "DE",
-      "score": 64.3,
-      "event_count": 1348,
+      "score": 64.32,
+      "event_count": 1361,
       "ip_count": 122,
       "credential_events": 294,
       "cve_events": 2,
@@ -670,10 +670,10 @@
       "asn": "AS4134",
       "name": "CHINANET BACKBONE",
       "country": "CN",
-      "score": 60.97,
-      "event_count": 487,
+      "score": 60.98,
+      "event_count": 492,
       "ip_count": 53,
-      "credential_events": 277,
+      "credential_events": 282,
       "cve_events": 0,
       "honeypots": [
         "bigippot:honeypot-01",
@@ -691,7 +691,7 @@
       ],
       "ai_threat_level": null,
       "reasons": [
-        "credential_events=277",
+        "credential_events=282",
         "multi_honeypot=12"
       ]
     },
@@ -782,6 +782,35 @@
       ]
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "score": 60.32,
+      "event_count": 4412,
+      "ip_count": 363,
+      "credential_events": 3,
+      "cve_events": 62,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "centrestackpot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "collector:threatapp-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "phppot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=3",
+        "cve_events=62",
+        "multi_honeypot=10",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS9808",
       "name": "China Mobile Communications Group Co., Ltd.",
       "country": "CN",
@@ -808,35 +837,6 @@
       "reasons": [
         "credential_events=84",
         "multi_honeypot=12"
-      ]
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 60.28,
-      "event_count": 4389,
-      "ip_count": 363,
-      "credential_events": 3,
-      "cve_events": 62,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "centrestackpot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "collector:threatapp-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "phppot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=3",
-        "cve_events=62",
-        "multi_honeypot=10",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
