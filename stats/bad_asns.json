@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T15:05:08.604732Z",
+  "generated_at": "2026-11-06T16:04:40.844749Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,7 +7,7 @@
       "name": "Google LLC",
       "country": "HK",
       "score": 100.0,
-      "event_count": 19666,
+      "event_count": 19669,
       "ip_count": 786,
       "credential_events": 111,
       "cve_events": 58,
@@ -40,7 +40,7 @@
       "name": "Alibaba (US) Technology Co., Ltd.",
       "country": "HK",
       "score": 100.0,
-      "event_count": 14783,
+      "event_count": 14787,
       "ip_count": 214,
       "credential_events": 13454,
       "cve_events": 112,
@@ -459,8 +459,8 @@
       "asn": "AS24940",
       "name": "Hetzner Online GmbH",
       "country": "DE",
-      "score": 68.07,
-      "event_count": 537,
+      "score": 68.08,
+      "event_count": 538,
       "ip_count": 54,
       "credential_events": 34,
       "cve_events": 42,
@@ -574,8 +574,8 @@
       "asn": "AS16276",
       "name": "OVH SAS",
       "country": "DE",
-      "score": 64.7,
-      "event_count": 1548,
+      "score": 64.73,
+      "event_count": 1563,
       "ip_count": 122,
       "credential_events": 294,
       "cve_events": 2,
@@ -667,6 +667,35 @@
       ]
     },
     {
+      "asn": "AS14618",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "score": 61.02,
+      "event_count": 4758,
+      "ip_count": 364,
+      "credential_events": 3,
+      "cve_events": 62,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "centrestackpot:honeypot-01",
+        "citrixpot:honeypot-01",
+        "collector:threatapp-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "ivantipot:honeypot-01",
+        "panospot:honeypot-01",
+        "phppot:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=3",
+        "cve_events=62",
+        "multi_honeypot=10",
+        "research_or_cloud_with_hostile_density"
+      ]
+    },
+    {
       "asn": "AS4134",
       "name": "CHINANET BACKBONE",
       "country": "CN",
@@ -693,35 +722,6 @@
       "reasons": [
         "credential_events=297",
         "multi_honeypot=12"
-      ]
-    },
-    {
-      "asn": "AS14618",
-      "name": "Amazon.com, Inc.",
-      "country": "US",
-      "score": 60.99,
-      "event_count": 4744,
-      "ip_count": 364,
-      "credential_events": 3,
-      "cve_events": 62,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "centrestackpot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "collector:threatapp-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "ivantipot:honeypot-01",
-        "panospot:honeypot-01",
-        "phppot:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=3",
-        "cve_events=62",
-        "multi_honeypot=10",
-        "research_or_cloud_with_hostile_density"
       ]
     },
     {
