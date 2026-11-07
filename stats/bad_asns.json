@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T14:06:00.592390Z",
+  "generated_at": "2026-11-07T15:03:54.542919Z",
   "period_days": 90,
   "asns": [
     {
@@ -40,7 +40,7 @@
       "name": "Alibaba (US) Technology Co., Ltd.",
       "country": "HK",
       "score": 100.0,
-      "event_count": 14912,
+      "event_count": 14915,
       "ip_count": 217,
       "credential_events": 13454,
       "cve_events": 112,
@@ -459,8 +459,8 @@
       "asn": "AS24940",
       "name": "Hetzner Online GmbH",
       "country": "DE",
-      "score": 68.21,
-      "event_count": 607,
+      "score": 68.22,
+      "event_count": 608,
       "ip_count": 64,
       "credential_events": 34,
       "cve_events": 42,
@@ -554,8 +554,8 @@
       "asn": "AS16276",
       "name": "OVH SAS",
       "country": "CA",
-      "score": 65.21,
-      "event_count": 1804,
+      "score": 65.22,
+      "event_count": 1808,
       "ip_count": 131,
       "credential_events": 309,
       "cve_events": 2,
@@ -648,8 +648,8 @@
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
-      "score": 61.44,
-      "event_count": 4970,
+      "score": 61.45,
+      "event_count": 4973,
       "ip_count": 367,
       "credential_events": 3,
       "cve_events": 62,
@@ -968,6 +968,26 @@
       ]
     },
     {
+      "asn": "AS7922",
+      "name": "Comcast Cable Communications, LLC",
+      "country": "US",
+      "score": 57.06,
+      "event_count": 1032,
+      "ip_count": 18,
+      "credential_events": 1025,
+      "cve_events": 0,
+      "honeypots": [
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=1025",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS11878",
       "name": "tzulo, inc.",
       "country": "US",
@@ -1156,26 +1176,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=143",
-        "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS12389",
-      "name": "PJSC Rostelecom",
-      "country": "RU",
-      "score": 55.25,
-      "event_count": 125,
-      "ip_count": 28,
-      "credential_events": 122,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "collector:threatapp-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=122",
         "multi_honeypot=3"
       ]
     }
