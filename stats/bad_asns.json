@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T05:02:59.756757Z",
+  "generated_at": "2026-11-10T06:04:34.336376Z",
   "period_days": 90,
   "asns": [
     {
@@ -383,7 +383,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 16802,
+      "event_count": 16803,
       "ip_count": 38,
       "credential_events": 13333,
       "cve_events": 0,
@@ -793,6 +793,27 @@
       ]
     },
     {
+      "asn": "AS55933",
+      "name": "Cloudie Limited",
+      "country": "HK",
+      "score": 60.65,
+      "event_count": 826,
+      "ip_count": 23,
+      "credential_events": 125,
+      "cve_events": 5,
+      "honeypots": [
+        "centrestackpot:honeypot-01",
+        "collector:threatapp-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=125",
+        "cve_events=5",
+        "multi_honeypot=3"
+      ]
+    },
+    {
       "asn": "AS3269",
       "name": "Telecom Italia S.p.A.",
       "country": "IT",
@@ -1097,8 +1118,8 @@
       "asn": "AS6939",
       "name": "Hurricane Electric LLC",
       "country": "US",
-      "score": 55.56,
-      "event_count": 2780,
+      "score": 55.57,
+      "event_count": 2783,
       "ip_count": 346,
       "credential_events": 0,
       "cve_events": 83,
@@ -1158,26 +1179,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=190",
-        "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS3352",
-      "name": "TELEFONICA DE ESPANA S.A.U.",
-      "country": "ES",
-      "score": 55.33,
-      "event_count": 166,
-      "ip_count": 9,
-      "credential_events": 165,
-      "cve_events": 0,
-      "honeypots": [
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=165",
         "multi_honeypot=3"
       ]
     }
