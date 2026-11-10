@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-10T19:03:17.331023Z",
+  "generated_at": "2026-11-10T20:02:43.548971Z",
   "period_days": 90,
-  "total_events": 902496,
-  "unique_ips": 96306,
+  "total_events": 902620,
+  "unique_ips": 96310,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -20,20 +20,20 @@
     "sshppot:honeypot-01"
   ],
   "totals_by_source": {
-    "front:honeypot-01": 63490,
-    "sshppot:honeypot-01": 159455,
-    "bigippot:honeypot-01": 37027,
+    "front:honeypot-01": 63491,
+    "sshppot:honeypot-01": 159458,
+    "bigippot:honeypot-01": 37036,
     "fortipot:honeypot-01": 237731,
     "sharepointpot:honeypot-01": 1810,
     "centrestackpot:honeypot-01": 7132,
-    "collector:threatapp-01": 370647,
+    "collector:threatapp-01": 370679,
     "ivantipot:honeypot-01": 8952,
     "panospot:honeypot-01": 2106,
-    "citrixpot:honeypot-01": 8522,
+    "citrixpot:honeypot-01": 8526,
     "phppot:honeypot-01": 513,
-    "nodepot:honeypot-01": 4034,
+    "nodepot:honeypot-01": 4036,
     "moveitpot:honeypot-01": 512,
-    "owapot:honeypot-01": 565
+    "owapot:honeypot-01": 638
   },
   "events_per_day": {
     "2026-08-18": {
@@ -773,7 +773,7 @@
       "centrestackpot:honeypot-01": 212,
       "nodepot:honeypot-01": 460,
       "fortipot:honeypot-01": 161,
-      "collector:threatapp-01": 30507,
+      "collector:threatapp-01": 30526,
       "citrixpot:honeypot-01": 107,
       "moveitpot:honeypot-01": 38,
       "panospot:honeypot-01": 130,
@@ -783,7 +783,7 @@
       "owapot:honeypot-01": 44,
       "ivantipot:honeypot-01": 121,
       "front:honeypot-01": 810,
-      "total": 34101
+      "total": 34120
     },
     "2026-11-08": {
       "panospot:honeypot-01": 76,
@@ -792,14 +792,14 @@
       "phppot:honeypot-01": 32,
       "moveitpot:honeypot-01": 36,
       "sshppot:honeypot-01": 29344,
-      "collector:threatapp-01": 61813,
+      "collector:threatapp-01": 61816,
       "bigippot:honeypot-01": 430,
       "ivantipot:honeypot-01": 1775,
       "centrestackpot:honeypot-01": 279,
       "citrixpot:honeypot-01": 116,
       "owapot:honeypot-01": 26,
       "fortipot:honeypot-01": 131,
-      "total": 96289
+      "total": 96292
     },
     "2026-11-09": {
       "nodepot:honeypot-01": 92,
@@ -820,18 +820,18 @@
     "2026-11-10": {
       "panospot:honeypot-01": 63,
       "ivantipot:honeypot-01": 100,
-      "owapot:honeypot-01": 25,
-      "front:honeypot-01": 482,
-      "sshppot:honeypot-01": 173,
-      "bigippot:honeypot-01": 423,
+      "owapot:honeypot-01": 98,
+      "front:honeypot-01": 483,
+      "sshppot:honeypot-01": 176,
+      "bigippot:honeypot-01": 432,
       "fortipot:honeypot-01": 113,
-      "collector:threatapp-01": 5630,
-      "citrixpot:honeypot-01": 129,
+      "collector:threatapp-01": 5640,
+      "citrixpot:honeypot-01": 133,
       "centrestackpot:honeypot-01": 2652,
-      "nodepot:honeypot-01": 499,
+      "nodepot:honeypot-01": 501,
       "phppot:honeypot-01": 62,
       "moveitpot:honeypot-01": 32,
-      "total": 10383
+      "total": 10485
     }
   },
   "top_credentials": [
@@ -1248,11 +1248,11 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 392554,
-      "unique_ips": 6056,
-      "unique_pairs": 163707,
+      "attempt_count": 392557,
+      "unique_ips": 6057,
+      "unique_pairs": 163709,
       "success_count": 1201,
-      "failure_count": 72880,
+      "failure_count": 72883,
       "unknown_outcome_count": 318473
     },
     "top_source_ips": [
@@ -2994,11 +2994,11 @@
   "top_user_agents": [
     {
       "user_agent": "workroom-data-collector/1",
-      "count": 370647
+      "count": 370679
     },
     {
       "user_agent": "Mozilla/5.0",
-      "count": 234012
+      "count": 234013
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -3014,10 +3014,10 @@
     }
   ],
   "method_counts": {
-    "COLLECT": 370657,
+    "COLLECT": 370679,
     "POST": 245470,
-    "SSH": 159454,
-    "GET": 115154,
+    "SSH": 159457,
+    "GET": 115242,
     "HEAD": 452,
     "CONNECT": 440,
     "PRI": 369,
@@ -3351,7 +3351,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 158375
+      "count": 158378
     },
     {
       "path": "/remote/logincheck",
@@ -3366,12 +3366,12 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 3788
+      "count": 3791
     },
     {
       "path": "/",
       "source": "front:honeypot-01",
-      "count": 2895
+      "count": 2896
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
@@ -3381,7 +3381,7 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 2339
+      "count": 2340
     },
     {
       "path": "/",
@@ -3391,7 +3391,7 @@
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 2059
+      "count": 2061
     },
     {
       "path": "/api/data",
@@ -3401,7 +3401,7 @@
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 1500
+      "count": 1502
     },
     {
       "path": "/",
@@ -3426,7 +3426,7 @@
     {
       "path": "/",
       "source": "nodepot:honeypot-01",
-      "count": 614
+      "count": 616
     },
     {
       "path": "/portal/loginpage.aspx",
@@ -4382,11 +4382,11 @@
     }
   ],
   "events_by_country": {
-    "NL": 90747,
+    "NL": 90749,
     "HK": 73310,
-    "US": 54601,
+    "US": 54605,
     "IQ": 45749,
-    "FR": 27492,
+    "FR": 27565,
     "DE": 23399,
     "RO": 21273,
     "FI": 20569,
@@ -4414,7 +4414,7 @@
     "SI": 554,
     "JP": 542,
     "PK": 492,
-    "CH": 482,
+    "CH": 483,
     "TW": 475,
     "TH": 372,
     "MY": 313,
@@ -4426,7 +4426,7 @@
     "BD": 165,
     "NG": 162,
     "MA": 144,
-    "NO": 143,
+    "NO": 144,
     "KE": 123,
     "AT": 110,
     "UZ": 106,
