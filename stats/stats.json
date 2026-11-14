@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-14T20:06:19.973661Z",
+  "generated_at": "2026-11-14T21:02:57.105641Z",
   "period_days": 90,
-  "total_events": 1105200,
-  "unique_ips": 122726,
+  "total_events": 1108286,
+  "unique_ips": 123192,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -21,15 +21,15 @@
   ],
   "totals_by_source": {
     "front:honeypot-01": 65765,
-    "sshppot:honeypot-01": 162061,
-    "bigippot:honeypot-01": 38875,
+    "sshppot:honeypot-01": 162063,
+    "bigippot:honeypot-01": 38888,
     "fortipot:honeypot-01": 238279,
     "sharepointpot:honeypot-01": 1810,
-    "centrestackpot:honeypot-01": 8546,
-    "collector:threatapp-01": 560766,
+    "centrestackpot:honeypot-01": 8561,
+    "collector:threatapp-01": 563788,
     "ivantipot:honeypot-01": 9492,
-    "panospot:honeypot-01": 2782,
-    "citrixpot:honeypot-01": 9036,
+    "panospot:honeypot-01": 2783,
+    "citrixpot:honeypot-01": 9042,
     "phppot:honeypot-01": 769,
     "nodepot:honeypot-01": 5404,
     "moveitpot:honeypot-01": 741,
@@ -848,11 +848,11 @@
       "panospot:honeypot-01": 210,
       "moveitpot:honeypot-01": 70,
       "centrestackpot:honeypot-01": 230,
-      "collector:threatapp-01": 57213,
+      "collector:threatapp-01": 57215,
       "nodepot:honeypot-01": 64,
       "phppot:honeypot-01": 80,
       "front:honeypot-01": 791,
-      "total": 60132
+      "total": 60134
     },
     "2026-11-12": {
       "sshppot:honeypot-01": 696,
@@ -888,19 +888,19 @@
     },
     "2026-11-14": {
       "ivantipot:honeypot-01": 107,
-      "citrixpot:honeypot-01": 154,
-      "panospot:honeypot-01": 162,
+      "citrixpot:honeypot-01": 160,
+      "panospot:honeypot-01": 163,
       "phppot:honeypot-01": 48,
-      "sshppot:honeypot-01": 588,
+      "sshppot:honeypot-01": 590,
       "moveitpot:honeypot-01": 40,
-      "centrestackpot:honeypot-01": 710,
+      "centrestackpot:honeypot-01": 725,
       "owapot:honeypot-01": 69,
       "nodepot:honeypot-01": 387,
       "fortipot:honeypot-01": 183,
-      "bigippot:honeypot-01": 559,
+      "bigippot:honeypot-01": 572,
       "front:honeypot-01": 800,
-      "collector:threatapp-01": 53786,
-      "total": 57593
+      "collector:threatapp-01": 56795,
+      "total": 60639
     }
   },
   "top_credentials": [
@@ -1121,6 +1121,11 @@
     },
     {
       "username": "root",
+      "password": "Admin123",
+      "count": 62
+    },
+    {
+      "username": "root",
       "password": "Aa123456",
       "count": 62
     },
@@ -1141,11 +1146,6 @@
     },
     {
       "username": "root",
-      "password": "Admin123",
-      "count": 61
-    },
-    {
-      "username": "root",
       "password": "team2",
       "count": 61
     },
@@ -1158,7 +1158,7 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 3345
+      "count": 3346
     },
     {
       "username": "admin",
@@ -1313,11 +1313,11 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 395221,
-      "unique_ips": 6371,
+      "attempt_count": 395223,
+      "unique_ips": 6372,
       "unique_pairs": 164322,
       "success_count": 1462,
-      "failure_count": 75089,
+      "failure_count": 75091,
       "unknown_outcome_count": 318670
     },
     "top_source_ips": [
@@ -2995,6 +2995,14 @@
       },
       {
         "username": "root",
+        "password": "Admin123",
+        "count": 62,
+        "sources": [
+          "sshppot:honeypot-01"
+        ]
+      },
+      {
+        "username": "root",
         "password": "Aa123456",
         "count": 62,
         "sources": [
@@ -3029,14 +3037,6 @@
       },
       {
         "username": "root",
-        "password": "Admin123",
-        "count": 61,
-        "sources": [
-          "sshppot:honeypot-01"
-        ]
-      },
-      {
-        "username": "root",
         "password": "team2",
         "count": 61,
         "sources": [
@@ -3057,11 +3057,11 @@
   "top_user_agents": [
     {
       "user_agent": "workroom-data-collector/1",
-      "count": 560766
+      "count": 563821
     },
     {
       "user_agent": "Mozilla/5.0",
-      "count": 234161
+      "count": 234162
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -3069,7 +3069,7 @@
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "count": 12668
+      "count": 12669
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -3077,10 +3077,10 @@
     }
   ],
   "method_counts": {
-    "COLLECT": 560766,
-    "POST": 245746,
-    "SSH": 162060,
-    "GET": 123459,
+    "COLLECT": 563821,
+    "POST": 245747,
+    "SSH": 162062,
+    "GET": 123477,
     "HEAD": 484,
     "CONNECT": 463,
     "PRI": 418,
@@ -3457,7 +3457,7 @@
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 160853
+      "count": 160855
     },
     {
       "path": "/remote/logincheck",
@@ -3472,7 +3472,7 @@
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 4028
+      "count": 4031
     },
     {
       "path": "/",
@@ -3482,7 +3482,7 @@
     {
       "path": "/",
       "source": "centrestackpot:honeypot-01",
-      "count": 2727
+      "count": 2741
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
@@ -3492,12 +3492,12 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 2461
+      "count": 2463
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 2229
+      "count": 2232
     },
     {
       "path": "/api/data",
@@ -3507,7 +3507,7 @@
     {
       "path": "/logon/LogonPoint/index.html",
       "source": "citrixpot:honeypot-01",
-      "count": 1600
+      "count": 1601
     },
     {
       "path": "/",
@@ -3532,7 +3532,7 @@
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot:honeypot-01",
-      "count": 742
+      "count": 743
     },
     {
       "path": "/robots.txt",
@@ -3542,7 +3542,7 @@
     {
       "path": "/favicon.ico",
       "source": "bigippot:honeypot-01",
-      "count": 513
+      "count": 514
     },
     {
       "path": "/",
@@ -4187,7 +4187,7 @@
       "name": "Amazon.com, Inc.",
       "country": "IE",
       "ip_count": 405,
-      "event_count": 66944
+      "event_count": 67336
     },
     {
       "asn": "AS41032",
@@ -4208,7 +4208,7 @@
       "name": "Cloudflare, Inc.",
       "country": "US",
       "ip_count": 6166,
-      "event_count": 29569
+      "event_count": 29712
     },
     {
       "asn": "AS210328",
@@ -4222,14 +4222,14 @@
       "name": "SEDO GmbH",
       "country": "DE",
       "ip_count": 3,
-      "event_count": 24379
+      "event_count": 24415
     },
     {
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "TW",
       "ip_count": 836,
-      "event_count": 20382
+      "event_count": 20388
     },
     {
       "asn": "AS48090",
@@ -4264,7 +4264,7 @@
       "name": "Squarespace, Inc.",
       "country": "US",
       "ip_count": 1,
-      "event_count": 9723
+      "event_count": 9794
     },
     {
       "asn": "AS37963",
@@ -4292,28 +4292,28 @@
       "name": "Wix.com Ltd.",
       "country": "US",
       "ip_count": 4,
-      "event_count": 7762
+      "event_count": 7809
     },
     {
       "asn": "AS47583",
       "name": "Hostinger International Limited",
       "country": "ID",
       "ip_count": 189,
-      "event_count": 7439
+      "event_count": 7479
     },
     {
       "asn": "AS14618",
       "name": "Amazon.com, Inc.",
       "country": "US",
       "ip_count": 388,
-      "event_count": 7052
+      "event_count": 7083
     },
     {
       "asn": "AS206834",
       "name": "Team Internet AG",
       "country": "CA",
       "ip_count": 3,
-      "event_count": 6706
+      "event_count": 6727
     },
     {
       "asn": "AS204428",
@@ -4329,7 +4329,7 @@
       "name": "Google LLC",
       "country": "TW",
       "score": 100.0,
-      "event_count": 20382,
+      "event_count": 20388,
       "credential_events": 126,
       "cve_events": 63
     },
@@ -4347,7 +4347,7 @@
       "name": "DigitalOcean, LLC",
       "country": "DE",
       "score": 97.85,
-      "event_count": 3926,
+      "event_count": 3927,
       "credential_events": 1893,
       "cve_events": 133
     },
@@ -4506,33 +4506,33 @@
     }
   ],
   "events_by_country": {
-    "US": 95330,
-    "NL": 94373,
-    "IE": 66977,
+    "US": 95695,
+    "NL": 94374,
+    "IE": 67369,
     "IQ": 45751,
-    "DE": 43943,
-    "HK": 31820,
+    "DE": 44000,
+    "HK": 31852,
     "RO": 21359,
-    "TW": 20877,
+    "TW": 20883,
     "CN": 12377,
-    "ID": 10118,
-    "TR": 9086,
-    "CA": 7713,
+    "ID": 10158,
+    "TR": 9090,
+    "CA": 7735,
     "PL": 6639,
-    "FR": 4307,
+    "FR": 4308,
     "LT": 2939,
-    "RU": 2920,
-    "KR": 2547,
+    "RU": 2939,
+    "KR": 2549,
     "BG": 1987,
-    "FI": 1818,
-    "GB": 1576,
-    "AU": 1079,
+    "FI": 1820,
+    "GB": 1577,
+    "AU": 1081,
     "VN": 961,
     "ES": 948,
     "DK": 872,
     "IN": 740,
     "SE": 711,
-    "JP": 672,
+    "JP": 673,
     "IT": 650,
     "SI": 637,
     "BR": 599,
