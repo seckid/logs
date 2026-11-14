@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T04:06:22.529670Z",
+  "generated_at": "2026-11-14T05:05:54.899371Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,7 +7,7 @@
       "name": "Google LLC",
       "country": "TW",
       "score": 100.0,
-      "event_count": 20322,
+      "event_count": 20331,
       "ip_count": 836,
       "credential_events": 126,
       "cve_events": 62,
@@ -40,7 +40,7 @@
       "name": "Alibaba (US) Technology Co., Ltd.",
       "country": "HK",
       "score": 100.0,
-      "event_count": 15060,
+      "event_count": 15061,
       "ip_count": 246,
       "credential_events": 13500,
       "cve_events": 112,
@@ -434,7 +434,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.0,
-      "event_count": 17085,
+      "event_count": 17086,
       "ip_count": 38,
       "credential_events": 13333,
       "cve_events": 0,
@@ -459,7 +459,7 @@
       "name": "Microsoft Corporation",
       "country": "US",
       "score": 70.0,
-      "event_count": 9464,
+      "event_count": 9465,
       "ip_count": 540,
       "credential_events": 413,
       "cve_events": 0,
@@ -510,8 +510,8 @@
       "asn": "AS24940",
       "name": "Hetzner Online GmbH",
       "country": "FI",
-      "score": 69.51,
-      "event_count": 1257,
+      "score": 69.52,
+      "event_count": 1258,
       "ip_count": 150,
       "credential_events": 34,
       "cve_events": 43,
@@ -561,8 +561,8 @@
       "asn": "AS16276",
       "name": "OVH SAS",
       "country": "US",
-      "score": 67.25,
-      "event_count": 2827,
+      "score": 67.27,
+      "event_count": 2835,
       "ip_count": 188,
       "credential_events": 357,
       "cve_events": 2,
@@ -679,7 +679,7 @@
       "name": "Amazon.com, Inc.",
       "country": "US",
       "score": 61.5,
-      "event_count": 6695,
+      "event_count": 6726,
       "ip_count": 388,
       "credential_events": 3,
       "cve_events": 64,
@@ -1045,6 +1045,28 @@
       ]
     },
     {
+      "asn": "AS402253",
+      "name": "SKN Subnet & Telecom Ltd",
+      "country": "CH",
+      "score": 59.14,
+      "event_count": 69,
+      "ip_count": 3,
+      "credential_events": 18,
+      "cve_events": 42,
+      "honeypots": [
+        "bigippot:honeypot-01",
+        "collector:threatapp-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=18",
+        "cve_events=42",
+        "multi_honeypot=4"
+      ]
+    },
+    {
       "asn": "AS4760",
       "name": "HKT Limited",
       "country": "HK",
@@ -1177,27 +1199,6 @@
         "credential_events=86",
         "cve_events=1",
         "multi_honeypot=3"
-      ]
-    },
-    {
-      "asn": "AS4837",
-      "name": "CHINA UNICOM China169 Backbone",
-      "country": "CN",
-      "score": 55.71,
-      "event_count": 106,
-      "ip_count": 30,
-      "credential_events": 71,
-      "cve_events": 0,
-      "honeypots": [
-        "bigippot:honeypot-01",
-        "citrixpot:honeypot-01",
-        "collector:threatapp-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=71",
-        "multi_honeypot=4"
       ]
     }
   ]
