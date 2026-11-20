@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-20T11:05:07.162142Z",
+  "generated_at": "2026-11-20T12:05:06.721300Z",
   "period_days": 90,
-  "total_events": 1402780,
-  "unique_ips": 147498,
+  "total_events": 1404517,
+  "unique_ips": 147512,
   "honeypots": [
     "bigippot:honeypot-01",
     "centrestackpot:honeypot-01",
@@ -21,19 +21,19 @@
   ],
   "totals_by_source": {
     "front:honeypot-01": 69969,
-    "sshppot:honeypot-01": 178934,
-    "bigippot:honeypot-01": 43058,
-    "fortipot:honeypot-01": 283254,
+    "sshppot:honeypot-01": 180001,
+    "bigippot:honeypot-01": 43065,
+    "fortipot:honeypot-01": 283605,
     "sharepointpot:honeypot-01": 1810,
-    "centrestackpot:honeypot-01": 10490,
-    "collector:threatapp-01": 738475,
-    "ivantipot:honeypot-01": 11594,
-    "panospot:honeypot-01": 44188,
-    "citrixpot:honeypot-01": 10018,
+    "centrestackpot:honeypot-01": 10512,
+    "collector:threatapp-01": 738486,
+    "ivantipot:honeypot-01": 11595,
+    "panospot:honeypot-01": 44446,
+    "citrixpot:honeypot-01": 10021,
     "phppot:honeypot-01": 1025,
-    "nodepot:honeypot-01": 7435,
+    "nodepot:honeypot-01": 7436,
     "moveitpot:honeypot-01": 1096,
-    "owapot:honeypot-01": 1431
+    "owapot:honeypot-01": 1446
   },
   "events_per_day": {
     "2026-08-27": {
@@ -929,7 +929,7 @@
       "sshppot:honeypot-01": 211,
       "fortipot:honeypot-01": 12495,
       "citrixpot:honeypot-01": 236,
-      "collector:threatapp-01": 39061,
+      "collector:threatapp-01": 39071,
       "front:honeypot-01": 817,
       "ivantipot:honeypot-01": 92,
       "phppot:honeypot-01": 33,
@@ -939,7 +939,7 @@
       "centrestackpot:honeypot-01": 167,
       "nodepot:honeypot-01": 57,
       "panospot:honeypot-01": 12552,
-      "total": 66950
+      "total": 66960
     },
     "2026-11-18": {
       "panospot:honeypot-01": 12068,
@@ -974,32 +974,32 @@
       "total": 49651
     },
     "2026-11-20": {
-      "nodepot:honeypot-01": 30,
-      "ivantipot:honeypot-01": 122,
-      "sshppot:honeypot-01": 10826,
+      "nodepot:honeypot-01": 31,
+      "ivantipot:honeypot-01": 123,
+      "sshppot:honeypot-01": 11892,
       "moveitpot:honeypot-01": 25,
-      "centrestackpot:honeypot-01": 166,
-      "fortipot:honeypot-01": 6307,
-      "panospot:honeypot-01": 5133,
-      "bigippot:honeypot-01": 1084,
+      "centrestackpot:honeypot-01": 188,
+      "fortipot:honeypot-01": 6658,
+      "panospot:honeypot-01": 5391,
+      "bigippot:honeypot-01": 1091,
       "front:honeypot-01": 389,
-      "owapot:honeypot-01": 33,
-      "citrixpot:honeypot-01": 113,
-      "collector:threatapp-01": 9360,
+      "owapot:honeypot-01": 48,
+      "citrixpot:honeypot-01": 116,
+      "collector:threatapp-01": 9361,
       "phppot:honeypot-01": 30,
-      "total": 33618
+      "total": 35343
     }
   },
   "top_credentials": [
     {
       "username": "support",
       "password": "support",
-      "count": 1321
+      "count": 1322
     },
     {
       "username": "root",
       "password": "(empty)",
-      "count": 1020
+      "count": 1022
     },
     {
       "username": "345gs5662d34",
@@ -1245,7 +1245,7 @@
   "top_usernames": [
     {
       "username": "root",
-      "count": 3702
+      "count": 3704
     },
     {
       "username": "admin",
@@ -1253,7 +1253,7 @@
     },
     {
       "username": "support",
-      "count": 1321
+      "count": 1322
     },
     {
       "username": "345gs5662d34",
@@ -1311,11 +1311,11 @@
   "top_passwords": [
     {
       "password": "(empty)",
-      "count": 1517
+      "count": 1519
     },
     {
       "password": "support",
-      "count": 1321
+      "count": 1322
     },
     {
       "password": "admin",
@@ -1392,12 +1392,12 @@
   ],
   "brute_force": {
     "summary": {
-      "attempt_count": 493673,
+      "attempt_count": 495169,
       "unique_ips": 6779,
       "unique_pairs": 166777,
-      "success_count": 1671,
-      "failure_count": 91656,
-      "unknown_outcome_count": 400346
+      "success_count": 1675,
+      "failure_count": 92717,
+      "unknown_outcome_count": 400777
     },
     "top_source_ips": [
       {
@@ -1471,10 +1471,24 @@
         "success_count": 76
       },
       {
+        "ip": "47.108.57.84",
+        "asn": null,
+        "asn_name": null,
+        "attempt_count": 12358,
+        "unique_usernames": 1,
+        "unique_passwords": 12307,
+        "honeypots": [
+          "sshppot:honeypot-01"
+        ],
+        "first_seen": "2026-11-19T23:19:36Z",
+        "last_seen": "2026-11-20T12:03:51Z",
+        "success_count": 52
+      },
+      {
         "ip": "185.136.15.80",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 11894,
+        "attempt_count": 11927,
         "unique_usernames": 4433,
         "unique_passwords": 2636,
         "honeypots": [
@@ -1482,14 +1496,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:38.898Z",
-        "last_seen": "2026-11-20T11:03:06.701Z",
+        "last_seen": "2026-11-20T12:01:52.267556Z",
         "success_count": 0
       },
       {
         "ip": "138.226.239.91",
         "asn": "AS44589",
         "asn_name": "DIGITAL NETWORK S.R.L.",
-        "attempt_count": 11848,
+        "attempt_count": 11881,
         "unique_usernames": 4431,
         "unique_passwords": 3254,
         "honeypots": [
@@ -1497,14 +1511,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:15.268Z",
-        "last_seen": "2026-11-20T11:02:55.005Z",
+        "last_seen": "2026-11-20T12:02:41.296916Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.91",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 11827,
+        "attempt_count": 11860,
         "unique_usernames": 3656,
         "unique_passwords": 3443,
         "honeypots": [
@@ -1512,14 +1526,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:00:45.360Z",
-        "last_seen": "2026-11-20T11:03:08.176417Z",
+        "last_seen": "2026-11-20T12:02:47.337Z",
         "success_count": 0
       },
       {
         "ip": "138.226.239.90",
         "asn": "AS44589",
         "asn_name": "DIGITAL NETWORK S.R.L.",
-        "attempt_count": 11803,
+        "attempt_count": 11837,
         "unique_usernames": 4406,
         "unique_passwords": 3048,
         "honeypots": [
@@ -1527,14 +1541,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:00:52.054Z",
-        "last_seen": "2026-11-20T11:02:05.236994Z",
+        "last_seen": "2026-11-20T12:03:13.401224Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.90",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 11796,
+        "attempt_count": 11829,
         "unique_usernames": 2889,
         "unique_passwords": 3342,
         "honeypots": [
@@ -1542,14 +1556,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:00:39.426Z",
-        "last_seen": "2026-11-20T11:02:43.444000Z",
+        "last_seen": "2026-11-20T12:03:23.859Z",
         "success_count": 0
       },
       {
         "ip": "185.136.15.81",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 11784,
+        "attempt_count": 11818,
         "unique_usernames": 3680,
         "unique_passwords": 3167,
         "honeypots": [
@@ -1557,14 +1571,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:26.312Z",
-        "last_seen": "2026-11-20T11:02:12.435380Z",
+        "last_seen": "2026-11-20T12:03:32.859508Z",
         "success_count": 0
       },
       {
         "ip": "185.136.15.111",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 11583,
+        "attempt_count": 11616,
         "unique_usernames": 4136,
         "unique_passwords": 3259,
         "honeypots": [
@@ -1572,14 +1586,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:11.150Z",
-        "last_seen": "2026-11-20T11:03:03.857Z",
+        "last_seen": "2026-11-20T12:02:20.089757Z",
         "success_count": 0
       },
       {
         "ip": "185.136.15.82",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 11573,
+        "attempt_count": 11607,
         "unique_usernames": 4375,
         "unique_passwords": 3803,
         "honeypots": [
@@ -1587,14 +1601,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:12.953Z",
-        "last_seen": "2026-11-20T11:02:44.874868Z",
+        "last_seen": "2026-11-20T12:03:51.303148Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.92",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 11367,
+        "attempt_count": 11400,
         "unique_usernames": 3935,
         "unique_passwords": 3421,
         "honeypots": [
@@ -1602,14 +1616,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:41.104Z",
-        "last_seen": "2026-11-20T11:03:24.629734Z",
+        "last_seen": "2026-11-20T12:03:48.521Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.24",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 11338,
+        "attempt_count": 11370,
         "unique_usernames": 4454,
         "unique_passwords": 2757,
         "honeypots": [
@@ -1617,28 +1631,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:03.545Z",
-        "last_seen": "2026-11-20T11:02:40.609315Z",
+        "last_seen": "2026-11-20T12:01:39.788464Z",
         "success_count": 0
-      },
-      {
-        "ip": "47.108.57.84",
-        "asn": null,
-        "asn_name": null,
-        "attempt_count": 11292,
-        "unique_usernames": 1,
-        "unique_passwords": 11245,
-        "honeypots": [
-          "sshppot:honeypot-01"
-        ],
-        "first_seen": "2026-11-19T23:19:36Z",
-        "last_seen": "2026-11-20T11:03:50Z",
-        "success_count": 48
       },
       {
         "ip": "185.136.15.110",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 11274,
+        "attempt_count": 11307,
         "unique_usernames": 4491,
         "unique_passwords": 3299,
         "honeypots": [
@@ -1646,14 +1646,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:40.175Z",
-        "last_seen": "2026-11-20T11:02:06.660640Z",
+        "last_seen": "2026-11-20T12:03:05.839Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.23",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 11158,
+        "attempt_count": 11190,
         "unique_usernames": 4877,
         "unique_passwords": 3517,
         "honeypots": [
@@ -1661,14 +1661,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:29.615Z",
-        "last_seen": "2026-11-20T11:02:57.163396Z",
+        "last_seen": "2026-11-20T12:02:27.131539Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.25",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 11081,
+        "attempt_count": 11113,
         "unique_usernames": 4827,
         "unique_passwords": 3546,
         "honeypots": [
@@ -1676,7 +1676,7 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:03.906Z",
-        "last_seen": "2026-11-20T11:02:36.627908Z",
+        "last_seen": "2026-11-20T12:02:40.560818Z",
         "success_count": 0
       },
       {
@@ -1739,14 +1739,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 1145,
+        "attempt_count": 1146,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-11-20T09:36:56Z",
+        "last_seen": "2026-11-20T11:39:42Z",
         "success_count": 0
       },
       {
@@ -2186,10 +2186,24 @@
         "success_count": 76
       },
       {
+        "ip": "47.108.57.84",
+        "asn": null,
+        "asn_name": null,
+        "attempt_count": 12358,
+        "unique_usernames": 1,
+        "unique_passwords": 12307,
+        "honeypots": [
+          "sshppot:honeypot-01"
+        ],
+        "first_seen": "2026-11-19T23:19:36Z",
+        "last_seen": "2026-11-20T12:03:51Z",
+        "success_count": 52
+      },
+      {
         "ip": "185.136.15.80",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 11894,
+        "attempt_count": 11927,
         "unique_usernames": 4433,
         "unique_passwords": 2636,
         "honeypots": [
@@ -2197,14 +2211,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:38.898Z",
-        "last_seen": "2026-11-20T11:03:06.701Z",
+        "last_seen": "2026-11-20T12:01:52.267556Z",
         "success_count": 0
       },
       {
         "ip": "138.226.239.91",
         "asn": "AS44589",
         "asn_name": "DIGITAL NETWORK S.R.L.",
-        "attempt_count": 11848,
+        "attempt_count": 11881,
         "unique_usernames": 4431,
         "unique_passwords": 3254,
         "honeypots": [
@@ -2212,14 +2226,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:15.268Z",
-        "last_seen": "2026-11-20T11:02:55.005Z",
+        "last_seen": "2026-11-20T12:02:41.296916Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.91",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 11827,
+        "attempt_count": 11860,
         "unique_usernames": 3656,
         "unique_passwords": 3443,
         "honeypots": [
@@ -2227,14 +2241,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:00:45.360Z",
-        "last_seen": "2026-11-20T11:03:08.176417Z",
+        "last_seen": "2026-11-20T12:02:47.337Z",
         "success_count": 0
       },
       {
         "ip": "138.226.239.90",
         "asn": "AS44589",
         "asn_name": "DIGITAL NETWORK S.R.L.",
-        "attempt_count": 11803,
+        "attempt_count": 11837,
         "unique_usernames": 4406,
         "unique_passwords": 3048,
         "honeypots": [
@@ -2242,14 +2256,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:00:52.054Z",
-        "last_seen": "2026-11-20T11:02:05.236994Z",
+        "last_seen": "2026-11-20T12:03:13.401224Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.90",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 11796,
+        "attempt_count": 11829,
         "unique_usernames": 2889,
         "unique_passwords": 3342,
         "honeypots": [
@@ -2257,14 +2271,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:00:39.426Z",
-        "last_seen": "2026-11-20T11:02:43.444000Z",
+        "last_seen": "2026-11-20T12:03:23.859Z",
         "success_count": 0
       },
       {
         "ip": "185.136.15.81",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 11784,
+        "attempt_count": 11818,
         "unique_usernames": 3680,
         "unique_passwords": 3167,
         "honeypots": [
@@ -2272,14 +2286,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:26.312Z",
-        "last_seen": "2026-11-20T11:02:12.435380Z",
+        "last_seen": "2026-11-20T12:03:32.859508Z",
         "success_count": 0
       },
       {
         "ip": "185.136.15.111",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 11583,
+        "attempt_count": 11616,
         "unique_usernames": 4136,
         "unique_passwords": 3259,
         "honeypots": [
@@ -2287,14 +2301,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:11.150Z",
-        "last_seen": "2026-11-20T11:03:03.857Z",
+        "last_seen": "2026-11-20T12:02:20.089757Z",
         "success_count": 0
       },
       {
         "ip": "185.136.15.82",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 11573,
+        "attempt_count": 11607,
         "unique_usernames": 4375,
         "unique_passwords": 3803,
         "honeypots": [
@@ -2302,14 +2316,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:12.953Z",
-        "last_seen": "2026-11-20T11:02:44.874868Z",
+        "last_seen": "2026-11-20T12:03:51.303148Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.92",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 11367,
+        "attempt_count": 11400,
         "unique_usernames": 3935,
         "unique_passwords": 3421,
         "honeypots": [
@@ -2317,14 +2331,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:41.104Z",
-        "last_seen": "2026-11-20T11:03:24.629734Z",
+        "last_seen": "2026-11-20T12:03:48.521Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.24",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 11338,
+        "attempt_count": 11370,
         "unique_usernames": 4454,
         "unique_passwords": 2757,
         "honeypots": [
@@ -2332,28 +2346,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:03.545Z",
-        "last_seen": "2026-11-20T11:02:40.609315Z",
+        "last_seen": "2026-11-20T12:01:39.788464Z",
         "success_count": 0
-      },
-      {
-        "ip": "47.108.57.84",
-        "asn": null,
-        "asn_name": null,
-        "attempt_count": 11292,
-        "unique_usernames": 1,
-        "unique_passwords": 11245,
-        "honeypots": [
-          "sshppot:honeypot-01"
-        ],
-        "first_seen": "2026-11-19T23:19:36Z",
-        "last_seen": "2026-11-20T11:03:50Z",
-        "success_count": 48
       },
       {
         "ip": "185.136.15.110",
         "asn": "AS210328",
         "asn_name": "AO ALMAZ",
-        "attempt_count": 11274,
+        "attempt_count": 11307,
         "unique_usernames": 4491,
         "unique_passwords": 3299,
         "honeypots": [
@@ -2361,14 +2361,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:40.175Z",
-        "last_seen": "2026-11-20T11:02:06.660640Z",
+        "last_seen": "2026-11-20T12:03:05.839Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.23",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 11158,
+        "attempt_count": 11190,
         "unique_usernames": 4877,
         "unique_passwords": 3517,
         "honeypots": [
@@ -2376,14 +2376,14 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:29.615Z",
-        "last_seen": "2026-11-20T11:02:57.163396Z",
+        "last_seen": "2026-11-20T12:02:27.131539Z",
         "success_count": 0
       },
       {
         "ip": "77.91.71.25",
         "asn": "AS211486",
         "asn_name": "Alferov Aleksey Aleksandrovich",
-        "attempt_count": 11081,
+        "attempt_count": 11113,
         "unique_usernames": 4827,
         "unique_passwords": 3546,
         "honeypots": [
@@ -2391,7 +2391,7 @@
           "panospot:honeypot-01"
         ],
         "first_seen": "2026-09-16T19:01:03.906Z",
-        "last_seen": "2026-11-20T11:02:36.627908Z",
+        "last_seen": "2026-11-20T12:02:40.560818Z",
         "success_count": 0
       },
       {
@@ -2454,14 +2454,14 @@
         "ip": "176.53.159.196",
         "asn": "AS154383",
         "asn_name": "ZORNTECH WEB SOLUTIONS",
-        "attempt_count": 1145,
+        "attempt_count": 1146,
         "unique_usernames": 1,
         "unique_passwords": 1,
         "honeypots": [
           "sshppot:honeypot-01"
         ],
         "first_seen": "2026-09-12T08:41:16Z",
-        "last_seen": "2026-11-20T09:36:56Z",
+        "last_seen": "2026-11-20T11:39:42Z",
         "success_count": 0
       },
       {
@@ -2693,7 +2693,7 @@
       {
         "username": "support",
         "password": "support",
-        "count": 1321,
+        "count": 1322,
         "sources": [
           "fortipot:honeypot-01",
           "panospot:honeypot-01",
@@ -2703,7 +2703,7 @@
       {
         "username": "root",
         "password": "(empty)",
-        "count": 1020,
+        "count": 1022,
         "sources": [
           "bigippot:honeypot-01",
           "fortipot:honeypot-01",
@@ -3181,19 +3181,19 @@
   "top_user_agents": [
     {
       "user_agent": "workroom-data-collector/1",
-      "count": 738475
+      "count": 738486
     },
     {
       "user_agent": "Mozilla/5.0",
-      "count": 315430
+      "count": 315951
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "count": 16313
+      "count": 16314
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "count": 13038
+      "count": 13039
     },
     {
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
@@ -3201,14 +3201,14 @@
     }
   ],
   "method_counts": {
-    "COLLECT": 738475,
-    "POST": 329519,
-    "SSH": 178950,
-    "GET": 140793,
-    "HEAD": 519,
-    "CONNECT": 495,
+    "COLLECT": 738486,
+    "POST": 329948,
+    "SSH": 180015,
+    "GET": 141006,
+    "HEAD": 520,
+    "CONNECT": 496,
     "PRI": 485,
-    "OPTIONS": 344,
+    "OPTIONS": 347,
     "\u0005\u0001\u0000": 191,
     "PROPFIND": 135,
     "PUT": 63,
@@ -3221,153 +3221,158 @@
     "\u0004\u0001\u0000P\u0001\u0001\u0001\u0001\u0000": 17,
     "T3": 17,
     "{\"PARAMS\":": 16,
+    "ÿ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0001NULL\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 15,
     "\u0004\u0001\u0001»\u0000\u0000\u0000\u0001\u0000tls.bunnyfeet.baby\u0000": 15,
     "\u0004\u0001\u0000P\u0000\u0000\u0000\u0001\u0000raw.bunnyfeet.baby\u0000": 15,
-    "ÿ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0001NULL\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 15,
     "\u0004\u0001\u0000P\u0000\u0000\u0000\u0001\u0000example.com\u0000": 15,
-    "ÿ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000ñ\u0003%\u0000\u0000\u0000{": 13,
     "\u0004\u0001\u0000P3Þ2\u0000": 13,
+    "ÿ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000ñ\u0003%\u0000\u0000\u0000{": 13,
     "\u0004\u0001\u0001»3Ã(î\u0000": 11,
     "\u0004\u0001\u001bX\u0000\u0000\u0000\u0001\u0000cdn.tooyoungtoholdon.world\u0000": 11,
-    "\u0004\u0001\u0000P\u0000\u0000\u0000\u0001\u0000youshouldvecomeover.lol\u0000": 10,
-    "\u0004\u0001\u001bX3Þ2\u0000": 10,
-    "\u0004\u0001\u0001»\u0000\u0000\u0000\u0001\u0000tooyoungtoholdon.world\u0000": 10,
     "\u0004\u0001\u0000Ph\u0015(ô\u0000": 10,
-    "\u0004\u0001\u0000P\u0000\u0000\u0000\u0001\u0000RAW.BUNNYFEET.BABY\u0000": 10,
+    "\u0004\u0001\u0001»\u0000\u0000\u0000\u0001\u0000tooyoungtoholdon.world\u0000": 10,
     "\u0004\u0001\u0001»\u0000\u0000\u0000\u0001\u0000TLS.BUNNYFEET.BABY\u0000": 10,
+    "\u0004\u0001\u001bX3Þ2\u0000": 10,
+    "\u0004\u0001\u0000P\u0000\u0000\u0000\u0001\u0000youshouldvecomeover.lol\u0000": 10,
+    "\u0004\u0001\u0000P\u0000\u0000\u0000\u0001\u0000RAW.BUNNYFEET.BABY\u0000": 10,
     "\u0004\u0001\u0001»3Þ2\u0000": 9,
-    "\u0004\u0001\u001bX3Ã(î\u0000": 9,
     "\u0016\u0003\u0000\u0000I\u0001\u0000\u0000E\u0003\u0003U": 9,
     "\u0004\u0001\u0001»¬Cc\u0000": 9,
-    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"BLUE1\",\"PASS\":\"X\",\"AGENT\":\"WINDOWS": 8,
-    "{\"ID\":": 8,
+    "\u0004\u0001\u001bX3Ã(î\u0000": 9,
     "HEARTBEAT": 8,
-    "\u0004\u0001\u0000P3Ã(î\u0000": 7,
-    "L\u0000": 7,
+    "{\"ID\":": 8,
+    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"BLUE1\",\"PASS\":\"X\",\"AGENT\":\"WINDOWS": 8,
     "\u0004\u0001\u0001»¬CC\u0000": 7,
+    "L\u0000": 7,
     "\u0016\u0003\u0000\u0000S\u0001\u0000\u0000O\u0003\u0000?G×÷º,ÎÊ²`~Ó\u0000Ý{¹ÕÈWÆÄÛ<=ÛOÏ\u0010N\u0000\u0000(\u0000\u0016\u0000\u0013\u0000": 7,
     "\u0000": 7,
-    "\u0004\u0001\u0000PH\u0015(Ô\u0000": 6,
+    "\u0004\u0001\u0000P3Ã(î\u0000": 7,
     "\u0004\u0001\u001bX3Ã(Î\u0000": 6,
+    "\u0004\u0001\u0000PH\u0015(Ô\u0000": 6,
     "\u0004\u0001\u0001»\u0000\u0000\u0000\u0001\u0000TOOYOUNGTOHOLDON.WORLD\u0000": 6,
-    "\u0000\u0000\u0000": 6,
+    "\u0004\u0001\u0001»h\u0015(ô\u0000": 6,
     "\u0004\u0001\u0000P\u0000\u0000\u0000\u0001\u0000TOOYOUNGTOHOLDON.WORLD\u0000": 6,
+    "\u0000\u0000\u0000": 6,
     "ZSDLKFJ2": 6,
     "\u0000\u0000\u0000¤ŸSMBR\u0000\u0000\u0000\u0000\b\u0001@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0006\u0000\u0000\u0001\u0000\u0000\u0000\u0002PC": 6,
-    "\u0004\u0001\u0001»h\u0015(ô\u0000": 6,
+    "00000000": 5,
     "\u0004\u0001\u0001»\u0000\u0000\u0000\u0001\u0000youshouldvecomeover.lol\u0000": 5,
     "\u0004\u0001\u0000P\u0000\u0000\u0000\u0001\u0000tooyoungtoholdon.world\u0000": 5,
-    "00000000": 5,
-    "\u0004\u0001\u001bX\u0000\u0000\u0000\u0001\u0000CDN.TOOYOUNGTOHOLDON.WORLD\u0000": 5,
     "\u0004\u0001\u001bX\u0000\u0000\u0000\u0001\u0000CDN.YOUSHOULDVECOMEOVER.LOL\u0000": 5,
-    "\u0004\u0001\u0001»3Ã(Î\u0000": 5,
     "\u0004\u0001\u0000P¬Cc\u0000": 5,
-    "\u0000\u0000\u0000QJN0K¡\u0003\u0002\u0001\u0005¢\u0003\u0002\u0001": 4,
-    "\u0010\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0000\u0000": 4,
-    "\u0000\u0000\u0000àZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0005\u0001=K\u0000\u0000\u0001\u0001ñ\u0000¨À\u0018Ï^*`¡\u000f\u0000admin\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000\u001aú×aaNÈEÜMj4\u0007±i¢": 4,
-    "\u0004\u0001\u0000P3Ã(Î\u0000": 4,
-    "\u0004\u0001\u001bX\u0000\u0000\u0000\u0001\u0000cdn.youshouldvecomeover.lol\u0000": 4,
-    "\u0000\u0000(RÞ": 4,
-    "\u0003\u0000\u0000*%À\u0000\u0000\u0000\u0000\u0000COOKIE:": 4,
-    "\u0004\u0001\u0000P\u0000\u0000\u0000\u0001\u0000YOUSHOULDVECOMEOVER.LOL\u0000": 4,
-    "\u0016\u0003\u0000\u0000S\u0001\u0000\u0000O\u0003\u0000?G×÷º,ÎÊ²`~Ó\u0000Ý{¹ÕÈWÆÄÛ<=ÛOÏ\u0010N\u0000\u0000(\u0000\u0016\u0000\u0013\u0000\n\u0000F\u0000\u0005\u0000\u0004\u0000E\u0000D\u0000C\u0000B\u0000A\u0000`\u0000\u0015\u0000\u0012\u0000\t\u0000\u0014\u0000\u0011\u0000\b\u0000\u0006\u0000\u0003\u0001\u0000": 4,
-    "\u0016\u0003\u0000\u0000I\u0001\u0000\u0000E\u0003\u0003U\u001c§ÄRANDOM1RANDOM2RANDOM3RANDOM4\u0000\u0000\f\u0000/\u0000\n\u0000\u0013\u00009\u0000\u0004\u0000Ÿ\u0001\u0000\u00000\u0000\r\u0000,\u0000*\u0000\u0001\u0000\u0003\u0000\u0002\u0006\u0001\u0006\u0003\u0006\u0002\u0002\u0001\u0002\u0003\u0002\u0002\u0003\u0001\u0003\u0003\u0003\u0002\u0004\u0001\u0004\u0003\u0004\u0002\u0001\u0001\u0001\u0003\u0001\u0002\u0005\u0001\u0005\u0003\u0005\u0002": 4,
-    "PATCH": 4,
-    ":\u0000\u0000\u0000/\u0000\u0000\u0000\u0002\u0000\u0000@\u0002\u000f\u0000\u0001\u0000=\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000/\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@": 4,
+    "\u0004\u0001\u001bX\u0000\u0000\u0000\u0001\u0000CDN.TOOYOUNGTOHOLDON.WORLD\u0000": 5,
+    "\u0004\u0001\u0001»3Ã(Î\u0000": 5,
     "\u0000Z\u0000\u0000\u0001\u0000\u0000\u0000\u00016\u0001,\u0000\u0000\b\u0000Ÿ\b\u0000\u0000\u0000\u0001\u0000": 4,
+    "\u0004\u0001\u001bX\u0000\u0000\u0000\u0001\u0000cdn.youshouldvecomeover.lol\u0000": 4,
+    "\u0016\u0003\u0000\u0000I\u0001\u0000\u0000E\u0003\u0003U\u001c§ÄRANDOM1RANDOM2RANDOM3RANDOM4\u0000\u0000\f\u0000/\u0000\n\u0000\u0013\u00009\u0000\u0004\u0000Ÿ\u0001\u0000\u00000\u0000\r\u0000,\u0000*\u0000\u0001\u0000\u0003\u0000\u0002\u0006\u0001\u0006\u0003\u0006\u0002\u0002\u0001\u0002\u0003\u0002\u0002\u0003\u0001\u0003\u0003\u0003\u0002\u0004\u0001\u0004\u0003\u0004\u0002\u0001\u0001\u0001\u0003\u0001\u0002\u0005\u0001\u0005\u0003\u0005\u0002": 4,
+    "\u0016\u0003\u0000\u0000S\u0001\u0000\u0000O\u0003\u0000?G×÷º,ÎÊ²`~Ó\u0000Ý{¹ÕÈWÆÄÛ<=ÛOÏ\u0010N\u0000\u0000(\u0000\u0016\u0000\u0013\u0000\n\u0000F\u0000\u0005\u0000\u0004\u0000E\u0000D\u0000C\u0000B\u0000A\u0000`\u0000\u0015\u0000\u0012\u0000\t\u0000\u0014\u0000\u0011\u0000\b\u0000\u0006\u0000\u0003\u0001\u0000": 4,
+    "\u0004\u0001\u0000P\u0000\u0000\u0000\u0001\u0000YOUSHOULDVECOMEOVER.LOL\u0000": 4,
+    "\u0003\u0000\u0000*%À\u0000\u0000\u0000\u0000\u0000COOKIE:": 4,
     "{\"params\":": 4,
+    "\u0000\u0000\u0000àZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0005\u0001=K\u0000\u0000\u0001\u0001ñ\u0000¨À\u0018Ï^*`¡\u000f\u0000admin\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000\u001aú×aaNÈEÜMj4\u0007±i¢": 4,
     "\u0004\u0001\u0001»\u0000\u0000\u0000\u0001\u0000YOUSHOULDVECOMEOVER.LOL\u0000": 4,
-    "\u0012\u0001\u00004\u0000\u0000\u0000\u0000\u0000\u0000\u0015\u0000\u0006\u0001\u0000\u001b\u0000\u0001\u0002\u0000": 3,
-    "0": 3,
+    "\u0010\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0000\u0000": 4,
+    "\u0000\u0000\u0000QJN0K¡\u0003\u0002\u0001\u0005¢\u0003\u0002\u0001": 4,
+    ":\u0000\u0000\u0000/\u0000\u0000\u0000\u0002\u0000\u0000@\u0002\u000f\u0000\u0001\u0000=\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000/\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@": 4,
+    "\u0004\u0001\u0000P3Ã(Î\u0000": 4,
+    "\u0000\u0000(RÞ": 4,
+    "PATCH": 4,
+    "\u0000\u0000\u0000àZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0005\u0001=K\u0000\u0000\u0001\u0001ñ\u0000¨À\u0018Ï^*`¡\u000f\u0000admin\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000ãÜ\u0012\u0019Â\"Ñ3wáBJ": 3,
     "\u0016\u0003\u0001\u0000Î\u0001\u0000\u0000Ê\u0003\u0003I\u0006²Ù¼IÀYÛØºE-UD]\u000e·B8´GÆÝ9DZ8F": 3,
-    "\u0003\u0000\u0000+&à\u0000\u0000\u0000\u0000\u0000Cookie:": 3,
-    "\u0003\u0000\u0000&!à\u0000\u0000þÊ\u0000Cookie:": 3,
     "\u0004\u0001\u0000P¬CC\u0000": 3,
     "\u0001\u0000\u0000\u0000\u0000Í\u0000\u0001\u0000\u0000ANY-SCP\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000FINDSCU\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u00151.2.840.10008.3.1.1.1": 3,
-    "0\u0000\u0000\u0000-\u0002\u0001\u0007C\u0000\u0000\u0000$\u0004\u0000": 3,
-    "\u0000\u0000\u0000àZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0005\u0001=K\u0000\u0000\u0001\u0001ñ\u0000¨À\u0018Ï^*`¡\u000f\u0000admin\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000ãÜ\u0012\u0019Â\"Ñ3wáBJ": 3,
-    "\u0003\u0000\u0000,'À\u0000\u0000\u0000\u0000\u0000COOKIE:": 3,
-    "t3": 3,
+    "0": 3,
     "\u0000\u0000\u0000SMBR\u0000\u0000\u0000\u0000\b\u0001@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0006\u0000\u0000\u0001\u0000\u0000\u0000\u0002PC": 3,
     "\u0000\u0000\u0000àZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0005\u0001=K\u0000\u0000\u0001\u0001ñ\u0000¨À\u0018Ï^*`¡\u000f\u0000admin\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000ÅCHÕ-Tw%°âY\u0001Gfx///½\u001a¨å¨õ8®Á\u0007±ä\u0007bºÏ$OÇ¿î\u0016í-^Ê_Ö0%æ]1÷©": 3,
-    "\u0003\u0000\u0000": 3,
     "\u0000\u0000\u0000àZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0005\u0001=K\u0000\u0000\u0001\u0001ñ\u0000¨À\u0018Ï^*`¡\u000f\u0000admin\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000m¥/ójDûmË¸f£i¶\\": 3,
     "\u0001\u0000\u0000ÝÎÚ": 3,
-    "\u0000\u0000\u0000àZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0005\u0001=K\u0000\u0000\u0001\u0001ñ\u0000¨À\u0018Ï^*`¡\u000f\u0000admin\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000R®Òa¼íÎ.\\Ð": 3,
-    "Ÿ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0001NULL\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 3,
     "\u0003\u0000\u0000/*à\u0000\u0000\u0000\u0000\u0000Cookie:": 3,
-    "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003": 2,
-    "*1": 2,
+    "\u0003\u0000\u0000": 3,
+    "Ÿ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0001NULL\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 3,
+    "\u0012\u0001\u00004\u0000\u0000\u0000\u0000\u0000\u0000\u0015\u0000\u0006\u0001\u0000\u001b\u0000\u0001\u0002\u0000": 3,
+    "\u0000\u0000\u0000àZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0005\u0001=K\u0000\u0000\u0001\u0001ñ\u0000¨À\u0018Ï^*`¡\u000f\u0000admin\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000R®Òa¼íÎ.\\Ð": 3,
+    "\u0003\u0000\u0000+&à\u0000\u0000\u0000\u0000\u0000Cookie:": 3,
+    "0\u0000\u0000\u0000-\u0002\u0001\u0007C\u0000\u0000\u0000$\u0004\u0000": 3,
+    "\u0003\u0000\u0000&!à\u0000\u0000þÊ\u0000Cookie:": 3,
+    "\u0003\u0000\u0000,'À\u0000\u0000\u0000\u0000\u0000COOKIE:": 3,
+    "t3": 3,
+    "\u0005\u0000`\u0000\u0000\u0000\u0000ÈD»ðp": 2,
     "\u0005\u0000`\u0000\u0000\u0000\u0000£ÆAZ\u001a1": 2,
     "\u0016\u0001\u0001\u0001ð\u0001\u0000\u0001ì\u0001\u0001ß³ì»íø¢®¨NÉ+=\u0010LÔöÚ": 2,
+    "JDWP-Handshake": 2,
+    "AMQP\u0000\u0000": 2,
+    "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003": 2,
     "\u0004\u0001\u0001»H\u0015(Ô\u0000": 2,
     "\u0012\u0001\u0000/\u0000\u0000\u0002\u0000\u0000\u0000\u001a\u0000\u0006\u0001\u0000\u0002\u0000\u0001\u0002\u0000!\u0000\u0001\u0003\u0000\"\u0000\u0004\u0004\u0000&\u0000\u0001ÿ\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000": 2,
+    "*1": 2,
+    "GETROUTERINFO": 2,
+    "\u0010\u0000\u0003\u0000LIORL": 2,
     "\u0004\u0001\u0000P\u0000\u0000\u0000\u0001\u0000EXAMPLE.COM\u0000": 2,
     "\u0000\u0000\u0014¬\u0000=\u0010'D\u0000@\u0000\u00006\u0000\u0002\u0001\u0000'\u0010\u0000\u0000D\u0001\u0000\u0000\u000f\u0000\u0001\u0001\u0000\u0000\u001fÖ\u0013\u0000\u0003\u0013\u0000\u0015\u0013\u0002\u0003\u0013\u0002\u0015\u0013\u0003\u0003\u0013\u0003\u0015\u0013\u0004\u0003\u0013\u0004\u0015\u0013}\u0003\u0013}\u0015\u0002Z\u0000\u0000\u0014¬\u00007\u0010'D\u0000@\u0000\u00000\u0000\u0003\u0001\u0000'\u0010\u0000\u0000D\u0001\u0000\u0000\u000f\u0000\u0001\u0001\u0000\u0000\u0019Ö\u0013\u0002\u0003\u0013\u0002\u0015\u0013E\u0003\u0013E\u0015\u0013F\u0003\u0013F\u0015\u0013G\u0003\u0013G\u0015§?\u0000\u0000\u0014¬\u0000=\u0010'D\u0000@\u0000\u00006\u0000\u0004\u0001\u0000'\u0010\u0000\u0000D\u0001\u0000\u0000\u000f\u0000\u0001\u0001\u0000\u0000\u001fÖŸ\u0000\u0001\u0003\u0015Ÿ\u0002\bŸ\u0002\u001c\u001b\u0002§Y\u0000\u0000\u0014¬\u0000=\u0010'D\u0000@\u0000\u00006\u0000\u0005\u0001\u0000'\u0010\u0000\u0000D\u0001\u0000\u0000\u000f\u0000\u0001\u0001\u0000\u0000\u001fÖWCŸ\u0000WC\u0001WC\u0003WC\u0015WCŸ\u0002\bWCŸ\u0002\u001cWC\u001bWC\u0002Y¹\u0000\u0000\u0014¬\u0000=\u0010'D\u0000@\u0000\u00006\u0000\u0006\u0001\u0000'\u0010\u0000\u0000D\u0001\u0000\u0000\u000f\u0000\u0001\u0001\u0000\u0000\u001fÖ\u0013\u0001Ÿ\u0000\u0013\u0001\u0001\u0013\u0001\u0003\u0013\u0001\u0015\u0013\u0001Ÿ\u0002\b\u0013\u0001Ÿ\u0002\u001c\u0013\u0001\u001b\u0013\u0001\u0002H0\u0000\u0000\u0014¬\u0000=\u0010'D\u0000@\u0000\u00006\u0000\u0007\u0001\u0000'\u0010\u0000\u0000D\u0001\u0000\u0000\u000f\u0000\u0001\u0001\u0000\u0000\u001fÖW.Ÿ\u0000W.\u0001W.\u0003W.\u0015W.Ÿ\u0002\bW.Ÿ\u0002\u001cW.\u001bW.\u0002H\u0000\u0000\u0014¬\u0000=\u0010'D\u0000@\u0000\u00006\u0000\b\u0001\u0000'\u0010\u0000\u0000D\u0001\u0000\u0000\u000f\u0000\u0001\u0001\u0000\u0000\u001fÖWÌŸ\u0000WÌ\u0001WÌ\u0003WÌ\u0015WÌŸ\u0002\bWÌŸ\u0002\u001cWÌ\u001bWÌ\u0002Õ}\u0000\u0000\u0014¬\u0000=\u0010'D\u0000@\u0000\u00006\u0000\t\u0001\u0000'\u0010\u0000\u0000D\u0001\u0000\u0000\u000f\u0000\u0001\u0001\u0000\u0000\u001fÖWDŸ\u0000WD\u0001WD\u0003WD\u0015WDŸ\u0002\bWDŸ\u0002\u001cWD\u001bWD\u0002Å\u0000\u0000\u0014¬\u0000\u0016\u0010'D\u0000@\u0000\u0000\u000f\u0000\u0001\u0001\u0000'\u0010\u0000\u0000D\u0001C~È": 2,
-    "\u0005\u0000`\u0000\u0000\u0000\u0000ÈD»ðp": 2,
-    "AMQP\u0000\u0000": 2,
-    "\u0010\u0000\u0003\u0000LIORL": 2,
-    "GETROUTERINFO": 2,
-    "JDWP-Handshake": 2,
+    "\u0005\u0000`\u0000\u0000\u0000\u0000&|,": 2,
+    "\u0005\u0000`\u0000\u0000\u0000\u0000í": 2,
+    "\u0000\u0000(RÞ\u001d\u0013\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0001 \u0000\u0001|\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 2,
+    "\u0005\u0000`\u0000\u0000\u0000\u0000aMù\u0016S": 2,
+    "\u0005\u0000`\u0000\u0000\u0000\u0000Ä£¯HV¶´&_Û": 2,
+    "\u0000m\u0000\u0000\u0001\u0000\u0000\u0000\u00018\u0001,": 2,
+    "L\u0000\u000b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 2,
+    "HELP": 2,
+    "\u0000\u001e\u0000\u0006\u0001\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0007VERSION\u0004BIND\u0000\u0000\u0010\u0000\u0003": 2,
+    "\u0000\u0000\u0000QJN0K¡\u0003\u0002\u0001\u0005¢\u0003\u0002\u0001\n¤^0\\ \u0007\u0003\u0005\u0000P\u0000\u0010¢\u0004\u001b\u0002NM£\u00170\u0015 \u0003\u0002\u0001\u0000¡\u000e0\f\u001b\u0006KRBTGT\u001b\u0002NM¥\u0011\u0018\u000f19700101000000Z§\u0006\u0002\u0004\u001f\u001e¹Ù¨\u00170\u0015\u0002\u0001\u0012\u0002\u0001\u0011\u0002\u0001\u0010\u0002\u0001\u0017\u0002\u0001\u0001\u0002\u0001\u0003\u0002\u0001\u0002": 2,
     "\u0012\u0001\u0000^\u0000\u0000\u0001\u0000\u0000\u0000$\u0000\u0006\u0001\u0000*\u0000\u0001\u0002\u0000+\u0000\u0001\u0003\u0000,\u0000\u0004\u0004\u00000\u0000\u0001\u0005\u00001\u0000$\u0006\u0000U\u0000\u0001ÿ\u0004\u0007": 2,
     "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"login\",\"params\":{\"login\":\"blue1\",\"pass\":\"x\",\"agent\":\"Windows": 2,
     "{\"id\":1,\"method\":\"mining.subscribe\",\"params\":[]}": 2,
-    "\u0005\u0000`\u0000\u0000\u0000\u0000Ä£¯HV¶´&_Û": 2,
-    "\u0000\u0000\u0000QJN0K¡\u0003\u0002\u0001\u0005¢\u0003\u0002\u0001\n¤^0\\ \u0007\u0003\u0005\u0000P\u0000\u0010¢\u0004\u001b\u0002NM£\u00170\u0015 \u0003\u0002\u0001\u0000¡\u000e0\f\u001b\u0006KRBTGT\u001b\u0002NM¥\u0011\u0018\u000f19700101000000Z§\u0006\u0002\u0004\u001f\u001e¹Ù¨\u00170\u0015\u0002\u0001\u0012\u0002\u0001\u0011\u0002\u0001\u0010\u0002\u0001\u0017\u0002\u0001\u0001\u0002\u0001\u0003\u0002\u0001\u0002": 2,
-    "\u0000m\u0000\u0000\u0001\u0000\u0000\u0000\u00018\u0001,": 2,
     "\u0003\u0000\u0000\u0013\u000eà\u0000\u0000\u0000\u0000\u0000\u0001\u0000\b\u0000\u0002\u0000\u0000\u0000": 2,
-    "\u0005\u0000`\u0000\u0000\u0000\u0000aMù\u0016S": 2,
-    "\u0000\u001e\u0000\u0006\u0001\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0007VERSION\u0004BIND\u0000\u0000\u0010\u0000\u0003": 2,
-    "HELP": 2,
-    "L\u0000\u000b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 2,
     "\u0000\u000e87¥&\b¢\u001b": 2,
-    "\u0000\u0000(RÞ\u001d\u0013\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0001 \u0000\u0001|\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 2,
-    "\u0005\u0000`\u0000\u0000\u0000\u0000í": 2,
-    "help": 2,
-    "\u0005\u0000`\u0000\u0000\u0000\u0000&|,": 2,
     "\u0005\u0000`\u0000\u0000\u0000\u0000£": 2,
-    "{\"method\":\"login\",\"params\":{\"login\":\"45JymPWP1DeQxxMZNJv9w2bTQ2WJDAmw18wUSryDQa3RPrympJPoUSVcFEDv3bhiMJGWaCD4a3KrFCorJHCMqXJUKApSKDV\",\"pass\":\"xxoo\",\"agent\":\"xmr-stak-cpu/1.3.0-1.5.0\"},\"id\":1}": 2,
     "\u0016\u0003\u0002\u0001O\u0001\u0000\u0001K\u0003\u0002RHÅ\u001a#÷:NSSÂ´/Ÿ": 2,
+    "{\"method\":\"login\",\"params\":{\"login\":\"45JymPWP1DeQxxMZNJv9w2bTQ2WJDAmw18wUSryDQa3RPrympJPoUSVcFEDv3bhiMJGWaCD4a3KrFCorJHCMqXJUKApSKDV\",\"pass\":\"xxoo\",\"agent\":\"xmr-stak-cpu/1.3.0-1.5.0\"},\"id\":1}": 2,
+    "help": 2,
     "FOX": 1,
+    "ATVQ": 1,
     "IVSE": 1,
     "OFFN": 1,
-    "BADV": 1,
-    "\u0000Z\u0000\u0000\u0001\u0000\u0000\u0000\u00016\u0001,\u0000\u0000\b\u0000\b\u0000\u0000\u0000\u0001\u0000": 1,
-    "ATVQ": 1,
+    "\u0016\u0003\u0001\u0006\u0001\u0000\u0006\u0003\u0003ÂZ¬": 1,
     "GAVL": 1,
+    "FUFS": 1,
     "TQLN": 1,
     "\u0005\u0000`\u0000\u0000\u0000\u0000Ä£¯HV¶´|þ'UÌÆGÌ\u0005\u0002\u0000\u0001\u0000\u0000¡ª": 1,
-    "FUFS": 1,
     "VDXP": 1,
-    "OPPV": 1,
+    "\u0003\u0000\u0000*%\u0000\u0000\u0000\u0000\u0000COOKIE:": 1,
+    "\u0006\u0000ÿ\u0007\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 1,
+    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003ÂýÜåÖàË|¢¸": 1,
     "ERMO": 1,
     "\u0016\u0003\u0001\u0006": 1,
-    "BKKD": 1,
-    "RFSB": 1,
+    "OPPV": 1,
     "ATXZ": 1,
-    "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003ÕÊC": 1,
-    "\u0016\u0003\u0001\u0000\u0001\u0000\u0000\u0003\u00038®Õ\u0019Ç9}": 1,
-    "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003>¸*": 1,
-    "GYVV": 1,
-    "l\u0000": 1,
-    "\u0016\u0003\u0001\u0000{\u0001\u0000\u0000W\u0003\u0003©1": 1,
+    "RFSB": 1,
     "\u0016\u0003\u0001\u0005º\u0001\u0000\u0005¶\u0003\u0003»¼2Ó": 1,
+    "l\u0000": 1,
     "LAQZ": 1,
+    "\u0016\u0003\u0001\u0000{\u0001\u0000\u0000W\u0003\u0003©1": 1,
     "version": 1,
+    "GYVV": 1,
+    "\u0016\u0003\u0001\u0000\u0001\u0000\u0000\u0003\u00038®Õ\u0019Ç9}": 1,
+    "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003ÕÊC": 1,
+    "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003>¸*": 1,
+    "BKKD": 1,
+    "BADV": 1,
     "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003§ÁZ0ÑZ": 1,
     "\u0005\u0000`\u0000\u0000\u0000\u0000Yâ\u0012\u0003ý¦p\u0002dúU$\u0004\u0005\u0002\u0000\u0001\u0000\u0000¡ª": 1,
     "\u0005\u0000`\u0000\u0000\u0000\u0000CK=ªÚB¬DT:·æWØ\u0005\u0002\u0000\u0001\u0000\u0000¡ª": 1,
-    "NRGP": 1,
     "\u0005\u0000`\u0000\u0000\u0000\u0000NÛ¬Á-Æ{1&_Û": 1,
     "\u0005\u0000`\u0000\u0000\u0000\u0000Ì}Í½RxTöç:ØOºjåª\u0005\u0002\u0000\u0001\u0000\u0000¡ª": 1,
+    "NRGP": 1,
     "RIXQ": 1,
     "ILTB": 1,
+    "\u0005\u0000`\u0000\u0000\u0000\u0000NÛ¬Á-Æ{1ïÐ6\u000fã\b\u0005\u0002\u0000\u0001\u0000\u0000¡ª": 1,
     "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003s\u0006\u0015\u0012": 1,
     "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003È·Á'5ÍPGÉËO\u0018Á\u0011": 1,
     "fox": 1,
     "EOEN": 1,
     "URGW": 1,
     "\u0000#9b\u0001\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000": 1,
+    "FWUZ": 1,
     "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"46T2PRK3WVHADJ3DWLFTKLCQRYPBKYKZXYENBHUWJPERTYNKY32KAFBAEPJX4GMWPNEDYNZB8P2SB47MNFXRUYE9UJFSHIP\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
     "\u0012\u0001\u0000X\u0000\u0000\u0001\u0000\u0000\u0000\u001f\u0000\u0006\u0001\u0000%\u0000\u0001\u0002\u0000&\u0000\u0001\u0003\u0000'\u0000\u0004\u0004\u0000+\u0000\u0001\u0005\u0000,\u0000$Ÿ\u0007Ñ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001bHMB\u0016¸ÊW\u0010TN»\u001a(ÑTZ@\u0010Μ)\u0015¦WÅAŸ¥\\\u0000\u0000\u0000\u0000": 1,
     "\u0000\u0000\u0000àZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0005\u0001=K\u0000\u0000\u0001\u0001ñ\u0000¨À\u0018Ï^*`¡\u000f\u0000ur7\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000ÅCHÕ-Tw%°âY\u0001Gfx///½\u001a¨å¨õ8®Á\u0007±ä\u0007bºÏ$OÇ¿î\u0016í-^Ê_Ö0%æ]1÷©": 1,
@@ -3376,53 +3381,50 @@
     "\u0005\u0000`\u0000\u0000\u0000\u0000û": 1,
     "\u0005\u0000`\u0000\u0000\u0000\u0000Ä£¯HV¶´q[©": 1,
     "\u0005\u0000`\u0000\u0000\u0000\u0000xÜ\u001aîL_R\"róùXÄ7Õ\u0005\u0002\u0000\u0001\u0000\u0000¡ª": 1,
-    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"4ADTLKTBEPX1ZLTYMJCDUVYPZE5DKF9PB1EWGBBXP7SFLBP5BPCFREPAMD4FYVEV5ETJBKDH5283NJMMTUO3U7V2HAMHFPL\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
     "\u0000\u0000\u0001\u001a+<M\u0000\u0001\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001ŸŸ\u0000\u0001NONE\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000BEIO\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 1,
+    "{\"ID\":1,\"JSONRPC\":\"2.0\",\"METHOD\":\"LOGIN\",\"PARAMS\":{\"LOGIN\":\"4ADTLKTBEPX1ZLTYMJCDUVYPZE5DKF9PB1EWGBBXP7SFLBP5BPCFREPAMD4FYVEV5ETJBKDH5283NJMMTUO3U7V2HAMHFPL\",\"PASS\":\"X\",\"AGENT\":\"XMRIG/6.15.3": 1,
     "TPWK": 1,
     "\u0016\u0003\u0001\u0007¦\u0001\u0000\u0007¢\u0003\u0003SÂùªóÓUZ@¶µ\u001b8": 1,
     "\u0016\u0003\u0001\u0002W\u0001\u0000\u0002S\u0003\u0003ÕÔ¼À+CIQÐ5¬ÛW'Å\u001aØÝZJËºÌºÝYÆ9PJ": 1,
     "GOSM": 1,
-    "\u0016\u0003\u0001\u0006\u0012\u0001\u0000\u0006\u000e\u0003\u0003ÂýÜåÖàË|¢¸": 1,
-    "\u0006\u0000ÿ\u0007\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 1,
-    "\u0003\u0000\u0000*%\u0000\u0000\u0000\u0000\u0000COOKIE:": 1,
+    "KCEL": 1,
+    "\u0016\u0003\u0001\u0006\u0001\u0000\u0006\u0003\u0003R²\u0016H¼Ò¬®¹IW": 1,
+    "XFEE": 1,
+    "\u0000\u0000\u0000\u0000\u0000": 1,
+    "\u0016\u0003\u0001\u0000¡\u0001\u0000\u0000\u0003\u0003;K": 1,
+    "FGLH": 1,
+    "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003ÝÇ{_\u0018": 1,
+    "\u0016\u0003\u0001\u0000Î\u0001\u0000\u0000Ê\u0003\u0003ÓPHV7\u0002ÐÒ~\u0002ΜÜQYÌÇÙJ\b°\u00077\u0007»N": 1,
     "\u0005\u0000`\u0000\u0000\u0000\u0000Ì}Í½RxTöi2g«a<p\u0005\u0002\u0000\u0001\u0000\u0000¡ª": 1,
     "\u0016\u0003\u0001\u0000Ê\u0001\u0000\u0000Æ\u0003\u0003ÐLÌ\u0005Ç>YS": 1,
     "\u0016\u0003\u0001\u0000Ô\u0001\u0000\u0000Ð\u0003\u0003G\u0017$¯ÐX\u0013\u000f÷£5F\u0019Ï@": 1,
     "\u0016\u0003\u0001\u0000Ý\u0001\u0000\u0000Ù\u0003\u0003<ÓÍ]ÍEÓX": 1,
     "\u0016\u0003\u0001\u0000Ò\u0001\u0000\u0000Î\u0003\u0003¢Ìº]Î³\"ÛΜÆSIÍ\u00038I´LÍ\u001a¹¢Ë\u0003F": 1,
     "\u0016\u0003\u0001\u0006\u0001\u0000\u0006\u0003\u0003¹ªÒÊKÊÍE\u0014": 1,
-    "\u0016\u0003\u0001\u0000Ò\u0001\u0000\u0000Î\u0003\u0003\u0002Ê`E)Ñ\u001aÁÀFVTÃ$A\u0018ÃÒ3~ÎÒU\u0018{Q\u0007Ï": 1,
     "\u0016\u0003\u0001\u0007¦\u0001\u0000\u0007¢\u0003\u0003ª\bÞ\u001ax": 1,
     "VUGA": 1,
-    "\u0016\u0003\u0001\u0000Ò\u0001\u0000\u0000Î\u0003\u0003É]É": 1,
+    "\u0016\u0003\u0001\u0000Ò\u0001\u0000\u0000Î\u0003\u0003\u0002Ê`E)Ñ\u001aÁÀFVTÃ$A\u0018ÃÒ3~ÎÒU\u0018{Q\u0007Ï": 1,
     "\u0016\u0003\u0001\u0006\u0001\u0000\u0006\u0003\u0003=": 1,
-    "\u0010\u0000\u0003\u0000LIORL\t\u0000\u0000ŸŸŸŸ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Cª¾D\u0001\u0000\u0000\u0000\u0001\u001c": 1,
+    "\u0005\u0000`\u0000\u0000\u0000\u0000": 1,
+    "\u0016\u0003\u0001\u0000Ò\u0001\u0000\u0000Î\u0003\u0003É]É": 1,
     "\u0016\u0003\u0001\u0005º\u0001\u0000\u0005¶\u0003\u0003¨¸6R­I*\u0005ÕÎH(Ý½A^O¦IÑÓÞÇÃ83": 1,
+    "\u0010\u0000\u0003\u0000LIORL\t\u0000\u0000ŸŸŸŸ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Cª¾D\u0001\u0000\u0000\u0000\u0001\u001c": 1,
     "\u0016\u0003\u0001\u0002\u0000\u0001\u0000\u0001Ü\u0003\u00038\u001b\u0016ÒÚÊÀΜ<Y§±\u0011Ø|Ó/¿ÀÂ¤R]B": 1,
-    "TSGD": 1,
     "\u0006/login\u0000": 1,
-    "\u0016\u0003\u0001\u0000Ò\u0001\u0000\u0000Î\u0003\u0003{Ô*Q\u0007B9ÏÂ¡\u000e": 1,
+    "TSGD": 1,
     "\u0005\u0000`\u0000\u0000\u0000\u0000YÓ-ÈA{RiYÓ-ÈA{Ri\u0005\u0002\u0000\u0001\u0000\u0000¡ª": 1,
+    "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u00033(F&Ò¤¯ÀY¬": 1,
+    "\u0016\u0003\u0001\u0000Ò\u0001\u0000\u0000Î\u0003\u0003{Ô*Q\u0007B9ÏÂ¡\u000e": 1,
     "\u0005\u0000`\u0000\u0000\u0000\u0000U¸¡Jgq[©": 1,
     "UVYV": 1,
     "XFPZ": 1,
-    "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u00033(F&Ò¤¯ÀY¬": 1,
-    "\u0005\u0000`\u0000\u0000\u0000\u0000": 1,
-    "\u0000\u0000\u0000àZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0005\u0001=K\u0000\u0000\u0001\u0001ñ\u0000¨À\u0018Ï^*`¡\u000f\u0000newworld\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000m¥/ójDûmË¸f£i¶\\": 1,
-    "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003ÝÇ{_\u0018": 1,
-    "FGLH": 1,
-    "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003A": 1,
-    "\u0016\u0003\u0001\u0005Â\u0001\u0000\u0005Þ\u0003\u0003*ÝÌÍJPYÎ¼VÔ": 1,
-    "WRVT": 1,
-    "\u0016\u0003\u0001\u0006\u0001\u0000\u0006\u0003\u0003ÂZ¬": 1,
-    "FWUZ": 1,
-    "\u0005\u0000`\u0000\u0000\u0000\u0000NÛ¬Á-Æ{1ïÐ6\u000fã\b\u0005\u0002\u0000\u0001\u0000\u0000¡ª": 1,
     "\u0016\u0003\u0001\u0002W\u0001\u0000\u0002S\u0003\u0003": 1,
-    "IYRM": 1,
+    "\u0000Z\u0000\u0000\u0001\u0000\u0000\u0000\u00016\u0001,\u0000\u0000\b\u0000\b\u0000\u0000\u0000\u0001\u0000": 1,
     "\u0005\u0000`\u0000\u0000\u0000\u0000xÜ\u001aîL_R\"q[©": 1,
     "CYWP": 1,
-    "\u0016\u0003\u0001\u0005Æ\u0001\u0000\u0005Â\u0003\u0003ÅEÕË": 1,
+    "IYRM": 1,
     "\u0016\u0003\u0001\u0006Ý\u0001\u0000\u0006Ù\u0003\u0003Þ\u0017": 1,
+    "\u0016\u0003\u0001\u0005Æ\u0001\u0000\u0005Â\u0003\u0003ÅEÕË": 1,
     "\u0000\u0000\u0000àZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0005\u0001=K\u0000\u0000\u0001\u0001ñ\u0000¨À\u0018Ï^*`¡\u000f\u0000newworld\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000ãÜ\u0012\u0019Â\"Ñ3wáBJ": 1,
     "\u0016\u0003\u0001\u0006Ý\u0001\u0000\u0006Ù\u0003\u0003CVÑW,2#/£*ŸÀAM÷\u0016*Ò": 1,
     "GRBY": 1,
@@ -3430,6 +3432,9 @@
     "\u0016\u0003\u0001\u0007f\u0001\u0000\u0007b\u0003\u0003&ÊHß\u0019åí~c": 1,
     "\u0016\u0003\u0001\u0000Ý\u0001\u0000\u0000Ù\u0003\u0003T~EX¬Ò7ÛLD": 1,
     "\u0016\u0003\u0001\u0006Ý\u0001\u0000\u0006Ù\u0003\u0003/ÕÕ{KZB\bÓÉÇK­\u0014ÌÈ\u0011FÎ§CFÈBQQD¡S": 1,
+    "WRVT": 1,
+    "\u0016\u0003\u0001\u0005Â\u0001\u0000\u0005Þ\u0003\u0003*ÝÌÍJPYÎ¼VÔ": 1,
+    "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003A": 1,
     "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003Y": 1,
     "\u0016\u0003\u0001\u0005º\u0001\u0000\u0005¶\u0003\u0003ÝÏÕ+FÅU": 1,
     "\u0016\u0003\u0001\u0005º\u0001\u0000\u0005¶\u0003\u0003J¬´ØMÆI¤DLD}ÜÂYFK)\u001a¿\\À": 1,
@@ -3439,16 +3444,12 @@
     "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003OÂRÆ": 1,
     "\u0016\u0003\u0001\u0002\u0000\u0001\u0000\u0001Ü\u0003\u0003": 1,
     "\u0016\u0003\u0001\u0006\u0001\u0000\u0006\u0003\u0003Ç9UZF1¸Å¨)YÐ\u0019WNP^·®`L\u0005ÐNN,Μ": 1,
-    "\u0000\u0000\u0001\u001a+<M\u0000\u0001\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001ÿÿ\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 1,
+    "\u0000\u0000\u0000àZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0005\u0001=K\u0000\u0000\u0001\u0001ñ\u0000¨À\u0018Ï^*`¡\u000f\u0000newworld\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000m¥/ójDûmË¸f£i¶\\": 1,
     "\u0016\u0003\u0001\u0005Ä\u0001\u0000\u0005À\u0003\u0003LNÒ×Ë/NÃU^Ê": 1,
     "\u0016\u0003\u0001\u0005Þ\u0001\u0000\u0005Ú\u0003\u0003%": 1,
+    "\u0000\u0000\u0001\u001a+<M\u0000\u0001\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001ÿÿ\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 1,
     "\u0016\u0003\u0001\u0000Ò\u0001\u0000\u0000Î\u0003\u0003E2I¡¦PZWÉÔΜ\u001a\u0005ÇÆª/¼³Û3LÚ¢": 1,
-    "KCEL": 1,
-    "\u0016\u0003\u0001\u0006\u0001\u0000\u0006\u0003\u0003R²\u0016H¼Ò¬®¹IW": 1,
-    "\u0016\u0003\u0001\u0000¡\u0001\u0000\u0000\u0003\u0003;K": 1,
-    "XFEE": 1,
-    "\u0000\u0000\u0000\u0000\u0000": 1,
-    "\u0016\u0003\u0001\u0000Î\u0001\u0000\u0000Ê\u0003\u0003ÓPHV7\u0002ÐÒ~\u0002ΜÜQYÌÇÙJ\b°\u00077\u0007»N": 1,
+    "\u0012\u0001\u0000X\u0000\u0000\u0001\u0000\u0000\u0000\u001f\u0000\u0006\u0001\u0000%\u0000\u0001\u0002\u0000&\u0000\u0001\u0003\u0000'\u0000\u0004\u0004\u0000+\u0000\u0001\u0005\u0000,\u0000$Ÿ\u0007Ñ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000ÂÁ\u001a¶ÕÓEÏPSSAÀ·WS­ÖØ\u0014ÃJ9)]Û\"ETÊØ\u0000\u0000\u0000\u0000": 1,
     "\u0000\u0000\u0000TZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0005\u0001=K\u0000\u0000\u0000\u0000S\u000e¨À\u0000PVÀ\u0000\u0001\u000f\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 1,
     "\u0000\u0000\u0000\b\u0004Ò\u0016/": 1,
     "PMXZ": 1,
@@ -3479,6 +3480,7 @@
     "BWZV": 1,
     "LYGM": 1,
     ":\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Ô\u0007\u0000\u0000\u0000\u0000\u0000\u0000admin.$cmd\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0013\u0000\u0000\u0000\u0010isMaster\u0000\u0001\u0000\u0000\u0000\u0000": 1,
+    "UMAI": 1,
     "GDXB": 1,
     "DTHH": 1,
     "JPKB": 1,
@@ -3493,7 +3495,6 @@
     "PNEK": 1,
     "OLPL": 1,
     "LMBC": 1,
-    "\u0012\u0001\u0000X\u0000\u0000\u0001\u0000\u0000\u0000\u001f\u0000\u0006\u0001\u0000%\u0000\u0001\u0002\u0000&\u0000\u0001\u0003\u0000'\u0000\u0004\u0004\u0000+\u0000\u0001\u0005\u0000,\u0000$Ÿ\u0007Ñ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000ÂÁ\u001a¶ÕÓEÏPSSAÀ·WS­ÖØ\u0014ÃJ9)]Û\"ETÊØ\u0000\u0000\u0000\u0000": 1,
     "KBZD": 1,
     "\u0000\f\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 1,
     "VYNN": 1,
@@ -3637,12 +3638,12 @@
     {
       "path": "/remote/logincheck",
       "source": "fortipot:honeypot-01",
-      "count": 195171
+      "count": 195386
     },
     {
       "path": "/",
       "source": "sshppot:honeypot-01",
-      "count": 177647
+      "count": 178709
     },
     {
       "path": "/logincheck",
@@ -3652,12 +3653,12 @@
     {
       "path": "/global-protect/login.esp",
       "source": "panospot:honeypot-01",
-      "count": 41176
+      "count": 41392
     },
     {
       "path": "/",
       "source": "bigippot:honeypot-01",
-      "count": 4375
+      "count": 4379
     },
     {
       "path": "/dana-na/auth/url_default/welcome.cgi",
@@ -3667,7 +3668,7 @@
     {
       "path": "/",
       "source": "centrestackpot:honeypot-01",
-      "count": 3295
+      "count": 3309
     },
     {
       "path": "/",
@@ -3682,12 +3683,12 @@
     {
       "path": "/tmui/login.jsp",
       "source": "bigippot:honeypot-01",
-      "count": 2669
+      "count": 2670
     },
     {
       "path": "/",
       "source": "citrixpot:honeypot-01",
-      "count": 2521
+      "count": 2523
     },
     {
       "path": "/logon/LogonPoint/index.html",
@@ -3717,12 +3718,12 @@
     {
       "path": "/portal/loginpage.aspx",
       "source": "centrestackpot:honeypot-01",
-      "count": 962
+      "count": 964
     },
     {
       "path": "/home/root",
       "source": "sshppot:honeypot-01",
-      "count": 889
+      "count": 891
     },
     {
       "path": "/robots.txt",
@@ -3909,7 +3910,7 @@
     },
     {
       "cve": "CVE-2025-68686",
-      "count": 125,
+      "count": 139,
       "sources": [
         "fortipot:honeypot-01"
       ],
@@ -3959,6 +3960,33 @@
       ]
     },
     {
+      "cve": "CVE-2018-13379",
+      "count": 76,
+      "sources": [
+        "fortipot:honeypot-01"
+      ],
+      "description": "FortiOS SSL VPN path traversal via /remote/fgt_lang (lang=…/dev/cmdb/sslvpn_websession)",
+      "severity": "Critical",
+      "cvss_score": null,
+      "sample_ips": [
+        "103.214.147.181",
+        "195.184.76.249",
+        "195.184.76.250",
+        "195.184.76.42",
+        "195.184.76.45",
+        "91.196.152.128",
+        "91.196.152.131",
+        "91.196.152.250"
+      ],
+      "sample_paths": [
+        "/remote/fgt_lang?lang=/....//....//....//....//dev/cmdb/sslvpn_websession",
+        "/remote/fgt_lang?lang=/../../../../../../..//////////dev/cmdb/sslvpn_websession",
+        "/remote/fgt_lang?lang=/../../../../../..//////////dev/cmdb/sslvpn_websession",
+        "/remote/fgt_lang?lang=/../../../../..//////////dev/cmdb/sslvpn_websession",
+        "/remote/fgt_lang?lang=/../../../../..//////////dev/cmdb/sslvpn_websession%00"
+      ]
+    },
+    {
       "cve": "CVE-2021-26855",
       "count": 74,
       "sources": [
@@ -3983,31 +4011,6 @@
         "/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application",
         "/ecp/current/exporttool/microsoft.exchange.ediscovery.exporttool.application",
         "/owa/auth/favicon.ico"
-      ]
-    },
-    {
-      "cve": "CVE-2018-13379",
-      "count": 68,
-      "sources": [
-        "fortipot:honeypot-01"
-      ],
-      "description": "FortiOS SSL VPN path traversal via /remote/fgt_lang (lang=…/dev/cmdb/sslvpn_websession)",
-      "severity": "Critical",
-      "cvss_score": null,
-      "sample_ips": [
-        "103.214.147.181",
-        "195.184.76.249",
-        "195.184.76.250",
-        "195.184.76.42",
-        "195.184.76.45",
-        "91.196.152.128",
-        "91.196.152.131",
-        "91.196.152.250"
-      ],
-      "sample_paths": [
-        "/remote/fgt_lang?lang=/../../../../../dev/cmdb/sslvpn_websession",
-        "/remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession",
-        "/remote/fgt_lang?lang=/../../../..//dev/cmdb/sslvpn_websession"
       ]
     },
     {
@@ -4062,7 +4065,7 @@
     },
     {
       "cve": "CVE-2022-40684",
-      "count": 41,
+      "count": 42,
       "sources": [
         "fortipot:honeypot-01"
       ],
@@ -4278,6 +4281,28 @@
       ]
     },
     {
+      "cve": "CVE-2024-55591",
+      "count": 12,
+      "sources": [
+        "fortipot:honeypot-01"
+      ],
+      "description": "Monitor API auth bypass surface",
+      "severity": "Critical",
+      "cvss_score": null,
+      "sample_ips": [
+        "192.42.116.102",
+        "195.201.168.74",
+        "72.56.20.134"
+      ],
+      "sample_paths": [
+        "/api/v2/monitor/system/cli-script?script=cat%20/etc/passwd",
+        "/api/v2/monitor/system/cli-script?script=id",
+        "/api/v2/monitor/system/cli-script?script=uname%20-a",
+        "/api/v2/monitor/system/cli-script?script=whoami",
+        "/api/v2/monitor/system/config/backup"
+      ]
+    },
+    {
       "cve": "CVE-2025-30406",
       "count": 11,
       "sources": [
@@ -4342,27 +4367,28 @@
       ]
     },
     {
-      "cve": "CVE-2024-55591",
-      "count": 3,
+      "cve": "CVE-2025-47295",
+      "count": 4,
       "sources": [
         "fortipot:honeypot-01"
       ],
-      "description": "Monitor API auth bypass surface",
-      "severity": "Critical",
+      "description": "FGFM daemon API surface",
+      "severity": "High",
       "cvss_score": null,
       "sample_ips": [
-        "192.42.116.102",
-        "72.56.20.134"
+        "195.201.168.74"
       ],
       "sample_paths": [
-        "/api/v2/monitor/system/config/backup?scope=global",
-        "/api/v2/monitor/system/status"
+        "/api/v1/fgfm/device/register?cmd=`uname%20-a`",
+        "/fgfm?action=add&device=`id`",
+        "/fgfm?action=config&data=`cat%20/etc/passwd`",
+        "/fgfm?action=register&serial=`whoami`"
       ]
     }
   ],
   "cve_severity_counts": {
-    "Critical": 6167,
-    "High": 4829
+    "Critical": 6199,
+    "High": 4833
   },
   "top_asns": [
     {
@@ -4377,14 +4403,14 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "NL",
       "ip_count": 10,
-      "event_count": 68675
+      "event_count": 68873
     },
     {
       "asn": "AS210328",
       "name": "AO ALMAZ",
       "country": "NL",
       "ip_count": 6,
-      "event_count": 58253
+      "event_count": 58420
     },
     {
       "asn": "AS41032",
@@ -4412,14 +4438,14 @@
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "ip_count": 5,
-      "event_count": 24187
+      "event_count": 24253
     },
     {
       "asn": "AS396982",
       "name": "Google LLC",
       "country": "US",
-      "ip_count": 866,
-      "event_count": 21344
+      "ip_count": 867,
+      "event_count": 21345
     },
     {
       "asn": "AS48090",
@@ -4512,7 +4538,7 @@
       "name": "Google LLC",
       "country": "US",
       "score": 100.0,
-      "event_count": 21344,
+      "event_count": 21345,
       "credential_events": 126,
       "cve_events": 66
     },
@@ -4557,8 +4583,8 @@
       "name": "DIGITAL NETWORK S.R.L.",
       "country": "NL",
       "score": 91.6,
-      "event_count": 24187,
-      "credential_events": 23890,
+      "event_count": 24253,
+      "credential_events": 23956,
       "cve_events": 27
     },
     {
@@ -4609,9 +4635,9 @@
     {
       "asn": "AS212238",
       "name": "Datacamp Limited",
-      "country": "BG",
+      "country": "DE",
       "score": 83.3,
-      "event_count": 1398,
+      "event_count": 1399,
       "credential_events": 73,
       "cve_events": 30
     },
@@ -4638,8 +4664,8 @@
       "name": "Alferov Aleksey Aleksandrovich",
       "country": "NL",
       "score": 71.6,
-      "event_count": 68675,
-      "credential_events": 68567,
+      "event_count": 68873,
+      "credential_events": 68765,
       "cve_events": 2
     },
     {
@@ -4647,8 +4673,8 @@
       "name": "AO ALMAZ",
       "country": "NL",
       "score": 71.6,
-      "event_count": 58253,
-      "credential_events": 58111,
+      "event_count": 58420,
+      "credential_events": 58278,
       "cve_events": 2
     },
     {
@@ -4689,25 +4715,25 @@
     }
   ],
   "events_by_country": {
-    "NL": 179137,
-    "US": 134391,
+    "NL": 179573,
+    "US": 135360,
     "CA": 97029,
-    "DE": 46293,
+    "DE": 47692,
     "IQ": 45751,
     "HK": 41061,
     "RO": 21447,
     "CN": 12542,
     "SG": 10048,
     "TR": 9245,
-    "PL": 6325,
-    "FR": 5512,
-    "RU": 3668,
-    "BG": 3425,
+    "PL": 6326,
+    "FR": 4565,
+    "RU": 3669,
     "IN": 3330,
     "LT": 3102,
-    "ID": 2732,
+    "ID": 2758,
     "KR": 2705,
-    "GB": 1673,
+    "BG": 2069,
+    "GB": 1674,
     "JP": 1672,
     "VN": 974,
     "ES": 959,
