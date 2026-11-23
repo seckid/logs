@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T14:05:36.621029Z",
+  "generated_at": "2026-11-23T15:02:58.687244Z",
   "period_days": 90,
   "asns": [
     {
@@ -7,7 +7,7 @@
       "name": "Google LLC",
       "country": "TW",
       "score": 100.0,
-      "event_count": 21632,
+      "event_count": 21633,
       "ip_count": 883,
       "credential_events": 126,
       "cve_events": 70,
@@ -447,7 +447,7 @@
       "name": "TECHOFF SRV LIMITED",
       "country": "NL",
       "score": 70.8,
-      "event_count": 18363,
+      "event_count": 18364,
       "ip_count": 38,
       "credential_events": 13473,
       "cve_events": 1,
@@ -1061,6 +1061,27 @@
       ]
     },
     {
+      "asn": "AS24560",
+      "name": "Bharti Airtel Ltd., Telemedia Services",
+      "country": "IN",
+      "score": 60.26,
+      "event_count": 131,
+      "ip_count": 29,
+      "credential_events": 127,
+      "cve_events": 0,
+      "honeypots": [
+        "collector:threatapp-01",
+        "fortipot:honeypot-01",
+        "front:honeypot-01",
+        "sshppot:honeypot-01"
+      ],
+      "ai_threat_level": null,
+      "reasons": [
+        "credential_events=127",
+        "multi_honeypot=4"
+      ]
+    },
+    {
       "asn": "AS4837",
       "name": "CHINA UNICOM China169 Backbone",
       "country": "CN",
@@ -1099,27 +1120,6 @@
       "ai_threat_level": null,
       "reasons": [
         "credential_events=117",
-        "multi_honeypot=4"
-      ]
-    },
-    {
-      "asn": "AS24560",
-      "name": "Bharti Airtel Ltd., Telemedia Services",
-      "country": "IN",
-      "score": 60.22,
-      "event_count": 112,
-      "ip_count": 29,
-      "credential_events": 108,
-      "cve_events": 0,
-      "honeypots": [
-        "collector:threatapp-01",
-        "fortipot:honeypot-01",
-        "front:honeypot-01",
-        "sshppot:honeypot-01"
-      ],
-      "ai_threat_level": null,
-      "reasons": [
-        "credential_events=108",
         "multi_honeypot=4"
       ]
     },
